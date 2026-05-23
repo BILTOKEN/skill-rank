@@ -6,7 +6,7 @@ import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
+const GITHUB_TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';
 const HEADERS: Record<string, string> = {
   'Accept': 'application/vnd.github.v3+json',
   'User-Agent': 'skill-rank-bot',
