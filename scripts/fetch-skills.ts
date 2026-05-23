@@ -6,7 +6,7 @@
 import { writeFileSync, readFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 
-const DATA_DIR = resolve(__dirname, '..', 'data');
+const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 const HEADERS: Record<string, string> = {
   'Accept': 'application/vnd.github.v3+json',
@@ -132,14 +132,22 @@ async function main() {
   }
 
   // 3. 逐个检查
+  const MAX_CHECK = parseInt(process.env.MAX_CHECK || '0') || allRepos.length;
+  const reposToCheck = allRepos.slice(0, MAX_CHECK);
   const candidates: Candidate[] = [];
   let skippedNoFileStructure = 0;
   let skippedDenylist = 0;
   let skippedLowStars = 0;
   let skippedShortReadme = 0;
   let skippedNoDesc = 0;
+  let checked = 0;
 
-  for (const repo of allRepos) {
+  log(`需要检查 ${reposToCheck.length} 个仓库...`);
+
+  for (const repo of reposToCheck) {
+    checked++;
+    if (checked % 50 === 0) log(`进度: ${checked}/${reposToCheck.length} (收录 ${candidates.length} 个)`);
+
     // 黑名单跳过
     if (denylist.includes(repo)) {
       skippedDenylist++;
@@ -161,7 +169,7 @@ async function main() {
 
     candidates.push(c);
     // API 限流安全间隔
-    await new Promise(r => setTimeout(r, 500));
+    await new Promise(r => setTimeout(r, 200));
   }
 
   log(`收录: ${candidates.length} | 无文件结构: ${skippedNoFileStructure} | 黑名单: ${skippedDenylist} | Stars<3: ${skippedLowStars} | README<200词: ${skippedShortReadme} | 无描述: ${skippedNoDesc}`);

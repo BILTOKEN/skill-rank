@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 
-const DATA_DIR = resolve(__dirname, '..', 'data');
+const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 
 interface Metrics {
   repo: string; name: string; description: string; tags: string[];

@@ -13,7 +13,7 @@
 import { execSync } from 'child_process';
 import { resolve } from 'path';
 
-const SCRIPTS = resolve(__dirname);
+const SCRIPTS = resolve(import.meta.dirname);
 
 function log(msg: string) { console.log(`\n========== ${msg} ==========`); }
 
@@ -21,7 +21,7 @@ function run(script: string, label: string) {
   log(label);
   try {
     execSync(`npx tsx "${script}"`, {
-      cwd: resolve(__dirname, '..'),
+      cwd: resolve(import.meta.dirname, '..'),
       stdio: 'inherit',
       env: { ...process.env },
     });

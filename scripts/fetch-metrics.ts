@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
 
-const DATA_DIR = resolve(__dirname, '..', 'data');
+const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || '';
 const HEADERS: Record<string, string> = {
   'Accept': 'application/vnd.github.v3+json',
@@ -42,26 +42,26 @@ async function getMetric(repo: string, prevStars?: number): Promise<Metrics | nu
     const [owner, name] = repo.split('/');
     const info = await fetchJson(`https://api.github.com/repos/${owner}/${name}`);
 
-    // Issues（本周）
-    const issuesUrl = `https://api.github.com/repos/${owner}/${name}/issues?since=${weekAgo}&state=all&per_page=100`;
+    // Issues（本周），只取最多 30 个避免 API 爆炸
+    const issuesUrl = `https://api.github.com/repos/${owner}/${name}/issues?since=${weekAgo}&state=all&per_page=30`;
     const issues = await fetchJson(issuesUrl);
-    // 排除 PR（GitHub Issues API 返回 PR 时带 pull_request 字段）
     const realIssues = (Array.isArray(issues) ? issues : []).filter((i: any) => !i.pull_request);
     const opened = realIssues.filter((i: any) => new Date(i.created_at) >= new Date(weekAgo)).length;
     const closed = realIssues.filter(
       (i: any) => i.closed_at && new Date(i.closed_at) >= new Date(weekAgo)
     ).length;
 
-    // Issue 评论数
+    // Issue 评论数（只检查前 10 个 issue，避免 API 调用爆炸）
     let comments = 0;
-    for (const issue of realIssues) {
+    const issuesToCheck = realIssues.slice(0, 10);
+    for (const issue of issuesToCheck) {
       const issueComments = await fetchJson(
-        `https://api.github.com/repos/${owner}/${name}/issues/${issue.number}/comments?since=${weekAgo}&per_page=100`
+        `https://api.github.com/repos/${owner}/${name}/issues/${issue.number}/comments?since=${weekAgo}&per_page=30`
       );
       comments += Array.isArray(issueComments) ? issueComments.filter((c: any) =>
         new Date(c.created_at) >= new Date(weekAgo)
       ).length : 0;
-      await new Promise(r => setTimeout(r, 200));
+      await new Promise(r => setTimeout(r, 150));
     }
 
     // Commits（本周）
@@ -119,8 +119,16 @@ async function main() {
     }
   }
 
+  const MAX_METRICS = parseInt(process.env.MAX_METRICS || '0') || candidates.length;
+  const todoList = candidates.slice(0, MAX_METRICS);
   const metrics: Metrics[] = [];
-  for (const c of candidates) {
+  let checked = 0;
+
+  log(`需要获取 ${todoList.length} 个仓库的指标...`);
+
+  for (const c of todoList) {
+    checked++;
+    if (checked % 20 === 0) log(`进度: ${checked}/${todoList.length} (成功 ${metrics.length} 个)`);
     const m = await getMetric(c.repo, prevSnapshot[c.repo]);
     if (m) metrics.push(m);
     await new Promise(r => setTimeout(r, 300));

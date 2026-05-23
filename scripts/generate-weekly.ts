@@ -5,7 +5,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 
-const DATA_DIR = resolve(__dirname, '..', 'data');
+const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const API_KEY = process.env.AI_API_KEY || '';
 const BASE_URL = process.env.AI_BASE_URL || 'https://api.deepseek.com/v1';
 const MODEL = process.env.AI_MODEL || 'deepseek-chat';
