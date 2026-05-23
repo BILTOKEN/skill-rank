@@ -1,0 +1,136 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import skillsData from '../../../data/skills.json';
+
+export function getStaticPaths() {
+  return (skillsData as Array<{repo: string}>).map(s => ({
+    params: { slug: s.repo.replace('/', '-') }
+  }));
+}
+
+const { slug } = Astro.params;
+const allSkills = skillsData as any[];
+const skill = allSkills.find(s => s.repo.replace('/', '-') === slug);
+if (!skill) return Astro.redirect('/');
+
+const tags = skill.tags || [];
+const m = skill.metrics || {};
+
+// 找同类 Skill：有重叠标签，排除自己，随机取 3 个
+const related = allSkills
+  .filter(s => s.repo !== skill.repo && s.tags?.some((t: string) => tags.includes(t)))
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+---
+
+<BaseLayout title={skill.name} description={skill.description}>
+  <div class="container">
+    <a href="/" class="back-link">← 返回排行榜</a>
+
+    <div class="detail-header">
+      <div style="margin-bottom:10px">
+        {tags.map((t: string) => <span class="tag">{t}</span>)}
+      </div>
+      <h1 class="detail-title">{skill.name}</h1>
+      <div class="detail-meta">
+        <span>📦 <a href={`https://github.com/${skill.repo}`} target="_blank">{skill.repo}</a></span>
+        <span>⭐ {m.stars_total?.toLocaleString() || 0} total</span>
+        <span>🕐 最后更新 {m.last_push || '未知'}</span>
+      </div>
+    </div>
+
+    <!-- 数据卡片 -->
+    <div class="detail-section">
+      <h2>📊 本周数据</h2>
+      <div class="data-grid">
+        <div class="data-card">
+          <div class="num">+{m.stars_added_this_week || 0}</div>
+          <div class="lbl">新增 Stars <span class="tip" data-tip="Stars = 收藏数。本周新增的收藏人数，表示这个 Skill 的受欢迎程度">?</span></div>
+        </div>
+        <div class="data-card">
+          <div class="num">{m.issues_opened || 0}</div>
+          <div class="lbl">新开 Issue <span class="tip" data-tip="Issue = 问题反馈。用户在使用中遇到问题或提出建议，新开的 Issue 越多说明用的人越多">?</span></div>
+        </div>
+        <div class="data-card">
+          <div class="num">{m.issues_closed || 0}</div>
+          <div class="lbl">关闭 Issue <span class="tip" data-tip="关闭的 Issue = 已解决的问题。维护者响应越快、关闭越多，说明项目越健康">?</span></div>
+        </div>
+        <div class="data-card">
+          <div class="num">{m.commits_this_week || 0}</div>
+          <div class="lbl">本周 Commit <span class="tip" data-tip="Commit = 代码提交次数。本周维护者提交了多少次代码更新，反映开发活跃度">?</span></div>
+        </div>
+        <div class="data-card">
+          <div class="num">{m.issue_comments || 0}</div>
+          <div class="lbl">Issue 评论 <span class="tip" data-tip="Issue 评论 = 问题讨论数。用户在 Issue 下面的讨论热度，反映社区参与度">?</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 中文介绍 -->
+    <div class="detail-section">
+      <h2>📖 中文介绍</h2>
+      <div class="detail-content">
+        {skill.description_zh ? <p>{skill.description_zh}</p> : <p style="color:var(--muted)">暂无中文介绍，等待 AI 翻译</p>}
+      </div>
+    </div>
+
+    <!-- 一键复制提示词 -->
+    <div class="detail-section">
+      <h2>⚡ 一键复制提示词 <span class="tip" data-tip="直接复制这段提示词到 Claude Code 中，就能使用这个 Skill。不需要手动配置" style="width:16px;height:16px">?</span></h2>
+      <div class="prompt-box">
+        <button class="copy-btn" id="copy-btn">📋 复制</button>
+        <pre><code>{skill.prompt || '暂无提示词'}</code></pre>
+      </div>
+    </div>
+
+    <!-- 英文原文 -->
+    <div class="detail-section">
+      <details class="eng-fold">
+        <summary>📄 英文原文（点击展开，翻译有误可对照查看）</summary>
+        <div class="eng-content">
+          {skill.description_en ? <p>{skill.description_en}</p> : <p style="color:var(--muted)">暂无</p>}
+        </div>
+      </details>
+    </div>
+
+    <!-- 同类推荐 -->
+    {related.length > 0 ? (
+      <div class="detail-section">
+        <h2>🔗 你可能也会感兴趣</h2>
+        <div class="related-grid">
+          {related.map((r: any) => (
+            <a href={`/skills/${r.repo.replace('/', '-')}`} class="related-card" style="text-decoration:none;color:inherit">
+              <div class="related-name">{r.name}</div>
+              <div class="related-desc">{r.description}</div>
+              <div class="card-tags" style="margin-top:6px">
+                {r.tags?.map((t: string) => <span class="mini-tag">{t}</span>)}
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ) : null}
+
+    <!-- 报错入口 -->
+    <div class="report-block">
+      翻译有误？
+      <a href={`https://github.com/billxue/skill-rank/issues/new?title=翻译问题：${encodeURIComponent(skill.name)}&labels=translation`} target="_blank">
+        提 Issue 反馈
+      </a>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  const btn = document.getElementById('copy-btn') as HTMLButtonElement;
+  btn.addEventListener('click', () => {
+    const code = btn.parentElement!.querySelector('code')!.textContent || '';
+    navigator.clipboard.writeText(code).then(() => {
+      btn.textContent = '✅ 已复制!';
+      btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = '📋 复制'; btn.classList.remove('copied'); }, 2000);
+    }).catch(() => {
+      btn.textContent = '复制失败，请手动选中复制';
+    });
+  });
+</script>

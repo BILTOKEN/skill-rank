@@ -1,0 +1,122 @@
+[
+  {
+    "repo": "anthropics/claude-code-sdk",
+    "name": "Claude Code SDK",
+    "description": "Claude Code 官方 SDK，用 TypeScript 构建插件和 Skill",
+    "description_zh": "Anthropic 官方出品的 Claude Code SDK（软件开发工具包），让你用 TypeScript 轻松构建 Claude Code 的插件和 Skill。内置了提示词管理、工具定义、会话状态控制等核心能力。如果你想把 Claude Code 集成到自己的开发流程里，这是必装的。",
+    "description_en": "The official SDK for building Claude Code plugins and skills with TypeScript. Includes prompt management, tool definitions, session state control, and more.",
+    "prompt": "你是一个 Claude Code 插件开发专家。请用 Claude Code SDK 帮助我：[描述你的需求]。使用 TypeScript，遵循官方最佳实践。",
+    "tags": ["AI", "工具"],
+    "metrics": { "stars_total": 3420, "stars_added_this_week": 287, "issues_opened": 12, "issues_closed": 8, "issue_comments": 34, "commits_this_week": 14, "last_push": "2026-05-23" }
+  },
+  {
+    "repo": "skills-factory/awesome-claude-skills",
+    "name": "Awesome Claude Skills",
+    "description": "精选 Claude Code Skill 合集，社区维护",
+    "description_zh": "社区维护的 Claude Code Skill 精选列表（Awesome List，一种 GitHub 上的精选资源集合）。分类整理了前端、后端、DevOps、安全等各个方向的 Skill。新入坑不知道装什么？先翻这个列表。",
+    "description_en": "A community-curated list of awesome Claude Code Skills. Covers frontend, backend, DevOps, security, and more.",
+    "prompt": "请帮我从 Awesome Claude Skills 列表中，找出最适合[我的场景]的 Skill，并按推荐度排序。",
+    "tags": ["工具"],
+    "metrics": { "stars_total": 1560, "stars_added_this_week": 210, "issues_opened": 5, "issues_closed": 3, "issue_comments": 15, "commits_this_week": 8, "last_push": "2026-05-22" }
+  },
+  {
+    "repo": "prompt-eng/claude-skill-starter",
+    "name": "Skill Starter",
+    "description": "一键生成 Claude Code Skill 项目模板",
+    "description_zh": "Claude Code Skill 的脚手架工具（Starter Template，项目模板生成器）。跑一条命令自动生成完整的 Skill 项目结构，含 CI/CD 流水线。不用从零搭项目，适合想快速发布自己 Skill 的开发者。",
+    "description_en": "A scaffold tool for Claude Code Skill projects. One command to generate a complete project structure with CI/CD pipeline.",
+    "prompt": "请用 Skill Starter 模板帮我创建一个新的 Claude Code Skill。这个 Skill 的功能是：[描述你的想法]。请包含完整的项目结构和基础配置。",
+    "tags": ["工具", "DevOps"],
+    "metrics": { "stars_total": 890, "stars_added_this_week": 134, "issues_opened": 8, "issues_closed": 6, "issue_comments": 22, "commits_this_week": 11, "last_push": "2026-05-21" }
+  },
+  {
+    "repo": "devflow-ai/claude-code-review",
+    "name": "Code Review Skill",
+    "description": "自动 Code Review，PR 分析和安全漏洞扫描",
+    "description_zh": "自动化代码审查 Skill，集成了 PR（Pull Request）分析和安全漏洞扫描。支持检测 SQL 注入、XSS、不安全的依赖等常见安全问题。GitHub 上收到新 PR 时自动触发审查，省掉人工 review 的重复劳动。",
+    "description_en": "Automated code review skill with PR analysis and security vulnerability scanning. Detects SQL injection, XSS, insecure dependencies and more.",
+    "prompt": "你是一个资深代码审查专家。请审查以下代码，重点关注：安全问题、性能瓶颈、代码规范、潜在 bug。给出具体的修改建议。",
+    "tags": ["DevOps", "安全"],
+    "metrics": { "stars_total": 2100, "stars_added_this_week": 98, "issues_opened": 15, "issues_closed": 10, "issue_comments": 45, "commits_this_week": 6, "last_push": "2026-05-23" }
+  },
+  {
+    "repo": "frontend-lab/claude-ui-generator",
+    "name": "UI Generator",
+    "description": "用自然语言描述 UI，自动生成 React/Vue 组件",
+    "description_zh": "自然语言生成 UI 组件的 Skill。你只需要用中文描述你要的界面，它会自动生成 React 或 Vue 组件代码。支持 Tailwind CSS、Ant Design、Element Plus 等主流 UI 库。前端开发效率能翻好几倍。",
+    "description_en": "Generate React/Vue components from natural language descriptions. Supports Tailwind CSS, Ant Design, Element Plus and more.",
+    "prompt": "你是一个前端开发专家。请根据以下需求生成 UI 组件：[描述你的界面需求]。使用 React + TypeScript + Tailwind CSS，确保组件可复用、响应式。",
+    "tags": ["前端"],
+    "metrics": { "stars_total": 1780, "stars_added_this_week": 156, "issues_opened": 20, "issues_closed": 14, "issue_comments": 58, "commits_this_week": 18, "last_push": "2026-05-24" }
+  },
+  {
+    "repo": "db-tools/claude-sql-buddy",
+    "name": "SQL Buddy",
+    "description": "数据库查询优化 Skill，支持多种数据库",
+    "description_zh": "数据库查询优化助手。支持 MySQL、PostgreSQL 和 MongoDB。能帮你写 SQL、优化慢查询、设计表结构、生成 ER 图。操作数据库时省掉查文档的时间。",
+    "description_en": "Database query optimization assistant. Supports MySQL, PostgreSQL, and MongoDB. Helps with SQL writing, slow query optimization, and schema design.",
+    "prompt": "你是一个数据库专家，精通 MySQL、PostgreSQL、MongoDB。当前数据库环境：[描述你的环境]。请帮我[优化查询/设计表结构/分析性能]。",
+    "tags": ["后端"],
+    "metrics": { "stars_total": 670, "stars_added_this_week": 89, "issues_opened": 6, "issues_closed": 4, "issue_comments": 12, "commits_this_week": 9, "last_push": "2026-05-20" }
+  },
+  {
+    "repo": "security-first/claude-vuln-scanner",
+    "name": "Vuln Scanner",
+    "description": "依赖漏洞扫描，检查 npm/pip/cargo 安全公告",
+    "description_zh": "依赖漏洞扫描器。会自动检查你项目的 npm、pip、cargo 等依赖是否有已知安全漏洞。集成了 CVE 数据库和 GitHub 安全公告，发现漏洞后直接给出修复建议和升级路径。",
+    "description_en": "Dependency vulnerability scanner. Checks npm, pip, cargo dependencies against CVE databases and GitHub security advisories.",
+    "prompt": "你是一个安全工程师。请扫描以下依赖列表，识别已知漏洞并给出修复方案：[粘贴 package.json 或 requirements.txt 内容]。按严重程度排序，给出具体的升级版本建议。",
+    "tags": ["安全", "DevOps"],
+    "metrics": { "stars_total": 1230, "stars_added_this_week": 112, "issues_opened": 9, "issues_closed": 7, "issue_comments": 28, "commits_this_week": 12, "last_push": "2026-05-22" }
+  },
+  {
+    "repo": "writer-ai/claude-docs-writer",
+    "name": "Docs Writer",
+    "description": "自动生成 API 文档、README、Changelog",
+    "description_zh": "文档自动生成 Skill。从代码注释和类型定义中自动提取信息，生成 API 文档、README、Changelog（更新日志）。支持 TypeScript、Python、Rust 等主流语言。写文档不再痛苦。",
+    "description_en": "Auto-generate API docs, README files, and changelogs from code comments and type definitions.",
+    "prompt": "你是一个技术文档撰写专家。请根据以下代码，生成一份完整的 API 文档：[粘贴代码]。包含：接口说明、参数类型、返回值、使用示例、注意事项。",
+    "tags": ["写作", "AI"],
+    "metrics": { "stars_total": 450, "stars_added_this_week": 67, "issues_opened": 3, "issues_closed": 2, "issue_comments": 8, "commits_this_week": 5, "last_push": "2026-05-18" }
+  },
+  {
+    "repo": "design-tokens/claude-figma-bridge",
+    "name": "Figma Bridge",
+    "description": "Figma 设计稿转代码，支持 design tokens 导出",
+    "description_zh": "Figma 设计稿到代码的桥梁 Skill。连接到 Figma 文件后，可以自动提取设计稿中的颜色、字体、间距等 design tokens（设计令牌），并生成对应的 CSS 变量或 Tailwind 配置。UI 还原度提升一大截。",
+    "description_en": "Bridge between Figma designs and code. Extracts design tokens and generates CSS variables or Tailwind config.",
+    "prompt": "你是一个设计系统专家。请根据以下 Figma 设计稿的 design tokens，生成对应的 CSS 变量和 Tailwind 配置：[粘贴设计令牌数据]。确保命名规范、层次清晰。",
+    "tags": ["设计", "前端"],
+    "metrics": { "stars_total": 920, "stars_added_this_week": 78, "issues_opened": 7, "issues_closed": 5, "issue_comments": 18, "commits_this_week": 7, "last_push": "2026-05-21" }
+  },
+  {
+    "repo": "api-lab/claude-api-tester",
+    "name": "API Tester",
+    "description": "REST/GraphQL 接口测试，自动生成测试用例",
+    "description_zh": "API 自动化测试 Skill。支持 REST 和 GraphQL 接口，根据接口定义自动生成测试用例（包括正常场景和异常场景）。可以一键导出为 Postman Collection 或 curl 命令。",
+    "description_en": "Automated API testing skill. Supports REST and GraphQL. Auto-generates test cases from API definitions.",
+    "prompt": "你是一个 API 测试专家。请根据以下接口定义，生成完整的测试用例：[粘贴 API 文档或 Swagger/OpenAPI 定义]。覆盖正常请求、边界值、异常输入、鉴权失败等场景。",
+    "tags": ["后端", "DevOps"],
+    "metrics": { "stars_total": 560, "stars_added_this_week": 45, "issues_opened": 4, "issues_closed": 3, "issue_comments": 10, "commits_this_week": 4, "last_push": "2026-05-19" }
+  },
+  {
+    "repo": "devx-ai/claude-shell-master",
+    "name": "Shell Master",
+    "description": "智能 Shell 命令生成，支持 bash/zsh/fish 自动补全",
+    "description_zh": "智能命令行助手。用自然语言描述你想做什么，它会生成对应的 Shell 命令。支持 bash、zsh、fish 三种 Shell。遇到记不住的命令参数、复杂的管道组合，直接说人话让它来写。",
+    "description_en": "Smart shell command generator. Describe what you want in natural language, get the correct shell command.",
+    "prompt": "你是一个 Linux/Unix 命令行专家。当前系统：[描述你的环境]。我想实现：[描述需求]。请给出完整的 Shell 命令，并解释每个参数的含义。",
+    "tags": ["工具", "DevOps"],
+    "metrics": { "stars_total": 780, "stars_added_this_week": 55, "issues_opened": 2, "issues_closed": 1, "issue_comments": 6, "commits_this_week": 3, "last_push": "2026-05-17" }
+  },
+  {
+    "repo": "ml-ops/claude-ml-helper",
+    "name": "ML Helper",
+    "description": "机器学习实验管理，支持 TensorBoard 集成",
+    "description_zh": "机器学习实验管理助手。集成了 TensorBoard（TensorFlow 的可视化工具），帮你追踪实验参数、对比模型效果、管理训练日志。训练模型时不用手动记录实验参数了。",
+    "description_en": "Machine learning experiment management. Integrates with TensorBoard for experiment tracking and model comparison.",
+    "prompt": "你是一个机器学习工程师。请帮我管理以下 ML 实验：[描述你的模型和数据集]。追踪关键指标：准确率、损失、训练时间。给出下一步调优建议。",
+    "tags": ["AI", "后端"],
+    "metrics": { "stars_total": 340, "stars_added_this_week": 38, "issues_opened": 5, "issues_closed": 4, "issue_comments": 14, "commits_this_week": 6, "last_push": "2026-05-20" }
+  }
+]

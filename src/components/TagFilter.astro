@@ -1,0 +1,10 @@
+---
+const { tags = [], activeTag = '' } = Astro.props as { tags?: string[]; activeTag?: string };
+---
+
+<div class="tag-list">
+  <a href="/" class={`tag${activeTag === '' ? ' active' : ''}`}>全部</a>
+  {tags.map(tag => (
+    <a href={`/?tag=${tag}`} class={`tag${activeTag === tag ? ' active' : ''}`}>{tag}</a>
+  ))}
+</div>

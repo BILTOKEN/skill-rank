@@ -1,0 +1,127 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBar from '../components/SearchBar.astro';
+import TagFilter from '../components/TagFilter.astro';
+import RankingTable from '../components/RankingTable.astro';
+import type { RankItem } from '../components/RankingTable.astro';
+import rankings from '../../data/rankings.json';
+
+const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具'];
+
+function toItems(list: typeof rankings.growth): RankItem[] {
+  return list.map((s, i) => ({
+    rank: i + 1, repo: s.repo, name: s.name,
+    description: s.description, tags: s.tags || [],
+    starsTotal: s.stars_total, starsAdded: s.stars_added_this_week,
+    issuesOpened: s.issues_opened, issuesClosed: s.issues_closed,
+    issueComments: s.issue_comments, commitsThisWeek: s.commits_this_week,
+    score: s.score, slug: s.repo.replace('/', '-'),
+  }));
+}
+
+const growthSkills = toItems(rankings.growth);
+const activitySkills = toItems(rankings.activity);
+const compositeSkills = toItems(rankings.composite);
+
+// 统计数字
+const totalSkills = compositeSkills.length;
+const newThisWeek = growthSkills.filter(s => s.starsAdded > 50).length;
+const trendRepo = compositeSkills[0]?.name || '—';
+---
+
+<BaseLayout>
+  <!-- Hero -->
+  <div class="hero">
+    <div class="container">
+      <h1><span class="gradient-text">Claude Code Skill</span> 中文排行榜</h1>
+      <p>每天自动扫描 GitHub，帮你发现最值得安装的 AI 编程技能</p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num">{totalSkills}</div>
+          <div class="lbl">收录 Skill</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">{newThisWeek}</div>
+          <div class="lbl">本周热门</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num" style="font-size:1rem;padding-top:8px">{trendRepo}</div>
+          <div class="lbl">综合第一</div>
+        </div>
+      </div>
+      <div class="last-update">最后更新：{rankings.last_update || '2026-05-24 08:00'}</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- 工具栏 -->
+    <div class="toolbar">
+      <SearchBar />
+      <TagFilter tags={tags} />
+    </div>
+
+    <!-- 榜单切换 -->
+    <div class="rank-tabs" id="rank-tabs">
+      <button class="rank-tab active" data-tab="growth">🚀 Stars 增速榜</button>
+      <button class="rank-tab" data-tab="activity">💬 Issue 活跃榜</button>
+      <button class="rank-tab" data-tab="composite">🏆 综合热度榜</button>
+    </div>
+
+    <RankingTable type="growth" skills={growthSkills} />
+    <RankingTable type="activity" skills={activitySkills} />
+    <RankingTable type="composite" skills={compositeSkills} />
+
+    <!-- 周报引流 -->
+    <div class="weekly-section">
+      <h2>📬 每周 Skill 排行榜周报</h2>
+      <p>每周一推送热门 Skill 解读 + 精选推荐。关注公众号不走丢。</p>
+      <a class="btn-primary" href="https://github.com/billxue/skill-rank/issues/new?template=skill-submit.md" target="_blank">推荐 Skill 给我们</a>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // 三栏切换
+  const tabs = document.querySelectorAll<HTMLElement>('.rank-tab');
+  const panels = document.querySelectorAll<HTMLElement>('.rank-panel');
+  panels.forEach((p, i) => p.classList.toggle('active', i === 0));
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const target = tab.dataset.tab!;
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      panels.forEach(p => p.classList.toggle('active', p.dataset.panel === target));
+    });
+  });
+
+  // 标签筛选
+  const tagLinks = document.querySelectorAll<HTMLElement>('.tag-list .tag');
+  function applyTagFilter(activeTag: string) {
+    const cards = document.querySelectorAll<HTMLElement>('.skill-card');
+    cards.forEach(card => {
+      if (!activeTag) { card.style.display = ''; return; }
+      const cardTags = (card.dataset.tags || '').split(',');
+      card.style.display = cardTags.includes(activeTag) ? '' : 'none';
+    });
+    // 更新 URL
+    const url = new URL(location.href);
+    if (activeTag) url.searchParams.set('tag', activeTag);
+    else url.searchParams.delete('tag');
+    history.replaceState(null, '', url);
+    // 更新标签 active 状态
+    tagLinks.forEach(t => {
+      const href = new URL(t.getAttribute('href')!, location.origin);
+      t.classList.toggle('active', href.searchParams.get('tag') === activeTag || (!activeTag && !href.searchParams.get('tag')));
+    });
+  }
+  tagLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const href = new URL((link as HTMLAnchorElement).href, location.origin);
+      applyTagFilter(href.searchParams.get('tag') || '');
+    });
+  });
+  // 页面加载时从 URL 恢复标签筛选
+  const initTag = new URL(location.href).searchParams.get('tag') || '';
+  if (initTag) applyTagFilter(initTag);
+</script>

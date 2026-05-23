@@ -1,0 +1,21 @@
+{
+  "name": "skill-rank",
+  "version": "1.0.0",
+  "description": "Claude Code Skill 中文排行榜",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "pipeline": "npx tsx scripts/pipeline.ts",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}

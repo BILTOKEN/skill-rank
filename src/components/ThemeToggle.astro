@@ -1,0 +1,22 @@
+<button class="theme-btn" id="theme-toggle" aria-label="切换暗色模式" title="切换暗色/亮色模式">
+  <span class="icon-light">☀</span>
+  <span class="icon-dark" style="display:none">🌙</span>
+</button>
+
+<script>
+  const btn = document.getElementById('theme-toggle')!;
+  const html = document.documentElement;
+  const iconLight = btn.querySelector('.icon-light') as HTMLElement;
+  const iconDark = btn.querySelector('.icon-dark') as HTMLElement;
+
+  function setUI(dark: boolean) {
+    html.setAttribute('data-theme', dark ? 'dark' : 'light');
+    localStorage.setItem('theme', dark ? 'dark' : 'light');
+    iconLight.style.display = dark ? 'none' : '';
+    iconDark.style.display = dark ? '' : 'none';
+  }
+
+  const isDark = (localStorage.getItem('theme') || html.getAttribute('data-theme')) === 'dark';
+  setUI(isDark);
+  btn.addEventListener('click', () => setUI(html.getAttribute('data-theme') !== 'dark'));
+</script>

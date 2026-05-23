@@ -1,0 +1,48 @@
+---
+// 卡片式排行组件，替代纯表格
+export interface RankItem {
+  rank: number; repo: string; name: string; description: string;
+  tags: string[]; starsTotal: number; starsAdded: number;
+  issuesOpened: number; issuesClosed: number; issueComments: number;
+  commitsThisWeek: number; score: number; slug: string;
+}
+const { type, skills } = Astro.props as { type: string; skills: RankItem[] };
+---
+
+<div class="rank-panel" data-panel={type}>
+  <div class="rank-cards">
+    {skills.map(s => (
+      <a href={`/skills/${s.slug}`} class="skill-card" data-tags={s.tags.join(',')} style="text-decoration:none;color:inherit">
+        <div class={`rank-badge${s.rank <= 3 ? ` r${s.rank}` : ''}`}>{s.rank}</div>
+        <div class="card-body">
+          <div class="card-title">
+            {s.name}
+            {s.starsAdded > 100 ? <span class="mini-tag" style="background:var(--accent-soft);color:var(--accent);font-weight:600">🔥 热门</span> : s.starsAdded > 50 ? <span class="mini-tag" style="background:#e8f5e9;color:#2e7d32;font-weight:600">🆕 新锐</span> : ''}
+          </div>
+          <div class="card-desc">{s.description}</div>
+          <div class="card-tags">
+            {s.tags.map(t => <span class="mini-tag">{t}</span>)}
+          </div>
+        </div>
+        <div class="card-stats">
+          <div class="card-stat">
+            <div class="val">+{s.starsAdded}</div>
+            <div class="lbl">Stars <span class="tip" data-tip="本周新增的收藏数，表示有多少人收藏了这个仓库">?</span></div>
+          </div>
+          <div class="card-stat">
+            <div class="val">{s.issuesOpened}</div>
+            <div class="lbl">Issue <span class="tip" data-tip="本周新提出的问题反馈数量，反映社区活跃度">?</span></div>
+          </div>
+          <div class="card-stat">
+            <div class="val">{s.commitsThisWeek}</div>
+            <div class="lbl">Commit <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
+          </div>
+          <div class="card-stat">
+            <div class="val score">{s.score.toFixed(0)}</div>
+            <div class="lbl">得分 <span class="tip" data-tip="按公式计算的综合热度分，Stars增速×0.5 + Issue活跃×0.3 + Commit频率×0.2">?</span></div>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+</div>
