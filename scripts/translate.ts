@@ -15,7 +15,7 @@ const API_KEY = process.env.AI_API_KEY || '';
 const BASE_URL = process.env.AI_BASE_URL || 'https://api.deepseek.com/v1';
 const MODEL = process.env.AI_MODEL || 'deepseek-chat';
 
-const MAX_SKILLS_PER_RUN = 10; // 每次运行最多翻译 10 个
+const MAX_SKILLS_PER_RUN = parseInt(process.env.MAX_TRANSLATE || '50'); // 每次最多翻译 N 个
 
 interface RankItem {
   repo: string; name: string; description: string; tags: string[];

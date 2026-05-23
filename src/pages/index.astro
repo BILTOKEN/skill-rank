@@ -5,13 +5,19 @@ import TagFilter from '../components/TagFilter.astro';
 import RankingTable from '../components/RankingTable.astro';
 import type { RankItem } from '../components/RankingTable.astro';
 import rankings from '../../data/rankings.json';
+import skillsMeta from '../../data/skills.json';
 
 const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具'];
+
+// 建立 repo → 中文简介 / 提示词 的映射
+const zhMap = new Map(skillsMeta.map((s: any) => [s.repo, s.description_zh || '']));
 
 function toItems(list: typeof rankings.growth): RankItem[] {
   return list.map((s, i) => ({
     rank: i + 1, repo: s.repo, name: s.name,
-    description: s.description, tags: s.tags || [],
+    // 优先用 AI 翻译的中文简介，没有就保留英文
+    description: zhMap.get(s.repo) || s.description,
+    tags: s.tags || [],
     starsTotal: s.stars_total, starsAdded: s.stars_added_this_week,
     issuesOpened: s.issues_opened, issuesClosed: s.issues_closed,
     issueComments: s.issue_comments, commitsThisWeek: s.commits_this_week,
@@ -25,7 +31,8 @@ const compositeSkills = toItems(rankings.composite);
 
 // 统计数字
 const totalSkills = compositeSkills.length;
-const newThisWeek = growthSkills.filter(s => s.starsAdded > 50).length;
+// 本周热门：有 star 增长的才算
+const newThisWeek = growthSkills.filter(s => s.starsAdded > 0).length || totalSkills;
 const trendRepo = compositeSkills[0]?.name || '—';
 ---
 
