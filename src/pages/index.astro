@@ -96,13 +96,46 @@ const trendRepo = compositeSkills[0]?.name || '—';
 
   // 标签筛选
   const tagLinks = document.querySelectorAll<HTMLElement>('.tag-list .tag');
+  // 首次运行时保存原始排名
+  const cards = document.querySelectorAll<HTMLElement>('.skill-card');
+  cards.forEach(card => {
+    const badge = card.querySelector('.rank-badge') as HTMLElement;
+    if (badge && !badge.dataset.origRank) {
+      badge.dataset.origRank = badge.textContent || '';
+      badge.dataset.origClass = badge.className;
+    }
+  });
+
   function applyTagFilter(activeTag: string) {
-    const cards = document.querySelectorAll<HTMLElement>('.skill-card');
     cards.forEach(card => {
       if (!activeTag) { card.style.display = ''; return; }
       const cardTags = (card.dataset.tags || '').split(',');
       card.style.display = cardTags.includes(activeTag) ? '' : 'none';
     });
+    // 重新编号可见卡片
+    let newRank = 0;
+    cards.forEach(card => {
+      if (card.style.display !== 'none') {
+        newRank++;
+        const badge = card.querySelector('.rank-badge') as HTMLElement;
+        if (badge) {
+          badge.textContent = String(newRank);
+          badge.className = `rank-badge${newRank <= 3 ? ` r${newRank}` : ''}`;
+        }
+      } else if (activeTag) {
+        // 保持隐藏状态
+      }
+    });
+    // 如果没有筛选，恢复原始排名
+    if (!activeTag) {
+      cards.forEach(card => {
+        const badge = card.querySelector('.rank-badge') as HTMLElement;
+        if (badge?.dataset.origRank) {
+          badge.textContent = badge.dataset.origRank;
+          badge.className = badge.dataset.origClass || '';
+        }
+      });
+    }
     // 更新 URL
     const url = new URL(location.href);
     if (activeTag) url.searchParams.set('tag', activeTag);
