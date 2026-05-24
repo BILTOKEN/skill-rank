@@ -10,6 +10,9 @@
  */
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import { resolve } from 'path';
+import { config } from 'dotenv';
+
+config({ path: resolve(import.meta.dirname, '..', '.env') });
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const TOKEN = process.env.GH_TOKEN || process.env.GITHUB_TOKEN || '';

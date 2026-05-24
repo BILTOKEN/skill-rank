@@ -12,28 +12,27 @@ const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', 
 // 建立 repo → 中文简介 / 提示词 的映射
 const zhMap = new Map(skillsMeta.map((s: any) => [s.repo, s.description_zh || '']));
 
-function toItems(list: typeof rankings.growth): RankItem[] {
+function toItems(list: typeof rankings.weekly): RankItem[] {
   return list.map((s, i) => ({
     rank: i + 1, repo: s.repo, name: s.name,
     // 优先用 AI 翻译的中文简介，没有就保留英文
     description: zhMap.get(s.repo) || s.description,
     tags: s.tags || [],
     starsTotal: s.stars_total, starsAdded: s.stars_added_this_week,
-    issuesOpened: s.issues_opened, issuesClosed: s.issues_closed,
-    issueComments: s.issue_comments, commitsThisWeek: s.commits_this_week,
-    score: s.score, slug: s.repo.replace('/', '-'),
+    commitsThisWeek: s.commits_this_week,
+    slug: s.repo.replace('/', '-'),
   }));
 }
 
-const growthSkills = toItems(rankings.growth);
-const activitySkills = toItems(rankings.activity);
-const compositeSkills = toItems(rankings.composite);
+const weeklySkills = toItems(rankings.weekly);
+const monthlySkills = toItems(rankings.monthly);
+const totalSkills = toItems(rankings.total);
 
 // 统计数字
-const totalSkills = compositeSkills.length;
-// 本周活跃：近 7 天有 Issue 或 Commit 活动的 Skill
-const activeThisWeek = compositeSkills.filter(s => s.issuesOpened > 0 || s.commitsThisWeek > 0).length;
-const trendRepo = compositeSkills[0]?.name || '—';
+const skillCount = totalSkills.length;
+// 近 7 天有新增 Stars 或 Commit 活动的 Skill
+const activeThisWeek = totalSkills.filter(s => s.starsAdded > 0 || s.commitsThisWeek > 0).length;
+const topRepo = totalSkills[0]?.name || '—';
 ---
 
 <BaseLayout>
@@ -44,16 +43,16 @@ const trendRepo = compositeSkills[0]?.name || '—';
       <p>每天自动扫描 GitHub，帮你发现最值得安装的 AI 编程技能</p>
       <div class="hero-stats">
         <div class="hero-stat">
-          <div class="num">{totalSkills}</div>
-          <div class="lbl">收录 Skill</div>
+          <div class="num">{skillCount}</div>
+          <div class="lbl">收录技能</div>
         </div>
         <div class="hero-stat">
           <div class="num">{activeThisWeek}</div>
           <div class="lbl">本周活跃</div>
         </div>
         <div class="hero-stat">
-          <div class="num" style="font-size:1rem;padding-top:8px">{trendRepo}</div>
-          <div class="lbl">综合第一</div>
+          <div class="num" style="font-size:1rem;padding-top:8px">{topRepo}</div>
+          <div class="lbl">总榜第一</div>
         </div>
       </div>
       <div class="last-update">最后更新：{rankings.last_update || '2026-05-24 08:00'}</div>
@@ -69,14 +68,14 @@ const trendRepo = compositeSkills[0]?.name || '—';
 
     <!-- 榜单切换 -->
     <div class="rank-tabs" id="rank-tabs">
-      <button class="rank-tab active" data-tab="growth">🔥 近 7 天热门</button>
-      <button class="rank-tab" data-tab="activity">📅 本月新星</button>
-      <button class="rank-tab" data-tab="composite">🏆 综合总榜</button>
+      <button class="rank-tab active" data-tab="weekly">🔥 7天热门</button>
+      <button class="rank-tab" data-tab="monthly">📅 本月热门</button>
+      <button class="rank-tab" data-tab="total">🏆 总榜</button>
     </div>
 
-    <RankingTable type="growth" skills={growthSkills} />
-    <RankingTable type="activity" skills={activitySkills} />
-    <RankingTable type="composite" skills={compositeSkills} />
+    <RankingTable type="weekly" skills={weeklySkills} />
+    <RankingTable type="monthly" skills={monthlySkills} />
+    <RankingTable type="total" skills={totalSkills} />
 
     <!-- 周报引流 -->
     <div class="weekly-section">

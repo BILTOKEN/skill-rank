@@ -9,6 +9,9 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
 import { createHash } from 'crypto';
+import { config } from 'dotenv';
+
+config({ path: resolve(import.meta.dirname, '..', '.env') });
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const API_KEY = process.env.AI_API_KEY || '';
@@ -120,7 +123,7 @@ async function main() {
 
   const rankings = JSON.parse(readFileSync(rankingsPath, 'utf-8'));
   const allSkills: RankItem[] = [
-    ...rankings.growth,
+    ...(rankings.total || rankings.weekly || []),
   ];
 
   // 去重

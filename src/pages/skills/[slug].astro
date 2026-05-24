@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import skillsData from '../../../data/skills.json';
+import rankings from '../../../data/rankings.json';
 
 export function getStaticPaths() {
   return (skillsData as Array<{repo: string}>).map(s => ({
@@ -17,11 +18,27 @@ const CAT_NAMES = ['前端', '后端', '设计', 'DevOps', '安全', '写作', '
 const tags = (skill.tags || []).filter((t: string) => CAT_NAMES.includes(t));
 const m = skill.metrics || {};
 
-// 找同类：AI 翻译版，取中文分类标签重叠的，排除自己，随机取 3 个
+// 建立 repo → 三榜排名的映射
+function buildRankMap(list: any[]) {
+  const map = new Map<string, number>();
+  (list || []).forEach((item: any, i: number) => map.set(item.repo, i + 1));
+  return map;
+}
+const weeklyMap = buildRankMap(rankings.weekly);
+const monthlyMap = buildRankMap(rankings.monthly);
+const totalMap = buildRankMap(rankings.total);
+
+const rankInfo = {
+  weekly: weeklyMap.get(skill.repo),
+  monthly: monthlyMap.get(skill.repo),
+  total: totalMap.get(skill.repo),
+};
+
+// 同类推荐：按中文分类标签重叠度排序，取 top 3
 const filterCat = (ts: string[]) => (ts || []).filter((t: string) => CAT_NAMES.includes(t));
 const related = allSkills
   .filter(s => s.repo !== skill.repo && filterCat(s.tags || []).some((t: string) => tags.includes(t)))
-  .sort(() => Math.random() - 0.5)
+  .sort((a, b) => filterCat(b.tags || []).filter(t => tags.includes(t)).length - filterCat(a.tags || []).filter(t => tags.includes(t)).length)
   .slice(0, 3);
 ---
 
@@ -41,6 +58,28 @@ const related = allSkills
       </div>
     </div>
 
+    <!-- 三榜排名 -->
+    <div class="rank-strip">
+      {rankInfo.weekly ? (
+        <div class="rank-item">
+          <span class="rank-label">🔥 7天热门</span>
+          <span class="rank-num">#{rankInfo.weekly}</span>
+        </div>
+      ) : null}
+      {rankInfo.monthly ? (
+        <div class="rank-item">
+          <span class="rank-label">📅 本月热门</span>
+          <span class="rank-num">#{rankInfo.monthly}</span>
+        </div>
+      ) : null}
+      {rankInfo.total ? (
+        <div class="rank-item">
+          <span class="rank-label">🏆 总榜</span>
+          <span class="rank-num">#{rankInfo.total}</span>
+        </div>
+      ) : null}
+    </div>
+
     <!-- 近 7 天数据 -->
     <div class="detail-section">
       <h2>📊 近 7 天数据</h2>
@@ -53,9 +92,9 @@ const related = allSkills
           <div class="num">{m.commits_this_week || 0}</div>
           <div class="lbl">本周提交 <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
         </div>
-        <div class="data-card">
-          <div class="num">{(m.issues_opened || 0) + (m.issues_closed || 0)}</div>
-          <div class="lbl">Issue 活跃 <span class="tip" data-tip="本周新开 + 关闭的 Issue 总数，反映社区活跃度">?</span></div>
+        <div class="data-card highlight">
+          <div class="num">{m.stars_total?.toLocaleString() || 0}</div>
+          <div class="lbl">总收藏 <span class="tip" data-tip="GitHub Stars 总数，反映长期受欢迎程度">?</span></div>
         </div>
       </div>
     </div>
@@ -77,15 +116,17 @@ const related = allSkills
       </div>
     </div>
 
-    <!-- 英文原文 -->
-    <div class="detail-section">
-      <details class="eng-fold">
-        <summary>📄 原文（点击展开，翻译有误可对照查看）</summary>
-        <div class="eng-content">
-          {skill.description_en ? <p>{skill.description_en}</p> : <p style="color:var(--muted)">暂无</p>}
-        </div>
-      </details>
-    </div>
+    <!-- 英文原文：只有和中文翻译不同时才显示（避免原文就是中文的情况） -->
+    {skill.description_en && skill.description_zh && skill.description_en !== skill.description_zh ? (
+      <div class="detail-section">
+        <details class="eng-fold">
+          <summary>📄 原文（点击展开，翻译有误可对照查看）</summary>
+          <div class="eng-content">
+            <p>{skill.description_en}</p>
+          </div>
+        </details>
+      </div>
+    ) : null}
 
     <!-- 同类推荐 -->
     {related.length > 0 ? (

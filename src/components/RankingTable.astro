@@ -1,14 +1,11 @@
 ---
-// 卡片式排行组件
 export interface RankItem {
   rank: number; repo: string; name: string; description: string;
   tags: string[]; starsTotal: number; starsAdded: number;
-  issuesOpened: number; issuesClosed: number; issueComments: number;
-  commitsThisWeek: number; score: number; slug: string;
+  commitsThisWeek: number; slug: string;
 }
 const { type, skills } = Astro.props as { type: string; skills: RankItem[] };
 
-// 8 个中文分类标签，其他英文 topic 不显示在卡片上
 const CATEGORY_TAGS = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具', '测试', '数据'];
 function showTags(tags: string[]): string[] {
   return tags.filter(t => CATEGORY_TAGS.includes(t)).slice(0, 2);
@@ -32,20 +29,16 @@ function showTags(tags: string[]): string[] {
         </div>
         <div class="card-stats">
           <div class="card-stat">
-            <div class="val">+{s.starsAdded}</div>
-            <div class="lbl">Stars <span class="tip" data-tip="本周新增的收藏数，表示有多少人收藏了这个仓库">?</span></div>
+            <div class="val score">{(s.starsTotal / 1000).toFixed(1)}k</div>
+            <div class="lbl">总收藏 <span class="tip" data-tip="GitHub Stars 总数，反映长期受欢迎程度">?</span></div>
           </div>
           <div class="card-stat">
-            <div class="val">{s.issuesOpened}</div>
-            <div class="lbl">Issue <span class="tip" data-tip="本周新提出的问题反馈数量，反映社区活跃度">?</span></div>
+            <div class="val">+{s.starsAdded}</div>
+            <div class="lbl">本周新增 <span class="tip" data-tip="近 7 天新增的收藏数">?</span></div>
           </div>
           <div class="card-stat">
             <div class="val">{s.commitsThisWeek}</div>
-            <div class="lbl">Commit <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
-          </div>
-          <div class="card-stat">
-            <div class="val score">{s.score.toFixed(0)}</div>
-            <div class="lbl">得分 <span class="tip" data-tip="按公式计算的综合热度分，Stars增速×0.5 + Issue活跃×0.3 + Commit频率×0.2">?</span></div>
+            <div class="lbl">本周提交 <span class="tip" data-tip="近 7 天代码提交次数，反映维护频率">?</span></div>
           </div>
         </div>
       </a>

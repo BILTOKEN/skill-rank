@@ -250,6 +250,19 @@ img{max-width:100%}
 .detail-meta a{color:var(--text-secondary);font-family:var(--font-mono);font-size:.82rem}
 .detail-meta a:hover{color:var(--accent)}
 
+/* 三榜排名条 */
+.rank-strip{
+  display:flex;gap:12px;flex-wrap:wrap;margin-bottom:28px;
+}
+.rank-item{
+  display:flex;align-items:center;gap:6px;
+  padding:8px 16px;border-radius:20px;
+  background:var(--accent-soft);border:1px solid var(--accent-soft);
+  font-size:.85rem;
+}
+.rank-item .rank-label{color:var(--text-secondary)}
+.rank-item .rank-num{font-weight:800;color:var(--accent);font-size:1rem}
+
 .detail-section{margin-bottom:32px}
 .detail-section h2{
   font-size:1.1rem;font-weight:700;margin-bottom:14px;
@@ -275,6 +288,8 @@ img{max-width:100%}
   box-shadow:var(--shadow-sm);transition:all .2s;
 }
 .data-card:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.data-card.highlight{background:var(--accent-soft);border-color:var(--accent-soft)}
+.data-card.highlight .num{color:var(--accent)}
 .data-card .num{font-size:1.6rem;font-weight:800;color:var(--accent)}
 .data-card .lbl{font-size:.78rem;color:var(--muted);margin-top:4px;display:flex;align-items:center;justify-content:center;gap:4px}
 

@@ -4,6 +4,9 @@
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
+import { config } from 'dotenv';
+
+config({ path: resolve(import.meta.dirname, '..', '.env') });
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 const API_KEY = process.env.AI_API_KEY || '';
@@ -62,14 +65,19 @@ async function main() {
 
   // 读取当前排行榜
   const rankings = JSON.parse(readFileSync(resolve(DATA_DIR, 'rankings.json'), 'utf-8'));
-  const top10 = rankings.composite.slice(0, 10);
+  const weeklyTop10 = (rankings.weekly || []).slice(0, 10);
+  const totalTop5 = (rankings.total || []).slice(0, 5);
 
   // 构建提示
-  const skillList = top10.map((s: any, i: number) =>
-    `${i + 1}. **${s.name}** (${s.repo}) — ⭐${s.stars_total} +${s.stars_added_this_week}本周`
+  const skillList = weeklyTop10.map((s: any, i: number) =>
+    `${i + 1}. **${s.name}** (${s.repo}) — ⭐${s.stars_total} 总收藏 | +${s.stars_added_this_week} 本周新增 | ${s.commits_this_week} 次提交`
   ).join('\n');
 
-  const prompt = `本周 Claude Code Skill 综合热度榜 TOP 10：\n\n${skillList}\n\n快照数据：本周共有 ${weekSnapshots.length} 天数据，覆盖 ${rankings.composite.length} 个 Skill。\n\n请根据以上数据生成周报。`;
+  const totalList = totalTop5.map((s: any, i: number) =>
+    `${i + 1}. **${s.name}** — ⭐${s.stars_total}`
+  ).join('\n');
+
+  const prompt = `本周 Claude Code Skill 7天热门榜 TOP 10：\n\n${skillList}\n\n总收藏榜 TOP 5：\n\n${totalList}\n\n快照数据：本周共有 ${weekSnapshots.length} 天数据，覆盖 ${rankings.total?.length || 0} 个 Skill。\n\n请根据以上数据生成周报。`;
 
   log('生成周报草稿...');
   const article = await aiGenerate(prompt);

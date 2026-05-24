@@ -2,16 +2,14 @@
 /**
  * 总入口：顺序调用管线各步骤。
  * 用法: npx tsx scripts/pipeline.ts
- * 可选环境变量:
- *   GITHUB_TOKEN — GitHub personal access token（提高 API 限额到 5000/hr）
- *   AI_API_KEY   — AI 翻译 API key（OpenAI 兼容接口）
- *   AI_BASE_URL  — API 地址（默认 https://api.deepseek.com/v1）
- *   AI_MODEL     — 模型名（默认 deepseek-chat）
- *   SKIP_FETCH   — 设为 1 跳过抓取步骤（调试用）
+ * 环境变量从项目根目录 .env 文件自动加载。
  */
 
-import { execSync } from 'child_process';
+import { config } from 'dotenv';
 import { resolve } from 'path';
+import { execSync } from 'child_process';
+
+config({ path: resolve(import.meta.dirname, '..', '.env') });
 
 const SCRIPTS = resolve(import.meta.dirname);
 
@@ -40,15 +38,20 @@ async function main() {
   const skipFetch = process.env.SKIP_FETCH === '1';
 
   if (!skipFetch) {
-    run(resolve(SCRIPTS, 'fetch-skills.ts'), '步骤 1/5：抓取 Skill 列表');
-    run(resolve(SCRIPTS, 'fetch-metrics.ts'), '步骤 2/5：获取指标数据');
+    run(resolve(SCRIPTS, 'rebuild-candidates.ts'), '步骤 1/6：从 awesome 榜单更新候选');
+    run(resolve(SCRIPTS, 'fetch-metrics.ts'), '步骤 2/6：获取指标数据');
   } else {
     log('SKIP_FETCH=1，跳过抓取步骤');
   }
 
-  run(resolve(SCRIPTS, 'compute-rankings.ts'), '步骤 3/5：计算排名');
-  run(resolve(SCRIPTS, 'translate.ts'), '步骤 4/5：AI 翻译');
-  run(resolve(SCRIPTS, 'generate-weekly.ts'), '步骤 5/5：周报生成（仅周日）');
+  run(resolve(SCRIPTS, 'compute-rankings.ts'), '步骤 3/7：计算排名');
+  run(resolve(SCRIPTS, 'translate.ts'), '步骤 4/7：AI 翻译');
+  run(resolve(SCRIPTS, 'generate-weekly.ts'), '步骤 5/7：周报生成（仅周日）');
+  log('步骤 6/7：构建网站');
+  execSync('npx astro build', { cwd: resolve(import.meta.dirname, '..'), stdio: 'inherit' });
+  log('步骤 7/7：推送到 GitHub（触发 Vercel 部署）');
+  const rootDir = resolve(import.meta.dirname, '..');
+  execSync('git add data/ scripts/ src/ && git commit -m "daily: auto update rankings" && git push', { cwd: rootDir, stdio: 'inherit' });
 
   console.log('\n========================================');
   console.log('  流水线完成！');
