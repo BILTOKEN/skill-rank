@@ -143,9 +143,18 @@ async function main() {
   if (FRESH_ONLY && existsSync(metricsPath)) {
     const old = JSON.parse(readFileSync(metricsPath, 'utf-8'));
     for (const m of old) {
-      if (!allowedRepos.has((m.repo || '').toLowerCase())) {
+      const key = (m.repo || '').toLowerCase();
+      if (!allowedRepos.has(key)) {
         filteredOutCount++;
         continue;
+      }
+      // 回填 pool（旧数据可能没有）
+      if (!m.pool || (m.pool !== 'ranked' && m.pool !== 'watchlist')) {
+        m.pool = ranked.some((r: any) => (r.repo || '').toLowerCase() === key) ? 'ranked' : 'watchlist';
+      }
+      // 回填 commits_capped（旧数据可能没有）
+      if (m.commits_capped === undefined || m.commits_capped === null) {
+        m.commits_capped = (m.commits_7d ?? m.commits_this_week) === 30;
       }
       if (m.fetchedAt) {
         const hoursAgo = (Date.now() - new Date(m.fetchedAt).getTime()) / 3600000;

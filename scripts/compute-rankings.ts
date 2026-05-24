@@ -6,7 +6,7 @@
  *
  * 同时保存完整结构每日快照到 data/snapshots/YYYY-MM-DD.json。
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync } from 'fs';
 import { resolve } from 'path';
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
@@ -162,19 +162,31 @@ async function main() {
   // total：stars_total desc
   const total = [...items].sort((a, b) => b.stars_total - a.stars_total);
 
-  const rankings = {
+  // 快照不足 7 天时标记数据积累期
+  const snapshotsDir = resolve(DATA_DIR, 'snapshots');
+  let snapshotDays = 0;
+  if (existsSync(snapshotsDir)) {
+    const files = readdirSync(snapshotsDir).filter(f => f.endsWith('.json'));
+    snapshotDays = files.length;
+  }
+  const warmingUp = snapshotDays < 7;
+
+  const rankings: any = {
     last_update: new Date().toISOString().replace('T', ' ').slice(0, 16),
     weekly_growth: weeklyGrowth,
     active,
     total,
   };
+  if (warmingUp) {
+    rankings.data_status = 'warming_up';
+    rankings.message = '当前处于数据积累期，7 日增长将在连续运行 7 天后更准确。';
+  }
 
   writeFileSync(resolve(DATA_DIR, 'rankings.json'), JSON.stringify(rankings, null, 2));
   log(`rankings.json 已写入（增长榜 ${weeklyGrowth.length} / 活跃榜 ${active.length} / 总榜 ${total.length}）`);
 
   // 保存完整结构快照
   const today = new Date().toISOString().slice(0, 10);
-  const snapshotsDir = resolve(DATA_DIR, 'snapshots');
   if (!existsSync(snapshotsDir)) mkdirSync(snapshotsDir, { recursive: true });
 
   // 统计各池子数量
