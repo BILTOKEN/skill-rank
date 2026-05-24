@@ -1629,5 +1629,355 @@
     "prompt": "请使用 Qualflare Claude Code 插件来优化代码质量。你可以直接复制以下提示词到 Claude Code 中使用：\n\n\"请使用 Qualflare Claude Code 插件对当前项目进行代码质量分析，包括检查代码风格、潜在错误、性能问题等，并给出改进建议。\"",
     "translatedAt": "2026-05-23T20:14:18.958Z",
     "backTranslationDiff": 0.5
+  },
+  "glitternetwork/pinme": {
+    "sourceHash": "d82fa93df29518ba",
+    "chineseDescription": "一条命令部署你的前端。支持 Claude Code Skills。",
+    "prompt": "请从 https://github.com/glitternetwork/pinme 下载 pinme skill 文件，并保存到 .claude/skills/pinme/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:20:45.909Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "htdt/godogen": {
+    "sourceHash": "068ab71d6d3d5dc0",
+    "chineseDescription": "使用 Claude Code 和 Codex 为 Godot 和 Bevy 引擎进行自主游戏开发。",
+    "prompt": "请安装 godogen skill。从 https://github.com/htdt/godogen 下载文件，保存到 .claude/skills/godogen/ 目录。",
+    "translatedAt": "2026-05-24T09:20:49.055Z",
+    "backTranslationDiff": 0
+  },
+  "Agents365-ai/drawio-skill": {
+    "sourceHash": "2330c226ec959dbb",
+    "chineseDescription": "通过自然语言生成 draw.io 图表，内置 6 种预设模板和两轮自检循环。支持导出为 PNG/SVG/PDF/JPG 格式。",
+    "prompt": "请安装 drawio-skill 技能：从 https://github.com/Agents365-ai/drawio-skill 下载文件，保存到 .claude/skills/drawio-skill/ 目录。",
+    "translatedAt": "2026-05-24T09:20:52.549Z",
+    "backTranslationDiff": 0.46153846153846156
+  },
+  "AbhishekK130804/Claude-Mythos-AI-Anthropic-App": {
+    "sourceHash": "f007262c3cb63f04",
+    "chineseDescription": "Claude pro 免费版 Mythos 设计 Opus Cowork Sonnet AI Anthropic 应用：免费下载 PC、安卓 APK、iOS，配置 Anthropic Claude API 密钥，设置 Claude 角色扮演 Mythos 客户端，SillyTavern Claude 提示词格式化，自定义系统提示词越狱，Mythos AI 创意写作应用，Claude 3.5 Sonnet Opus API 费用，开源 LLM 前端，Claude 反向代理。",
+    "prompt": "请从 https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App 下载整个仓库，并将所有文件保存到 .claude/skills/Claude-Mythos-AI-Anthropic-App/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:20:57.118Z",
+    "backTranslationDiff": 0.09999999999999998
+  },
+  "larajuniorlara/Claude-Design-Studio": {
+    "sourceHash": "4765188dab2eaef2",
+    "chineseDescription": "🚀 Claude Design AI 2026：终极 UI/UX 生成器与插件套件 – 免费下载。这是一个用于 Claude Code 的设计技能包，能帮你快速生成界面和用户体验设计。",
+    "prompt": "请从 GitHub 仓库 https://github.com/larajuniorlara/Claude-Design-Studio 下载所有文件，并将它们保存到 .claude/skills/Claude-Design-Studio/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:00.881Z",
+    "backTranslationDiff": 0.09999999999999998
+  },
+  "rayhayqal/Mythos-Claude-Skill-Forge": {
+    "sourceHash": "f9279c7b6116473c",
+    "chineseDescription": "🚀 Claude Mythos AI 2026 – 为下一代应用构建自主 Agent 技能与插件",
+    "prompt": "请从 GitHub 仓库 https://github.com/rayhayqal/Mythos-Claude-Skill-Forge 下载所有文件，并将其保存到 .claude/skills/Mythos-Claude-Skill-Forge/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:04.301Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "mikesheehan54/Claude-Code-Design-AI": {
+    "sourceHash": "8d06bd5d54fae896",
+    "chineseDescription": "Claude Design：AI UI/UX 架构师。能把截图转成 React 代码、Figma 组件、Tailwind CSS 生成器。原型设计代理、设计系统、线框图渲染器。SVG 图标创建、暗黑模式切换、响应式布局工具。前端代码导出、shadcn/ui 集成、矢量资源、品牌助手。",
+    "prompt": "请从 https://github.com/mikesheehan54/Claude-Code-Design-AI 下载文件，并保存到 .claude/skills/Claude-Code-Design-AI/ 目录完成安装。",
+    "translatedAt": "2026-05-24T09:21:08.412Z",
+    "backTranslationDiff": 0.303030303030303
+  },
+  "vast-ai/vast-cli": {
+    "sourceHash": "5a2cfc418c04155b",
+    "chineseDescription": "Vast.ai 的 Python 和 CLI API 客户端",
+    "prompt": "请从 https://github.com/vast-ai/vast-cli 下载 vast-cli 项目文件，并将其保存到 .claude/skills/vast-cli/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:11.847Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "gcpdev/llm-council-skill": {
+    "sourceHash": "e9eb138f302102c7",
+    "chineseDescription": "一个让 Claude Code 在向用户展示实现方案之前，先与 ChatGPT、Gemini 等其他大语言模型进行头脑风暴的技能。",
+    "prompt": "请从 https://github.com/gcpdev/llm-council-skill 下载 llm-council-skill 技能，并将文件保存到 .claude/skills/llm-council-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:15.748Z",
+    "backTranslationDiff": 0.4375
+  },
+  "greekr4/playwright-bot-bypass": {
+    "sourceHash": "b0384f2747479636",
+    "chineseDescription": "这是一个 Claude Code 技能，用于绕过机器人检测（如 Google CAPTCHA 等）。",
+    "prompt": "请从 https://github.com/greekr4/playwright-bot-bypass 下载文件，并将其保存到 .claude/skills/playwright-bot-bypass/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:19.166Z",
+    "backTranslationDiff": 0.25
+  },
+  "jeecgboot/skills": {
+    "sourceHash": "e2ed7e1d13261420",
+    "chineseDescription": "JeecgBoot Skills — AI 驱动 · 一句话生成全套工件！在 Claude Code 中，用一句话就能生成代码、表单、流程、报表、图表、大屏、仪表盘。覆盖 JeecgBoot 低代码平台和 JimuReport 积木报表两大产品的企业级开发全场景。【使用场景】快速生成企业级低代码项目工件，提升开发效率。",
+    "prompt": "请从 https://github.com/jeecgboot/skills 下载文件，并将其保存到 .claude/skills/skills/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:23.651Z",
+    "backTranslationDiff": 0.6363636363636364
+  },
+  "Agents365-ai/asta-skill": {
+    "sourceHash": "62c91c897eae7120",
+    "chineseDescription": "纯指令包技能，封装了 Ai2 的 Asta MCP 服务器（Semantic Scholar）。支持意图到工具的自动路由、安全默认配置、多智能体协作。【使用场景】需要基于语义学术（Semantic Scholar）进行论文检索、引用分析或学术研究时使用。",
+    "prompt": "请从 https://github.com/Agents365-ai/asta-skill 下载 asta-skill 技能文件，并保存到 .claude/skills/asta-skill/ 目录中完成安装。",
+    "translatedAt": "2026-05-24T09:21:28.052Z",
+    "backTranslationDiff": 0.3571428571428571
+  },
+  "arkylab/aspm": {
+    "sourceHash": "0a1f9266e64cef09",
+    "chineseDescription": "一个基于 Git 的包管理器，专为 AI 辅助开发设计，类似 npm 但支持 skills、agents、commands、hooks 以及任何 AI 资源类型。",
+    "prompt": "请从 https://github.com/arkylab/aspm 下载 aspm skill 文件，并将其保存到 .claude/skills/aspm/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:31.544Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "Agents365-ai/paper-fetch": {
+    "sourceHash": "ab3045f5b6da965c",
+    "chineseDescription": "DOI → PDF 解析器，带7个备用源（Unpaywall、S2、arXiv、PMC、bioRxiv、出版商、Sci-Hub）。多智能体，零依赖 Python。",
+    "prompt": "请从 https://github.com/Agents365-ai/paper-fetch 下载 paper-fetch skill 的所有文件，保存到 .claude/skills/paper-fetch/ 目录，完成安装。",
+    "translatedAt": "2026-05-24T09:21:35.655Z",
+    "backTranslationDiff": 0.15384615384615385
+  },
+  "Evan715823/cheatsheet-generator-skill": {
+    "sourceHash": "452076d33b4ec4a8",
+    "chineseDescription": "把你的课程幻灯片和 PDF 转成紧凑、适合备考的 LaTeX 小抄。",
+    "prompt": "请从 https://github.com/Evan715823/cheatsheet-generator-skill 下载 cheatsheet-generator-skill 技能文件，并保存到 .claude/skills/cheatsheet-generator-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:39.078Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "AgriciDaniel/on-page-seo": {
+    "sourceHash": "d36b6649616eb3b7",
+    "chineseDescription": "页面内SEO分析器 - 分析你网站的SEO表现",
+    "prompt": "请从 https://github.com/AgriciDaniel/on-page-seo 下载 on-page-seo Skill 文件，并保存到 .claude/skills/on-page-seo/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:42.109Z",
+    "backTranslationDiff": 0
+  },
+  "AgriciDaniel/wp-mcp-ultimate": {
+    "sourceHash": "dbd33ff494bf1554",
+    "chineseDescription": "WordPress MCP Ultimate — 完整的 MCP 服务器，提供 58 项 WordPress 能力。通过 Model Context Protocol 将 WordPress 连接到任意 AI。",
+    "prompt": "请从 https://github.com/AgriciDaniel/wp-mcp-ultimate 下载 wp-mcp-ultimate 项目文件，并将其保存到 .claude/skills/wp-mcp-ultimate/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:21:45.400Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "Agents365-ai/excalidraw-skill": {
+    "sourceHash": "85fec550a192a690",
+    "chineseDescription": "通过自然语言生成手绘风格的 Excalidraw 图表。支持 5 种模式、8 色语义调色板，可使用 Kroki API 或本地 CLI 渲染，输出 PNG/SVG 格式，支持多智能体协作。",
+    "prompt": "请安装 excalidraw-skill：从 https://github.com/Agents365-ai/excalidraw-skill 下载文件，保存到 .claude/skills/excalidraw-skill/ 目录。",
+    "translatedAt": "2026-05-24T09:21:49.142Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "Agents365-ai/mermaid-skill": {
+    "sourceHash": "4b84187a3b518504",
+    "chineseDescription": "从自然语言生成 Mermaid 图表（.mmd），带验证循环。支持 11+ 种图表类型、多后端（mmdc / Kroki）、输出 PNG/SVG/PDF，支持多智能体协作。",
+    "prompt": "请从 https://github.com/Agents365-ai/mermaid-skill 下载 mermaid-skill 的所有文件，并保存到 .claude/skills/mermaid-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:52.706Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "AgriciDaniel/claude-code-essentials-vs-code": {
+    "sourceHash": "4431e454d64458f1",
+    "chineseDescription": "🚀 Claude Code 与 VS Code 必备工具包——包含完整的设置指南、扩展、斜杠命令、技能（Skills）以及 Windows 一键安装脚本。",
+    "prompt": "请从 https://github.com/AgriciDaniel/claude-code-essentials-vs-code 下载仓库文件，并将其保存到 .claude/skills/claude-code-essentials-vs-code/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:21:56.078Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "thatrebeccarae/claude-marketing": {
+    "sourceHash": "30cd5eb275af43d7",
+    "chineseDescription": "一个为 Claude Code 打造的全套营销部门技能包。涵盖 Klaviyo、Shopify、GA4、Looker Studio、付费媒体等。用自然语言就能做审计、优化和报告。【使用场景】营销人员或开发者想在 Claude Code 里直接对接各种营销工具，用自然语言完成数据分析和报告。",
+    "prompt": "请从 https://github.com/thatrebeccarae/claude-marketing 下载所有文件，并将它们保存到 .claude/skills/claude-marketing/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:00.313Z",
+    "backTranslationDiff": 0.23809523809523814
+  },
+  "julilaoshi/takeaway-skill": {
+    "sourceHash": "04a3985e2da9d5eb",
+    "chineseDescription": "拿来主义 Skill：从参考资料中提炼可复用的机制、适配路线、模式卡片和实施摘要，而不是照搬表面样式。",
+    "prompt": "请从 https://github.com/julilaoshi/takeaway-skill 下载 takeaway-skill 文件，并保存到 .claude/skills/takeaway-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:03.945Z",
+    "backTranslationDiff": 0.631578947368421
+  },
+  "x-glacier/kali-pentest": {
+    "sourceHash": "8125b50da4697839",
+    "chineseDescription": "Kali Linux 渗透测试技能包，适用于 AI 智能体（Claude Code、OpenClaw、Hermes Agent）。包含 200+ 命令行工具、15 个场景剧本。能自主规划攻击路径、选择工具，并在各阶段整合结果来调整渗透策略——高风险操作会设置人工审批关卡。",
+    "prompt": "请从 https://github.com/x-glacier/kali-pentest 下载文件，保存到 .claude/skills/kali-pentest/ 目录完成安装。",
+    "translatedAt": "2026-05-24T09:22:07.994Z",
+    "backTranslationDiff": 0.375
+  },
+  "Agents365-ai/semanticscholar-skill": {
+    "sourceHash": "a1b61ea6eb32327b",
+    "chineseDescription": "Semantic Scholar API 的 Agent 封装——搜索超过2亿篇论文、遍历引用关系、查找作者。基于 Python，带速率限制（rate-limited），支持多 Agent 协作。",
+    "prompt": "请从 https://github.com/Agents365-ai/semanticscholar-skill 下载该技能的所有文件，并保存到 .claude/skills/semanticscholar-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:11.961Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "framix-team/skill-email-html-mjml": {
+    "sourceHash": "6056decbb17c800e",
+    "chineseDescription": "Claude Code 技能——用 MJML 生成跨客户端兼容的 HTML 邮件。支持 Outlook、针对 Gmail 优化、符合 WCAG 2.1 AA 无障碍标准。",
+    "prompt": "请安装 skill-email-html-mjml 技能。从 https://github.com/framix-team/skill-email-html-mjml 下载文件，并保存到 .claude/skills/skill-email-html-mjml/ 目录下。",
+    "translatedAt": "2026-05-24T09:22:15.441Z",
+    "backTranslationDiff": 0.3076923076923077
+  },
+  "Agents365-ai/tldraw-skill": {
+    "sourceHash": "4af6402d0e019e5a",
+    "chineseDescription": "用自然语言在白板 tldraw 上画图表（.tldr 格式），内置 6 种预设模板，支持基于视觉的自检。可导出 PNG/SVG，支持多智能体协作。",
+    "prompt": "请安装 tldraw-skill：从 https://github.com/Agents365-ai/tldraw-skill 下载文件，保存到 .claude/skills/tldraw-skill/ 目录。",
+    "translatedAt": "2026-05-24T09:22:19.195Z",
+    "backTranslationDiff": 0.4285714285714286
+  },
+  "6eanut/llm-wiki": {
+    "sourceHash": "dc3eed51194e152a",
+    "chineseDescription": "这是一个 Claude Code Skill，用于从源文档构建持久化、相互关联的知识库。知识只需编译一次并保持更新，无需每次查询时重新推导。基于 Karpathy 的 LLM Wiki 模式。",
+    "prompt": "请从 https://github.com/6eanut/llm-wiki 下载文件，并将其保存到 .claude/skills/llm-wiki/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:22:22.657Z",
+    "backTranslationDiff": 0.2272727272727273
+  },
+  "Aboudjem/humanizer-skill": {
+    "sourceHash": "0983be7c6768b097",
+    "chineseDescription": "Claude Code 技能：检测并重写43种AI写作模式，使其更符合人类节奏。包含5种语音配置（voice profiles）、突发性（burstiness）+ 困惑度（perplexity）科学、8种编辑器集成、零依赖。是 @blader/humanizer 的升级版。",
+    "prompt": "请从 https://github.com/Aboudjem/humanizer-skill 下载 humanizer-skill 项目文件，并将其保存到 .claude/skills/humanizer-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:26.880Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "codeaashu/claude-code-info": {
+    "sourceHash": "560138c1ae237dcb",
+    "chineseDescription": "泄露的 Claude Code 源码树文档：claude/src 下每个文件都生成了摘要、导出项、依赖提示和语法高亮的源码预览。",
+    "prompt": "请从 https://github.com/codeaashu/claude-code-info 下载 claude-code-info skill，并将其安装到 .claude/skills/claude-code-info/ 目录下。",
+    "translatedAt": "2026-05-24T09:22:30.421Z",
+    "backTranslationDiff": 0.38888888888888884
+  },
+  "brettdavies/crawl4ai-skill": {
+    "sourceHash": "e4454b99a42fbdac",
+    "chineseDescription": "这是一个用于 Claude AI 的网页抓取（Web scraping）技能。可以爬取网站、通过 CSS/LLM 策略提取结构化数据、处理动态 JavaScript 内容。基于 crawl4ai 构建，包含完整的 SDK 参考、示例脚本和测试。",
+    "prompt": "请从 https://github.com/brettdavies/crawl4ai-skill 下载 crawl4ai-skill 技能文件，并将其保存到 .claude/skills/crawl4ai-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:34.227Z",
+    "backTranslationDiff": 0.09090909090909094
+  },
+  "AgriciDaniel/marketing-skill-pack": {
+    "sourceHash": "7e63912316d37964",
+    "chineseDescription": "一键安装所有 AI Marketing Hub 工具：Claude SEO、Claude Blog、Skill Forge、WP MCP Ultimate。",
+    "prompt": "请从 https://github.com/AgriciDaniel/marketing-skill-pack 下载该仓库的所有文件，并将其保存到 .claude/skills/marketing-skill-pack/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:37.581Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "tomwong001/qingsheng-skill": {
+    "sourceHash": "bed6d47d3d060248",
+    "chineseDescription": "情圣 · Claude Code 中文恋爱教练技能 · 微信/探探/Soul/Bumble/青藤之恋聊天截图分析 · 高情商回复生成 · 7阶段关系推进",
+    "prompt": "请从 https://github.com/tomwong001/qingsheng-skill 下载 qingsheng-skill 技能文件，并保存到 .claude/skills/qingsheng-skill/ 目录完成安装。",
+    "translatedAt": "2026-05-24T09:22:41.350Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "ForteScarlet/codex-kkp": {
+    "sourceHash": "41bf5a55a0961a97",
+    "chineseDescription": "一个 Claude Code 插件，让你能无缝对接 Codex AI Agent，用于代码分析、实现和协作任务。【使用场景】当你需要让 Claude Code 调用 Codex AI Agent 来辅助完成代码审查、自动实现或团队协作时，安装这个 skill 即可。",
+    "prompt": "请从 https://github.com/ForteScarlet/codex-kkp 下载所有文件，并将它们保存到 .claude/skills/codex-kkp/ 目录中，以完成安装。",
+    "translatedAt": "2026-05-24T09:22:45.738Z",
+    "backTranslationDiff": 0.2142857142857143
+  },
+  "lee-fuhr/claude-session-index": {
+    "sourceHash": "d855115a9cc6f598",
+    "chineseDescription": "索引、搜索和分析你的 Claude Code 会话。支持全文搜索、对话检索、统计分析和跨会话综合。",
+    "prompt": "请从 https://github.com/lee-fuhr/claude-session-index 下载 claude-session-index skill 文件，并保存到 .claude/skills/claude-session-index/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:22:48.996Z",
+    "backTranslationDiff": 0.07692307692307687
+  },
+  "AgriciDaniel/planckatron-claude-code": {
+    "sourceHash": "e753de7522fe390d",
+    "chineseDescription": "用并行 AI 工作流（parallel AI workers）加速构建任何项目，它们之间不会冲突。把 .planckatron 文件夹丢进你的项目里，说一句“Planckatron”就能激活。支持前端、后端、全栈、自动化、智能体工作流（agentic workflows）、库和 monorepo。",
+    "prompt": "请从 https://github.com/AgriciDaniel/planckatron-claude-code 下载仓库文件，并保存到 .claude/skills/planckatron-claude-code/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:52.862Z",
+    "backTranslationDiff": 0.28
+  },
+  "LessieAI/lessie-skill": {
+    "sourceHash": "a04e3b467c05beaf",
+    "chineseDescription": "一个用于搜索、筛选和丰富人员及公司信息的 Claude Code/Codex 技能。支持候选人搜寻、B2B 潜在客户生成、联系人信息补全（邮箱、电话、LinkedIn）、公司调研（行业、融资、技术栈、招聘情况），以及人员或组织的背景情报分析。",
+    "prompt": "请从 https://github.com/LessieAI/lessie-skill 下载 lessie-skill 的全部文件，并保存到 .claude/skills/lessie-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:22:56.806Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "SpillwaveSolutions/mastering-typescript-skill": {
+    "sourceHash": "a23535504e00f10e",
+    "chineseDescription": "这是一个面向企业级 TypeScript 开发的 Claude Code 技能，涵盖类型安全模式、现代工具链以及框架集成（React、NestJS）。",
+    "prompt": "请从 https://github.com/SpillwaveSolutions/mastering-typescript-skill 下载 mastering-typescript-skill 技能，并将文件保存到 .claude/skills/mastering-typescript-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:23:00.316Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "eniktab/scientific-paper-writer": {
+    "sourceHash": "2d824bddabfecf75",
+    "chineseDescription": "用于撰写科学论文的技能：在写作前自动获取最新的期刊投稿指南、AI 政策以及 LaTeX 模板。",
+    "prompt": "请从 https://github.com/eniktab/scientific-paper-writer 下载 scientific-paper-writer 技能文件，并将其保存到 .claude/skills/scientific-paper-writer/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:23:03.674Z",
+    "backTranslationDiff": 0.41666666666666663
+  },
+  "Terryc21/tutorial-creator": {
+    "sourceHash": "0026cb2ecdcc5954",
+    "chineseDescription": "从你自己的代码库生成个性化编程教程。一个 Claude Code Skill：三个界面（教程 / 词汇表 / 状态）、六种写作学习条目、面向受众的路径及六种场地模板。v2.0.0 发布于 2026-05-10。",
+    "prompt": "请从 https://github.com/Terryc21/tutorial-creator 下载 tutorial-creator Skill 的所有文件，并保存到 .claude/skills/tutorial-creator/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:07.432Z",
+    "backTranslationDiff": 0.31999999999999995
+  },
+  "AgriciDaniel/ace-claude-code": {
+    "sourceHash": "ede0be01d54ffdfd",
+    "chineseDescription": "为 Claude Code 提供统一的多智能体编排层，支持并行执行、会话持久化和自然语言路由。",
+    "prompt": "请从 https://github.com/AgriciDaniel/ace-claude-code 下载 ace-claude-code skill 文件，并保存到 .claude/skills/ace-claude-code/ 目录下完成安装。",
+    "translatedAt": "2026-05-24T09:23:10.577Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "julilaoshi/flowmotion-skill": {
+    "sourceHash": "d40b2553e9a4220d",
+    "chineseDescription": "FlowMotion Skill / 头脑风暴动态流程图 Skill：把语音笔记、SRT 字幕文本和零散想法，自动整理成结构化的流程规格、连接规格和可直接用于动态图的图表大纲。",
+    "prompt": "请从 https://github.com/julilaoshi/flowmotion-skill 下载 flowmotion-skill 仓库的所有文件，并保存到 .claude/skills/flowmotion-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:14.816Z",
+    "backTranslationDiff": 0.6111111111111112
+  },
+  "lib4u/rufler": {
+    "sourceHash": "8612b230dcbc0d88",
+    "chineseDescription": "🌊 领先的 Claude 智能体编排平台简化封装。可部署多智能体集群、协调自主工作流、构建对话式 AI 系统。具备企业级架构、分布式集群智能、RAG（检索增强生成）集成，以及原生 Claude Code / Codex 集成能力。",
+    "prompt": "请从 https://github.com/lib4u/rufler 下载 rufler skill 文件，并将其保存到 .claude/skills/rufler/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:23:18.873Z",
+    "backTranslationDiff": 0.31034482758620685
+  },
+  "Rorogogogo/claude-cracks-the-whip": {
+    "sourceHash": "46ec5b507de678d4",
+    "chineseDescription": "Claude Code 当老板，其他 AI 代理当打工人。鞭子一响，任务就派出去。这是一个用于向 AI 编程代理（如 Codex、Gemini、Kimi 等）派发任务的技能。",
+    "prompt": "请从 https://github.com/Rorogogogo/claude-cracks-the-whip 下载这个技能，将文件保存到 .claude/skills/claude-cracks-the-whip/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:22.592Z",
+    "backTranslationDiff": 0.3529411764705882
+  },
+  "RazvanGabrielNiculae/picasso-claude-design-claude-code-bridge-loop": {
+    "sourceHash": "ff97831e454e8c55",
+    "chineseDescription": "🎨 Picasso Orchestrator：1. 基于评分门的双向循环：Claude Code ↔ Claude Design。需求 → DESIGN.md → 生成 → 实现 → 评分 → 优化。2. 本地运行，使用 open-design 模式——无需 Pro+ 订阅 · 71 种品牌系统 · 自动检测引擎。【使用场景】适合需要将设计稿与代码实现自动对齐、反复迭代优化的开发流程。",
+    "prompt": "请从 https://github.com/RazvanGabrielNiculae/picasso-claude-design-claude-code-bridge-loop 下载仓库内容，保存到 .claude/skills/picasso-claude-design-claude-code-bridge-loop/ 目录，完成安装。",
+    "translatedAt": "2026-05-24T09:23:27.449Z",
+    "backTranslationDiff": 0.29166666666666663
+  },
+  "1596941391qq/anything-to-md": {
+    "sourceHash": "69507196db9c59f6",
+    "chineseDescription": "将任意文件转换为 LLM 可用的 Markdown 格式——MCP 服务器 + Claude Code Skill",
+    "prompt": "请从 https://github.com/1596941391qq/anything-to-md 下载 anything-to-md Skill 文件，并将其保存到 .claude/skills/anything-to-md/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:23:32.083Z",
+    "backTranslationDiff": 0.125
+  },
+  "AgriciDaniel/claude-gif": {
+    "sourceHash": "185ac34ffb5431ad",
+    "chineseDescription": "Claude Code 的终极 GIF 创作技能。支持 6 种生成管线：Remotion、Veo 3.1、SVG 转透明 GIF、FFmpeg、图像序列、AI 帧。具备调色板优化、完美循环、平台尺寸适配功能。",
+    "prompt": "请从 https://github.com/AgriciDaniel/claude-gif 下载仓库文件，保存到 .claude/skills/claude-gif/ 目录，完成安装。",
+    "translatedAt": "2026-05-24T09:23:36.855Z",
+    "backTranslationDiff": 0.35
+  },
+  "tmssoftware/skills": {
+    "sourceHash": "b94beb60baf1423f",
+    "chineseDescription": "TMS Software 官方提供的 agent skills 合集",
+    "prompt": "请从 https://github.com/tmssoftware/skills 下载 skills 项目，并将所有文件保存到 .claude/skills/skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:40.232Z",
+    "backTranslationDiff": 0.16666666666666663
+  },
+  "DamonChen-anan/autodidact-skill": {
+    "sourceHash": "f2ed841e22bbffaf",
+    "chineseDescription": "一个基于 Karpathy 的 LLM Wiki 构建的自主研究 agent——给它一个主题，它会自动研究互联网并生成结构化的 wiki。",
+    "prompt": "请从 https://github.com/DamonChen-anan/autodidact-skill 下载 autodidact-skill 项目文件，并将其保存到 .claude/skills/autodidact-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-05-24T09:23:44.235Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "Agents365-ai/scholar-deep-research": {
+    "sourceHash": "423340ca6656a4f2",
+    "chineseDescription": "这是一个8阶段的文献综述流水线（pipeline），整合7个联邦数据源（federated sources），支持去重（dedup）、排序检索（ranked retrieval）、引文追踪（citation chasing）、自我批评（self-critique），并生成5种报告模板（report archetypes）。",
+    "prompt": "请从 https://github.com/Agents365-ai/scholar-deep-research 下载 scholar-deep-research skill 的所有文件，并保存到 .claude/skills/scholar-deep-research/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:48.091Z",
+    "backTranslationDiff": 0.23076923076923073
+  },
+  "georgeguimaraes/claude-code-ghost": {
+    "sourceHash": "22c0ca3bfb4a6041",
+    "chineseDescription": "Claude Code 插件，用于管理 Ghost 博客",
+    "prompt": "请从 https://github.com/georgeguimaraes/claude-code-ghost 下载 claude-code-ghost skill 文件，并保存到 .claude/skills/claude-code-ghost/ 目录下，完成安装。",
+    "translatedAt": "2026-05-24T09:23:51.259Z",
+    "backTranslationDiff": 0.16666666666666663
   }
 }
