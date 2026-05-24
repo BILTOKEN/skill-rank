@@ -13,12 +13,14 @@ const allSkills = skillsData as any[];
 const skill = allSkills.find(s => s.repo.replace('/', '-') === slug);
 if (!skill) return Astro.redirect('/');
 
-const tags = skill.tags || [];
+const CAT_NAMES = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具', '测试', '数据'];
+const tags = (skill.tags || []).filter((t: string) => CAT_NAMES.includes(t));
 const m = skill.metrics || {};
 
-// 找同类 Skill：有重叠标签，排除自己，随机取 3 个
+// 找同类：AI 翻译版，取中文分类标签重叠的，排除自己，随机取 3 个
+const filterCat = (ts: string[]) => (ts || []).filter((t: string) => CAT_NAMES.includes(t));
 const related = allSkills
-  .filter(s => s.repo !== skill.repo && s.tags?.some((t: string) => tags.includes(t)))
+  .filter(s => s.repo !== skill.repo && filterCat(s.tags || []).some((t: string) => tags.includes(t)))
   .sort(() => Math.random() - 0.5)
   .slice(0, 3);
 ---
@@ -41,27 +43,19 @@ const related = allSkills
 
     <!-- 数据卡片 -->
     <div class="detail-section">
-      <h2>📊 本周数据</h2>
+      <h2>📊 近 7 天数据</h2>
       <div class="data-grid">
         <div class="data-card">
-          <div class="num">+{m.stars_added_this_week || 0}</div>
-          <div class="lbl">新增 Stars <span class="tip" data-tip="Stars = 收藏数。本周新增的收藏人数，表示这个 Skill 的受欢迎程度">?</span></div>
-        </div>
-        <div class="data-card">
-          <div class="num">{m.issues_opened || 0}</div>
-          <div class="lbl">新开 Issue <span class="tip" data-tip="Issue = 问题反馈。用户在使用中遇到问题或提出建议，新开的 Issue 越多说明用的人越多">?</span></div>
-        </div>
-        <div class="data-card">
-          <div class="num">{m.issues_closed || 0}</div>
-          <div class="lbl">关闭 Issue <span class="tip" data-tip="关闭的 Issue = 已解决的问题。维护者响应越快、关闭越多，说明项目越健康">?</span></div>
+          <div class="num">⭐ {m.stars_total?.toLocaleString() || 0}</div>
+          <div class="lbl">总收藏 <span class="tip" data-tip="该 Skill 在 GitHub 上的总 Stars 数，代表长期受欢迎程度">?</span></div>
         </div>
         <div class="data-card">
           <div class="num">{m.commits_this_week || 0}</div>
-          <div class="lbl">本周 Commit <span class="tip" data-tip="Commit = 代码提交次数。本周维护者提交了多少次代码更新，反映开发活跃度">?</span></div>
+          <div class="lbl">本周提交 <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
         </div>
         <div class="data-card">
-          <div class="num">{m.issue_comments || 0}</div>
-          <div class="lbl">Issue 评论 <span class="tip" data-tip="Issue 评论 = 问题讨论数。用户在 Issue 下面的讨论热度，反映社区参与度">?</span></div>
+          <div class="num">{(m.issues_opened || 0) + (m.issues_closed || 0)}</div>
+          <div class="lbl">Issue 活跃 <span class="tip" data-tip="本周新开 + 关闭的 Issue 总数，反映社区活跃度">?</span></div>
         </div>
       </div>
     </div>
@@ -101,9 +95,9 @@ const related = allSkills
           {related.map((r: any) => (
             <a href={`/skills/${r.repo.replace('/', '-')}`} class="related-card" style="text-decoration:none;color:inherit">
               <div class="related-name">{r.name}</div>
-              <div class="related-desc">{r.description}</div>
+              <div class="related-desc">{r.description_zh || r.description}</div>
               <div class="card-tags" style="margin-top:6px">
-                {r.tags?.map((t: string) => <span class="mini-tag">{t}</span>)}
+                {filterCat(r.tags || []).slice(0, 2).map((t: string) => <span class="mini-tag">{t}</span>)}
               </div>
             </a>
           ))}

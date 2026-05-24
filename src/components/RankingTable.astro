@@ -1,5 +1,5 @@
 ---
-// 卡片式排行组件，替代纯表格
+// 卡片式排行组件
 export interface RankItem {
   rank: number; repo: string; name: string; description: string;
   tags: string[]; starsTotal: number; starsAdded: number;
@@ -7,12 +7,18 @@ export interface RankItem {
   commitsThisWeek: number; score: number; slug: string;
 }
 const { type, skills } = Astro.props as { type: string; skills: RankItem[] };
+
+// 8 个中文分类标签，其他英文 topic 不显示在卡片上
+const CATEGORY_TAGS = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具', '测试', '数据'];
+function showTags(tags: string[]): string[] {
+  return tags.filter(t => CATEGORY_TAGS.includes(t)).slice(0, 2);
+}
 ---
 
 <div class="rank-panel" data-panel={type}>
   <div class="rank-cards">
     {skills.map(s => (
-      <a href={`/skills/${s.slug}`} class="skill-card" data-tags={s.tags.join(',')} style="text-decoration:none;color:inherit">
+      <a href={`/skills/${s.slug}`} class="skill-card" data-tags={s.tags.filter(t => CATEGORY_TAGS.includes(t)).join(',')} style="text-decoration:none;color:inherit">
         <div class={`rank-badge${s.rank <= 3 ? ` r${s.rank}` : ''}`}>{s.rank}</div>
         <div class="card-body">
           <div class="card-title">
@@ -21,7 +27,7 @@ const { type, skills } = Astro.props as { type: string; skills: RankItem[] };
           </div>
           <div class="card-desc">{s.description}</div>
           <div class="card-tags">
-            {s.tags.map(t => <span class="mini-tag">{t}</span>)}
+            {showTags(s.tags).map(t => <span class="mini-tag">{t}</span>)}
           </div>
         </div>
         <div class="card-stats">

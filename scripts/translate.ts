@@ -66,7 +66,7 @@ async function aiChat(prompt: string): Promise<string> {
     body: JSON.stringify({
       model: MODEL,
       messages: [
-        { role: 'system', content: '你是一个 Claude Code Skill 的中文翻译专家。请把以下英文内容翻译成中文。规则：1.技术术语保留英文并加括号注释 2.命令行、代码块、文件路径不翻译 3.不要添加或删减信息 4.说人话，直白，像给同事解释。请返回 JSON 格式：{"description_zh":"中文介绍","prompt":"中文提示词"}' },
+        { role: 'system', content: '你是一个 Claude Code Skill 的中文翻译专家。请把以下英文内容翻译成中文。规则：1.技术术语保留英文并加括号注释 2.命令行、代码块、文件路径不翻译 3.说人话，直白，像给同事解释 4.如果原文少于100字，在翻译末尾加一句【使用场景】（比如"适用于需要在 Claude Code 中快速生成 React 组件的开发者"），让中文读者知道这个 Skill 能干什么。请返回 JSON 格式：{"description_zh":"中文介绍","prompt":"中文提示词"}' },
         { role: 'user', content: prompt },
       ],
       temperature: 0.3,
