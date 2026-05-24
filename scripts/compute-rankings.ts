@@ -1,6 +1,10 @@
 /**
- * 从 metrics.json 读取指标，按 Stars 排序输出三榜。
- * 不搞评分公式，只看 Stars 增量（周/月）和总量。
+ * 从 metrics.json 读取指标，输出三个榜单：
+ *   weekly_growth — 本周增长最快
+ *   active       — 活跃度综合评分
+ *   total        — 总收藏榜
+ *
+ * 同时保存完整结构每日快照到 data/snapshots/YYYY-MM-DD.json。
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
@@ -9,20 +13,69 @@ const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
 
 interface Metrics {
   repo: string; name: string; description: string; tags: string[];
-  stars_total: number; stars_added_this_week: number; stars_prev_week: number;
-  issues_opened: number; issues_closed: number; issue_comments: number;
-  commits_this_week: number; last_push: string;
+  stars_total: number; stars_added_7d: number;
+  issues_opened_7d: number; issues_closed_7d: number; issue_comments: number;
+  commits_7d: number; commits_capped: boolean; last_push: string;
+  pool: string;
 }
 
 interface RankItem {
   repo: string; name: string; description: string; tags: string[];
-  stars_total: number; stars_added_this_week: number;
-  stars_added_this_month: number;
-  issues_opened: number; issues_closed: number; issue_comments: number;
-  commits_this_week: number;
+  stars_total: number; stars_added_7d: number;
+  issues_opened_7d: number; issues_closed_7d: number; issue_comments: number;
+  commits_7d: number; commits_capped: boolean;
+  last_push: string; pool: string; quality_flags: string[];
+  activity_score?: number;
+}
+
+interface SnapshotSkill {
+  repo: string; name: string;
+  stars_total: number; stars_added_7d: number;
+  issues_opened_7d: number; issues_closed_7d: number;
+  commits_7d: number; commits_capped: boolean;
+  last_push: string; pool: string; quality_flags: string[];
 }
 
 function log(msg: string) { console.log(`[compute-rankings] ${msg}`); }
+
+function calcRecentPushBonus(lastPush: string): number {
+  if (!lastPush) return 0;
+  const pushed = new Date(lastPush).getTime();
+  const daysAgo = (Date.now() - pushed) / (24 * 60 * 60 * 1000);
+  if (daysAgo <= 7) return 5;
+  if (daysAgo <= 30) return 2;
+  return 0;
+}
+
+function calcActivityScore(m: Metrics): number {
+  return (
+    m.issues_opened_7d * 1 +
+    m.issues_closed_7d * 0.8 +
+    m.commits_7d * 0.3 +
+    calcRecentPushBonus(m.last_push)
+  );
+}
+
+function toRankItem(m: Metrics, qualityFlags: string[]): RankItem {
+  return {
+    repo: m.repo, name: m.name, description: m.description, tags: m.tags,
+    stars_total: m.stars_total, stars_added_7d: m.stars_added_7d,
+    issues_opened_7d: m.issues_opened_7d, issues_closed_7d: m.issues_closed_7d,
+    issue_comments: m.issue_comments || 0,
+    commits_7d: m.commits_7d, commits_capped: m.commits_capped,
+    last_push: m.last_push, pool: m.pool, quality_flags: qualityFlags,
+  };
+}
+
+function toSnapshotSkill(m: Metrics, qualityFlags: string[]): SnapshotSkill {
+  return {
+    repo: m.repo, name: m.name,
+    stars_total: m.stars_total, stars_added_7d: m.stars_added_7d,
+    issues_opened_7d: m.issues_opened_7d, issues_closed_7d: m.issues_closed_7d,
+    commits_7d: m.commits_7d, commits_capped: m.commits_capped,
+    last_push: m.last_push, pool: m.pool, quality_flags: qualityFlags,
+  };
+}
 
 async function main() {
   const metricsPath = resolve(DATA_DIR, 'metrics.json');
@@ -31,76 +84,110 @@ async function main() {
     process.exit(1);
   }
 
-  const metrics: Metrics[] = JSON.parse(readFileSync(metricsPath, 'utf-8'));
-  // 按 candidates.json 过滤，只收录精选池里的
-  const candidatesPath = resolve(DATA_DIR, 'candidates.json');
-  const candidates: Set<string> = existsSync(candidatesPath)
-    ? new Set(JSON.parse(readFileSync(candidatesPath, 'utf-8')).map((c: any) => c.repo.toLowerCase()))
-    : new Set();
-  const filtered = metrics.filter(m => candidates.has(m.repo.toLowerCase()));
-  log(`读取 ${metrics.length} 条指标，匹配 candidates ${filtered.length} 条`);
+  const rawMetrics: any[] = JSON.parse(readFileSync(metricsPath, 'utf-8'));
 
-  // 计算周/月增量：从快照找 7/30 天前的数据
-  const today = new Date().toISOString().slice(0, 10);
-  const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const thirtyDaysAgo = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+  // 兼容旧 metrics.json 字段名 → 新字段名
+  const metrics: Metrics[] = rawMetrics.map((m: any) => ({
+    repo: m.repo,
+    name: m.name,
+    description: m.description || '',
+    tags: m.tags || [],
+    stars_total: m.stars_total || 0,
+    stars_added_7d: m.stars_added_7d ?? m.stars_added_this_week ?? 0,
+    issues_opened_7d: m.issues_opened_7d ?? m.issues_opened ?? 0,
+    issues_closed_7d: m.issues_closed_7d ?? m.issues_closed ?? 0,
+    issue_comments: m.issue_comments || 0,
+    commits_7d: m.commits_7d ?? m.commits_this_week ?? 0,
+    commits_capped: m.commits_capped ?? false,
+    last_push: m.last_push || '',
+    pool: m.pool || '',
+  }));
 
-  function loadSnapshot(date: string): Record<string, number> {
-    const p = resolve(DATA_DIR, 'snapshots', `${date}.json`);
-    if (!existsSync(p)) return {};
-    return Object.fromEntries(
-      JSON.parse(readFileSync(p, 'utf-8')).skills?.map((s: any) => [s.repo, s.stars_total]) || []
-    );
+  // 读取 ranked / watchlist 获取 quality_flags（skillEvidence）
+  function loadPool(path: string): Map<string, string[]> {
+    const map = new Map<string, string[]>();
+    if (existsSync(path)) {
+      const items = JSON.parse(readFileSync(path, 'utf-8'));
+      for (const item of items) {
+        const flags: string[] = [];
+        if (item.skillEvidence) flags.push(item.skillEvidence);
+        if (item.source) flags.push(`source:${item.source}`);
+        map.set(item.repo.toLowerCase(), flags);
+      }
+    }
+    return map;
   }
-  const weekSnapshot = loadSnapshot(sevenDaysAgo);
-  const monthSnapshot = loadSnapshot(thirtyDaysAgo);
-  const hasWeekSnapshot = Object.keys(weekSnapshot).length > 0;
+  const rankedFlags = loadPool(resolve(DATA_DIR, 'ranked.json'));
+  const watchlistFlags = loadPool(resolve(DATA_DIR, 'watchlist.json'));
 
-  function toItem(m: Metrics): RankItem {
-    const weekStars = weekSnapshot[m.repo] !== undefined
-      ? Math.max(0, m.stars_total - weekSnapshot[m.repo])
-      : m.stars_added_this_week;
-    const monthStars = monthSnapshot[m.repo] !== undefined
-      ? Math.max(0, m.stars_total - monthSnapshot[m.repo])
-      : m.stars_added_this_week;
-    return {
-      repo: m.repo, name: m.name, description: m.description, tags: m.tags,
-      stars_total: m.stars_total,
-      stars_added_this_week: weekStars,
-      stars_added_this_month: monthStars,
-      issues_opened: m.issues_opened, issues_closed: m.issues_closed,
-      issue_comments: m.issue_comments, commits_this_week: m.commits_this_week,
-    };
+  // 旧 metrics 没有 pool 字段，从 ranked/watchlist 回填
+  const rankedRepos = new Set(Array.from(rankedFlags.keys()));
+  const watchlistRepos = new Set(Array.from(watchlistFlags.keys()));
+  for (const m of metrics) {
+    if (!m.pool) {
+      const key = m.repo.toLowerCase();
+      if (rankedRepos.has(key)) m.pool = 'ranked';
+      else if (watchlistRepos.has(key)) m.pool = 'watchlist';
+    }
   }
 
-  const items = filtered.map(toItem);
+  function getQualityFlags(repo: string, pool: string): string[] {
+    const key = repo.toLowerCase();
+    if (pool === 'ranked') return rankedFlags.get(key) || [];
+    if (pool === 'watchlist') return watchlistFlags.get(key) || [];
+    return [];
+  }
 
-  // 周榜：有 7 天快照按 stars 增量排，没有按 commits 排（过渡期）
-  const weeklySorted = [...items].sort((a, b) => {
-    if (hasWeekSnapshot) return b.stars_added_this_week - a.stars_added_this_week;
-    // 提交数相同则按总 stars 兜底
-    return b.commits_this_week - a.commits_this_week || b.stars_total - a.stars_total;
-  });
+  const items: RankItem[] = metrics.map(m => toRankItem(m, getQualityFlags(m.repo, m.pool)));
+
+  // weekly_growth：stars_added_7d desc → commits_7d desc → stars_total desc
+  const weeklyGrowth = [...items].sort((a, b) =>
+    b.stars_added_7d - a.stars_added_7d ||
+    b.commits_7d - a.commits_7d ||
+    b.stars_total - a.stars_total
+  );
+
+  // active：activity_score desc
+  const active = [...items]
+    .map(item => ({ ...item, activity_score: calcActivityScore(item) }))
+    .sort((a, b) => (b.activity_score || 0) - (a.activity_score || 0));
+
+  // total：stars_total desc
+  const total = [...items].sort((a, b) => b.stars_total - a.stars_total);
 
   const rankings = {
     last_update: new Date().toISOString().replace('T', ' ').slice(0, 16),
-    weekly: weeklySorted,
-    monthly: [...items].sort((a, b) => b.stars_added_this_month - a.stars_added_this_month),
-    total: [...items].sort((a, b) => b.stars_total - a.stars_total),
+    weekly_growth: weeklyGrowth,
+    active,
+    total,
   };
 
   writeFileSync(resolve(DATA_DIR, 'rankings.json'), JSON.stringify(rankings, null, 2));
-  log(`rankings.json 已写入（周榜 ${rankings.weekly.length} / 月榜 ${rankings.monthly.length} / 总榜 ${rankings.total.length}）`);
+  log(`rankings.json 已写入（增长榜 ${weeklyGrowth.length} / 活跃榜 ${active.length} / 总榜 ${total.length}）`);
 
-  // 保存今日快照（给日后算周/月增量用）
+  // 保存完整结构快照
+  const today = new Date().toISOString().slice(0, 10);
   const snapshotsDir = resolve(DATA_DIR, 'snapshots');
   if (!existsSync(snapshotsDir)) mkdirSync(snapshotsDir, { recursive: true });
+
+  // 统计各池子数量
+  const candidatesPath = resolve(DATA_DIR, 'candidates.json');
+  const failedPath = resolve(DATA_DIR, 'candidates-failed.json');
+  const stats = {
+    candidates: existsSync(candidatesPath) ? JSON.parse(readFileSync(candidatesPath, 'utf-8')).length : 0,
+    ranked: existsSync(resolve(DATA_DIR, 'ranked.json')) ? JSON.parse(readFileSync(resolve(DATA_DIR, 'ranked.json'), 'utf-8')).length : 0,
+    watchlist: existsSync(resolve(DATA_DIR, 'watchlist.json')) ? JSON.parse(readFileSync(resolve(DATA_DIR, 'watchlist.json'), 'utf-8')).length : 0,
+    failed: existsSync(failedPath) ? JSON.parse(readFileSync(failedPath, 'utf-8')).length : 0,
+  };
+
   const snapshot = {
     date: today,
-    skills: filtered.map(m => ({ repo: m.repo, stars_total: m.stars_total })),
+    generated_at: new Date().toISOString(),
+    stats,
+    skills: metrics.map(m => toSnapshotSkill(m, getQualityFlags(m.repo, m.pool))),
   };
-  writeFileSync(resolve(snapshotsDir, `${today}.json`), JSON.stringify(snapshot));
-  log(`快照 ${today}.json 已保存`);
+  writeFileSync(resolve(snapshotsDir, `${today}.json`), JSON.stringify(snapshot, null, 2));
+  log(`快照 ${today}.json 已保存（${snapshot.skills.length} 条完整指标）`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

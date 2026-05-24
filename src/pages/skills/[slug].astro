@@ -24,13 +24,13 @@ function buildRankMap(list: any[]) {
   (list || []).forEach((item: any, i: number) => map.set(item.repo, i + 1));
   return map;
 }
-const weeklyMap = buildRankMap(rankings.weekly);
-const monthlyMap = buildRankMap(rankings.monthly);
+const weeklyMap = buildRankMap(rankings.weekly_growth);
+const activeMap = buildRankMap(rankings.active);
 const totalMap = buildRankMap(rankings.total);
 
 const rankInfo = {
   weekly: weeklyMap.get(skill.repo),
-  monthly: monthlyMap.get(skill.repo),
+  active: activeMap.get(skill.repo),
   total: totalMap.get(skill.repo),
 };
 
@@ -66,10 +66,10 @@ const related = allSkills
           <span class="rank-num">#{rankInfo.weekly}</span>
         </div>
       ) : null}
-      {rankInfo.monthly ? (
+      {rankInfo.active ? (
         <div class="rank-item">
-          <span class="rank-label">📅 本月热门</span>
-          <span class="rank-num">#{rankInfo.monthly}</span>
+          <span class="rank-label">⚡ 活跃榜</span>
+          <span class="rank-num">#{rankInfo.active}</span>
         </div>
       ) : null}
       {rankInfo.total ? (
@@ -85,11 +85,11 @@ const related = allSkills
       <h2>📊 近 7 天数据</h2>
       <div class="data-grid">
         <div class="data-card">
-          <div class="num">{m.stars_added_this_week || 0}</div>
+          <div class="num">{m.stars_added_7d || 0}</div>
           <div class="lbl">本周新增 Stars <span class="tip" data-tip="本周新增的 Stars 收藏数，反映短期热度">?</span></div>
         </div>
         <div class="data-card">
-          <div class="num">{m.commits_this_week || 0}</div>
+          <div class="num">{m.commits_7d || 0}</div>
           <div class="lbl">本周提交 <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
         </div>
         <div class="data-card highlight">

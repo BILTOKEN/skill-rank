@@ -22,9 +22,10 @@ const MAX_SKILLS_PER_RUN = parseInt(process.env.MAX_TRANSLATE || '50'); // 每�
 
 interface RankItem {
   repo: string; name: string; description: string; tags: string[];
-  stars_total: number; stars_added_this_week: number;
-  issues_opened: number; issues_closed: number; issue_comments: number;
-  commits_this_week: number; score: number;
+  stars_total: number; stars_added_7d: number;
+  issues_opened_7d_7d: number; issues_closed_7d_7d: number; issue_comments: number;
+  commits_7d: number; commits_capped: boolean;
+  activity_score?: number;
 }
 
 interface SkillData {
@@ -32,9 +33,9 @@ interface SkillData {
   description_zh: string; description_en: string; prompt: string;
   tags: string[];
   metrics: {
-    stars_total: number; stars_added_this_week: number;
-    issues_opened: number; issues_closed: number; issue_comments: number;
-    commits_this_week: number; last_push: string;
+    stars_total: number; stars_added_7d: number;
+    issues_opened_7d: number; issues_closed_7d: number; issue_comments: number;
+    commits_7d: number; last_push: string;
   };
 }
 
@@ -123,7 +124,7 @@ async function main() {
 
   const rankings = JSON.parse(readFileSync(rankingsPath, 'utf-8'));
   const allSkills: RankItem[] = [
-    ...(rankings.total || rankings.weekly || []),
+    ...(rankings.total || rankings.weekly_growth || []),
   ];
 
   // 去重
@@ -172,11 +173,11 @@ async function main() {
         tags: skill.tags || [],
         metrics: {
           stars_total: skill.stars_total,
-          stars_added_this_week: skill.stars_added_this_week,
-          issues_opened: skill.issues_opened,
-          issues_closed: skill.issues_closed,
+          stars_added_7d: skill.stars_added_7d,
+          issues_opened_7d: skill.issues_opened_7d,
+          issues_closed_7d: skill.issues_closed_7d,
           issue_comments: skill.issue_comments,
-          commits_this_week: skill.commits_this_week,
+          commits_7d: skill.commits_7d,
           last_push: '',
         },
         ...(existing && { metrics: existing.metrics }),
@@ -212,11 +213,11 @@ async function main() {
         tags: skill.tags || [],
         metrics: {
           stars_total: skill.stars_total,
-          stars_added_this_week: skill.stars_added_this_week,
-          issues_opened: skill.issues_opened,
-          issues_closed: skill.issues_closed,
+          stars_added_7d: skill.stars_added_7d,
+          issues_opened_7d: skill.issues_opened_7d,
+          issues_closed_7d: skill.issues_closed_7d,
           issue_comments: skill.issue_comments,
-          commits_this_week: skill.commits_this_week,
+          commits_7d: skill.commits_7d,
           last_push: '',
         },
       });
@@ -235,11 +236,11 @@ async function main() {
         tags: skill.tags || [],
         metrics: {
           stars_total: skill.stars_total,
-          stars_added_this_week: skill.stars_added_this_week,
-          issues_opened: skill.issues_opened,
-          issues_closed: skill.issues_closed,
+          stars_added_7d: skill.stars_added_7d,
+          issues_opened_7d: skill.issues_opened_7d,
+          issues_closed_7d: skill.issues_closed_7d,
           issue_comments: skill.issue_comments,
-          commits_this_week: skill.commits_this_week,
+          commits_7d: skill.commits_7d,
           last_push: '',
         },
       });

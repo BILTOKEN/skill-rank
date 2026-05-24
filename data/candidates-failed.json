@@ -1,37 +1,652 @@
 [
-  "user-attachments/assets: 404",
-  "voidborne-d/humanize-chinese: 404",
-  "op7418/youtube-clipper-skill: 无描述",
-  "robzolkos/skill-rails-upgrade: 无描述",
-  "joannis/claude-skills: 无描述",
-  "cloudai-x/threejs-skills: 无描述",
-  "hamelsmu/prompts: 404",
-  "shunsukehayashi/agent-skill-bus: 404",
-  "jeffersonwarrior/claudisms: 404",
-  "shadowpr0/security-bluebook-builder: 无描述",
-  "en/copilot: 404",
-  "anthropics/claude-agent-sdk-python: 无描述",
-  "features/copilot: 404",
-  "mturac/recsys-pipeline-architect: Stars<3 (0)",
-  "codeshux/mockhunter: Stars<3 (0)",
-  "commitshow/production-audit: Stars<3 (1)",
-  "pumanitro/global-chat: 404",
-  "milkomida77/guardian-agent-prompts: 404",
-  "elkidogz/technical-change-skill: Stars<3 (2)",
-  "mrprewsh/seo-aeo-engine: 404",
-  "lewiswigmore/agent-skills: Stars<3 (1)",
-  "slashworks-biz/idea-os: Stars<3 (1)",
-  "wittlesus/cursorrules-pro: Stars<3 (2)",
-  "almogbaku/debug-skill: 无描述",
-  "aptratcn/skill-audit: Stars<3 (2)",
-  "christopherlhammer11-ai/tool-use-guardian: Stars<3 (2)",
-  "christopherlhammer11-ai/recallmax: Stars<3 (2)",
-  "tsilverberg/webapp-uat: Stars<3 (0)",
-  "fruitwyatt/puzzle-activity-planner: Stars<3 (1)",
-  "urrhb/agentflow: Stars<3 (2)",
-  "voidborne-d/lambda-lang: 404",
-  "codeshux/tokenwise: Stars<3 (1)",
-  "apps/github-actions: 404",
-  "apps/copilot-swe-agent: 404",
-  "apps/dependabot: 404"
+  {
+    "repo": "user-attachments/assets",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "voidborne-d/humanize-chinese",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "op7418/youtube-clipper-skill",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "robzolkos/skill-rails-upgrade",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "joannis/claude-skills",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "cloudai-x/threejs-skills",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "hamelsmu/prompts",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "shunsukehayashi/agent-skill-bus",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "jeffersonwarrior/claudisms",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "shadowpr0/security-bluebook-builder",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "en/copilot",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "anthropics/claude-agent-sdk-python",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "features/copilot",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "mturac/recsys-pipeline-architect",
+    "reason": "Stars<3 (0)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "codeshux/mockhunter",
+    "reason": "Stars<3 (0)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "commitshow/production-audit",
+    "reason": "Stars<3 (1)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "pumanitro/global-chat",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "milkomida77/guardian-agent-prompts",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "elkidogz/technical-change-skill",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "mrprewsh/seo-aeo-engine",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "lewiswigmore/agent-skills",
+    "reason": "Stars<3 (1)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "slashworks-biz/idea-os",
+    "reason": "Stars<3 (1)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "wittlesus/cursorrules-pro",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "almogbaku/debug-skill",
+    "reason": "无描述",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "aptratcn/skill-audit",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "christopherlhammer11-ai/tool-use-guardian",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "christopherlhammer11-ai/recallmax",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "tsilverberg/webapp-uat",
+    "reason": "Stars<3 (0)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "fruitwyatt/puzzle-activity-planner",
+    "reason": "Stars<3 (1)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "urrhb/agentflow",
+    "reason": "Stars<3 (2)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "voidborne-d/lambda-lang",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "codeshux/tokenwise",
+    "reason": "Stars<3 (1)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "apps/github-actions",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "apps/copilot-swe-agent",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "apps/dependabot",
+    "reason": "404",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "opencode-ai/opencode",
+    "reason": "不满足 ranked/watchlist 标准",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "pleaseprompto/notebooklm-skill",
+    "reason": "不满足 ranked/watchlist 标准",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "obra/superpowers-skills",
+    "reason": "不满足 ranked/watchlist 标准",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "chrisvoncsefalvay/claude-d3js-skill",
+    "reason": "不满足 ranked/watchlist 标准",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "jthack/ffuf_claude_skill",
+    "reason": "不满足 ranked/watchlist 标准",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "trycourier/courier-skills",
+    "reason": "Stars<10 (9)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "pspdfkit-labs/nutrient-agent-skill",
+    "reason": "Stars<10 (9)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "nedcodes-ok/rule-porter",
+    "reason": "Stars<10 (8)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "agent-cards/skill",
+    "reason": "Stars<10 (8)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "efremidze/swift-patterns-skill",
+    "reason": "Stars<10 (7)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "ejentum/ejentum-mcp",
+    "reason": "Stars<10 (7)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "whatiskadudoing/fp-ts-skills",
+    "reason": "Stars<10 (7)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "scopeblind/scopeblind-gateway",
+    "reason": "Stars<10 (6)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "cyberzenithx/rich-elicitation-skill",
+    "reason": "Stars<10 (6)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "connerlambden/helium-mcp",
+    "reason": "Stars<10 (5)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "hyhmrright/logic-lens",
+    "reason": "Stars<10 (5)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "uxuiprinciples/agent-skills",
+    "reason": "Stars<10 (4)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "buywhere/buywhere-mcp",
+    "reason": "Stars<10 (3)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "warmskull/idea-darwin",
+    "reason": "Stars<10 (3)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "wolfe-jam/faf-skills",
+    "reason": "Stars<10 (3)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "flyingsquirrel0419/squirrel-skill",
+    "reason": "Stars<10 (3)",
+    "checkedAt": "2026-05-24T17:12:35.763Z"
+  },
+  {
+    "repo": "obra/superpowers",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "ultraworkers/claw-code",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "nousresearch/hermes-agent",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "multica-ai/andrej-karpathy-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "anthropics/skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "github/spec-kit",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "msitarzewski/agency-agents",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "google-gemini/gemini-cli",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "mattpocock/skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "openai/codex",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "farion1231/cc-switch",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "thedotmack/claude-mem",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "juliusbrussee/caveman",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "gsd-build/get-shit-done",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "shareai-lab/learn-claude-code",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "code-yeongyu/oh-my-openagent",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "vercel-labs/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "k-dense-ai/claude-scientific-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "lum1104/understand-anything",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "leonxlnx/taste-skill",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "phuryn/pm-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "zechenzhangagi/ai-research-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "orchestra-research/ai-research-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "kreuzberg-dev/kreuzberg",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "google-gemini/gemini-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "avdlee/swiftui-agent-skill",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "supabase/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "apify/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "minimax-ai/cli",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "ibelick/ui-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "neolabhq/context-engineering-kit",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "prompt-security/clawsec",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "resciencelab/opc-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "vibeforge1111/vibeship-spawner-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "rudrankriyam/app-store-connect-cli-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "alinaqi/claude-bootstrap",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "realkimbarrett/advertising-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "paramchoudhary/resumeskills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "komal-skynet/claude-skill-homeassistant",
+    "reason": "无 README",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "makenotion/claude-code-notion-plugin",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "ehmo/platform-design-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "obra/superpowers-lab",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "charlie85270/dorothy",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "lambdatest/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "zxkane/aws-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "bitwize-music-studio/claude-ai-music-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "resend/resend-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "gokapso/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "degausai/wonda",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "kubestellar/console",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "jonathimer/devmarketing-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "openaccountants/openaccountants",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "neondatabase/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "xquik-dev/tweetclaw",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "redis/agent-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "luoyuctl/agenttrace",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "mohamedabdallah-14/unslop",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "shmlkv/dna-claude-analysis",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "shadowpr0/beautiful_prose",
+    "reason": "无 README",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "takechanman1228/claude-ecom",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "honeydew-ai/honeydew-ai-coding-agents-plugins",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "yikuansun/photopeaapi",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "rameerez/claude-code-startup-skills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "hanfang/claude-memory-skill",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "uberskillsdev/uberskills",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "ramzesenok/ios-accessibility-audit-skill",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "jackjin1997/clawforge",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "leonardomso/33-js-concepts",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "anthropics/claude-cookbooks",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "skyvern-ai/skyvern",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "huifer/claude-ally-health",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "huifer/wellally-health",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "hyhmrright/brooks-lint",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  },
+  {
+    "repo": "makenotion/notion-cookbook",
+    "reason": "非 Claude Code Skill 本体",
+    "checkedAt": "2026-05-24T17:30:53.122Z"
+  }
 ]

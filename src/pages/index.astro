@@ -12,25 +12,22 @@ const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', 
 // 建立 repo → 中文简介 / 提示词 的映射
 const zhMap = new Map(skillsMeta.map((s: any) => [s.repo, s.description_zh || '']));
 
-function toItems(list: typeof rankings.weekly): RankItem[] {
+function toItems(list: typeof rankings.weekly_growth): RankItem[] {
   return list.map((s, i) => ({
     rank: i + 1, repo: s.repo, name: s.name,
-    // 优先用 AI 翻译的中文简介，没有就保留英文
     description: zhMap.get(s.repo) || s.description,
     tags: s.tags || [],
-    starsTotal: s.stars_total, starsAdded: s.stars_added_this_week,
-    commitsThisWeek: s.commits_this_week,
+    starsTotal: s.stars_total, starsAdded: s.stars_added_7d,
+    commitsThisWeek: s.commits_7d,
     slug: s.repo.replace('/', '-'),
   }));
 }
 
-const weeklySkills = toItems(rankings.weekly);
-const monthlySkills = toItems(rankings.monthly);
+const weeklySkills = toItems(rankings.weekly_growth);
+const activeSkills = toItems(rankings.active);
 const totalSkills = toItems(rankings.total);
 
-// 统计数字
 const skillCount = totalSkills.length;
-// 近 7 天有新增 Stars 或 Commit 活动的 Skill
 const activeThisWeek = totalSkills.filter(s => s.starsAdded > 0 || s.commitsThisWeek > 0).length;
 const topRepo = totalSkills[0]?.name || '—';
 ---
@@ -68,13 +65,13 @@ const topRepo = totalSkills[0]?.name || '—';
 
     <!-- 榜单切换 -->
     <div class="rank-tabs" id="rank-tabs">
-      <button class="rank-tab active" data-tab="weekly">🔥 7天热门</button>
-      <button class="rank-tab" data-tab="monthly">📅 本月热门</button>
+      <button class="rank-tab active" data-tab="weekly_growth">📈 本周增长</button>
+      <button class="rank-tab" data-tab="active">⚡ 活跃榜</button>
       <button class="rank-tab" data-tab="total">🏆 总榜</button>
     </div>
 
-    <RankingTable type="weekly" skills={weeklySkills} />
-    <RankingTable type="monthly" skills={monthlySkills} />
+    <RankingTable type="weekly_growth" skills={weeklySkills} />
+    <RankingTable type="active" skills={activeSkills} />
     <RankingTable type="total" skills={totalSkills} />
 
     <!-- 周报引流 -->

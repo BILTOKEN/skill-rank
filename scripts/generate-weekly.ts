@@ -65,12 +65,12 @@ async function main() {
 
   // 读取当前排行榜
   const rankings = JSON.parse(readFileSync(resolve(DATA_DIR, 'rankings.json'), 'utf-8'));
-  const weeklyTop10 = (rankings.weekly || []).slice(0, 10);
+  const weeklyTop10 = (rankings.weekly_growth || []).slice(0, 10);
   const totalTop5 = (rankings.total || []).slice(0, 5);
 
   // 构建提示
   const skillList = weeklyTop10.map((s: any, i: number) =>
-    `${i + 1}. **${s.name}** (${s.repo}) — ⭐${s.stars_total} 总收藏 | +${s.stars_added_this_week} 本周新增 | ${s.commits_this_week} 次提交`
+    `${i + 1}. **${s.name}** (${s.repo}) — ⭐${s.stars_total} 总收藏 | +${s.stars_added_7d} 本周新增 | ${s.commits_7d} 次提交`
   ).join('\n');
 
   const totalList = totalTop5.map((s: any, i: number) =>

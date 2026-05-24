@@ -1,7 +1,10 @@
 /**
- * 从 candidates.json 读取仓库列表，获取 Stars、Issues、Commits 指标。
+ * 从 ranked.json（全量）和 watchlist.json（每日最多 100 个）读取仓库列表，
+ * 获取 Stars、Issues、Commits 指标。
  *
- * 不抓 Issue 评论（API 太贵，每个 Issue 一次调用，权重只占 0.3）。
+ * failed 池不参与每日指标更新。
+ * commits 取 per_page=30，当返回恰好 30 条时标记 commits_capped: true。
+ *
  * 增量：记录上次获取时间，日更时跳过 24 小时内有数据的仓库。
  *
  * 环境变量：
@@ -24,9 +27,10 @@ if (TOKEN) HEADERS['Authorization'] = `Bearer ${TOKEN}`;
 
 interface Metrics {
   repo: string; name: string; description: string; tags: string[];
-  stars_total: number; stars_added_this_week: number;
-  issues_opened: number; issues_closed: number; issue_comments: number;
-  commits_this_week: number; last_push: string;
+  stars_total: number; stars_added_7d: number;
+  issues_opened_7d: number; issues_closed_7d: number; issue_comments: number;
+  commits_7d: number; commits_capped: boolean; last_push: string;
+  pool: string;
 }
 
 function log(msg: string) { console.log(`[fetch-metrics] ${msg}`); }
@@ -55,7 +59,7 @@ async function getMetric(repo: string, prevStars?: number): Promise<Metrics | nu
   // 1. 仓库基本信息（含 stars）
   const info = await fetchJson(`https://api.github.com/repos/${owner}/${name}`);
 
-  // 2. Issues 开关数（不爬评论，太贵）
+  // 2. Issues 开关数（不爬评论）
   const issuesUrl = `https://api.github.com/repos/${owner}/${name}/issues?since=${weekAgo}&state=all&per_page=30`;
   const issues = await fetchJson(issuesUrl);
   const realIssues = (Array.isArray(issues) ? issues : []).filter((i: any) => !i.pull_request);
@@ -64,7 +68,7 @@ async function getMetric(repo: string, prevStars?: number): Promise<Metrics | nu
     (i: any) => i.closed_at && new Date(i.closed_at) >= new Date(weekAgo)
   ).length;
 
-  // 3. Commits
+  // 3. Commits（per_page=30，满了标记 capped）
   const commits = await fetchJson(
     `https://api.github.com/repos/${owner}/${name}/commits?since=${weekAgo}&per_page=30`
   );
@@ -83,24 +87,44 @@ async function getMetric(repo: string, prevStars?: number): Promise<Metrics | nu
   return {
     repo, name: info.name || name, description: info.description || '',
     tags: topics.map((t: string) => tagMap[t] || t).filter(Boolean),
-    stars_total: starsTotal, stars_added_this_week: starsAdded,
-    stars_prev_week: prevStars ?? starsTotal,
-    issues_opened: opened, issues_closed: closed,
-    issue_comments: 0, // 不抓，节省 API
-    commits_this_week: commitsCount,
+    stars_total: starsTotal, stars_added_7d: starsAdded,
+    issues_opened_7d: opened, issues_closed_7d: closed,
+    issue_comments: 0,
+    commits_7d: commitsCount,
+    commits_capped: commitsCount === 30,
     last_push: info.pushed_at || '',
+    pool: '', // 后面根据来源补充
   };
 }
 
 async function main() {
-  const candidatesPath = resolve(DATA_DIR, 'candidates.json');
-  if (!existsSync(candidatesPath)) {
-    log('candidates.json 不存在，请先运行 fetch-skills');
+  // 读取 ranked.json（全量）
+  const rankedPath = resolve(DATA_DIR, 'ranked.json');
+  const watchlistPath = resolve(DATA_DIR, 'watchlist.json');
+
+  if (!existsSync(rankedPath)) {
+    log('ranked.json 不存在，请先运行 rebuild-candidates');
     process.exit(1);
   }
 
-  const candidates: Array<{repo: string}> = JSON.parse(readFileSync(candidatesPath, 'utf-8'));
-  log(`共 ${candidates.length} 个候选仓库`);
+  const ranked: Array<{repo: string}> = JSON.parse(readFileSync(rankedPath, 'utf-8'));
+  log(`ranked 主榜: ${ranked.length} 个`);
+
+  // watchlist 每日最多 100 个，按 stars 降序取
+  let watchlist: Array<{repo: string; stars?: number}> = [];
+  if (existsSync(watchlistPath)) {
+    const raw = JSON.parse(readFileSync(watchlistPath, 'utf-8'));
+    raw.sort((a: any, b: any) => (b.stars || 0) - (a.stars || 0));
+    watchlist = raw.slice(0, 100);
+    log(`watchlist 观察池: ${raw.length} 个，今日更新前 ${watchlist.length} 个`);
+  }
+
+  // 合并，ranked 在前
+  const allRepos = [
+    ...ranked.map(r => ({ repo: r.repo, pool: 'ranked' })),
+    ...watchlist.map(r => ({ repo: r.repo, pool: 'watchlist' })),
+  ];
+  log(`待更新总计: ${allRepos.length} 个（ranked ${ranked.length} + watchlist ${watchlist.length}）`);
 
   // 增量：已有 metrics 的仓库 24 小时内不重抓
   const metricsPath = resolve(DATA_DIR, 'metrics.json');
@@ -127,10 +151,10 @@ async function main() {
     : {};
 
   // 过滤出需要获取的仓库
-  const todo = candidates.filter(c => !existingMetrics[c.repo]);
+  const todo = allRepos.filter(c => !existingMetrics[c.repo]);
   const MAX_METRICS = parseInt(process.env.MAX_METRICS || '0') || todo.length;
   const todoList = todo.slice(0, MAX_METRICS);
-  log(`需要获取指标: ${todoList.length} 个（跳过 ${candidates.length - todoList.length} 个已有数据）`);
+  log(`需要获取指标: ${todoList.length} 个（跳过 ${allRepos.length - todoList.length} 个已有数据）`);
 
   if (todoList.length === 0) {
     log('没有需要更新的仓库');
@@ -143,7 +167,6 @@ async function main() {
   let checked = 0;
 
   for (let i = 0; i < todoList.length; i += BATCH) {
-    // 限额检查
     const remain = await getRateRemaining();
     if (remain < BATCH * 5) {
       log(`API 余额不足 (${remain})，暂停。已获取 ${newMetrics.length} 个`);
@@ -158,6 +181,7 @@ async function main() {
       try {
         const m = await getMetric(c.repo, prevSnapshot[c.repo]);
         if (m) {
+          m.pool = c.pool;
           (m as any).fetchedAt = new Date().toISOString();
           newMetrics.push(m);
         }
@@ -172,9 +196,8 @@ async function main() {
     }
   }
 
-  // 合并已有数据 + 新数据
+  // 合并已有数据 + 新数据，按 stars 排序
   const merged = [...Object.values(existingMetrics), ...newMetrics];
-  // 按 stars 排序
   merged.sort((a, b) => b.stars_total - a.stars_total);
 
   writeFileSync(metricsPath, JSON.stringify(merged, null, 2));
