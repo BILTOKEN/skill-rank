@@ -119,6 +119,15 @@ async function main() {
     log(`watchlist 观察池: ${raw.length} 个，今日更新前 ${watchlist.length} 个`);
   }
 
+  // 允许集合：ranked 全量 + watchlist 全量（不只是今日参与更新的 100 个）
+  const allowedRepos = new Set<string>();
+  for (const r of ranked) allowedRepos.add(r.repo.toLowerCase());
+  if (existsSync(watchlistPath)) {
+    const allWatchlist = JSON.parse(readFileSync(watchlistPath, 'utf-8'));
+    for (const r of allWatchlist) allowedRepos.add(r.repo.toLowerCase());
+  }
+  log(`allowedRepos: ${allowedRepos.size} 个（ranked ${ranked.length} + watchlist ${existsSync(watchlistPath) ? JSON.parse(readFileSync(watchlistPath, 'utf-8')).length : 0}）`);
+
   // 合并，ranked 在前
   const allRepos = [
     ...ranked.map(r => ({ repo: r.repo, pool: 'ranked' })),
@@ -126,19 +135,24 @@ async function main() {
   ];
   log(`待更新总计: ${allRepos.length} 个（ranked ${ranked.length} + watchlist ${watchlist.length}）`);
 
-  // 增量：已有 metrics 的仓库 24 小时内不重抓
+  // 增量：已有 metrics 的仓库 24 小时内不重抓，且必须在 allowedRepos 中
   const metricsPath = resolve(DATA_DIR, 'metrics.json');
   const existingMetrics: Record<string, Metrics & {fetchedAt?: string}> = {};
   const FRESH_ONLY = process.env.FRESH_ONLY !== '0';
+  let filteredOutCount = 0;
   if (FRESH_ONLY && existsSync(metricsPath)) {
     const old = JSON.parse(readFileSync(metricsPath, 'utf-8'));
     for (const m of old) {
+      if (!allowedRepos.has((m.repo || '').toLowerCase())) {
+        filteredOutCount++;
+        continue;
+      }
       if (m.fetchedAt) {
         const hoursAgo = (Date.now() - new Date(m.fetchedAt).getTime()) / 3600000;
         if (hoursAgo < 24) existingMetrics[m.repo] = m;
       }
     }
-    log(`24 小时内有数据的: ${Object.keys(existingMetrics).length} 个，跳过`);
+    log(`24 小时内有数据的: ${Object.keys(existingMetrics).length} 个，过滤掉不在 allowedRepos 的 ${filteredOutCount} 个`);
   }
 
   // 昨日快照（算增量用）
@@ -196,12 +210,42 @@ async function main() {
     }
   }
 
-  // 合并已有数据 + 新数据，按 stars 排序
-  const merged = [...Object.values(existingMetrics), ...newMetrics];
+  // 合并已有数据 + 新数据，去重，过滤，校验 pool
+  const mergedMap = new Map<string, Metrics & {fetchedAt?: string}>();
+  // 先放新数据（最新）
+  for (const m of newMetrics) {
+    mergedMap.set(m.repo.toLowerCase(), m);
+  }
+  // 再放已有数据（24h 内有效），不覆盖新数据
+  for (const m of Object.values(existingMetrics)) {
+    const key = m.repo.toLowerCase();
+    if (!mergedMap.has(key)) mergedMap.set(key, m);
+  }
+
+  // 最终过滤和校验
+  const merged: (Metrics & {fetchedAt?: string})[] = [];
+  let poolEmptyCount = 0;
+  for (const m of mergedMap.values()) {
+    const key = m.repo.toLowerCase();
+    if (!allowedRepos.has(key)) continue;
+    // 回填 pool（旧 existingMetrics 可能没有 pool）
+    if (!m.pool || (m.pool !== 'ranked' && m.pool !== 'watchlist')) {
+      if (ranked.some((r: any) => (r.repo || '').toLowerCase() === key)) {
+        m.pool = 'ranked';
+      } else {
+        m.pool = 'watchlist';
+      }
+    }
+    if (!m.pool || (m.pool !== 'ranked' && m.pool !== 'watchlist')) {
+      poolEmptyCount++;
+      continue;
+    }
+    merged.push(m);
+  }
   merged.sort((a, b) => b.stars_total - a.stars_total);
 
   writeFileSync(metricsPath, JSON.stringify(merged, null, 2));
-  log(`metrics.json 已写入，共 ${merged.length} 条（本次新增 ${newMetrics.length}）`);
+  log(`metrics.json 已写入，共 ${merged.length} 条（本次新增 ${newMetrics.length}，pool 为空丢弃 ${poolEmptyCount}）`);
 }
 
 main().catch(err => { console.error(err); process.exit(1); });

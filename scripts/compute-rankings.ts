@@ -131,6 +131,13 @@ async function main() {
     }
   }
 
+  // 防线：只保留 pool 为 ranked 或 watchlist 的条目，丢弃脏数据
+  const beforeFilter = metrics.length;
+  const filteredMetrics = metrics.filter(m => m.pool === 'ranked' || m.pool === 'watchlist');
+  if (beforeFilter !== filteredMetrics.length) {
+    log(`过滤掉 ${beforeFilter - filteredMetrics.length} 条 pool 无效的数据，保留 ${filteredMetrics.length} 条`);
+  }
+
   function getQualityFlags(repo: string, pool: string): string[] {
     const key = repo.toLowerCase();
     if (pool === 'ranked') return rankedFlags.get(key) || [];
@@ -138,7 +145,7 @@ async function main() {
     return [];
   }
 
-  const items: RankItem[] = metrics.map(m => toRankItem(m, getQualityFlags(m.repo, m.pool)));
+  const items: RankItem[] = filteredMetrics.map(m => toRankItem(m, getQualityFlags(m.repo, m.pool)));
 
   // weekly_growth：stars_added_7d desc → commits_7d desc → stars_total desc
   const weeklyGrowth = [...items].sort((a, b) =>
@@ -184,7 +191,7 @@ async function main() {
     date: today,
     generated_at: new Date().toISOString(),
     stats,
-    skills: metrics.map(m => toSnapshotSkill(m, getQualityFlags(m.repo, m.pool))),
+    skills: filteredMetrics.map(m => toSnapshotSkill(m, getQualityFlags(m.repo, m.pool))),
   };
   writeFileSync(resolve(snapshotsDir, `${today}.json`), JSON.stringify(snapshot, null, 2));
   log(`快照 ${today}.json 已保存（${snapshot.skills.length} 条完整指标）`);
