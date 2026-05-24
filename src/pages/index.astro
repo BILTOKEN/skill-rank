@@ -91,6 +91,12 @@ const trendRepo = compositeSkills[0]?.name || '—';
   // 三栏切换
   const tabs = document.querySelectorAll<HTMLElement>('.rank-tab');
   const panels = document.querySelectorAll<HTMLElement>('.rank-panel');
+  let currentTag = new URL(location.href).searchParams.get('tag') || '';
+
+  function getActivePanel() {
+    return document.querySelector<HTMLElement>('.rank-panel.active');
+  }
+
   panels.forEach((p, i) => p.classList.toggle('active', i === 0));
   tabs.forEach(tab => {
     tab.addEventListener('click', () => {
@@ -98,43 +104,52 @@ const trendRepo = compositeSkills[0]?.name || '—';
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       panels.forEach(p => p.classList.toggle('active', p.dataset.panel === target));
+      // 切换面板时重新应用标签筛选，只对当前面板
+      if (currentTag) applyTagFilter(currentTag);
     });
   });
 
   // 标签筛选
-  const tagLinks = document.querySelectorAll<HTMLElement>('.tag-list .tag');
-  // 首次运行时保存原始排名
-  const cards = document.querySelectorAll<HTMLElement>('.skill-card');
-  cards.forEach(card => {
-    const badge = card.querySelector('.rank-badge') as HTMLElement;
-    if (badge && !badge.dataset.origRank) {
-      badge.dataset.origRank = badge.textContent || '';
-      badge.dataset.origClass = badge.className;
-    }
+  const tagLinks = document.querySelectorAll<HTMLElement>('.filter-dropdown .tag');
+
+  // 保存所有卡片原始排名（按面板分别存）
+  panels.forEach(panel => {
+    panel.querySelectorAll<HTMLElement>('.skill-card').forEach(card => {
+      const badge = card.querySelector('.rank-badge') as HTMLElement;
+      if (badge && !badge.dataset.origRank) {
+        badge.dataset.origRank = badge.textContent || '';
+        badge.dataset.origClass = badge.className;
+      }
+    });
   });
 
   function applyTagFilter(activeTag: string) {
+    currentTag = activeTag;
+    const panel = getActivePanel();
+    if (!panel) return;
+    const cards = panel.querySelectorAll<HTMLElement>('.skill-card');
+
     cards.forEach(card => {
       if (!activeTag) { card.style.display = ''; return; }
       const cardTags = (card.dataset.tags || '').split(',');
       card.style.display = cardTags.includes(activeTag) ? '' : 'none';
     });
-    // 重新编号可见卡片
-    let newRank = 0;
-    cards.forEach(card => {
-      if (card.style.display !== 'none') {
-        newRank++;
-        const badge = card.querySelector('.rank-badge') as HTMLElement;
-        if (badge) {
-          badge.textContent = String(newRank);
-          badge.className = `rank-badge${newRank <= 3 ? ` r${newRank}` : ''}`;
+
+    // 重新编号当前面板的可见卡片
+    if (activeTag) {
+      let newRank = 0;
+      cards.forEach(card => {
+        if (card.style.display !== 'none') {
+          newRank++;
+          const badge = card.querySelector('.rank-badge') as HTMLElement;
+          if (badge) {
+            badge.textContent = String(newRank);
+            badge.className = `rank-badge${newRank <= 3 ? ` r${newRank}` : ''}`;
+          }
         }
-      } else if (activeTag) {
-        // 保持隐藏状态
-      }
-    });
-    // 如果没有筛选，恢复原始排名
-    if (!activeTag) {
+      });
+    } else {
+      // 恢复原始排名
       cards.forEach(card => {
         const badge = card.querySelector('.rank-badge') as HTMLElement;
         if (badge?.dataset.origRank) {
@@ -143,17 +158,20 @@ const trendRepo = compositeSkills[0]?.name || '—';
         }
       });
     }
+
     // 更新 URL
     const url = new URL(location.href);
     if (activeTag) url.searchParams.set('tag', activeTag);
     else url.searchParams.delete('tag');
     history.replaceState(null, '', url);
+
     // 更新标签 active 状态
     tagLinks.forEach(t => {
       const href = new URL(t.getAttribute('href')!, location.origin);
       t.classList.toggle('active', href.searchParams.get('tag') === activeTag || (!activeTag && !href.searchParams.get('tag')));
     });
   }
+
   tagLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       e.preventDefault();
@@ -161,7 +179,7 @@ const trendRepo = compositeSkills[0]?.name || '—';
       applyTagFilter(href.searchParams.get('tag') || '');
     });
   });
-  // 页面加载时从 URL 恢复标签筛选
-  const initTag = new URL(location.href).searchParams.get('tag') || '';
-  if (initTag) applyTagFilter(initTag);
+
+  // 页面加载时从 URL 恢复
+  if (currentTag) applyTagFilter(currentTag);
 </script>

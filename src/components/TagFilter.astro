@@ -2,9 +2,26 @@
 const { tags = [], activeTag = '' } = Astro.props as { tags?: string[]; activeTag?: string };
 ---
 
-<div class="tag-list">
-  <a href="/" class={`tag${activeTag === '' ? ' active' : ''}`}>全部</a>
-  {tags.map(tag => (
-    <a href={`/?tag=${tag}`} class={`tag${activeTag === tag ? ' active' : ''}`}>{tag}</a>
-  ))}
+<div class="tag-filter">
+  <button class="filter-btn" id="filter-btn">
+    🔖 筛选 <span class="filter-arrow">▾</span>
+  </button>
+  <div class="filter-dropdown" id="filter-dropdown" style="display:none">
+    <a href="/" class={`tag${activeTag === '' ? ' active' : ''}`}>全部</a>
+    {tags.map(tag => (
+      <a href={`/?tag=${tag}`} class={`tag${activeTag === tag ? ' active' : ''}`}>{tag}</a>
+    ))}
+  </div>
 </div>
+
+<script>
+  const filterBtn = document.getElementById('filter-btn')!;
+  const dropdown = document.getElementById('filter-dropdown')!;
+  filterBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdown.style.display = dropdown.style.display === 'none' ? 'flex' : 'none';
+  });
+  document.addEventListener('click', () => {
+    dropdown.style.display = 'none';
+  });
+</script>

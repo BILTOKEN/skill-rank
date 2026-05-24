@@ -133,13 +133,30 @@ img{max-width:100%}
 .search-wrap input::placeholder{color:var(--muted)}
 .search-icon{color:var(--muted);font-size:1rem}
 
-/* ===== 标签 ===== */
-.tag-list{display:flex;flex-wrap:wrap;gap:6px}
+/* ===== 筛选按钮 ===== */
+.tag-filter{position:relative}
+.filter-btn{
+  display:flex;align-items:center;gap:6px;
+  padding:8px 16px;border-radius:8px;
+  background:var(--bg-card);color:var(--text-secondary);
+  border:1px solid var(--border);cursor:pointer;
+  font-size:.88rem;font-weight:500;transition:all .2s;
+}
+.filter-btn:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-soft)}
+.filter-arrow{font-size:.7rem;transition:transform .2s}
+.filter-dropdown{
+  position:absolute;top:calc(100% + 6px);left:0;z-index:25;
+  display:flex;flex-wrap:wrap;gap:6px;
+  background:var(--bg-card);border:1px solid var(--border);
+  border-radius:12px;padding:12px;box-shadow:var(--shadow-lg);
+  min-width:280px;
+}
 .tag{
   display:inline-block;padding:5px 14px;border-radius:20px;
   font-size:.82rem;background:var(--tag-bg);color:var(--tag-text);
   border:1px solid transparent;cursor:pointer;
   transition:all .2s;user-select:none;font-weight:500;
+  text-decoration:none;
 }
 .tag:hover{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-soft)}
 .tag.active{background:var(--accent);color:#fff;border-color:var(--accent)}

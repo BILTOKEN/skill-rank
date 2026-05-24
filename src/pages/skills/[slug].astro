@@ -41,13 +41,13 @@ const related = allSkills
       </div>
     </div>
 
-    <!-- 数据卡片 -->
+    <!-- 近 7 天数据 -->
     <div class="detail-section">
       <h2>📊 近 7 天数据</h2>
       <div class="data-grid">
         <div class="data-card">
-          <div class="num">⭐ {m.stars_total?.toLocaleString() || 0}</div>
-          <div class="lbl">总收藏 <span class="tip" data-tip="该 Skill 在 GitHub 上的总 Stars 数，代表长期受欢迎程度">?</span></div>
+          <div class="num">{m.stars_added_this_week || 0}</div>
+          <div class="lbl">本周新增 Stars <span class="tip" data-tip="本周新增的 Stars 收藏数，反映短期热度">?</span></div>
         </div>
         <div class="data-card">
           <div class="num">{m.commits_this_week || 0}</div>
