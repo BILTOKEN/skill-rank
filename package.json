@@ -11,11 +11,13 @@
     "check": "astro check"
   },
   "dependencies": {
-    "astro": "^5.0.0"
+    "astro": "^5.0.0",
+    "dotenv": "^17.4.2"
   },
   "devDependencies": {
-    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0",
+    "libsodium-wrappers": "^0.8.4",
     "tsx": "^4.19.0",
-    "@types/node": "^22.0.0"
+    "typescript": "^5.7.0"
   }
 }
