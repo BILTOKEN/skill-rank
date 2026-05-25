@@ -44,17 +44,14 @@ async function main() {
     log('SKIP_FETCH=1，跳过抓取步骤');
   }
 
-  run(resolve(SCRIPTS, 'compute-rankings.ts'), '步骤 3/7：计算排名');
-  run(resolve(SCRIPTS, 'translate.ts'), '步骤 4/7：AI 翻译');
-  run(resolve(SCRIPTS, 'generate-weekly.ts'), '步骤 5/7：周报生成（仅周日）');
-  log('步骤 6/7：构建网站');
+  run(resolve(SCRIPTS, 'compute-rankings.ts'), '步骤 3/6：计算排名');
+  run(resolve(SCRIPTS, 'translate.ts'), '步骤 4/6：AI 翻译');
+  run(resolve(SCRIPTS, 'generate-weekly.ts'), '步骤 5/6：周报草稿（仅周日）');
+  log('步骤 6/6：构建网站');
   execSync('npx astro build', { cwd: resolve(import.meta.dirname, '..'), stdio: 'inherit' });
-  log('步骤 7/7：推送到 GitHub（触发 Vercel 部署）');
-  const rootDir = resolve(import.meta.dirname, '..');
-  execSync('git add data/ scripts/ src/ && git commit -m "daily: auto update rankings" && git push', { cwd: rootDir, stdio: 'inherit' });
 
   console.log('\n========================================');
-  console.log('  流水线完成！');
+  console.log('  流水线完成！提交和部署由 GitHub Actions 负责');
   console.log(`  结束时间: ${new Date().toISOString()}`);
   console.log('========================================');
 }
