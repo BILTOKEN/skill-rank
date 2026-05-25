@@ -114,6 +114,14 @@ img{max-width:100%}
 .hero-stat .num{font-size:1.6rem;font-weight:800;color:var(--accent)}
 .hero-stat .lbl{font-size:.78rem;color:var(--muted);margin-top:2px}
 .hero .last-update{font-size:.78rem;color:var(--muted);margin-top:12px}
+.warming-notice{
+  margin-top:14px;padding:8px 16px;border-radius:8px;
+  background:var(--accent-soft);color:var(--accent);
+  font-size:.82rem;text-align:center;display:inline-block;
+}
+.coverage-note{
+  font-size:.78rem;color:var(--muted);margin-bottom:20px;line-height:1.5;
+}
 
 /* ===== 工具栏 ===== */
 .toolbar{
@@ -249,6 +257,12 @@ img{max-width:100%}
 .detail-meta{font-size:.85rem;color:var(--muted);display:flex;gap:24px;flex-wrap:wrap}
 .detail-meta a{color:var(--text-secondary);font-family:var(--font-mono);font-size:.82rem}
 .detail-meta a:hover{color:var(--accent)}
+.pool-badge{
+  display:inline-block;padding:2px 10px;border-radius:12px;
+  font-size:.78rem;font-weight:600;
+}
+.pool-badge.pool-ranked{background:var(--accent-soft);color:var(--accent)}
+.pool-badge.pool-watchlist{background:#fff3e0;color:var(--warm)}
 
 /* 三榜排名条 */
 .rank-strip{

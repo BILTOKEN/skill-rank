@@ -124,7 +124,9 @@ async function main() {
 
   const rankings = JSON.parse(readFileSync(rankingsPath, 'utf-8'));
   const allSkills: RankItem[] = [
-    ...(rankings.total || rankings.weekly_growth || []),
+    ...(rankings.weekly_growth || []),
+    ...(rankings.active || []),
+    ...(rankings.total || []),
   ];
 
   // 去重
@@ -248,13 +250,6 @@ async function main() {
 
     // 避免 API 限流
     await new Promise(r => setTimeout(r, 1000));
-  }
-
-  // 保留已有数据中本次未处理的 Skill
-  for (const existing of existingSkills) {
-    if (!newSkills.find(s => s.repo === existing.repo)) {
-      newSkills.push(existing);
-    }
   }
 
   writeFileSync(skillsPath, JSON.stringify(newSkills, null, 2));

@@ -14,9 +14,25 @@ const allSkills = skillsData as any[];
 const skill = allSkills.find(s => s.repo.replace('/', '-') === slug);
 if (!skill) return Astro.redirect('/');
 
+// 从 rankings.json 查找当前 skill 的富指标（pool / commits_capped 等）
+function findInRankings(repo: string) {
+  for (const list of [rankings.weekly_growth, rankings.active, rankings.total]) {
+    const found = (list as any[]).find((s: any) => s.repo === repo);
+    if (found) return found;
+  }
+  return null;
+}
+const rankData = findInRankings(skill.repo);
+
 const CAT_NAMES = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具', '测试', '数据'];
 const tags = (skill.tags || []).filter((t: string) => CAT_NAMES.includes(t));
 const m = skill.metrics || {};
+
+function fmtDate(iso: string): string {
+  if (!iso) return '未知';
+  const d = new Date(iso);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
 
 // 建立 repo → 三榜排名的映射
 function buildRankMap(list: any[]) {
@@ -54,7 +70,10 @@ const related = allSkills
       <div class="detail-meta">
         <span>📦 <a href={`https://github.com/${skill.repo}`} target="_blank">{skill.repo}</a></span>
         <span>⭐ {m.stars_total?.toLocaleString() || 0} total</span>
-        <span>🕐 最后更新 {m.last_push || '未知'}</span>
+        <span>🕐 最后推送 {fmtDate(rankData?.last_push || m.last_push)}</span>
+        {rankData?.pool && (
+          <span class={`pool-badge pool-${rankData.pool}`}>{rankData.pool === 'ranked' ? '主榜精选' : '观察池'}</span>
+        )}
       </div>
     </div>
 
@@ -85,16 +104,20 @@ const related = allSkills
       <h2>📊 近 7 天数据</h2>
       <div class="data-grid">
         <div class="data-card">
-          <div class="num">{m.stars_added_7d || 0}</div>
+          <div class="num">{rankData?.stars_added_7d ?? m.stars_added_7d ?? m.stars_added_this_week ?? 0}</div>
           <div class="lbl">本周新增 Stars <span class="tip" data-tip="本周新增的 Stars 收藏数，反映短期热度">?</span></div>
         </div>
         <div class="data-card">
-          <div class="num">{m.commits_7d || 0}</div>
-          <div class="lbl">本周提交 <span class="tip" data-tip="本周代码提交次数，反映维护者更新频率">?</span></div>
+          <div class="num">{rankData?.commits_7d ?? m.commits_7d ?? m.commits_this_week ?? 0}{rankData?.commits_capped ? <span class="tip" data-tip="提交数可能被 GitHub API 截断（per_page=30），实际可能更多">⚠️</span> : ''}</div>
+          <div class="lbl">本周提交 <span class="tip" data-tip="本周代码提交次数，反映维护更新频率">?</span></div>
         </div>
         <div class="data-card highlight">
           <div class="num">{m.stars_total?.toLocaleString() || 0}</div>
           <div class="lbl">总收藏 <span class="tip" data-tip="GitHub Stars 总数，反映长期受欢迎程度">?</span></div>
+        </div>
+        <div class="data-card">
+          <div class="num">{rankData?.issues_opened_7d ?? m.issues_opened ?? 0} / {rankData?.issues_closed_7d ?? m.issues_closed ?? 0}</div>
+          <div class="lbl">本周 Issue 开/关 <span class="tip" data-tip="本周新开 / 已关闭的 Issue 数量">?</span></div>
         </div>
       </div>
     </div>

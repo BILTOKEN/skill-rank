@@ -6,6 +6,8 @@ import RankingTable from '../components/RankingTable.astro';
 import type { RankItem } from '../components/RankingTable.astro';
 import rankings from '../../data/rankings.json';
 import skillsMeta from '../../data/skills.json';
+import rankedList from '../../data/ranked.json';
+import watchlist from '../../data/watchlist.json';
 
 const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具'];
 
@@ -27,41 +29,45 @@ const weeklySkills = toItems(rankings.weekly_growth);
 const activeSkills = toItems(rankings.active);
 const totalSkills = toItems(rankings.total);
 
-const skillCount = totalSkills.length;
-const activeThisWeek = totalSkills.filter(s => s.starsAdded > 0 || s.commitsThisWeek > 0).length;
-const topRepo = totalSkills[0]?.name || '—';
+const rankedCount = rankedList.length;
+const watchlistCount = watchlist.length;
+const warmingMsg = (rankings as any).message || '';
 ---
 
 <BaseLayout>
   <!-- Hero -->
   <div class="hero">
     <div class="container">
-      <h1><span class="gradient-text">Claude Code Skill</span> 中文排行榜</h1>
-      <p>每天自动扫描 GitHub，帮你发现最值得安装的 AI 编程技能</p>
+      <h1><span class="gradient-text">Claude Code Skill</span> 中文精选排行榜</h1>
+      <p>精选有真实使用价值、一定热度和维护迹象的 Claude Code Skill</p>
       <div class="hero-stats">
         <div class="hero-stat">
-          <div class="num">{skillCount}</div>
-          <div class="lbl">收录技能</div>
+          <div class="num">{rankedCount}</div>
+          <div class="lbl">主榜精选</div>
         </div>
         <div class="hero-stat">
-          <div class="num">{activeThisWeek}</div>
-          <div class="lbl">本周活跃</div>
+          <div class="num">{watchlistCount}</div>
+          <div class="lbl">观察池</div>
         </div>
         <div class="hero-stat">
-          <div class="num" style="font-size:1rem;padding-top:8px">{topRepo}</div>
-          <div class="lbl">总榜第一</div>
+          <div class="num" style="font-size:0.95rem;padding-top:8px">{rankings.last_update || '2026-05-24 08:00'}</div>
+          <div class="lbl">最后更新</div>
         </div>
       </div>
-      <div class="last-update">最后更新：{rankings.last_update || '2026-05-24 08:00'}</div>
+      {warmingMsg && (
+        <div class="warming-notice">{warmingMsg}</div>
+      )}
     </div>
   </div>
 
   <div class="container">
-    <!-- 工具栏 -->
+    <!-- 工具栏：搜索 + 筛选同一行 -->
     <div class="toolbar">
       <SearchBar />
       <TagFilter tags={tags} />
     </div>
+    <!-- 口径说明 -->
+    <p class="coverage-note">本站不是全量索引。低星或信息不完整的 Skill 会先进入观察池，暂不进入主榜。</p>
 
     <!-- 榜单切换 -->
     <div class="rank-tabs" id="rank-tabs">

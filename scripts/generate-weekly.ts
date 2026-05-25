@@ -1,6 +1,6 @@
 /**
- * 周日执行：读取本周 7 天快照，用 AI 生成周报文章 Markdown 草稿。
- * 输出到 data/blog/weekly-YYYY-MM-DD.md。
+ * 周日执行（FORCE_WEEKLY=1 可强制生成）：使用 rankings + watchlist 生成公众号 Markdown 草稿。
+ * 输出到 data/blog/weekly-YYYY-MM-DD.md，不自动发布。
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { resolve } from 'path';
@@ -9,9 +9,7 @@ import { config } from 'dotenv';
 config({ path: resolve(import.meta.dirname, '..', '.env') });
 
 const DATA_DIR = resolve(import.meta.dirname, '..', 'data');
-const API_KEY = process.env.AI_API_KEY || '';
-const BASE_URL = process.env.AI_BASE_URL || 'https://api.deepseek.com/v1';
-const MODEL = process.env.AI_MODEL || 'deepseek-chat';
+const BLOG_DIR = resolve(DATA_DIR, 'blog');
 
 function log(msg: string) { console.log(`[generate-weekly] ${msg}`); }
 
@@ -19,90 +17,115 @@ function isSunday(): boolean {
   return new Date().getDay() === 0;
 }
 
-async function aiGenerate(prompt: string): Promise<string> {
-  if (!API_KEY) {
-    return `# 本周 Claude Code Skill 排行榜\n\n> AI API 未配置，请设置 AI_API_KEY 环境变量后自动生成周报。\n\n本周数据请查看 [排行榜首页](https://skill-rank.vercel.app)。`;
-  }
-
-  const res = await fetch(`${BASE_URL}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Authorization': `Bearer ${API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: MODEL,
-      messages: [
-        { role: 'system', content: '你是一个 Claude Code 生态的深度观察者。请用中文撰写一篇 GitHub 风格的周报，语气轻松但专业。包含本周最值得关注的 Skill、涨幅分析、值得尝试的新 Skill。字数 800 字左右。Markdown 格式，标题用 #。' },
-        { role: 'user', content: prompt },
-      ],
-      temperature: 0.6,
-    }),
-  });
-
-  if (!res.ok) throw new Error(`AI API 错误: ${res.status}`);
-  const data = await res.json();
-  return data.choices?.[0]?.message?.content || '';
+function formatStars(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return String(n);
 }
 
-async function main() {
-  if (!isSunday()) {
-    log('今天不是周日，跳过周报生成');
+function fmtDate(iso: string): string {
+  if (!iso) return '未知';
+  const d = new Date(iso);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+}
+
+function main() {
+  const force = process.env.FORCE_WEEKLY === '1';
+  if (!isSunday() && !force) {
+    log('今天不是周日，跳过周报生成（FORCE_WEEKLY=1 可强制生成）');
     return;
   }
 
-  // 读取本周 7 天的快照
-  const snapshotsDir = resolve(DATA_DIR, 'snapshots');
-  const weekSnapshots: any[] = [];
-  for (let i = 6; i >= 0; i--) {
-    const date = new Date(Date.now() - i * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-    const snapPath = resolve(snapshotsDir, `${date}.json`);
-    if (existsSync(snapPath)) {
-      weekSnapshots.push(JSON.parse(readFileSync(snapPath, 'utf-8')));
-    }
-  }
-  log(`读取到 ${weekSnapshots.length} 天快照数据`);
-
-  // 读取当前排行榜
   const rankings = JSON.parse(readFileSync(resolve(DATA_DIR, 'rankings.json'), 'utf-8'));
   const weeklyTop10 = (rankings.weekly_growth || []).slice(0, 10);
-  const totalTop5 = (rankings.total || []).slice(0, 5);
+  const activeTop5 = (rankings.active || []).slice(0, 5);
+  const watchlist = JSON.parse(readFileSync(resolve(DATA_DIR, 'watchlist.json'), 'utf-8'));
 
-  // 构建提示
-  const skillList = weeklyTop10.map((s: any, i: number) =>
-    `${i + 1}. **${s.name}** (${s.repo}) — ⭐${s.stars_total} 总收藏 | +${s.stars_added_7d} 本周新增 | ${s.commits_7d} 次提交`
+  // 新锐观察：watchlist 中按 stars 降序取 3 个（兼容 stars_total / stars 两种字段名）
+  const sortedWatch = [...watchlist].sort((a: any, b: any) => (b.stars_total ?? b.stars ?? 0) - (a.stars_total ?? a.stars ?? 0));
+  const newFaces = sortedWatch.slice(0, 3);
+
+  // 一句话总结
+  const top1 = weeklyTop10[0];
+  const summaryLine = top1
+    ? `本周 **${top1.name}**（${top1.repo}）以 ⭐${formatStars(top1.stars_total)} 总收藏领跑增长榜，7 日新增 ${top1.stars_added_7d} 星。`
+    : '本周暂无增长数据。';
+
+  // 构建 TOP 10 表格
+  const top10Rows = weeklyTop10.map((s: any, i: number) =>
+    `| ${i + 1} | [${s.name}](https://github.com/${s.repo}) | ⭐${formatStars(s.stars_total)} | +${s.stars_added_7d} | ${s.commits_7d} | ${s.pool === 'ranked' ? '主榜' : '观察'} |`
   ).join('\n');
 
-  const totalList = totalTop5.map((s: any, i: number) =>
-    `${i + 1}. **${s.name}** — ⭐${s.stars_total}`
+  // 活跃 TOP 5
+  const activeRows = activeTop5.map((s: any, i: number) =>
+    `| ${i + 1} | [${s.name}](https://github.com/${s.repo}) | ⭐${formatStars(s.stars_total)} | ${s.commits_7d} 提交 | ${s.issues_opened_7d + s.issues_closed_7d} issue |`
   ).join('\n');
 
-  const prompt = `本周 Claude Code Skill 7天热门榜 TOP 10：\n\n${skillList}\n\n总收藏榜 TOP 5：\n\n${totalList}\n\n快照数据：本周共有 ${weekSnapshots.length} 天数据，覆盖 ${rankings.total?.length || 0} 个 Skill。\n\n请根据以上数据生成周报。`;
+  // 新锐观察
+  const newFaceRows = newFaces.map((s: any, i: number) =>
+    `| ${i + 1} | [${s.name}](https://github.com/${s.repo}) | ⭐${formatStars(s.stars_total ?? s.stars ?? 0)} | ${fmtDate(s.last_push ?? s.lastPush ?? '')} | ${(s.description || '').slice(0, 60)}... |`
+  ).join('\n');
 
-  log('生成周报草稿...');
-  const article = await aiGenerate(prompt);
-
-  const blogDir = resolve(DATA_DIR, 'blog');
-  if (!existsSync(blogDir)) mkdirSync(blogDir, { recursive: true });
+  // 重点拆解 3 个 Skill（取 weekly_growth TOP 3）
+  const deepDive = weeklyTop10.slice(0, 3).map((s: any) =>
+    `### ${s.name}\n\n- **仓库**：[${s.repo}](https://github.com/${s.repo})\n- **总收藏**：⭐${formatStars(s.stars_total)}\n- **7 日新增**：+${s.stars_added_7d}\n- **本周提交**：${s.commits_7d}${s.commits_capped ? '（含截断）' : ''}\n- **最后推送**：${fmtDate(s.last_push)}\n- **收录池**：${s.pool === 'ranked' ? '主榜精选' : '观察池'}\n- **简介**：${s.description || '暂无'}`
+  ).join('\n\n');
 
   const today = new Date().toISOString().slice(0, 10);
-  const articlePath = resolve(blogDir, `weekly-${today}.md`);
+  const rankedCount = JSON.parse(readFileSync(resolve(DATA_DIR, 'ranked.json'), 'utf-8')).length;
+  const watchCount = sortedWatch.length;
 
-  // 补充头部
-  const fullArticle = `---
-title: "Claude Code Skill 排行榜周报 ${today}"
+  const article = `---
+title: "Claude Code Skill 中文精选排行榜周报 ${today}"
 date: ${today}
 ---
 
-${article}
+# Claude Code Skill 中文精选排行榜周报
+
+> ${today} · 主榜精选 ${rankedCount} 个 Skill · 观察池 ${watchCount} 个
+
+## 本周一句话总结
+
+${summaryLine}
+
+## 📈 本周增长最快 TOP 10
+
+| 排名 | Skill | 总收藏 | 7日新增 | 本周提交 | 收录池 |
+|------|-------|--------|---------|----------|--------|
+${top10Rows}
+
+## 🔍 重点拆解
+
+${deepDive}
+
+## ⚡ 本周活跃 TOP 5
+
+| 排名 | Skill | 总收藏 | 本周提交 | Issue 活动 |
+|------|-------|--------|----------|------------|
+${activeRows}
+
+## 🆕 新锐观察（观察池精选）
+
+以下 Skill 来自观察池，热度尚在积累中，但有潜力进入主榜：
+
+| 排名 | Skill | 总收藏 | 最后推送 | 简介 |
+|------|-------|--------|----------|------|
+${newFaceRows}
+
+## 🔗 相关链接
+
+- 完整排行榜：[skill-rank.vercel.app](https://skill-rank.vercel.app)
+- 推荐 Skill 给我们：[提交 Issue](https://github.com/BILTOKEN/skill-rank/issues/new?template=skill-submit.md)
+- GitHub 仓库：[BILTOKEN/skill-rank](https://github.com/BILTOKEN/skill-rank)
 
 ---
 
-> 本文由 AI 自动生成初稿，人工审核后发布。
-> 查看完整排行榜：[skill-rank.vercel.app](https://skill-rank.vercel.app)
+> 🤖 本文由 AI 自动生成初稿，发布前请人工审核。数据来源：GitHub API，每日北京时间 8 点更新。
 `;
-  writeFileSync(articlePath, fullArticle);
-  log(`周报已生成: ${articlePath}`);
+
+  if (!existsSync(BLOG_DIR)) mkdirSync(BLOG_DIR, { recursive: true });
+  const outPath = resolve(BLOG_DIR, `weekly-${today}.md`);
+  writeFileSync(outPath, article, 'utf-8');
+  log(`周报草稿已生成: ${outPath}`);
 }
 
-main().catch(err => { console.error(err); process.exit(1); });
+main();

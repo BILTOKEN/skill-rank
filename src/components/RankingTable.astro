@@ -10,6 +10,10 @@ const CATEGORY_TAGS = ['前端', '后端', '设计', 'DevOps', '安全', '写作
 function showTags(tags: string[]): string[] {
   return tags.filter(t => CATEGORY_TAGS.includes(t)).slice(0, 2);
 }
+function fmtStars(n: number): string {
+  if (n >= 1000) return (n / 1000).toFixed(1) + 'k';
+  return String(n);
+}
 ---
 
 <div class="rank-panel" data-panel={type}>
@@ -29,7 +33,7 @@ function showTags(tags: string[]): string[] {
         </div>
         <div class="card-stats">
           <div class="card-stat">
-            <div class="val score">{(s.starsTotal / 1000).toFixed(1)}k</div>
+            <div class="val score">{fmtStars(s.starsTotal)}</div>
             <div class="lbl">总收藏 <span class="tip" data-tip="GitHub Stars 总数，反映长期受欢迎程度">?</span></div>
           </div>
           <div class="card-stat">
