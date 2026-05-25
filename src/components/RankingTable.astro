@@ -2,9 +2,9 @@
 export interface RankItem {
   rank: number; repo: string; name: string; description: string;
   tags: string[]; starsTotal: number; starsAdded: number;
-  commitsThisWeek: number; slug: string;
+  commitsThisWeek: number; commitsCapped?: boolean; slug: string;
 }
-const { type, skills } = Astro.props as { type: string; skills: RankItem[] };
+const { type, skills, message = '' } = Astro.props as { type: string; skills: RankItem[]; message?: string };
 
 const CATEGORY_TAGS = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具', '测试', '数据'];
 function showTags(tags: string[]): string[] {
@@ -17,6 +17,7 @@ function fmtStars(n: number): string {
 ---
 
 <div class="rank-panel" data-panel={type}>
+  {message && <div class="panel-message">{message}</div>}
   <div class="rank-cards">
     {skills.map(s => (
       <a href={`/skills/${s.slug}`} class="skill-card" data-tags={s.tags.filter(t => CATEGORY_TAGS.includes(t)).join(',')} style="text-decoration:none;color:inherit">
@@ -41,8 +42,8 @@ function fmtStars(n: number): string {
             <div class="lbl">本周新增 <span class="tip" data-tip="近 7 天新增的收藏数">?</span></div>
           </div>
           <div class="card-stat">
-            <div class="val">{s.commitsThisWeek}</div>
-            <div class="lbl">本周提交 <span class="tip" data-tip="近 7 天代码提交次数，反映维护频率">?</span></div>
+            <div class="val">{s.commitsThisWeek}{s.commitsCapped ? '+' : ''}</div>
+            <div class="lbl">本周提交 <span class="tip" data-tip={s.commitsCapped ? '提交数可能被 GitHub API 截断，实际 ≥ 30' : '近 7 天代码提交次数，反映维护频率'}>?</span></div>
           </div>
         </div>
       </a>

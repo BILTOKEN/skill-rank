@@ -11,26 +11,46 @@ import watchlist from '../../data/watchlist.json';
 
 const tags = ['前端', '后端', '设计', 'DevOps', '安全', '写作', 'AI', '工具'];
 
-// 建立 repo → 中文简介 / 提示词 的映射
 const zhMap = new Map(skillsMeta.map((s: any) => [s.repo, s.description_zh || '']));
 
-function toItems(list: typeof rankings.weekly_growth): RankItem[] {
+// 只保留 pool === 'ranked' 的项目
+function filterRanked(list: any[]) {
+  return (list || []).filter((s: any) => s.pool === 'ranked');
+}
+
+function toItems(list: any[]): RankItem[] {
   return list.map((s, i) => ({
     rank: i + 1, repo: s.repo, name: s.name,
     description: zhMap.get(s.repo) || s.description,
     tags: s.tags || [],
     starsTotal: s.stars_total, starsAdded: s.stars_added_7d,
-    commitsThisWeek: s.commits_7d,
+    commitsThisWeek: s.commits_7d, commitsCapped: s.commits_capped || false,
     slug: s.repo.replace('/', '-'),
   }));
 }
 
-const weeklySkills = toItems(rankings.weekly_growth);
-const activeSkills = toItems(rankings.active);
-const totalSkills = toItems(rankings.total);
+// 主榜精选：ranked 池，按 stars_total 降序
+const featuredSkills = toItems(
+  filterRanked([...rankings.total].sort((a: any, b: any) => b.stars_total - a.stars_total))
+);
+
+// 本周增长：ranked 池，按 stars_added_7d 降序（保持 weekly_growth 排序）
+const weeklyRanked = toItems(filterRanked(rankings.weekly_growth));
+
+// 活跃榜：ranked 池
+const activeRanked = toItems(filterRanked(rankings.active));
+
+// 新锐观察：watchlist 池，按 stars_added_7d 降序再按 stars_total 降序，取前 10
+const watchlistRanked = toItems(
+  [...(rankings.weekly_growth || [])]
+    .filter((s: any) => s.pool === 'watchlist')
+    .sort((a: any, b: any) => (b.stars_added_7d - a.stars_added_7d) || (b.stars_total - a.stars_total))
+    .slice(0, 10)
+);
 
 const rankedCount = rankedList.length;
 const watchlistCount = watchlist.length;
+const isWarming = (rankings as any).data_status === 'warming_up';
 const warmingMsg = (rankings as any).message || '';
 ---
 
@@ -54,31 +74,65 @@ const warmingMsg = (rankings as any).message || '';
           <div class="lbl">最后更新</div>
         </div>
       </div>
-      {warmingMsg && (
-        <div class="warming-notice">{warmingMsg}</div>
-      )}
     </div>
   </div>
 
   <div class="container">
-    <!-- 工具栏：搜索 + 筛选同一行 -->
+    <!-- 工具栏 -->
     <div class="toolbar">
       <SearchBar />
       <TagFilter tags={tags} />
     </div>
-    <!-- 口径说明 -->
     <p class="coverage-note">本站不是全量索引。低星或信息不完整的 Skill 会先进入观察池，暂不进入主榜。</p>
 
     <!-- 榜单切换 -->
     <div class="rank-tabs" id="rank-tabs">
-      <button class="rank-tab active" data-tab="weekly_growth">📈 本周增长</button>
+      <button class="rank-tab active" data-tab="featured">🏆 主榜精选</button>
+      <button class="rank-tab" data-tab="weekly_growth">📈 本周增长</button>
       <button class="rank-tab" data-tab="active">⚡ 活跃榜</button>
-      <button class="rank-tab" data-tab="total">🏆 总榜</button>
     </div>
 
-    <RankingTable type="weekly_growth" skills={weeklySkills} />
-    <RankingTable type="active" skills={activeSkills} />
-    <RankingTable type="total" skills={totalSkills} />
+    <RankingTable type="featured" skills={featuredSkills} />
+    <RankingTable type="weekly_growth" skills={weeklyRanked} message={isWarming ? warmingMsg : ''} />
+    <RankingTable type="active" skills={activeRanked} />
+
+    <!-- 新锐观察 -->
+    {watchlistRanked.length > 0 && (
+      <div class="watchlist-section">
+        <div class="watchlist-header">
+          <h2>🆕 新锐观察</h2>
+          <p>观察池项目热度尚在积累中，暂不进入主榜。</p>
+        </div>
+        <div class="rank-cards">
+          {watchlistRanked.map(s => (
+            <a href={`/skills/${s.slug}`} class="skill-card" data-tags={s.tags.filter(t => ['前端','后端','设计','DevOps','安全','写作','AI','工具','测试','数据'].includes(t)).join(',')} style="text-decoration:none;color:inherit">
+              <div class={`rank-badge${s.rank <= 3 ? ` r${s.rank}` : ''}`}>{s.rank}</div>
+              <div class="card-body">
+                <div class="card-title">{s.name}</div>
+                <div class="card-desc">{s.description}</div>
+                <div class="card-tags">
+                  {s.tags.filter(t => ['前端','后端','设计','DevOps','安全','写作','AI','工具','测试','数据'].includes(t)).slice(0, 2).map(t => <span class="mini-tag">{t}</span>)}
+                </div>
+              </div>
+              <div class="card-stats">
+                <div class="card-stat">
+                  <div class="val score">{s.starsTotal >= 1000 ? (s.starsTotal / 1000).toFixed(1) + 'k' : String(s.starsTotal)}</div>
+                  <div class="lbl">总收藏</div>
+                </div>
+                <div class="card-stat">
+                  <div class="val">+{s.starsAdded}</div>
+                  <div class="lbl">本周新增</div>
+                </div>
+                <div class="card-stat">
+                  <div class="val">{s.commitsThisWeek}{s.commitsCapped ? '+' : ''}</div>
+                  <div class="lbl">本周提交</div>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
 
     <!-- 周报引流 -->
     <div class="weekly-section">
@@ -90,7 +144,6 @@ const warmingMsg = (rankings as any).message || '';
 </BaseLayout>
 
 <script>
-  // 三栏切换
   const tabs = document.querySelectorAll<HTMLElement>('.rank-tab');
   const panels = document.querySelectorAll<HTMLElement>('.rank-panel');
   let currentTag = new URL(location.href).searchParams.get('tag') || '';
@@ -106,15 +159,12 @@ const warmingMsg = (rankings as any).message || '';
       tabs.forEach(t => t.classList.remove('active'));
       tab.classList.add('active');
       panels.forEach(p => p.classList.toggle('active', p.dataset.panel === target));
-      // 切换面板时重新应用标签筛选，只对当前面板
       if (currentTag) applyTagFilter(currentTag);
     });
   });
 
-  // 标签筛选
   const tagLinks = document.querySelectorAll<HTMLElement>('.filter-dropdown .tag');
 
-  // 保存所有卡片原始排名（按面板分别存）
   panels.forEach(panel => {
     panel.querySelectorAll<HTMLElement>('.skill-card').forEach(card => {
       const badge = card.querySelector('.rank-badge') as HTMLElement;
@@ -137,7 +187,6 @@ const warmingMsg = (rankings as any).message || '';
       card.style.display = cardTags.includes(activeTag) ? '' : 'none';
     });
 
-    // 重新编号当前面板的可见卡片
     if (activeTag) {
       let newRank = 0;
       cards.forEach(card => {
@@ -151,7 +200,6 @@ const warmingMsg = (rankings as any).message || '';
         }
       });
     } else {
-      // 恢复原始排名
       cards.forEach(card => {
         const badge = card.querySelector('.rank-badge') as HTMLElement;
         if (badge?.dataset.origRank) {
@@ -161,13 +209,11 @@ const warmingMsg = (rankings as any).message || '';
       });
     }
 
-    // 更新 URL
     const url = new URL(location.href);
     if (activeTag) url.searchParams.set('tag', activeTag);
     else url.searchParams.delete('tag');
     history.replaceState(null, '', url);
 
-    // 更新标签 active 状态
     tagLinks.forEach(t => {
       const href = new URL(t.getAttribute('href')!, location.origin);
       t.classList.toggle('active', href.searchParams.get('tag') === activeTag || (!activeTag && !href.searchParams.get('tag')));
@@ -182,6 +228,5 @@ const warmingMsg = (rankings as any).message || '';
     });
   });
 
-  // 页面加载时从 URL 恢复
   if (currentTag) applyTagFilter(currentTag);
 </script>
