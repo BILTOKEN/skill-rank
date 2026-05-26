@@ -252,7 +252,11 @@ async function main() {
     await new Promise(r => setTimeout(r, 1000));
   }
 
-  writeFileSync(skillsPath, JSON.stringify(newSkills, null, 2));
+  if (newSkills.length === 0 && existingSkills.length > 0) {
+    log('翻译结果为空，保留已有 skills.json 不变，避免数据丢失');
+  } else {
+    writeFileSync(skillsPath, JSON.stringify(newSkills, null, 2));
+  }
   writeFileSync(cachePath, JSON.stringify(cache, null, 2));
   log(`skills.json 已更新（${newSkills.length} 条），本次翻译 ${translatedCount} 个`);
 }

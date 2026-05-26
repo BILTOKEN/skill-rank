@@ -512,10 +512,15 @@ async function main() {
   ];
   allCandidates.sort((a, b) => b.stars - a.stars);
 
-  // 9. 保存所有文件
+  // 9. 保存所有文件（ranked/watchlist 为空时保留旧数据，防止 MAX_CHECK 截断导致误清空）
+  const rankedPath = resolve(DATA_DIR, 'ranked.json');
+  const watchlistPath = resolve(DATA_DIR, 'watchlist.json');
+  const oldRanked = existsSync(rankedPath) ? JSON.parse(readFileSync(rankedPath, 'utf-8')) : [];
+  const oldWatchlist = existsSync(watchlistPath) ? JSON.parse(readFileSync(watchlistPath, 'utf-8')) : [];
+
   writeFileSync(resolve(DATA_DIR, 'candidates.json'), JSON.stringify(allCandidates, null, 2));
-  writeFileSync(resolve(DATA_DIR, 'ranked.json'), JSON.stringify(allRanked, null, 2));
-  writeFileSync(resolve(DATA_DIR, 'watchlist.json'), JSON.stringify(allWatchlist, null, 2));
+  writeFileSync(rankedPath, JSON.stringify(allRanked.length > 0 ? allRanked : oldRanked, null, 2));
+  writeFileSync(watchlistPath, JSON.stringify(allWatchlist.length > 0 ? allWatchlist : oldWatchlist, null, 2));
   writeFileSync(resolve(DATA_DIR, 'candidates-failed.json'), JSON.stringify(allFailed, null, 2));
 
   log(`candidates.json: ${allCandidates.length} 个`);
