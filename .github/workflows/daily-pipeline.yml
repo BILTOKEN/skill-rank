@@ -40,6 +40,7 @@ jobs:
           git config user.email "bot@skill-rank.vercel.app"
           git add data/ -f
           git diff --cached --quiet || git commit -m "data: daily snapshot $(date +%Y-%m-%d)"
+          git pull --rebase origin main
           git push
 
       - name: Build site
