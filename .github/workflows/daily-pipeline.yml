@@ -36,12 +36,21 @@ jobs:
 
       - name: Commit and push data updates
         run: |
+          set -e
           git config user.name "skill-rank-bot"
           git config user.email "bot@skill-rank.vercel.app"
           git add data/ -f
-          git diff --cached --quiet || git commit -m "data: daily snapshot $(date +%Y-%m-%d)"
-          git pull --rebase origin main
-          git push
+          if ! git diff --cached --quiet; then
+            git commit -m "data: daily snapshot $(date +%Y-%m-%d)"
+          fi
+          # 拉取远端最新并 rebase，最多重试 3 次（解决并发推送冲突）
+          for i in 1 2 3; do
+            git fetch origin main && git rebase origin/main && git push origin main && exit 0
+            echo "推送冲突，5秒后重试 ($i/3)..."
+            sleep 5
+          done
+          echo "推送失败：3次重试后仍无法推送"
+          exit 1
 
       - name: Build site
         run: npm run build
