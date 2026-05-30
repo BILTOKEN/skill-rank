@@ -1,5 +1,22 @@
 [
   {
+    "repo": "affaan-m/everything-claude-code",
+    "name": "ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
+    ],
+    "stars": 198880,
+    "lastPush": "2026-05-28T11:45:48Z"
+  },
+  {
     "repo": "affaan-m/ecc",
     "name": "ECC",
     "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
@@ -6606,6 +6623,18 @@
     "lastPush": "2026-05-19T00:50:34Z"
   },
   {
+    "repo": "eternalwavee/benchmark-research-skill",
+    "name": "benchmark-research-skill",
+    "description": "Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "skills"
+    ],
+    "stars": 28,
+    "lastPush": "2026-04-24T10:24:44Z"
+  },
+  {
     "repo": "bridge-mind/bridgeward",
     "name": "BridgeWard",
     "description": "Trust nothing. Ship safely. — Skeptical-reading and prompt-injection defense skill for AI agents. Provenance tagging, red-flag patterns, refusal templates, and a read-only injection auditor. MIT.",
@@ -7368,6 +7397,34 @@
     ],
     "stars": 21,
     "lastPush": "2026-03-11T09:13:40Z"
+  },
+  {
+    "repo": "zhjai/agent-arena",
+    "name": "agent-arena",
+    "description": "Evidence-first multi-agent debate skill: get a second opinion by pitting Codex × Claude Code (or GLM/DeepSeek/Qwen) to independently review, red-team & judge high-stakes code and architecture decisions.",
+    "tags": [
+      "agent-arena",
+      "agent-skill",
+      "ai-agents",
+      "architecture-review",
+      "claude-code",
+      "claude-code-skill",
+      "code-review",
+      "codex",
+      "deliberative-analysis",
+      "evidence-checking",
+      "hermes-agent",
+      "llm-as-judge",
+      "multi-agent",
+      "openai-codex",
+      "openclaw",
+      "opencode",
+      "prompt-engineering",
+      "rag",
+      "red-team"
+    ],
+    "stars": 21,
+    "lastPush": "2026-05-30T10:52:02Z"
   },
   {
     "repo": "more-io/claude-apple-bridges",
@@ -8892,6 +8949,25 @@
     "lastPush": "2025-10-26T00:57:12Z"
   },
   {
+    "repo": "aaravkashyap12/advise-project-approach",
+    "name": "advise-project-approach",
+    "description": "A Claude/Codex skill that researches the best way to build your project before you commit to the wrong stack.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "project-planning",
+      "skill-md",
+      "software-architecture",
+      "tech-stack"
+    ],
+    "stars": 14,
+    "lastPush": "2026-05-28T20:14:21Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -9580,6 +9656,20 @@
     ],
     "stars": 12,
     "lastPush": "2026-03-30T13:32:11Z"
+  },
+  {
+    "repo": "assafkip/founder-skills",
+    "name": "founder-skills",
+    "description": "Two Claude Code skills for founders: structured post-conversation debrief extraction and neurodivergent-aware interaction rules",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "debrief",
+      "founder-tools",
+      "neurodivergent"
+    ],
+    "stars": 12,
+    "lastPush": "2026-05-29T00:15:23Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -11471,6 +11561,58 @@
     "lastPush": "2026-05-23T03:13:06Z"
   },
   {
+    "repo": "minicoursegenerator/skills-for-course-creators",
+    "name": "skills-for-course-creators",
+    "description": "Curated Agent Skills directory for course creators, educators, instructional designers, and L&D teams, featuring practical skills for course assets, research, role-play practice, training analysis, visuals, and delivery workflows.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-course-creator",
+      "ai-education",
+      "chatgpt",
+      "claude-skills",
+      "codex-skills",
+      "course-creation",
+      "course-creator",
+      "edtech",
+      "education",
+      "elearning",
+      "instructional-design",
+      "learning-and-development",
+      "learning-design",
+      "llm-tools",
+      "mini-course",
+      "roleplay",
+      "training",
+      "training-tools"
+    ],
+    "stars": 6,
+    "lastPush": "2026-05-13T14:58:06Z"
+  },
+  {
+    "repo": "harshaneel/humanize",
+    "name": "humanize",
+    "description": "Best static AI text humanizer. Two research-grounded skills that work in any LLM (Claude, ChatGPT, Gemini, Codex): humanize beats perplexity-based detectors, ai-check produces forensic scoring with evidence-quoted flags. Nine levers, 50+ peer-reviewed sources, 2024-2026 detection literature.",
+    "tags": [
+      "ai-content-detection",
+      "ai-detection",
+      "ai-humanizer",
+      "ai-writing-detection",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-skill",
+      "gpt-detection",
+      "humanize",
+      "humanizer",
+      "llm-detection",
+      "text-humanizer"
+    ],
+    "stars": 6,
+    "lastPush": "2026-05-29T18:58:58Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -11978,6 +12120,58 @@
     "lastPush": "2026-05-24T14:50:54Z"
   },
   {
+    "repo": "vladolaru/claude-code-codex-bridge",
+    "name": "claude-code-codex-bridge",
+    "description": "Automatically bridge your local Claude Code setup into Codex so both stay equally effective.",
+    "tags": [
+      "agentic-coding",
+      "ai-coding",
+      "ai-coding-tools",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "codex-skills"
+    ],
+    "stars": 5,
+    "lastPush": "2026-05-13T19:39:20Z"
+  },
+  {
+    "repo": "rayfernando1337/rayfernando-skills",
+    "name": "rayfernando-skills",
+    "description": "Ray Fernando's collection of Skill files for AI coding agents. First up: running-bug-review-board, a real-user QA workflow with a Bug Review Board (BRB) feedback loop.",
+    "tags": [
+      "ai-agents",
+      "bug-review-board",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "manual-testing",
+      "qa",
+      "real-user-testing",
+      "skills",
+      "skills-files"
+    ],
+    "stars": 5,
+    "lastPush": "2026-05-29T14:12:25Z"
+  },
+  {
+    "repo": "jayden-x-l/claude-codex-bridge",
+    "name": "claude-codex-bridge",
+    "description": "Local CLI-first bridge for bidirectional Claude Code and Codex review loops.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-skill"
+    ],
+    "stars": 5,
+    "lastPush": "2026-05-22T07:19:37Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -12378,6 +12572,612 @@
     "lastPush": "2026-05-10T07:06:32Z"
   },
   {
+    "repo": "bzsasson/pre-launch-audit-skill",
+    "name": "pre-launch-audit-skill",
+    "description": "Claude SEO skill: comprehensive pre-launch website audit covering AI accessibility, technical SEO, on-page SEO, security and performance",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "pre-launch",
+      "seo",
+      "seo-audit",
+      "seo-audit-skill",
+      "seo-skills",
+      "technical-seo",
+      "website-audit"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-09T20:14:39Z"
+  },
+  {
+    "repo": "conraygambit/strategy-consultant-5-consulting-frameworks",
+    "name": "Strategy-Consultant-5-Consulting-Frameworks",
+    "description": "Tier-1 strategy-consultant frameworks (MECE, Issue Trees, Hypothesis-Driven, Pareto, So What?) packaged as Claude Skills + LLM-agnostic prompts. Drop in any LLM and get whiteboard-style structured analysis. Adapted from Analyst Academy on YouTube.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "bcg",
+      "business-frameworks",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "consulting",
+      "frameworks",
+      "issue-trees",
+      "llm",
+      "mckinsey",
+      "mece",
+      "pareto",
+      "prompt-engineering",
+      "prompts",
+      "strategy"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-23T16:33:39Z"
+  },
+  {
+    "repo": "xiewxx/maxhub-api-skills",
+    "name": "maxhub-api-skills",
+    "description": "让 AI 助手轻松获取抖音、TikTok、B 站、小红书等 21 个主流平台的数据｜Enable AI assistants to easily access data from 21 mainstream platforms including Douyin, TikTok, Bilibili, Xiaohongshu｜AI アシスタントが抖音・TikTok・Bilibili・小紅書など 21 の主流プラットフォームのデータを簡単に取得｜AI 어시스턴트가 도우인, 틱톡, 빌리빌리, 샤오홍슈 등 21개 주류 플랫폼 데이터를 간편하게 확보",
+    "tags": [
+      "ai-skill",
+      "ai-skills",
+      "automation",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "custom-skill",
+      "gent-skill",
+      "llm-agent",
+      "openclaw",
+      "openclaw-skill",
+      "openclaw-skills",
+      "skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-26T01:51:53Z"
+  },
+  {
+    "repo": "satsilem/claude-skills-pantheon",
+    "name": "claude-skills-pantheon",
+    "description": "A collection of 20 Claude skills named after history's most useful thinkers. Each skill is a focused mode of thinking you can invoke on demand.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-04T14:30:45Z"
+  },
+  {
+    "repo": "vignesh2027/claude-best-practice",
+    "name": "claude-best-practice",
+    "description": "🤖 Claude Code — Best Practices & Advanced Patterns The most comprehensive, production-ready guide to mastering Claude Code From vibe coding → agentic engineering → autonomous AI development teams",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "curso-alura-github",
+      "cursor-ai",
+      "developer-tools",
+      "llm"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-13T16:36:09Z"
+  },
+  {
+    "repo": "walterwritesai/walter-skills",
+    "name": "walter-skills",
+    "description": "Free Claude skills for SEO content: AI humanizer, AI detection bypass, keyword preservation, agency QC, local SEO, programmatic SEO, content repurposing. Drop-in markdown for Claude projects. MIT licensed.",
+    "tags": [
+      "ai-detection",
+      "ai-humanizer",
+      "claude",
+      "claude-mcp",
+      "claude-skills",
+      "content-marketing",
+      "humanize-ai",
+      "seo"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-27T09:24:20Z"
+  },
+  {
+    "repo": "jkm-4314/claude-code-skills",
+    "name": "claude-code-skills",
+    "description": "Opinionated Claude Code skills for project bootstrap, persistent session memory, and multi-model code review (Claude + Codex).",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "developer-tools"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-28T16:17:53Z"
+  },
+  {
+    "repo": "lyymuwu/toktrans",
+    "name": "TokTrans",
+    "description": "Make multilingual Codex and Claude Code tasks clearer with a safe translation layer.",
+    "tags": [
+      "agent",
+      "ai-coding",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "multilingual",
+      "skills",
+      "translation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-02T12:47:32Z"
+  },
+  {
+    "repo": "alexpialetski/doccraft",
+    "name": "doccraft",
+    "description": "Documentation and project-story skills (ADR, story, queue-audit, session-wrap) for Claude Code and Cursor, layered on OpenSpec.",
+    "tags": [
+      "adr",
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "cursor",
+      "docs-as-code",
+      "documentation",
+      "nodejs",
+      "openspec",
+      "product-stories",
+      "typescript"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-29T17:01:50Z"
+  },
+  {
+    "repo": "willinvest/claudex",
+    "name": "ClaudeX",
+    "description": "Multi-model collaboration for Claude Code: Codex as second-opinion reviewer in brainstorming + autonomous Codex-writes / Opus-reviews plan→impl pipeline.",
+    "tags": [
+      "agentic-workflow",
+      "brainstorming",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "multi-model",
+      "skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-29T19:01:48Z"
+  },
+  {
+    "repo": "donkeyking01/tasteful-ui-skill",
+    "name": "tasteful-ui-skill",
+    "description": "A taste-first UI design skill for coding agents: explore visual direction through references, translate taste into executable design docs, and keep implementation grounded in real project context. Inspired by Claude Design, awesome-design-md, and Google design.md.",
+    "tags": [
+      "agent-skills",
+      "claude-design",
+      "claude-skills",
+      "codex-skills",
+      "前端",
+      "skill",
+      "taste",
+      "ui-design"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-02T16:04:26Z"
+  },
+  {
+    "repo": "johanyp/opencode-assistant",
+    "name": "Opencode-Assistant",
+    "description": "Self-hosted personal AI assistant on Telegram. Powered by OpenCode + Claude Sonnet (free big-pickle). OpenClaw skills compatible. SQLite + MCP live memory with optional Ollama vector search.",
+    "tags": [
+      "ai-assistant",
+      "big-pickle",
+      "claude",
+      "claude-skills",
+      "claude-sonnet",
+      "embeddings",
+      "mcp",
+      "model-context-protocol",
+      "ollama",
+      "openclaw",
+      "openclaw-skills",
+      "opencode",
+      "personal-assistant",
+      "self-hosted",
+      "semantic-search",
+      "skill-md",
+      "sqlite",
+      "telegram-bot",
+      "typescript",
+      "vector-memory"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-23T00:41:51Z"
+  },
+  {
+    "repo": "reaviz/skills",
+    "name": "skills",
+    "description": "AI Skills for Reaviz Projects",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "skillsmp"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-15T09:15:34Z"
+  },
+  {
+    "repo": "jed1978/ddd-architecture-coach",
+    "name": "ddd-architecture-coach",
+    "description": "Claude Code skill for structured DDD architecture planning. Produces Context Maps, Aggregate designs, AI-ADRs, and Gherkin Key Examples — not code.",
+    "tags": [
+      "bounded-context",
+      "claude-code",
+      "claude-skills",
+      "ddd",
+      "domain-driven-design",
+      "gherkin",
+      "hexagonal-architecture",
+      "sbe",
+      "software-architecture"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-06T03:31:57Z"
+  },
+  {
+    "repo": "juneyaooo/awesome-ai-media-skills-cn",
+    "name": "awesome-ai-media-skills-cn",
+    "description": "AI 视频与自媒体领域的 Claude Code skills、Openclaw skills, MCP 服务器、AI Agent 能力精选合集 — 涵盖视频生成、多平台运营、内容自动化等。",
+    "tags": [
+      "ai-tools",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "content-creation",
+      "curated-list",
+      "openclaw",
+      "openclaw-skill",
+      "openclaw-skills",
+      "social-media"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-26T02:43:17Z"
+  },
+  {
+    "repo": "ibnsawad/saudi-regulatory-compliance-claude-skill",
+    "name": "Saudi-Regulatory-Compliance-Claude-Skill",
+    "description": "Expert-level Claude Skill for Saudi regulatory compliance — NCA ECC, SAMA-CSF, PDPL, CST and more.",
+    "tags": [
+      "claude-skills",
+      "compliance",
+      "cybersecurity",
+      "grc",
+      "nca",
+      "pdpl",
+      "sama",
+      "saudi-arabia"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-13T07:28:13Z"
+  },
+  {
+    "repo": "roodlicht/accans-sec-skills",
+    "name": "accans-sec-skills",
+    "description": "47 Claude skills for security tradecraft across AppSec, Pentest, Blue Team, and GRC. NL/EU regulatory-anchored. Pattern-level discipline.",
+    "tags": [
+      "appsec",
+      "blue-team",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cybersecurity",
+      "devsecops",
+      "dora",
+      "gdpr",
+      "grc",
+      "nis2",
+      "pentest",
+      "red-team",
+      "安全"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-23T19:57:34Z"
+  },
+  {
+    "repo": "mrdenox109-nyx/skill-manager",
+    "name": "skill-manager",
+    "description": "Automatically detect and disable irrelevant Claude Code skills per project to save tokens and streamline your tech workflow.",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "antigravity",
+      "claude",
+      "claude-code-plugins",
+      "claude-code-skills",
+      "claude-skills",
+      "commands",
+      "hacktoberfest",
+      "kiro",
+      "mcp",
+      "package-manager",
+      "plugin-marketplace",
+      "pm-frameworks",
+      "product-management",
+      "rules",
+      "skills-manager"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-30T08:16:58Z"
+  },
+  {
+    "repo": "goww7/halalterminal-claude-skills",
+    "name": "halalterminal-claude-skills",
+    "description": "Claude Code plugin — Shariah-compliant stock screening, halal portfolio builder with DCA, ETF analysis (5 methodologies: AAOIFI/DJIM/FTSE/MSCI/S&P), zakat calculator, and methodology education. Powered by Halal Terminal.",
+    "tags": [
+      "ai-agents",
+      "claude-skills",
+      "halal-finance",
+      "islamic-finance",
+      "shariah"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-30T09:59:58Z"
+  },
+  {
+    "repo": "vigo/claude-skills",
+    "name": "claude-skills",
+    "description": "My humble Claude-Code skills repo",
+    "tags": [
+      "claude-code",
+      "claude-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-25T04:57:26Z"
+  },
+  {
+    "repo": "tuminha/dental-ai-skills",
+    "name": "dental-ai-skills",
+    "description": "AI Skills for Dentists - Research critique, clinical evidence review, and content creation tools for Claude Desktop and Codex",
+    "tags": [
+      "ai-for-healthcare",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "clinical-ai",
+      "dental-ai",
+      "dentistry",
+      "evidence-based-medicine",
+      "grade",
+      "healthcare-ai",
+      "research-critique"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-16T13:42:02Z"
+  },
+  {
+    "repo": "pushingsquares/pushing-creation",
+    "name": "pushing-creation",
+    "description": "Cinematic prompt methodology for AI image and video generation. Install into Claude Code, author director-grade style packs and storyboards from your reference images. Output is markdown, drop-in compatible with PUSHING FRAMES.",
+    "tags": [
+      "ai-cinematography",
+      "claude-code",
+      "claude-skills",
+      "creative-direction",
+      "prompt-engineering"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-12T05:50:25Z"
+  },
+  {
+    "repo": "medalsoftchina/workcopilot",
+    "name": "workcopilot",
+    "description": "Full project lifecycle AI workstation — orchestrates Agents, Skills, Hooks & Prompts for end-to-end development workflow, from requirements analysis to delivery. 项目全生命周期 AI 工作站。",
+    "tags": [
+      "ai-agents",
+      "claude-skills",
+      "code-generation",
+      "copilot-skills",
+      "dev-productivity",
+      "full-lifecycle",
+      "project-scaffolding",
+      "spec-driven-development",
+      "vscode-copilot",
+      "workflow-automation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-25T07:42:44Z"
+  },
+  {
+    "repo": "debuggerdragon311/zig-pro-maxx",
+    "name": "zig-pro-maxx",
+    "description": "An AI SKILL that provide coding intelligence for writing code in zig 0.16.0",
+    "tags": [
+      "agent-skills",
+      "agi",
+      "ai-skills",
+      "claude-code",
+      "claude-skills",
+      "claw-code",
+      "codex-skill",
+      "cursor-ai",
+      "openclaw",
+      "systems-programming",
+      "windsurf-ai",
+      "zig"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-28T09:53:36Z"
+  },
+  {
+    "repo": "versoxbt/claude-initial-setup",
+    "name": "claude-initial-setup",
+    "description": "75 skills, 14 agents, 15 commands for Claude Code. Plug-and-play starter kit covering TypeScript, Python, Go, Rust, React, Next.js, FastAPI, Django, Docker, CI/CD, security, testing, and more. Cross-AI support for Cursor, Copilot, and Codex.",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "ai-coding-assistant",
+      "ai-coding-tools",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-commands",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills",
+      "cli",
+      "context-engineering",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "vibe-coding"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-09T19:47:43Z"
+  },
+  {
+    "repo": "lessup/awesome-claude-skills-zh",
+    "name": "awesome-claude-skills-zh",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows | Claude Skills 精选列表：定制 Claude AI 工作流的技能、资源和工具合集",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-skills",
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "awesome-list",
+      "chinese",
+      "chinese-translation",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity",
+      "translation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-25T06:01:47Z"
+  },
+  {
+    "repo": "ariankheirgadam/craftdesk",
+    "name": "craftdesk",
+    "description": "🛠️ Manage AI capabilities with CraftDesk, a streamlined package manager for installing and versioning Claude Code skills and development tools.",
+    "tags": [
+      "agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "developer-tools",
+      "javascript",
+      "llm",
+      "package-manager",
+      "skills",
+      "typescript"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-30T10:07:07Z"
+  },
+  {
+    "repo": "hsuanyulee/polaris",
+    "name": "polaris",
+    "description": "A Claude Code workspace template with AI skills for JIRA, PRs, code review, estimation, and daily standups",
+    "tags": [
+      "ai-workflows",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "jira-automation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-29T10:52:21Z"
+  },
+  {
+    "repo": "tinh2/skills-hub-registry",
+    "name": "skills-hub-registry",
+    "description": "Open registry of community-contributed AI coding skills (SKILL.md files) — daily-synced to skills-hub.ai. Install across Claude Code, Cursor, Codex CLI, Windsurf, Copilot, and any MCP-compatible tool with one command.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-agents",
+      "ai-coding",
+      "ai-skills",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "mcp",
+      "model-context-protocol",
+      "skill-md",
+      "skill-registry",
+      "skills-hub",
+      "typescript"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-29T15:16:33Z"
+  },
+  {
+    "repo": "leynos/visual-storytelling-skills",
+    "name": "visual-storytelling-skills",
+    "description": "Agent skills for AI film production — from prose to picture.",
+    "tags": [
+      "agent-skills",
+      "ai-image-generation",
+      "ai-video-generation",
+      "claude-skills",
+      "higgsfield-ai",
+      "nanobanana",
+      "tts"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-10T13:52:50Z"
+  },
+  {
+    "repo": "izyanrajwani/agent-skills-library",
+    "name": "agent-skills-library",
+    "description": "🛠️ Enhance programming workflows with a curated library of agent skills for tasks like code review, debugging, and planning for efficient project execution.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "ai-research",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "claude-skills-hub",
+      "code-review",
+      "codex",
+      "debugging",
+      "developer-workflow",
+      "gemini",
+      "genai",
+      "huggingface",
+      "machine-leanring",
+      "megatron",
+      "perplexity-search",
+      "python"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-30T10:25:59Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -12763,6 +13563,118 @@
     ],
     "stars": 3,
     "lastPush": "2026-05-05T08:20:16Z"
+  },
+  {
+    "repo": "agentcommander/exploration-map",
+    "name": "exploration-map",
+    "description": "A pluggable exploration-memory system for any agent",
+    "tags": [
+      "agent-memory",
+      "agentic-ai",
+      "ai-agents",
+      "ai-harness",
+      "claude-code",
+      "claude-skills",
+      "llm",
+      "prompt-engineering"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-11T11:37:01Z"
+  },
+  {
+    "repo": "bestagentkits/ck-skills",
+    "name": "ck-skills",
+    "description": "Best Toolkits for Your AI Agents — 14 Claude Code skills curated by GoClaw / AgentBrain.",
+    "tags": [
+      "agent-tools",
+      "agentbrain",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "goclaw",
+      "plugin-marketplace"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-18T05:58:02Z"
+  },
+  {
+    "repo": "nirvanaguha/thoth",
+    "name": "thoth",
+    "description": "An open-source Claude skill that builds a unique, consistent LinkedIn voice. Framework-driven persona interview (Jungian archetypes + NN/g tone model + anti-voice) → daily post generation on a 30/25/20/15/10 content mix. Works for one person or a whole team. Install with one npx command.",
+    "tags": [
+      "ai-skills",
+      "ai-writing",
+      "brand-archetypes",
+      "claude",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "content-calendar",
+      "creator-economy",
+      "jungian-archetypes",
+      "linkedin",
+      "linkedin-posts",
+      "mit-license",
+      "npm",
+      "open-source",
+      "personal-brand",
+      "thought-leadership",
+      "tone-of-voice",
+      "voice-design",
+      "writing-assistant"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-29T10:23:34Z"
+  },
+  {
+    "repo": "nacholafuente/5050-gtm",
+    "name": "5050-gtm",
+    "description": "GTM skills for Claude Code by 5050growth. Cohort analysis, proposals, disco prep - pull from your CRM, no SaaS, no dashboards.",
+    "tags": [
+      "agent-skills",
+      "attio",
+      "claude-code",
+      "claude-skills",
+      "cohort-analysis",
+      "crm",
+      "gtm",
+      "revops",
+      "stripe"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-28T20:57:13Z"
+  },
+  {
+    "repo": "nouvath07/khamlao",
+    "name": "KhamLao",
+    "description": "ຄຳລາວ — Lao language quality + compression mode for Claude",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "lao",
+      "lao-language",
+      "nlp"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-29T18:44:39Z"
+  },
+  {
+    "repo": "cyn-zhang/job-radar",
+    "name": "job-radar",
+    "description": "AI-powered job hunting copilot— daily scans, JD evaluation, CV tailoring, cover letters, interview prep, and application tracking",
+    "tags": [
+      "ai-job-agent",
+      "ai-job-radar-skills",
+      "ai-job-skills",
+      "claude-skills",
+      "job-ai-agent",
+      "job-hunting-copilot",
+      "job-radar",
+      "job-skills",
+      "jobradar"
+    ],
+    "stars": 3,
+    "lastPush": "2026-05-30T08:34:23Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -13607,6 +14519,74 @@
     ],
     "stars": 2,
     "lastPush": "2026-05-23T06:20:56Z"
+  },
+  {
+    "repo": "elioucan/better-readmes",
+    "name": "better-readmes",
+    "description": "Two Claude Code skills that generate structured, audience-aware READMEs and publish them to GitHub. write-readme scans your codebase and asks only what it cannot infer; publish-readme pushes the file and sets the repo description and topics automatically.",
+    "tags": [
+      "bash",
+      "claude-code",
+      "claude-code-skill",
+      "devtools",
+      "documentation",
+      "github-cli",
+      "markdown",
+      "readme",
+      "readme-generator"
+    ],
+    "stars": 2,
+    "lastPush": "2026-05-27T19:04:37Z"
+  },
+  {
+    "repo": "joeyparrish/elvish-translation-tools",
+    "name": "elvish-translation-tools",
+    "description": "Elvish (Tolkien) translation tools, plus a skill for use in Claude or some lesser LLM.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-ai-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "elvish",
+      "elvish-lang",
+      "elvish-language",
+      "elvish-transcript",
+      "elvish-transcript-lang",
+      "elvish-transcript-language",
+      "quenya",
+      "quenya-lang",
+      "quenya-language",
+      "sindarin"
+    ],
+    "stars": 2,
+    "lastPush": "2026-05-28T15:50:29Z"
+  },
+  {
+    "repo": "birdilsss-byte/stoke",
+    "name": "stoke",
+    "description": "🔥 免费 A 股数据层 — 零 API Key、零注册、零付费，14 个接口覆盖 6 大层面。兼容 Claude Code / OpenClaw / Hermes。",
+    "tags": [
+      "a-share",
+      "akshare",
+      "chinese-stock",
+      "claude-code",
+      "claude-code-skill",
+      "finance-data",
+      "free-data",
+      "macos",
+      "mootdx",
+      "open-source",
+      "python",
+      "quantitative-finance",
+      "skill",
+      "stock-market",
+      "windows",
+      "zero-api-key"
+    ],
+    "stars": 2,
+    "lastPush": "2026-05-18T10:28:53Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -15601,6 +16581,317 @@
     "lastPush": "2026-05-26T15:46:17Z"
   },
   {
+    "repo": "aimonj0729-ai/shipwright",
+    "name": "shipwright",
+    "description": "🚢 AI 项目出海前的 Launch QA 船坞：README、浏览器、趋势雷达和发布检查一站验船。",
+    "tags": [
+      "ai-agents",
+      "browser-testing",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "developer-tools",
+      "github-trending",
+      "indie-hackers",
+      "launch-qa",
+      "launch-readiness",
+      "product-management",
+      "readme-audit",
+      "skills",
+      "vibe-coding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-27T08:37:27Z"
+  },
+  {
+    "repo": "erenlokman/claude-imagegen-skill",
+    "name": "claude-imagegen-skill",
+    "description": "Claude Code skill: AI image generation with Design Memory (NotebookLM) + Pencil MCP integration. DALL-E via Codex CLI — no API key needed.",
+    "tags": [
+      "ai-image-generation",
+      "ai-tools",
+      "chatgpt",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-cli",
+      "dall-e",
+      "design-memory",
+      "design-system",
+      "developer-tools",
+      "image-generation",
+      "mcp",
+      "notebooklm",
+      "openai",
+      "pencil-mcp",
+      "ui-design"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-30T07:51:02Z"
+  },
+  {
+    "repo": "jane-xiaoer/claude-skill-web-clone",
+    "name": "claude-skill-web-clone",
+    "description": "Methodology for faithfully cloning any website (static / React / WebGL) — without copying AI-hallucinated code. Real source first.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "methodology",
+      "reverse-engineering",
+      "skill",
+      "web-cloning",
+      "webgl"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T10:19:16Z"
+  },
+  {
+    "repo": "o3co/agent-fcot",
+    "name": "agent-fcot",
+    "description": "Falsification Chain of Thought — post-hoc verification of AI judgments using falsificationism to counter sycophancy bias",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "falsification",
+      "sycophancy"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T03:50:19Z"
+  },
+  {
+    "repo": "mturac/codebase-dna-guardian",
+    "name": "codebase-dna-guardian",
+    "description": "🧬 A Claude Code skill that extracts and enforces a codebase's tribal knowledge — naming conventions, architectural patterns, error handling strategies, and dependency choices.",
+    "tags": [
+      "AI",
+      "architecture",
+      "claude-code",
+      "claude-code-skill",
+      "code-quality",
+      "conventions",
+      "monorepo",
+      "tribal-knowledge"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T18:02:14Z"
+  },
+  {
+    "repo": "hwajongpark/fact-drift",
+    "name": "fact-drift",
+    "description": "A Claude Code skill that watches the source pages behind the facts you cite (prices, versions, limits, rules, deadlines) and updates every file that has gone out of date, once you approve.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "change-detection",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "content-operations",
+      "developer-tools",
+      "documentation",
+      "fact-checking",
+      "llm",
+      "regulatory-monitoring",
+      "web-monitoring"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T15:42:12Z"
+  },
+  {
+    "repo": "orenashkenazy/gh-gemini-review-loop",
+    "name": "gh-gemini-review-loop",
+    "description": "Opinionated Gemini Code Assist PR review loop for Claude Code. Thread-state-aware, severity-filtered, 3-cycle cap, sticky-receipt visibility. No CI coupling.",
+    "tags": [
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "code-review",
+      "gemini",
+      "gemini-code-assist",
+      "plugin-marketplace",
+      "pull-request"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T16:22:10Z"
+  },
+  {
+    "repo": "wan-huiyan/cutify-that-tab",
+    "name": "cutify-that-tab",
+    "description": "Add a cute, hand-authored SVG favicon to a web app — 4 techniques (emoji, gradient blob, 16×16 pixel art, text sticker). A Claude Code skill.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "favicon",
+      "前端",
+      "pixel-art",
+      "svg"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T17:31:07Z"
+  },
+  {
+    "repo": "willnie9/agent-skills",
+    "name": "agent-skills",
+    "description": "A powerful AI agent workflow for Frontend SaaS. Auto generating UI/API code and running E2E tests.",
+    "tags": [
+      "ai-agents",
+      "ai-workflow",
+      "autonomous-agents",
+      "bug-fixing",
+      "ci-cd-pipeline",
+      "claude-code-skill",
+      "code-generation",
+      "design-to-code",
+      "design-to-code-automation",
+      "e2e-testing",
+      "figma-to-code",
+      "frontend-automation",
+      "llm-automation-agent",
+      "mastergo",
+      "playwright",
+      "swaager",
+      "test-automation",
+      "ui-to-code",
+      "vue3",
+      "yapi"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T09:29:41Z"
+  },
+  {
+    "repo": "dragon375014/goal-workflow-designer",
+    "name": "goal-workflow-designer",
+    "description": "A Claude Code skill that interrogates you until your /goal prompt is precise enough to actually work. Five-element framework + rubric SOP + handoff pattern.",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "goal-setting",
+      "prompt-engineering",
+      "rubric"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-30T07:14:29Z"
+  },
+  {
+    "repo": "senu-nk/project-manager",
+    "name": "project-manager",
+    "description": "Turn vague ideas into developer-ready specs and vertical-slice build plans — one question at a time. A gated, resumable interview that adapts its depth to project complexity. It never invents requirements: unknowns become traceable Open Questions tied directly to affected build slices. Delivered as a Claude Code skill.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "developer-tools",
+      "planning",
+      "prd",
+      "requirements",
+      "spec-driven-development",
+      "spec-driven-development-requirements"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T13:38:34Z"
+  },
+  {
+    "repo": "ibaifernandez/mariana-audit",
+    "name": "mariana-audit",
+    "description": "Multi-dimensional code audit skill for Claude Code — security, accessibility, performance, legal compliance, architecture and more, powered by graphify knowledge graph. Ships with empirically validated mitigation playbooks.",
+    "tags": [
+      "accessibility",
+      "ai-tools",
+      "anthropic",
+      "architecture",
+      "audit",
+      "claude-code",
+      "claude-code-skill",
+      "cvss",
+      "developer-tools",
+      "gdpr",
+      "graphify",
+      "knowledge-graph",
+      "owasp",
+      "performance",
+      "rgpd",
+      "security-audit",
+      "technical-debt",
+      "wcag"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T07:04:50Z"
+  },
+  {
+    "repo": "felipecarillo/holoctl",
+    "name": "holoctl",
+    "description": "Project structure for AI coding agents — kanban board, named agents, slash commands, decisions log, live dashboard. Versioned in .holoctl/ next to your code. Compiles to Claude Code, Cursor, Windsurf, GitHub Copilot, Devin, Aider.",
+    "tags": [
+      "agent-orchestration",
+      "agents",
+      "AI",
+      "ai-agents",
+      "aider",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "copilot",
+      "cursor",
+      "developer-tools",
+      "devin",
+      "dossier",
+      "holoctl",
+      "kanban",
+      "project-management",
+      "windsurf"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T18:11:00Z"
+  },
+  {
+    "repo": "tinadu-ai/deck-pipeline",
+    "name": "deck-pipeline",
+    "description": "Production-grade Claude Code skill for CN→EN deck globalization with McKinsey polish and layout audit. 4-stage pipeline (Sense → Translate → Audit → Handoff); swappable PROFILE block; polish-only mode for single-language decks.",
+    "tags": [
+      "agent-skill",
+      "ai-tools",
+      "bilingual",
+      "chinese-english",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "deck-globalization",
+      "mckinsey",
+      "powerpoint",
+      "pptx",
+      "python-pptx",
+      "translation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-12T16:02:21Z"
+  },
+  {
+    "repo": "googlarz/whats-next",
+    "name": "whats-next",
+    "description": "Claude Code skill: persona-based strategic product analysis — 5 users, 3 recommendation layers, elevation moves",
+    "tags": [
+      "analysis",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "product",
+      "skill",
+      "strategy"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-29T08:48:09Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -17057,5 +18348,114 @@
     ],
     "stars": 0,
     "lastPush": "2026-05-26T16:36:12Z"
+  },
+  {
+    "repo": "assafkip/linkedin-brand",
+    "name": "linkedin-brand",
+    "description": "LinkedIn + personal brand OS for founders (Claude Code skill)",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "founder-tools",
+      "linkedin",
+      "personal-brand"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-29T00:15:31Z"
+  },
+  {
+    "repo": "kcholakorn/fresh-eyes-review",
+    "name": "fresh-eyes-review",
+    "description": "A Claude Code skill that simulates real human readers (QA / dev / tech lead) reading your handover & onboarding docs — to catch what makes the team bounce it back, before you send it.",
+    "tags": [
+      "AI",
+      "claude-code",
+      "claude-code-skill",
+      "documentation",
+      "handover",
+      "onboarding",
+      "technical-writing"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-29T09:20:29Z"
+  },
+  {
+    "repo": "kellyvai/love-kk-ios-ai-dev",
+    "name": "love-kk-ios-ai-dev",
+    "description": "小K酱｜针对 iOS App 应用的小白开发skills",
+    "tags": [
+      "ai-agent",
+      "ai-development",
+      "app-store",
+      "claude-code",
+      "claude-code-skill",
+      "indie-dev",
+      "ios-app",
+      "ios-development",
+      "no-code"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-27T14:02:23Z"
+  },
+  {
+    "repo": "infai-tech/claudemd-auditor-skill",
+    "name": "claudemd-auditor-skill",
+    "description": "Audit your CLAUDE.md file. Calibrated 0–100 scoring on 6 axes with concrete fixes. Drop-in Claude Code skill.",
+    "tags": [
+      "AI",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "claude-md",
+      "claude-skill",
+      "claudemd",
+      "code-quality",
+      "developer-tools",
+      "skill"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-28T04:41:19Z"
+  },
+  {
+    "repo": "slzx1/mao-zedong-perspective",
+    "name": "mao-zedong-perspective",
+    "description": "毛泽东skill：一个可运行的认知操作系统。基于6个维度（著作、对话、表达DNA、他者视角、决策记录、时间线）的深度调研，提炼了毛泽东的7个核心心智模型、10条决策启发式和完整的表达DNA。",
+    "tags": [
+      "claude-code-skill",
+      "mao-zedong",
+      "strategic-analysis",
+      "thinking-framework"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-28T12:15:56Z"
+  },
+  {
+    "repo": "chake111/ai-code-refactoring-plugin",
+    "name": "ai-code-refactoring-plugin",
+    "description": "Disciplined 5-phase refactoring workflow for AI-generated code: audit → characterization tests → design tokens →   modular refactor → polish. Prevents refactoring without a safety net.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "refactoring",
+      "skills"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-28T15:53:39Z"
+  },
+  {
+    "repo": "wpylove666/progress-tracker",
+    "name": "progress-tracker",
+    "description": "AI 任务进度可视化工具 | Two-layer progress tracker for Claude Code — Skill layer + Runtime layer, zero dependencies",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "progress-tracking",
+      "python",
+      "skill",
+      "task-management"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-30T05:17:04Z"
   }
 ]
