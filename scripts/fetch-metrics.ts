@@ -164,14 +164,22 @@ async function main() {
     log(`24 小时内有数据的: ${Object.keys(existingMetrics).length} 个，过滤掉不在 allowedRepos 的 ${filteredOutCount} 个`);
   }
 
-  // 昨日快照（算增量用）
-  const yesterday = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
-  const snapPath = resolve(DATA_DIR, 'snapshots', `${yesterday}.json`);
-  const prevSnapshot: Record<string, number> = existsSync(snapPath)
-    ? Object.fromEntries(
-        JSON.parse(readFileSync(snapPath, 'utf-8')).skills?.map((s: any) => [s.repo, s.stars_total]) || []
-      )
-    : {};
+  // 7 日前快照（算真实 7 日增量），不存在则向前查找最近可用快照
+  function loadSnapshot(dateStr: string): Record<string, number> {
+    const p = resolve(DATA_DIR, 'snapshots', `${dateStr}.json`);
+    if (!existsSync(p)) return {};
+    return Object.fromEntries(
+      JSON.parse(readFileSync(p, 'utf-8')).skills?.map((s: any) => [s.repo, s.stars_total]) || []
+    );
+  }
+  // 优先用恰好 7 天前的，不存在则向前逐日查找（最多回退 10 天）
+  let prevWeekSnapshot: Record<string, number> = {};
+  for (let offset = 0; offset < 10; offset++) {
+    const d = new Date(Date.now() - (7 + offset) * 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
+    const snap = loadSnapshot(d);
+    if (Object.keys(snap).length > 0) { prevWeekSnapshot = snap; break; }
+  }
+  log(`7 日基线快照命中 ${Object.keys(prevWeekSnapshot).length} 个仓库`);
 
   // 过滤出需要获取的仓库
   const todo = allRepos.filter(c => !existingMetrics[c.repo]);
@@ -202,7 +210,7 @@ async function main() {
       if (checked % 20 === 0) log(`进度: ${checked}/${todoList.length} (成功 ${newMetrics.length})`);
 
       try {
-        const m = await getMetric(c.repo, prevSnapshot[c.repo]);
+        const m = await getMetric(c.repo, prevWeekSnapshot[c.repo]);
         if (m) {
           m.pool = c.pool;
           (m as any).fetchedAt = new Date().toISOString();
