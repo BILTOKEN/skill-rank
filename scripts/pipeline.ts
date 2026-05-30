@@ -47,8 +47,14 @@ async function main() {
   run(resolve(SCRIPTS, 'compute-rankings.ts'), '步骤 3/6：计算排名');
   run(resolve(SCRIPTS, 'translate.ts'), '步骤 4/6：AI 翻译');
   run(resolve(SCRIPTS, 'generate-weekly.ts'), '步骤 5/6：周报草稿（仅周日）');
-  log('步骤 6/6：构建网站');
-  execSync('npx astro build', { cwd: resolve(import.meta.dirname, '..'), stdio: 'inherit' });
+
+  // SKIP_BUILD=1 时跳过构建（CI 中由 workflow 在 push 之后单独 build，避免 .astro/ 缓存导致 rebase 失败）
+  if (process.env.SKIP_BUILD === '1') {
+    log('SKIP_BUILD=1，跳过构建（由 CI workflow 单独执行）');
+  } else {
+    log('步骤 6/6：构建网站');
+    execSync('npx astro build', { cwd: resolve(import.meta.dirname, '..'), stdio: 'inherit' });
+  }
 
   console.log('\n========================================');
   console.log('  流水线完成！提交和部署由 GitHub Actions 负责');
