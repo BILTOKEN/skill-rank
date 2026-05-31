@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-31 07:26",
+  "last_update": "2026-05-31 10:02",
   "weekly_growth": [
     {
       "repo": "mksglu/context-mode",
@@ -13773,75 +13773,6 @@
       "activity_score": 5.3
     },
     {
-      "repo": "lukasniessen/terrashark",
-      "name": "terrashark",
-      "description": "Terraform Skill for Claude Code and Codex. LLMs hallucinate a lot with Terraform - TerraShark fixes this. It eliminates hallucinations, is designed for modular and secure code and grounds your IaC in the official Hashicorp Terraform best practices.",
-      "tags": [
-        "aws",
-        "azure",
-        "claude",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "codex",
-        "codex-skills",
-        "DevOps",
-        "gcp",
-        "infrastructure-as-code",
-        "modules",
-        "opentofu",
-        "skills",
-        "terraform"
-      ],
-      "stars_total": 412,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-24T09:01:45Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.3
-    },
-    {
-      "repo": "lukasniessen/kubernetes-skill",
-      "name": "kubernetes-skill",
-      "description": "Kubernetes Skill for Claude Code and Codex. LLMs hallucinate a lot with K8s - KubeShark fixes this. It eliminates hallucinations and grounds your Kubernetes, Helm etc official best practices.",
-      "tags": [
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "codex-skill",
-        "DevOps",
-        "helm",
-        "k8s",
-        "kubernetes",
-        "kubernetes-deployment",
-        "kubernetes-setup",
-        "skills",
-        "sre"
-      ],
-      "stars_total": 344,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-24T09:00:47Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.3
-    },
-    {
       "repo": "ombulabs/claude-code_rails-upgrade-skill",
       "name": "claude-code_rails-upgrade-skill",
       "description": "A Claude Code Skill to Upgrade Rails",
@@ -14949,6 +14880,75 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "lukasniessen/terrashark",
+      "name": "terrashark",
+      "description": "Terraform Skill for Claude Code and Codex. LLMs hallucinate a lot with Terraform - TerraShark fixes this. It eliminates hallucinations, is designed for modular and secure code and grounds your IaC in the official Hashicorp Terraform best practices.",
+      "tags": [
+        "aws",
+        "azure",
+        "claude",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "codex-skills",
+        "DevOps",
+        "gcp",
+        "infrastructure-as-code",
+        "modules",
+        "opentofu",
+        "skills",
+        "terraform"
+      ],
+      "stars_total": 412,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-24T09:01:45Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "lukasniessen/kubernetes-skill",
+      "name": "kubernetes-skill",
+      "description": "Kubernetes Skill for Claude Code and Codex. LLMs hallucinate a lot with K8s - KubeShark fixes this. It eliminates hallucinations and grounds your Kubernetes, Helm etc official best practices.",
+      "tags": [
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "codex-skill",
+        "DevOps",
+        "helm",
+        "k8s",
+        "kubernetes",
+        "kubernetes-deployment",
+        "kubernetes-setup",
+        "skills",
+        "sre"
+      ],
+      "stars_total": 344,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-24T09:00:47Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 2.3
     },

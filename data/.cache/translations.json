@@ -5661,5 +5661,215 @@
     "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-vibe-coding 技能，将文件保存到 .claude/skills/awesome-vibe-coding/ 目录，完成安装。",
     "translatedAt": "2026-05-31T07:28:49.873Z",
     "backTranslationDiff": 0.16666666666666663
+  },
+  "appautomaton/presentation": {
+    "sourceHash": "25204d42b9cfe4d4",
+    "chineseDescription": "Claude Code 和 Codex 的 SKILL，用于制作咨询级演示文稿——战略故事板、品牌系统标识，以及像素级完美的 PDF 或可编辑的 PPTX 输出。",
+    "prompt": "请从 https://github.com/appautomaton/presentation 下载 presentation skill 文件，并将其保存到 .claude/skills/presentation/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:02:39.885Z",
+    "backTranslationDiff": 0.6428571428571428
+  },
+  "lsnackerman/raw-clauding-skills": {
+    "sourceHash": "92e053577216a345",
+    "chineseDescription": "用于与 AI 进行复合思维（compound thinking）的工作流",
+    "prompt": "请从 https://github.com/lsnackerman/raw-clauding-skills 下载 raw-clauding-skills 项目文件，并将其保存到 .claude/skills/raw-clauding-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:02:43.534Z",
+    "backTranslationDiff": 0.25
+  },
+  "akseolabs-seo/cinematic-ui": {
+    "sourceHash": "3fd9b53e04e505b0",
+    "chineseDescription": "一个以推理为先的电影化网页设计技能。让 AI 像电影导演一样思考——先研究一部真实电影，提取其视觉语言，再将其转化为页面叙事与构图。这不是一个风格选择器，而是一个导演的工作流。",
+    "prompt": "请安装 cinematic-ui 技能。从 https://github.com/akseolabs-seo/cinematic-ui 下载所有文件，并保存到 .claude/skills/cinematic-ui/ 目录下。",
+    "translatedAt": "2026-05-31T10:02:47.326Z",
+    "backTranslationDiff": 0.2692307692307693
+  },
+  "thestack-ai/swing-skills": {
+    "sourceHash": "fd64d7bc9a4d8cff",
+    "chineseDescription": "开源 Claude Code 技能包——6 道认知防火墙，阻止 AI 幻觉、偏见和草率推理。",
+    "prompt": "请从 https://github.com/thestack-ai/swing-skills 下载 swing-skills 技能文件，保存到 .claude/skills/swing-skills/ 目录，完成安装。",
+    "translatedAt": "2026-05-31T10:02:50.832Z",
+    "backTranslationDiff": 0.36363636363636365
+  },
+  "delphicleancode/delphi-spec-kit": {
+    "sourceHash": "7d9a6b7b49516910",
+    "chineseDescription": "一套有主见的规则、技能和引导生态系统，旨在将 Delphi 开发提升到与人工智能结合的一流水平。",
+    "prompt": "请从 https://github.com/delphicleancode/delphi-spec-kit 下载 delphi-spec-kit 技能，并将所有文件保存到 .claude/skills/delphi-spec-kit/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:02:54.136Z",
+    "backTranslationDiff": 0.15384615384615385
+  },
+  "ck42bb/procedural-clouds-threejs": {
+    "sourceHash": "b14293a884ace4f9",
+    "chineseDescription": "在 Three.js 中生成漂亮的程序化云朵，使用 WebGPU raymarching（光线步进）技术，并支持 WebGL2 billboard/mesh（公告板/网格）作为回退方案。",
+    "prompt": "请从 https://github.com/ck42bb/procedural-clouds-threejs 下载文件，并保存到 .claude/skills/procedural-clouds-threejs/ 目录，完成安装。",
+    "translatedAt": "2026-05-31T10:02:57.423Z",
+    "backTranslationDiff": 0.16666666666666663
+  },
+  "karmaloopai/jiva": {
+    "sourceHash": "92a3d216967fc358",
+    "chineseDescription": "Jiva 是一个 CLI 优先、开源的自主 AI 代理，也是 Claude 的开源替代品。它用 TypeScript 编写，原生支持 Sarvam-105B 和 gpt-oss-120b 模型，能自主从终端规划和执行任务。支持 MCP 服务器、内置 Skills 系统以及 Jiva Personas——一个与 Claude 插件完全兼容的插件框架。",
+    "prompt": "请从 https://github.com/karmaloopai/jiva 下载 Jiva 项目文件，并将其保存到 .claude/skills/jiva/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:01.226Z",
+    "backTranslationDiff": 0.2941176470588235
+  },
+  "stretchvancouver/stretch-ai-yoga": {
+    "sourceHash": "fb25e7f4609f0228",
+    "chineseDescription": "为 AI 智能体设计的认知训练实践。可自行应用。开源。由温哥华一家独立瑜伽工作室开发。",
+    "prompt": "请从 https://github.com/stretchvancouver/stretch-ai-yoga 下载技能文件，并将其保存到 .claude/skills/stretch-ai-yoga/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:04.484Z",
+    "backTranslationDiff": 0.41666666666666663
+  },
+  "saidwivedi/research-skills": {
+    "sourceHash": "a89caae1d49cc7c8",
+    "chineseDescription": "为 AI/ML 研究人员准备的 Claude Code 技能包",
+    "prompt": "请从 https://github.com/saidwivedi/research-skills 下载仓库文件，并将其保存到 .claude/skills/research-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:07.629Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "beingsmit/technical-product-gtm": {
+    "sourceHash": "f768ca1a133dcbd2",
+    "chineseDescription": "面向AI和技术创始人的11个GTM（Go-to-Market，市场进入）技能——包括定位、定价、合作伙伴关系、企业销售、PLG（产品驱动增长）、AI GTM以及董事会沟通。",
+    "prompt": "请从 https://github.com/beingsmit/technical-product-gtm 下载 technical-product-gtm skill 文件，并将其保存到 .claude/skills/technical-product-gtm/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:11.440Z",
+    "backTranslationDiff": 0.3076923076923077
+  },
+  "datazoode/anofox-forecast": {
+    "sourceHash": "2100b061e3487d6e",
+    "chineseDescription": "在 DuckDB 中进行统计时间序列预测",
+    "prompt": "请从 https://github.com/datazoode/anofox-forecast 下载 anofox-forecast skill 文件，并保存到 .claude/skills/anofox-forecast/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:14.503Z",
+    "backTranslationDiff": 0.25
+  },
+  "ea-toolkit/architecture-catalog": {
+    "sourceHash": "8e8d5a847052503a",
+    "chineseDescription": "基于 Git 的架构目录——Markdown 注册表、Schema 驱动的 UI、AI 就绪",
+    "prompt": "请从 https://github.com/ea-toolkit/architecture-catalog 下载 architecture-catalog skill 的所有文件，并保存到 .claude/skills/architecture-catalog/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:17.777Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "mfwarren/entrepreneur-claude-skills": {
+    "sourceHash": "a3f190dab696275b",
+    "chineseDescription": "为 Claude Code 打造的创业技能包——涵盖市场营销、销售、运营、财务和领导力。由一位创始人亲手编写，共24项技能，专为创始人服务。",
+    "prompt": "请从 https://github.com/mfwarren/entrepreneur-claude-skills 下载 entrepreneur-claude-skills 技能包，并将所有文件保存到 .claude/skills/entrepreneur-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:21.372Z",
+    "backTranslationDiff": 0.3076923076923077
+  },
+  "kenryu42/awesome-claude-skills": {
+    "sourceHash": "0e02e2e278f8dc97",
+    "chineseDescription": "这是一个 Claude Skills 的精选资源列表——基于文件系统的可复用资源，为 Claude 提供 Anthropic 开发的领域特定专业知识。",
+    "prompt": "请从 https://github.com/kenryu42/awesome-claude-skills 下载 awesome-claude-skills 项目，并将其保存到 .claude/skills/awesome-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:24.905Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "aligundogdu/symfony-hexagonal-skill": {
+    "sourceHash": "97c55257ad8675cc",
+    "chineseDescription": "Claude Code 插件，用于在 Symfony 项目中强制实施六边形架构（端口与适配器）——包含 10 个自动触发技能、2 个审查代理，并支持对现有代码库进行渐进式重构。",
+    "prompt": "请从 https://github.com/aligundogdu/symfony-hexagonal-skill 下载该技能的所有文件，并将它们保存到 .claude/skills/symfony-hexagonal-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:28.512Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "gygantskiymatilyock/ios-developer-agents": {
+    "sourceHash": "8ac0bac8ef99ede4",
+    "chineseDescription": "面向 iOS 开发者的 AI 代理和技能集合",
+    "prompt": "请从 https://github.com/gygantskiymatilyock/ios-developer-agents 下载该仓库的所有文件，并保存到 .claude/skills/ios-developer-agents/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:31.971Z",
+    "backTranslationDiff": 1
+  },
+  "geoffreycrofte/luxembourg-accessibility-skillset": {
+    "sourceHash": "ffd575e1edda3478",
+    "chineseDescription": "一套技能包，涵盖 RAWeb、RAM 和 RAPDF 的可访问性覆盖，专为 AI（针对 Claude Code）设计。",
+    "prompt": "请从 https://github.com/geoffreycrofte/luxembourg-accessibility-skillset 下载文件，并将其保存到 .claude/skills/luxembourg-accessibility-skillset/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:35.741Z",
+    "backTranslationDiff": 0.4444444444444444
+  },
+  "toseaai/awesome-html-slide-skills": {
+    "sourceHash": "8aeebd1ab4329666",
+    "chineseDescription": "这是一个为 Claude Code、Codex、Cursor、OpenClaw 和 Hermes 整理的 HTML 幻灯片生成技能与模板库合集。精选了各种 HTML 演示文稿的 Skill 和模板资源。",
+    "prompt": "请从 https://github.com/toseaai/awesome-html-slide-skills 下载 awesome-html-slide-skills 仓库，将文件保存到 .claude/skills/awesome-html-slide-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:39.590Z",
+    "backTranslationDiff": 0.23529411764705888
+  },
+  "tristan-mcinnis/ppt-translator-formatting-intact-with-llms": {
+    "sourceHash": "a08342aeb2a64d25",
+    "chineseDescription": "一个强大的 PowerPoint 翻译工具，使用 Deepseek API 翻译内容的同时保留所有格式。它能保持字体、颜色、布局和其他样式元素，同时提供准确的语言翻译。",
+    "prompt": "请从 https://github.com/tristan-mcinnis/ppt-translator-formatting-intact-with-llms 下载 PPT-Translator-Formatting-Intact-with-LLMs 技能文件，保存到 .claude/skills/ppt-translator-formatting-intact-with-llms/ 目录完成安装。",
+    "translatedAt": "2026-05-31T10:03:42.887Z",
+    "backTranslationDiff": 0.42307692307692313
+  },
+  "lbb00/ai-rules-sync": {
+    "sourceHash": "eeed984e6240eab9",
+    "chineseDescription": "轻松同步、管理和分享你的 AI 规则、技能、命令、子代理（支持 Cursor、Claude Code、Copilot、OpenCode、Trae AI、Codex、Gemini CLI、Warp）。",
+    "prompt": "请从 https://github.com/lbb00/ai-rules-sync 下载该仓库的所有文件，并将它们保存到 .claude/skills/ai-rules-sync/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:46.177Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "geekjourneyx/any2card": {
+    "sourceHash": "aaea28d78a8e613c",
+    "chineseDescription": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。让卡片本身完成信息传达：先可读，再有审美，再适合传播。【使用场景】适合需要将长文本、文章或讨论内容快速转化为视觉友好的信息卡片，用于社交媒体分享或文档展示。",
+    "prompt": "请从 https://github.com/geekjourneyx/any2card 下载该 Skill 的所有文件，并保存到 .claude/skills/any2card/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:03:50.030Z",
+    "backTranslationDiff": 0.75
+  },
+  "hyperfx-ai/marketing-skills": {
+    "sourceHash": "3b6ba732ea46f044",
+    "chineseDescription": "AI 代理的营销技能——涵盖付费广告、社交媒体、SEO（搜索引擎优化）、竞品调研、创意生成、邮件营销、数据分析等。由 Hyper MCP 提供支持。",
+    "prompt": "请从 https://github.com/hyperfx-ai/marketing-skills 下载 marketing-skills 技能，并将其文件保存到 .claude/skills/marketing-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:03:54.176Z",
+    "backTranslationDiff": 0.38888888888888884
+  },
+  "olgasafonova/skillcheck-free": {
+    "sourceHash": "0195cf388b9b820f",
+    "chineseDescription": "验证 Claude Code 技能是否符合 agentskills 规范（免费版）",
+    "prompt": "请从 https://github.com/olgasafonova/skillcheck-free 下载文件，保存到 .claude/skills/skillcheck-free/ 目录，完成安装。【使用场景】用于检查自定义 Claude Code 技能是否遵循 agentskills 规范，确保技能兼容性。",
+    "translatedAt": "2026-05-31T10:03:57.416Z",
+    "backTranslationDiff": 0.4444444444444444
+  },
+  "ktg-one/context": {
+    "sourceHash": "12dfa9f039a7dcf6",
+    "chineseDescription": "C.O.N.T.EX.T 旨在将复杂的多领域对话压缩成机器优化的“Carry-Packets”（携带包）。这些数据包达到 0.15 实体/令牌的结晶点，确保接收模型能以近乎完美的保真度重建原始上下文。",
+    "prompt": "请从 https://github.com/ktg-one/context 下载该仓库的所有文件，并将它们保存到 .claude/skills/context/ 目录中，完成 context skill 的安装。",
+    "translatedAt": "2026-05-31T10:04:01.190Z",
+    "backTranslationDiff": 0.11538461538461542
+  },
+  "rainlib/ai-storyboard": {
+    "sourceHash": "2ff6be4696b5d7d8",
+    "chineseDescription": "这是一个与 Claude 相关的技能或代理分享。",
+    "prompt": "请从 https://github.com/rainlib/ai-storyboard 下载该仓库的所有文件，并将它们保存到 .claude/skills/ai-storyboard/ 目录中，以完成安装。",
+    "translatedAt": "2026-05-31T10:04:04.833Z",
+    "backTranslationDiff": 0.25
+  },
+  "shelpuk-ai-technology-consulting/agent-skill-tdd": {
+    "sourceHash": "9c3dfc4bb86706a2",
+    "chineseDescription": "这是一个为 AI 编码代理（如 Claude Code、Codex、Antigravity、Cursor、Windsurf 等）设计的 TDD + 需求工作流技能。属于 Shelpuk 代理套件的一部分，同系列还有 Serena、Kindly Web Search 和 Lad。【使用场景】当你需要让 AI 代理遵循测试驱动开发（TDD）流程，并结合需求管理工作流时使用。",
+    "prompt": "请从 https://github.com/shelpuk-ai-technology-consulting/agent-skill-tdd 下载所有文件，并保存到 .claude/skills/agent-skill-tdd/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:04:09.321Z",
+    "backTranslationDiff": 0.19047619047619047
+  },
+  "eternalwavee/benchmark-research-skill": {
+    "sourceHash": "6a818675e58de861",
+    "chineseDescription": "这是一个用于 Benchmark 研究的 Claude Code Skill。通过调研论文，找出某个研究方向中使用的数据集（datasets）、评估指标（metrics）和评估协议（evaluation protocols）。【使用场景】当你想快速了解某个研究领域有哪些公开数据集、常用指标和标准评估方法时，可以用这个 Skill 帮你自动梳理。",
+    "prompt": "请从 https://github.com/eternalwavee/benchmark-research-skill 下载 benchmark-research-skill 文件，并保存到 .claude/skills/benchmark-research-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-05-31T10:04:13.823Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "proyecto26/sherlock-ai-plugin": {
+    "sourceHash": "3e9f6ffaacd74fc1",
+    "chineseDescription": "Sherlock AI 插件；通过精选的 AI 技能列表，为研究和实现提供超强动力。",
+    "prompt": "请从 https://github.com/proyecto26/sherlock-ai-plugin 下载 Sherlock AI 插件，并将其安装到 .claude/skills/sherlock-ai-plugin/ 目录中。",
+    "translatedAt": "2026-05-31T10:04:17.233Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "drayline/rootnode-skills": {
+    "sourceHash": "55b1a434eef67d6f",
+    "chineseDescription": "27个技能，用于诊断、构建和优化 Claude 环境的每个架构层",
+    "prompt": "请从 https://github.com/drayline/rootnode-skills 下载 rootnode-skills 技能包，并将其保存到 .claude/skills/rootnode-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-05-31T10:04:20.497Z",
+    "backTranslationDiff": 0.4545454545454546
+  },
+  "incogbyte/android-reverse-engineering-claude-skill": {
+    "sourceHash": "7b13753660712db1",
+    "chineseDescription": "一个能自动执行 Android 应用逆向工程的 Claude Code Skill。",
+    "prompt": "请从 https://github.com/incogbyte/android-reverse-engineering-claude-skill 下载文件，并保存到 .claude/skills/android-reverse-engineering-claude-skill/ 目录，完成安装。",
+    "translatedAt": "2026-05-31T10:04:23.526Z",
+    "backTranslationDiff": 0.2222222222222222
   }
 }
