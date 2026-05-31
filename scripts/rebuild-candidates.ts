@@ -69,16 +69,18 @@ interface WatchlistSkill extends Candidate {
 
 interface FailedEntry {
   repo: string;
+  name?: string;    // 仓库名，方便人工审查
+  stars?: number;   // 星数，方便按热度筛选误杀
   reason: string;
   checkedAt: string;
 }
 
 // ========== 来源收集 ==========
 
-async function searchGithubTopic(topic: string): Promise<string[]> {
+async function searchGithubTopic(topic: string, maxPages = 10): Promise<string[]> {
   const repos: string[] = [];
   const query = encodeURIComponent(`topic:${topic}`);
-  for (let page = 1; page <= 10; page++) {
+  for (let page = 1; page <= maxPages; page++) {
     const remain = await getRateRemaining();
     if (remain < 50) { log(`API 余额不足 (${remain})，停止搜索 topic:${topic}`); break; }
     const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=100&page=${page}`;
@@ -90,6 +92,25 @@ async function searchGithubTopic(topic: string): Promise<string[]> {
     await new Promise(r => setTimeout(r, 1500));
   }
   log(`topic:${topic} 搜到 ${repos.length} 个仓库`);
+  return repos;
+}
+
+// 通过 README 关键词搜索发现 Skill 仓库（不依赖 GitHub topic 标签）
+async function searchGithubReadme(keyword: string, maxPages = 5): Promise<string[]> {
+  const repos: string[] = [];
+  const query = encodeURIComponent(`"${keyword}" in:readme`);
+  for (let page = 1; page <= maxPages; page++) {
+    const remain = await getRateRemaining();
+    if (remain < 50) { log(`API 余额不足 (${remain})，停止 README 搜索`); break; }
+    const url = `https://api.github.com/search/repositories?q=${query}&sort=stars&order=desc&per_page=100&page=${page}`;
+    log(`搜索 README:${keyword} 第 ${page} 页...`);
+    const data = await fetchJson(url);
+    if (!data.items || data.items.length === 0) break;
+    for (const item of data.items) repos.push(item.full_name);
+    if (data.items.length < 100) break;
+    await new Promise(r => setTimeout(r, 1500));
+  }
+  log(`README:${keyword} 搜到 ${repos.length} 个仓库`);
   return repos;
 }
 
@@ -108,6 +129,7 @@ async function checkRepoStructure(owner: string, name: string): Promise<{
   lastPush: string;
   topics: string[];
   repoName: string;
+  canonicalRepo: string; // API 返回的真实 full_name，用于去重（防止改名/重定向导致的重复）
   readmeLength: number;
   hasIssues: boolean;
 }> {
@@ -118,6 +140,8 @@ async function checkRepoStructure(owner: string, name: string): Promise<{
   const topics: string[] = info.topics || [];
   const repoName = info.name || name;
   const hasIssues = (info.open_issues_count ?? 0) > 0;
+  // 用 API 返回的 full_name 作为规范名，处理仓库改名/重定向（如 everything-claude-code → ECC）
+  const canonicalRepo = (info.full_name || `${owner}/${name}`).toLowerCase();
 
   // 读取 README
   let readmeText = '';
@@ -181,7 +205,7 @@ async function checkRepoStructure(owner: string, name: string): Promise<{
   else if (readmeMentionsSkill) skillEvidence = 'README 提及 Claude Code Skill';
   else skillEvidence = '';
 
-  return { isSkill, skillEvidence, description: desc, stars, lastPush, topics, repoName, readmeLength, hasIssues };
+  return { isSkill, skillEvidence, description: desc, stars, lastPush, topics, repoName, canonicalRepo, readmeLength, hasIssues };
 }
 
 // ========== 分类逻辑 ==========
@@ -194,6 +218,11 @@ function classify(
 
   // denylist 直接淘汰
   if (isInDenylist) return { pool: 'failed', reason: '被 denylist 命中' };
+
+  // allowlist 破格进 ranked（必须在结构检查之前，否则会被误杀）
+  if (isInAllowlist) {
+    return { pool: 'ranked' };
+  }
 
   // 不是真 Skill → 淘汰
   if (!isSkill) return { pool: 'failed', reason: '结构不符合 Skill' };
@@ -209,11 +238,6 @@ function classify(
   const pushedRecently = daysSincePush <= 30;
   const pushedWithin180d = daysSincePush <= 180;
 
-  // allowlist 破格进 ranked
-  if (isInAllowlist) {
-    return { pool: 'ranked' };
-  }
-
   // stars >= 50 + 有描述 + 有 README + 180 天内有 push + 是 Skill 本体 → ranked
   if (stars >= 50 && desc && readmeLength > 0 && pushedWithin180d) {
     // 追加本体身份检查：description/topics/name 中至少有一处表明自己是 Skill
@@ -222,6 +246,7 @@ function classify(
     const topicsLower = topics.map((t: string) => t.toLowerCase());
     const isSkillByIdentity =
       descLower.includes('skill') ||
+      descLower.includes('技能') || // 中文描述支持
       topicsLower.some((t: string) => t.includes('skill')) ||
       repoName.includes('skill');
     if (!isSkillByIdentity) {
@@ -303,15 +328,26 @@ async function main() {
   } else {
     const r1 = await searchGithubTopic('claude-code-skill');
     const r2 = await searchGithubTopic('claude-skills');
+    // claude-code 话题覆盖面更宽，取 5 页（500 个）控制 API 消耗
+    const r3 = await searchGithubTopic('claude-code', 5);
     for (const r of r1) { if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'GitHub topic: claude-code-skill'); }
     for (const r of r2) { if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'GitHub topic: claude-skills'); }
-    topicRepos = [...new Set([...r1, ...r2])];
-    log(`两个 topic 合并去重后 ${topicRepos.length} 个仓库`);
+    for (const r of r3) { if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'GitHub topic: claude-code'); }
+    topicRepos = [...new Set([...r1, ...r2, ...r3])];
+    log(`三个 topic 合并去重后 ${topicRepos.length} 个仓库`);
   }
 
-  // 5b. 合并所有来源
+  // 5b. README 关键词搜索（补充：很多 skill 不打 topic 标签但在 README 里自称）
+  const readmeRepos = await searchGithubReadme('claude code skill', 5);
+  for (const r of readmeRepos) {
+    if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'README 关键词: claude code skill');
+  }
+  log(`README 搜索新增 ${readmeRepos.filter(r => !topicRepos.map(x => x.toLowerCase()).includes(r.toLowerCase())).length} 个不重复仓库`);
+
+  // 5c. 合并所有来源
   const allSourceRepos = new Set<string>();
   topicRepos.forEach(r => allSourceRepos.add(r.toLowerCase()));
+  readmeRepos.forEach(r => allSourceRepos.add(r.toLowerCase()));
   awesomeRepos.forEach(r => {
     allSourceRepos.add(r.toLowerCase());
     if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'data/_awesome_repos.json');
@@ -321,9 +357,25 @@ async function main() {
     if (!sourceMap.has(r.toLowerCase())) sourceMap.set(r.toLowerCase(), 'data/allowlist.json');
   });
 
-  log(`总候选来源: topic ${topicRepos.length} + awesome ${awesomeRepos.length} + allowlist ${allowlist.length} = 去重 ${allSourceRepos.size}`);
+  log(`总候选来源: topic ${topicRepos.length} + readme ${readmeRepos.length} + awesome ${awesomeRepos.length} + allowlist ${allowlist.length} = 去重 ${allSourceRepos.size}`);
 
-  // 5c. 确定要检查的仓库列表
+  // 5c. 回填已有条目中「未知来源」的 source（修复 2026-05-24 初版数据遗留问题）
+  let backfilledCount = 0;
+  for (const r of existingRanked) {
+    if (r.source === '未知来源' || !r.source) {
+      const matched = sourceMap.get(r.repo.toLowerCase());
+      if (matched) { r.source = matched; backfilledCount++; }
+    }
+  }
+  for (const w of existingWatchlist) {
+    if (w.source === '未知来源' || !w.source) {
+      const matched = sourceMap.get(w.repo.toLowerCase());
+      if (matched) { w.source = matched; backfilledCount++; }
+    }
+  }
+  if (backfilledCount > 0) log(`来源回填: ${backfilledCount} 个条目从「未知来源」恢复`);
+
+  // 5d. 确定要检查的仓库列表
   let reposToCheck: string[];
   if (forceRecheck) {
     // 全量重查：已有 ranked + watchlist + 新发现的
@@ -377,6 +429,15 @@ async function main() {
     return;
   }
 
+  // 本次运行已处理的规范仓库名集合（防重复）
+  const seenCanonical = new Set<string>();
+  // 预先登记已有仓库的规范名（增量模式下防重复）
+  if (!forceRecheck) {
+    existingRanked.forEach(r => seenCanonical.add(r.repo.toLowerCase()));
+    existingWatchlist.forEach(w => seenCanonical.add(w.repo.toLowerCase()));
+    existingFailed.forEach(f => seenCanonical.add(f.repo.toLowerCase()));
+  }
+
   for (const repo of toCheck) {
     checked++;
     if (checked % 10 === 0) {
@@ -400,34 +461,49 @@ async function main() {
     try {
       const info = await checkRepoStructure(owner, name);
 
+      // 用 API 返回的规范名去重：如果已存在则跳过
+      if (seenCanonical.has(info.canonicalRepo)) {
+        continue; // 合并去重，不重复入库
+      }
+      seenCanonical.add(info.canonicalRepo);
+      // 如果规范名与请求名不同，补上 sourceMap 映射
+      if (info.canonicalRepo !== repo.toLowerCase()) {
+        const originalSource = sourceMap.get(repo.toLowerCase());
+        if (originalSource && !sourceMap.has(info.canonicalRepo)) {
+          sourceMap.set(info.canonicalRepo, originalSource);
+        }
+      }
+
       const tagMap: Record<string, string> = {
         'frontend': '前端', 'backend': '后端', 'design': '设计',
         'devops': 'DevOps', 'security': '安全', 'writing': '写作',
         'ai': 'AI', 'tools': '工具', 'testing': '测试', 'data': '数据',
       };
       const tags = info.topics.map((t: string) => tagMap[t] || t).filter(Boolean);
-      const repoSource = sourceMap.get(repo.toLowerCase()) || '未知来源';
+      // 优先用规范名查 sourceMap，fallback 到原始请求名
+      const repoSource = sourceMap.get(info.canonicalRepo) || sourceMap.get(repo.toLowerCase()) || '未知来源';
 
       const result = classify(
-        repo, info.repoName, info.description, info.stars, info.lastPush,
+        info.canonicalRepo, info.repoName, info.description, info.stars, info.lastPush,
         info.topics, info.readmeLength, info.isSkill, info.skillEvidence,
-        allowlistSet.has(repo.toLowerCase()), denylistSet.has(repo.toLowerCase()),
+        allowlistSet.has(info.canonicalRepo) || allowlistSet.has(repo.toLowerCase()),
+        denylistSet.has(info.canonicalRepo) || denylistSet.has(repo.toLowerCase()),
         info.hasIssues,
       );
 
       if (result.pool === 'ranked') {
         newRanked.push({
-          repo, name: info.repoName, description: info.description, tags,
+          repo: info.canonicalRepo, name: info.repoName, description: info.description, tags,
           stars: info.stars, lastPush: info.lastPush,
           pool: 'ranked', readmeLength: info.readmeLength,
-          skillEvidence: allowlistSet.has(repo.toLowerCase()) ? 'allowlist 人工审核' : info.skillEvidence,
+          skillEvidence: allowlistSet.has(info.canonicalRepo) || allowlistSet.has(repo.toLowerCase()) ? 'allowlist 人工审核' : info.skillEvidence,
           source: repoSource,
           checkedAt: NOW,
         });
       } else if (result.pool === 'watchlist') {
         const daysSincePush = (NOW_MS - new Date(info.lastPush).getTime()) / (1000 * 60 * 60 * 24);
         newWatchlist.push({
-          repo, name: info.repoName, description: info.description, tags,
+          repo: info.canonicalRepo, name: info.repoName, description: info.description, tags,
           stars: info.stars, lastPush: info.lastPush,
           pool: 'watchlist', recentActivity: daysSincePush <= 30,
           skillEvidence: info.skillEvidence,
@@ -437,7 +513,7 @@ async function main() {
       } else {
         // 非 Skill 本体统一用明确原因
         const reason = info.isSkill ? (result.reason || '未知原因') : '非 Claude Code Skill 本体';
-        newFailed.push({ repo, reason, checkedAt: NOW });
+        newFailed.push({ repo: info.canonicalRepo, name: info.repoName, stars: info.stars, reason, checkedAt: NOW });
       }
     } catch (err: any) {
       if (err.message.includes('404')) {
@@ -461,19 +537,47 @@ async function main() {
   let allFailed: FailedEntry[];
 
   if (forceRecheck) {
-    // 全量重查模式：新数据完全替代旧数据
-    allRanked = newRanked;
-    allWatchlist = newWatchlist;
-    // failed: 保留 7 天内的旧数据 + 新数据
-    const failedMap = new Map<string, FailedEntry>();
-    for (const f of existingFailed) {
-      failedMap.set(f.repo.toLowerCase(), f);
+    // 安全阀：新数据量不足旧数据的 50% 时，说明 API 中途耗尽，切回合并模式防数据丢失
+    const oldTotal = existingRanked.length + existingWatchlist.length;
+    const newTotal = newRanked.length + newWatchlist.length;
+    if (oldTotal > 0 && newTotal < oldTotal * 0.5) {
+      log(`安全阀触发：新数据 ${newTotal} < 旧数据 ${oldTotal} 的 50%，API 可能中途耗尽，切回合并模式`);
+      // 回退到增量合并逻辑
+      const newRankedRepos = new Set(newRanked.map(r => r.repo.toLowerCase()));
+      const newWatchlistRepos = new Set(newWatchlist.map(w => w.repo.toLowerCase()));
+      const newFailedRepos = new Set(newFailed.map(f => f.repo.toLowerCase()));
+
+      allRanked = [
+        ...existingRanked.filter(r => !newRankedRepos.has(r.repo.toLowerCase()) && !newWatchlistRepos.has(r.repo.toLowerCase())),
+        ...newRanked,
+      ];
+      allWatchlist = [
+        ...existingWatchlist.filter(w => !newWatchlistRepos.has(w.repo.toLowerCase()) && !newRankedRepos.has(w.repo.toLowerCase())),
+        ...newWatchlist,
+      ];
+      const failedMap = new Map<string, FailedEntry>();
+      for (const f of existingFailed) {
+        if (!newFailedRepos.has(f.repo.toLowerCase())) failedMap.set(f.repo.toLowerCase(), f);
+      }
+      for (const f of newFailed) {
+        failedMap.set(f.repo.toLowerCase(), f);
+      }
+      allFailed = [...failedMap.values()];
+    } else {
+      // 全量重查模式：新数据完全替代旧数据
+      allRanked = newRanked;
+      allWatchlist = newWatchlist;
+      // failed: 保留 7 天内的旧数据 + 新数据
+      const failedMap = new Map<string, FailedEntry>();
+      for (const f of existingFailed) {
+        failedMap.set(f.repo.toLowerCase(), f);
+      }
+      for (const f of newFailed) {
+        failedMap.set(f.repo.toLowerCase(), f); // 新数据覆盖旧的
+      }
+      allFailed = [...failedMap.values()];
+      log('全量重查完成，旧数据已完全替换');
     }
-    for (const f of newFailed) {
-      failedMap.set(f.repo.toLowerCase(), f); // 新数据覆盖旧的
-    }
-    allFailed = [...failedMap.values()];
-    log('全量重查完成，旧数据已完全替换');
   } else {
     // 增量模式：合并新旧数据
     const newRankedRepos = new Set(newRanked.map(r => r.repo.toLowerCase()));

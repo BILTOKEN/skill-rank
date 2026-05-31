@@ -1,23 +1,23 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T10:02:36.339Z",
+  "generated_at": "2026-05-31T16:18:03.466Z",
   "stats": {
-    "candidates": 979,
-    "ranked": 254,
-    "watchlist": 725,
-    "failed": 1208
+    "candidates": 1094,
+    "ranked": 363,
+    "watchlist": 731,
+    "failed": 1616
   },
   "skills": [
     {
       "repo": "affaan-m/everything-claude-code",
       "name": "ECC",
-      "stars_total": 198977,
+      "stars_total": 200028,
       "stars_added_7d": 0,
-      "issues_opened_7d": 10,
+      "issues_opened_7d": 9,
       "issues_closed_7d": 1,
       "commits_7d": 21,
       "commits_capped": false,
-      "last_push": "2026-05-28T11:45:48Z",
+      "last_push": "2026-05-31T06:45:42Z",
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
@@ -27,40 +27,40 @@
     {
       "repo": "affaan-m/ecc",
       "name": "ECC",
-      "stars_total": 198977,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 10,
+      "stars_total": 200028,
+      "stars_added_7d": 10242,
+      "issues_opened_7d": 9,
       "issues_closed_7d": 1,
       "commits_7d": 21,
       "commits_capped": false,
-      "last_push": "2026-05-28T11:45:48Z",
+      "last_push": "2026-05-31T06:45:42Z",
       "pool": "ranked",
       "quality_flags": [
         "allowlist 人工审核",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "garrytan/gstack",
       "name": "gstack",
-      "stars_total": 104676,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 13,
+      "stars_total": 105015,
+      "stars_added_7d": 3679,
+      "issues_opened_7d": 9,
       "issues_closed_7d": 1,
-      "commits_7d": 10,
+      "commits_7d": 14,
       "commits_capped": false,
-      "last_push": "2026-05-30T02:09:17Z",
+      "last_push": "2026-05-30T21:57:07Z",
       "pool": "ranked",
       "quality_flags": [
         "allowlist 人工审核",
-        "source:未知来源"
+        "source:data/allowlist.json"
       ]
     },
     {
       "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
       "name": "ui-ux-pro-max-skill",
-      "stars_total": 85002,
-      "stars_added_7d": 0,
+      "stars_total": 85458,
+      "stars_added_7d": 3383,
       "issues_opened_7d": 1,
       "issues_closed_7d": 2,
       "commits_7d": 0,
@@ -69,15 +69,15 @@
       "pool": "ranked",
       "quality_flags": [
         "allowlist 人工审核",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "composiohq/awesome-claude-skills",
       "name": "awesome-claude-skills",
-      "stars_total": 62511,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 2,
+      "stars_total": 62635,
+      "stars_added_7d": 1100,
+      "issues_opened_7d": 3,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
@@ -85,30 +85,174 @@
       "pool": "ranked",
       "quality_flags": [
         "allowlist 人工审核",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "safishamsi/graphify",
+      "name": "graphify",
+      "stars_total": 57159,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 17,
+      "issues_closed_7d": 13,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T15:47:53Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "ruvnet/ruflo",
+      "name": "ruflo",
+      "stars_total": 56848,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 19,
+      "issues_closed_7d": 11,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T14:49:27Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "nexu-io/open-design",
+      "name": "open-design",
+      "stars_total": 56315,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 5,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T15:59:57Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "shanraisshan/claude-code-best-practice",
+      "name": "claude-code-best-practice",
+      "stars_total": 55675,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 15,
+      "issues_closed_7d": 15,
+      "commits_7d": 28,
+      "commits_capped": false,
+      "last_push": "2026-05-31T15:48:08Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "allowlist 人工审核",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "voltagent/awesome-openclaw-skills",
+      "name": "awesome-openclaw-skills",
+      "stars_total": 49586,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 1,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-27T10:09:02Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "santifer/career-ops",
+      "name": "career-ops",
+      "stars_total": 48008,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 9,
+      "issues_closed_7d": 1,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-25T09:52:42Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "addyosmani/agent-skills",
+      "name": "agent-skills",
+      "stars_total": 47346,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 1,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-05-28T06:47:30Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "allowlist 人工审核",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "hesreallyhim/awesome-claude-code",
+      "name": "awesome-claude-code",
+      "stars_total": 45305,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 30,
+      "issues_closed_7d": 1,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-27T14:40:18Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "allowlist 人工审核",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "sickn33/antigravity-awesome-skills",
+      "name": "antigravity-awesome-skills",
+      "stars_total": 39263,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 1,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T07:20:42Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "kepano/obsidian-skills",
       "name": "obsidian-skills",
-      "stars_total": 33639,
-      "stars_added_7d": 0,
+      "stars_total": 33777,
+      "stars_added_7d": 1029,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-24T15:59:21Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "coreyhaines31/marketingskills",
       "name": "marketingskills",
-      "stars_total": 31159,
-      "stars_added_7d": 0,
+      "stars_total": 31328,
+      "stars_added_7d": 1063,
       "issues_opened_7d": 5,
       "issues_closed_7d": 3,
       "commits_7d": 30,
@@ -117,17 +261,17 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "nanocoai/nanoclaw",
       "name": "nanoclaw",
-      "stars_total": 29535,
+      "stars_total": 29556,
       "stars_added_7d": 0,
-      "issues_opened_7d": 5,
+      "issues_opened_7d": 7,
       "issues_closed_7d": 0,
-      "commits_7d": 16,
+      "commits_7d": 6,
       "commits_capped": false,
       "last_push": "2026-05-30T07:42:43Z",
       "pool": "ranked",
@@ -137,29 +281,77 @@
       ]
     },
     {
+      "repo": "davila7/claude-code-templates",
+      "name": "claude-code-templates",
+      "stars_total": 27691,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "commits_7d": 11,
+      "commits_capped": false,
+      "last_push": "2026-05-31T04:32:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "allowlist 人工审核",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "iofficeai/aionui",
+      "name": "AionUi",
+      "stars_total": 27282,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 10,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-30T15:19:39Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "mvanhorn/last30days-skill",
       "name": "last30days-skill",
-      "stars_total": 26821,
-      "stars_added_7d": 0,
+      "stars_total": 26870,
+      "stars_added_7d": 422,
       "issues_opened_7d": 3,
-      "issues_closed_7d": 3,
+      "issues_closed_7d": 2,
       "commits_7d": 2,
       "commits_capped": false,
       "last_push": "2026-05-30T05:33:17Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "imbad0202/academic-research-skills",
+      "name": "academic-research-skills",
+      "stars_total": 24986,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 19,
+      "issues_closed_7d": 8,
+      "commits_7d": 28,
+      "commits_capped": false,
+      "last_push": "2026-05-31T15:21:15Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "voltagent/awesome-agent-skills",
       "name": "awesome-agent-skills",
-      "stars_total": 23617,
+      "stars_total": 23710,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 1,
-      "commits_7d": 7,
+      "commits_7d": 5,
       "commits_capped": false,
       "last_push": "2026-05-27T10:38:52Z",
       "pool": "ranked",
@@ -171,11 +363,11 @@
     {
       "repo": "othmanadi/planning-with-files",
       "name": "planning-with-files",
-      "stars_total": 22353,
+      "stars_total": 22408,
       "stars_added_7d": 0,
       "issues_opened_7d": 6,
-      "issues_closed_7d": 8,
-      "commits_7d": 9,
+      "issues_closed_7d": 6,
+      "commits_7d": 6,
       "commits_capped": false,
       "last_push": "2026-05-26T09:29:04Z",
       "pool": "ranked",
@@ -187,8 +379,8 @@
     {
       "repo": "blader/humanizer",
       "name": "humanizer",
-      "stars_total": 21605,
-      "stars_added_7d": 0,
+      "stars_total": 21752,
+      "stars_added_7d": 1043,
       "issues_opened_7d": 3,
       "issues_closed_7d": 1,
       "commits_7d": 7,
@@ -197,14 +389,46 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "name": "skills",
+      "stars_total": 20796,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 21,
+      "issues_closed_7d": 2,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-28T22:26:14Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "allowlist 人工审核",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "donchitos/claude-code-game-studios",
+      "name": "Claude-Code-Game-Studios",
+      "stars_total": 20466,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 4,
+      "issues_closed_7d": 1,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-21T23:33:07Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "zarazhangrui/frontend-slides",
       "name": "frontend-slides",
-      "stars_total": 19648,
-      "stars_added_7d": 0,
+      "stars_total": 19775,
+      "stars_added_7d": 1040,
       "issues_opened_7d": 0,
       "issues_closed_7d": 7,
       "commits_7d": 10,
@@ -213,30 +437,30 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "alirezarezvani/claude-skills",
       "name": "claude-skills",
-      "stars_total": 16589,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 3,
-      "issues_closed_7d": 2,
+      "stars_total": 16689,
+      "stars_added_7d": 636,
+      "issues_opened_7d": 4,
+      "issues_closed_7d": 1,
       "commits_7d": 30,
       "commits_capped": true,
       "last_push": "2026-05-29T15:33:08Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
       "repo": "muratcankoylan/agent-skills-for-context-engineering",
       "name": "Agent-Skills-for-Context-Engineering",
-      "stars_total": 16158,
-      "stars_added_7d": 0,
+      "stars_total": 16183,
+      "stars_added_7d": 269,
       "issues_opened_7d": 0,
       "issues_closed_7d": 1,
       "commits_7d": 1,
@@ -245,19 +469,19 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "mksglu/context-mode",
       "name": "context-mode",
-      "stars_total": 16013,
-      "stars_added_7d": 533,
-      "issues_opened_7d": 11,
-      "issues_closed_7d": 2,
+      "stars_total": 16078,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 12,
+      "issues_closed_7d": 12,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T12:22:01Z",
+      "last_push": "2026-05-31T15:50:30Z",
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
@@ -265,15 +489,31 @@
       ]
     },
     {
+      "repo": "jcodesmore/ai-website-cloner-template",
+      "name": "ai-website-cloner-template",
+      "stars_total": 15753,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T09:11:26Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "teng-lin/notebooklm-py",
       "name": "notebooklm-py",
-      "stars_total": 15538,
+      "stars_total": 15599,
       "stars_added_7d": 0,
-      "issues_opened_7d": 10,
-      "issues_closed_7d": 4,
+      "issues_opened_7d": 11,
+      "issues_closed_7d": 8,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T13:38:12Z",
+      "last_push": "2026-05-31T13:59:01Z",
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
@@ -283,23 +523,39 @@
     {
       "repo": "yusufkaraaslan/skill_seekers",
       "name": "Skill_Seekers",
-      "stars_total": 13833,
-      "stars_added_7d": 0,
+      "stars_total": 13855,
+      "stars_added_7d": 122,
       "issues_opened_7d": 1,
       "issues_closed_7d": 1,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T13:47:41Z",
+      "last_push": "2026-05-30T21:26:30Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "op7418/guizang-ppt-skill",
+      "name": "guizang-ppt-skill",
+      "stars_total": 13752,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-28T04:03:56Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "travisvn/awesome-claude-skills",
       "name": "awesome-claude-skills",
-      "stars_total": 13024,
+      "stars_total": 13054,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -315,9 +571,9 @@
     {
       "repo": "mukul975/anthropic-cybersecurity-skills",
       "name": "Anthropic-Cybersecurity-Skills",
-      "stars_total": 12353,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 6,
+      "stars_total": 12827,
+      "stars_added_7d": 4981,
+      "issues_opened_7d": 5,
       "issues_closed_7d": 5,
       "commits_7d": 3,
       "commits_capped": false,
@@ -325,30 +581,46 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "wanshuiyin/auto-claude-code-research-in-sleep",
       "name": "Auto-claude-code-research-in-sleep",
-      "stars_total": 11032,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 11,
-      "issues_closed_7d": 3,
+      "stars_total": 11094,
+      "stars_added_7d": 604,
+      "issues_opened_7d": 13,
+      "issues_closed_7d": 7,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T12:57:09Z",
+      "last_push": "2026-05-31T14:08:19Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "numman-ali/openskills",
+      "name": "openskills",
+      "stars_total": 10307,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-18T13:09:50Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "diet103/claude-code-infrastructure-showcase",
       "name": "claude-code-infrastructure-showcase",
       "stars_total": 9687,
-      "stars_added_7d": 0,
+      "stars_added_7d": 30,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -357,16 +629,16 @@
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "jeffallan/claude-skills",
       "name": "claude-skills",
-      "stars_total": 9494,
+      "stars_total": 9522,
       "stars_added_7d": 0,
       "issues_opened_7d": 3,
-      "issues_closed_7d": 1,
+      "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-20T13:35:05Z",
@@ -377,9 +649,41 @@
       ]
     },
     {
+      "repo": "behisecc/awesome-claude-skills",
+      "name": "awesome-claude-skills",
+      "stars_total": 9331,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-01T08:24:45Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "slavingia/skills",
+      "name": "skills",
+      "stars_total": 8914,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-14T00:53:57Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "nidhinjs/prompt-master",
       "name": "prompt-master",
-      "stars_total": 8525,
+      "stars_total": 8550,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -393,11 +697,27 @@
       ]
     },
     {
+      "repo": "automazeio/ccpm",
+      "name": "ccpm",
+      "stars_total": 8160,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-18T12:15:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "agricidaniel/claude-seo",
       "name": "claude-seo",
-      "stars_total": 7325,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 2,
+      "stars_total": 7617,
+      "stars_added_7d": 607,
+      "issues_opened_7d": 1,
       "issues_closed_7d": 0,
       "commits_7d": 3,
       "commits_capped": false,
@@ -405,19 +725,67 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "evomap/evolver",
+      "name": "evolver",
+      "stars_total": 7604,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 6,
+      "issues_closed_7d": 7,
+      "commits_7d": 9,
+      "commits_capped": false,
+      "last_push": "2026-05-29T12:06:46Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "refly-ai/refly",
+      "name": "refly",
+      "stars_total": 7344,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-25T14:51:18Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "sawyerhood/dev-browser",
+      "name": "dev-browser",
+      "stars_total": 6196,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-09T21:18:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "ikaijua/awesome-aitools",
       "name": "Awesome-AITools",
-      "stars_total": 5973,
+      "stars_total": 5974,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 5,
+      "commits_7d": 8,
       "commits_capped": false,
-      "last_push": "2026-05-26T04:43:26Z",
+      "last_push": "2026-05-31T16:01:17Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -427,8 +795,8 @@
     {
       "repo": "chriswiles/claude-code-showcase",
       "name": "claude-code-showcase",
-      "stars_total": 5930,
-      "stars_added_7d": 0,
+      "stars_total": 5931,
+      "stars_added_7d": 14,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -437,13 +805,45 @@
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "simoneavogadro/android-reverse-engineering-skill",
+      "name": "android-reverse-engineering-skill",
+      "stars_total": 5905,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-27T21:21:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "trailofbits/skills",
+      "name": "skills",
+      "stars_total": 5491,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-27T20:58:55Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "agricidaniel/claude-ads",
       "name": "claude-ads",
-      "stars_total": 5343,
+      "stars_total": 5367,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -459,8 +859,8 @@
     {
       "repo": "czlonkowski/n8n-skills",
       "name": "n8n-skills",
-      "stars_total": 5211,
-      "stars_added_7d": 0,
+      "stars_total": 5226,
+      "stars_added_7d": 100,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -469,14 +869,78 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "heilcheng/awesome-agent-skills",
+      "name": "awesome-agent-skills",
+      "stars_total": 5220,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-05T20:39:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "breaking-brake/cc-wf-studio",
+      "name": "cc-wf-studio",
+      "stars_total": 5073,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-31T09:20:02Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "uditgoenka/autoresearch",
+      "name": "autoresearch",
+      "stars_total": 4767,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-23T21:44:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "joeseesun/qiaomu-anything-to-notebooklm",
+      "name": "qiaomu-anything-to-notebooklm",
+      "stars_total": 4738,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-28T01:38:28Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "deanpeters/product-manager-skills",
       "name": "Product-Manager-Skills",
-      "stars_total": 4626,
-      "stars_added_7d": 0,
+      "stars_total": 4646,
+      "stars_added_7d": 177,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -485,29 +949,77 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "zarazhangrui/codebase-to-course",
+      "name": "codebase-to-course",
+      "stars_total": 4512,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-30T18:26:09Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "revfactory/harness",
+      "name": "harness",
+      "stars_total": 4485,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 5,
+      "commits_7d": 10,
+      "commits_capped": false,
+      "last_push": "2026-05-29T17:04:20Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "jnmetacode/superpowers-zh",
+      "name": "superpowers-zh",
+      "stars_total": 4325,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-24T09:32:55Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "zebbern/claude-code-guide",
       "name": "claude-code-guide",
-      "stars_total": 4213,
-      "stars_added_7d": 0,
+      "stars_total": 4217,
+      "stars_added_7d": 55,
       "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 4,
+      "issues_closed_7d": 1,
+      "commits_7d": 5,
       "commits_capped": false,
-      "last_push": "2026-05-30T01:14:33Z",
+      "last_push": "2026-05-31T15:45:28Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "parcadei/continuous-claude-v3",
       "name": "Continuous-Claude-v3",
-      "stars_total": 3794,
+      "stars_total": 3795,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -521,9 +1033,41 @@
       ]
     },
     {
+      "repo": "browserbase/skills",
+      "name": "skills",
+      "stars_total": 3469,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-30T01:54:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "gotalab/cc-sdd",
+      "name": "cc-sdd",
+      "stars_total": 3417,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-20T08:45:14Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "htdt/godogen",
       "name": "godogen",
-      "stars_total": 3309,
+      "stars_total": 3314,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -537,15 +1081,31 @@
       ]
     },
     {
+      "repo": "taishi-i/awesome-chatgpt-repositories",
+      "name": "awesome-ChatGPT-repositories",
+      "stars_total": 3054,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-31T16:00:14Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "davepoon/buildwithclaude",
       "name": "buildwithclaude",
-      "stars_total": 2986,
+      "stars_total": 2989,
       "stars_added_7d": 0,
-      "issues_opened_7d": 3,
-      "issues_closed_7d": 0,
-      "commits_7d": 2,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 1,
+      "commits_7d": 4,
       "commits_capped": false,
-      "last_push": "2026-05-26T11:47:19Z",
+      "last_push": "2026-05-31T14:30:44Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -553,10 +1113,42 @@
       ]
     },
     {
+      "repo": "ivanmurzak/unity-mcp",
+      "name": "Unity-MCP",
+      "stars_total": 2962,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 6,
+      "issues_closed_7d": 4,
+      "commits_7d": 15,
+      "commits_capped": false,
+      "last_push": "2026-05-31T05:23:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "axtonliu/axton-obsidian-visual-skills",
+      "name": "axton-obsidian-visual-skills",
+      "stars_total": 2944,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-02-12T02:49:53Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "op7418/nanobanana-ppt-skills",
       "name": "NanoBanana-PPT-Skills",
-      "stars_total": 2851,
-      "stars_added_7d": 0,
+      "stars_total": 2861,
+      "stars_added_7d": 102,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -565,14 +1157,62 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "virgiliojr94/book-to-skill",
+      "name": "book-to-skill",
+      "stars_total": 2845,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-20T20:31:30Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "fireredteam/firered-openstoryline",
+      "name": "FireRed-OpenStoryline",
+      "stars_total": 2822,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T02:55:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "gadievron/raptor",
+      "name": "raptor",
+      "stars_total": 2795,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-30T15:12:31Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "codeaashu/claude-code",
       "name": "claude-code",
-      "stars_total": 2755,
-      "stars_added_7d": 52,
+      "stars_total": 2762,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -587,8 +1227,8 @@
     {
       "repo": "lackeyjb/playwright-skill",
       "name": "playwright-skill",
-      "stars_total": 2695,
-      "stars_added_7d": 0,
+      "stars_total": 2702,
+      "stars_added_7d": 37,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -597,13 +1237,29 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "op7418/claude-to-im-skill",
+      "name": "Claude-to-IM-skill",
+      "stars_total": 2648,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-23T17:03:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "geekjourneyx/md2wechat-skill",
       "name": "md2wechat-skill",
-      "stars_total": 2616,
+      "stars_total": 2637,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -617,11 +1273,43 @@
       ]
     },
     {
-      "repo": "snyk/agent-scan",
-      "name": "agent-scan",
-      "stars_total": 2503,
+      "repo": "freedomintelligence/openclaw-medical-skills",
+      "name": "OpenClaw-Medical-Skills",
+      "stars_total": 2578,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-27T02:21:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "ericosiu/ai-marketing-skills",
+      "name": "ai-marketing-skills",
+      "stars_total": 2516,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-28T03:50:04Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "snyk/agent-scan",
+      "name": "agent-scan",
+      "stars_total": 2504,
+      "stars_added_7d": 38,
+      "issues_opened_7d": 1,
       "issues_closed_7d": 0,
       "commits_7d": 14,
       "commits_capped": false,
@@ -629,7 +1317,7 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -638,7 +1326,7 @@
       "stars_total": 2432,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
+      "issues_closed_7d": 1,
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-04-19T22:22:18Z",
@@ -649,10 +1337,58 @@
       ]
     },
     {
+      "repo": "dominikmartn/nothing-design-skill",
+      "name": "nothing-design-skill",
+      "stars_total": 2400,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-01T05:40:04Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "imbad0202/academic-research-skills-codex",
+      "name": "academic-research-skills-codex",
+      "stars_total": 2366,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-22T03:34:37Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "jeremylongshore/claude-code-plugins-plus-skills",
+      "name": "claude-code-plugins-plus-skills",
+      "stars_total": 2271,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 9,
+      "issues_closed_7d": 0,
+      "commits_7d": 29,
+      "commits_capped": false,
+      "last_push": "2026-05-31T04:18:51Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "foryourhealth111-pixel/vibe-skills",
       "name": "Vibe-Skills",
-      "stars_total": 2198,
-      "stars_added_7d": 0,
+      "stars_total": 2204,
+      "stars_added_7d": 38,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -661,13 +1397,13 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "addyosmani/web-quality-skills",
       "name": "web-quality-skills",
-      "stars_total": 2142,
+      "stars_total": 2148,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -683,9 +1419,9 @@
     {
       "repo": "romainsimon/paperasse",
       "name": "paperasse",
-      "stars_total": 2011,
+      "stars_total": 2019,
       "stars_added_7d": 0,
-      "issues_opened_7d": 1,
+      "issues_opened_7d": 2,
       "issues_closed_7d": 1,
       "commits_7d": 0,
       "commits_capped": false,
@@ -697,9 +1433,25 @@
       ]
     },
     {
+      "repo": "yctimlin/mcp_excalidraw",
+      "name": "mcp_excalidraw",
+      "stars_total": 1997,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-16T07:52:22Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "agents365-ai/drawio-skill",
       "name": "drawio-skill",
-      "stars_total": 1978,
+      "stars_total": 1995,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -713,25 +1465,73 @@
       ]
     },
     {
+      "repo": "op7418/guizang-social-card-skill",
+      "name": "guizang-social-card-skill",
+      "stars_total": 1961,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-27T16:58:08Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "antonbabenko/terraform-skill",
       "name": "terraform-skill",
-      "stars_total": 1937,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
+      "stars_total": 1954,
+      "stars_added_7d": 71,
+      "issues_opened_7d": 2,
       "issues_closed_7d": 1,
-      "commits_7d": 8,
+      "commits_7d": 3,
       "commits_capped": false,
-      "last_push": "2026-05-24T15:01:28Z",
+      "last_push": "2026-05-30T14:38:07Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "iamzhihuix/skills-manage",
+      "name": "skills-manage",
+      "stars_total": 1943,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-02T14:01:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "softaworks/agent-toolkit",
+      "name": "agent-toolkit",
+      "stars_total": 1927,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-05T16:46:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
       "name": "seo-geo-claude-skills",
-      "stars_total": 1895,
+      "stars_total": 1927,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -745,15 +1545,79 @@
       ]
     },
     {
+      "repo": "rohitg00/awesome-claude-code-toolkit",
+      "name": "awesome-claude-code-toolkit",
+      "stars_total": 1901,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-12T07:18:34Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "samber/cc-skills-golang",
+      "name": "cc-skills-golang",
+      "stars_total": 1894,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 2,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-05-29T06:16:11Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "zubair-trabzada/ai-marketing-claude",
+      "name": "ai-marketing-claude",
+      "stars_total": 1794,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-02T01:18:40Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "ceeon/videocut-skills",
+      "name": "videocut-skills",
+      "stars_total": 1777,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-28T10:35:32Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "maxritter/pilot-shell",
       "name": "pilot-shell",
       "stars_total": 1733,
       "stars_added_7d": 0,
       "issues_opened_7d": 4,
       "issues_closed_7d": 2,
-      "commits_7d": 11,
+      "commits_7d": 12,
       "commits_capped": false,
-      "last_push": "2026-05-28T19:23:18Z",
+      "last_push": "2026-05-31T08:45:04Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -763,7 +1627,7 @@
     {
       "repo": "composiohq/awesome-claude-plugins",
       "name": "awesome-claude-plugins",
-      "stars_total": 1701,
+      "stars_total": 1702,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -777,25 +1641,73 @@
       ]
     },
     {
-      "repo": "youmind-openlab/nano-banana-pro-prompts-recommend-skill",
-      "name": "nano-banana-pro-prompts-recommend-skill",
-      "stars_total": 1611,
+      "repo": "ciembor/agent-rules-books",
+      "name": "agent-rules-books",
+      "stars_total": 1696,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-22T11:00:37Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "tradermonty/claude-trading-skills",
+      "name": "claude-trading-skills",
+      "stars_total": 1688,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
-      "commits_7d": 14,
+      "commits_7d": 8,
       "commits_capped": false,
-      "last_push": "2026-05-30T13:51:09Z",
+      "last_push": "2026-05-31T15:30:21Z",
       "pool": "ranked",
       "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "openags/paper-search-mcp",
+      "name": "paper-search-mcp",
+      "stars_total": 1630,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-18T01:47:48Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "ar9av/obsidian-wiki",
+      "name": "obsidian-wiki",
+      "stars_total": 1629,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 6,
+      "issues_closed_7d": 7,
+      "commits_7d": 13,
+      "commits_capped": false,
+      "last_push": "2026-05-30T14:28:51Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "snailsploit/claude-red",
       "name": "Claude-Red",
-      "stars_total": 1568,
+      "stars_total": 1629,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -809,9 +1721,41 @@
       ]
     },
     {
+      "repo": "conorbronsdon/avoid-ai-writing",
+      "name": "avoid-ai-writing",
+      "stars_total": 1623,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 5,
+      "issues_closed_7d": 6,
+      "commits_7d": 23,
+      "commits_capped": false,
+      "last_push": "2026-05-29T08:06:08Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "youmind-openlab/nano-banana-pro-prompts-recommend-skill",
+      "name": "nano-banana-pro-prompts-recommend-skill",
+      "stars_total": 1612,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 14,
+      "commits_capped": false,
+      "last_push": "2026-05-31T13:57:22Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "feiskyer/claude-code-settings",
       "name": "claude-code-settings",
-      "stars_total": 1532,
+      "stars_total": 1534,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -825,15 +1769,31 @@
       ]
     },
     {
+      "repo": "delibae/claude-prism",
+      "name": "claude-prism",
+      "stars_total": 1525,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "commits_7d": 4,
+      "commits_capped": false,
+      "last_push": "2026-05-30T14:19:43Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "eugeniughelbur/obsidian-second-brain",
       "name": "obsidian-second-brain",
-      "stars_total": 1456,
-      "stars_added_7d": 157,
+      "stars_total": 1475,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 3,
-      "commits_7d": 18,
+      "commits_7d": 27,
       "commits_capped": false,
-      "last_push": "2026-05-28T20:27:43Z",
+      "last_push": "2026-05-31T11:35:30Z",
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
@@ -841,10 +1801,26 @@
       ]
     },
     {
+      "repo": "opencoworkai/open-cowork",
+      "name": "open-cowork",
+      "stars_total": 1460,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 4,
+      "issues_closed_7d": 2,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-31T15:00:36Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "eronred/aso-skills",
       "name": "aso-skills",
-      "stars_total": 1430,
-      "stars_added_7d": 0,
+      "stars_total": 1434,
+      "stars_added_7d": 49,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -853,13 +1829,29 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "brycewang-stanford/auto-empirical-research-skills",
+      "name": "Auto-Empirical-Research-Skills",
+      "stars_total": 1427,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "commits_7d": 12,
+      "commits_capped": false,
+      "last_push": "2026-05-30T08:32:09Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "elementalsouls/claude-bughunter",
       "name": "Claude-BugHunter",
-      "stars_total": 1354,
+      "stars_total": 1409,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -873,9 +1865,153 @@
       ]
     },
     {
+      "repo": "autoclaw-cc/xiaohongshu-skills",
+      "name": "xiaohongshu-skills",
+      "stars_total": 1404,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-23T16:14:45Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "zubair-trabzada/ai-legal-claude",
+      "name": "ai-legal-claude",
+      "stars_total": 1397,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-27T02:55:19Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "helloianneo/ian-xiaohei-illustrations",
+      "name": "ian-xiaohei-illustrations",
+      "stars_total": 1371,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 6,
+      "commits_capped": false,
+      "last_push": "2026-05-30T11:54:19Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "liangdabiao/seedance2-storyboard-generator",
+      "name": "Seedance2-Storyboard-Generator",
+      "stars_total": 1369,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-22T11:22:58Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "shpigford/chops",
+      "name": "chops",
+      "stars_total": 1364,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-29T00:33:16Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "huangserva/skill-prompt-generator",
+      "name": "skill-prompt-generator",
+      "stars_total": 1363,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-10T09:16:55Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "m0n0x41d/haft",
+      "name": "haft",
+      "stars_total": 1335,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-25T09:53:12Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "rjs/shaping-skills",
+      "name": "shaping-skills",
+      "stars_total": 1331,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-10T10:12:59Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "wuji-labs/nopua",
+      "name": "nopua",
+      "stars_total": 1317,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-19T09:17:57Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "prat011/awesome-llm-skills",
       "name": "awesome-llm-skills",
-      "stars_total": 1275,
+      "stars_total": 1277,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -889,10 +2025,26 @@
       ]
     },
     {
+      "repo": "skills-directory/skill-codex",
+      "name": "skill-codex",
+      "stars_total": 1275,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-25T13:43:13Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "truongduy2611/app-store-preflight-skills",
       "name": "app-store-preflight-skills",
       "stars_total": 1205,
-      "stars_added_7d": 0,
+      "stars_added_7d": 13,
       "issues_opened_7d": 0,
       "issues_closed_7d": 1,
       "commits_7d": 2,
@@ -901,13 +2053,45 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "denissergeevitch/agents-best-practices",
+      "name": "agents-best-practices",
+      "stars_total": 1195,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-30T19:02:59Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "rohitg00/skillkit",
+      "name": "skillkit",
+      "stars_total": 1170,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-11T10:05:18Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "minsight-ai-info/ai-search-hub",
       "name": "AI-Search-Hub",
-      "stars_total": 1137,
+      "stars_total": 1138,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -921,9 +2105,137 @@
       ]
     },
     {
+      "repo": "daymade/claude-code-skills",
+      "name": "claude-code-skills",
+      "stars_total": 1132,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 14,
+      "commits_capped": false,
+      "last_push": "2026-05-31T12:47:17Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "caliber-ai-org/ai-setup",
+      "name": "ai-setup",
+      "stars_total": 1100,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-20T12:24:52Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "op7418/logo-generator-skill",
+      "name": "logo-generator-skill",
+      "stars_total": 1093,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-15T16:41:26Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "onvoyage-ai/gtm-engineer-skills",
+      "name": "gtm-engineer-skills",
+      "stars_total": 1070,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-26T21:25:47Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "moizibnyousaf/ai-agent-skills",
+      "name": "Ai-Agent-Skills",
+      "stars_total": 1063,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-05T09:57:12Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "yzfly/douyin-mcp-server",
+      "name": "douyin-mcp-server",
+      "stars_total": 1059,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-30T09:50:39Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
+      "repo": "thclaws/thclaws",
+      "name": "thClaws",
+      "stars_total": 1058,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 2,
+      "commits_7d": 28,
+      "commits_capped": false,
+      "last_push": "2026-05-31T15:33:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "a5c-ai/babysitter",
+      "name": "babysitter",
+      "stars_total": 1058,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 1,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-31T16:07:04Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "bayramannakov/claude-reflect",
       "name": "claude-reflect",
-      "stars_total": 1047,
+      "stars_total": 1049,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -937,10 +2249,42 @@
       ]
     },
     {
+      "repo": "modu-ai/moai-adk",
+      "name": "moai-adk",
+      "stars_total": 1045,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T04:20:51Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
+      "name": "claude-skill-app-onboarding-questionnaire",
+      "stars_total": 1045,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-06T11:04:41Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "conorluddy/ios-simulator-skill",
       "name": "ios-simulator-skill",
-      "stars_total": 1044,
-      "stars_added_7d": 0,
+      "stars_total": 1045,
+      "stars_added_7d": 19,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 6,
@@ -949,30 +2293,78 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
-      "repo": "a5c-ai/babysitter",
-      "name": "babysitter",
+      "repo": "jarrodwatts/claude-code-config",
+      "name": "claude-code-config",
+      "stars_total": 1039,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-21T12:43:33Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "refoundai/lenny-skills",
+      "name": "lenny-skills",
       "stars_total": 972,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-30T13:55:08Z",
+      "last_push": "2026-01-31T02:13:03Z",
       "pool": "ranked",
       "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "juliusbrussee/cavekit",
+      "name": "cavekit",
+      "stars_total": 961,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-17T22:39:54Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "astro-han/karpathy-llm-wiki",
+      "name": "karpathy-llm-wiki",
+      "stars_total": 959,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-13T01:39:31Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "asklokesh/claudeskill-loki-mode",
       "name": "loki-mode",
-      "stars_total": 952,
-      "stars_added_7d": 0,
+      "stars_total": 955,
+      "stars_added_7d": 15,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 30,
@@ -981,13 +2373,29 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "weizhena/deep-research-skills",
+      "name": "Deep-Research-skills",
+      "stars_total": 918,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T16:08:07Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "mohitagw15856/pm-claude-skills",
       "name": "pm-claude-skills",
-      "stars_total": 913,
+      "stars_total": 915,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1003,7 +2411,7 @@
     {
       "repo": "bevibing/tutor-skills",
       "name": "tutor-skills",
-      "stars_total": 908,
+      "stars_total": 912,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1019,8 +2427,8 @@
     {
       "repo": "roundtable02/tutor-skills",
       "name": "tutor-skills",
-      "stars_total": 908,
-      "stars_added_7d": 0,
+      "stars_total": 912,
+      "stars_added_7d": 14,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1029,15 +2437,15 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "agricidaniel/claude-blog",
       "name": "claude-blog",
-      "stars_total": 892,
+      "stars_total": 910,
       "stars_added_7d": 0,
-      "issues_opened_7d": 1,
+      "issues_opened_7d": 2,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
@@ -1051,8 +2459,8 @@
     {
       "repo": "behisecc/vibesec-skill",
       "name": "VibeSec-Skill",
-      "stars_total": 875,
-      "stars_added_7d": 0,
+      "stars_total": 899,
+      "stars_added_7d": 51,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1061,13 +2469,77 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "guanyang/antigravity-skills",
+      "name": "antigravity-skills",
+      "stars_total": 842,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 7,
+      "commits_capped": false,
+      "last_push": "2026-05-31T04:13:11Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "xvirobotics/metabot",
+      "name": "metabot",
+      "stars_total": 830,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 4,
+      "issues_closed_7d": 3,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-25T10:29:22Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "vstorm-co/pydantic-deepagents",
+      "name": "pydantic-deepagents",
+      "stars_total": 828,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 6,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-29T21:09:39Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "xu-xiang/everything-claude-code-zh",
+      "name": "everything-claude-code-zh",
+      "stars_total": 823,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-05T01:45:41Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "jezweb/claude-skills",
       "name": "claude-skills",
-      "stars_total": 808,
+      "stars_total": 810,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1081,10 +2553,26 @@
       ]
     },
     {
+      "repo": "lishix520/academic-paper-skills",
+      "name": "academic-paper-skills",
+      "stars_total": 786,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-04T02:42:38Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "wshuyi/x-article-publisher-skill",
       "name": "x-article-publisher-skill",
-      "stars_total": 784,
-      "stars_added_7d": 0,
+      "stars_total": 785,
+      "stars_added_7d": 9,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1093,14 +2581,14 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "deusyu/translate-book",
       "name": "translate-book",
-      "stars_total": 741,
-      "stars_added_7d": 0,
+      "stars_total": 745,
+      "stars_added_7d": 17,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 3,
@@ -1109,7 +2597,7 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
       ]
     },
     {
@@ -1125,13 +2613,61 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "keskinonur/claude-code-ios-dev-guide",
+      "name": "claude-code-ios-dev-guide",
+      "stars_total": 732,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-04T10:40:13Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "sangrokjung/claude-forge",
+      "name": "claude-forge",
+      "stars_total": 720,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-20T07:34:18Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "alirezarezvani/claude-code-tresor",
+      "name": "claude-code-tresor",
+      "stars_total": 717,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-19T02:11:20Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
       "repo": "zanwei/design-dna",
       "name": "design-dna",
-      "stars_total": 713,
+      "stars_total": 717,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1147,7 +2683,7 @@
     {
       "repo": "narratorai-studio/narrator-ai-cli-skill",
       "name": "narrator-ai-cli-skill",
-      "stars_total": 699,
+      "stars_total": 702,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 1,
@@ -1163,11 +2699,11 @@
     {
       "repo": "tripleyak/skillforge",
       "name": "SkillForge",
-      "stars_total": 669,
+      "stars_total": 671,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 2,
+      "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-24T15:41:21Z",
       "pool": "ranked",
@@ -1179,7 +2715,7 @@
     {
       "repo": "rohitg00/awesome-claude-design",
       "name": "awesome-claude-design",
-      "stars_total": 663,
+      "stars_total": 665,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1190,6 +2726,38 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "dominikmartn/hue",
+      "name": "hue",
+      "stars_total": 664,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-17T04:57:56Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "withkynam/vibecode-pro-max-kit",
+      "name": "vibecode-pro-max-kit",
+      "stars_total": 656,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 15,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-30T14:33:05Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
       ]
     },
     {
@@ -1209,9 +2777,41 @@
       ]
     },
     {
+      "repo": "ningzimu/codex-ppt-skill",
+      "name": "codex-ppt-skill",
+      "stars_total": 608,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 18,
+      "commits_capped": false,
+      "last_push": "2026-05-29T12:53:43Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "decebals/claude-code-java",
+      "name": "claude-code-java",
+      "stars_total": 605,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-02-08T19:43:04Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "bhanunamikaze/agentic-seo-skill",
       "name": "Agentic-SEO-Skill",
-      "stars_total": 592,
+      "stars_total": 595,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1225,25 +2825,9 @@
       ]
     },
     {
-      "repo": "mhattingpete/claude-skills-marketplace",
-      "name": "claude-skills-marketplace",
-      "stars_total": 591,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-06T10:14:25Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "agricidaniel/banana-claude",
       "name": "banana-claude",
-      "stars_total": 590,
+      "stars_total": 594,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1257,9 +2841,105 @@
       ]
     },
     {
+      "repo": "mhattingpete/claude-skills-marketplace",
+      "name": "claude-skills-marketplace",
+      "stars_total": 591,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-06T10:14:25Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "storybloq/storybloq",
+      "name": "storybloq",
+      "stars_total": 584,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "commits_7d": 6,
+      "commits_capped": false,
+      "last_push": "2026-05-30T23:57:22Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "railly/agentfiles",
+      "name": "agentfiles",
+      "stars_total": 582,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-17T00:17:30Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "0xranx/opencontext",
+      "name": "OpenContext",
+      "stars_total": 581,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-30T14:05:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "skillmatic-ai/awesome-agent-skills",
+      "name": "awesome-agent-skills",
+      "stars_total": 579,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-14T20:28:00Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "microsoftdocs/agent-skills",
+      "name": "Agent-Skills",
+      "stars_total": 562,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-31T02:45:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
       "repo": "ar9av/paperorchestra",
       "name": "PaperOrchestra",
-      "stars_total": 551,
+      "stars_total": 554,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1275,7 +2955,7 @@
     {
       "repo": "24kchengye/human-skill-tree",
       "name": "human-skill-tree",
-      "stars_total": 544,
+      "stars_total": 546,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1291,7 +2971,7 @@
     {
       "repo": "jherrodthomas/robotics-skills-suite",
       "name": "robotics-skills-suite",
-      "stars_total": 537,
+      "stars_total": 538,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1307,11 +2987,11 @@
     {
       "repo": "aaronjmars/soul.md",
       "name": "soul.md",
-      "stars_total": 533,
-      "stars_added_7d": 19,
+      "stars_total": 534,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-23T17:09:14Z",
       "pool": "ranked",
@@ -1321,19 +3001,99 @@
       ]
     },
     {
-      "repo": "sushegaad/claude-skills-governance-risk-and-compliance",
-      "name": "Claude-Skills-Governance-Risk-and-Compliance",
-      "stars_total": 486,
+      "repo": "borski/travel-hacking-toolkit",
+      "name": "travel-hacking-toolkit",
+      "stars_total": 523,
       "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 1,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-22T21:03:40Z",
+      "last_push": "2026-05-02T22:24:59Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "thedecipherist/claude-code-mastery",
+      "name": "claude-code-mastery",
+      "stars_total": 519,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T19:15:40Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "kamalnrf/claude-plugins",
+      "name": "claude-plugins",
+      "stars_total": 516,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-25T10:28:52Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "huytieu/cog-second-brain",
+      "name": "COG-second-brain",
+      "stars_total": 506,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-16T08:48:47Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-code"
+      ]
+    },
+    {
+      "repo": "sushegaad/claude-skills-governance-risk-and-compliance",
+      "name": "Claude-Skills-Governance-Risk-and-Compliance",
+      "stars_total": 489,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 2,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-31T03:01:56Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "meodai/skill.color-expert",
+      "name": "skill.color-expert",
+      "stars_total": 478,
+      "stars_added_7d": 6,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-10T21:14:23Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -1353,25 +3113,9 @@
       ]
     },
     {
-      "repo": "meodai/skill.color-expert",
-      "name": "skill.color-expert",
-      "stars_total": 477,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-10T21:14:23Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
       "repo": "anombyte93/prd-taskmaster",
       "name": "prd-taskmaster",
-      "stars_total": 464,
+      "stars_total": 465,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1387,8 +3131,8 @@
     {
       "repo": "aklofas/kicad-happy",
       "name": "kicad-happy",
-      "stars_total": 449,
-      "stars_added_7d": 0,
+      "stars_total": 451,
+      "stars_added_7d": 54,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1397,13 +3141,13 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "vladikk/modularity",
       "name": "modularity",
-      "stars_total": 428,
+      "stars_total": 430,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1419,7 +3163,7 @@
     {
       "repo": "hoangsonww/claude-code-agent-monitor",
       "name": "Claude-Code-Agent-Monitor",
-      "stars_total": 416,
+      "stars_total": 421,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1437,9 +3181,9 @@
       "name": "terrashark",
       "stars_total": 412,
       "stars_added_7d": 0,
-      "issues_opened_7d": 0,
+      "issues_opened_7d": 1,
       "issues_closed_7d": 0,
-      "commits_7d": 1,
+      "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-24T09:01:45Z",
       "pool": "ranked",
@@ -1465,6 +3209,22 @@
       ]
     },
     {
+      "repo": "alonw0/web-asset-generator",
+      "name": "web-asset-generator",
+      "stars_total": 402,
+      "stars_added_7d": 13,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-28T09:11:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ]
+    },
+    {
       "repo": "waynesutton/convexskills",
       "name": "convexskills",
       "stars_total": 401,
@@ -1481,27 +3241,11 @@
       ]
     },
     {
-      "repo": "alonw0/web-asset-generator",
-      "name": "web-asset-generator",
-      "stars_total": 400,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-01-28T09:11:01Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
       "repo": "jqueryscript/awesome-claude-code",
       "name": "awesome-claude-code",
       "stars_total": 399,
       "stars_added_7d": 0,
-      "issues_opened_7d": 3,
+      "issues_opened_7d": 2,
       "issues_closed_7d": 0,
       "commits_7d": 1,
       "commits_capped": false,
@@ -1515,7 +3259,7 @@
     {
       "repo": "posit-dev/skills",
       "name": "skills",
-      "stars_total": 379,
+      "stars_total": 380,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1529,9 +3273,25 @@
       ]
     },
     {
+      "repo": "klotzkette/claude-fuer-deutsches-recht",
+      "name": "claude-fuer-deutsches-recht",
+      "stars_total": 379,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T15:32:19Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "aspegio/nelson",
       "name": "nelson",
-      "stars_total": 372,
+      "stars_total": 373,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1548,7 +3308,7 @@
       "repo": "peterfei/ai-agent-team",
       "name": "ai-agent-team",
       "stars_total": 370,
-      "stars_added_7d": 3,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 2,
@@ -1558,6 +3318,22 @@
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "bitjaru/styleseed",
+      "name": "styleseed",
+      "stars_total": 370,
+      "stars_added_7d": 11,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 12,
+      "commits_capped": false,
+      "last_push": "2026-05-29T09:31:53Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -1577,41 +3353,9 @@
       ]
     },
     {
-      "repo": "bitjaru/styleseed",
-      "name": "styleseed",
-      "stars_total": 368,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 12,
-      "commits_capped": false,
-      "last_push": "2026-05-29T09:31:53Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "klotzkette/claude-fuer-deutsches-recht",
-      "name": "claude-fuer-deutsches-recht",
-      "stars_total": 367,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 30,
-      "commits_capped": true,
-      "last_push": "2026-05-30T13:53:31Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "oliver-kriska/claude-elixir-phoenix",
       "name": "claude-elixir-phoenix",
-      "stars_total": 350,
+      "stars_total": 362,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1627,16 +3371,32 @@
     {
       "repo": "activeloopai/hivemind",
       "name": "hivemind",
-      "stars_total": 349,
+      "stars_total": 360,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 1,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T00:28:19Z",
+      "last_push": "2026-05-31T15:56:23Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "lukasniessen/kubernetes-skill",
+      "name": "kubernetes-skill",
+      "stars_total": 346,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-24T09:00:47Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -1657,22 +3417,6 @@
       ]
     },
     {
-      "repo": "lukasniessen/kubernetes-skill",
-      "name": "kubernetes-skill",
-      "stars_total": 344,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-24T09:00:47Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "zscole/model-hierarchy-skill",
       "name": "model-hierarchy-skill",
       "stars_total": 337,
@@ -1685,19 +3429,19 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "aiskillstore/marketplace",
       "name": "marketplace",
-      "stars_total": 334,
+      "stars_total": 335,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T10:05:47Z",
+      "last_push": "2026-05-31T10:30:30Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -1705,25 +3449,9 @@
       ]
     },
     {
-      "repo": "ombulabs/claude-code_rails-upgrade-skill",
-      "name": "claude-code_rails-upgrade-skill",
-      "stars_total": 332,
-      "stars_added_7d": 14,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-28T00:14:12Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "mcpware/cross-code-organizer",
       "name": "cross-code-organizer",
-      "stars_total": 331,
+      "stars_total": 332,
       "stars_added_7d": 0,
       "issues_opened_7d": 2,
       "issues_closed_7d": 0,
@@ -1737,25 +3465,25 @@
       ]
     },
     {
-      "repo": "myurikanao/src-hunter-skill",
-      "name": "src-hunter-skill",
-      "stars_total": 321,
+      "repo": "ombulabs/claude-code_rails-upgrade-skill",
+      "name": "claude-code_rails-upgrade-skill",
+      "stars_total": 332,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 1,
       "commits_capped": false,
-      "last_push": "2026-05-24T06:38:34Z",
+      "last_push": "2026-05-28T00:14:12Z",
       "pool": "ranked",
       "quality_flags": [
-        "根目录存在 SKILL.md",
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code-skill"
       ]
     },
     {
       "repo": "geekjourneyx/claude-design-card",
       "name": "claude-design-card",
-      "stars_total": 317,
+      "stars_total": 331,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1769,9 +3497,25 @@
       ]
     },
     {
+      "repo": "myurikanao/src-hunter-skill",
+      "name": "src-hunter-skill",
+      "stars_total": 325,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-24T06:38:34Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "brianrwagner/ai-marketing-claude-code-skills",
       "name": "ai-marketing-claude-code-skills",
-      "stars_total": 310,
+      "stars_total": 312,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1787,8 +3531,8 @@
     {
       "repo": "brianrwagner/ai-marketing-skills",
       "name": "ai-marketing-claude-code-skills",
-      "stars_total": 310,
-      "stars_added_7d": 0,
+      "stars_total": 312,
+      "stars_added_7d": 10,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1797,13 +3541,13 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "evolsb/claude-legal-skill",
       "name": "claude-legal-skill",
-      "stars_total": 302,
+      "stars_total": 303,
       "stars_added_7d": 0,
       "issues_opened_7d": 3,
       "issues_closed_7d": 0,
@@ -1819,29 +3563,13 @@
     {
       "repo": "sanjay3290/ai-skills",
       "name": "ai-skills",
-      "stars_total": 298,
-      "stars_added_7d": 0,
+      "stars_total": 300,
+      "stars_added_7d": 12,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-07T15:54:46Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "eyadkelleh/awesome-claude-skills-security",
-      "name": "awesome-claude-skills-security",
-      "stars_total": 279,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-21T09:37:54Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -1851,13 +3579,29 @@
     {
       "repo": "rampstackco/claude-skills",
       "name": "claude-skills",
-      "stars_total": 275,
+      "stars_total": 284,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 22,
       "commits_capped": false,
       "last_push": "2026-05-29T06:23:21Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "eyadkelleh/awesome-claude-skills-security",
+      "name": "awesome-claude-skills-security",
+      "stars_total": 281,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-21T09:37:54Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -1883,8 +3627,8 @@
     {
       "repo": "testdino-hq/playwright-skill",
       "name": "playwright-skill",
-      "stars_total": 263,
-      "stars_added_7d": 0,
+      "stars_total": 264,
+      "stars_added_7d": 13,
       "issues_opened_7d": 0,
       "issues_closed_7d": 1,
       "commits_7d": 1,
@@ -1893,13 +3637,29 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "gitroomhq/postiz-agent",
+      "name": "postiz-agent",
+      "stars_total": 260,
+      "stars_added_7d": 24,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-18T14:22:05Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "seo-skills/seo-audit-skill",
       "name": "seo-audit-skill",
-      "stars_total": 258,
+      "stars_total": 259,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1913,31 +3673,15 @@
       ]
     },
     {
-      "repo": "gitroomhq/postiz-agent",
-      "name": "postiz-agent",
-      "stars_total": 258,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-18T14:22:05Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
       "repo": "jsonbored/awesome-claude",
       "name": "awesome-claude",
       "stars_total": 252,
       "stars_added_7d": 0,
-      "issues_opened_7d": 3,
+      "issues_opened_7d": 6,
       "issues_closed_7d": 0,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T11:51:21Z",
+      "last_push": "2026-05-31T07:38:08Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -1947,7 +3691,7 @@
     {
       "repo": "arpitg1304/robotics-agent-skills",
       "name": "robotics-agent-skills",
-      "stars_total": 246,
+      "stars_total": 251,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -1964,7 +3708,7 @@
       "repo": "claude-world/notebooklm-skill",
       "name": "notebooklm-skill",
       "stars_total": 240,
-      "stars_added_7d": 10,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1979,8 +3723,8 @@
     {
       "repo": "everyinc/charlie-cfo-skill",
       "name": "charlie-cfo-skill",
-      "stars_total": 233,
-      "stars_added_7d": 0,
+      "stars_total": 235,
+      "stars_added_7d": 11,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -1989,19 +3733,35 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
       ]
     },
     {
       "repo": "jamditis/claude-skills-journalism",
       "name": "claude-skills-journalism",
-      "stars_total": 232,
+      "stars_total": 233,
       "stars_added_7d": 0,
-      "issues_opened_7d": 1,
+      "issues_opened_7d": 3,
       "issues_closed_7d": 4,
-      "commits_7d": 11,
+      "commits_7d": 12,
       "commits_capped": false,
-      "last_push": "2026-05-30T01:11:55Z",
+      "last_push": "2026-05-30T18:37:05Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "cclank/lanshu-awesome-ai-video-kit",
+      "name": "lanshu-awesome-ai-video-kit",
+      "stars_total": 233,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T00:26:06Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2011,13 +3771,13 @@
     {
       "repo": "staskh/trading_skills",
       "name": "trading_skills",
-      "stars_total": 229,
+      "stars_total": 232,
       "stars_added_7d": 0,
       "issues_opened_7d": 4,
       "issues_closed_7d": 1,
       "commits_7d": 1,
       "commits_capped": false,
-      "last_push": "2026-05-29T19:55:53Z",
+      "last_push": "2026-05-31T04:40:38Z",
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
@@ -2027,13 +3787,29 @@
     {
       "repo": "microck/ordinary-claude-skills",
       "name": "ordinary-claude-skills",
-      "stars_total": 229,
+      "stars_total": 231,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-04-30T19:30:43Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "recomby-ai/recomby-geo",
+      "name": "recomby-geo",
+      "stars_total": 230,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-16T04:43:12Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2057,41 +3833,9 @@
       ]
     },
     {
-      "repo": "cclank/lanshu-awesome-ai-video-kit",
-      "name": "lanshu-awesome-ai-video-kit",
-      "stars_total": 221,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 30,
-      "commits_capped": true,
-      "last_push": "2026-05-28T01:49:47Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "yeap531/word-format-skill",
-      "name": "word-format-skill",
-      "stars_total": 220,
-      "stars_added_7d": 4,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-27T09:06:16Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "laolaoshiren/claude-code-skills-zh",
       "name": "claude-code-skills-zh",
-      "stars_total": 220,
+      "stars_total": 222,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2105,19 +3849,19 @@
       ]
     },
     {
-      "repo": "recomby-ai/recomby-geo",
-      "name": "recomby-geo",
-      "stars_total": 215,
+      "repo": "yeap531/word-format-skill",
+      "name": "word-format-skill",
+      "stars_total": 221,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-16T04:43:12Z",
+      "last_push": "2026-04-27T09:06:16Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -2129,7 +3873,7 @@
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-30T05:44:27Z",
+      "last_push": "2026-05-31T06:15:00Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2140,7 +3884,7 @@
       "repo": "scarletkc/vexor",
       "name": "vexor",
       "stars_total": 214,
-      "stars_added_7d": 0,
+      "stars_added_7d": 2,
       "issues_opened_7d": 1,
       "issues_closed_7d": 1,
       "commits_7d": 0,
@@ -2149,7 +3893,7 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -2217,25 +3961,9 @@
       ]
     },
     {
-      "repo": "leiting-eric/dailybrief",
-      "name": "DailyBrief",
-      "stars_total": 205,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 1,
-      "commits_7d": 16,
-      "commits_capped": false,
-      "last_push": "2026-05-29T23:42:27Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "borghei/claude-skills",
       "name": "Claude-Skills",
-      "stars_total": 203,
+      "stars_total": 206,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2249,10 +3977,26 @@
       ]
     },
     {
+      "repo": "leiting-eric/dailybrief",
+      "name": "DailyBrief",
+      "stars_total": 206,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "commits_7d": 9,
+      "commits_capped": false,
+      "last_push": "2026-05-31T00:15:08Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "cosmoblk/email-marketing-bible",
       "name": "email-marketing-bible",
       "stars_total": 201,
-      "stars_added_7d": 0,
+      "stars_added_7d": 9,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -2261,7 +4005,7 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:README 关键词: claude code skill"
       ]
     },
     {
@@ -2283,7 +4027,7 @@
     {
       "repo": "inhouseseo/superseo-skills",
       "name": "superseo-skills",
-      "stars_total": 194,
+      "stars_total": 195,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2299,7 +4043,7 @@
     {
       "repo": "elvismdev/claude-wordpress-skills",
       "name": "claude-wordpress-skills",
-      "stars_total": 191,
+      "stars_total": 192,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2345,25 +4089,9 @@
       ]
     },
     {
-      "repo": "ognjengt/founder-skills",
-      "name": "founder-skills",
-      "stars_total": 182,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-18T19:44:26Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
       "repo": "interfacex-co-jp/genshijin",
       "name": "genshijin",
-      "stars_total": 181,
+      "stars_total": 182,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -2377,9 +4105,25 @@
       ]
     },
     {
+      "repo": "ognjengt/founder-skills",
+      "name": "founder-skills",
+      "stars_total": 182,
+      "stars_added_7d": 7,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-18T19:44:26Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
       "repo": "gcpdev/llm-council-skill",
       "name": "llm-council-skill",
-      "stars_total": 180,
+      "stars_total": 181,
       "stars_added_7d": 0,
       "issues_opened_7d": 1,
       "issues_closed_7d": 0,
@@ -2395,7 +4139,7 @@
     {
       "repo": "lifedever/claude-rules",
       "name": "claude-rules",
-      "stars_total": 175,
+      "stars_total": 173,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2411,7 +4155,7 @@
     {
       "repo": "kyure-a/agent-skills-nix",
       "name": "agent-skills-nix",
-      "stars_total": 170,
+      "stars_total": 172,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2443,8 +4187,8 @@
     {
       "repo": "secondsky/claude-skills",
       "name": "claude-skills",
-      "stars_total": 160,
-      "stars_added_7d": 3,
+      "stars_total": 161,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -2459,7 +4203,7 @@
     {
       "repo": "geekjourneyx/agora",
       "name": "agora",
-      "stars_total": 156,
+      "stars_total": 157,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2539,7 +4283,7 @@
     {
       "repo": "gapmiss/obsidian-plugin-skill",
       "name": "obsidian-plugin-skill",
-      "stars_total": 143,
+      "stars_total": 144,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2569,6 +4313,38 @@
       ]
     },
     {
+      "repo": "sergebulaev/linkedin-skills",
+      "name": "linkedin-skills",
+      "stars_total": 141,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-21T11:15:51Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "agricidaniel/claude-youtube",
+      "name": "claude-youtube",
+      "stars_total": 140,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-10T17:12:54Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "agricidaniel/claude-cybersecurity",
       "name": "claude-cybersecurity",
       "stars_total": 139,
@@ -2585,41 +4361,9 @@
       ]
     },
     {
-      "repo": "agricidaniel/claude-youtube",
-      "name": "claude-youtube",
-      "stars_total": 138,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T17:12:54Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
-      "repo": "sergebulaev/linkedin-skills",
-      "name": "linkedin-skills",
-      "stars_total": 138,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-21T11:15:51Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "hainrixz/cyber-neo",
       "name": "cyber-neo",
-      "stars_total": 135,
+      "stars_total": 136,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2651,7 +4395,7 @@
     {
       "repo": "bananasjim/rdc-cli",
       "name": "rdc-cli",
-      "stars_total": 127,
+      "stars_total": 128,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2667,7 +4411,7 @@
     {
       "repo": "spontaneousai/job-hunt-copilot",
       "name": "job-hunt-copilot",
-      "stars_total": 126,
+      "stars_total": 127,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2681,13 +4425,29 @@
       ]
     },
     {
+      "repo": "stevenflanagan1/social-ai-team",
+      "name": "social-ai-team",
+      "stars_total": 125,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T23:01:16Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "oaustegard/claude-skills",
       "name": "claude-skills",
       "stars_total": 124,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 18,
+      "commits_7d": 13,
       "commits_capped": false,
       "last_push": "2026-05-29T12:28:12Z",
       "pool": "ranked",
@@ -2700,7 +4460,7 @@
       "repo": "jtrackingai/analytics-tracking-automation",
       "name": "analytics-tracking-automation",
       "stars_total": 124,
-      "stars_added_7d": 2,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -2729,15 +4489,15 @@
       ]
     },
     {
-      "repo": "stevenflanagan1/social-ai-team",
-      "name": "social-ai-team",
-      "stars_total": 124,
+      "repo": "aperivue/medsci-skills",
+      "name": "medsci-skills",
+      "stars_total": 123,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 0,
+      "commits_7d": 14,
       "commits_capped": false,
-      "last_push": "2026-05-07T23:01:16Z",
+      "last_push": "2026-05-31T13:26:27Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2761,15 +4521,15 @@
       ]
     },
     {
-      "repo": "aperivue/medsci-skills",
-      "name": "medsci-skills",
+      "repo": "getbindu/awesome-claude-code-and-skills",
+      "name": "awesome-claude-code-and-skills",
       "stars_total": 119,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 4,
+      "commits_7d": 18,
       "commits_capped": false,
-      "last_push": "2026-05-30T02:23:24Z",
+      "last_push": "2026-05-29T11:37:39Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2793,25 +4553,9 @@
       ]
     },
     {
-      "repo": "getbindu/awesome-claude-code-and-skills",
-      "name": "awesome-claude-code-and-skills",
-      "stars_total": 118,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 18,
-      "commits_capped": false,
-      "last_push": "2026-05-29T11:37:39Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "prefecthq/colin",
       "name": "colin",
-      "stars_total": 117,
+      "stars_total": 118,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2825,15 +4569,15 @@
       ]
     },
     {
-      "repo": "matlab/agent-skills-playground",
-      "name": "agent-skills-playground",
-      "stars_total": 114,
+      "repo": "guia-matthieu/clawfu-skills",
+      "name": "clawfu-skills",
+      "stars_total": 116,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 5,
+      "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-29T20:53:36Z",
+      "last_push": "2026-04-02T10:12:11Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2841,15 +4585,15 @@
       ]
     },
     {
-      "repo": "guia-matthieu/clawfu-skills",
-      "name": "clawfu-skills",
-      "stars_total": 114,
+      "repo": "matlab/agent-skills-playground",
+      "name": "agent-skills-playground",
+      "stars_total": 115,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 0,
+      "commits_7d": 5,
       "commits_capped": false,
-      "last_push": "2026-04-02T10:12:11Z",
+      "last_push": "2026-05-29T20:53:36Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -2875,7 +4619,7 @@
     {
       "repo": "evan715823/cheatsheet-generator-skill",
       "name": "cheatsheet-generator-skill",
-      "stars_total": 109,
+      "stars_total": 110,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2891,8 +4635,8 @@
     {
       "repo": "wrsmith108/linear-claude-skill",
       "name": "linear-claude-skill",
-      "stars_total": 108,
-      "stars_added_7d": 0,
+      "stars_total": 109,
+      "stars_added_7d": 3,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -2901,13 +4645,45 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "lingxling/awesome-skills-cn",
+      "name": "awesome-skills-cn",
+      "stars_total": 109,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-11T11:15:28Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "7onez/cti-expert",
+      "name": "cti-expert",
+      "stars_total": 108,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-19T19:14:38Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
       "repo": "agricidaniel/claude-shorts",
       "name": "claude-shorts",
-      "stars_total": 107,
+      "stars_total": 108,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2923,7 +4699,7 @@
     {
       "repo": "mark393295827/third-brain-v5-skills",
       "name": "third-brain-v5-skills",
-      "stars_total": 106,
+      "stars_total": 107,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -2937,51 +4713,19 @@
       ]
     },
     {
-      "repo": "7onez/cti-expert",
-      "name": "cti-expert",
-      "stars_total": 105,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-19T19:14:38Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
-      "repo": "lingxling/awesome-skills-cn",
-      "name": "awesome-skills-cn",
-      "stars_total": 103,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-11T11:15:28Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "xquik-dev/x-twitter-scraper",
       "name": "x-twitter-scraper",
       "stars_total": 101,
-      "stars_added_7d": 0,
+      "stars_added_7d": 6,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 4,
+      "commits_7d": 2,
       "commits_capped": false,
       "last_push": "2026-05-27T09:31:40Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3017,10 +4761,26 @@
       ]
     },
     {
+      "repo": "pivoshenko/kasetto",
+      "name": "kasetto",
+      "stars_total": 99,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 12,
+      "commits_capped": false,
+      "last_push": "2026-05-31T13:40:21Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "talkstream/ru-text",
       "name": "ru-text",
-      "stars_total": 97,
-      "stars_added_7d": 0,
+      "stars_total": 99,
+      "stars_added_7d": 6,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 3,
@@ -3029,30 +4789,14 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "pivoshenko/kasetto",
-      "name": "kasetto",
-      "stars_total": 96,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "commits_7d": 12,
-      "commits_capped": false,
-      "last_push": "2026-05-30T07:53:27Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "digidai/product-manager-skills",
       "name": "product-manager-skills",
       "stars_total": 93,
-      "stars_added_7d": 0,
+      "stars_added_7d": 2,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -3061,7 +4805,7 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -3074,6 +4818,22 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-04-24T19:53:11Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "alexgreensh/repo-forensics",
+      "name": "repo-forensics",
+      "stars_total": 91,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "commits_7d": 17,
+      "commits_capped": false,
+      "last_push": "2026-05-24T23:08:15Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -3100,7 +4860,7 @@
       "repo": "hqhq1025/skill-optimizer",
       "name": "skill-optimizer",
       "stars_total": 90,
-      "stars_added_7d": 0,
+      "stars_added_7d": 6,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -3109,23 +4869,7 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "alexgreensh/repo-forensics",
-      "name": "repo-forensics",
-      "stars_total": 89,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "commits_7d": 17,
-      "commits_capped": false,
-      "last_push": "2026-05-24T23:08:15Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3141,7 +4885,39 @@
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "arabelatso/skills-4-se",
+      "name": "Skills-4-SE",
+      "stars_total": 84,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-02-22T15:49:27Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "wenyuchiou/ai-research-skills",
+      "name": "ai-research-skills",
+      "stars_total": 83,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 8,
+      "commits_capped": false,
+      "last_push": "2026-05-31T06:14:48Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -3157,39 +4933,23 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "wenyuchiou/ai-research-skills",
-      "name": "ai-research-skills",
-      "stars_total": 82,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 16,
-      "commits_capped": false,
-      "last_push": "2026-05-28T19:31:26Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
     {
-      "repo": "arabelatso/skills-4-se",
-      "name": "Skills-4-SE",
+      "repo": "omkamal/pypict-claude-skill",
+      "name": "pypict-claude-skill",
       "stars_total": 82,
-      "stars_added_7d": 0,
+      "stars_added_7d": 4,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-02-22T15:49:27Z",
+      "last_push": "2026-03-22T20:31:42Z",
       "pool": "ranked",
       "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
+        "根目录存在 SKILL.md",
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3209,19 +4969,19 @@
       ]
     },
     {
-      "repo": "omkamal/pypict-claude-skill",
-      "name": "pypict-claude-skill",
-      "stars_total": 81,
+      "repo": "pcx-wave/vibe-skill",
+      "name": "vibe-skill",
+      "stars_total": 80,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 0,
+      "commits_7d": 22,
       "commits_capped": false,
-      "last_push": "2026-03-22T20:31:42Z",
+      "last_push": "2026-05-31T11:18:01Z",
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -3237,22 +4997,6 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "pcx-wave/vibe-skill",
-      "name": "vibe-skill",
-      "stars_total": 79,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 3,
-      "commits_capped": false,
-      "last_push": "2026-05-26T09:12:36Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -3323,7 +5067,7 @@
     {
       "repo": "ypares/rigup.nix",
       "name": "rigup.nix",
-      "stars_total": 74,
+      "stars_total": 75,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -3339,7 +5083,7 @@
     {
       "repo": "summerkaze/skill-arkts-syntax-assistant",
       "name": "skill-arkts-syntax-assistant",
-      "stars_total": 74,
+      "stars_total": 75,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -3362,6 +5106,22 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-13T09:27:14Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "jnmetacode/ai-shortfilm-prompts",
+      "name": "ai-shortfilm-prompts",
+      "stars_total": 73,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 9,
+      "commits_capped": false,
+      "last_push": "2026-05-25T00:41:24Z",
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
@@ -3401,18 +5161,18 @@
       ]
     },
     {
-      "repo": "jnmetacode/ai-shortfilm-prompts",
-      "name": "ai-shortfilm-prompts",
+      "repo": "cocoindex-io/cocoindex-claude",
+      "name": "cocoindex-claude",
       "stars_total": 70,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 9,
+      "commits_7d": 1,
       "commits_capped": false,
-      "last_push": "2026-05-25T00:41:24Z",
+      "last_push": "2026-05-29T01:34:26Z",
       "pool": "ranked",
       "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -3430,22 +5190,6 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
-      "repo": "cocoindex-io/cocoindex-claude",
-      "name": "cocoindex-claude",
-      "stars_total": 69,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-29T01:34:26Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -3467,7 +5211,7 @@
     {
       "repo": "bevibing/socrates-skill",
       "name": "socrates-skill",
-      "stars_total": 67,
+      "stars_total": 68,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -3477,6 +5221,38 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "testdouble/han",
+      "name": "han",
+      "stars_total": 67,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 10,
+      "issues_closed_7d": 10,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-30T15:13:52Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "jianshuo/claude-skills",
+      "name": "claude-skills",
+      "stars_total": 67,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T15:17:51Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -3493,22 +5269,6 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "testdouble/han",
-      "name": "han",
-      "stars_total": 66,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 10,
-      "issues_closed_7d": 10,
-      "commits_7d": 30,
-      "commits_capped": true,
-      "last_push": "2026-05-30T13:58:49Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -3561,25 +5321,9 @@
       ]
     },
     {
-      "repo": "jianshuo/claude-skills",
-      "name": "claude-skills",
-      "stars_total": 65,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 30,
-      "commits_capped": true,
-      "last_push": "2026-05-29T17:10:06Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "avibebuilder/claude-prime",
       "name": "claude-prime",
-      "stars_total": 64,
+      "stars_total": 65,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -3589,6 +5333,38 @@
       "pool": "ranked",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "yfe404/web-scraper",
+      "name": "web-scraper",
+      "stars_total": 64,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-18T12:13:46Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "zhangqi444/open-forge",
+      "name": "open-forge",
+      "stars_total": 64,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 10,
+      "commits_capped": false,
+      "last_push": "2026-05-31T16:03:24Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -3605,7 +5381,7 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3657,31 +5433,15 @@
       ]
     },
     {
-      "repo": "yfe404/web-scraper",
-      "name": "web-scraper",
-      "stars_total": 63,
+      "repo": "roman-rr/trading-skills",
+      "name": "trading-skills",
+      "stars_total": 62,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-03-18T12:13:46Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "zhangqi444/open-forge",
-      "name": "open-forge",
-      "stars_total": 63,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-23T03:02:20Z",
+      "last_push": "2026-05-12T00:08:28Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -3714,6 +5474,22 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-02-19T11:40:31Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "rediumvex/social-media-caption-generator-claude",
+      "name": "social-media-caption-generator-claude",
+      "stars_total": 61,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-13T14:55:45Z",
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
@@ -3793,39 +5569,7 @@
       "issues_closed_7d": 0,
       "commits_7d": 1,
       "commits_capped": false,
-      "last_push": "2026-05-30T13:30:23Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "rediumvex/social-media-caption-generator-claude",
-      "name": "social-media-caption-generator-claude",
-      "stars_total": 59,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-13T14:55:45Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "roman-rr/trading-skills",
-      "name": "trading-skills",
-      "stars_total": 59,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-12T00:08:28Z",
+      "last_push": "2026-05-31T14:49:24Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -3836,7 +5580,7 @@
       "repo": "raintree-technology/apple-hig-skills",
       "name": "hig-doctor",
       "stars_total": 59,
-      "stars_added_7d": 0,
+      "stars_added_7d": 6,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 18,
@@ -3845,7 +5589,23 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "smixs/creative-director-skill",
+      "name": "creative-director-skill",
+      "stars_total": 59,
+      "stars_added_7d": 9,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T01:20:52Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3881,19 +5641,19 @@
       ]
     },
     {
-      "repo": "smixs/creative-director-skill",
-      "name": "creative-director-skill",
+      "repo": "agents365-ai/mermaid-skill",
+      "name": "mermaid-skill",
       "stars_total": 57,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-01T01:20:52Z",
+      "last_push": "2026-05-17T08:52:34Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -3929,19 +5689,35 @@
       ]
     },
     {
-      "repo": "agents365-ai/mermaid-skill",
-      "name": "mermaid-skill",
-      "stars_total": 56,
+      "repo": "zerolu/ultimate-ai-media-generator-skill",
+      "name": "Ultimate-AI-Media-Generator-Skill",
+      "stars_total": 55,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-17T08:52:34Z",
+      "last_push": "2026-03-05T12:06:32Z",
       "pool": "ranked",
       "quality_flags": [
-        "README 提及 Claude Code Skill",
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "softcane/human-state-skills",
+      "name": "human-state-skills",
+      "stars_total": 55,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-25T09:57:49Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -3957,7 +5733,7 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -3977,22 +5753,6 @@
       ]
     },
     {
-      "repo": "zerolu/ultimate-ai-media-generator-skill",
-      "name": "Ultimate-AI-Media-Generator-Skill",
-      "stars_total": 54,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-05T12:06:32Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "recomby-ai/promptly-prompt",
       "name": "promptly-prompt",
       "stars_total": 53,
@@ -4009,19 +5769,19 @@
       ]
     },
     {
-      "repo": "softcane/human-state-skills",
-      "name": "human-state-skills",
+      "repo": "aboudjem/humanizer-skill",
+      "name": "humanizer-skill",
       "stars_total": 53,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 4,
+      "issues_closed_7d": 1,
+      "commits_7d": 1,
       "commits_capped": false,
-      "last_push": "2026-05-25T09:57:49Z",
+      "last_push": "2026-05-30T08:10:23Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -4092,7 +5852,7 @@
       "repo": "k-kolomeitsev/data-structure-protocol",
       "name": "data-structure-protocol",
       "stars_total": 50,
-      "stars_added_7d": 0,
+      "stars_added_7d": 1,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -4101,23 +5861,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "aboudjem/humanizer-skill",
-      "name": "humanizer-skill",
-      "stars_total": 50,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-30T08:10:23Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -4140,7 +5884,7 @@
       "repo": "zw008/vmware-aiops",
       "name": "VMware-AIops",
       "stars_total": 49,
-      "stars_added_7d": 0,
+      "stars_added_7d": 3,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 3,
@@ -4149,7 +5893,23 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "michtio/craftcms-claude-skills",
+      "name": "craftcms-claude-skills",
+      "stars_total": 49,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 14,
+      "commits_capped": false,
+      "last_push": "2026-05-30T13:23:00Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -4169,15 +5929,31 @@
       ]
     },
     {
-      "repo": "michtio/craftcms-claude-skills",
-      "name": "craftcms-claude-skills",
+      "repo": "w95/awesome-claude-corporate-skills",
+      "name": "awesome-claude-corporate-skills",
       "stars_total": 48,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 14,
+      "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-05-30T13:23:00Z",
+      "last_push": "2026-02-26T16:14:58Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "belumume/claude-skills",
+      "name": "claude-skills",
+      "stars_total": 47,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-23T19:48:20Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -4194,38 +5970,6 @@
       "commits_7d": 5,
       "commits_capped": false,
       "last_push": "2026-05-30T15:15:00Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "belumume/claude-skills",
-      "name": "claude-skills",
-      "stars_total": 47,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 2,
-      "commits_capped": false,
-      "last_push": "2026-05-23T19:48:20Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "w95/awesome-claude-corporate-skills",
-      "name": "awesome-claude-corporate-skills",
-      "stars_total": 46,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-02-26T16:14:58Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -4313,6 +6057,22 @@
       ]
     },
     {
+      "repo": "smixs/visual-skills",
+      "name": "visual-skills",
+      "stars_total": 44,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-03T02:47:29Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "tody-agent/codymaster",
       "name": "codymaster",
       "stars_total": 44,
@@ -4361,22 +6121,6 @@
       ]
     },
     {
-      "repo": "smixs/visual-skills",
-      "name": "visual-skills",
-      "stars_total": 43,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-03T02:47:29Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "baidu-maps/jsapi-skills",
       "name": "jsapi-skills",
       "stars_total": 43,
@@ -4412,12 +6156,28 @@
       "repo": "praneybehl/llm-wiki-plugin",
       "name": "llm-wiki-plugin",
       "stars_total": 43,
-      "stars_added_7d": 3,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 1,
       "commits_capped": false,
       "last_push": "2026-05-29T07:42:21Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "agents365-ai/tldraw-skill",
+      "name": "tldraw-skill",
+      "stars_total": 43,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-17T08:52:44Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -4437,7 +6197,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -4466,22 +6226,6 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-02-28T06:46:29Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
-      "repo": "agents365-ai/tldraw-skill",
-      "name": "tldraw-skill",
-      "stars_total": 42,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-17T08:52:44Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -4581,7 +6325,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -4617,6 +6361,22 @@
       ]
     },
     {
+      "repo": "yurukusa/cc-safe-setup",
+      "name": "cc-safe-setup",
+      "stars_total": 39,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 30,
+      "commits_capped": true,
+      "last_push": "2026-05-31T16:15:15Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "rafsilva85/credit-optimizer-v5",
       "name": "credit-optimizer-v5",
       "stars_total": 38,
@@ -4629,7 +6389,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -4716,12 +6476,12 @@
       "repo": "kdnsna/ultimate-ppt-master-skill",
       "name": "ultimate-ppt-master-skill",
       "stars_total": 37,
-      "stars_added_7d": 7,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
-      "commits_7d": 4,
+      "commits_7d": 5,
       "commits_capped": false,
-      "last_push": "2026-05-28T14:24:58Z",
+      "last_push": "2026-05-30T14:47:09Z",
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
@@ -4793,6 +6553,22 @@
       ]
     },
     {
+      "repo": "huangwb8/skills",
+      "name": "skills",
+      "stars_total": 36,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-31T05:09:22Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "delphicleancode/delphi-spec-kit",
       "name": "delphi-spec-kit",
       "stars_total": 36,
@@ -4825,22 +6601,6 @@
       ]
     },
     {
-      "repo": "yurukusa/cc-safe-setup",
-      "name": "cc-safe-setup",
-      "stars_total": 36,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 30,
-      "commits_capped": true,
-      "last_push": "2026-05-30T13:05:08Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "massimodeluisa/recursive-decomposition-skill",
       "name": "recursive-decomposition-skill",
       "stars_total": 35,
@@ -4853,7 +6613,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -4889,22 +6649,6 @@
       ]
     },
     {
-      "repo": "huangwb8/skills",
-      "name": "skills",
-      "stars_total": 35,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-29T15:32:55Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "sageox/ox",
       "name": "ox",
       "stars_total": 35,
@@ -4913,11 +6657,43 @@
       "issues_closed_7d": 7,
       "commits_7d": 30,
       "commits_capped": true,
-      "last_push": "2026-05-30T08:54:04Z",
+      "last_push": "2026-05-30T17:12:46Z",
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "muthuishere/hand-drawn-diagrams",
+      "name": "hand-drawn-diagrams",
+      "stars_total": 35,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-16T13:06:08Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "6eanut/llm-wiki",
+      "name": "llm-wiki",
+      "stars_total": 35,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-13T01:27:09Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -4934,38 +6710,6 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "muthuishere/hand-drawn-diagrams",
-      "name": "hand-drawn-diagrams",
-      "stars_total": 34,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-16T13:06:08Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "6eanut/llm-wiki",
-      "name": "llm-wiki",
-      "stars_total": 34,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-13T01:27:09Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -5051,7 +6795,7 @@
     {
       "repo": "ea-toolkit/architecture-catalog",
       "name": "architecture-catalog",
-      "stars_total": 33,
+      "stars_total": 34,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -5077,7 +6821,23 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "siddik-web/wp-block-theme-converter",
+      "name": "wp-block-theme-converter",
+      "stars_total": 32,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 11,
+      "commits_capped": false,
+      "last_push": "2026-05-30T14:59:06Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -5125,22 +6885,6 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
-      ]
-    },
-    {
-      "repo": "siddik-web/wp-block-theme-converter",
-      "name": "wp-block-theme-converter",
-      "stars_total": 31,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 9,
-      "commits_capped": false,
-      "last_push": "2026-05-29T15:12:43Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -5177,6 +6921,22 @@
       ]
     },
     {
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "name": "canadian-finance-planner-skill",
+      "stars_total": 31,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-15T19:39:28Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "spillwavesolutions/jira",
       "name": "jira",
       "stars_total": 30,
@@ -5197,7 +6957,7 @@
       "name": "awesome-claude-skills",
       "stars_total": 30,
       "stars_added_7d": 0,
-      "issues_opened_7d": 1,
+      "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
@@ -5273,19 +7033,35 @@
       ]
     },
     {
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "name": "canadian-finance-planner-skill",
+      "repo": "geekjourneyx/any2card",
+      "name": "any2card",
       "stars_total": 30,
-      "stars_added_7d": 2,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-03-15T19:39:28Z",
+      "last_push": "2026-04-10T08:31:24Z",
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "olgasafonova/skillcheck-free",
+      "name": "SkillCheck-Free",
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-19T14:53:53Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -5302,6 +7078,22 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "hainrixz/claude-ads",
+      "name": "claude-ads",
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-13T00:57:21Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -5340,7 +7132,7 @@
       "repo": "frmoretto/clarity-gate",
       "name": "clarity-gate",
       "stars_total": 29,
-      "stars_added_7d": 0,
+      "stars_added_7d": 1,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -5349,14 +7141,14 @@
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
       "repo": "b1rdmania/hinge-profile-optimizer",
       "name": "hinge-profile-optimizer",
       "stars_total": 29,
-      "stars_added_7d": 1,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "commits_7d": 0,
@@ -5366,22 +7158,6 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
-      "repo": "geekjourneyx/any2card",
-      "name": "any2card",
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T08:31:24Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -5417,38 +7193,6 @@
       ]
     },
     {
-      "repo": "olgasafonova/skillcheck-free",
-      "name": "SkillCheck-Free",
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-19T14:53:53Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "hainrixz/claude-ads",
-      "name": "claude-ads",
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-13T00:57:21Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "webzler/agentmemory",
       "name": "agentMemory",
       "stars_total": 28,
@@ -5461,7 +7205,7 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:未知来源"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -5654,22 +7398,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "cheriftj/c4-model-skill",
-      "name": "c4-model-skill",
-      "stars_total": 26,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-25T08:23:10Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
       ]
     }
   ]
