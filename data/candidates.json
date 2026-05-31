@@ -5001,6 +5001,17 @@
     "lastPush": "2026-03-25T10:36:33Z"
   },
   {
+    "repo": "masriyan/claude-code-cybersecurity-skill",
+    "name": "Claude-Code-CyberSecurity-Skill",
+    "description": "A comprehensive collection of 15 Claude Code Skills for cybersecurity professionals ,covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, and more",
+    "tags": [
+      "claude-skills",
+      "claudecode"
+    ],
+    "stars": 47,
+    "lastPush": "2026-05-30T15:15:00Z"
+  },
+  {
     "repo": "zw008/vmware-aiops",
     "name": "VMware-AIops",
     "description": "VMware vCenter/ESXi AI-powered monitoring and operations. Two skills: vmware-monitor (read-only, safe) and vmware-aiops (full operations) | Claude Code Skill",
@@ -8200,6 +8211,33 @@
     ],
     "stars": 17,
     "lastPush": "2026-04-23T07:39:18Z"
+  },
+  {
+    "repo": "adityapal67/context-graph-compressor",
+    "name": "context-graph-compressor",
+    "description": "Convert long AI conversations into portable conversation state graphs for LLM handoffs.",
+    "tags": [
+      "age",
+      "agent",
+      "AI",
+      "chatgpt",
+      "claude-ai",
+      "claude-skill",
+      "claude-skills",
+      "claude-skills-creator",
+      "compression",
+      "compression-algorithm",
+      "context",
+      "context-compression",
+      "context-engineering",
+      "context-management",
+      "json",
+      "llm",
+      "problem-solving",
+      "prompt-engineering"
+    ],
+    "stars": 17,
+    "lastPush": "2026-05-30T03:51:25Z"
   },
   {
     "repo": "ethos-link/rails-conventions",
@@ -12172,6 +12210,19 @@
     "lastPush": "2026-05-22T07:19:37Z"
   },
   {
+    "repo": "vanbuster/vanceling-skills",
+    "name": "vanceling-skills",
+    "description": "自建 Claude Code Skills —— AI 论文精读 + 面试复盘教练",
+    "tags": [
+      "ai-paper-reading",
+      "claude-code",
+      "claude-skills",
+      "interview-review"
+    ],
+    "stars": 5,
+    "lastPush": "2026-05-30T18:12:28Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -13176,6 +13227,23 @@
     ],
     "stars": 4,
     "lastPush": "2026-05-30T10:25:59Z"
+  },
+  {
+    "repo": "villagesql/villagesql-skills",
+    "name": "villagesql-skills",
+    "description": "Agent skills for VillageSQL - gemini-cli-extension; claude-code-plugin",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-skills",
+      "gemini-cli",
+      "gemini-skills",
+      "villagesql"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-29T23:09:09Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -16892,6 +16960,61 @@
     "lastPush": "2026-05-29T08:48:09Z"
   },
   {
+    "repo": "jnbno1163/lg-token-saver",
+    "name": "LG-token-saver",
+    "description": "Save 87% token usage for Claude Code. Zero install. 8 rules covering input+output+context. 6 months verified.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cost-optimization",
+      "developer-tools",
+      "token-optimization",
+      "token-saver"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-30T15:11:08Z"
+  },
+  {
+    "repo": "jin-s13/ai-research-writing-skill",
+    "name": "ai-research-writing-skill",
+    "description": "AI Research Writing Skill (AI论文写作技能) is an agent skill for ML / AI / CV / NLP researchers. Point your coding agent at code, experiment logs, notes, and a venue template; it helps you produce an auditable, evidence-backed LaTeX draft and submission package — not a polished fiction.",
+    "tags": [
+      "academic-writing",
+      "ai-agent",
+      "ai-writing",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-skill",
+      "cursor-skills",
+      "gemini-cli",
+      "latex",
+      "machine-learning",
+      "paper-writing",
+      "research-paper",
+      "skill",
+      "skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-31T06:42:12Z"
+  },
+  {
+    "repo": "wangyutao0915/pdf-to-chinese-latex",
+    "name": "pdf-to-chinese-latex",
+    "description": "Translate academic PDF papers into editable Chinese LaTeX projects — preserves equations, figures, tables, and bibliography 1:1.",
+    "tags": [
+      "academic-papers",
+      "chinese-translation",
+      "claude-code-skill",
+      "pdf-to-latex",
+      "xelatex"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-30T12:07:56Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -18471,5 +18594,44 @@
     ],
     "stars": 0,
     "lastPush": "2026-05-07T00:09:58Z"
+  },
+  {
+    "repo": "huasanai/learn-code",
+    "name": "learn-code",
+    "description": "A read-code tutor Claude Code skill: understand real code via a module→trunk method and guess-first tutoring",
+    "tags": [
+      "agent-skill",
+      "ai-coding",
+      "claude-code",
+      "claude-code-skill",
+      "code-comprehension",
+      "code-reading",
+      "developer-tools",
+      "learning-tool",
+      "programming-education"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-31T05:04:28Z"
+  },
+  {
+    "repo": "lernen-edu/lernen-praxis",
+    "name": "lernen-praxis",
+    "description": "Lernen Praxis — learn to wield agentic coding tools safely, efficiently, effectively (in-host skill)",
+    "tags": [
+      "agent-security",
+      "agentic-coding",
+      "ai-coding-assistant",
+      "ai-tutor",
+      "claude-code",
+      "claude-code-skill",
+      "codex-cli",
+      "educational",
+      "gemini-cli",
+      "open-source",
+      "prompt-engineering",
+      "socratic-tutor"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-17T01:46:27Z"
   }
 ]

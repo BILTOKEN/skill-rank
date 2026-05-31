@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-05-30 14:06",
+  "last_update": "2026-05-31 07:26",
   "weekly_growth": [
     {
       "repo": "mksglu/context-mode",
@@ -2264,6 +2264,28 @@
       "commits_capped": false,
       "last_push": "2026-05-28T03:31:29Z",
       "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "masriyan/claude-code-cybersecurity-skill",
+      "name": "Claude-Code-CyberSecurity-Skill",
+      "description": "A comprehensive collection of 15 Claude Code Skills for cybersecurity professionals ,covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, and more",
+      "tags": [
+        "claude-skills",
+        "claudecode"
+      ],
+      "stars_total": 47,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-30T15:15:00Z",
+      "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
@@ -12888,6 +12910,29 @@
       "activity_score": 6.5
     },
     {
+      "repo": "masriyan/claude-code-cybersecurity-skill",
+      "name": "Claude-Code-CyberSecurity-Skill",
+      "description": "A comprehensive collection of 15 Claude Code Skills for cybersecurity professionals ,covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, and more",
+      "tags": [
+        "claude-skills",
+        "claudecode"
+      ],
+      "stars_total": 47,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-30T15:15:00Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 6.5
+    },
+    {
       "repo": "truongduy2611/app-store-preflight-skills",
       "name": "app-store-preflight-skills",
       "description": "AI agent skill to scan iOS/macOS projects for App Store rejection patterns before submission",
@@ -13625,33 +13670,6 @@
       "activity_score": 5.6
     },
     {
-      "repo": "belumume/claude-skills",
-      "name": "claude-skills",
-      "description": "Personal collection of Claude skills - growing as I discover patterns and solve real-world problems",
-      "tags": [
-        "anthropic",
-        "claude",
-        "claude-ai",
-        "claude-skills",
-        "document-processing",
-        "python"
-      ],
-      "stars_total": 47,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 2,
-      "commits_capped": false,
-      "last_push": "2026-05-23T19:48:20Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.6
-    },
-    {
       "repo": "kepano/obsidian-skills",
       "name": "obsidian-skills",
       "description": "Agent skills for Obsidian. Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI.",
@@ -13755,33 +13773,6 @@
       "activity_score": 5.3
     },
     {
-      "repo": "aaronjmars/soul.md",
-      "name": "soul.md",
-      "description": "The best way to build a personality for your agent. Let Claude Code / OpenClaw ingest your data & build your AI soul.",
-      "tags": [
-        "agents",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "openclaw",
-        "soul"
-      ],
-      "stars_total": 533,
-      "stars_added_7d": 19,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-23T17:09:14Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 5.3
-    },
-    {
       "repo": "lukasniessen/terrashark",
       "name": "terrashark",
       "description": "Terraform Skill for Claude Code and Codex. LLMs hallucinate a lot with Terraform - TerraShark fixes this. It eliminates hallucinations, is designed for modular and secure code and grounds your IaC in the official Hashicorp Terraform best practices.",
@@ -13872,39 +13863,6 @@
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 5.3
-    },
-    {
-      "repo": "myurikanao/src-hunter-skill",
-      "name": "src-hunter-skill",
-      "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
-      "tags": [
-        "bug-bounty",
-        "claude-code",
-        "claude-code-skill",
-        "hackerone",
-        "owasp",
-        "payloads",
-        "pentesting",
-        "red-team",
-        "安全",
-        "src",
-        "vulnerability-hunting",
-        "waf-bypass"
-      ],
-      "stars_total": 321,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-24T06:38:34Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 5.3
@@ -14719,39 +14677,6 @@
       "activity_score": 3
     },
     {
-      "repo": "composiohq/awesome-claude-plugins",
-      "name": "awesome-claude-plugins",
-      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
-      "tags": [
-        "anthropic",
-        "claude-ai",
-        "claude-code",
-        "claude-code-plugin",
-        "claude-code-plugin-marketplace",
-        "claude-code-plugins",
-        "claude-code-plugins-marketplace",
-        "claude-cowork",
-        "claude-desktop",
-        "claude-plugins",
-        "claude-skills",
-        "plugins"
-      ],
-      "stars_total": 1701,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-01T07:08:01Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 3
-    },
-    {
       "repo": "snailsploit/claude-red",
       "name": "Claude-Red",
       "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
@@ -14814,32 +14739,6 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 3
-    },
-    {
-      "repo": "microck/ordinary-claude-skills",
-      "name": "ordinary-claude-skills",
-      "description": "An unappealing collection of Claude Skills and resources.",
-      "tags": [
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "collection",
-        "list"
-      ],
-      "stars_total": 229,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-30T19:30:43Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 3
@@ -14998,6 +14897,93 @@
         "source:未知来源"
       ],
       "activity_score": 2.6
+    },
+    {
+      "repo": "belumume/claude-skills",
+      "name": "claude-skills",
+      "description": "Personal collection of Claude skills - growing as I discover patterns and solve real-world problems",
+      "tags": [
+        "anthropic",
+        "claude",
+        "claude-ai",
+        "claude-skills",
+        "document-processing",
+        "python"
+      ],
+      "stars_total": 47,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-23T19:48:20Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.6
+    },
+    {
+      "repo": "aaronjmars/soul.md",
+      "name": "soul.md",
+      "description": "The best way to build a personality for your agent. Let Claude Code / OpenClaw ingest your data & build your AI soul.",
+      "tags": [
+        "agents",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skills",
+        "openclaw",
+        "soul"
+      ],
+      "stars_total": 533,
+      "stars_added_7d": 19,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-23T17:09:14Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "myurikanao/src-hunter-skill",
+      "name": "src-hunter-skill",
+      "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
+      "tags": [
+        "bug-bounty",
+        "claude-code",
+        "claude-code-skill",
+        "hackerone",
+        "owasp",
+        "payloads",
+        "pentesting",
+        "red-team",
+        "安全",
+        "src",
+        "vulnerability-hunting",
+        "waf-bypass"
+      ],
+      "stars_total": 321,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-24T06:38:34Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2.3
     },
     {
       "repo": "agricidaniel/claude-ads",
@@ -16524,42 +16510,6 @@
       "activity_score": 2
     },
     {
-      "repo": "smixs/creative-director-skill",
-      "name": "creative-director-skill",
-      "description": "AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight → Ideation → Evaluation → Presentation.",
-      "tags": [
-        "advertising",
-        "agent-skill",
-        "ai-agent",
-        "ai-creative",
-        "brainstorming",
-        "cannes-lions",
-        "claude-code",
-        "claude-skill",
-        "creative-director",
-        "cursor",
-        "gemini-cli",
-        "ideation",
-        "marketing",
-        "prompt-engineering",
-        "triz"
-      ],
-      "stars_total": 57,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-01T01:20:52Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:未知来源"
-      ],
-      "activity_score": 2
-    },
-    {
       "repo": "blacktop/ipsw-skill",
       "name": "ipsw-skill",
       "description": "A SKILL.md for ipsw",
@@ -17483,6 +17433,39 @@
       "activity_score": 1.8
     },
     {
+      "repo": "composiohq/awesome-claude-plugins",
+      "name": "awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "tags": [
+        "anthropic",
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-plugin-marketplace",
+        "claude-code-plugins",
+        "claude-code-plugins-marketplace",
+        "claude-cowork",
+        "claude-desktop",
+        "claude-plugins",
+        "claude-skills",
+        "plugins"
+      ],
+      "stars_total": 1701,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T07:08:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 1
+    },
+    {
       "repo": "mhattingpete/claude-skills-marketplace",
       "name": "claude-skills-marketplace",
       "description": "Claude Code Skills for software engineering workflows - Git automation, testing, and code review",
@@ -17505,6 +17488,32 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-03-06T10:14:25Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 1
+    },
+    {
+      "repo": "microck/ordinary-claude-skills",
+      "name": "ordinary-claude-skills",
+      "description": "An unappealing collection of Claude Skills and resources.",
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "collection",
+        "list"
+      ],
+      "stars_total": 229,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-30T19:30:43Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -19988,6 +19997,42 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "smixs/creative-director-skill",
+      "name": "creative-director-skill",
+      "description": "AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight → Ideation → Evaluation → Presentation.",
+      "tags": [
+        "advertising",
+        "agent-skill",
+        "ai-agent",
+        "ai-creative",
+        "brainstorming",
+        "cannes-lions",
+        "claude-code",
+        "claude-skill",
+        "creative-director",
+        "cursor",
+        "gemini-cli",
+        "ideation",
+        "marketing",
+        "prompt-engineering",
+        "triz"
+      ],
+      "stars_total": 57,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T01:20:52Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:未知来源"
       ],
       "activity_score": 0
     },
@@ -29727,6 +29772,28 @@
       "commits_7d": 14,
       "commits_capped": false,
       "last_push": "2026-05-30T13:23:00Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "masriyan/claude-code-cybersecurity-skill",
+      "name": "Claude-Code-CyberSecurity-Skill",
+      "description": "A comprehensive collection of 15 Claude Code Skills for cybersecurity professionals ,covering offensive security, defensive operations, reverse engineering, threat hunting, CSOC automation, and more",
+      "tags": [
+        "claude-skills",
+        "claudecode"
+      ],
+      "stars_total": 47,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
+      "commits_capped": false,
+      "last_push": "2026-05-30T15:15:00Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
