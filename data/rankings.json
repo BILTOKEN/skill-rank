@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-06-01 19:46",
+  "last_update": "2026-06-02 13:10",
   "weekly_growth": [
     {
       "repo": "affaan-m/ecc",
@@ -17555,46 +17555,6 @@
       "activity_score": 16.700000000000003
     },
     {
-      "repo": "othmanadi/planning-with-files",
-      "name": "planning-with-files",
-      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
-      "tags": [
-        "adal",
-        "agent-skills",
-        "antigravity",
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "copilot",
-        "copilot-skills",
-        "hermes",
-        "hermes-agent",
-        "hermes-skill",
-        "kilocode",
-        "manus",
-        "mastra",
-        "openclaw",
-        "openclaw-skills",
-        "pi",
-        "pi-agent",
-        "planning"
-      ],
-      "stars_total": 22493,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 6,
-      "issues_closed_7d": 6,
-      "issue_comments": 0,
-      "commits_7d": 3,
-      "commits_capped": false,
-      "last_push": "2026-05-26T09:29:04Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 16.700000000000003
-    },
-    {
       "repo": "evomap/evolver",
       "name": "evolver",
       "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
@@ -18312,6 +18272,46 @@
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 14
+    },
+    {
+      "repo": "othmanadi/planning-with-files",
+      "name": "planning-with-files",
+      "description": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition.",
+      "tags": [
+        "adal",
+        "agent-skills",
+        "antigravity",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "copilot",
+        "copilot-skills",
+        "hermes",
+        "hermes-agent",
+        "hermes-skill",
+        "kilocode",
+        "manus",
+        "mastra",
+        "openclaw",
+        "openclaw-skills",
+        "pi",
+        "pi-agent",
+        "planning"
+      ],
+      "stars_total": 22493,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 6,
+      "issues_closed_7d": 6,
+      "issue_comments": 0,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-05-26T09:29:04Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 13.700000000000001
     },
     {
       "repo": "zarazhangrui/frontend-slides",
@@ -20956,26 +20956,6 @@
       "activity_score": 6.2
     },
     {
-      "repo": "muratcankoylan/agent-skills-for-context-engineering",
-      "name": "Agent-Skills-for-Context-Engineering",
-      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
-      "tags": [],
-      "stars_total": 16234,
-      "stars_added_7d": 291,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 1,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-26T05:36:56Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 6.1
-    },
-    {
       "repo": "aboudjem/humanizer-skill",
       "name": "humanizer-skill",
       "description": "AI writing pattern detector and rewriter. 43 patterns, 5 voices, 0-100 AI-tell score. Pure Markdown, zero dependencies.",
@@ -21408,33 +21388,6 @@
       "activity_score": 5.6
     },
     {
-      "repo": "internscience/awesome-scientific-skills",
-      "name": "Awesome-Scientific-Skills",
-      "description": "An open, curated collection of Agent Skills for scientific research — clone it, use it, extend it!",
-      "tags": [
-        "agent-skills",
-        "awesome-list",
-        "openclaw-skills",
-        "scientific-data",
-        "scientific-discovery",
-        "scientific-skill"
-      ],
-      "stars_total": 408,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 2,
-      "commits_capped": false,
-      "last_push": "2026-05-26T02:53:39Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 5.6
-    },
-    {
       "repo": "oliver-kriska/claude-elixir-phoenix",
       "name": "claude-elixir-phoenix",
       "description": "Claude Code plugin for Elixir/Phoenix/LiveView — 20 specialist agents, Iron Laws enforcement, and Tidewave MCP integration. Plan features with parallel research agents, execute with automatic verification, review with 4-agent parallel audits, and capture learnings as reusable knowledge.",
@@ -21558,31 +21511,6 @@
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
         "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 5.6
-    },
-    {
-      "repo": "arpitg1304/robotics-agent-skills",
-      "name": "robotics-agent-skills",
-      "description": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
-      "tags": [
-        "agent-skills",
-        "ai-coding-assistant",
-        "claude-skills",
-        "robotics"
-      ],
-      "stars_total": 251,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 2,
-      "commits_capped": false,
-      "last_push": "2026-05-25T23:26:20Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 5.6
     },
@@ -22158,40 +22086,6 @@
       "activity_score": 5.3
     },
     {
-      "repo": "testdino-hq/playwright-skill",
-      "name": "playwright-skill",
-      "description": "TestDino Playwright Skill: AI-powered guides for Playwright best practices, made by testdino.com.",
-      "tags": [
-        "AI",
-        "ai-skills",
-        "antigravity-skills",
-        "claude-skills",
-        "codex-skills",
-        "cursor-skills",
-        "devtool",
-        "openclaw-skills",
-        "playwright",
-        "reporting",
-        "skills",
-        "test-reporting",
-        "testing-tools"
-      ],
-      "stars_total": 264,
-      "stars_added_7d": 12,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-26T05:24:12Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.3
-    },
-    {
       "repo": "wwwzhouhui/skills_collection",
       "name": "skills_collection",
       "description": "本项目是个人开发的 Claude Code Skills 集合，提供实用的技能工具，助力提升开发效率和内容创作。  分享一些好用的 Claude Code Skills，自用、学习两相宜，适用于 Claude Code v2.0 及以上版本。",
@@ -22425,38 +22319,6 @@
       "activity_score": 5.3
     },
     {
-      "repo": "tenequm/skills",
-      "name": "skills",
-      "description": "Agent skills for building, shipping, and growing software products",
-      "tags": [
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "claude-skills",
-        "clawhub",
-        "erc-8004",
-        "mpp",
-        "openclaw",
-        "skills",
-        "solana",
-        "x402"
-      ],
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-05-25T21:59:27Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.3
-    },
-    {
       "repo": "kochetkov-ma/claude-brewcode",
       "name": "claude-brewcode",
       "description": "Brewcode - full-featured development platform for Claude Code: infinite focus tasks with automatic context handoff, prompt optimization, skill/agent creation, quorum code reviews, project rules management, and knowledge persistence",
@@ -22609,37 +22471,6 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 5
-    },
-    {
-      "repo": "borski/travel-hacking-toolkit",
-      "name": "travel-hacking-toolkit",
-      "description": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
-      "tags": [
-        "award-flights",
-        "claude-code",
-        "flights",
-        "hotels",
-        "mcp",
-        "opencode",
-        "points-and-miles",
-        "skills",
-        "travel",
-        "travel-hacking"
-      ],
-      "stars_total": 525,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 3,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-02T22:24:59Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code"
       ],
       "activity_score": 5
     },
@@ -23086,6 +22917,26 @@
       "activity_score": 3.8
     },
     {
+      "repo": "muratcankoylan/agent-skills-for-context-engineering",
+      "name": "Agent-Skills-for-Context-Engineering",
+      "description": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management.",
+      "tags": [],
+      "stars_total": 16234,
+      "stars_added_7d": 291,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-26T05:36:56Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 3.1
+    },
+    {
       "repo": "agricidaniel/claude-seo",
       "name": "claude-seo",
       "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
@@ -23491,6 +23342,37 @@
       "activity_score": 3
     },
     {
+      "repo": "borski/travel-hacking-toolkit",
+      "name": "travel-hacking-toolkit",
+      "description": "AI-powered travel hacking and search with cash, points, miles, and award flights. Drop-in skills and MCP servers for Claude, Codex, and OpenCode.",
+      "tags": [
+        "award-flights",
+        "claude-code",
+        "flights",
+        "hotels",
+        "mcp",
+        "opencode",
+        "points-and-miles",
+        "skills",
+        "travel",
+        "travel-hacking"
+      ],
+      "stars_total": 525,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-02T22:24:59Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ],
+      "activity_score": 3
+    },
+    {
       "repo": "iusztinpaul/designing-real-world-ai-agents-workshop",
       "name": "designing-real-world-ai-agents-workshop",
       "description": "Hands-on workshop: Build a multi-agent AI system from scratch — Deep Research Agent + Writing Workflow served as MCP servers. Includes code, slides, and video",
@@ -23678,6 +23560,124 @@
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 3
+    },
+    {
+      "repo": "internscience/awesome-scientific-skills",
+      "name": "Awesome-Scientific-Skills",
+      "description": "An open, curated collection of Agent Skills for scientific research — clone it, use it, extend it!",
+      "tags": [
+        "agent-skills",
+        "awesome-list",
+        "openclaw-skills",
+        "scientific-data",
+        "scientific-discovery",
+        "scientific-skill"
+      ],
+      "stars_total": 408,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-26T02:53:39Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 2.6
+    },
+    {
+      "repo": "arpitg1304/robotics-agent-skills",
+      "name": "robotics-agent-skills",
+      "description": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
+      "tags": [
+        "agent-skills",
+        "ai-coding-assistant",
+        "claude-skills",
+        "robotics"
+      ],
+      "stars_total": 251,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-05-25T23:26:20Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.6
+    },
+    {
+      "repo": "testdino-hq/playwright-skill",
+      "name": "playwright-skill",
+      "description": "TestDino Playwright Skill: AI-powered guides for Playwright best practices, made by testdino.com.",
+      "tags": [
+        "AI",
+        "ai-skills",
+        "antigravity-skills",
+        "claude-skills",
+        "codex-skills",
+        "cursor-skills",
+        "devtool",
+        "openclaw-skills",
+        "playwright",
+        "reporting",
+        "skills",
+        "test-reporting",
+        "testing-tools"
+      ],
+      "stars_total": 264,
+      "stars_added_7d": 12,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-26T05:24:12Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "tenequm/skills",
+      "name": "skills",
+      "description": "Agent skills for building, shipping, and growing software products",
+      "tags": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-skills",
+        "clawhub",
+        "erc-8004",
+        "mpp",
+        "openclaw",
+        "skills",
+        "solana",
+        "x402"
+      ],
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-05-25T21:59:27Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.3
     },
     {
       "repo": "kepano/obsidian-skills",
@@ -24491,44 +24491,6 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-22T22:41:56Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 2
-    },
-    {
-      "repo": "aldefy/compose-skill",
-      "name": "compose-skill",
-      "description": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
-      "tags": [
-        "agent-skill",
-        "ai-agent",
-        "ai-coding",
-        "android",
-        "androidx",
-        "claude-code",
-        "codex",
-        "compose",
-        "compose-multiplatform",
-        "copilot",
-        "cursor",
-        "developer-tools",
-        "gemini-cli",
-        "jetpack-compose",
-        "kotlin",
-        "llm",
-        "material3"
-      ],
-      "stars_total": 489,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-03T10:14:16Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -26317,47 +26279,6 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-05-23T19:48:20Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 2
-    },
-    {
-      "repo": "smixs/visual-skills",
-      "name": "visual-skills",
-      "description": "Professional Claude Skills for AI image and video prompting. Supports Nano Banana (Gemini 3 Pro/Flash), GPT Image 2, Seedance 2.0, Kling 3.0 (multi-shot + native dialogue), Veo. Works with Claude Code, Cursor, Windsurf, OpenCode, Hermes-agent.",
-      "tags": [
-        "ai-image-generation",
-        "ai-prompts",
-        "ai-video-generation",
-        "claude",
-        "claude-agent-sdk",
-        "claude-code",
-        "claude-skills",
-        "cline",
-        "creative-director",
-        "cursor",
-        "generative-ai",
-        "gpt-image",
-        "hermes-agent",
-        "kling",
-        "nano-banana",
-        "opencode",
-        "prompt-engineering",
-        "seedance",
-        "veo",
-        "windsurf"
-      ],
-      "stars_total": 45,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-03T02:47:29Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -29027,6 +28948,44 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-04-05T21:02:29Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "aldefy/compose-skill",
+      "name": "compose-skill",
+      "description": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
+      "tags": [
+        "agent-skill",
+        "ai-agent",
+        "ai-coding",
+        "android",
+        "androidx",
+        "claude-code",
+        "codex",
+        "compose",
+        "compose-multiplatform",
+        "copilot",
+        "cursor",
+        "developer-tools",
+        "gemini-cli",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "material3"
+      ],
+      "stars_total": 489,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-03T10:14:16Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -32059,6 +32018,47 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "smixs/visual-skills",
+      "name": "visual-skills",
+      "description": "Professional Claude Skills for AI image and video prompting. Supports Nano Banana (Gemini 3 Pro/Flash), GPT Image 2, Seedance 2.0, Kling 3.0 (multi-shot + native dialogue), Veo. Works with Claude Code, Cursor, Windsurf, OpenCode, Hermes-agent.",
+      "tags": [
+        "ai-image-generation",
+        "ai-prompts",
+        "ai-video-generation",
+        "claude",
+        "claude-agent-sdk",
+        "claude-code",
+        "claude-skills",
+        "cline",
+        "creative-director",
+        "cursor",
+        "generative-ai",
+        "gpt-image",
+        "hermes-agent",
+        "kling",
+        "nano-banana",
+        "opencode",
+        "prompt-engineering",
+        "seedance",
+        "veo",
+        "windsurf"
+      ],
+      "stars_total": 45,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-03T02:47:29Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0

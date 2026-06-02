@@ -6144,6 +6144,32 @@
     "checkedAt": "2026-05-30T10:53:36.491Z"
   },
   {
+    "repo": "codingjoe/esupgrade",
+    "name": "esupgrade",
+    "description": "Auto-upgrade your JavaScript syntax",
+    "tags": [
+      "AI",
+      "claude-code-skill",
+      "ecmascript",
+      "es6",
+      "husky",
+      "javascript",
+      "linter",
+      "pre-commit",
+      "pre-commit-hook",
+      "skills",
+      "typescript",
+      "upgrade-tool"
+    ],
+    "stars": 12,
+    "lastPush": "2026-06-01T19:26:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-02T13:02:26.025Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -10825,6 +10851,75 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-01T19:31:48.348Z"
+  },
+  {
+    "repo": "thebpandey/context-summary",
+    "name": "context-summary",
+    "description": "A Claude.ai Personal Skill that generates a structured, seven-block session handoff so you can continue work in a new conversation without losing context, rediscovering decisions, or re-explaining your project state.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-skill",
+      "claude-skills",
+      "context",
+      "context-summary",
+      "session",
+      "session-context",
+      "session-summary"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-01T00:16:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-02T13:02:26.025Z"
+  },
+  {
+    "repo": "dormannilya/agent-orchestrai",
+    "name": "agent-orchestrai",
+    "description": "An open-source Claude Code orchestrator that selects and integrates the right skill for any task - automatically.",
+    "tags": [
+      "ai-agents",
+      "ai-development-tools",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "cli",
+      "developer-tools",
+      "developer-tools-ai-agent",
+      "llm",
+      "open-source",
+      "shell",
+      "workflow-automation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-05-14T11:50:42Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-02T13:02:26.025Z"
+  },
+  {
+    "repo": "songhuichen7-jpg/book_skill",
+    "name": "book_skill",
+    "description": "一个 agent skill：把一个主题做成封面/目录/每章插画/精排俱全、可直接出片的 PDF 书。多 agent   调研→逐章写作→配图→Typst 排版→事实核查。工具无关(Claude Code / Codex)、风格可插拔",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "codex",
+      "codex-skill"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-01T14:48:46Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-02T13:02:26.025Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -15904,6 +15999,25 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-01T19:31:48.348Z"
+  },
+  {
+    "repo": "polycentric-labs/pre-release-review",
+    "name": "pre-release-review",
+    "description": "A comprehensive, methodical, user-in-the-loop pre-tag review skill for Claude Code. Project-shape portable; SLSA L3 / OpenSSF Best Practices / OSPS Baseline aligned.",
+    "tags": [
+      "claude-code-skill",
+      "osps",
+      "pre-release-review",
+      "slsa",
+      "supply-chain-security"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-27T19:11:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-02T13:02:26.025Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
