@@ -2983,6 +2983,38 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "anasfik/flutterguard",
+    "name": "FlutterGuard",
+    "description": "Flutter APK/AAB security SKILL.md for OpenClaw, Codex, Claude Code, and other AI coding agents",
+    "tags": [
+      "aab",
+      "agent-skill",
+      "ai-agents",
+      "android",
+      "android-security",
+      "apk",
+      "apk-security",
+      "appsec",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "flutter",
+      "flutter-security",
+      "mobile-security",
+      "openclaw",
+      "openclaw-skill",
+      "security-audit"
+    ],
+    "stars": 23,
+    "lastPush": "2026-06-02T15:19:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -3067,6 +3099,39 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "alterlab-ieu/alterlab-academic-skills",
+    "name": "AlterLab-Academic-Skills",
+    "description": "🧬 180 Claude AI skills for faculty & academic researchers — installable as a Claude Code plugin, organized into 13 research domains. Turn Claude into a domain-specific research expert.",
+    "tags": [
+      "academic-research",
+      "agent-skills",
+      "ai-skills",
+      "anthropic",
+      "bioinformatics",
+      "cheminformatics",
+      "claude-ai",
+      "claude-code",
+      "claude-plugin",
+      "claude-projects",
+      "claude-skills",
+      "clinical-research",
+      "data-science",
+      "llm",
+      "prompt-engineering",
+      "research-tools",
+      "scientific-computing",
+      "scientific-writing",
+      "skills"
+    ],
+    "stars": 22,
+    "lastPush": "2026-06-03T14:35:39Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
   },
   {
     "repo": "metcalfsolutions/satori",
@@ -16020,6 +16085,42 @@
     "checkedAt": "2026-06-02T13:02:26.025Z"
   },
   {
+    "repo": "amliuyong/skills-baby-name",
+    "name": "skills-baby-name",
+    "description": "Claude Code 八字命名顾问：四柱 + 五格 + 命局联动 + 长期审美，统一 100 分制，输出 md/html/pdf 报告",
+    "tags": [
+      "baby-names",
+      "bazi",
+      "claude-code",
+      "claude-code-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T02:18:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
+  },
+  {
+    "repo": "emlog/emlog-app-dev-skill",
+    "name": "emlog-app-dev-skill",
+    "description": "emlog的应用开发文档（markdown）",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "emlog",
+      "skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-30T01:59:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -18215,5 +18316,78 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-01T19:31:48.348Z"
+  },
+  {
+    "repo": "yanqiyang62/wiki-vis",
+    "name": "wiki-vis",
+    "description": "Turn a codebase into a single, self-contained, good-looking wiki.html — a standard project-wiki solution and Claude Code skill (sidebar nav, collapsible sections, Mermaid diagrams, light/dark themes).",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "documentation",
+      "documentation-generator",
+      "markdown",
+      "mermaid",
+      "python",
+      "static-site",
+      "wiki"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-03T09:44:30Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
+  },
+  {
+    "repo": "bchaoss/transcript-processor",
+    "name": "transcript-processor",
+    "description": "Transforms raw transcripts (interviews, podcasts, calls) into structured, clean Q&A digests.",
+    "tags": [
+      "agent-skills",
+      "ai-agent-tools",
+      "ai-agents",
+      "ai-skill",
+      "ai-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "interview-analysis",
+      "podcast-tools",
+      "transcript-processor"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-03T12:30:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
+  },
+  {
+    "repo": "captcanadaman/session-briefing",
+    "name": "session-briefing",
+    "description": "Carry project state across AI coding-agent and chat sessions: a timestamped briefing paired with your AGENTS.md/CLAUDE.md, plus cross-project constellation rollups.",
+    "tags": [
+      "agents-md",
+      "ai-agents",
+      "claude-code-skill",
+      "claude-skills",
+      "context-engineering",
+      "continuity",
+      "developer-tools",
+      "llm",
+      "memory",
+      "prompt-engineering",
+      "session-management"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-03T01:10:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-03T18:11:20.943Z"
   }
 ]
