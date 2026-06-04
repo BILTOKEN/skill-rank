@@ -15421,6 +15421,246 @@
     }
   },
   {
+    "repo": "kenryu42/awesome-claude-skills",
+    "name": "awesome-claude-skills",
+    "description": "Awesome list for Claude Skills — a reusable, filesystem-based resources that provide Claude with domain-specific expertise developed by Anthropic",
+    "description_zh": "这是一个 Claude Skills 的精选资源列表——基于文件系统的可复用资源，为 Claude 提供 Anthropic 开发的领域特定专业知识。",
+    "description_en": "Awesome list for Claude Skills — a reusable, filesystem-based resources that provide Claude with domain-specific expertise developed by Anthropic",
+    "prompt": "请从 https://github.com/kenryu42/awesome-claude-skills 下载 awesome-claude-skills 技能，将其保存到 .claude/skills/awesome-claude-skills/ 目录，完成安装。",
+    "tags": [
+      "awesome",
+      "awesome-lists",
+      "claude",
+      "claude-code",
+      "claude-skills"
+    ],
+    "metrics": {
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "aligundogdu/symfony-hexagonal-skill",
+    "name": "symfony-hexagonal-skill",
+    "description": "Claude Code plugin that enforces hexagonal architecture (ports & adapters) in Symfony projects — with 10 auto-triggered skills, 2 review agents, and progressive refactoring support for   existing codebases.",
+    "description_zh": "这是一个 Claude Code 插件，用于在 Symfony 项目中强制实施六边形架构（端口与适配器）。它包含 10 个自动触发的技能、2 个审查代理，并支持对现有代码库进行渐进式重构。",
+    "description_en": "Claude Code plugin that enforces hexagonal architecture (ports & adapters) in Symfony projects — with 10 auto-triggered skills, 2 review agents, and progressive refactoring support for   existing codebases.",
+    "prompt": "请从 https://github.com/aligundogdu/symfony-hexagonal-skill 下载文件，并保存到 .claude/skills/symfony-hexagonal-skill/ 目录，完成安装。",
+    "tags": [
+      "claude-code-plugin",
+      "claude-skills",
+      "hexagonal-architecture",
+      "symfony"
+    ],
+    "metrics": {
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "gygantskiymatilyock/ios-developer-agents",
+    "name": "ios-developer-agents",
+    "description": "AI Agents and Skills for iOS Developers",
+    "description_zh": "面向 iOS 开发者的 AI 代理（Agents）和技能（Skills）集合",
+    "description_en": "AI Agents and Skills for iOS Developers",
+    "prompt": "请从 https://github.com/gygantskiymatilyock/ios-developer-agents 下载仓库内容，并将所有文件保存到 .claude/skills/ios-developer-agents/ 目录下，完成安装。",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "vibe-coding"
+    ],
+    "metrics": {
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
+    "name": "luxembourg-accessibility-skillset",
+    "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
+    "description_zh": "一套包含 RAWeb、RAM 和 RAPDF 覆盖能力的技能集，专为 AI（针对 Claude Code）设计。\n【使用场景】用于在 Claude Code 中增强无障碍（accessibility）相关的分析和生成能力。",
+    "description_en": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
+    "prompt": "请从 https://github.com/geoffreycrofte/luxembourg-accessibility-skillset 下载项目文件，并将其保存到 .claude/skills/luxembourg-accessibility-skillset/ 目录下，完成安装。",
+    "tags": [
+      "accessibility",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "luxembourg",
+      "skills",
+      "skills-sh",
+      "skillset",
+      "vercel-skills"
+    ],
+    "metrics": {
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "geekjourneyx/any2card",
+    "name": "any2card",
+    "description": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。 让卡片本身完成信息传达：先可读，再有审美，再适合传播。",
+    "description_zh": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。让卡片本身完成信息传达：先可读，再有审美，再适合传播。【使用场景】当你需要把一段文字、一篇博客或一个讨论串快速包装成一张美观的分享卡片时，用这个 skill 一键生成 HTML。",
+    "description_en": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。 让卡片本身完成信息传达：先可读，再有审美，再适合传播。",
+    "prompt": "请安装 any2card skill。GitHub 仓库地址：https://github.com/geekjourneyx/any2card。请克隆或下载该仓库的全部文件，保存到 .claude/skills/any2card/ 目录下，完成安装。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "infographic-card",
+      "infographic-design",
+      "openclaw",
+      "openclaw-skills",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "tristan-mcinnis/ppt-translator-formatting-intact-with-llms",
+    "name": "PPT-Translator-Formatting-Intact-with-LLMs",
+    "description": "A powerful PowerPoint translation tool that preserves all formatting while translating content using the Deepseek API. This tool maintains fonts, colors, layouts, and other styling elements while providing accurate translations between languages.",
+    "description_zh": "一个强大的 PowerPoint 翻译工具，使用 Deepseek API 翻译内容的同时保留所有格式。它能保持字体、颜色、布局和其他样式元素，同时提供准确的语言翻译。",
+    "description_en": "A powerful PowerPoint translation tool that preserves all formatting while translating content using the Deepseek API. This tool maintains fonts, colors, layouts, and other styling elements while providing accurate translations between languages.",
+    "prompt": "请从 https://github.com/tristan-mcinnis/ppt-translator-formatting-intact-with-llms 下载 PPT-Translator-Formatting-Intact-with-LLMs 技能文件，并将其保存到 .claude/skills/ppt-translator-formatting-intact-with-llms/ 目录下，完成安装。",
+    "tags": [
+      "AI",
+      "ai-translation",
+      "anthropic-claude",
+      "claude-code",
+      "claude-skills",
+      "deepseek",
+      "grok",
+      "llm",
+      "machine-translation",
+      "office",
+      "openai",
+      "openai-api",
+      "openapi",
+      "powerpoint",
+      "ppt",
+      "pptx",
+      "productivity",
+      "skills",
+      "translation"
+    ],
+    "metrics": {
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "lbb00/ai-rules-sync",
+    "name": "ai-rules-sync",
+    "description": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
+    "description_zh": "轻松同步、管理和分享你的 AI 规则、技能、命令、子代理（支持 Cursor、Claude Code、Copilot、OpenCode、Trae AI、Codex、Gemini CLI、Warp）。",
+    "description_en": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
+    "prompt": "请从 https://github.com/lbb00/ai-rules-sync 下载该仓库的所有文件，并将其保存到 .claude/skills/ai-rules-sync/ 目录下，完成安装。",
+    "tags": [
+      "agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "copilot",
+      "copilot-prompts",
+      "cursor",
+      "gemini",
+      "opencode",
+      "rules",
+      "skills",
+      "subagents",
+      "trae",
+      "warp"
+    ],
+    "metrics": {
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "ktg-one/context",
+    "name": "context",
+    "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
+    "description_zh": "C.O.N.T.EX.T 旨在将复杂、多领域的对话压缩成机器优化的“Carry-Packets”。这些数据包达到 0.15 实体/令牌的结晶点，确保接收模型能以近乎完美的保真度重建原始上下文。",
+    "description_en": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
+    "prompt": "请从 https://github.com/ktg-one/context 下载该仓库的所有文件，并将它们保存到 .claude/skills/context/ 目录中，完成安装。",
+    "tags": [
+      "agent-skills",
+      "ai-memory",
+      "claude-skills",
+      "context-engineering"
+    ],
+    "metrics": {
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "rainlib/ai-storyboard",
+    "name": "AI-Storyboard",
+    "description": "claude-related skills or agent sharing.",
+    "description_zh": "这是一个与 Claude 相关的技能或代理分享仓库。",
+    "description_en": "claude-related skills or agent sharing.",
+    "prompt": "请从 https://github.com/rainlib/ai-storyboard 下载 AI-Storyboard Skill 文件，并将其保存到 .claude/skills/ai-storyboard/ 目录中，完成安装。",
+    "tags": [
+      "claude-code",
+      "claude-skills"
+    ],
+    "metrics": {
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "tenequm/skills",
     "name": "skills",
     "description": "Agent skills for building, shipping, and growing software products",
@@ -15499,6 +15739,160 @@
     ],
     "metrics": {
       "stars_total": 28,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "shelpuk-ai-technology-consulting/agent-skill-tdd",
+    "name": "agent-skill-tdd",
+    "description": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad.",
+    "description_zh": "这是一个为 AI 编码代理（如 Claude Code、Codex、Antigravity、Cursor、Windsurf 等）设计的 TDD + 需求工作流技能。属于 Shelpuk 代理套件的一部分，与 Serena、Kindly Web Search 和 Lad 配合使用。",
+    "description_en": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad.",
+    "prompt": "请从 https://github.com/shelpuk-ai-technology-consulting/agent-skill-tdd 下载所有文件，并将它们保存到 .claude/skills/agent-skill-tdd/ 目录中，完成安装。",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "ai-skills",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "cursor",
+      "cursor-skills",
+      "openclaw",
+      "openclaw-skills",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 28,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "eternalwavee/benchmark-research-skill",
+    "name": "benchmark-research-skill",
+    "description": "Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.",
+    "description_zh": "这是一个用于 Benchmark 研究的 Claude Code Skill。通过调研论文，帮你找出某个研究方向中使用的数据集（dataset）、评估指标（metrics）和评估协议（evaluation protocols）。",
+    "description_en": "Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.",
+    "prompt": "请从 https://github.com/eternalwavee/benchmark-research-skill 下载 benchmark-research-skill 文件，并将其保存到 .claude/skills/benchmark-research-skill/ 目录下，完成安装。",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 28,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "proyecto26/sherlock-ai-plugin",
+    "name": "sherlock-ai-plugin",
+    "description": "Sherlock AI plugin; Research & Implementation Supercharged with a curated list of AI skills",
+    "description_zh": "Sherlock AI 插件；通过精选的 AI 技能列表，为研究和实现提供超强加速。",
+    "description_en": "Sherlock AI plugin; Research & Implementation Supercharged with a curated list of AI skills",
+    "prompt": "请从 https://github.com/proyecto26/sherlock-ai-plugin 下载该仓库的所有文件，并将它们保存到 .claude/skills/sherlock-ai-plugin/ 目录下，完成安装。",
+    "tags": [
+      "academic-paper",
+      "academic-research",
+      "AI",
+      "ai-research",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "comics",
+      "comics-bot",
+      "cursor",
+      "cursor-skills",
+      "data-visualization",
+      "deep-research",
+      "educational-tool",
+      "research",
+      "research-assistant",
+      "sherlock",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 28,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "drayline/rootnode-skills",
+    "name": "rootnode-skills",
+    "description": "27 Skills that diagnose, build, and optimize every architectural layer of your Claude environment",
+    "description_zh": "27个技能，用于诊断、构建和优化 Claude 环境的每一层架构",
+    "description_en": "27 Skills that diagnose, build, and optimize every architectural layer of your Claude environment",
+    "prompt": "请从 https://github.com/drayline/rootnode-skills 下载 rootnode-skills 技能包，并将其安装到 .claude/skills/rootnode-skills/ 目录下。",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "awesome-claude-prompts",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skills",
+      "claude-projects",
+      "claude-skills",
+      "claudeskills",
+      "context-engineering",
+      "prompt-compilation",
+      "prompt-engineering",
+      "system-prompts"
+    ],
+    "metrics": {
+      "stars_total": 27,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "incogbyte/android-reverse-engineering-claude-skill",
+    "name": "android-reverse-engineering-claude-skill",
+    "description": "Claude Code skill that automates Android application reverse engineering",
+    "description_zh": "这是一个 Claude Code 技能，用于自动化 Android 应用逆向工程（reverse engineering）。",
+    "description_en": "Claude Code skill that automates Android application reverse engineering",
+    "prompt": "请从 https://github.com/incogbyte/android-reverse-engineering-claude-skill 下载该仓库的全部文件，并保存到 .claude/skills/android-reverse-engineering-claude-skill/ 目录下，完成安装。",
+    "tags": [
+      "ai-tools",
+      "android",
+      "claude-skills",
+      "pentest",
+      "reverse-engineering"
+    ],
+    "metrics": {
+      "stars_total": 27,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
