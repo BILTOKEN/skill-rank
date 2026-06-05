@@ -4419,6 +4419,30 @@
     "lastPush": "2026-01-28T09:11:01Z"
   },
   {
+    "repo": "ergrelet/windiff",
+    "name": "windiff",
+    "description": "Tool that allows comparing symbol, type and syscall information of Microsoft Windows binaries across different versions of the OS, using a Web UI and/or LLMs.",
+    "tags": [
+      "claude-skills",
+      "diff",
+      "insider",
+      "nextjs",
+      "ntoskrnl",
+      "pdb",
+      "portable-executable",
+      "preview",
+      "reverse-engineering",
+      "rust",
+      "syscalls",
+      "undocumented",
+      "web",
+      "win32",
+      "windows"
+    ],
+    "stars": 387,
+    "lastPush": "2026-06-04T19:03:01Z"
+  },
+  {
     "repo": "kaopu-xiaopu/web-design",
     "name": "web-design",
     "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. ",
@@ -6162,6 +6186,25 @@
     ],
     "stars": 175,
     "lastPush": "2026-03-19T02:25:54Z"
+  },
+  {
+    "repo": "onewave-ai/claude-skills",
+    "name": "claude-skills",
+    "description": "172 production-ready Claude Code skills for sales, marketing, design, engineering, and AI agent architecture. Built and maintained by OneWave AI.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "sales-automation"
+    ],
+    "stars": 170,
+    "lastPush": "2026-06-05T09:36:10Z"
   },
   {
     "repo": "kagurananaga/document-format-skills",
@@ -8268,6 +8311,20 @@
     ],
     "stars": 49,
     "lastPush": "2026-05-22T07:40:51Z"
+  },
+  {
+    "repo": "wquguru/skills",
+    "name": "skills",
+    "description": "Practical Claude Code skills — English-for-engineers coaching, Pi Agent setup, and more. Install via npx skills add.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm"
+    ],
+    "stars": 49,
+    "lastPush": "2026-05-17T15:57:27Z"
   },
   {
     "repo": "sjy051/music-composition",
@@ -10623,6 +10680,24 @@
     ],
     "stars": 23,
     "lastPush": "2026-06-02T15:19:05Z"
+  },
+  {
+    "repo": "prakhar1114/ai_mime",
+    "name": "ai_mime",
+    "description": "Record a task once, run it forever. Turns a screen recording into a fast, self-healing Claude Skill.",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "claude-skills",
+      "computer-use",
+      "macos",
+      "rpa",
+      "screen-recording",
+      "self-healing",
+      "workflow-automation"
+    ],
+    "stars": 23,
+    "lastPush": "2026-06-05T10:20:38Z"
   },
   {
     "repo": "jimmysadek/strategic-partner",
@@ -14115,6 +14190,21 @@
     "lastPush": "2026-04-20T15:34:18Z"
   },
   {
+    "repo": "sidekick0361/project-bootstraps",
+    "name": "project-bootstraps",
+    "description": "Generates Claude Code skills and guardrails for secure, consistent projects.",
+    "tags": [
+      "ai-development",
+      "claude-code-skill",
+      "coding-standards",
+      "DevOps",
+      "python",
+      "typescript"
+    ],
+    "stars": 10,
+    "lastPush": "2026-06-05T06:40:31Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -14748,6 +14838,23 @@
     ],
     "stars": 7,
     "lastPush": "2026-05-31T18:27:08Z"
+  },
+  {
+    "repo": "nyx-abu/awwwards-ui-skill",
+    "name": "awwwards-ui-skill",
+    "description": "A skill that raises the design quality of AI-generated UIs. Teaches Antigravity, Claude Code and Codex to build with real design intent — motion, typography, color, accessibility — instead of generic slop.",
+    "tags": [
+      "ai-agent",
+      "antigravity",
+      "awwwards",
+      "claude-skills",
+      "前端",
+      "gsap",
+      "threejs",
+      "ui-design"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-03T13:55:33Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -18491,6 +18598,22 @@
     "lastPush": "2026-06-01T18:47:42Z"
   },
   {
+    "repo": "m1234567654321-web/claude-style-skills",
+    "name": "claude-style-skills",
+    "description": "🎨 Claude-style warm-paper Skills for Claude Code — turn a sentence into Claude.ai-style PDF & editable PPTX",
+    "tags": [
+      "claude",
+      "claude-code-skill",
+      "claude-skill",
+      "claudecode",
+      "pdf",
+      "pdf-generation",
+      "pptx"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-05T07:06:31Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -21051,6 +21174,47 @@
     "lastPush": "2026-05-30T01:59:08Z"
   },
   {
+    "repo": "bhrpraju/claude-skills",
+    "name": "claude-skills",
+    "description": "Production-grade Claude AI skills — UX/UI design, stock analysis, prompt engineering and more",
+    "tags": [
+      "ai-skills",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-desktop",
+      "indian-stock-market",
+      "prompt-engineering",
+      "ux-design"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-04T14:00:04Z"
+  },
+  {
+    "repo": "gonoff/claude-todos-skill",
+    "name": "claude-todos-skill",
+    "description": "Per-project todo tracking + project brain + autonomous plan-then-build, with a local broadsheet dashboard for Claude Code",
+    "tags": [
+      "agentic-tools",
+      "ai-developer-tools",
+      "bun",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "dashboard",
+      "knowledge-management",
+      "mermaid",
+      "productivity",
+      "project-management",
+      "second-brain",
+      "sqlite",
+      "todo",
+      "workflow-automation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-04T11:00:59Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -22841,5 +23005,63 @@
     ],
     "stars": 0,
     "lastPush": "2026-06-04T02:59:27Z"
+  },
+  {
+    "repo": "brianharms/skill-blueprint",
+    "name": "skill-blueprint",
+    "description": "Claude Code skill that overlays layout structure, dimensions, and padding to help debug UI positioning.",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "debugging",
+      "ui"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-05T02:54:00Z"
+  },
+  {
+    "repo": "mintandkiwi/precision-afe-review",
+    "name": "precision-afe-review",
+    "description": "A Claude Code skill for schematic & netlist review and hardware design decisions — with a deep-dive track for precision analog front-ends (TIA microcurrent, ΣΔ ADC, guarding, isolation).",
+    "tags": [
+      "analog-frontend",
+      "claude-code",
+      "claude-code-skill",
+      "eda",
+      "electronics",
+      "hardware-design",
+      "netlist",
+      "pcb-design",
+      "schematic-review"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-04T15:08:18Z"
+  },
+  {
+    "repo": "brianharms/skill-extract-prompt",
+    "name": "skill-extract-prompt",
+    "description": "Claude Code skill that analyzes a project and outputs a portable prompt to recreate it.",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "prompts"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-05T02:54:09Z"
+  },
+  {
+    "repo": "brianharms/skill-stepbystep",
+    "name": "skill-stepbystep",
+    "description": "Claude Code skill that makes Claude work one step at a time, waiting for your confirmation between each.",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "workflow"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-05T02:54:12Z"
   }
 ]

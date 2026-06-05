@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.125
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "de5f7cf5937a704e",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1,494+ 个 agentic skills，支持 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。里面有专门的插件、安装 CLI、技能包、工作流，以及官方和社区收集的技能集合。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库，并将所有文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-03T18:36:17.451Z",
-    "backTranslationDiff": 0.34782608695652173
+    "sourceHash": "c46b95456442b42a",
+    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1500+ 个 agentic skills，适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。内置专用插件、安装器 CLI、技能包、工作流，以及官方/社区技能合集。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录，完成安装。",
+    "translatedAt": "2026-06-05T12:37:55.773Z",
+    "backTranslationDiff": 0.21739130434782605
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -6041,11 +6041,11 @@
     "backTranslationDiff": 0.25
   },
   "zhixiangluo/10xproductivity": {
-    "sourceHash": "643218786ea96bff",
-    "chineseDescription": "从 coding agent 构建你的个人 AI 助手。连接你日常使用的工具，无需任何基础设施或 IT 麻烦。训练你的 agent，构建技能，并在本地自动化完成实际工作。",
-    "prompt": "请从 https://github.com/zhixiangluo/10xproductivity 下载文件，并保存到 .claude/skills/10xproductivity/ 目录，完成 10xProductivity skill 的安装。",
-    "translatedAt": "2026-06-03T18:36:20.966Z",
-    "backTranslationDiff": 0.19047619047619047
+    "sourceHash": "57fbd232c8feee96",
+    "chineseDescription": "在编程代理（coding agent）之上构建你的个人 AI 助手。连接你日常使用的工具，无需任何基础设施或 IT 麻烦。本地训练你的代理、构建技能，并自动化实际工作。",
+    "prompt": "请从 https://github.com/zhixiangluo/10xproductivity 下载文件，并保存到 .claude/skills/10xproductivity/ 目录，完成安装。",
+    "translatedAt": "2026-06-05T12:38:07.525Z",
+    "backTranslationDiff": 0.30000000000000004
   },
   "waybarrios/opencode-power-pack": {
     "sourceHash": "5b04c6808a37e79d",
@@ -7446,5 +7446,26 @@
     "prompt": "请从 https://github.com/incogbyte/android-reverse-engineering-claude-skill 下载该仓库的全部文件，并保存到 .claude/skills/android-reverse-engineering-claude-skill/ 目录下，完成安装。",
     "translatedAt": "2026-06-04T11:54:15.786Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "ergrelet/windiff": {
+    "sourceHash": "a7c50ae1c91dea4d",
+    "chineseDescription": "一个通过 Web UI 和/或大语言模型（LLM）来比较不同版本 Microsoft Windows 二进制文件中符号、类型和系统调用信息的工具。",
+    "prompt": "请从 https://github.com/ergrelet/windiff 下载 windiff 项目文件，并将其保存到 .claude/skills/windiff/ 目录下，完成安装。",
+    "translatedAt": "2026-06-05T12:37:59.629Z",
+    "backTranslationDiff": 0.3529411764705882
+  },
+  "onewave-ai/claude-skills": {
+    "sourceHash": "0d96f56d3123d816",
+    "chineseDescription": "172个生产就绪的Claude Code技能，涵盖销售、营销、设计、工程和AI Agent架构。由OneWave AI构建和维护。",
+    "prompt": "请从 https://github.com/onewave-ai/claude-skills 下载所有文件，并保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-06-05T12:38:03.541Z",
+    "backTranslationDiff": 0
+  },
+  "wquguru/skills": {
+    "sourceHash": "fca3379421d8e7e8",
+    "chineseDescription": "实用的 Claude Code 技能集——包括英语工程师辅导、Pi Agent 设置等。通过 npx skills add 安装。",
+    "prompt": "请从 https://github.com/wquguru/skills 下载该仓库的所有文件，并将其保存到 .claude/skills/skills/ 目录中，完成安装。",
+    "translatedAt": "2026-06-05T12:38:11.375Z",
+    "backTranslationDiff": 0.09090909090909094
   }
 }

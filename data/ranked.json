@@ -5664,6 +5664,35 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "ergrelet/windiff",
+    "name": "windiff",
+    "description": "Tool that allows comparing symbol, type and syscall information of Microsoft Windows binaries across different versions of the OS, using a Web UI and/or LLMs.",
+    "tags": [
+      "claude-skills",
+      "diff",
+      "insider",
+      "nextjs",
+      "ntoskrnl",
+      "pdb",
+      "portable-executable",
+      "preview",
+      "reverse-engineering",
+      "rust",
+      "syscalls",
+      "undocumented",
+      "web",
+      "win32",
+      "windows"
+    ],
+    "stars": 387,
+    "lastPush": "2026-06-04T19:03:01Z",
+    "pool": "ranked",
+    "readmeLength": 775,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-05T12:19:50.440Z"
+  },
+  {
     "repo": "kaopu-xiaopu/web-design",
     "name": "web-design",
     "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. ",
@@ -8012,6 +8041,30 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "onewave-ai/claude-skills",
+    "name": "claude-skills",
+    "description": "172 production-ready Claude Code skills for sales, marketing, design, engineering, and AI agent architecture. Built and maintained by OneWave AI.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "prompt-engineering",
+      "sales-automation"
+    ],
+    "stars": 170,
+    "lastPush": "2026-06-05T09:36:10Z",
+    "pool": "ranked",
+    "readmeLength": 1754,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-05T12:19:50.440Z"
   },
   {
     "repo": "kagurananaga/document-format-skills",
