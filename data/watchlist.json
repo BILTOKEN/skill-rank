@@ -4697,6 +4697,38 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "thomasmoreai/legal-skills-open",
+    "name": "legal-skills-open",
+    "description": "Open library of legal AI skills (SKILL.md) for MCP-compatible agents — 39 jurisdictions, 200+ plugins, Apache-2.0.",
+    "tags": [
+      "ai-agents",
+      "anthropic-skills",
+      "claude-code",
+      "claude-skills",
+      "compliance",
+      "contract-analysis",
+      "law",
+      "lawtech",
+      "legal-ai",
+      "legal-automation",
+      "legal-research",
+      "legal-skills",
+      "legal-tech",
+      "legaltech",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "open-source-law"
+    ],
+    "stars": 16,
+    "lastPush": "2026-06-05T22:34:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-06T09:29:58.692Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -11788,6 +11820,35 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "rodrigooler/claude-code-tldr",
+    "name": "claude-code-tldr",
+    "description": "TL;DR mode for Claude Code — a one-toggle plugin/skill that makes Claude answer ultra-short (under 5 lines) until you turn it off.",
+    "tags": [
+      "agentic-ai",
+      "AI",
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cli",
+      "concise",
+      "developer-tools",
+      "llm",
+      "productivity",
+      "prompt-engineering",
+      "tldr"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-05T15:50:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-06T09:29:58.692Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -18665,5 +18726,61 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-05T12:19:50.440Z"
+  },
+  {
+    "repo": "brianharms/skill-propose",
+    "name": "skill-propose",
+    "description": "Claude Code skill that runs three agents in parallel to propose different approaches to a design question, then ranks them.",
+    "tags": [
+      "ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "设计"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-05T02:53:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-06T09:29:58.692Z"
+  },
+  {
+    "repo": "brianharms/skill-work",
+    "name": "skill-work",
+    "description": "Claude Code skill that runs an autonomous work session with progress tracking and compaction management.",
+    "tags": [
+      "ai-tools",
+      "automation",
+      "claude-code",
+      "claude-code-skill"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-05T02:54:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-06T09:29:58.692Z"
+  },
+  {
+    "repo": "preetam3620/chatbot-creator-skill",
+    "name": "chatbot-creator-skill",
+    "description": "A Claude Code skill that scaffolds a complete, multi-provider LLM chatbot web app from a single command",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "llm",
+      "prompt-engineering",
+      "vibe-coding"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-06T08:38:18Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-06T09:29:58.692Z"
   }
 ]
