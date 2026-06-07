@@ -4431,11 +4431,11 @@
     "backTranslationDiff": 0.2777777777777778
   },
   "elementalsouls/claude-bughunter": {
-    "sourceHash": "19db6d079e7965ff",
-    "chineseDescription": "一个用于漏洞挖掘和外部红队工作的 Claude Code 技能包——包含 51 个技能、15 个斜杠命令、覆盖 24 个漏洞类别的 681 个已公开报告模式，以及企业身份 + 基础设施攻击矩阵。",
-    "prompt": "请从 https://github.com/elementalsouls/claude-bughunter 下载技能文件，并保存到 .claude/skills/claude-bughunter/ 目录下完成安装。",
-    "translatedAt": "2026-05-30T11:03:11.955Z",
-    "backTranslationDiff": 0.4347826086956522
+    "sourceHash": "e7bd122f7d5c88eb",
+    "chineseDescription": "一个用于漏洞挖掘和外部红队工作的 Claude Code 技能包——包含71个技能、15个斜杠命令、覆盖24个核心漏洞类别的681个已披露报告模式，外加企业身份和基础设施攻击矩阵。",
+    "prompt": "请从 https://github.com/elementalsouls/claude-bughunter 下载该仓库的所有文件，并保存到 .claude/skills/claude-bughunter/ 目录下，完成安装。",
+    "translatedAt": "2026-06-07T10:38:14.819Z",
+    "backTranslationDiff": 0.375
   },
   "othmanadi/planning-with-files": {
     "sourceHash": "48deafdd41bce943",
@@ -4718,11 +4718,11 @@
     "backTranslationDiff": 0.25
   },
   "yurukusa/cc-safe-setup": {
-    "sourceHash": "9ebf5eaf7a569cd0",
-    "chineseDescription": "一条命令让 Claude Code 安全自主运行。防止 rm -rf、密钥泄露、强制推送、部署崩溃。包含 715 个示例钩子（hooks），9200+ 测试，3 万+ 次安装——基于 800 多小时真实自主 CC 操作构建而成。",
-    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载 cc-safe-setup 技能，将文件保存到 .claude/skills/cc-safe-setup/ 目录，并完成安装。",
-    "translatedAt": "2026-05-30T11:02:35.625Z",
-    "backTranslationDiff": 0.43999999999999995
+    "sourceHash": "443042f8c51b659c",
+    "chineseDescription": "一条命令让 Claude Code 安全地自主运行。防止 rm -rf、密钥泄露、force-push、部署崩溃。内置 800+ 示例钩子、9,200+ 测试、30K+ 安装量——基于 800+ 小时真实自主 CC 操作经验构建。",
+    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载文件，并保存到 .claude/skills/cc-safe-setup/ 目录完成安装。",
+    "translatedAt": "2026-06-07T10:38:23.155Z",
+    "backTranslationDiff": 0.36
   },
   "sageox/ox": {
     "sourceHash": "ce4813df03844c08",
@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "401f8aefa3c6c2da",
-    "chineseDescription": "本地优先的 AI 代理平台，支持桌面端和 CLI。功能包括聊天、RAG 搜索、多步骤计划工作流、MCP 工具和代理集成。支持 OpenAI、Claude、Gemini、Grok、Ollama、LM Studio 等多种模型。",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo skill 文件，并保存到 .claude/skills/askimo/ 目录下完成安装。",
-    "translatedAt": "2026-05-30T11:03:26.194Z",
-    "backTranslationDiff": 0.23809523809523814
+    "sourceHash": "2f93f4b5e4cfb49f",
+    "chineseDescription": "askimo 是一个集成聊天、RAG 搜索、多步骤计划工作流、MCP 工具和 Agents 的 Skill。支持 OpenAI、Claude、Gemini、Grok、Ollama、LM Studio 等多个模型提供商。",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo Skill 文件，并将其保存到 .claude/skills/askimo/ 目录中，完成安装。",
+    "translatedAt": "2026-06-07T10:38:18.730Z",
+    "backTranslationDiff": 0.3125
   },
   "borghei/claude-skills": {
     "sourceHash": "c5fc7d6d30380a23",
@@ -6902,11 +6902,11 @@
     "backTranslationDiff": 0.1333333333333333
   },
   "aboul3ata/lazyweb-skill": {
-    "sourceHash": "bf3add01fda02a97",
-    "chineseDescription": "用证据设计，而不是凭感觉。为 AI 编码代理（coding agents）提供的 Lazyweb 技能。",
-    "prompt": "请从 https://github.com/aboul3ata/lazyweb-skill 下载 lazyweb-skill 文件，并保存到 .claude/skills/lazyweb-skill/ 目录，完成安装。",
-    "translatedAt": "2026-06-02T13:12:19.235Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "f2696cd5a344a548",
+    "chineseDescription": "Lazyweb agent 技能：以 /lazyweb:lazyweb-welcome 开始，提供免费截图参考，可选付费的 2 万 + A/B 测试 agent。",
+    "prompt": "请从 https://github.com/aboul3ata/lazyweb-skill 下载 lazyweb-skill 的所有文件，并保存到 .claude/skills/lazyweb-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-06-07T10:38:27.320Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "mathiaschu/meta-ads-analyzer": {
     "sourceHash": "4fdd84c509152a1a",
@@ -7474,5 +7474,12 @@
     "prompt": "请从 https://github.com/anbeime/skill 下载整个仓库，并将所有文件保存到 .claude/skills/skill/ 目录下，完成安装。",
     "translatedAt": "2026-06-06T09:41:42.780Z",
     "backTranslationDiff": 0.7777777777777778
+  },
+  "plugin87/ux-ui-agent-skills": {
+    "sourceHash": "38ac21d64449a72b",
+    "chineseDescription": "将 Claude 变成资深设计架构师——支持 DTCG 设计令牌（design tokens）、42 个组件、WCAG 2.2 无障碍标准、任意框架代码、138 个设计系统，以及可运行的技能。",
+    "prompt": "请从 https://github.com/plugin87/ux-ui-agent-skills 下载 ux-ui-agent-skills 项目，并将其所有文件保存到 .claude/skills/ux-ui-agent-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-07T10:38:30.997Z",
+    "backTranslationDiff": 0.1875
   }
 }

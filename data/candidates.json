@@ -5841,6 +5841,31 @@
     "lastPush": "2026-02-11T06:00:30Z"
   },
   {
+    "repo": "plugin87/ux-ui-agent-skills",
+    "name": "ux-ui-agent-skills",
+    "description": "Turn Claude into a Senior Design Architect — DTCG design tokens, 42 components, WCAG 2.2 accessibility, any-framework code, 138 design systems, and runnable skills.",
+    "tags": [
+      "accessibility",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "component-library",
+      "design-system",
+      "design-to-code",
+      "design-tokens",
+      "dtcg",
+      "figma",
+      "react",
+      "tailwindcss",
+      "ui",
+      "ux",
+      "wcag"
+    ],
+    "stars": 209,
+    "lastPush": "2026-06-06T18:29:52Z"
+  },
+  {
     "repo": "agamm/claude-code-owasp",
     "name": "claude-code-owasp",
     "description": "Claude Code skill for OWASP security best practices (2025-2026). Includes Top 10:2025, ASVS 5.0, Agentic AI security, and 20+ language-specific security quirks.",
@@ -12056,6 +12081,27 @@
     "lastPush": "2026-06-05T22:34:10Z"
   },
   {
+    "repo": "sebgalina/betaflight-claude-skill",
+    "name": "betaflight-claude-skill",
+    "description": "Claude skill for Betaflight: FPV drone configuration, PID tuning, log analysis, and troubleshooting.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "betaflight",
+      "betaflight-blackbox",
+      "claude",
+      "claude-skill",
+      "claude-skills",
+      "flight-controller",
+      "fpv",
+      "fpv-drones",
+      "llm-tools",
+      "quadcopter"
+    ],
+    "stars": 16,
+    "lastPush": "2026-06-06T06:59:05Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -14480,6 +14526,22 @@
     "lastPush": "2026-06-01T14:29:08Z"
   },
   {
+    "repo": "albertobarnabo/think-twice",
+    "name": "think-twice",
+    "description": "A Claude Code skill that stops AI agents from over doing computations and saves you thousands of tokens",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "lazy",
+      "skill",
+      "think-twice"
+    ],
+    "stars": 9,
+    "lastPush": "2026-06-07T10:19:25Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -14900,6 +14962,35 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-03T13:55:33Z"
+  },
+  {
+    "repo": "dezxbt/agentx",
+    "name": "AgentX",
+    "description": "Agent-first X/Twitter client in Go — JSON envelope per command, multi-account, cookie-safe anti-detection for autonomous agents",
+    "tags": [
+      "agent",
+      "automation",
+      "autonomous-agent",
+      "bot",
+      "claude-skills",
+      "cli",
+      "cookie-auth",
+      "golang",
+      "graphql",
+      "grok",
+      "hermes-skill",
+      "json-envelope",
+      "multi-account",
+      "openclaw-skill",
+      "skill-md",
+      "social-media",
+      "twitter",
+      "twitter-api",
+      "x-api",
+      "x-twitter"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-06T10:52:35Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -18683,6 +18774,52 @@
     "lastPush": "2026-06-05T07:06:31Z"
   },
   {
+    "repo": "powderbatpatch/src-hunter-skill-938",
+    "name": "src-hunter-skill-938",
+    "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
+    "tags": [
+      "bug-bounty",
+      "claude-code",
+      "claude-code-skill",
+      "hackerone",
+      "owasp",
+      "payloads",
+      "pentesting",
+      "red-team",
+      "安全",
+      "src"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-06T15:00:18Z"
+  },
+  {
+    "repo": "b1lli/remove-ai-flavor-writing-skill",
+    "name": "remove-ai-flavor-writing-skill",
+    "description": "去AI味 skill / AI味清理 / Chinese AI writing humanizer / remove AI flavor writing skill. Avoid AI writing patterns for Codex by cleaning template sentence shells and fake engagement endings.",
+    "tags": [
+      "ai-flavor",
+      "ai-humanizer",
+      "ai-writing",
+      "ai-writing-humanizer",
+      "ai-writing-patterns",
+      "anti-ai-slop",
+      "anti-ai-writing",
+      "avoid-ai-writing",
+      "chinese-ai-writing",
+      "chinese-humanizer",
+      "chinese-writing",
+      "claude-code-skill",
+      "codex-skill",
+      "de-ai-writing",
+      "humanizer",
+      "remove-ai-flavor",
+      "remove-ai-writing",
+      "writing-skill"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-06T10:09:24Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -21284,6 +21421,101 @@
     "lastPush": "2026-06-04T11:00:59Z"
   },
   {
+    "repo": "hertzeicontact18/src-hunter-skill-569",
+    "name": "src-hunter-skill-569",
+    "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
+    "tags": [
+      "bug-bounty",
+      "claude-code",
+      "claude-code-skill",
+      "hackerone",
+      "owasp",
+      "payloads",
+      "pentesting",
+      "red-team",
+      "安全",
+      "src"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-06T11:29:43Z"
+  },
+  {
+    "repo": "rodrigooler/claude-code-prompt-refiner",
+    "name": "claude-code-prompt-refiner",
+    "description": "On-demand prompt refiner for Claude Code — run /refine to turn a rough request into a sharp, surgical brief before Claude acts on it.",
+    "tags": [
+      "agentic-ai",
+      "AI",
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "developer-tools",
+      "llm",
+      "productivity",
+      "prompt",
+      "prompt-engineering",
+      "prompt-refiner",
+      "refine"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-06T13:24:26Z"
+  },
+  {
+    "repo": "lucasli6833/slop-cop",
+    "name": "slop-cop",
+    "description": "Detect AI-generated language patterns in your codebase with this Claude Code skill to ensure human-quality prose.",
+    "tags": [
+      "agent-skill",
+      "AI",
+      "ai-detection",
+      "ai-slop",
+      "chatgpt",
+      "claude-code",
+      "claude-code-skill",
+      "content",
+      "editor",
+      "gpt",
+      "linter",
+      "prose",
+      "skill",
+      "写作"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-07T09:52:20Z"
+  },
+  {
+    "repo": "eyhshen/multiagent-dispatch",
+    "name": "multiagent-dispatch",
+    "description": "Claude Code skill — fan out N focused agents across terminals, coordinate through files, synthesize into one brief. Loop interval auto-tuned to project size.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "llm-tools",
+      "multi-agent"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-06T13:52:40Z"
+  },
+  {
+    "repo": "colbytimm/my-dev-tools",
+    "name": "my-dev-tools",
+    "description": "My personal dev tools",
+    "tags": [
+      "agent-skill",
+      "claude-code-skill",
+      "codex-skill",
+      "copilot-skill",
+      "developer-tools",
+      "gemini-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-06T23:54:27Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -23173,5 +23405,38 @@
     ],
     "stars": 0,
     "lastPush": "2026-06-06T08:38:18Z"
+  },
+  {
+    "repo": "wentainx/update-github-skills",
+    "name": "update-github-skills",
+    "description": "Agent Skill to inventory, check, and safely update GitHub-sourced Codex and Claude Code skills.",
+    "tags": [
+      "agent-skill",
+      "claude-code-skill",
+      "codex-skill",
+      "github-skills",
+      "skills-updater"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-06T13:56:42Z"
+  },
+  {
+    "repo": "poolieshelter/src-hunter-skill-320",
+    "name": "src-hunter-skill-320",
+    "description": "实战 SRC / 众测 / Bug bounty 漏洞挖掘 Claude Code skill — 19 个攻击类 playbook、305 个结构化 payload、263 个 WAF/EDR 绕过、2887 份 HackerOne 真实案例、88,636 WooYun 案例统计",
+    "tags": [
+      "bug-bounty",
+      "claude-code",
+      "claude-code-skill",
+      "hackerone",
+      "owasp",
+      "payloads",
+      "pentesting",
+      "red-team",
+      "安全",
+      "src"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-06T13:57:15Z"
   }
 ]
