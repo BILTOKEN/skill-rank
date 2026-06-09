@@ -2765,11 +2765,11 @@
     "backTranslationDiff": 0.25
   },
   "kepano/obsidian-skills": {
-    "sourceHash": "3c91a31784376f67",
-    "chineseDescription": "为 Obsidian 提供 Agent 技能。教你的 Agent 使用 Markdown、Bases、JSON Canvas 以及 CLI。\n【使用场景】当你需要让 Claude Code 掌握 Obsidian 相关的操作技能（如处理 Markdown 文件、操作 Bases 数据库、解析 JSON Canvas 或执行 CLI 命令）时，安装此技能包。",
-    "prompt": "请从 https://github.com/kepano/obsidian-skills 下载整个仓库的内容，并将其保存到 .claude/skills/obsidian-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T12:47:10.608Z",
-    "backTranslationDiff": 0
+    "sourceHash": "0e1fbd750a8529f4",
+    "chineseDescription": "为 Obsidian 设计的 Agent 技能。教你的 Agent 使用 Obsidian CLI 和开放格式，包括 Markdown、Bases、JSON Canvas。",
+    "prompt": "请从 https://github.com/kepano/obsidian-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/obsidian-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-09T12:05:24.384Z",
+    "backTranslationDiff": 0.23076923076923073
   },
   "coreyhaines31/marketingskills": {
     "sourceHash": "e52a02d4c2ca8865",
@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "db22209816a33d9d",
-    "chineseDescription": "Claude Code & Cursor 设计系统。别再生成丑陋的 AI 界面了。69 条设计规则 + 48 个 shadcn 组件 + Toss/Stripe/Linear/Vercel/Notion 品牌皮肤。基于 Tailwind v4 + Radix。",
-    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 技能文件，并将其保存到 .claude/skills/styleseed/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:11:40.024Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "2f7ae59b7981b7d8",
+    "chineseDescription": "为 Claude Code 和 Cursor 设计的设计引擎——教的是设计判断力，不只是数据。包含 69 条规则、48 个组件、7 套品牌皮肤（Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel）、一套命名动画系统（5 个种子 + 20+ 动作）、14 个 /ss-* 技能。别再做出看起来像 AI 生成的 UI 了。MIT 许可。",
+    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 项目文件，并将其保存到 .claude/skills/styleseed/ 目录下，完成安装。",
+    "translatedAt": "2026-06-09T12:05:33.312Z",
+    "backTranslationDiff": 0.2592592592592593
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -5054,11 +5054,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "eyadkelleh/awesome-claude-skills-security": {
-    "sourceHash": "2e7402ea2c969a5c",
-    "chineseDescription": "安全测试工具包，适用于 Claude Code：精选的 SecLists 字典、注入 payload 以及专家代理，用于授权渗透测试、CTF 和漏洞赏金。【使用场景】在授权渗透测试、CTF 竞赛或漏洞赏金活动中，快速获取安全测试所需的字典和 payload。",
-    "prompt": "请安装 awesome-claude-skills-security 技能。从 https://github.com/eyadkelleh/awesome-claude-skills-security 克隆仓库，并将内容保存到 .claude/skills/awesome-claude-skills-security/ 目录下。",
-    "translatedAt": "2026-05-30T13:40:14.710Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "8d9c7090864e9909",
+    "chineseDescription": "AI Agent 的安全测试工具包：包含精选的 SecLists 字典、注入 payload 以及面向授权渗透测试、CTF 和漏洞赏金的专家 agent。",
+    "prompt": "请从 https://github.com/eyadkelleh/awesome-claude-skills-security 下载 awesome-skills-security 技能文件，并将其保存到 .claude/skills/awesome-claude-skills-security/ 目录下，完成安装。",
+    "translatedAt": "2026-06-09T12:05:37.600Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "xr843/master-skill": {
     "sourceHash": "424e06331a74cf9b",
@@ -5824,11 +5824,11 @@
     "backTranslationDiff": 0.25
   },
   "guanyang/antigravity-skills": {
-    "sourceHash": "d747dda153c314c4",
-    "chineseDescription": "通过模块化的 Skills 定义，赋予代理在特定领域（如全栈开发、复杂逻辑规划、多媒体处理等）的专业能力，让代理能像人类专家一样系统地解决复杂问题。【使用场景】当你需要让 Claude 具备特定领域的专业能力（如全栈开发、复杂逻辑规划、多媒体处理等）时，可以使用此技能。",
-    "prompt": "请从 https://github.com/guanyang/antigravity-skills 下载 antigravity-skills 技能文件，并将其保存到 .claude/skills/antigravity-skills/ 目录下完成安装。你可以使用以下命令：\n```bash\nmkdir -p .claude/skills && git clone https://github.com/guanyang/antigravity-skills.git .claude/skills/antigravity-skills\n```\n如果 git 不可用，也可以手动下载 zip 包并解压到该目录。",
-    "translatedAt": "2026-05-31T16:25:46.127Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "4719dbf2c4b46977",
+    "chineseDescription": "一个轻量级、零依赖的 CLI 工具，用于管理和激活 AI 编程助手（如 Claude Code、Cursor、Trae 等）的能力。",
+    "prompt": "请从 https://github.com/guanyang/antigravity-skills 下载 open-agent-hub 技能文件，并将其保存到 .claude/skills/antigravity-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-09T12:05:28.480Z",
+    "backTranslationDiff": 0.1428571428571429
   },
   "helloianneo/ian-xiaohei-illustrations": {
     "sourceHash": "d548b9850d85d725",
@@ -7481,5 +7481,12 @@
     "prompt": "请从 https://github.com/plugin87/ux-ui-agent-skills 下载 ux-ui-agent-skills 项目，并将其所有文件保存到 .claude/skills/ux-ui-agent-skills/ 目录下，完成安装。",
     "translatedAt": "2026-06-07T10:38:30.997Z",
     "backTranslationDiff": 0.1875
+  },
+  "mworldorg/markdown-memory": {
+    "sourceHash": "5f936ca1e57d1450",
+    "chineseDescription": "一个跨平台的、基于文件的持久化记忆和提示桥接工具，适用于 Claude Code、claude.ai 和 Antigravity IDE。它能在 Obsidian Vault 中同步项目护照、交接文档和会话日志，将网页规划与本地 CLI 执行连接起来。安装命令：npx markdown-memory",
+    "prompt": "请从 https://github.com/mworldorg/markdown-memory 下载 markdown-memory 技能文件，并将其保存到 .claude/skills/markdown-memory/ 目录中，完成安装。",
+    "translatedAt": "2026-06-09T12:05:42.221Z",
+    "backTranslationDiff": 0.2222222222222222
   }
 }
