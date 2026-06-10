@@ -4438,11 +4438,11 @@
     "backTranslationDiff": 0.375
   },
   "othmanadi/planning-with-files": {
-    "sourceHash": "48deafdd41bce943",
-    "chineseDescription": "这是一个 Claude Code Skill，实现了 Manus 风格的持久化 Markdown 规划——也就是那个价值 20 亿美元收购案背后的工作流模式。",
-    "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载文件，保存到 .claude/skills/planning-with-files/ 目录，完成安装。",
-    "translatedAt": "2026-05-26T14:32:22.097Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "3d79d8c28cb3447c",
+    "chineseDescription": "基于文件的持久化规划方案，适用于长时间运行的 agentic 任务。提供防崩溃的 markdown 计划、确定性完成门控（completion gate），以及多 agent 共享的磁盘状态。兼容 Claude Code、Codex CLI、Cursor、Hermes agent、Pi、Kiro、OpenCode 等 60+ 个 agent，遵循 SKILL.md 标准。",
+    "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载所有文件，并保存到 .claude/skills/planning-with-files/ 目录下，完成安装。",
+    "translatedAt": "2026-06-10T13:05:17.533Z",
+    "backTranslationDiff": 0.8666666666666667
   },
   "voltagent/awesome-agent-skills": {
     "sourceHash": "bc01a6d1a7277cc0",
@@ -5761,11 +5761,11 @@
     "backTranslationDiff": 0.05882352941176472
   },
   "ningzimu/codex-ppt-skill": {
-    "sourceHash": "46cfd42a5b85652b",
-    "chineseDescription": "使用 gpt-image-2 生成基于图像的 PowerPoint 演示文稿的 Codex Skill。【使用场景】需要快速创建视觉丰富的 PPT 时，可通过此技能自动生成。",
-    "prompt": "请从 https://github.com/ningzimu/codex-ppt-skill 下载 codex-ppt-skill 项目，并将其文件保存到 .claude/skills/codex-ppt-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:23:22.877Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "d2e03692d09a8b2f",
+    "chineseDescription": "这是一个 GPT-Image-2 PPT 生成器技能，用于在 Codex 及其他兼容技能代理中创建基于图片的 PowerPoint 演示文稿。",
+    "prompt": "请从 https://github.com/ningzimu/codex-ppt-skill 下载该仓库的所有文件，并将其保存到 .claude/skills/codex-ppt-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-06-10T13:05:11.512Z",
+    "backTranslationDiff": 0.2727272727272727
   },
   "ivanmurzak/unity-mcp": {
     "sourceHash": "04d4cb9ae9d30947",
@@ -6041,11 +6041,11 @@
     "backTranslationDiff": 0.25
   },
   "zhixiangluo/10xproductivity": {
-    "sourceHash": "57fbd232c8feee96",
-    "chineseDescription": "在编程代理（coding agent）之上构建你的个人 AI 助手。连接你日常使用的工具，无需任何基础设施或 IT 麻烦。本地训练你的代理、构建技能，并自动化实际工作。",
-    "prompt": "请从 https://github.com/zhixiangluo/10xproductivity 下载文件，并保存到 .claude/skills/10xproductivity/ 目录，完成安装。",
-    "translatedAt": "2026-06-05T12:38:07.525Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "3abbf3ddb640ffb4",
+    "chineseDescription": "这是一个专为企业内部环境设计的个人 AI 助手，基于现有的编码代理（coding agents）以及你已有的工具、会话和权限来工作。",
+    "prompt": "请从 https://github.com/zhixiangluo/10xproductivity 下载 Skill 文件，并将其保存到 .claude/skills/10xproductivity/ 目录下，完成安装。",
+    "translatedAt": "2026-06-10T13:05:21.910Z",
+    "backTranslationDiff": 0.5714285714285714
   },
   "waybarrios/opencode-power-pack": {
     "sourceHash": "5b04c6808a37e79d",
@@ -7488,5 +7488,26 @@
     "prompt": "请从 https://github.com/mworldorg/markdown-memory 下载 markdown-memory 技能文件，并将其保存到 .claude/skills/markdown-memory/ 目录中，完成安装。",
     "translatedAt": "2026-06-09T12:05:42.221Z",
     "backTranslationDiff": 0.2222222222222222
+  },
+  "albertobarnabo/lazy-cat": {
+    "sourceHash": "82256d255e4a0035",
+    "chineseDescription": "为像猫一样写代码的开发者准备的 Claude Code 技能——绝不多花一分力气，问题需要多少就做多少。",
+    "prompt": "请从 https://github.com/albertobarnabo/lazy-cat 下载 lazy-cat 技能文件，并将其保存到 .claude/skills/lazy-cat/ 目录中，完成安装。",
+    "translatedAt": "2026-06-10T13:05:26.764Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "infersports/infersports-skill": {
+    "sourceHash": "b36fc6b372f864c5",
+    "chineseDescription": "InferSports Agent Skill — 实时亚洲盘口足球和篮球赔率 + 比分。只读、无需 API 密钥。支持 Claude Code / Codex / OpenClaw。",
+    "prompt": "请从 https://github.com/infersports/infersports-skill 下载 InferSports Skill 文件，并保存到 .claude/skills/infersports-skill/ 目录，完成安装。",
+    "translatedAt": "2026-06-10T13:05:31.294Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "beamuswayne/simp-skill": {
+    "sourceHash": "58f2e0493cc0549e",
+    "chineseDescription": "不教PUA（搭讪技巧），只教真心。在错过之前赢得你的心动对象。灵感来自同事skill（同事技能）。【使用场景】当你需要情感建议或追求技巧时，这个skill帮你用真诚打动对方。",
+    "prompt": "请从 https://github.com/beamuswayne/simp-skill 下载文件，并将它们保存到 .claude/skills/simp-skill/ 目录中，以完成安装。",
+    "translatedAt": "2026-06-10T13:05:36.792Z",
+    "backTranslationDiff": 0.25
   }
 }

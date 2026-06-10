@@ -5360,6 +5360,22 @@
     "lastPush": "2026-04-11T04:30:02Z"
   },
   {
+    "repo": "beamuswayne/simp-skill",
+    "name": "simp-skill",
+    "description": "不教 PUA，只教真心。Win your crush before it's too late. Inspired by colleague-skill（同事skill）",
+    "tags": [
+      "anthropic",
+      "chinese",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "dating",
+      "llm"
+    ],
+    "stars": 244,
+    "lastPush": "2026-06-03T07:24:09Z"
+  },
+  {
     "repo": "axtonliu/ai-pair",
     "name": "ai-pair",
     "description": "Coordinate multiple AI models (Claude + GPT + Gemini) as a heterogeneous team. One creates, two review. A Claude Code Skill.",
@@ -8841,6 +8857,24 @@
     "lastPush": "2025-11-08T23:53:45Z"
   },
   {
+    "repo": "infersports/infersports-skill",
+    "name": "infersports-skill",
+    "description": "InferSports Agent Skill — live Asian-priced football & basketball odds + scores. Read-only, keyless. Claude Code / Codex / OpenClaw.",
+    "tags": [
+      "agent-skills",
+      "basketball",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "football",
+      "mcp",
+      "odds-api",
+      "sports-odds"
+    ],
+    "stars": 41,
+    "lastPush": "2026-06-10T04:16:31Z"
+  },
+  {
     "repo": "heshamfs/materials-simulation-skills",
     "name": "materials-simulation-skills",
     "description": "Agent Skills for computational materials science -- numerical stability, solvers, meshing,   convergence, and simulation workflows.",
@@ -9683,6 +9717,28 @@
     ],
     "stars": 31,
     "lastPush": "2026-02-08T01:49:46Z"
+  },
+  {
+    "repo": "albertobarnabo/lazy-cat",
+    "name": "lazy-cat",
+    "description": "Claude Code skills for developers who code like cats — never more effort than the problem requires.",
+    "tags": [
+      "ai-productivity",
+      "anthropic",
+      "cat",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cost-saving",
+      "lazy",
+      "llm",
+      "skill",
+      "think-twice",
+      "token-efficiency",
+      "token-optimization"
+    ],
+    "stars": 31,
+    "lastPush": "2026-06-09T15:50:16Z"
   },
   {
     "repo": "spillwavesolutions/jira",
@@ -13425,6 +13481,19 @@
     ],
     "stars": 12,
     "lastPush": "2026-06-01T19:26:17Z"
+  },
+  {
+    "repo": "beamuswayne/weirdotv-skill",
+    "name": "WeirdoTV-Skill",
+    "description": "神人TV, 集成了泽圣、米莱、川普、张维为、胡锡进、耶伦、孙笑川、老八、药水哥、峰哥、罗志祥、罗翔、马前卒、刀哥、户晨风、敖厂长、谷爱凌、丁真珍珠、东北雨姐、马斯克、科比、伏拉夫等人的超级神人skill. Inspired by colleague-skill（同事skill）",
+    "tags": [
+      "chinese",
+      "claude-code",
+      "claude-skills",
+      "entertainment"
+    ],
+    "stars": 12,
+    "lastPush": "2026-05-20T16:42:02Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -17374,6 +17443,35 @@
     "lastPush": "2026-06-08T06:21:47Z"
   },
   {
+    "repo": "abhinav503/flutter-agentic",
+    "name": "flutter-agentic",
+    "description": "Flutter Clean Architecture template optimised for AI coding agents — BLoC, Freezed, Dio, fpdart, GoRouter. Native rules for Claude Code, Cursor, Gemini, Codex & Amazon Q",
+    "tags": [
+      "boilerplate-template",
+      "claude-code",
+      "claude-code-skill",
+      "clean-architecture",
+      "clean-architecture-template",
+      "codex",
+      "codexskills",
+      "copilot-coding-agent",
+      "cursor",
+      "cursor-ai",
+      "dart",
+      "dio",
+      "flutter",
+      "flutter-template",
+      "flutter-templates",
+      "flutterbloc",
+      "freezed-flutter-api",
+      "getit",
+      "gorouter",
+      "starter-kit"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-10T10:39:13Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -18981,6 +19079,26 @@
     ],
     "stars": 2,
     "lastPush": "2026-06-09T04:12:03Z"
+  },
+  {
+    "repo": "danhuaxiansheng/claude-code-cleanup-skills",
+    "name": "claude-code-cleanup-skills",
+    "description": "Claude Code agent skills for code cleanup, dead-code audits, necessary-code review, and page-flow simplification",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "code-cleanup",
+      "coding-agent",
+      "dead-code",
+      "前端",
+      "refactoring",
+      "technical-debt",
+      "typescript"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-08T01:53:11Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -21720,6 +21838,68 @@
     ],
     "stars": 1,
     "lastPush": "2026-05-28T06:51:05Z"
+  },
+  {
+    "repo": "eljoujat/sapcc-hac-skill",
+    "name": "sapcc-hac-skill",
+    "description": "A skill that turns natural-language requests into Groovy scripts , FlexibleSearch queries and executes them live on a SAP Commerce Cloud (Hybris / CCv2) instance via the HAC. The agent automatically picks the right tool based on your intent — no manual query writing needed.  Works with Claude Code, Cursor, GitHub Copilot, Codex, Pi and any agent",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ccv2",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "ecommerce",
+      "flexiblesearch",
+      "groovy",
+      "hac",
+      "hybris",
+      "sap-commerce-cloud",
+      "sapcommerce",
+      "skill-md",
+      "skillsmp"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-09T21:35:00Z"
+  },
+  {
+    "repo": "isheng-eqi/bazi-ishengmind",
+    "name": "bazi-ishengmind",
+    "description": "BaZi destiny analysis Claude Code Skill based on DiTianSui. Analyze inner energy experience and self-perception.",
+    "tags": [
+      "bazi",
+      "claude-code",
+      "claude-code-skill",
+      "destiny",
+      "ditianshui",
+      "metaphysics",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-10T02:47:26Z"
+  },
+  {
+    "repo": "shawn-web/pending-issues",
+    "name": "pending-issues",
+    "description": "Cross-session deferred-issue ledger for AI coding agents.",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "issue-tracker",
+      "markdown",
+      "opencode",
+      "plugin",
+      "productivity",
+      "session-continuity",
+      "skill",
+      "todo"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-10T11:49:33Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
