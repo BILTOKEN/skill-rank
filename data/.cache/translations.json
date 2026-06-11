@@ -4718,18 +4718,18 @@
     "backTranslationDiff": 0.25
   },
   "yurukusa/cc-safe-setup": {
-    "sourceHash": "443042f8c51b659c",
-    "chineseDescription": "一条命令让 Claude Code 安全地自主运行。防止 rm -rf、密钥泄露、force-push、部署崩溃。内置 800+ 示例钩子、9,200+ 测试、30K+ 安装量——基于 800+ 小时真实自主 CC 操作经验构建。",
-    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载文件，并保存到 .claude/skills/cc-safe-setup/ 目录完成安装。",
-    "translatedAt": "2026-06-07T10:38:23.155Z",
-    "backTranslationDiff": 0.36
+    "sourceHash": "624b6fc62dd21e94",
+    "chineseDescription": "一条命令让 Claude Code 安全地自主运行。防止 rm -rf、密钥泄露、force-push、部署崩溃。包含 890+ 个示例钩子，MIT 协议，零依赖——基于真实的 Claude Code 自主运行经验和逐条真实事故报告构建。",
+    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载所有文件，并保存到 .claude/skills/cc-safe-setup/ 目录下，完成安装。",
+    "translatedAt": "2026-06-11T14:49:20.817Z",
+    "backTranslationDiff": 0.5185185185185186
   },
   "sageox/ox": {
-    "sourceHash": "ce4813df03844c08",
-    "chineseDescription": "SageOx 是代理工程（agentic engineering）的蜂群思维（hivemind）",
-    "prompt": "请从 https://github.com/sageox/ox 下载 ox skill 文件，并保存到 .claude/skills/ox/ 目录中完成安装。",
-    "translatedAt": "2026-05-30T11:02:38.658Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "dae49407c2b303de",
+    "chineseDescription": "AI 编程代理的蜂巢思维——一次记录持久化的团队上下文，跨代理、跨机器、跨队友回忆。",
+    "prompt": "请从 https://github.com/sageox/ox 下载文件，并保存到 .claude/skills/ox/ 目录完成安装。",
+    "translatedAt": "2026-06-11T14:49:24.902Z",
+    "backTranslationDiff": 0.3076923076923077
   },
   "rampstackco/claude-skills": {
     "sourceHash": "7e78607fd86ba9fe",
@@ -5481,11 +5481,11 @@
     "backTranslationDiff": 0.13043478260869568
   },
   "rediumvex/social-media-caption-generator-claude": {
-    "sourceHash": "3b3512ee95195c7a",
-    "chineseDescription": "社交媒体文案生成器作为 Claude 技能——将任何文本、脚本或截图转化为可直接发布的文案，适用于 Instagram Reels、Carousel、TikTok、Threads、Facebook、YouTube Shorts。算法优化以提高分享、保存和完播率。由 @roman.knox（280K+ IG 粉丝）构建。",
-    "prompt": "请从 https://github.com/rediumvex/social-media-caption-generator-claude 下载该仓库的所有文件，并将其保存到 .claude/skills/social-media-caption-generator-claude/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T07:27:26.944Z",
-    "backTranslationDiff": 0.09999999999999998
+    "sourceHash": "7818657eb4a86dbf",
+    "chineseDescription": "社交媒体文案生成器，作为 Claude Skill 使用——将任何文本、脚本或截图转化为可直接发布的文案，适用于 Instagram Reels、Carousel、TikTok、Threads、Facebook、YouTube Shorts。经过算法优化，提升分享、收藏和完播率。由 @theromanknox（IG 粉丝 28 万+）开发。",
+    "prompt": "请从 https://github.com/rediumvex/social-media-caption-generator-claude 下载文件，并保存到 .claude/skills/social-media-caption-generator-claude/ 目录下，完成安装。",
+    "translatedAt": "2026-06-11T14:49:15.883Z",
+    "backTranslationDiff": 0.23333333333333328
   },
   "roman-rr/trading-skills": {
     "sourceHash": "47d8bf88cd660dd5",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "38027f6f722f80df",
-    "chineseDescription": "AI辅助开发资源的精选合集：包含100+个 Cursor 和 Claude Code 技能（skills）、123个机器学习笔记本（ML notebooks）、33篇研究论文（research papers）、14份行业报告（industry reports），面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载仓库内容，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-06-03T18:38:18.242Z",
-    "backTranslationDiff": 0.1578947368421053
+    "sourceHash": "bc20cf0e81fb81d7",
+    "chineseDescription": "精选的 AI 辅助资源中心：包含 247+ 个 Cursor、Claude Code 和 Codex 技能，123 个机器学习笔记本，34 篇研究论文，14 份行业报告——面向产品经理、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其内容保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
+    "translatedAt": "2026-06-11T14:49:29.330Z",
+    "backTranslationDiff": 0.23529411764705888
   },
   "safishamsi/graphify": {
     "sourceHash": "88622295b634473e",
@@ -7509,5 +7509,12 @@
     "prompt": "请从 https://github.com/beamuswayne/simp-skill 下载文件，并将它们保存到 .claude/skills/simp-skill/ 目录中，以完成安装。",
     "translatedAt": "2026-06-10T13:05:36.792Z",
     "backTranslationDiff": 0.25
+  },
+  "jiaranbb/report-helper": {
+    "sourceHash": "c05b7b8a3f5ab0f4",
+    "chineseDescription": "长篇深度研究报告的调研/写作助手，一句话自动跑完完整报告输出高质量 PDF 报告",
+    "prompt": "请从 https://github.com/jiaranbb/report-helper 下载 Skill 文件，并保存到 .claude/skills/report-helper/ 目录中，完成安装。",
+    "translatedAt": "2026-06-11T14:49:33.850Z",
+    "backTranslationDiff": 1
   }
 }

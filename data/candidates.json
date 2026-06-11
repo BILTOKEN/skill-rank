@@ -9837,6 +9837,24 @@
     "lastPush": "2025-12-27T20:27:08Z"
   },
   {
+    "repo": "jiaranbb/report-helper",
+    "name": "report-helper",
+    "description": "长篇深度研究报告的调研/写作助手，一句话自动跑完完整报告输出高质量 PDF 报告",
+    "tags": [
+      "ai-skills",
+      "chinese-writting",
+      "claude-skills",
+      "codex-skills",
+      "deep-research",
+      "evidence-based-ai",
+      "report-generation",
+      "research-tool",
+      "source-citations"
+    ],
+    "stars": 30,
+    "lastPush": "2026-06-02T15:10:45Z"
+  },
+  {
     "repo": "brettdavies/crawl4ai-skill",
     "name": "crawl4ai-skill",
     "description": "Web scraping skill for Claude AI. Crawl websites, extract structured data with CSS/LLM strategies, handle dynamic JavaScript content. Built on crawl4ai with complete SDK reference, example scripts, and tests.",
@@ -13215,6 +13233,24 @@
     "lastPush": "2026-06-08T03:34:21Z"
   },
   {
+    "repo": "myunwang/ppt-report-skills",
+    "name": "ppt-report-skills",
+    "description": "A Claude Code skill for web report decks — richer ECharts charts, one file per slide (edit one page, save tokens), and complex structure diagrams. 16:9 & vertical, PDF/image export.网页版 PPT 汇报的 Claude Code skill：ECharts 把数据画得更好看、每页一个文件改一页省 token、能做复杂结构图（架构/框架/价值链）。16:9 + 竖屏，导出 PDF 和图片",
+    "tags": [
+      "AI",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "data-visualization",
+      "llm",
+      "presentation",
+      "report-generator"
+    ],
+    "stars": 13,
+    "lastPush": "2026-06-03T15:15:40Z"
+  },
+  {
     "repo": "darrenbenson/sdlc-studio",
     "name": "sdlc-studio",
     "description": "Claude Code skill for managing the full software development lifecycle",
@@ -13888,6 +13924,64 @@
     ],
     "stars": 11,
     "lastPush": "2026-06-05T21:35:55Z"
+  },
+  {
+    "repo": "26zl/cybersec-toolkit",
+    "name": "cybersec-toolkit",
+    "description": "580+ security tools + 860 Claude Code skills, one command. Modular bash installer for Linux & Termux (14 profiles, 18 modules) with an MCP server for AI-assisted ethical hacking — CTF, pentest, bug bounty, DFIR, red & blue team.",
+    "tags": [
+      "agent-skills",
+      "ai-hacking",
+      "blue-team",
+      "bug-bounty",
+      "claude-code",
+      "claude-skills",
+      "ctf-tools",
+      "cybersecurity",
+      "ethical-hacking",
+      "installer",
+      "kali-linux",
+      "local-llm",
+      "mcp",
+      "mcp-server",
+      "offensive-security",
+      "penetration-testing",
+      "pentesting",
+      "red-team",
+      "security-tools",
+      "termux"
+    ],
+    "stars": 11,
+    "lastPush": "2026-06-10T20:38:41Z"
+  },
+  {
+    "repo": "senolisci/mykg",
+    "name": "mykg",
+    "description": "Knowledge graph extractor: Markdown (or any format) → knowledge graph with RDFS/OWL ontology",
+    "tags": [
+      "ai-agent",
+      "ai-workflow",
+      "ai-workflow-automation",
+      "claude-code",
+      "claude-skills",
+      "knowledge-graph",
+      "neo4j-graph",
+      "network-x",
+      "obsidian",
+      "ontology",
+      "ontology-alignment",
+      "ontology-engineering",
+      "ontology-matching",
+      "open-source",
+      "owl",
+      "protege",
+      "rdf",
+      "rdfs",
+      "second-brain",
+      "skos"
+    ],
+    "stars": 11,
+    "lastPush": "2026-06-09T20:34:32Z"
   },
   {
     "repo": "umutbozdag/agent-skills-manager",
@@ -15027,6 +15121,35 @@
     "lastPush": "2026-06-08T10:18:20Z"
   },
   {
+    "repo": "alirezarezvani/gaios",
+    "name": "gaios",
+    "description": "Open-source AI Operating System (AIOS) blueprint for Claude Code & Codex — turn any agent into your personal second brain + Chief of Staff: skills, self-verifying workflows, a second-brain wiki, and deterministic tools. Fork it for any role or domain.",
+    "tags": [
+      "agentic-workflows",
+      "agents-md",
+      "ai-agents",
+      "ai-automation",
+      "ai-chief-of-staff",
+      "ai-operating-system",
+      "aios",
+      "anthropic",
+      "blueprint",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "knowledge-management",
+      "llm",
+      "mcp",
+      "openai",
+      "personal-assistant",
+      "productivity",
+      "second-brain"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-06T21:44:05Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -15181,6 +15304,22 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-06T10:52:35Z"
+  },
+  {
+    "repo": "msanchezdev/agent-bridge",
+    "name": "agent-bridge",
+    "description": "File-based group chat for Claude Code instances — group channels + DMs, namespaced per project. Installable as a skill or plugin.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "multi-agent",
+      "skills-sh"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-10T16:25:57Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -16206,6 +16345,24 @@
     ],
     "stars": 5,
     "lastPush": "2026-05-30T18:12:28Z"
+  },
+  {
+    "repo": "ali-meoo/meoo-cli",
+    "name": "meoo-cli",
+    "description": "meoo cli 是秒悟（Meoo）官方推出的命令行工具，让 Claude Code、Codex、Cursor、Qoder等本地 agent 在帮你写完前端代码后，能直接接管「数据库、用户登录、文件存储、部署上线」的所有云端工作——你只需要在终端跑一条命令，剩下的交给 AI。",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "cli",
+      "deploy",
+      "edge-functions",
+      "fullstack",
+      "meoo",
+      "skill-md",
+      "supabase"
+    ],
+    "stars": 5,
+    "lastPush": "2026-06-11T04:10:46Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -18056,6 +18213,27 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-05T15:50:22Z"
+  },
+  {
+    "repo": "patraxo/ltx2-vidgen-skill",
+    "name": "ltx2-vidgen-skill",
+    "description": "Own your AI video pipeline. LTX-2.3 (22B) self-hosted on your Modal GPU via a Claude Code skill — t2v, i2v, keyframes, v2v + synced audio. ~$0.02 per 5s clip, idle = $0.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "claude-code-skill",
+      "claude-skills",
+      "diffusion-models",
+      "image-to-video",
+      "ltx-video",
+      "modal",
+      "self-hosted",
+      "serverless-gpu",
+      "text-to-video",
+      "video-generation"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-11T07:03:22Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -21902,6 +22080,77 @@
     "lastPush": "2026-06-10T11:49:33Z"
   },
   {
+    "repo": "isheng-eqi/media-crawler-easy",
+    "name": "media-crawler-easy",
+    "description": " Claude Code Skill：B站/小红书/抖音/快手/微博/贴吧/知乎 多平台社媒评论采集爬虫。扫码登录，自动生成 HTML   报告+CSV，支持关键词搜索/指定链接/创作者主页三种模式",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "data-collection",
+      "media-crawler",
+      "social-media",
+      "web-scraping"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-11T10:02:47Z"
+  },
+  {
+    "repo": "origen-ae/claude-agent-team",
+    "name": "claude-agent-team",
+    "description": "A ready-to-run agent team for Claude Code: 7 agents, an 8-stage serial workflow with human approval gates, a PRD/SPEC/TEST-PLAN/ADR/RUNBOOK document system, and an auto-generated status dashboard.",
+    "tags": [
+      "agentic-workflow",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "multi-agent"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-11T11:56:26Z"
+  },
+  {
+    "repo": "eljoujat/sapcc-skill",
+    "name": "sapcc-skill",
+    "description": "A skill that turns natural-language requests into Groovy scripts , FlexibleSearch queries and executes them live on a SAP Commerce Cloud (Hybris / CCv2) instance via the HAC. The agent automatically picks the right tool based on your intent — no manual query writing needed.  Works with Claude Code, Cursor, GitHub Copilot, Codex, Pi and any agent",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ccv2",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "ecommerce",
+      "flexiblesearch",
+      "groovy",
+      "hac",
+      "hybris",
+      "sap-commerce-cloud",
+      "sapcommerce",
+      "skill-md",
+      "skillsmp"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-10T19:29:46Z"
+  },
+  {
+    "repo": "civillizard/claude-lean-skill",
+    "name": "claude-lean-skill",
+    "description": "Turn your strongest model into a conductor: route each step to the cheapest capable model, and escalate only load-bearing pieces to a pricier reviewer that catches pitfalls early. Subscription, API, or hybrid.",
+    "tags": [
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cost-reduction",
+      "model-routing",
+      "token-optimization"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-10T12:57:09Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -23859,5 +24108,20 @@
     ],
     "stars": 0,
     "lastPush": "2026-06-09T01:57:39Z"
+  },
+  {
+    "repo": "ccswe-nanoframework/nf-deps-skill",
+    "name": "nf-deps-skill",
+    "description": "Claude Code skill for keeping nanoFramework project dependencies in sync (.nfproj / packages.config / .nuspec / lock) and running the nuget update flow with the safety steps that aren't documented elsewhere.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "dependencies",
+      "dotnet",
+      "nanoframework",
+      "nuget"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-01T18:03:27Z"
   }
 ]
