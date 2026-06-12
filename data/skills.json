@@ -14025,6 +14025,32 @@
     }
   },
   {
+    "repo": "mmthebest/research-architect",
+    "name": "Research-Architect",
+    "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+    "description_zh": "一个端到端的研究工作流技能，帮你把想法变成有证据支持、有引用的手稿草稿",
+    "description_en": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+    "prompt": "请从 https://github.com/mmthebest/research-architect 下载 Research-Architect 技能文件，并将其保存到 .claude/skills/research-architect/ 目录中，完成安装。",
+    "tags": [
+      "academic-writing",
+      "claude-skills",
+      "research",
+      "research-assistant",
+      "research-methodology",
+      "research-workflows",
+      "scientific-writing"
+    ],
+    "metrics": {
+      "stars_total": 29,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 6,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "jherrodthomas/robotics-skills-suite",
     "name": "robotics-skills-suite",
     "description": "76 audit-ready Claude skills automating the industrial robot, cobot, AMR, ROS2, V&V, AI/ML, and IEC 62443 lifecycle. 38 builder + reviewer pairs anchored to ISO 10218, 13849, 62061, 12100, 9283, 15066, 3691-4, and IEC 62443.",

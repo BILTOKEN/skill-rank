@@ -2016,6 +2016,27 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "mmthebest/research-architect",
+    "name": "Research-Architect",
+    "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+    "tags": [
+      "academic-writing",
+      "claude-skills",
+      "research",
+      "research-assistant",
+      "research-methodology",
+      "research-workflows",
+      "scientific-writing"
+    ],
+    "stars": 29,
+    "lastPush": "2026-06-11T16:23:56Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
     "repo": "frmoretto/clarity-gate",
     "name": "clarity-gate",
     "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -8534,6 +8555,31 @@
     "checkedAt": "2026-06-11T14:26:54.212Z"
   },
   {
+    "repo": "argonautsystems/investorclaw",
+    "name": "InvestorClaw",
+    "description": "Portfolio analysis & market intelligence for Claude Code & OpenClaw. Deterministic Python math + Claude/OpenClaw synthesis. Educational guardrails, no investment advice.",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "finance",
+      "investing",
+      "mcp",
+      "mcp-server",
+      "portfolio-analysis",
+      "skills"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-12T04:51:57Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -8749,6 +8795,27 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-11T14:26:54.212Z"
+  },
+  {
+    "repo": "pcx-wave/opencode-skill",
+    "name": "opencode-skill",
+    "description": "Claude Code skill — delegate coding tasks to Opencode, supervise via git diff & save 50-90% Claude token usage",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "delegation",
+      "opencode",
+      "orchestration",
+      "productivity",
+      "token-optimization"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-08T16:14:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -11631,6 +11698,26 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-10T12:44:52.547Z"
+  },
+  {
+    "repo": "amgadelgamal/claude-council",
+    "name": "claude-council",
+    "description": "LLM Council for Claude Code with zero API keys — parallel Claude subagents debate, anonymously peer-review, and synthesize an answer, all on your existing subscription",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "llm-council",
+      "multi-agent",
+      "subagents"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-12T00:22:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -17353,6 +17440,131 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-11T14:26:54.212Z"
+  },
+  {
+    "repo": "xxt-xn/agent-self-audit",
+    "name": "agent-self-audit",
+    "description": "The self-evolving agent health check skill. Detects → Diagnoses → Prescribes → Iterates. 13 check items, 3 self-evolution loops, works on Claude Code, Codex CLI, Cursor, Windsurf, Gemini CLI.",
+    "tags": [
+      "agent-skills",
+      "automation",
+      "claude-code-skill",
+      "configuration",
+      "cross-platform",
+      "cursor-skill",
+      "devtools",
+      "health-check",
+      "self-audit"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-11T13:44:51Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
+    "repo": "novadyne-hq/claudemd-auditor-skill",
+    "name": "claudemd-auditor-skill",
+    "description": "Audit your CLAUDE.md file. Calibrated 0–100 scoring on 6 axes with concrete fixes. Drop-in Claude Code skill.",
+    "tags": [
+      "AI",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "claude-md",
+      "claude-skill",
+      "claudemd",
+      "code-quality",
+      "developer-tools",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-05-28T04:41:19Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
+    "repo": "chanmeng666/readme-showcase",
+    "name": "readme-showcase",
+    "description": "Claude Code skill that captures polished screenshots and demo GIFs of deployed web projects and embeds them into GitHub READMEs — Playwright capture, ffmpeg GIF/MP4 pipeline, reproducible scenario files",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "demo-gif",
+      "developer-tools",
+      "ffmpeg",
+      "github-readme",
+      "playwright",
+      "readme",
+      "screen-recording",
+      "screenshot-automation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-12T00:19:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
+    "repo": "narylr350/source-radar",
+    "name": "source-radar",
+    "description": "中文互联网信息分析 CLI —— 自动跨平台搜索、采集、综合。自带 Claude Code Skill，在对话中说帮我查即可搜索。",
+    "tags": [
+      "ai-agent",
+      "chinese-internet",
+      "chinese-platforms",
+      "claude-code-skill",
+      "cli",
+      "fact-checking",
+      "python",
+      "research",
+      "web-scraping"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-11T19:28:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
+  },
+  {
+    "repo": "agasi-gif/negotiation-trainer",
+    "name": "negotiation-trainer",
+    "description": "AI-powered negotiation sparring trainer for construction industry",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "construction",
+      "hermes-agent",
+      "hermes-plugin",
+      "hermes-skill",
+      "negotiation",
+      "open-source",
+      "python",
+      "telegram-bot-ai-assistant",
+      "telegram-bot-with-ai"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-11T22:31:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-12T12:42:39.094Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
