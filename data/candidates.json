@@ -6437,6 +6437,30 @@
     "lastPush": "2026-05-19T02:02:30Z"
   },
   {
+    "repo": "artokun/comfyui-mcp",
+    "name": "comfyui-mcp",
+    "description": "Claude Code plugin + MCP server for ComfyUI — 88 tools, 14 AI skills (Flux, WAN, LTX video, Qwen), live graph editing from your Claude session. Generate images & video, manage models and custom nodes.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "comfyui",
+      "comfyui-extension",
+      "flux",
+      "image-generation",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "stable-diffusion",
+      "text-to-image",
+      "video-generation"
+    ],
+    "stars": 146,
+    "lastPush": "2026-06-12T23:31:23Z"
+  },
+  {
     "repo": "gapmiss/obsidian-plugin-skill",
     "name": "obsidian-plugin-skill",
     "description": "Agent SKILL for Obsidian.md plugin development",
@@ -7164,6 +7188,27 @@
     ],
     "stars": 87,
     "lastPush": "2026-03-22T19:14:06Z"
+  },
+  {
+    "repo": "tonylofgren/aurora-smart-home",
+    "name": "aurora-smart-home",
+    "description": "Independent Claude Skills for the whole smart home: Home Assistant, ESPHome, Node-RED, custom integrations, dashboards, and fab-ready hardware design.",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "esp32",
+      "esphome",
+      "hacs",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "node-red",
+      "smart-home"
+    ],
+    "stars": 87,
+    "lastPush": "2026-06-13T09:54:32Z"
   },
   {
     "repo": "monte-carlo-data/mc-agent-toolkit",
@@ -13267,6 +13312,32 @@
     "lastPush": "2026-06-03T15:15:40Z"
   },
   {
+    "repo": "tizzy916/scholar-wendao-skill",
+    "name": "scholar-wendao-skill",
+    "description": "Scholar-Wendao (学者问道) — open-source Claude Skill framework for distilling scholar perspectives into runnable analytical lenses. Generate perspective skills for humanities scholars (Stiegler, Aristotle, Foucault, …) as research lenses, not chat personas. Bilingual (EN/中文), supports contemporary + traditional scholars. By Shen Cong.",
+    "tags": [
+      "academic-writing",
+      "analytical-lens",
+      "aristotle",
+      "bilingual",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "humanities",
+      "intellectual-history",
+      "meta-skill",
+      "perspective-distillation",
+      "philosophy",
+      "philosophy-of-technology",
+      "prompt-engineering",
+      "scholar-perspective",
+      "stiegler",
+      "traditional-scholars"
+    ],
+    "stars": 13,
+    "lastPush": "2026-05-19T08:04:48Z"
+  },
+  {
     "repo": "darrenbenson/sdlc-studio",
     "name": "sdlc-studio",
     "description": "Claude Code skill for managing the full software development lifecycle",
@@ -15827,6 +15898,23 @@
     "lastPush": "2026-05-29T18:58:58Z"
   },
   {
+    "repo": "monthu56/landforge",
+    "name": "landforge",
+    "description": "Static landing-page generation system built on Claude Code skills — SEO, A/B testing, analytics, deploy and change-audit built in.",
+    "tags": [
+      "ab-testing",
+      "claude-code",
+      "claude-skills",
+      "landing-page",
+      "landing-page-generator",
+      "marketing",
+      "seo",
+      "static-site"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-05T08:57:57Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -18301,6 +18389,26 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-11T07:03:22Z"
+  },
+  {
+    "repo": "junhanliu-dev/espalier-engineering",
+    "name": "espalier-engineering",
+    "description": "Train your AI coders the way you'd train a vine — discover your codebase's actual patterns, then encode them as Claude Code rules, skills, agents, hooks, and a guided pipeline so generated code lands inside your conventions on the first try, not the fifth.",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-generation",
+      "code-quality",
+      "developer-tools",
+      "llm-tooling",
+      "llm-workflow"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-13T08:46:46Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -22318,6 +22426,47 @@
     "lastPush": "2026-06-11T22:31:17Z"
   },
   {
+    "repo": "perrylink/loop-claudecode",
+    "name": "loop-claudecode",
+    "description": "Goal-driven autonomous dev loop for Claude Code: set a goal, let the 13-phase state machine handle design→impl→test→repair→convergence.",
+    "tags": [
+      "agentic-workflow",
+      "ai-code-review",
+      "ai-coding-assistant",
+      "ai-driven-development",
+      "ai-safety-gates",
+      "autonomous-coding-agent",
+      "autonomous-development-loop",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-skill",
+      "code-generation",
+      "convergence-loop",
+      "file-based-state-machine",
+      "goal-driven-development",
+      "llm-agent",
+      "loop-engineering",
+      "meta-skill",
+      "self-healing-code",
+      "software-engineering-ai",
+      "state-machine"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-12T16:25:51Z"
+  },
+  {
+    "repo": "qyzxcswbll/claude-code-notify",
+    "name": "claude-code-notify",
+    "description": "Claude Code 任务完成通知工具，支持 macOS / Windows 弹窗与声音提醒",
+    "tags": [
+      "claude-code-skill",
+      "notifications",
+      "skills-sh"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-13T07:42:12Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -24290,5 +24439,25 @@
     ],
     "stars": 0,
     "lastPush": "2026-06-01T18:03:27Z"
+  },
+  {
+    "repo": "y-a-v-a/stern-code-review",
+    "name": "stern-code-review",
+    "description": "What I most desire doesn’t exist on the market yet: a coding agent model, but it’s only been trained on code reviews by Eastern Europeans. - vicki on X",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skill",
+      "claude-skills",
+      "codex-skill",
+      "codex-skills",
+      "skill",
+      "skills"
+    ],
+    "stars": 0,
+    "lastPush": "2026-05-28T21:42:20Z"
   }
 ]

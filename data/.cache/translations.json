@@ -4438,11 +4438,11 @@
     "backTranslationDiff": 0.375
   },
   "othmanadi/planning-with-files": {
-    "sourceHash": "3d79d8c28cb3447c",
-    "chineseDescription": "基于文件的持久化规划方案，适用于长时间运行的 agentic 任务。提供防崩溃的 markdown 计划、确定性完成门控（completion gate），以及多 agent 共享的磁盘状态。兼容 Claude Code、Codex CLI、Cursor、Hermes agent、Pi、Kiro、OpenCode 等 60+ 个 agent，遵循 SKILL.md 标准。",
-    "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载所有文件，并保存到 .claude/skills/planning-with-files/ 目录下，完成安装。",
-    "translatedAt": "2026-06-10T13:05:17.533Z",
-    "backTranslationDiff": 0.8666666666666667
+    "sourceHash": "65ab022920a41f7b",
+    "chineseDescription": "基于文件的持久化规划方案，专为AI编程代理和长时间运行的代理任务设计。崩溃防护的Markdown计划，能抵御上下文丢失和/clear命令，还包含确定性完成门控和多代理共享磁盘状态。类似Manus风格。支持Claude Code、Codex CLI、Cursor、Kiro、OpenCode等60多种代理，遵循SKILL.md标准。",
+    "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载所有文件，并保存到 .claude/skills/planning-with-files/ 目录中，完成安装。",
+    "translatedAt": "2026-06-13T10:31:49.936Z",
+    "backTranslationDiff": 0.9722222222222222
   },
   "voltagent/awesome-agent-skills": {
     "sourceHash": "bc01a6d1a7277cc0",
@@ -4998,11 +4998,11 @@
     "backTranslationDiff": 0.17647058823529416
   },
   "anombyte93/prd-taskmaster": {
-    "sourceHash": "79c1fd0e983752bc",
-    "chineseDescription": "基于AI的PRD生成工具，集成taskmaster，用于Claude Code",
-    "prompt": "请从 https://github.com/anombyte93/prd-taskmaster 下载该技能的所有文件，并将其保存到 .claude/skills/prd-taskmaster/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T13:38:21.094Z",
-    "backTranslationDiff": 0.5714285714285714
+    "sourceHash": "aa9cd4dd57df5342",
+    "chineseDescription": "零配置的目标到任务引擎（Atlas 引擎），专为 Claude Code 设计。支持分级 PRD 验证、依赖排序的任务图（task graph）、基于证据的执行控制（evidence-gated execution）。",
+    "prompt": "请从 https://github.com/anombyte93/prd-taskmaster 下载该 Skill 的所有文件，并保存到 .claude/skills/prd-taskmaster/ 目录下，完成安装。",
+    "translatedAt": "2026-06-13T10:31:54.341Z",
+    "backTranslationDiff": 0.6
   },
   "vladikk/modularity": {
     "sourceHash": "e09fc0058c5e4423",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "bc20cf0e81fb81d7",
-    "chineseDescription": "精选的 AI 辅助资源中心：包含 247+ 个 Cursor、Claude Code 和 Codex 技能，123 个机器学习笔记本，34 篇研究论文，14 份行业报告——面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其内容保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-06-11T14:49:29.330Z",
-    "backTranslationDiff": 0.23529411764705888
+    "sourceHash": "67d70387c51dfcda",
+    "chineseDescription": "这个仓库收集了 247+ 个适用于 Cursor、Claude Code 和 Codex 的技能（skills），123 个机器学习笔记本（notebooks），34 篇研究论文，以及 14 份行业报告，面向产品经理、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库的内容，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
+    "translatedAt": "2026-06-13T10:31:58.899Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "safishamsi/graphify": {
     "sourceHash": "88622295b634473e",
@@ -7523,5 +7523,19 @@
     "prompt": "请从 https://github.com/mmthebest/research-architect 下载 Research-Architect 技能文件，并将其保存到 .claude/skills/research-architect/ 目录中，完成安装。",
     "translatedAt": "2026-06-12T12:53:36.525Z",
     "backTranslationDiff": 0.36363636363636365
+  },
+  "tonylofgren/aurora-smart-home": {
+    "sourceHash": "1bf033c6215f3374",
+    "chineseDescription": "面向全屋智能的独立 Claude Skills 集合：涵盖 Home Assistant、ESPHome、Node-RED、自定义集成、仪表盘以及可投产的硬件设计。",
+    "prompt": "请从 https://github.com/tonylofgren/aurora-smart-home 下载文件，并将其保存到 .claude/skills/aurora-smart-home/ 目录下，完成安装。",
+    "translatedAt": "2026-06-13T10:32:03.518Z",
+    "backTranslationDiff": 0.375
+  },
+  "artokun/comfyui-mcp": {
+    "sourceHash": "64982702a1a3372b",
+    "chineseDescription": "Claude Code 插件 + MCP 服务器，用于 ComfyUI —— 提供 88 个工具、14 个 AI 技能（Flux、WAN、LTX video、Qwen），支持在 Claude 会话中实时编辑图形。可以生成图像和视频，管理模型和自定义节点。【使用场景】适合需要在 Claude Code 中直接操作 ComfyUI 进行图像/视频生成和节点管理的开发者。",
+    "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载整个仓库，并将其保存到 .claude/skills/comfyui-mcp/ 目录下，完成安装。",
+    "translatedAt": "2026-06-13T10:32:08.611Z",
+    "backTranslationDiff": 0.21739130434782605
   }
 }

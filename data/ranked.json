@@ -8357,6 +8357,35 @@
     "checkedAt": "2026-05-25T13:59:48.785Z"
   },
   {
+    "repo": "artokun/comfyui-mcp",
+    "name": "comfyui-mcp",
+    "description": "Claude Code plugin + MCP server for ComfyUI — 88 tools, 14 AI skills (Flux, WAN, LTX video, Qwen), live graph editing from your Claude session. Generate images & video, manage models and custom nodes.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "comfyui",
+      "comfyui-extension",
+      "flux",
+      "image-generation",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "stable-diffusion",
+      "text-to-image",
+      "video-generation"
+    ],
+    "stars": 146,
+    "lastPush": "2026-06-12T23:31:23Z",
+    "pool": "ranked",
+    "readmeLength": 4994,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-13T10:16:10.072Z"
+  },
+  {
     "repo": "gapmiss/obsidian-plugin-skill",
     "name": "obsidian-plugin-skill",
     "description": "Agent SKILL for Obsidian.md plugin development",
@@ -9269,6 +9298,32 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "tonylofgren/aurora-smart-home",
+    "name": "aurora-smart-home",
+    "description": "Independent Claude Skills for the whole smart home: Home Assistant, ESPHome, Node-RED, custom integrations, dashboards, and fab-ready hardware design.",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "esp32",
+      "esphome",
+      "hacs",
+      "home-assistant",
+      "home-automation",
+      "iot",
+      "node-red",
+      "smart-home"
+    ],
+    "stars": 87,
+    "lastPush": "2026-06-13T09:54:32Z",
+    "pool": "ranked",
+    "readmeLength": 4908,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-13T10:16:10.072Z"
   },
   {
     "repo": "monte-carlo-data/mc-agent-toolkit",
