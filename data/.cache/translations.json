@@ -4676,11 +4676,11 @@
     "backTranslationDiff": 0.935483870967742
   },
   "activeloopai/hivemind": {
-    "sourceHash": "dc10879533ef304e",
-    "chineseDescription": "一个大脑，掌控所有 agent（智能体）",
-    "prompt": "请从 https://github.com/activeloopai/hivemind 下载 hivemind skill 文件，并保存到 .claude/skills/hivemind/ 目录中，完成安装。",
-    "translatedAt": "2026-05-30T11:02:13.809Z",
-    "backTranslationDiff": 1
+    "sourceHash": "8a048dcea1af4505",
+    "chineseDescription": "Hivemind 能把你的 traces（追踪记录）转化成可复用的 skills（技能），让多个 agent 共享使用。",
+    "prompt": "请从 https://github.com/activeloopai/hivemind 下载 Hivemind skill 文件，并保存到 .claude/skills/hivemind/ 目录中，完成安装。",
+    "translatedAt": "2026-06-14T11:27:14.782Z",
+    "backTranslationDiff": 0.2222222222222222
   },
   "aiskillstore/marketplace": {
     "sourceHash": "a8d7329f2a1e5fc2",
@@ -6349,11 +6349,11 @@
     "backTranslationDiff": 0.5
   },
   "ethanhq/cc-fleet": {
-    "sourceHash": "a434443b932fa709",
-    "chineseDescription": "🚢 将任意厂商的 LLM（DeepSeek · GLM · Qwen · Kimi · MiniMax ……）变成真正的 Claude Code 队友，或者作为 ⚡ 一次性 subagent 为你干活 🚀",
-    "prompt": "请从 https://github.com/ethanhq/cc-fleet 下载该 skill 的所有文件，并保存到 .claude/skills/cc-fleet/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:47:02.368Z",
-    "backTranslationDiff": 0.631578947368421
+    "sourceHash": "f34efe0bc0f59c4d",
+    "chineseDescription": "🚢 让 Claude Code 的 ⚙️ Dynamic Workflow（动态工作流）、👥 Agent Team（智能体团队）、⚡ Subagent（子智能体）用上任意第三方模型——DeepSeek、GLM、Kimi、Qwen……或者你的 Codex 订阅。无需 Anthropic 订阅。",
+    "prompt": "请从 https://github.com/ethanhq/cc-fleet 下载项目文件，保存到 .claude/skills/cc-fleet/ 目录，完成安装。",
+    "translatedAt": "2026-06-14T11:27:19.199Z",
+    "backTranslationDiff": 0.56
   },
   "brownfinesecurity/iothackbot": {
     "sourceHash": "1720046bdd98ffe8",
@@ -7537,5 +7537,19 @@
     "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载整个仓库，并将其保存到 .claude/skills/comfyui-mcp/ 目录下，完成安装。",
     "translatedAt": "2026-06-13T10:32:08.611Z",
     "backTranslationDiff": 0.21739130434782605
+  },
+  "viryazheng/recomby-geo": {
+    "sourceHash": "c20dcf7e8cb6c545",
+    "chineseDescription": "GEO（生成式引擎优化）领域的 AI 员工开源方案（MIT 协议）。包含 GEO Skills 包，以及组成 AI 员工栈的 agent 和办公 CLI 精选列表。",
+    "prompt": "请从 https://github.com/viryazheng/recomby-geo 下载项目文件，并将其保存到 .claude/skills/recomby-geo/ 目录下，完成安装。",
+    "translatedAt": "2026-06-14T11:27:23.593Z",
+    "backTranslationDiff": 0.4
+  },
+  "viryazheng/promptly-prompt": {
+    "sourceHash": "dde0206f64931574",
+    "chineseDescription": "这是一个 Claude Code Skill，强制 AI 在执行前先理解。包含三个原则：认知检查（cognition check）、需求理解（requirement understanding）、方法搜索（method search）。",
+    "prompt": "请从 https://github.com/viryazheng/promptly-prompt 下载该仓库的所有文件，并保存到 .claude/skills/promptly-prompt/ 目录下，完成安装。",
+    "translatedAt": "2026-06-14T11:27:27.029Z",
+    "backTranslationDiff": 0.0625
   }
 }

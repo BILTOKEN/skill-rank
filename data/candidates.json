@@ -4079,6 +4079,35 @@
     "lastPush": "2026-05-25T13:26:26Z"
   },
   {
+    "repo": "viryazheng/recomby-geo",
+    "name": "recomby-geo",
+    "description": "GEO 领域 AI 员工开源方案 · Open-source GEO AI-employee solution (MIT). GEO Skills package + curated lists of agents and office CLIs that make up the AI-employee stack.",
+    "tags": [
+      "agent-cli",
+      "ai-agent",
+      "ai-coworker",
+      "ai-employee",
+      "ai-workforce",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "collaborative-ai",
+      "domain-ai",
+      "fde",
+      "forward-deployed-engineer",
+      "generative-engine-optimization",
+      "geo",
+      "human-ai-collaboration",
+      "local-first",
+      "mcp",
+      "open-source-ai",
+      "skills-marketplace",
+      "vertical-ai"
+    ],
+    "stars": 459,
+    "lastPush": "2026-06-09T12:16:01Z"
+  },
+  {
     "repo": "iamzifei/show-me-the-money",
     "name": "show-me-the-money",
     "description": "Claude Code skill suite that builds and runs a 24/7 automated business from scratch — from idea discovery to revenue generation.",
@@ -8277,6 +8306,27 @@
     ],
     "stars": 53,
     "lastPush": "2026-05-25T00:41:24Z"
+  },
+  {
+    "repo": "viryazheng/promptly-prompt",
+    "name": "promptly-prompt",
+    "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "context-engineering",
+      "openclaw",
+      "prompt-engineering",
+      "prompt-optimization"
+    ],
+    "stars": 53,
+    "lastPush": "2026-06-08T01:03:12Z"
   },
   {
     "repo": "agents365-ai/mermaid-skill",
@@ -15445,6 +15495,32 @@
     "lastPush": "2026-06-08T16:14:47Z"
   },
   {
+    "repo": "proyecto26/system-design-skills",
+    "name": "system-design-skills",
+    "description": "A divide-and-conquer wiki of system-design skills for Claude Code — reason about scalable systems, don't memorize architectures.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-plugin",
+      "claude-skills",
+      "distributed-systems",
+      "high-level-architecture",
+      "high-level-design",
+      "software-architecture",
+      "software-engineer",
+      "software-engineering",
+      "system-design",
+      "system-design-fundamentals",
+      "system-design-interview",
+      "system-design-template",
+      "system-design-visualization",
+      "systems-design",
+      "systems-engineering"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-02T16:17:15Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -18409,6 +18485,21 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-13T08:46:46Z"
+  },
+  {
+    "repo": "songzaiyang7-maker/claude-meeting-slides",
+    "name": "claude-meeting-slides",
+    "description": "A Claude Code skill that turns project code and progress into landscape LaTeX PDF slides for semi-formal technical presentations (group meetings, weekly syncs, internal reviews).",
+    "tags": [
+      "chinese",
+      "claude-code",
+      "claude-code-skill",
+      "latex",
+      "meeting-slides",
+      "tikz"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-13T14:12:35Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -22467,6 +22558,40 @@
     "lastPush": "2026-06-13T07:42:12Z"
   },
   {
+    "repo": "c0resun/panics-quietly",
+    "name": "panics-quietly",
+    "description": "Conversational statusline configurator for Claude Code — presets, token-usage forecast (pace, projection, blocked-time Δ), glyph fallback. The status bar that quietly panics about your token budget. python3-only.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "developer-tools",
+      "statusline",
+      "terminal"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-10T09:58:06Z"
+  },
+  {
+    "repo": "paragenie/claude-codex-handoff",
+    "name": "claude-codex-handoff",
+    "description": "A Claude Code skill that orchestrates a three-phase planner→implementer→reviewer workflow between Claude Code and Codex. Claude plans and writes the spec, Codex implements in the background, a fresh Codex session adversarially reviews the diff — designed for code changes that deserve a written spec, not the same model grading its own homework.",
+    "tags": [
+      "agentic-coding",
+      "ai-code-review",
+      "ai-pair-programming",
+      "anthropic-claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex-cli",
+      "developer-tools",
+      "llm-workflow",
+      "openai-codex"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-04T06:30:10Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -24459,5 +24584,42 @@
     ],
     "stars": 0,
     "lastPush": "2026-05-28T21:42:20Z"
+  },
+  {
+    "repo": "joepui/motion-ref-skill",
+    "name": "motion-ref-skill",
+    "description": "Claude Code skill — describe what you want, get the right motion effect. 73 effects, CSS/JS params or AI video prompts.",
+    "tags": [
+      "ai-video",
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "css-animation",
+      "motion-design",
+      "motion-graphics",
+      "prompt-engineering",
+      "skill"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-13T16:02:12Z"
+  },
+  {
+    "repo": "tong666-bit/liu-xiaoyan-skill",
+    "name": "liu-xiaoyan-skill",
+    "description": "刘晓燕英语教学 Claude Code Skill —— 将考研/四六级英语名师刘晓燕的教学方法论蒸馏为 AI 技能",
+    "tags": [
+      "ai-tutor",
+      "cet4",
+      "cet6",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "english-learning",
+      "exam-prep",
+      "liu-xiaoyan",
+      "postgraduate-english"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-14T05:32:24Z"
   }
 ]

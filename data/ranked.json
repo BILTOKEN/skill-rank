@@ -5229,6 +5229,40 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "viryazheng/recomby-geo",
+    "name": "recomby-geo",
+    "description": "GEO 领域 AI 员工开源方案 · Open-source GEO AI-employee solution (MIT). GEO Skills package + curated lists of agents and office CLIs that make up the AI-employee stack.",
+    "tags": [
+      "agent-cli",
+      "ai-agent",
+      "ai-coworker",
+      "ai-employee",
+      "ai-workforce",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "collaborative-ai",
+      "domain-ai",
+      "fde",
+      "forward-deployed-engineer",
+      "generative-engine-optimization",
+      "geo",
+      "human-ai-collaboration",
+      "local-first",
+      "mcp",
+      "open-source-ai",
+      "skills-marketplace",
+      "vertical-ai"
+    ],
+    "stars": 459,
+    "lastPush": "2026-06-09T12:16:01Z",
+    "pool": "ranked",
+    "readmeLength": 670,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-14T11:10:53.291Z"
+  },
+  {
     "repo": "iamzifei/show-me-the-money",
     "name": "show-me-the-money",
     "description": "Claude Code skill suite that builds and runs a 24/7 automated business from scratch — from idea discovery to revenue generation.",
@@ -10672,6 +10706,32 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "viryazheng/promptly-prompt",
+    "name": "promptly-prompt",
+    "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "context-engineering",
+      "openclaw",
+      "prompt-engineering",
+      "prompt-optimization"
+    ],
+    "stars": 53,
+    "lastPush": "2026-06-08T01:03:12Z",
+    "pool": "ranked",
+    "readmeLength": 454,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-14T11:10:53.291Z"
   },
   {
     "repo": "agents365-ai/mermaid-skill",
