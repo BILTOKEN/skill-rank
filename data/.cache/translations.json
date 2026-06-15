@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "2f7ae59b7981b7d8",
-    "chineseDescription": "为 Claude Code 和 Cursor 设计的设计引擎——教的是设计判断力，不只是数据。包含 69 条规则、48 个组件、7 套品牌皮肤（Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel）、一套命名动画系统（5 个种子 + 20+ 动作）、14 个 /ss-* 技能。别再做出看起来像 AI 生成的 UI 了。MIT 许可。",
-    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 项目文件，并将其保存到 .claude/skills/styleseed/ 目录下，完成安装。",
-    "translatedAt": "2026-06-09T12:05:33.312Z",
-    "backTranslationDiff": 0.2592592592592593
+    "sourceHash": "b99c3e70fea9a4a8",
+    "chineseDescription": "styleseed 是一个为 Claude Code、Codex 和 Cursor 设计的设计引擎——教的是设计判断力，而不只是数据。包含 74 条规则、48 个组件、7 套品牌皮肤（Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel）、一套命名动画系统（5 个种子 + 20+ 种动作）、15 个 /ss-* 技能。别再让 AI 生成的 UI 看起来像模板货了。MIT 许可。",
+    "prompt": "请从 https://github.com/bitjaru/styleseed 下载整个仓库，并将所有文件保存到 .claude/skills/styleseed/ 目录下，完成 styleseed 技能的安装。",
+    "translatedAt": "2026-06-15T18:34:56.906Z",
+    "backTranslationDiff": 0.3571428571428571
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -7551,5 +7551,26 @@
     "prompt": "请从 https://github.com/viryazheng/promptly-prompt 下载该仓库的所有文件，并保存到 .claude/skills/promptly-prompt/ 目录下，完成安装。",
     "translatedAt": "2026-06-14T11:27:27.029Z",
     "backTranslationDiff": 0.0625
+  },
+  "dongshuyan/compass-skills": {
+    "sourceHash": "d5334899717714bd",
+    "chineseDescription": "司南：个性化 AI 任务总控 Skills 系统 / COMPASS：面向 AI Agent 的个人对齐 Skills 操作系统",
+    "prompt": "请从 https://github.com/dongshuyan/compass-skills 下载仓库文件，并将其保存到 .claude/skills/compass-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-15T18:35:00.526Z",
+    "backTranslationDiff": 0.4285714285714286
+  },
+  "techygarg/lattice": {
+    "sourceHash": "273599642e9fd284",
+    "chineseDescription": "给任何 AI 编程助手注入工程纪律。提供可组合的 skill，覆盖设计、实现、审查和团队规范。更好的流程，而不只是更好的提示词。",
+    "prompt": "请从 https://github.com/techygarg/lattice 下载 lattice skill 文件，保存到 .claude/skills/lattice/ 目录，完成安装。",
+    "translatedAt": "2026-06-15T18:35:04.543Z",
+    "backTranslationDiff": 0.17647058823529416
+  },
+  "rrezartprebreza/spring-boot-skills": {
+    "sourceHash": "9880c32b1f09286b",
+    "chineseDescription": "面向 Spring Boot 开发者的生产级 Claude Code 技能集",
+    "prompt": "请从 https://github.com/rrezartprebreza/spring-boot-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/spring-boot-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-15T18:35:08.005Z",
+    "backTranslationDiff": 0.2857142857142857
   }
 }
