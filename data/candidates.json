@@ -10023,6 +10023,28 @@
     "lastPush": "2026-06-02T15:10:45Z"
   },
   {
+    "repo": "kgraph57/paper-writer-skill",
+    "name": "paper-writer-skill",
+    "description": "Claude Code skill for academic manuscript writing: IMRAD workflows, literature matrices, tables/figures, and tested utilities.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "evidence-based-medicine",
+      "imrad",
+      "latex",
+      "literature-review",
+      "manuscript",
+      "medical-writing",
+      "research",
+      "scientific-writing"
+    ],
+    "stars": 30,
+    "lastPush": "2026-06-16T16:03:31Z"
+  },
+  {
     "repo": "brettdavies/crawl4ai-skill",
     "name": "crawl4ai-skill",
     "description": "Web scraping skill for Claude AI. Crawl websites, extract structured data with CSS/LLM strategies, handle dynamic JavaScript content. Built on crawl4ai with complete SDK reference, example scripts, and tests.",
@@ -15041,6 +15063,21 @@
     "lastPush": "2026-06-07T10:19:25Z"
   },
   {
+    "repo": "xntj-ai/ppvi",
+    "name": "ppvi",
+    "description": "PinPin Visual Identity — a Claude Code skill encoding a battle-tested design aesthetic methodology. 5 core principles (restraint, grayscale base, strict hierarchy, glassmorphism, density breathing) that make AI-generated web pages look intentional instead of generic.",
+    "tags": [
+      "claude-code-skill",
+      "design-methodology",
+      "design-system",
+      "glassmorphism",
+      "typography",
+      "visual-identity"
+    ],
+    "stars": 9,
+    "lastPush": "2026-06-16T10:15:44Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -15412,6 +15449,21 @@
     ],
     "stars": 8,
     "lastPush": "2026-06-12T04:51:57Z"
+  },
+  {
+    "repo": "xntj-ai/onepage-pdf",
+    "name": "onepage-pdf",
+    "description": "HTML to single continuous-page PDF (no pagination) - render-then-crop pipeline + Claude Code skill",
+    "tags": [
+      "claude-code-skill",
+      "headless-chrome",
+      "html-to-pdf",
+      "pdf",
+      "pymupdf",
+      "single-page-pdf"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-16T10:15:40Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -16127,6 +16179,30 @@
     "lastPush": "2026-06-05T08:57:57Z"
   },
   {
+    "repo": "luciferdono/deglaze",
+    "name": "deglaze",
+    "description": "Make Claude admit when it half-assed your task. A Claude Code skill. (Now, can be used for Codex as well as Antigravity).",
+    "tags": [
+      "ai-agents",
+      "ai-safety",
+      "anthropic",
+      "antigravity-skills",
+      "chain-of-verification",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "codex",
+      "codex-skill",
+      "llm",
+      "prompt-engineering",
+      "self-critique",
+      "sycophancy"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-16T07:19:41Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -16715,6 +16791,20 @@
     ],
     "stars": 5,
     "lastPush": "2026-06-11T04:10:46Z"
+  },
+  {
+    "repo": "longyunfeigu/paoding-skill",
+    "name": "paoding-skill",
+    "description": "庖丁 — dissect any AI skill into an anatomy handbook: why it works, how it's built, what's worth stealing. 把 skill 解成一本解剖手册的 Claude Code skill",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "promt-engineering",
+      "reverse-engineering"
+    ],
+    "stars": 5,
+    "lastPush": "2026-06-16T13:12:48Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -17996,6 +18086,21 @@
     "lastPush": "2026-06-12T00:22:07Z"
   },
   {
+    "repo": "xntj-ai/cross-review",
+    "name": "cross-review",
+    "description": "Multi-model deliberative design review — a Claude Code skill that runs structured debate between Gemini and GPT to surface blind spots in architecture decisions.",
+    "tags": [
+      "architecture-review",
+      "claude-code-skill",
+      "cross-vendor-review",
+      "llm-as-judge",
+      "multi-agent-debate",
+      "multi-model"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-16T10:15:48Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -18636,6 +18741,22 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-13T14:12:35Z"
+  },
+  {
+    "repo": "xntj-ai/baoxiao",
+    "name": "baoxiao",
+    "description": "中国企业费用报销单生成器 · Claude Skill:整理发票(PDF+照片)→规范命名归档→生成合规报销单 PDF 包 + 查重台账",
+    "tags": [
+      "accounting-automation",
+      "claude-code-skill",
+      "expense-reimbursement",
+      "fapiao",
+      "invoice-parsing",
+      "pdf-generation",
+      "pymupdf"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-16T10:15:27Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -19693,6 +19814,63 @@
     ],
     "stars": 2,
     "lastPush": "2026-06-14T08:52:22Z"
+  },
+  {
+    "repo": "cpprhtn/longinus",
+    "name": "Longinus",
+    "description": "Claude Code security audit skill",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "code-audit",
+      "安全",
+      "static-analysis"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-16T15:39:55Z"
+  },
+  {
+    "repo": "warpirate/linkedin-maxxing",
+    "name": "linkedin-maxxing",
+    "description": "17 Claude Code skills + slash commands for substance-first LinkedIn growth. Profile audit, content drafting, humanizer, anti-slop. Open-source plugin marketplace.",
+    "tags": [
+      "ai-writing",
+      "anthropic",
+      "anti-slop",
+      "carousel-design",
+      "claude",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills",
+      "content-creation",
+      "content-writing",
+      "creator-economy",
+      "humanizer",
+      "linkedin",
+      "linkedin-growth",
+      "newsletter",
+      "personal-brand",
+      "plugin-marketplace",
+      "social-media",
+      "writing-tools"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-16T10:45:47Z"
+  },
+  {
+    "repo": "xntj-ai/creator-analytics",
+    "name": "creator-analytics",
+    "description": "自媒体多平台数据分析 → PPVI 浅色 HTML 报告页 · Claude Code skill",
+    "tags": [
+      "claude-code-skill",
+      "data-analysis",
+      "data-visualization",
+      "html-report",
+      "report-generator",
+      "social-media-analytics"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-16T10:15:34Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -22986,6 +23164,91 @@
     ],
     "stars": 1,
     "lastPush": "2026-05-27T11:02:59Z"
+  },
+  {
+    "repo": "foster1202/cad-modeling-fusion-skill",
+    "name": "cad-modeling-fusion-skill",
+    "description": "Agent Skill for generating CAD models for 3D modeling",
+    "tags": [
+      "3d",
+      "autodesk",
+      "cad",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skills",
+      "skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-09T15:41:11Z"
+  },
+  {
+    "repo": "xntj-ai/meeting-to-proposal",
+    "name": "meeting-to-proposal",
+    "description": "客户访谈到完整提案的 Claude Code skill — 把一次客户会议十几分钟变成完整商业画布 + 个人 IP 定位 + 自媒体选题方案。沉淀自张拼拼·XNTJ EP0013 实战。",
+    "tags": [
+      "business-canvas",
+      "claude-code-skill",
+      "client-interview",
+      "meeting-to-proposal",
+      "multi-agent",
+      "sales-proposal"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-16T10:15:52Z"
+  },
+  {
+    "repo": "xntj-ai/live-video-postprod",
+    "name": "live-video-postprod",
+    "description": "真人长视频后期生产线的 Claude Code skill — 一句话完成「逐字稿/字幕烧录/4比例封面/多平台发布文案」整条流水线。沉淀自张拼拼·XNTJ 12 期视频实战。",
+    "tags": [
+      "asr",
+      "bilingual-subtitles",
+      "claude-code-skill",
+      "ffmpeg",
+      "subtitles",
+      "video-postproduction"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-16T10:15:57Z"
+  },
+  {
+    "repo": "xntj-ai/gengscan",
+    "name": "gengscan",
+    "description": "AI-assisted screening for data-integrity fingerprints in scientific papers · 学术论文数据完整性筛查流水线(耿同学)",
+    "tags": [
+      "academic-publishing",
+      "claude-code-skill",
+      "data-forensics",
+      "openalex",
+      "python",
+      "reproducibility",
+      "research-integrity"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-16T10:15:31Z"
+  },
+  {
+    "repo": "happysasha18/track-coach",
+    "name": "track-coach",
+    "description": "Measurement-first compositional coach for electronic music — librosa + Demucs diagnostics as a Claude Code skill. Reports only what it measures.",
+    "tags": [
+      "ableton",
+      "ableton-live",
+      "audio-analysis",
+      "claude-code-skill",
+      "claude-skill",
+      "demucs",
+      "dsp",
+      "electronic-music",
+      "idm",
+      "librosa",
+      "mixing",
+      "music-production",
+      "stem-separation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-15T19:07:45Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 0.3125
   },
   "borghei/claude-skills": {
-    "sourceHash": "c5fc7d6d30380a23",
-    "chineseDescription": "覆盖16个领域的338个AI技能。其中项目管理（PM）技能最深入（66个技能——涵盖需求发现、执行、战略框架、GTM、Jira/Linear/Notion）。此外还有工程、营销、高管层（CAIO/CDO/CCO/GC/VPE）、合规与审计准备、新研究/领域、垂直顾问。包含74个专家代理、784+个标准库Python工具、11个AI助手。",
-    "prompt": "请从 https://github.com/borghei/claude-skills 下载仓库文件，并将所有内容保存到 .claude/skills/claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:03:37.495Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "0ea0a407cd0b2f52",
+    "chineseDescription": "覆盖16个领域的338个AI技能。项目管理最深（66个技能——包括需求发现、执行、战略框架、GTM、Jira/Linear/Notion）。此外还有工程、营销、C级高管（CAIO/CDO/CCO/GC/VPE）、合规与审计准备、新研究/领域、垂直顾问。74个专家代理，784+个标准库Python工具。11个AI助手。",
+    "prompt": "请从 https://github.com/borghei/claude-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-06-16T18:40:13.872Z",
+    "backTranslationDiff": 0.25
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "b683d5c66723ce82",
@@ -7572,5 +7572,12 @@
     "prompt": "请从 https://github.com/rrezartprebreza/spring-boot-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/spring-boot-skills/ 目录下，完成安装。",
     "translatedAt": "2026-06-15T18:35:08.005Z",
     "backTranslationDiff": 0.2857142857142857
+  },
+  "kgraph57/paper-writer-skill": {
+    "sourceHash": "d5d4f0b7b8d15060",
+    "chineseDescription": "这是一个用于学术论文写作的 Claude Code Skill，支持 IMRAD（引言、方法、结果、讨论）工作流、文献矩阵、表格/图表生成以及经过测试的实用工具。",
+    "prompt": "请从 https://github.com/kgraph57/paper-writer-skill 下载文件，保存到 .claude/skills/paper-writer-skill/ 目录，完成 paper-writer-skill 的安装。",
+    "translatedAt": "2026-06-16T18:40:18.425Z",
+    "backTranslationDiff": 0.46153846153846156
   }
 }
