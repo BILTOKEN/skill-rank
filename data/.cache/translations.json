@@ -2310,11 +2310,11 @@
     "backTranslationDiff": 0.875
   },
   "brettdavies/crawl4ai-skill": {
-    "sourceHash": "e4454b99a42fbdac",
-    "chineseDescription": "为Claude AI设计的Web scraping（网页抓取）技能。可以爬取网站，使用CSS/LLM策略提取结构化数据，处理动态JavaScript内容。基于crawl4ai构建，包含完整的SDK参考、示例脚本和测试。【使用场景】适用于需要从网站自动提取数据的任务，如爬取新闻、产品信息、动态渲染页面等。",
-    "prompt": "请安装 crawl4ai-skill 技能。仓库地址：https://github.com/brettdavies/crawl4ai-skill。请将仓库内容克隆或下载到 .claude/skills/crawl4ai-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T08:29:39.723Z",
-    "backTranslationDiff": 0.09090909090909094
+    "sourceHash": "bc6ebbcd9bfdb261",
+    "chineseDescription": "抓取重度依赖 JavaScript 的网站，并通过可复用的 CSS 模式提取结构化数据。这是一个便携的 agent skill，封装了 Crawl4AI 的命令行工具和 Python SDK。",
+    "prompt": "请从 https://github.com/brettdavies/crawl4ai-skill 下载 crawl4ai-skill 的所有文件，并保存到 .claude/skills/crawl4ai-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-06-17T13:20:59.301Z",
+    "backTranslationDiff": 0.4
   },
   "AgriciDaniel/marketing-skill-pack": {
     "sourceHash": "7e63912316d37964",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "67d70387c51dfcda",
-    "chineseDescription": "这个仓库收集了 247+ 个适用于 Cursor、Claude Code 和 Codex 的技能（skills），123 个机器学习笔记本（notebooks），34 篇研究论文，以及 14 份行业报告，面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库的内容，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-06-13T10:31:58.899Z",
-    "backTranslationDiff": 0.4285714285714286
+    "sourceHash": "3d63e618cc8f144b",
+    "chineseDescription": "这个技能包包含了247个 agent 技能（适用于 Cursor、Claude 和 Codex）、5400多个 OpenClaw 技能、123个机器学习笔记本、46篇研究论文和14份行业报告，面向产品经理、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-vibe-coding 技能包，并将所有文件保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
+    "translatedAt": "2026-06-17T13:20:54.972Z",
+    "backTranslationDiff": 0.3125
   },
   "safishamsi/graphify": {
     "sourceHash": "88622295b634473e",

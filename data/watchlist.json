@@ -9080,6 +9080,32 @@
     "checkedAt": "2026-06-15T18:14:04.176Z"
   },
   {
+    "repo": "matteotitta/claude-code-marketing-quickstart",
+    "name": "claude-code-marketing-quickstart",
+    "description": "Claude Code for GTM — quickstart for GTM operators",
+    "tags": [
+      "AI",
+      "b2b-saas",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "context-engineering",
+      "go-to-market",
+      "gtm",
+      "marketing",
+      "product-marketing"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-04T05:37:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -9692,6 +9718,25 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-16T18:21:51.531Z"
+  },
+  {
+    "repo": "andykear/filemaker-xmlsnippet-claude-skill",
+    "name": "FileMaker-XMLsnippet-Claude-Skill",
+    "description": "A Claude skill that generates accurate, pasteable FileMaker script XML with a fully verified step ID dictionary and hidden paste-handler rules.\"",
+    "tags": [
+      "AI",
+      "claude-skills",
+      "filemaker",
+      "paste-to-filemaker",
+      "xmlsnippet"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-15T13:14:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -14294,6 +14339,32 @@
     "checkedAt": "2026-06-16T18:21:51.531Z"
   },
   {
+    "repo": "baiyanmo/claude-code-multi-model-review",
+    "name": "claude-code-multi-model-review",
+    "description": "Multi-model code review skill for Claude Code — invoke DeepSeek, Doubao, Qwen, OpenAI & more in parallel to review your git diff. 多模型并行代码审查 skill，同时调用多个 AI 模型交叉验证。",
+    "tags": [
+      "ai-review",
+      "claude-code",
+      "claude-code-skill",
+      "code-review",
+      "cross-validation",
+      "deepseek",
+      "devtools",
+      "doubao",
+      "git-diff",
+      "multi-model",
+      "openai",
+      "qwen"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-17T08:06:28Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -18585,6 +18656,97 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-16T18:21:51.531Z"
+  },
+  {
+    "repo": "yogsoth-ai/ara-from-context",
+    "name": "ara-from-context",
+    "description": "Compile a context/ research record into an ARA (Agent-Native Research Artifact) — the terminal write-up package of the De-Anthropocentric Research Engine. No LaTeX, no narrative paper.",
+    "tags": [
+      "agent-native-research-artifact",
+      "ai-agents",
+      "ara",
+      "claude-code",
+      "claude-code-skill",
+      "research",
+      "research-tools"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T09:19:30Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
+    "repo": "connerkward/screenstudio-alternative-skill",
+    "name": "screenstudio-alternative-skill",
+    "description": "screenstudio-alt — an open-source headless Screen Studio alternative (Claude Code skill): auto-zoom, idle speed-up, vertical export.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "ffmpeg",
+      "screen-recording",
+      "screencast",
+      "video"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T06:30:27Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
+    "repo": "elifsue/wireframe-prototyper-skill",
+    "name": "wireframe-prototyper-skill",
+    "description": "A reusable Claude Code Skill that streamlines the end-to-end design workflow, from structured discovery and competitor research to generating a WCAG-compliant design system and building interactive low-fidelity wireframes or high-fidelity prototypes with real navigation, exportable screens, and a transferable design system to Figma.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "competitor-analysis",
+      "figma",
+      "product-design",
+      "prototype",
+      "ui-design",
+      "ux-design",
+      "wireframes"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-15T05:31:46Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
+    "repo": "w932635477-bit/validate-idea",
+    "name": "validate-idea",
+    "description": "Cross-market idea validation (CN + EN markets) as a Claude Code skill. Real data · strict scoring · bilingual report. Zero LLM key.",
+    "tags": [
+      "claude-code-skill",
+      "claude-skill",
+      "cross-market",
+      "idea-validation",
+      "indie-hacker",
+      "market-research",
+      "market-validation",
+      "validate-idea"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T11:48:25Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-17T13:03:44.617Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
