@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "46c5661f8174b658",
-    "chineseDescription": "Claude AI 的专业技能包——涵盖 17 个职业的 167 项技能。每周节省 8-10 小时。PM 代表 Professional（专业）。",
-    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载 pm-claude-skills 技能包，并将所有文件保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:03:33.169Z",
-    "backTranslationDiff": 0
+    "sourceHash": "31a99d789a93f916",
+    "chineseDescription": "167个专业Agent技能（SKILL.md）+ 子代理 + 斜杠命令，适用于Claude、ChatGPT、Gemini、Cursor、Codex和Hermes —— 一个来源，所有AI工具都能用。",
+    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载项目文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-18T12:52:12.331Z",
+    "backTranslationDiff": 0.3125
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5719,11 +5719,11 @@
     "backTranslationDiff": 0.0625
   },
   "withkynam/vibecode-pro-max-kit": {
-    "sourceHash": "d9164d4655c7f6e9",
-    "chineseDescription": "你的AI会忘记，但这个不会。这是一个基于规格（spec-driven）的编码工具，专为vibecoders、产品负责人、CEO和真正的构建者设计——具备自我改进的上下文记忆、12个代理（agents）、32个技能（skills）。消除上下文腐烂，交付功能，而不是意大利面条式代码。支持Claude Code和Codex。任何技术栈。30秒。【使用场景】快速安装一个功能丰富的Claude Code技能包，提升上下文管理和编码效率。",
-    "prompt": "请安装 vibecode-pro-max-kit skill：从 https://github.com/withkynam/vibecode-pro-max-kit 下载所有文件，并保存到 .claude/skills/vibecode-pro-max-kit/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:20:58.422Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "70f031939d01d602",
+    "chineseDescription": "你的AI会忘事，但这个不会。这是一个基于规格驱动的编码工具包，专为vibecoder、产品负责人、CEO和真正的开发者设计——具备自我改进的上下文记忆、15个agent、33个技能，配合/goal、agent-team和workflow在自动循环中运行，完全不需要人工介入。它能消除上下文腐烂，交付功能，而不是一团乱麻。支持Claude Code和Codex，任何技术栈都能用。【使用场景】适合需要长期维护复杂项目、频繁切换上下文、希望减少重复沟通和人工干预的团队或个人开发者。",
+    "prompt": "请从 https://github.com/withkynam/vibecode-pro-max-kit 下载整个仓库的内容，并将其保存到 .claude/skills/vibecode-pro-max-kit/ 目录下，完成安装。",
+    "translatedAt": "2026-06-18T12:52:08.277Z",
+    "backTranslationDiff": 0.45945945945945943
   },
   "jeremylongshore/claude-code-plugins-plus-skills": {
     "sourceHash": "8e43fd5a8193c568",
@@ -5859,11 +5859,11 @@
     "backTranslationDiff": 0
   },
   "taishi-i/awesome-chatgpt-repositories": {
-    "sourceHash": "799738158adb92d6",
-    "chineseDescription": "一个精心整理的资源列表，专注于与 ChatGPT、OpenAI API 和 Codex 相关的开源 GitHub 仓库。可通过 Claude Code skills 搜索。【使用场景】用于快速查找和浏览 ChatGPT 相关开源项目。",
+    "sourceHash": "0ad19e0d3d949168",
+    "chineseDescription": "一个精选的 ChatGPT、OpenAI API 和 Codex 相关开源 GitHub 仓库列表。可以通过 Claude Code 技能搜索。",
     "prompt": "请从 https://github.com/taishi-i/awesome-chatgpt-repositories 下载该仓库的内容，并将其保存到 .claude/skills/awesome-chatgpt-repositories/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:26:50.430Z",
-    "backTranslationDiff": 0.17647058823529416
+    "translatedAt": "2026-06-18T12:52:16.000Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "op7418/guizang-social-card-skill": {
     "sourceHash": "a564ab040f4c03d3",
@@ -7579,5 +7579,19 @@
     "prompt": "请从 https://github.com/kgraph57/paper-writer-skill 下载文件，保存到 .claude/skills/paper-writer-skill/ 目录，完成 paper-writer-skill 的安装。",
     "translatedAt": "2026-06-16T18:40:18.425Z",
     "backTranslationDiff": 0.46153846153846156
+  },
+  "alkwbfkagbfcagib/claude-cli-mcp-bridge": {
+    "sourceHash": "948cde643e6ccbfa",
+    "chineseDescription": "Claude Code CLI 2026 专业版——下一代 AI 开发工作流工具。这是一个 MCP（Model Context Protocol）桥接工具，让 Claude Code 能直接调用命令行工具。",
+    "prompt": "请从 https://github.com/alkwbfkagbfcagib/claude-cli-mcp-bridge 下载文件，保存到 .claude/skills/claude-cli-mcp-bridge/ 目录，完成安装。",
+    "translatedAt": "2026-06-18T12:52:20.158Z",
+    "backTranslationDiff": 0.125
+  },
+  "karmadevplacer/mythos-claude-orchestrator": {
+    "sourceHash": "e265cf100c708240",
+    "chineseDescription": "🧿 MythOS 2026：基于 Claude 驱动的 AI 叙事引擎与子代理（Sub-Agent）框架，用于构建史诗级故事",
+    "prompt": "请从 https://github.com/karmadevplacer/mythos-claude-orchestrator 下载 Mythos-Claude-Orchestrator Skill 文件，并保存到 .claude/skills/mythos-claude-orchestrator/ 目录中，完成安装。",
+    "translatedAt": "2026-06-18T12:52:24.117Z",
+    "backTranslationDiff": 0.11111111111111116
   }
 }
