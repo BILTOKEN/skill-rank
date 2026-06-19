@@ -15524,6 +15524,61 @@
     "lastPush": "2026-06-16T10:15:40Z"
   },
   {
+    "repo": "servosity/msp-skills",
+    "name": "msp-skills",
+    "description": "Free MCP servers + Claude Code Skills for MSP tools - PSA, RMM, backup, M365. Local-first: your data never leaves your network.",
+    "tags": [
+      "ai-agents",
+      "ai-for-msp",
+      "autotask",
+      "backup",
+      "claude-code",
+      "claude-mcp",
+      "claude-plugin",
+      "claude-skills",
+      "connectwise",
+      "datto",
+      "halopsa",
+      "m365",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "msp",
+      "ninjaone",
+      "psa",
+      "rmm",
+      "servosity"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-18T20:25:58Z"
+  },
+  {
+    "repo": "shirley-xue-2025/usage-guard",
+    "name": "usage-guard",
+    "description": "Proactive 5h usage guard for Claude Code (macOS). Pause before extra wallet on long batch/subagent runs. Account-level window visibility. /usage-guard skill + daemon. Not affiliated with Anthropic.",
+    "tags": [
+      "agentic-ai",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "fable",
+      "fable-5",
+      "fable5",
+      "macos",
+      "opus",
+      "skill-md",
+      "skills",
+      "usage-limits",
+      "usage-limits-watcher",
+      "workflow"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-16T00:54:11Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -15798,6 +15853,85 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-17T13:53:27Z"
+  },
+  {
+    "repo": "thibaultbm/claude-seo-geo",
+    "name": "claude-seo-geo",
+    "description": "SEO & GEO skills for Claude Code, built with Claude Mythos 5. Rank in Google AND in LLMs (ChatGPT, Perplexity, Gemini): technical audits, backlinks, AI-optimized content, local SEO, and social amplification.",
+    "tags": [
+      "ai-search",
+      "claude-code",
+      "claude-skills",
+      "ecommerce-seo",
+      "generative-engine-optimization",
+      "geo",
+      "link-building",
+      "llm-seo",
+      "seo",
+      "social-media-marketing"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-18T13:29:39Z"
+  },
+  {
+    "repo": "chili-piper/mcp-assets",
+    "name": "mcp-assets",
+    "description": "Official Chili Piper Skills and ChatGPT GPTs for the Chili Piper MCP — meeting diagnostics, routing audits, no-show analysis, availability checks, and user onboarding/offboarding.",
+    "tags": [
+      "chatgpt",
+      "chili-piper",
+      "claude-code",
+      "claude-skills",
+      "gpt-actions",
+      "mcp",
+      "revops",
+      "scheduling"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-18T22:01:43Z"
+  },
+  {
+    "repo": "hamzaabduljabbar/construction-drawing-analyzer",
+    "name": "construction-drawing-analyzer",
+    "description": "Claude skill + Python scripts to analyze construction drawings that automates sheet splitting, polygon extraction, and drawing classification for GCs, estimators, and PMs.",
+    "tags": [
+      "ai-automation",
+      "ai-automation-construction",
+      "ai-construction",
+      "claude-skills",
+      "construction",
+      "construction-management",
+      "construction-tech",
+      "drawingspecs"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-04T07:47:26Z"
+  },
+  {
+    "repo": "exmergo/skill-no-em-dashes",
+    "name": "skill-no-em-dashes",
+    "description": "A Claude Code skill that produces writing with zero em dashes, and, just as important, writing built out of sentences that never reach for one in the first place. Works with most Agents",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "copilot",
+      "cursor",
+      "cursor-ai",
+      "em-dash",
+      "em-dash-remover",
+      "github-copilot",
+      "no-em-dashes",
+      "skill",
+      "skill-no-em-dashes",
+      "skills",
+      "windsurf",
+      "写作"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-16T18:40:37Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -18876,6 +19010,35 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-17T16:13:02Z"
+  },
+  {
+    "repo": "franklinxkk/ai-delivery-spec",
+    "name": "ai-delivery-spec",
+    "description": "Product-side Spec-Driven Development framework — PRD, interactive prototype, DDD handoff, AI runtime governance, acceptance gates. L0-L3 tiers, replaceable domain modules. Works with Claude Code, Cursor, Codex, OpenClaw.",
+    "tags": [
+      "agent-governance",
+      "agent-skill",
+      "agentic-workflow",
+      "ai-agent",
+      "ai-native",
+      "ai-product-management",
+      "ai-product-manager",
+      "claude-code-skill",
+      "domain-modeling",
+      "prd",
+      "prd-template",
+      "product-delivery",
+      "product-engineering",
+      "product-management",
+      "prompt-engineering",
+      "prototype",
+      "requirements-engineering",
+      "software-delivery",
+      "spec-driven-development",
+      "testability"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-19T02:04:05Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -23558,6 +23721,47 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-18T03:34:58Z"
+  },
+  {
+    "repo": "yueheng-li/xixi-liaoning-skill",
+    "name": "xixi-liaoning-skill",
+    "description": "辽宁省高考志愿推荐引擎 · Claude Code Skill。Pipeline 多Agent架构 × 张雪峰视角 × T1-T4数据分级 × 六维度拆解 × 小众冷门赛道 × 定向委培汇总。不讲情怀看数据，不追热点看四年后饭碗在哪。",
+    "tags": [
+      "ai-agent",
+      "career-planning",
+      "chinese-gaokao",
+      "claude-code",
+      "claude-code-skill",
+      "college-admission",
+      "education",
+      "liaoning",
+      "multi-agent",
+      "volunteer-recommendation",
+      "zhangxuefeng"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-19T00:18:47Z"
+  },
+  {
+    "repo": "klionskiy/claude-mobile-mvp-skills",
+    "name": "claude-mobile-mvp-skills",
+    "description": "Claude Code skills for designing mobile MVPs in Figma, generating SwiftUI from Figma, and reviewing App Store readiness.",
+    "tags": [
+      "app-store",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "figma-mcp",
+      "figma-plugin",
+      "figma-to-code",
+      "ios",
+      "ios-swift",
+      "mobile-app",
+      "mvp",
+      "swiftui"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-19T11:30:16Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
