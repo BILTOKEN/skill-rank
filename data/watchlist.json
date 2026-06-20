@@ -4956,6 +4956,36 @@
     "checkedAt": "2026-06-07T10:16:36.572Z"
   },
   {
+    "repo": "lunashia/code-generation-skill",
+    "name": "code-generation-skill",
+    "description": "针对中文AI编程的Top 20 提示词，做skill用于辅助codex/claude生成代码",
+    "tags": [
+      "ai-agents",
+      "ai-coding",
+      "claude",
+      "claude-skills",
+      "code-generation",
+      "code-review",
+      "codex",
+      "codex-skills",
+      "coding-agent-skills",
+      "developer-tools",
+      "llm",
+      "llm-agents",
+      "prompt-engineering",
+      "skill",
+      "skill-md",
+      "workflow-automation"
+    ],
+    "stars": 16,
+    "lastPush": "2026-06-19T15:01:01Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -8842,6 +8872,26 @@
     "checkedAt": "2026-06-19T13:01:29.611Z"
   },
   {
+    "repo": "zj-karina/my-little-poster",
+    "name": "my-little-poster",
+    "description": "Claude Code skill: turn a paper (preprint link or PDF) into a print-ready conference poster",
+    "tags": [
+      "academic-poster",
+      "arxiv",
+      "claude-code",
+      "claude-code-skill",
+      "conference-poster",
+      "research-tools"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-19T17:47:54Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -9918,6 +9968,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-17T13:03:44.617Z"
+  },
+  {
+    "repo": "dong7812/collab-proof",
+    "name": "collab-proof",
+    "description": " After a Claude Code session, what did AI contribute vs what you drove?   collab-proof records it before it evaporates. Zero dependencies.",
+    "tags": [
+      "ai-collaboration",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "open-source",
+      "prompt-engineering"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-07T05:38:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -19162,6 +19232,51 @@
     "checkedAt": "2026-06-19T13:01:29.611Z"
   },
   {
+    "repo": "modelflytao/red-team-challenge",
+    "name": "red-team-challenge",
+    "description": "red-team-challenge: adversarial fact-check / red-team skill for Claude Code (with upgrade dogfood)",
+    "tags": [
+      "adversarial-review",
+      "ai-safety",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "critical-thinking",
+      "devils-advocate",
+      "fact-checking",
+      "hallucination-detection",
+      "llm",
+      "pre-mortem",
+      "red-team",
+      "red-teaming"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-20T06:10:24Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
+  },
+  {
+    "repo": "ducquoc-gft/stm-skill",
+    "name": "stm-skill",
+    "description": "Simple Token Man - stm (fman)",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "claude-code-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-20T02:54:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -21789,5 +21904,30 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-15T18:14:04.176Z"
+  },
+  {
+    "repo": "ezra-y/ios-motion-patterns-index",
+    "name": "ios-motion-patterns-index",
+    "description": "Claude Code skill — index of ready-to-run Swift animation code examples, sourced from MotionBook.",
+    "tags": [
+      "agent-skill",
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "ios",
+      "ios-development",
+      "motion",
+      "swift",
+      "swiftui",
+      "uikit"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-17T18:20:53Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-20T10:22:00.591Z"
   }
 ]
