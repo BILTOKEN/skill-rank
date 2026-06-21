@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "cccdcd4c988e2f47",
-    "chineseDescription": "174个专业 Agent 技能（SKILL.md）+ 子代理 + 斜杠命令，适用于 Claude、ChatGPT、Gemini、Cursor、Codex 和 Hermes —— 一份源文件，所有 AI 工具通用。",
+    "sourceHash": "3149d6ddf0d13189",
+    "chineseDescription": "180个专业Agent技能（SKILL.md）+ 子代理 + 斜杠命令，适用于Claude、ChatGPT、Gemini、Cursor、Codex和Hermes——同一套来源，覆盖所有AI工具",
     "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载项目文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-06-19T13:20:34.845Z",
-    "backTranslationDiff": 0.375
+    "translatedAt": "2026-06-21T11:50:19.958Z",
+    "backTranslationDiff": 0.3125
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.125
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "c46b95456442b42a",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1500+ 个 agentic skills，适用于 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。内置专用插件、安装器 CLI、技能包、工作流，以及官方/社区技能合集。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录，完成安装。",
-    "translatedAt": "2026-06-05T12:37:55.773Z",
-    "backTranslationDiff": 0.21739130434782605
+    "sourceHash": "ba676994ac10b473",
+    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1600+ 个 agentic skills，支持 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。里面还有专用插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。",
+    "translatedAt": "2026-06-21T11:50:14.400Z",
+    "backTranslationDiff": 0.26086956521739135
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -7593,5 +7593,12 @@
     "prompt": "请从 https://github.com/karmadevplacer/mythos-claude-orchestrator 下载 Mythos-Claude-Orchestrator Skill 文件，并保存到 .claude/skills/mythos-claude-orchestrator/ 目录中，完成安装。",
     "translatedAt": "2026-06-18T12:52:24.117Z",
     "backTranslationDiff": 0.11111111111111116
+  },
+  "apiotrowski-afk/commercial-legal-pl": {
+    "sourceHash": "ef9d293853ab920e",
+    "chineseDescription": "波兰商业法律 — 用于根据波兰法律编辑和分析合同的 Claude Skill。涵盖 B2B IT 合同、和解协议、民法等。基于 Apache 2.0 许可证开源。",
+    "prompt": "请从 https://github.com/apiotrowski-afk/commercial-legal-pl 下载文件，保存到 .claude/skills/commercial-legal-pl/ 目录，完成安装。",
+    "translatedAt": "2026-06-21T11:50:24.045Z",
+    "backTranslationDiff": 0.75
   }
 }

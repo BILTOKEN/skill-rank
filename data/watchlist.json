@@ -14721,6 +14721,29 @@
     "checkedAt": "2026-06-18T12:35:22.096Z"
   },
   {
+    "repo": "alvarocortesdev/aperture-loop-skill",
+    "name": "aperture-loop-skill",
+    "description": "Unattended autonomous work loop skill for Claude Code: budget-aware self-stop at a usage threshold, disk-externalized state, subagent labor, resume across usage windows, and an adversarial review council.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "autonomous-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "llm"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-20T21:05:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -19277,6 +19300,109 @@
     "checkedAt": "2026-06-20T10:22:00.591Z"
   },
   {
+    "repo": "saqqdy/legacy-modernizer",
+    "name": "legacy-modernizer",
+    "description": "AI-powered legacy code modernizer for frontend projects — Vue 2→3, JS→TS, Webpack→Vite semantic migration via Claude Code Skill",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "js-to-ts",
+      "legacy-modernizer",
+      "migration",
+      "modernization",
+      "vue2-to-vue3",
+      "webpack-to-vite"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T07:40:26Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
+    "repo": "saqqdy/incident-commander",
+    "name": "incident-commander",
+    "description": "Incident Commander — A Claude Code Skill plugin that helps SRE / On-call engineers automatically collect multi-source data, generate incident timelines and root cause analyses, and output structured Post-Mortem documents",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "incident-commander",
+      "incident-response",
+      "on-call",
+      "post-mortem",
+      "rca",
+      "sre"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T07:27:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
+    "repo": "kabirnarang39/claude-team",
+    "name": "claude-team",
+    "description": "Dispatch a task, get a full team of specialist AI agents — planner, architect, engineers, QA, security reviewer — with live progress in your browser.",
+    "tags": [
+      "agent-orchestrator",
+      "agentic-coding",
+      "AI",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "developer-productivity",
+      "developer-tools",
+      "golang",
+      "llm",
+      "llm-agents",
+      "multi-agent",
+      "sqlite",
+      "websocket"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-20T18:14:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
+    "repo": "shanwije/proven-python",
+    "name": "proven-python",
+    "description": "Make your AI agent prove its Python before calling it done: TDD, strict typing, clean code, and a green ruff/mypy/pytest toolchain. A Claude Code skill, works with any agent.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "clean-code",
+      "code-review",
+      "mypy",
+      "pytest",
+      "python",
+      "ruff",
+      "software-engineering",
+      "tdd",
+      "type-hints"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T09:02:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
     "repo": "ryvrimmersive/exec-meta-eval",
     "name": "exec-meta-eval",
     "description": "Evaluates B2B page meta (title, description, OG, schema) across SEO/AEO/GEO quality and executive audience appeal — scored across 9 dimensions with a weighted report and ranked recommendations.",
@@ -21929,5 +22055,47 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-20T10:22:00.591Z"
+  },
+  {
+    "repo": "jingmingruo/agentplex",
+    "name": "AgentPlex",
+    "description": "Claude Code 多智能体编排技能 — 通过三层模型架构 + 11 种模式库 + 智谱免费模型，让复杂任务的成本降低 30-90%",
+    "tags": [
+      "ai-agents",
+      "claude-code-skill",
+      "developer-tools",
+      "llm-tools",
+      "multi-agent",
+      "parallel-execution",
+      "prompt-engineering",
+      "skill-system",
+      "workflow-orchestration"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-19T18:12:29Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
+  },
+  {
+    "repo": "ecoopnet/goal-me",
+    "name": "goal-me",
+    "description": "A Claude Code skill that turns a vague goal into a machine-verifiable closed loop for /goal — so it runs without drifting or burning excess cost.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "loop-engineering"
+    ],
+    "stars": 0,
+    "lastPush": "2026-06-20T09:04:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-21T11:34:38.691Z"
   }
 ]
