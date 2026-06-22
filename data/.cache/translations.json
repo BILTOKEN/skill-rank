@@ -1,10 +1,10 @@
 {
   "mksglu/context-mode": {
-    "sourceHash": "aabcc44cccd044d9",
-    "chineseDescription": "针对 AI 编码代理的上下文窗口优化。沙盒化工具输出，减少 98%。支持 15 个平台。",
-    "prompt": "请启用 context-mode 技能：优化上下文窗口，将工具输出进行沙盒隔离，减少 98% 的上下文占用，支持 15 个平台。",
-    "translatedAt": "2026-05-23T19:11:34.024Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "fbd1fd46cc96fd6c",
+    "chineseDescription": "针对 AI 编码代理的上下文窗口优化。沙箱化工具输出（减少 98%），持久化会话记忆，并通过 MCP + hooks 在 17 个平台间强制执行路由。",
+    "prompt": "请从 https://github.com/mksglu/context-mode 下载 context-mode skill 文件，并保存到 .claude/skills/context-mode/ 目录，完成安装。",
+    "translatedAt": "2026-06-22T18:27:51.068Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "AgriciDaniel/claude-seo": {
     "sourceHash": "f6adc69c6bdeab68",
@@ -2905,11 +2905,11 @@
     "backTranslationDiff": 0.6451612903225806
   },
   "mukul975/anthropic-cybersecurity-skills": {
-    "sourceHash": "b505c5d1916b3d9f",
-    "chineseDescription": "754个结构化网络安全技能，适用于AI代理 · 映射到5个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND和NIST AI RMF · agentskills.io标准 · 兼容Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI及20+平台 · 26个安全领域 · Apache 2.0许可【使用场景】用于在AI代理中集成网络安全技能，例如在Claude Code中快速加载结构化安全知识库。",
-    "prompt": "请从 https://github.com/mukul975/anthropic-cybersecurity-skills 下载该技能仓库，并将所有文件保存到 .claude/skills/anthropic-cybersecurity-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T12:53:29.739Z",
-    "backTranslationDiff": 0.0714285714285714
+    "sourceHash": "853d7caa9067d065",
+    "chineseDescription": "为 AI 智能体提供的 817 个结构化网络安全技能 · 映射到 6 个框架：MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS、D3FEND、NIST AI RMF 和 MITRE F3（反欺诈）· 遵循 agentskills.io 标准 · 兼容 Claude Code、GitHub Copilot、Codex CLI、Cursor、Gemini CLI 及 20 多个平台 · 覆盖 29 个安全领域 · Apache 2.0 开源许可",
+    "prompt": "请从 https://github.com/mukul975/anthropic-cybersecurity-skills 下载该仓库的全部文件，并将其保存到 .claude/skills/anthropic-cybersecurity-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-22T18:27:46.966Z",
+    "backTranslationDiff": 0.09999999999999998
   },
   "agricidaniel/claude-seo": {
     "sourceHash": "f6adc69c6bdeab68",
@@ -4662,11 +4662,11 @@
     "backTranslationDiff": 0.23076923076923073
   },
   "hoangsonww/claude-code-agent-monitor": {
-    "sourceHash": "efb5f2c679beb074",
-    "chineseDescription": "🚀 一个为 Claude Code 打造的实时监控仪表盘，基于 SQLite3、Node.js、Express、React、Vite、TailwindCSS 和 WebSockets 构建。它能追踪会话（sessions）、代理活动（agent activity）、工具使用（tool usage）和子代理编排（subagent orchestration），提供实时分析、看板状态面板（Kanban status board）、状态通知、一个可爱的伙伴（cute buddy），以及交互式网页界面/MacOS 原生应用。【使用场景】适合需要可视化监控 Claude Code 代理运行状态、分析工具使用情况和子代理协作的开发团队。",
-    "prompt": "请从 https://github.com/hoangsonww/claude-code-agent-monitor 下载该技能的所有文件，并保存到 .claude/skills/claude-code-agent-monitor/ 目录中，完成安装。如果目录不存在，请创建。",
-    "translatedAt": "2026-05-31T16:21:13.608Z",
-    "backTranslationDiff": 0.05714285714285716
+    "sourceHash": "24904868fbe41209",
+    "chineseDescription": "🚀 一个为 Claude Code 打造的实时监控面板，基于 SQLite3、Node.js、Express、React、Vite、TailwindCSS 和 WebSockets 构建。它能追踪会话、Agent 活动、工具使用和子 Agent 编排，提供实时分析、看板状态板、状态通知、一个可爱的小助手，以及交互式 Web UI/MacOS/Windows 原生应用。",
+    "prompt": "请从 https://github.com/hoangsonww/claude-code-agent-monitor 下载整个仓库，然后将所有文件保存到 .claude/skills/claude-code-agent-monitor/ 目录下，完成安装。",
+    "translatedAt": "2026-06-22T18:27:55.761Z",
+    "backTranslationDiff": 0.2571428571428571
   },
   "klotzkette/claude-fuer-deutsches-recht": {
     "sourceHash": "6c5e505d5990bd46",
@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "d54b4d5a5fa8efa7",
-    "chineseDescription": "Claude Skills 治理、风险与合规（GRC）：针对 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险、SWIFT、澳大利亚 ISM、欧盟 NIS2 和 CCPA/CPRA 提供专家级合规指导。基准测试得分：有技能 97% vs 无技能 81%。",
-    "prompt": "请从 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载所有文件，并保存到 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录中，完成安装。",
-    "translatedAt": "2026-06-01T19:47:10.286Z",
-    "backTranslationDiff": 0.17647058823529416
+    "sourceHash": "863815a9f668e091",
+    "chineseDescription": "Claude Skills 治理、风险与合规（GRC）：针对 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、澳大利亚 ISM、EU NIS2、CCPA/CPRA 等标准的专家级合规指导。基准测试：启用技能后准确率 97%，未启用则为 81%。",
+    "prompt": "请从 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载所有文件，并保存到 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下，完成安装。",
+    "translatedAt": "2026-06-22T18:28:01.340Z",
+    "backTranslationDiff": 0.2571428571428571
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -5474,11 +5474,11 @@
     "backTranslationDiff": 0.3846153846153846
   },
   "ianho7/ai-friendly-web-design-skill": {
-    "sourceHash": "0f2fdf53b8453f1a",
-    "chineseDescription": "一个 Claude Code Skill，帮助你构建对 AI 代理（AI agents）和人类用户都友好的 Web 界面——涵盖语义化 HTML、ARIA 属性、稳定定位器（stable locators）、表单最佳实践等内容。",
-    "prompt": "请从 https://github.com/ianho7/ai-friendly-web-design-skill 下载文件，保存到 .claude/skills/ai-friendly-web-design-skill/ 目录，完成安装。",
-    "translatedAt": "2026-05-31T07:27:22.813Z",
-    "backTranslationDiff": 0.13043478260869568
+    "sourceHash": "e7a80d2c0f3b165d",
+    "chineseDescription": "一个面向编码 Agent 的 Web UI 构建、审查和重构技能，让人类、屏幕阅读器、浏览器自动化、Playwright 测试以及 AI Agent 都能更容易理解和操作。",
+    "prompt": "请从 https://github.com/ianho7/ai-friendly-web-design-skill 下载该技能的所有文件，并保存到 .claude/skills/ai-friendly-web-design-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-06-22T18:28:08.961Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "rediumvex/social-media-caption-generator-claude": {
     "sourceHash": "7818657eb4a86dbf",
@@ -7600,5 +7600,19 @@
     "prompt": "请从 https://github.com/apiotrowski-afk/commercial-legal-pl 下载文件，保存到 .claude/skills/commercial-legal-pl/ 目录，完成安装。",
     "translatedAt": "2026-06-21T11:50:24.045Z",
     "backTranslationDiff": 0.75
+  },
+  "shouldnotappearcalm/a-share-skill": {
+    "sourceHash": "a6b4a9f16c104711",
+    "chineseDescription": "A股数据分析、量化选股与模拟交易 Skill 集合，支持实时行情、历史K线、技术指标、自定义交易策略与模拟买入、卖出交易账户",
+    "prompt": "请从 https://github.com/shouldnotappearcalm/a-share-skill 下载 a-share-skill 项目文件，并将其保存到 .claude/skills/a-share-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-06-22T18:28:05.127Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "thisislittlesky/waterpaper": {
+    "sourceHash": "47593a7bdb1558fa",
+    "chineseDescription": "水论文 Skill：一句话出论文——多角度选题、真实文献采集、大纲写作、降 AIGC 率、降重复率、绘制图表、DOCX 交付",
+    "prompt": "请从 https://github.com/thisislittlesky/waterpaper 下载 WaterPaper Skill 的所有文件，并保存到 .claude/skills/waterpaper/ 目录中，完成安装。",
+    "translatedAt": "2026-06-22T18:28:13.342Z",
+    "backTranslationDiff": 1
   }
 }

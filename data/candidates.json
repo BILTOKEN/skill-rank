@@ -6313,6 +6313,24 @@
     "lastPush": "2026-02-08T03:22:32Z"
   },
   {
+    "repo": "shouldnotappearcalm/a-share-skill",
+    "name": "a-share-skill",
+    "description": "A股数据分析、量化选股与模拟交易 Skill 集合，支持实时行情、历史K线、技术指标、自定义交易策略与模拟买入、卖出交易账户",
+    "tags": [
+      "a-share",
+      "agent-skills",
+      "akshare",
+      "claude-code",
+      "claude-skills",
+      "mcp",
+      "paper-trading",
+      "quant",
+      "stock"
+    ],
+    "stars": 165,
+    "lastPush": "2026-06-22T12:13:41Z"
+  },
+  {
     "repo": "kyure-a/agent-skills-nix",
     "name": "agent-skills-nix",
     "description": "Declarative management of Agent Skills on Nix",
@@ -8935,6 +8953,22 @@
     ],
     "stars": 43,
     "lastPush": "2026-04-03T09:56:47Z"
+  },
+  {
+    "repo": "thisislittlesky/waterpaper",
+    "name": "WaterPaper",
+    "description": "水论文skill一句话出论文：多角度选题、真实文献采集、大纲写作、降AIGC率、降重复率、绘制图表、DOCX交付",
+    "tags": [
+      "academic-writing",
+      "anti-ai-detection",
+      "claude-code-skill",
+      "course-paper",
+      "literature-scraper",
+      "paper-generator",
+      "python"
+    ],
+    "stars": 43,
+    "lastPush": "2026-06-22T06:18:22Z"
   },
   {
     "repo": "rootly-ai-labs/rootly-mcp-server",
@@ -16518,6 +16552,20 @@
     "lastPush": "2026-06-07T05:38:35Z"
   },
   {
+    "repo": "tga-cheetung/yt-digest",
+    "name": "yt-digest",
+    "description": "Paste a YouTube link, get a vault-ready research digest in 90 seconds: TL;DR, timestamped takeaways, slide screenshots, transcript. A Claude Code skill.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "content-engine",
+      "gtm-engineering",
+      "obsidian"
+    ],
+    "stars": 6,
+    "lastPush": "2026-05-28T22:46:02Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -20312,6 +20360,33 @@
     "lastPush": "2026-06-20T21:05:08Z"
   },
   {
+    "repo": "matiaspalmac/fivem-security-audit",
+    "name": "fivem-security-audit",
+    "description": "Audit FiveM and RedM resources for backdoors, exploits and crash vectors. A Claude Code skill for ESX, QBCore and QBox.",
+    "tags": [
+      "anticheat",
+      "backdoor-detection",
+      "claude-code",
+      "claude-code-skill",
+      "esx",
+      "fivem",
+      "fivem-audit",
+      "fivem-exploit",
+      "fivem-resource",
+      "fivem-script",
+      "fivem-security",
+      "lua",
+      "nd-core",
+      "oxmysql",
+      "performance",
+      "qbcore",
+      "qbox",
+      "security-audit"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-21T14:38:04Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -23974,6 +24049,97 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-21T09:02:40Z"
+  },
+  {
+    "repo": "jamessoubry/claude-backlog",
+    "name": "claude-backlog",
+    "description": "Rate-limit-aware Claude Code skill: implement/test/release todo list with subagents and auto-resume",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-commands",
+      "claude-code-skill",
+      "developer-tools"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T22:17:58Z"
+  },
+  {
+    "repo": "9railu/static-site-admin-skill",
+    "name": "static-site-admin-skill",
+    "description": "Secure local admin UI for static sites — zero npm dependencies, single file, auto HTTPS, LAN device pairing",
+    "tags": [
+      "admin-panel",
+      "astro",
+      "claude-code",
+      "claude-code-skill",
+      "https",
+      "lan",
+      "local-development",
+      "nodejs",
+      "single-file",
+      "static-site",
+      "vite",
+      "zero-dependencies"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T04:47:14Z"
+  },
+  {
+    "repo": "somsamantray-meritto/askmeritto-skill",
+    "name": "askmeritto-skill",
+    "description": "/askmeritto Skill — Claude Code skill for Meritto product, features, guides, developer APIs, Mio AI, and company news from Meritto's own sources",
+    "tags": [
+      "claude-code-skill",
+      "edtech",
+      "meritto",
+      "mio-ai",
+      "nopaperforms"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-22T15:42:37Z"
+  },
+  {
+    "repo": "kaos599/deep-ass-research",
+    "name": "Deep-Ass-Research",
+    "description": "IDE-agnostic deep-research framework for AI agents: maps a topic wide, commits to depth on purpose, adversarially verifies its findings, and synthesizes them into a backlinked, primary-sourced Obsidian vault. Works in Claude Code, Cursor, opencode, or any agent.",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cursor",
+      "deep-research",
+      "knowledge-graph",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "obsidian",
+      "opencode",
+      "research-agent",
+      "subagents"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-22T07:41:08Z"
+  },
+  {
+    "repo": "jamesbuckett/skill-update-repo",
+    "name": "skill-update-repo",
+    "description": "Claude Code skill that scaffolds a GitHub repo's README, MIT LICENSE, topics, description, and homepage in one shot.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "gh-cli",
+      "github-automation",
+      "github-topics",
+      "mit-license",
+      "readme-generator",
+      "repository-scaffolding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-12T17:34:45Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
