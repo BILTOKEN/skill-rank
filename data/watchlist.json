@@ -5663,6 +5663,24 @@
     "checkedAt": "2026-06-01T19:31:48.348Z"
   },
   {
+    "repo": "chesley-veko/book_skill",
+    "name": "book_skill",
+    "description": "一个 agent skill：把一个主题做成封面/目录/每章插画/精排俱全、可直接出片的 PDF 书。多 agent   调研→逐章写作→配图→Typst 排版→事实核查。工具无关(Claude Code / Codex)、风格可插拔",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "codex",
+      "codex-skill"
+    ],
+    "stars": 14,
+    "lastPush": "2026-06-03T15:12:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-23T04:31:56.996Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -9356,6 +9374,47 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-19T13:01:29.611Z"
+  },
+  {
+    "repo": "openfate-ai/bazi-mcp",
+    "name": "bazi-mcp",
+    "description": "OpenFate Bazi MCP server with deterministic Four Pillars calculation, True Solar Time, branch interactions, and reverse Bazi lookup.",
+    "tags": [
+      "claude-skills",
+      "four-pillars",
+      "mcp",
+      "openfate",
+      "true-solar-time"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-19T00:17:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-23T04:31:56.996Z"
+  },
+  {
+    "repo": "oleksbard/claude-find-skill",
+    "name": "claude-find-skill",
+    "description": "A Claude Code skill that finds skills you don't have yet",
+    "tags": [
+      "AI",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "skill",
+      "skill-md",
+      "skills"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-20T13:44:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-23T04:31:56.996Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -19589,6 +19648,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-22T18:05:21.692Z"
+  },
+  {
+    "repo": "claudefarid/claude-ceo-skill",
+    "name": "claude-ceo-skill",
+    "description": "Claude AI Skills for  CEO or Chief of Staff. 21 business domains, 20 live integrations (HubSpot, GA4, Stripe, Notion, Slack & more), 25+ red flag alerts, regional benchmarks. Adapts to your background. Install in Claude Code.",
+    "tags": [
+      "ceo-tools",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-subagents",
+      "claude-for-ceo",
+      "claude-for-small-business",
+      "claude-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T13:36:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-23T04:31:56.996Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
