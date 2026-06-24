@@ -6721,6 +6721,27 @@
     "checkedAt": "2026-06-10T12:44:52.547Z"
   },
   {
+    "repo": "korroai/korrodesign",
+    "name": "korrodesign",
+    "description": "Design Copilot for Claude Code. Two enforcement layers (Taste Guardian + Blind Spot ESLint). 7-phase design pipeline. Zero dependencies. Awwwards-level output.",
+    "tags": [
+      "claude-code-skill",
+      "code-quality",
+      "design-system",
+      "eslint-plugin",
+      "nextjs",
+      "ui-ux",
+      "web-design"
+    ],
+    "stars": 12,
+    "lastPush": "2026-06-23T19:12:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -8368,6 +8389,29 @@
     "checkedAt": "2026-06-16T18:21:51.531Z"
   },
   {
+    "repo": "sunj243909596-collab/analysis-to-delivery",
+    "name": "analysis-to-delivery",
+    "description": "通用需求到开发设计工作流 — 26 个独立可组合 skill,跨行业(医药/SaaS/移动),3 个完整示例,5 个 CI workflow,Mermaid/Drawio 流程图工具链,VSCode 集成",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "documentation-tool",
+      "hermes",
+      "prd",
+      "requirements-analysis",
+      "software-design",
+      "workflow"
+    ],
+    "stars": 9,
+    "lastPush": "2026-06-22T14:39:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -9415,6 +9459,51 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-23T04:31:56.996Z"
+  },
+  {
+    "repo": "connerkward/screenstudio-alt-skill",
+    "name": "screenstudio-alt-skill",
+    "description": "screenstudio-alt — an open-source headless Screen Studio alternative (Claude Code skill): auto-zoom, idle speed-up, vertical export.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "ffmpeg",
+      "screen-recording",
+      "screencast",
+      "video"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-23T12:06:57Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
+    "repo": "pupok462/open-geo",
+    "name": "open-geo",
+    "description": "open-geo — GEO (Generative Engine Optimization) visibility tracker: measure how a brand surfaces in AI answers, with a FastAPI/React dashboard and dark-themed PDF reports.",
+    "tags": [
+      "aeo-optimization",
+      "answer-engine-optimization",
+      "claude",
+      "claude-skills",
+      "generative-engine-optimization",
+      "geo"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-22T18:37:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -10851,6 +10940,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-16T18:21:51.531Z"
+  },
+  {
+    "repo": "ahmadatallah/jabr",
+    "name": "jabr",
+    "description": "Stacked pull requests on plain git + the GitHub CLI. A Claude-native skill that splits a feature into a clean chain of small, dependent PRs — with automatic restacking.",
+    "tags": [
+      "bun",
+      "claude",
+      "claude-code-skill",
+      "code-review",
+      "developer-tools",
+      "gh-cli",
+      "git-workflow",
+      "github",
+      "pull-requests",
+      "stacked-diffs",
+      "stacked-prs",
+      "typescript"
+    ],
+    "stars": 5,
+    "lastPush": "2026-06-23T12:57:31Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -12465,6 +12580,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-16T18:21:51.531Z"
+  },
+  {
+    "repo": "alper-dev/build-for-good-ux-skill",
+    "name": "build-for-good-ux-skill",
+    "description": "Agent skill for building UIs with proper loading states, error handling, empty states, form UX, and graceful degradation",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "前端",
+      "user-experience",
+      "ux"
+    ],
+    "stars": 4,
+    "lastPush": "2026-06-23T07:14:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -14873,6 +15009,29 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-22T18:05:21.692Z"
+  },
+  {
+    "repo": "korroai/korroresearch",
+    "name": "korroresearch",
+    "description": "One command. Nine formats. Complete document production system. Research papers, pitch decks, grants, white papers, books, talks : from blank page to submission-ready in 60 seconds.",
+    "tags": [
+      "academic-writing",
+      "claude-code-skill",
+      "grant-proposal",
+      "markdown",
+      "pdf-generation",
+      "pitch-deck",
+      "python",
+      "research-paper",
+      "writing-tool"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-23T22:57:56Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -19669,6 +19828,69 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-23T04:31:56.996Z"
+  },
+  {
+    "repo": "gtbwpkwjnb-alt/summarize-skill",
+    "name": "summarize-skill",
+    "description": "🛡️ Error immune system for AI coding agents — auto-harvests mistakes, evolves prevention rules, tracks adoption, never repeats. / 错误免疫系统: 自动收割→自进化规则→收敛预警。保留 summarize 触发词。",
+    "tags": [
+      "agent-memory",
+      "agent-skill",
+      "ai-coding",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "context-compression",
+      "cursor",
+      "developer-tools",
+      "diagnostics",
+      "error-harvesting",
+      "error-prevention",
+      "productivity",
+      "self-evolution",
+      "self-evolving",
+      "session-management",
+      "summarize",
+      "windsurf",
+      "zcode",
+      "zcode-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-24T03:48:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
+    "repo": "devdannnny/chisel",
+    "name": "chisel",
+    "description": "Open-source prompt architecture for AI agents. One framework, three tiers — from quick creative prompts to high-stakes agentic workflows. Works with Claude Code, Cursor, Antigravity, and any markdown-aware agent runtime.",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "antigravity",
+      "后端",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "cursor",
+      "前端",
+      "llm",
+      "ollama",
+      "prompt-architecture",
+      "prompt-engineering",
+      "prompts"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-01T08:46:37Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
