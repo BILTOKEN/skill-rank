@@ -3254,6 +3254,26 @@
     "checkedAt": "2026-06-05T12:19:50.440Z"
   },
   {
+    "repo": "terryc21/skill-reviewer",
+    "name": "skill-reviewer",
+    "description": "Candid reviews of Claude Code skills. File:line citations. Ranked actions. No filler.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "code-quality",
+      "code-review",
+      "developer-tools",
+      "skill-review"
+    ],
+    "stars": 23,
+    "lastPush": "2026-05-19T10:47:32Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -3876,6 +3896,25 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "ommakes/skills",
+    "name": "Skills",
+    "description": "Skills for product design",
+    "tags": [
+      "claude-skills",
+      "design-system",
+      "product-design",
+      "ux",
+      "ux-design"
+    ],
+    "stars": 19,
+    "lastPush": "2026-06-24T14:20:36Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
   },
   {
     "repo": "bjwanneng/veriflow-cc",
@@ -6363,6 +6402,29 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-13T10:16:10.072Z"
+  },
+  {
+    "repo": "blueprintos/analysis-to-delivery",
+    "name": "analysis-to-delivery",
+    "description": "通用需求到开发设计工作流 — 26 个独立可组合 skill,跨行业(医药/SaaS/移动),3 个完整示例,5 个 CI workflow,Mermaid/Drawio 流程图工具链,VSCode 集成",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "documentation-tool",
+      "hermes",
+      "prd",
+      "requirements-analysis",
+      "software-design",
+      "workflow"
+    ],
+    "stars": 13,
+    "lastPush": "2026-06-25T02:53:18Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
   },
   {
     "repo": "darrenbenson/sdlc-studio",
@@ -8975,6 +9037,61 @@
     "checkedAt": "2026-06-20T10:22:00.591Z"
   },
   {
+    "repo": "yurunchen/repo-docs-skills",
+    "name": "repo-docs-skills",
+    "description": "Living project docs for coding agents: keep guides, progress logs, change maps, and handoff context updated as your repo evolves.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "codex-skills",
+      "coding-agent",
+      "skills",
+      "understanding",
+      "vibe-coding"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-25T03:09:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
+    "repo": "linny006/trending-claude-skills",
+    "name": "trending-claude-skills",
+    "description": "Auto-updated leaderboard of trending claude-skills and AI agent repos, refreshed every 15 minutes",
+    "tags": [
+      "ai-agents",
+      "ai-coding",
+      "ai-development",
+      "ai-tools",
+      "ai-workflow",
+      "anthropic",
+      "auto-updated",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agent",
+      "developer-tools",
+      "generative-ai",
+      "live-data",
+      "llm-ecosystem",
+      "llm-tools",
+      "machine-learning",
+      "mcp-server"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-25T04:45:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -10966,6 +11083,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
+    "repo": "terryc21/unforget",
+    "name": "unforget",
+    "description": "A Claude Code skill — single source of truth for deferred work. Don't lose track of what you've punted.",
+    "tags": [
+      "backlog",
+      "claude-code",
+      "claude-code-skill",
+      "defer",
+      "deferred",
+      "deferred-tasks",
+      "task-management"
+    ],
+    "stars": 5,
+    "lastPush": "2026-06-24T14:31:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -13472,6 +13610,38 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-19T13:01:29.611Z"
+  },
+  {
+    "repo": "hanshaoyuyehanshaoyuye/everyones-video",
+    "name": "everyones-video",
+    "description": "Free-first video subtitle pipeline — ASR, translate, TTS dub, burn. MIT. Docker. Claude Code skill.",
+    "tags": [
+      "asr",
+      "bilingual-subtitles",
+      "chrome-extension",
+      "claude-code-skill",
+      "docker",
+      "funasr",
+      "machine-translation",
+      "mit-license",
+      "open-source",
+      "python",
+      "real-time-translation",
+      "speaker-diarization",
+      "subtitle-translation",
+      "subtitles",
+      "translation-memory",
+      "video-processing",
+      "whisper",
+      "youtube"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-25T03:33:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -19891,6 +20061,80 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-24T04:39:33.570Z"
+  },
+  {
+    "repo": "valleyxht/career-fit-planner",
+    "name": "career-fit-planner",
+    "description": "基于简历自动调研岗位、面经、技能要求的 Claude Code Skill",
+    "tags": [
+      "career-planning",
+      "claude-code-skill",
+      "job-search"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T13:29:32Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
+    "repo": "ezra-y/awesome-claude-ui-armory",
+    "name": "awesome-claude-ui-armory",
+    "description": "Curated index of frontend/UI skills for Claude Code & AI agents — a UI armory (links only).",
+    "tags": [
+      "agent-skill",
+      "awesome-list",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "curated",
+      "设计",
+      "design-system",
+      "前端",
+      "react",
+      "shadcn",
+      "swiftui",
+      "tailwind",
+      "ui",
+      "ux"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-24T06:58:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
+    "repo": "eververdants/inkling",
+    "name": "inkling",
+    "description": "From \"no idea\" to a shippable project proposal — 5 stages, ~10 questions",
+    "tags": [
+      "ai-agent",
+      "ai-skills",
+      "anthropic-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "hermes",
+      "markdown",
+      "openclaw",
+      "opencode",
+      "product-discovery",
+      "project-ideas",
+      "project-planning",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-24T10:08:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-25T04:36:07.070Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

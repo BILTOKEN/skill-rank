@@ -25,72 +25,6 @@
     }
   },
   {
-    "repo": "nexu-io/open-design",
-    "name": "open-design",
-    "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-    "description_zh": "🎨 本地优先、开源的 Claude Design 替代品。🖥️ 原生桌面应用。⚡ 259+ 技能 · ✨ 142+ 设计系统 🖼️ Web、桌面、移动端原型、幻灯片、图片、视频、HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 支持 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi 及 17+ 个 CLI。【使用场景】适用于需要本地优先、开源的设计工具，支持多种原型和导出格式，可与多种 CLI 集成。",
-    "description_en": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
-    "prompt": "请从 GitHub 仓库 https://github.com/nexu-io/open-design 下载最新版本，并将其内容放置到 .claude/skills/open-design/ 目录下（如果目录不存在则创建），完成安装。",
-    "tags": [
-      "agent-skills",
-      "ai-agents",
-      "ai-design",
-      "byok",
-      "claude-code-for-design",
-      "claude-design",
-      "codex-design",
-      "coding-agents",
-      "cursor-design",
-      "design-systems",
-      "design-tools",
-      "desktop-app",
-      "figma-alternative",
-      "generative-ai",
-      "hermes-agent",
-      "local-first",
-      "no-code",
-      "prototyping",
-      "ui-generator",
-      "vibe-coding"
-    ],
-    "metrics": {
-      "stars_total": 56315,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 5,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 30,
-      "last_push": ""
-    }
-  },
-  {
-    "repo": "affaan-m/ecc",
-    "name": "ECC",
-    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "description_zh": "这是一个代理（agent）框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等工具提供技能（skills）、本能（instincts）、记忆（memory）、安全（security）以及研究优先的开发模式。【使用场景】适用于需要优化AI代理性能、增强记忆和安全性的开发场景。",
-    "description_en": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-    "prompt": "请安装 ECC 技能：从 https://github.com/affaan-m/ecc 克隆或下载仓库内容，并将所有文件保存到 .claude/skills/ecc/ 目录下，完成安装。",
-    "tags": [
-      "ai-agents",
-      "anthropic",
-      "claude",
-      "claude-code",
-      "developer-tools",
-      "llm",
-      "mcp",
-      "productivity"
-    ],
-    "metrics": {
-      "stars_total": 189786,
-      "stars_added_this_week": 0,
-      "issues_opened": 7,
-      "issues_closed": 0,
-      "issue_comments": 0,
-      "commits_this_week": 30,
-      "last_push": ""
-    }
-  },
-  {
     "repo": "mukul975/anthropic-cybersecurity-skills",
     "name": "Anthropic-Cybersecurity-Skills",
     "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
@@ -148,32 +82,107 @@
     }
   },
   {
-    "repo": "safishamsi/graphify",
-    "name": "graphify",
-    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-    "description_zh": "AI编码助手技能（支持Claude Code、Codex、OpenCode、Cursor、Gemini CLI等）。将任意包含代码、SQL schema（数据库模式）、R脚本、shell脚本、文档、论文、图片或视频的文件夹，转化为可查询的知识图谱。应用代码、数据库schema（模式）和基础设施整合在一个图中。【使用场景】适用于需要将项目代码、数据库结构、文档等关联起来进行智能查询的场景。",
-    "description_en": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
-    "prompt": "请从 https://github.com/safishamsi/graphify 下载 graphify 技能文件，并将其保存到 .claude/skills/graphify/ 目录下，完成安装。",
+    "repo": "affaan-m/ecc",
+    "name": "ECC",
+    "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "description_zh": "这是一个代理（agent）框架性能优化系统。为 Claude Code、Codex、Opencode、Cursor 等工具提供技能（skills）、本能（instincts）、记忆（memory）、安全（security）以及研究优先的开发模式。【使用场景】适用于需要优化AI代理性能、增强记忆和安全性的开发场景。",
+    "description_en": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+    "prompt": "请安装 ECC 技能：从 https://github.com/affaan-m/ecc 克隆或下载仓库内容，并将所有文件保存到 .claude/skills/ecc/ 目录下，完成安装。",
     "tags": [
-      "antigravity",
+      "ai-agents",
+      "anthropic",
+      "claude",
       "claude-code",
-      "codex",
-      "gemini",
-      "graphrag",
-      "knowledge-graph",
-      "leiden",
-      "openclaw",
-      "rag",
-      "skills",
-      "tree-sitter"
+      "developer-tools",
+      "llm",
+      "mcp",
+      "productivity"
     ],
     "metrics": {
-      "stars_total": 57159,
+      "stars_total": 189786,
+      "stars_added_this_week": 0,
+      "issues_opened": 7,
+      "issues_closed": 0,
+      "issue_comments": 0,
+      "commits_this_week": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "nexu-io/open-design",
+    "name": "open-design",
+    "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+    "description_zh": "🎨 本地优先、开源的 Claude Design 替代品。🖥️ 原生桌面应用。⚡ 259+ 技能 · ✨ 142+ 设计系统 🖼️ Web、桌面、移动端原型、幻灯片、图片、视频、HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 支持 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi 及 17+ 个 CLI。【使用场景】适用于需要本地优先、开源的设计工具，支持多种原型和导出格式，可与多种 CLI 集成。",
+    "description_en": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 259+ Skills · ✨ 142+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
+    "prompt": "请从 GitHub 仓库 https://github.com/nexu-io/open-design 下载最新版本，并将其内容放置到 .claude/skills/open-design/ 目录下（如果目录不存在则创建），完成安装。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-design",
+      "byok",
+      "claude-code-for-design",
+      "claude-design",
+      "codex-design",
+      "coding-agents",
+      "cursor-design",
+      "design-systems",
+      "design-tools",
+      "desktop-app",
+      "figma-alternative",
+      "generative-ai",
+      "hermes-agent",
+      "local-first",
+      "no-code",
+      "prototyping",
+      "ui-generator",
+      "vibe-coding"
+    ],
+    "metrics": {
+      "stars_total": 56315,
       "stars_added_7d": 0,
-      "issues_opened_7d": 17,
-      "issues_closed_7d": 13,
+      "issues_opened_7d": 5,
+      "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "mvanhorn/last30days-skill",
+    "name": "last30days-skill",
+    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "description_zh": "一个 AI agent 技能，可以在 Reddit、X（Twitter）、YouTube、HN（Hacker News）、Polymarket 以及整个网络上研究任何话题，然后综合生成一个有依据的摘要。【使用场景】当你需要快速了解某个话题在各大社交平台和网络上的讨论情况时，可以用这个技能。",
+    "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+    "prompt": "请从 https://github.com/mvanhorn/last30days-skill 下载该技能，并将所有文件保存到 .claude/skills/last30days-skill/ 目录下，完成安装。",
+    "tags": [
+      "ai-prompts",
+      "ai-skill",
+      "bluesky",
+      "claude",
+      "claude-code",
+      "clawhub",
+      "deep-research",
+      "hackernews",
+      "instagram",
+      "openclaw",
+      "polymarket",
+      "recency",
+      "reddit",
+      "research",
+      "social-media",
+      "tiktok",
+      "trends",
+      "twitter",
+      "web-search",
+      "youtube"
+    ],
+    "metrics": {
+      "stars_total": 26448,
+      "stars_added_this_week": 0,
+      "issues_opened": 6,
+      "issues_closed": 2,
+      "issue_comments": 0,
+      "commits_this_week": 23,
       "last_push": ""
     }
   },
@@ -216,41 +225,32 @@
     }
   },
   {
-    "repo": "mvanhorn/last30days-skill",
-    "name": "last30days-skill",
-    "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "description_zh": "一个 AI agent 技能，可以在 Reddit、X（Twitter）、YouTube、HN（Hacker News）、Polymarket 以及整个网络上研究任何话题，然后综合生成一个有依据的摘要。【使用场景】当你需要快速了解某个话题在各大社交平台和网络上的讨论情况时，可以用这个技能。",
-    "description_en": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-    "prompt": "请从 https://github.com/mvanhorn/last30days-skill 下载该技能，并将所有文件保存到 .claude/skills/last30days-skill/ 目录下，完成安装。",
+    "repo": "safishamsi/graphify",
+    "name": "graphify",
+    "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "description_zh": "AI编码助手技能（支持Claude Code、Codex、OpenCode、Cursor、Gemini CLI等）。将任意包含代码、SQL schema（数据库模式）、R脚本、shell脚本、文档、论文、图片或视频的文件夹，转化为可查询的知识图谱。应用代码、数据库schema（模式）和基础设施整合在一个图中。【使用场景】适用于需要将项目代码、数据库结构、文档等关联起来进行智能查询的场景。",
+    "description_en": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+    "prompt": "请从 https://github.com/safishamsi/graphify 下载 graphify 技能文件，并将其保存到 .claude/skills/graphify/ 目录下，完成安装。",
     "tags": [
-      "ai-prompts",
-      "ai-skill",
-      "bluesky",
-      "claude",
+      "antigravity",
       "claude-code",
-      "clawhub",
-      "deep-research",
-      "hackernews",
-      "instagram",
+      "codex",
+      "gemini",
+      "graphrag",
+      "knowledge-graph",
+      "leiden",
       "openclaw",
-      "polymarket",
-      "recency",
-      "reddit",
-      "research",
-      "social-media",
-      "tiktok",
-      "trends",
-      "twitter",
-      "web-search",
-      "youtube"
+      "rag",
+      "skills",
+      "tree-sitter"
     ],
     "metrics": {
-      "stars_total": 26448,
-      "stars_added_this_week": 0,
-      "issues_opened": 6,
-      "issues_closed": 2,
+      "stars_total": 57159,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 17,
+      "issues_closed_7d": 13,
       "issue_comments": 0,
-      "commits_this_week": 23,
+      "commits_7d": 30,
       "last_push": ""
     }
   },
@@ -451,6 +451,28 @@
     }
   },
   {
+    "repo": "coreyhaines31/marketingskills",
+    "name": "marketingskills",
+    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "description_zh": "适用于 Claude Code 和 AI 代理的营销技能。涵盖 CRO（转化率优化）、文案撰写、SEO（搜索引擎优化）、分析以及增长工程。【使用场景】用于在 Claude Code 中集成营销相关的自动化任务，如优化转化率、生成文案、分析数据等。",
+    "description_en": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+    "prompt": "请安装 marketingskills 技能：从 GitHub 仓库 https://github.com/coreyhaines31/marketingskills 下载所有文件，并保存到 .claude/skills/marketingskills/ 目录下，完成安装。",
+    "tags": [
+      "claude",
+      "codex",
+      "marketing"
+    ],
+    "metrics": {
+      "stars_total": 30265,
+      "stars_added_this_week": 0,
+      "issues_opened": 1,
+      "issues_closed": 8,
+      "issue_comments": 0,
+      "commits_this_week": 12,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "santifer/career-ops",
     "name": "career-ops",
     "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
@@ -479,28 +501,6 @@
       "issues_closed_7d": 1,
       "issue_comments": 0,
       "commits_7d": 2,
-      "last_push": ""
-    }
-  },
-  {
-    "repo": "coreyhaines31/marketingskills",
-    "name": "marketingskills",
-    "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "description_zh": "适用于 Claude Code 和 AI 代理的营销技能。涵盖 CRO（转化率优化）、文案撰写、SEO（搜索引擎优化）、分析以及增长工程。【使用场景】用于在 Claude Code 中集成营销相关的自动化任务，如优化转化率、生成文案、分析数据等。",
-    "description_en": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
-    "prompt": "请安装 marketingskills 技能：从 GitHub 仓库 https://github.com/coreyhaines31/marketingskills 下载所有文件，并保存到 .claude/skills/marketingskills/ 目录下，完成安装。",
-    "tags": [
-      "claude",
-      "codex",
-      "marketing"
-    ],
-    "metrics": {
-      "stars_total": 30265,
-      "stars_added_this_week": 0,
-      "issues_opened": 1,
-      "issues_closed": 8,
-      "issue_comments": 0,
-      "commits_this_week": 12,
       "last_push": ""
     }
   },
@@ -595,42 +595,6 @@
     }
   },
   {
-    "repo": "composiohq/awesome-claude-skills",
-    "name": "awesome-claude-skills",
-    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "description_zh": "一个精选的列表，包含优秀的 Claude Skills、资源和工具，用于定制 Claude AI 工作流。【使用场景】快速发现和安装各种 Claude Skills，扩展 Claude 的功能。",
-    "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
-    "prompt": "请从 https://github.com/composiohq/awesome-claude-skills 下载该仓库，并将所有文件保存到 .claude/skills/awesome-claude-skills/ 目录下，完成安装。",
-    "tags": [
-      "agent-skills",
-      "ai-agents",
-      "antigravity",
-      "automation",
-      "claude",
-      "claude-code",
-      "codex",
-      "composio",
-      "cursor",
-      "developer-tools",
-      "gemini-cli",
-      "mcp",
-      "openai-codex",
-      "rube",
-      "saas",
-      "skill",
-      "workflow-automation"
-    ],
-    "metrics": {
-      "stars_total": 61535,
-      "stars_added_this_week": 0,
-      "issues_opened": 2,
-      "issues_closed": 0,
-      "issue_comments": 0,
-      "commits_this_week": 4,
-      "last_push": ""
-    }
-  },
-  {
     "repo": "virgiliojr94/book-to-skill",
     "name": "book-to-skill",
     "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
@@ -692,6 +656,42 @@
       "issues_closed_7d": 2,
       "issue_comments": 0,
       "commits_7d": 5,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "composiohq/awesome-claude-skills",
+    "name": "awesome-claude-skills",
+    "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "description_zh": "一个精选的列表，包含优秀的 Claude Skills、资源和工具，用于定制 Claude AI 工作流。【使用场景】快速发现和安装各种 Claude Skills，扩展 Claude 的功能。",
+    "description_en": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+    "prompt": "请从 https://github.com/composiohq/awesome-claude-skills 下载该仓库，并将所有文件保存到 .claude/skills/awesome-claude-skills/ 目录下，完成安装。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "automation",
+      "claude",
+      "claude-code",
+      "codex",
+      "composio",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "mcp",
+      "openai-codex",
+      "rube",
+      "saas",
+      "skill",
+      "workflow-automation"
+    ],
+    "metrics": {
+      "stars_total": 61535,
+      "stars_added_this_week": 0,
+      "issues_opened": 2,
+      "issues_closed": 0,
+      "issue_comments": 0,
+      "commits_this_week": 4,
       "last_push": ""
     }
   },
@@ -1429,37 +1429,6 @@
     }
   },
   {
-    "repo": "voltagent/awesome-openclaw-skills",
-    "name": "awesome-openclaw-skills",
-    "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-    "description_zh": "这是 OpenClaw skills 的精选合集。从官方 OpenClaw Skills Registry 中筛选并分类了 5400+ 个 skill。🦞【使用场景】当你需要快速获取大量经过筛选和分类的 OpenClaw skill 时，可以直接安装这个合集。",
-    "description_en": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
-    "prompt": "请从 https://github.com/voltagent/awesome-openclaw-skills 下载整个仓库，并将所有文件保存到 .claude/skills/awesome-openclaw-skills/ 目录下，完成安装。",
-    "tags": [
-      "agent-skills",
-      "awesome",
-      "awesome-list",
-      "awesome-lists",
-      "clawd",
-      "clawdbot",
-      "clawdbot-skill",
-      "clawdhub",
-      "moltbot",
-      "moltbot-skills",
-      "openclaw",
-      "openclaw-skills"
-    ],
-    "metrics": {
-      "stars_total": 49586,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 1,
-      "issues_closed_7d": 1,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "last_push": ""
-    }
-  },
-  {
     "repo": "ceeon/videocut-skills",
     "name": "chengfeng-videocut-skills",
     "description": "用 Claude Code Skills 做的视频剪辑 Agent",
@@ -1513,6 +1482,37 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 11,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "voltagent/awesome-openclaw-skills",
+    "name": "awesome-openclaw-skills",
+    "description": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+    "description_zh": "这是 OpenClaw skills 的精选合集。从官方 OpenClaw Skills Registry 中筛选并分类了 5400+ 个 skill。🦞【使用场景】当你需要快速获取大量经过筛选和分类的 OpenClaw skill 时，可以直接安装这个合集。",
+    "description_en": "The awesome collection of OpenClaw skills. 5,400+ skills filtered and categorized from the official OpenClaw Skills Registry.🦞",
+    "prompt": "请从 https://github.com/voltagent/awesome-openclaw-skills 下载整个仓库，并将所有文件保存到 .claude/skills/awesome-openclaw-skills/ 目录下，完成安装。",
+    "tags": [
+      "agent-skills",
+      "awesome",
+      "awesome-list",
+      "awesome-lists",
+      "clawd",
+      "clawdbot",
+      "clawdbot-skill",
+      "clawdhub",
+      "moltbot",
+      "moltbot-skills",
+      "openclaw",
+      "openclaw-skills"
+    ],
+    "metrics": {
+      "stars_total": 49586,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 1,
       "last_push": ""
     }
   },
@@ -14048,6 +14048,33 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 25,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "junliu1066/vibe-coding-kit",
+    "name": "vibe-coding-kit",
+    "description": "不教你写代码,教你把\"用 AI 写代码\"彻底想明白 — 给非技术产品人的 vibe coding 规划工具包",
+    "description_zh": "不教你写代码，而是帮你彻底搞懂“用 AI 写代码”这件事——给非技术产品经理的 vibe coding 规划工具包",
+    "description_en": "不教你写代码,教你把\"用 AI 写代码\"彻底想明白 — 给非技术产品人的 vibe coding 规划工具包",
+    "prompt": "请从 https://github.com/junliu1066/vibe-coding-kit 下载所有文件，并保存到 .claude/skills/vibe-coding-kit/ 目录下，完成安装。",
+    "tags": [
+      "AI",
+      "ai-coding",
+      "claude",
+      "claude-skills",
+      "no-code",
+      "prd",
+      "product-management",
+      "vibe-coding"
+    ],
+    "metrics": {
+      "stars_total": 103,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 20,
       "last_push": ""
     }
   },
