@@ -8967,6 +8967,37 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "adancurusul/embedded-debugger-mcp",
+    "name": "embedded-debugger-mcp",
+    "description": "MCP server, CLI, and Codex/Claude skill for embedded debugging with probe-rs, supporting ARM Cortex-M and RISC-V debug workflows.",
+    "tags": [
+      "ai-skill",
+      "arm-cortex-m",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "cli",
+      "codex-skill",
+      "debug-probe",
+      "embedded-debugging",
+      "embedded-systems",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "probe-rs",
+      "riscv",
+      "rust",
+      "skill"
+    ],
+    "stars": 115,
+    "lastPush": "2026-06-24T08:15:23Z",
+    "pool": "ranked",
+    "readmeLength": 1025,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
+  },
+  {
     "repo": "aperivue/medsci-skills",
     "name": "medsci-skills",
     "description": "Claude Code skills for medical research — literature search, reporting guidelines, statistical analysis, publication figures. Built by a physician-researcher, tested on real publications. MIT licensed.",

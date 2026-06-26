@@ -9623,6 +9623,31 @@
     "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
+    "repo": "geekjourneyx/industry-research",
+    "name": "industry-research",
+    "description": "专业的行业调研Skill，用于把行业、赛道和公司问题转成可复核的研究工作区、证据台账、置信度报告和最终研究报告。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "codex",
+      "codex-skills",
+      "golang",
+      "industry-research",
+      "market-research",
+      "openclaw",
+      "research-automation"
+    ],
+    "stars": 7,
+    "lastPush": "2026-05-27T16:45:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -10293,6 +10318,30 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-22T18:05:21.692Z"
+  },
+  {
+    "repo": "eliaalberti/dcode-agent-kit",
+    "name": "dcode-agent-kit",
+    "description": "A Claude Code skill that scaffolds ready-to-run LangChain Deep Agents and dcode CLI agents into any project.",
+    "tags": [
+      "agent-scaffolding",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "deepagents",
+      "developer-tools",
+      "langchain",
+      "llm",
+      "python"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-23T15:38:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -20135,6 +20184,90 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
+    "repo": "a-elradi/senior-saad-skill",
+    "name": "senior-saad-skill",
+    "description": "Elite Claude Code skill for full system architecture & design",
+    "tags": [
+      "agent-skills",
+      "architecture",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
+      "educative",
+      "learn",
+      "system-design",
+      "ui-ux"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-24T15:04:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
+  },
+  {
+    "repo": "anna-tyann/atmemarketing-voc-tagger",
+    "name": "Atmemarketing-voc-tagger",
+    "description": "🏷️ 跨境电商 VOC 评论自动打标 & 营销策略报告生成工具 | 18维标签体系 · 情感分析 · 交互式报告 | by @me 品牌出海陪跑",
+    "tags": [
+      "atme-marketing",
+      "claude-code-skill",
+      "cross-border",
+      "ecommerce",
+      "sentiment-analysis",
+      "voc"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-25T01:59:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
+  },
+  {
+    "repo": "anna-tyann/atmemarketing-voc-reporter",
+    "name": "Atmemarketing-voc-reporter",
+    "description": "📊 基于18维打标数据生成交互式 VOC 洞察报告 | ECharts 散点图·情感分布·营销战略方向总结 | by @me 品牌出海陪跑",
+    "tags": [
+      "atme-marketing",
+      "claude-code-skill",
+      "cross-border",
+      "data-visualization",
+      "echarts",
+      "voc"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-25T01:58:39Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
+  },
+  {
+    "repo": "anna-tyann/atmemarketing-anna-strategist",
+    "name": "Atmemarketing-anna-strategist",
+    "description": "🎯 Anna 跨境品牌出海陪跑教练 | 15年跨境实战 · 10大心智模型 · 全渠道增长策略 | by @me 品牌出海陪跑",
+    "tags": [
+      "ai-marketing",
+      "atme-marketing",
+      "brand-growth",
+      "claude-code-skill",
+      "cross-border-marketing",
+      "influencer-marketing"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-25T01:59:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-26T04:42:26.789Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
