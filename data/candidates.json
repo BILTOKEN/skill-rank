@@ -12856,6 +12856,21 @@
     "lastPush": "2026-03-31T09:04:57Z"
   },
   {
+    "repo": "pilotspace/add",
+    "name": "ADD",
+    "description": "ADD . one LOOP skill ⟳ 5 Specs ⟳ 8 Growth-Steps",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "spec-driven-development"
+    ],
+    "stars": 15,
+    "lastPush": "2026-06-26T17:01:26Z"
+  },
+  {
     "repo": "adelaidasofia/ai-brain-starter",
     "name": "ai-brain-starter",
     "description": "The operating system for Claude Code. Memory, accountability, journaling, knowledge graphs, pattern recognition — one install, every session compounds.",
@@ -16851,6 +16866,24 @@
     ],
     "stars": 6,
     "lastPush": "2026-06-23T15:38:15Z"
+  },
+  {
+    "repo": "2362094903-ops/study-assistant-skills",
+    "name": "study-assistant-skills",
+    "description": "AI 学习辅导 · Claude Code Skill 套件：根据上传的教材/课件按章节学习，适用于考研、期末、资格考试——思维导图 / 讲义 / 真题风格试卷 / 错题本 / 费曼检验 / 掌握度仪表盘，进度跨会话保存",
+    "tags": [
+      "ai-tutor",
+      "claude-code",
+      "claude-skills",
+      "education",
+      "exam-prep",
+      "kaoyan",
+      "learning",
+      "llm",
+      "study-tools"
+    ],
+    "stars": 6,
+    "lastPush": "2026-06-19T15:46:17Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -24717,6 +24750,103 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-25T01:59:50Z"
+  },
+  {
+    "repo": "datjavaclass/double-diamond-qc",
+    "name": "double-diamond-qc",
+    "description": "A Claude Code skill: two Diamond QC formations in sequence to build study/teaching docs that are both accurate and clearly explained. The engine behind Canyon Notes.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "canyon-notes",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "datjavaclass",
+      "documentation",
+      "educational-resources",
+      "fact-checking",
+      "llm",
+      "multi-agent",
+      "quality-control",
+      "study-guide",
+      "study-notes",
+      "teaching",
+      "verification"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-25T07:46:07Z"
+  },
+  {
+    "repo": "solanabr/writer-style-skill",
+    "name": "writer-style-skill",
+    "description": "Writing style skill for creating long for content. Stack styles together and leverage automated humanized texts.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "writer-style"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-27T02:56:21Z"
+  },
+  {
+    "repo": "daiuuuuu/visual-proxy",
+    "name": "visual-proxy",
+    "description": "Claude Code skill — 给无视觉能力的 LLM（DeepSeek/o1/o3）外挂看图能力。Vision proxy for text-only LLMs, supports OpenAI/Anthropic/DashScope/Qwen3-VL.",
+    "tags": [
+      "anthropic-api",
+      "cache",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "deepseek",
+      "image-to-text",
+      "image-understanding",
+      "llm-vision",
+      "multi-model",
+      "openai-api",
+      "python",
+      "qwen-vl",
+      "skill",
+      "vision-api",
+      "vision-proxy",
+      "visual-assist",
+      "zero-dependency"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-15T20:22:20Z"
+  },
+  {
+    "repo": "3060226349kk-cmd/ja-zh-max",
+    "name": "ja-zh-max",
+    "description": "jp-zh-max: 日译汉翻译 Claude Code Skill — Japanese→Chinese translation with 20 distilled skills from Gao Ning textbook",
+    "tags": [
+      "ai-translation",
+      "book2skill",
+      "chinese",
+      "chinese-nlp",
+      "chinese-translation",
+      "claude-code",
+      "claude-code-skill",
+      "gao-ning",
+      "japanese",
+      "japanese-nlp",
+      "japanese-to-chinese",
+      "japanese-translation",
+      "jp-zh",
+      "llm-translation",
+      "machine-translation",
+      "neural-machine-translation",
+      "nlp",
+      "post-editing",
+      "translation",
+      "translation-workflow"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-26T16:38:29Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
