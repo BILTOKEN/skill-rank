@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "9f9a43415a3a8dd7",
-    "chineseDescription": "238个专业项目经理技能（PRD、产品发布、事后复盘、合规等），适用于Claude、ChatGPT、Gemini、Cursor和Codex。可以在浏览器中免费试用，或者运行 'npx pm-claude-skills add'。一个SKILL.md文件，所有AI工具通用。",
-    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载项目文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-26T05:03:38.619Z",
-    "backTranslationDiff": 0.5238095238095238
+    "sourceHash": "6832983a5a3cc1bd",
+    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 270 个专业 Agent 技能（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可在浏览器中免费试用，或运行 'npx pm-claude-skills add'。",
+    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载该仓库，并将所有文件保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-28T05:17:39.607Z",
+    "backTranslationDiff": 0.2727272727272727
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "2f93f4b5e4cfb49f",
-    "chineseDescription": "askimo 是一个集成聊天、RAG 搜索、多步骤计划工作流、MCP 工具和 Agents 的 Skill。支持 OpenAI、Claude、Gemini、Grok、Ollama、LM Studio 等多个模型提供商。",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo Skill 文件，并将其保存到 .claude/skills/askimo/ 目录中，完成安装。",
-    "translatedAt": "2026-06-07T10:38:18.730Z",
-    "backTranslationDiff": 0.3125
+    "sourceHash": "dd39d3c210750090",
+    "chineseDescription": "一个集聊天、RAG（检索增强生成）、计划、MCP工具和智能体于一体的AI工作空间，支持多提供商模型。如果你觉得有用，请给这个仓库点个⭐！",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载文件，并保存到 .claude/skills/askimo/ 目录，完成安装。",
+    "translatedAt": "2026-06-28T05:17:43.123Z",
+    "backTranslationDiff": 0.5625
   },
   "borghei/claude-skills": {
     "sourceHash": "0ea0a407cd0b2f52",
@@ -5271,11 +5271,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "mark393295827/third-brain-v5-skills": {
-    "sourceHash": "7189cc442a4a7479",
-    "chineseDescription": "agent（代理）技能【使用场景】用于管理和执行智能体任务，提供预定义的技能模板。",
-    "prompt": "请安装 third-brain-v5-skills skill：从 GitHub 仓库 https://github.com/mark393295827/third-brain-v5-skills 下载文件，并保存到 .claude/skills/third-brain-v5-skills/ 目录，完成安装。",
-    "translatedAt": "2026-05-30T13:48:09.257Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "149cd85f082e31d5",
+    "chineseDescription": "agent wiki（智能体维基）——一个用于管理和查询智能体相关信息的工具。",
+    "prompt": "请从 https://github.com/mark393295827/third-brain-v5-skills 下载仓库文件，并将其保存到 .claude/skills/third-brain-v5-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-06-28T05:17:50.152Z",
+    "backTranslationDiff": 0
   },
   "lingxling/awesome-skills-cn": {
     "sourceHash": "8e7dfb1f61af1b3c",
@@ -5712,11 +5712,11 @@
     "backTranslationDiff": 0.38888888888888884
   },
   "vstorm-co/pydantic-deepagents": {
-    "sourceHash": "c5ffeaa2d00d3bef",
-    "chineseDescription": "在 Python 中构建 Claude Code 风格的深度代理：工具调用（tool-calling）、沙箱执行（sandboxed execution）、多代理团队（multi-agent teams）、技能（skills）、检查点（checkpoints）以及无限上下文（unlimited context）——全部基于 Pydantic AI。【使用场景】适用于需要构建复杂 AI 代理系统的 Python 开发者。",
-    "prompt": "请从 https://github.com/vstorm-co/pydantic-deepagents 下载该技能，并将其安装到 .claude/skills/pydantic-deepagents/ 目录下。你可以执行以下命令：\n\ngit clone https://github.com/vstorm-co/pydantic-deepagents.git .claude/skills/pydantic-deepagents/\n\n或者手动下载并解压到该目录。完成后确认安装成功。",
-    "translatedAt": "2026-05-31T16:20:41.506Z",
-    "backTranslationDiff": 0.0625
+    "sourceHash": "2f1e228651f4af83",
+    "chineseDescription": "开源自托管的 Claude Code——一个终端 AI 助手及其背后的 Python 框架。支持工具调用（Tool-calling）、沙箱执行（sandboxed execution）、多智能体团队（multi-agent teams）、技能（skills）、检查点（checkpoints）、无限上下文（unlimited context）——基于 Pydantic AI，兼容任何模型。",
+    "prompt": "请从 https://github.com/vstorm-co/pydantic-deepagents 下载该技能，并将文件保存到 .claude/skills/pydantic-deepagents/ 目录下完成安装。",
+    "translatedAt": "2026-06-28T05:17:47.036Z",
+    "backTranslationDiff": 0
   },
   "withkynam/vibecode-pro-max-kit": {
     "sourceHash": "70f031939d01d602",
@@ -7628,5 +7628,12 @@
     "prompt": "请从 https://github.com/adancurusul/embedded-debugger-mcp 下载整个仓库，并将所有文件保存到 .claude/skills/embedded-debugger-mcp/ 目录下，完成安装。",
     "translatedAt": "2026-06-26T05:03:50.603Z",
     "backTranslationDiff": 0.15384615384615385
+  },
+  "xbuilderlab/cheat-on-skill": {
+    "sourceHash": "12e956d1717c0bcd",
+    "chineseDescription": "帮你在 AI 时代找到一份高薪 × 你学得动 × 不会被 AI 吃掉的工作，并给出个性化学习陪跑计划。能力匹配 + 可学性闸门 + BOSS 直聘真实招聘数据 + 反诈。",
+    "prompt": "请从 https://github.com/xbuilderlab/cheat-on-skill 下载 cheat-on-skill skill 文件，并保存到 .claude/skills/cheat-on-skill/ 目录下完成安装。",
+    "translatedAt": "2026-06-28T05:17:54.042Z",
+    "backTranslationDiff": 0.8333333333333334
   }
 }

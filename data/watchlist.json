@@ -9668,6 +9668,30 @@
     "checkedAt": "2026-06-26T04:42:26.789Z"
   },
   {
+    "repo": "mosonlab/open-novel-fanqie",
+    "name": "open-novel-fanqie",
+    "description": "AI 网文长篇小说写作流水线，12 个 skill 包。配套站点 novelcatch.com：番茄每日扫榜 / 拆书 / 情报（免费）",
+    "tags": [
+      "ai-agent",
+      "ai-writing",
+      "chinese-novel",
+      "claude-code",
+      "claude-skills",
+      "creative-writing",
+      "fanqie",
+      "novel-writing",
+      "web-novel",
+      "writing-assistant"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-12T13:10:19Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -15296,6 +15320,51 @@
     "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
+    "repo": "tripleu613/claude-teleport",
+    "name": "claude-teleport",
+    "description": "A Claude Code skill that moves your current conversation to another machine (or folder) and resumes it — via a shareable zip, SSH, or locally. Transcript-only, cross-platform.",
+    "tags": [
+      "AI",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "developer-tools",
+      "productivity"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-26T20:23:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
+    "repo": "lainxxx/blog-auto-poster-skill",
+    "name": "blog-auto-poster-skill",
+    "description": "Claude Code Skill：多平台博客一键分发。让 AI 帮你把文章发布到 CSDN、51CTO、博客园、简书、掘金五大平台。",
+    "tags": [
+      "51cto",
+      "automation",
+      "blog-poster",
+      "claude-code-skill",
+      "cnblogs",
+      "csdn",
+      "jianshu",
+      "juejin",
+      "multi-platform",
+      "python"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-27T12:30:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -20428,6 +20497,81 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-27T04:18:38.329Z"
+  },
+  {
+    "repo": "terryc21/one-star-risk",
+    "name": "one-star-risk",
+    "description": "A Claude Code skill: re-score audit findings for App Store one-star-review risk. A judgment lens with named, overridable triggers and a pluggable review-grounding seam.",
+    "tags": [
+      "ai-tools",
+      "app-store",
+      "aso",
+      "claude-code",
+      "claude-code-skill",
+      "code-audit",
+      "release-management",
+      "swift",
+      "swiftui"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-27T13:59:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
+    "repo": "yueheng-li/xixi-xianwenbaida-skill",
+    "name": "xixi-xianwenbaida-skill",
+    "description": "🎬 儿童科学短视频+有声书AI量产技能包 | 天庭幼儿园IP | 文案→分镜→TTS配音→HyperFrames合成→发布 全链路编排 | Claude Code Skill",
+    "tags": [
+      "ai-pipeline",
+      "ai-video",
+      "audiobook",
+      "children-science",
+      "chinese",
+      "claude-code",
+      "claude-code-skill",
+      "content-automation",
+      "douyin",
+      "hyperframes",
+      "kids-edu",
+      "skill",
+      "tts",
+      "volcengine",
+      "ximalaya"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-19T09:25:04Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
+    "repo": "saqqdy/git-unearth",
+    "name": "git-unearth",
+    "description": "Git Unearth — AI-powered git blame enhancer, understand WHY code was written, not just WHO wrote it. Semantic code unearth via Claude Code Skill",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "code-history",
+      "code-unearth",
+      "decision-unearth",
+      "git",
+      "git-blame",
+      "git-unearth",
+      "semantic-analysis"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-28T03:48:04Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-06-28T04:54:06.383Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
