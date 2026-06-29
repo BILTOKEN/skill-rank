@@ -5670,11 +5670,11 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "ruvnet/ruflo": {
-    "sourceHash": "508bad210f8e69ec",
-    "chineseDescription": "🌊 领先的 Claude 智能体元框架。部署智能多智能体集群、协调自主工作流、构建对话式 AI 系统。具备自适应记忆、自学习集群智能、RAG 集成，以及原生 Claude Code / Codex 集成能力。",
+    "sourceHash": "92b786173f889a2c",
+    "chineseDescription": "🌊 领先的智能体元框架。部署智能多智能体集群、协调自动化工作流、构建对话式 AI 系统。具备自适应记忆、自学习群体智能、RAG 集成以及原生 Claude Code / Codex 集成能力。",
     "prompt": "请从 https://github.com/ruvnet/ruflo 下载 ruflo 技能文件，并将其保存到 .claude/skills/ruflo/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:46:58.576Z",
-    "backTranslationDiff": 0.15384615384615385
+    "translatedAt": "2026-06-29T05:14:45.939Z",
+    "backTranslationDiff": 0.28
   },
   "nexu-io/open-design": {
     "sourceHash": "d8885a5044fe7f89",
@@ -5999,11 +5999,11 @@
     "backTranslationDiff": 0.25
   },
   "clawbio/clawbio": {
-    "sourceHash": "a6c2454382168320",
-    "chineseDescription": "🦖 ClawBio - 首个生物信息学原生的 AI 代理技能库。本地优先、可复现、基于 OpenClaw 构建。",
-    "prompt": "请从 https://github.com/clawbio/clawbio 下载 ClawBio 技能库，并将所有文件保存到 .claude/skills/clawbio/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:59:22.246Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "db1c9b71ed32aa5f",
+    "chineseDescription": "🦖 ClawBio - 首个生物信息学原生的 AI 智能体技能库。本地优先、可复现、开源、免费。",
+    "prompt": "请从 https://github.com/clawbio/clawbio 下载 ClawBio Skill 文件，并将其保存到 .claude/skills/clawbio/ 目录下，完成安装。",
+    "translatedAt": "2026-06-29T05:14:49.699Z",
+    "backTranslationDiff": 0.30000000000000004
   },
   "agentic-community/mcp-gateway-registry": {
     "sourceHash": "6c4965a640810257",
@@ -7635,5 +7635,19 @@
     "prompt": "请从 https://github.com/xbuilderlab/cheat-on-skill 下载 cheat-on-skill skill 文件，并保存到 .claude/skills/cheat-on-skill/ 目录下完成安装。",
     "translatedAt": "2026-06-28T05:17:54.042Z",
     "backTranslationDiff": 0.8333333333333334
+  },
+  "nitinjain999/platform-skills": {
+    "sourceHash": "cf868be4740d9b4b",
+    "chineseDescription": "一个平台工程手册，涵盖 Kubernetes、OpenShift、Argo CD、Flux CD、AWS、Azure、Terraform 和 GitHub Actions，并可选配 Claude 插件层提供交互式指导。",
+    "prompt": "请从 https://github.com/nitinjain999/platform-skills 下载 platform-skills 项目文件，并将其保存到 .claude/skills/platform-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-06-29T05:14:53.505Z",
+    "backTranslationDiff": 0.050000000000000044
+  },
+  "aaron-he-zhu/aaron-marketing-skills": {
+    "sourceHash": "a17fed6a80541610",
+    "chineseDescription": "38个营销技能 + 5个Claude Code命令 + 35+个AI代理：SEO/GEO + 网红营销(IMPACT)。框架：CORE-EEAT、CITE、C3。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载文件，保存到 .claude/skills/aaron-marketing-skills/ 目录，完成安装。",
+    "translatedAt": "2026-06-29T05:14:57.168Z",
+    "backTranslationDiff": 0.08333333333333337
   }
 }
