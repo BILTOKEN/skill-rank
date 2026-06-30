@@ -6565,6 +6565,31 @@
     "lastPush": "2026-04-29T04:04:54Z"
   },
   {
+    "repo": "ratel-ai/ratel",
+    "name": "ratel",
+    "description": "Context engineering for AI agents. ~80% fewer tokens. Fix tool overload. Skills and memory with in-process BM25 retrieval. No vector DB. No embeddings.",
+    "tags": [
+      "accuracy",
+      "agents",
+      "claude-skills",
+      "context",
+      "harness",
+      "llm",
+      "llm-routing",
+      "mcp",
+      "mcp-server",
+      "memory",
+      "optimization",
+      "rag",
+      "skills",
+      "token-optimization",
+      "tool-calling",
+      "tool-selection"
+    ],
+    "stars": 138,
+    "lastPush": "2026-06-30T03:01:43Z"
+  },
+  {
     "repo": "jeecgboot/skills",
     "name": "skills",
     "description": "JeecgBoot Skills — AI 驱动 · 一句话生成全套工件! 在 Claude Code 中，用一句话生成 代码 · 表单 · 流程 · 报表 · 图表 · 大屏 · 仪表盘。 覆盖 JeecgBoot 低代码平台 与 JimuReport 积木报表 两大产品的企业级开发全场景。",
@@ -12710,6 +12735,24 @@
     "lastPush": "2026-05-25T00:28:48Z"
   },
   {
+    "repo": "jordan-gibbs/knack-cli",
+    "name": "knack-cli",
+    "description": "Knack CLI: agent-friendly skill operations. Self-host on GitHub or use Knack Cloud.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "agents",
+      "AI",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "codex-skill",
+      "skills"
+    ],
+    "stars": 16,
+    "lastPush": "2026-06-29T18:55:40Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -14575,6 +14618,35 @@
     "lastPush": "2026-06-08T09:51:36Z"
   },
   {
+    "repo": "alfadur7/llm-wiki-newsroom",
+    "name": "llm-wiki-newsroom",
+    "description": "Self-evolving multi-agent \"newsroom\" that turns your documents into a cross-linked knowledge wiki — writer ≠ reviewer, local-first, no API keys, a structured alternative to RAG.",
+    "tags": [
+      "agentic-ai",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "digital-garden",
+      "knowledge-base",
+      "knowledge-graph",
+      "llm",
+      "llm-wiki",
+      "local-first",
+      "memex",
+      "multi-agent",
+      "obsidian",
+      "personal-knowledge-management",
+      "pkm",
+      "rag",
+      "second-brain",
+      "semantic-search",
+      "wiki"
+    ],
+    "stars": 11,
+    "lastPush": "2026-06-29T23:06:10Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -15957,6 +16029,37 @@
     ],
     "stars": 8,
     "lastPush": "2026-06-27T19:29:03Z"
+  },
+  {
+    "repo": "savanna0425/skillhot",
+    "name": "skillhot",
+    "description": "每天更新的开源 Agent Skills 中文发现站、分类索引与 GitHub 榜单",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "codex-skills",
+      "github-pages",
+      "react",
+      "skills-directory"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-30T04:38:35Z"
+  },
+  {
+    "repo": "ootto-ai/claude-content-skills",
+    "name": "claude-content-skills",
+    "description": "Free, copy-paste Claude skills that run your content growth factory — turn ideas + your NotebookLM memory into scroll-stopping Instagram reels. By Ootto.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "content-marketing",
+      "instagram-reels",
+      "notebooklm",
+      "ootto",
+      "short-form-video"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-29T10:27:56Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -20976,6 +21079,22 @@
     "lastPush": "2026-06-27T12:30:58Z"
   },
   {
+    "repo": "filippopiunti/cavemanxsubagent",
+    "name": "cavemanXsubagent",
+    "description": "CavemanXsubagent is a terse AI communication mode, based on Caveman skill, that preserves technical accuracy while stripping token-heavy phrasing and propagating the same mode through subagents.",
+    "tags": [
+      "agent-workflows",
+      "AI",
+      "claude-code-skill",
+      "codex-skill",
+      "prompt-engineering",
+      "subagents",
+      "token-compression"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-29T14:08:31Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -25268,6 +25387,132 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-22T10:51:47Z"
+  },
+  {
+    "repo": "bjgreenberg/senior-engineering-partner",
+    "name": "senior-engineering-partner",
+    "description": "A stack-agnostic Claude Code skill: strict code reviewer, pair programmer, debugger, and mentor (Python/Bash/Apps Script/JS). Security-first, phase-aware engineering discipline with a spec→plan→TDD→verify workflow.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "bash",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "code-review",
+      "developer-tools",
+      "pair-programming",
+      "python"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-30T02:48:25Z"
+  },
+  {
+    "repo": "tstanmay13/product-view",
+    "name": "product-view",
+    "description": "A Claude Code skill that flips Claude out of code-language and into product-language",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "developer-tools",
+      "product-management"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-29T14:49:28Z"
+  },
+  {
+    "repo": "mz185/native-copy",
+    "name": "native-copy",
+    "description": "A Claude Code skill that flips the default when localizing: from literal translation to native-feeling copy.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "copy",
+      "native"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-21T10:46:42Z"
+  },
+  {
+    "repo": "dansessions/security-posture-skill",
+    "name": "security-posture-skill",
+    "description": "A Claude Code skill that aggregates SonarQube and Snyk findings into a single prioritised security report",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "devsecops",
+      "安全",
+      "snyk",
+      "sonarqube",
+      "vulnerability-scanning"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-23T11:36:15Z"
+  },
+  {
+    "repo": "richer-richard/clean-my-disk",
+    "name": "clean-my-disk",
+    "description": "claude code skill for people to clean their disk space without paying for apps",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cleanmymac-alternative",
+      "disk-cleaner",
+      "disk-cleanup",
+      "linux",
+      "macos",
+      "storage",
+      "windows"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-29T11:35:43Z"
+  },
+  {
+    "repo": "treyxu23/safari-web-agent",
+    "name": "safari-web-agent",
+    "description": "🦊 操控真实 Safari 浏览器的 AI 自动化工具。用你的登录态、绕过反爬、原生 macOS 事件。Playwright 搞不定的，它搞定。Claude Code & Hermes Skill · macOS",
+    "tags": [
+      "ai-agent",
+      "ai-browser",
+      "anti-detection",
+      "browser-automation",
+      "claude-code",
+      "claude-code-skill",
+      "hermes-skill",
+      "macos",
+      "mcp",
+      "model-context-protocol",
+      "playwright-alternative",
+      "safari",
+      "web-automation",
+      "web-scraping"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-29T10:11:23Z"
+  },
+  {
+    "repo": "connerkward/web-media-getter-skill",
+    "name": "web-media-getter-skill",
+    "description": "web-media-getter — a Claude Code skill: one query across free image/video/GIF APIs, license-tagged results.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "images",
+      "media-api",
+      "stock-media",
+      "video"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:14Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

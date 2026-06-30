@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 0.5625
   },
   "borghei/claude-skills": {
-    "sourceHash": "0ea0a407cd0b2f52",
-    "chineseDescription": "覆盖16个领域的338个AI技能。项目管理最深（66个技能——包括需求发现、执行、战略框架、GTM、Jira/Linear/Notion）。此外还有工程、营销、C级高管（CAIO/CDO/CCO/GC/VPE）、合规与审计准备、新研究/领域、垂直顾问。74个专家代理，784+个标准库Python工具。11个AI助手。",
-    "prompt": "请从 https://github.com/borghei/claude-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-06-16T18:40:13.872Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "493c77c39cfb0afd",
+    "chineseDescription": "343个AI技能、76个专家代理和835个stdlib Python工具，适用于每个团队：工程、产品管理、市场营销、高管层、合规等。可安装在Claude Code、Cursor、Codex、Gemini、Copilot及其他6个AI助手上。",
+    "prompt": "请从 https://github.com/borghei/claude-skills 下载仓库文件，并将其保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-06-30T04:56:57.892Z",
+    "backTranslationDiff": 0.09090909090909094
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "b683d5c66723ce82",
@@ -7532,11 +7532,11 @@
     "backTranslationDiff": 0.375
   },
   "artokun/comfyui-mcp": {
-    "sourceHash": "64982702a1a3372b",
-    "chineseDescription": "Claude Code 插件 + MCP 服务器，用于 ComfyUI —— 提供 88 个工具、14 个 AI 技能（Flux、WAN、LTX video、Qwen），支持在 Claude 会话中实时编辑图形。可以生成图像和视频，管理模型和自定义节点。【使用场景】适合需要在 Claude Code 中直接操作 ComfyUI 进行图像/视频生成和节点管理的开发者。",
+    "sourceHash": "b2047302f33b44e6",
+    "chineseDescription": "ComfyUI 的本地优先、AI 原生控制平面——MCP 服务器 + Claude Code 插件。提供 108 个工具、29 个 AI 技能（Flux · WAN · LTX video · Qwen · Z-Image）。可以用自然语言创建和运行工作流、编辑实时图表、管理模型和自定义节点。支持本地、局域网、VPS 或 Comfy Cloud 部署。",
     "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载整个仓库，并将其保存到 .claude/skills/comfyui-mcp/ 目录下，完成安装。",
-    "translatedAt": "2026-06-13T10:32:08.611Z",
-    "backTranslationDiff": 0.21739130434782605
+    "translatedAt": "2026-06-30T04:56:53.391Z",
+    "backTranslationDiff": 0.21875
   },
   "viryazheng/recomby-geo": {
     "sourceHash": "c20dcf7e8cb6c545",
@@ -7649,5 +7649,12 @@
     "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载文件，保存到 .claude/skills/aaron-marketing-skills/ 目录，完成安装。",
     "translatedAt": "2026-06-29T05:14:57.168Z",
     "backTranslationDiff": 0.08333333333333337
+  },
+  "ratel-ai/ratel": {
+    "sourceHash": "4be444ccd420f101",
+    "chineseDescription": "为 AI 代理（agent）做上下文工程（context engineering）。减少约 80% 的 token 消耗。解决工具过载（tool overload）问题。提供技能和记忆功能，使用进程内 BM25 检索（in-process BM25 retrieval）。不需要向量数据库（vector DB），也不需要嵌入（embeddings）。",
+    "prompt": "请从 https://github.com/ratel-ai/ratel 下载所有文件，并将它们保存到 .claude/skills/ratel/ 目录下，完成 ratel skill 的安装。",
+    "translatedAt": "2026-06-30T04:57:02.317Z",
+    "backTranslationDiff": 0.4375
   }
 }

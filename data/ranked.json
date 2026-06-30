@@ -8515,6 +8515,36 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "ratel-ai/ratel",
+    "name": "ratel",
+    "description": "Context engineering for AI agents. ~80% fewer tokens. Fix tool overload. Skills and memory with in-process BM25 retrieval. No vector DB. No embeddings.",
+    "tags": [
+      "accuracy",
+      "agents",
+      "claude-skills",
+      "context",
+      "harness",
+      "llm",
+      "llm-routing",
+      "mcp",
+      "mcp-server",
+      "memory",
+      "optimization",
+      "rag",
+      "skills",
+      "token-optimization",
+      "tool-calling",
+      "tool-selection"
+    ],
+    "stars": 138,
+    "lastPush": "2026-06-30T03:01:43Z",
+    "pool": "ranked",
+    "readmeLength": 1885,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-06-30T04:36:23.869Z"
+  },
+  {
     "repo": "jeecgboot/skills",
     "name": "skills",
     "description": "JeecgBoot Skills — AI 驱动 · 一句话生成全套工件! 在 Claude Code 中，用一句话生成 代码 · 表单 · 流程 · 报表 · 图表 · 大屏 · 仪表盘。 覆盖 JeecgBoot 低代码平台 与 JimuReport 积木报表 两大产品的企业级开发全场景。",
