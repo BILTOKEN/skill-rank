@@ -15235,6 +15235,28 @@
     "lastPush": "2026-06-15T04:20:37Z"
   },
   {
+    "repo": "nisus74/pencil-skill",
+    "name": "pencil-skill",
+    "description": "AI coding skill plugin for pencil.dev (.pen) design files via the Pencil MCP server that works with Claude Code, Cursor, Codex, and Gemini CLI",
+    "tags": [
+      "AI",
+      "claude",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "codex",
+      "codex-plugin",
+      "codex-skill",
+      "设计",
+      "design-tool",
+      "pencil",
+      "pencil-dev",
+      "skill"
+    ],
+    "stars": 10,
+    "lastPush": "2026-06-30T11:04:27Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -15512,6 +15534,23 @@
     ],
     "stars": 9,
     "lastPush": "2026-06-22T14:39:49Z"
+  },
+  {
+    "repo": "rondorkerin/gamestack",
+    "name": "gamestack",
+    "description": "The game-design process for Claude — knowledge + workflow skills for designing games, tuned for headless, procedural, AI-authored development (engine-agnostic; Godot).",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "game-design",
+      "gamedev",
+      "godot",
+      "open-world",
+      "procedural-generation"
+    ],
+    "stars": 9,
+    "lastPush": "2026-06-30T23:36:40Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -16549,6 +16588,27 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-17T20:09:44Z"
+  },
+  {
+    "repo": "chenweil/skillcaddy",
+    "name": "skillcaddy",
+    "description": "Local AI Skills central library with per-project symlink enablement. One AISkills  folder holds every skill source; symlink on demand into any project's .agents/skills or  .claude/skills to share across Claude Code, Codex, OpenCode, and Pi.",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "developer-tools",
+      "nodejs",
+      "opencode",
+      "skills",
+      "symlink"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-30T01:08:49Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -21095,6 +21155,29 @@
     "lastPush": "2026-06-29T14:08:31Z"
   },
   {
+    "repo": "smixs/disruptor-skills",
+    "name": "disruptor-skills",
+    "description": "Ordered idea-to-ship flow for agentic software development in Claude Code. No vibecode. 7w3 design, canonical spec, executable architecture, an honest cross-family review loop to convergence, production QA, safe deploy. Assembled by practitioners of the @aostrikov_agents_chat community; every source kept as is.",
+    "tags": [
+      "agentic-ai",
+      "agentic-development",
+      "ai-agents",
+      "ai-coding",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "code-review",
+      "codex",
+      "llm",
+      "prompt-engineering",
+      "software-engineering",
+      "spec-driven-development"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-01T03:07:54Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -25513,6 +25596,20 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-17T05:33:14Z"
+  },
+  {
+    "repo": "kthxbyte/skill-recommend",
+    "name": "skill-recommend",
+    "description": "Helps you discover Claude skills you didn't know you needed — without ever getting in your way.",
+    "tags": [
+      "agent-skills",
+      "anthropic-skills",
+      "claude-code",
+      "claude-code-skill",
+      "skill-md"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-29T23:11:33Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

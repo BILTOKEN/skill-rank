@@ -49,11 +49,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "sourceHash": "c56fe310774145cd",
-    "chineseDescription": "这是一个跨 CLI 的 Obsidian 技能：把你的知识库变成一个以 AI 为先的活体第二大脑，支持 Claude Code、Codex、Gemini 和 OpenCode。包含 43 条命令——现在新增了 /obsidian-architect 用来记录你的代码库、无需密钥的网页搜索、Google Calendar 集成，以及能自我重写的笔记。【使用场景】适合需要在多个 AI 工具间同步管理 Obsidian 知识库、自动化记录代码库或进行网页搜索的用户。",
-    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载所有文件，并保存到 .claude/skills/obsidian-second-brain/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:46:54.932Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "b3f3d8dc2f089ff3",
+    "chineseDescription": "这是一个跨 CLI 的 Obsidian 技能：把你的笔记库变成一个以 AI 为先的活体第二大脑，支持 Claude Code、Codex、Gemini、OpenCode、Hermes 和 Pi。包含 44 条命令——自动重写笔记、本地+混合语义搜索、无需密钥的网页研究、/obsidian-architect 代码库文档，以及在你睡觉时维护笔记库的定时代理。",
+    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载文件，并保存到 .claude/skills/obsidian-second-brain/ 目录，完成安装。",
+    "translatedAt": "2026-07-01T05:14:32.454Z",
+    "backTranslationDiff": 0.2571428571428571
   },
   "oh-my-mermaid/oh-my-mermaid": {
     "sourceHash": "fa138449e304f216",
@@ -4459,10 +4459,10 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "6832983a5a3cc1bd",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 270 个专业 Agent 技能（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可在浏览器中免费试用，或运行 'npx pm-claude-skills add'。",
-    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载该仓库，并将所有文件保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-28T05:17:39.607Z",
+    "sourceHash": "26dc6beb623d858a",
+    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 313 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可在浏览器中免费试用，或运行 'npx pm-claude-skills add'。",
+    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载文件，并保存到 .claude/skills/pm-claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-01T05:14:36.480Z",
     "backTranslationDiff": 0.2727272727272727
   },
   "davepoon/buildwithclaude": {
@@ -5670,11 +5670,11 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "ruvnet/ruflo": {
-    "sourceHash": "92b786173f889a2c",
-    "chineseDescription": "🌊 领先的智能体元框架。部署智能多智能体集群、协调自动化工作流、构建对话式 AI 系统。具备自适应记忆、自学习群体智能、RAG 集成以及原生 Claude Code / Codex 集成能力。",
+    "sourceHash": "9081e4fea728ca4c",
+    "chineseDescription": "🌊 领先的智能体元框架（agent meta-harness）。可部署智能多智能体集群（multi-player swarms）、协调自动化工作流、构建对话式AI系统。具备自适应记忆、自学习智能、RAG集成，并原生支持Claude Code / Codex / Hermes等众多工具。",
     "prompt": "请从 https://github.com/ruvnet/ruflo 下载 ruflo 技能文件，并将其保存到 .claude/skills/ruflo/ 目录下，完成安装。",
-    "translatedAt": "2026-06-29T05:14:45.939Z",
-    "backTranslationDiff": 0.28
+    "translatedAt": "2026-07-01T05:14:27.483Z",
+    "backTranslationDiff": 0.14814814814814814
   },
   "nexu-io/open-design": {
     "sourceHash": "d8885a5044fe7f89",
