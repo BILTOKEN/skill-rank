@@ -7656,5 +7656,12 @@
     "prompt": "请从 https://github.com/ratel-ai/ratel 下载所有文件，并将它们保存到 .claude/skills/ratel/ 目录下，完成 ratel skill 的安装。",
     "translatedAt": "2026-06-30T04:57:02.317Z",
     "backTranslationDiff": 0.4375
+  },
+  "pcliangx/appgenesisforge": {
+    "sourceHash": "63a62af436f46bee",
+    "chineseDescription": "AI Agent 团队脚手架，适用于 Claude Code——19 个角色通过阶段门（stage gates）协作，由强制技能（mandatory skills）+ 阻塞钩子（blocking hooks）+ DoD 检查清单（DoD checklists）强制执行。基于规格驱动的变更文件夹、SIT 审计的代码审查、4 层钩子防御、多 LLM（DeepSeek/Doubao/Qwen/MiniMax）。支持：Web · 微信小程序 · Apple 原生（macOS/iOS）。中/英文 README。",
+    "prompt": "请从 https://github.com/pcliangx/appgenesisforge 下载所有文件，并将它们保存到 .claude/skills/appgenesisforge/ 目录中，完成安装。",
+    "translatedAt": "2026-07-02T04:45:53.356Z",
+    "backTranslationDiff": 0.9142857142857143
   }
 }

@@ -3753,6 +3753,35 @@
     "lastPush": "2026-05-25T00:48:02Z"
   },
   {
+    "repo": "pcliangx/appgenesisforge",
+    "name": "AppGenesisForge",
+    "description": "AI Agent Team scaffold for Claude Code — 19 roles collaborate through stage gates, enforced by mandatory skills + blocking hooks + DoD checklists. Spec-driven change folders, SIT-audited code reviews, 4-layer hook defense, multi-LLM (DeepSeek/Doubao/Qwen/MiniMax). Tracks: Web · WeChat Mini Program · Apple native (macOS/iOS). 中文/EN README.",
+    "tags": [
+      "agentic-workflow",
+      "agile-scrum",
+      "ai-agents",
+      "ai-coding",
+      "apple",
+      "claude-code",
+      "claude-skills",
+      "deepseek",
+      "doubao",
+      "fastapi",
+      "minimax",
+      "parallel-agents",
+      "qwen",
+      "react",
+      "spec-driven-development",
+      "swift",
+      "swiftui",
+      "tdd",
+      "template",
+      "wechat-miniprogram"
+    ],
+    "stars": 542,
+    "lastPush": "2026-07-01T06:37:05Z"
+  },
+  {
     "repo": "nashsu/viral_writer_skill",
     "name": "Viral_Writer_Skill",
     "description": " 基于 11 个内容洞见维度的自媒体创作 Skill，适用于各种智能体  给它一个主题，它给你一篇完整的文章、5 个备选标题、以及每张配图的生成 prompt。",
@@ -16101,6 +16130,26 @@
     "lastPush": "2026-06-29T10:27:56Z"
   },
   {
+    "repo": "hartmut-ux/ai-marketing-team",
+    "name": "ai-marketing-team",
+    "description": "11 AI marketing skills for Kimi, Claude & Codex. Content strategy, PR, internal comms, change management, analytics & operations for SMEs and purpose-driven organisations.",
+    "tags": [
+      "ai-content",
+      "ai-marketing",
+      "ai-team",
+      "b-corp",
+      "claude-skills",
+      "codex-skills",
+      "content-strategy",
+      "kimi-skills",
+      "llm-agents",
+      "marketing-automation",
+      "multi-platform-skills"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-01T16:32:19Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -16609,6 +16658,30 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-30T01:08:49Z"
+  },
+  {
+    "repo": "mshadmanrahman/claude-for-designers",
+    "name": "claude-for-designers",
+    "description": "A working repository for designers who use Claude as a collaborator. Skills, principles, project templates, and a career vault.",
+    "tags": [
+      "ai-for-designers",
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "design-process",
+      "design-systems",
+      "design-tools",
+      "figma",
+      "product-design",
+      "prompt-engineering",
+      "ui-design",
+      "ux-design"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-26T20:44:21Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -19862,6 +19935,21 @@
     ],
     "stars": 3,
     "lastPush": "2026-06-25T03:33:49Z"
+  },
+  {
+    "repo": "robert-auger/safer-dependencies",
+    "name": "safer-dependencies",
+    "description": "safer-dependencies is a security layer for Claude Code that audits packages before they’re added to your project. It detects and fixes risky dependencies, including CVEs, typosquats, abandoned packages, version-age issues, and adds package-cooldown violations across npm, PyPI, RubyGems, Maven, Go, and Rust.",
+    "tags": [
+      "claude-code-hooks",
+      "claude-code-skill",
+      "dependencies",
+      "security-tools",
+      "supply-chain-risk",
+      "supply-chain-security"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-01T00:55:15Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -25610,6 +25698,70 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-29T23:11:33Z"
+  },
+  {
+    "repo": "aident-ai/aident-skill",
+    "name": "aident-skill",
+    "description": "Use Aident Loadout to connect your OpenClaw or any AI Agents to 1,000+ real-world apps and tools like Gmail, Slack, Linear, Notion, Firecrawl, and Fal, unlock 27,000+ executable actions, and track full audit history so your agents can get real work done reliably.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "aident",
+      "aident-skill",
+      "automation",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-cli",
+      "codex-skill",
+      "codex-skills",
+      "developer-tools",
+      "gemini-cli-extension",
+      "mcp",
+      "openai-codex",
+      "openclaw",
+      "openclaw-skills",
+      "skill-md",
+      "skill-md-skillsmp",
+      "skills-sh",
+      "skillsmp"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-01T13:08:42Z"
+  },
+  {
+    "repo": "zavelinski/model-router",
+    "name": "model-router",
+    "description": "Cost-aware model routing for Claude Code: classify each subtask and route cheap work (search, boilerplate, docs, renames) to Sonnet/Haiku, reserve Opus for design, hard debugging, and final verification.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cost-optimization",
+      "llm",
+      "model-selection",
+      "routing",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-30T02:28:43Z"
+  },
+  {
+    "repo": "berserkdb/berserk-skills",
+    "name": "berserk-skills",
+    "description": "Berserk skills for AI coding agents",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "kql",
+      "observability",
+      "opentelemetry"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-16T10:15:28Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

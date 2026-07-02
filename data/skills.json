@@ -13743,6 +13743,45 @@
     }
   },
   {
+    "repo": "pcliangx/appgenesisforge",
+    "name": "AppGenesisForge",
+    "description": "AI Agent Team scaffold for Claude Code — 19 roles collaborate through stage gates, enforced by mandatory skills + blocking hooks + DoD checklists. Spec-driven change folders, SIT-audited code reviews, 4-layer hook defense, multi-LLM (DeepSeek/Doubao/Qwen/MiniMax). Tracks: Web · WeChat Mini Program · Apple native (macOS/iOS). 中文/EN README.",
+    "description_zh": "AI Agent 团队脚手架，适用于 Claude Code——19 个角色通过阶段门（stage gates）协作，由强制技能（mandatory skills）+ 阻塞钩子（blocking hooks）+ DoD 检查清单（DoD checklists）强制执行。基于规格驱动的变更文件夹、SIT 审计的代码审查、4 层钩子防御、多 LLM（DeepSeek/Doubao/Qwen/MiniMax）。支持：Web · 微信小程序 · Apple 原生（macOS/iOS）。中/英文 README。",
+    "description_en": "AI Agent Team scaffold for Claude Code — 19 roles collaborate through stage gates, enforced by mandatory skills + blocking hooks + DoD checklists. Spec-driven change folders, SIT-audited code reviews, 4-layer hook defense, multi-LLM (DeepSeek/Doubao/Qwen/MiniMax). Tracks: Web · WeChat Mini Program · Apple native (macOS/iOS). 中文/EN README.",
+    "prompt": "请从 https://github.com/pcliangx/appgenesisforge 下载所有文件，并将它们保存到 .claude/skills/appgenesisforge/ 目录中，完成安装。",
+    "tags": [
+      "agentic-workflow",
+      "agile-scrum",
+      "ai-agents",
+      "ai-coding",
+      "apple",
+      "claude-code",
+      "claude-skills",
+      "deepseek",
+      "doubao",
+      "fastapi",
+      "minimax",
+      "parallel-agents",
+      "qwen",
+      "react",
+      "spec-driven-development",
+      "swift",
+      "swiftui",
+      "tdd",
+      "template",
+      "wechat-miniprogram"
+    ],
+    "metrics": {
+      "stars_total": 542,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 16,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "junliu1066/vibe-coding-kit",
     "name": "vibe-coding-kit",
     "description": "不教你写代码,教你把\"用 AI 写代码\"彻底想明白 — 给非技术产品人的 vibe coding 规划工具包",
