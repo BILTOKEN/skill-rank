@@ -2100,11 +2100,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "htdt/godogen": {
-    "sourceHash": "068ab71d6d3d5dc0",
-    "chineseDescription": "使用 Claude Code 和 Codex 为 Godot 和 Bevy 进行自主游戏开发。【使用场景】用于在 Godot 或 Bevy 引擎中通过 AI 辅助自动生成游戏代码。",
-    "prompt": "请从 https://github.com/htdt/godogen 下载 godogen skill 的所有文件，并将其保存到 .claude/skills/godogen/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T08:13:03.177Z",
-    "backTranslationDiff": 0
+    "sourceHash": "ef7cf85bbce4a841",
+    "chineseDescription": "使用 Claude Code 和 Codex 为 Godot、Bevy 和 Babylon.js 进行自主游戏开发。",
+    "prompt": "请安装 godogen skill，从 https://github.com/htdt/godogen 下载文件，保存到 .claude/skills/godogen/ 目录完成安装。",
+    "translatedAt": "2026-07-03T04:29:07.910Z",
+    "backTranslationDiff": 0.09999999999999998
   },
   "Agents365-ai/drawio-skill": {
     "sourceHash": "2330c226ec959dbb",
@@ -3486,11 +3486,11 @@
     "backTranslationDiff": 0.36363636363636365
   },
   "smixs/creative-director-skill": {
-    "sourceHash": "41b589a8636ba636",
-    "chineseDescription": "AI 创意总监技能，适用于 Claude、GPT、Gemini —— 包含 20 多种方法论（SIT、TRIZ、Bisociation、SCAMPER），基于戛纳标准校准的评分机制，递归优化。流程：洞察 → 构思 → 评估 → 呈现。【使用场景】适合需要系统化创意生成和评估的场景，比如广告策划、产品创新、内容创作等。",
-    "prompt": "请从 https://github.com/smixs/creative-director-skill 下载 creative-director-skill 技能，并将其文件保存到 .claude/skills/creative-director-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:22:50.744Z",
-    "backTranslationDiff": 0.21052631578947367
+    "sourceHash": "05fde470730b6382",
+    "chineseDescription": "这是一个世界级创意总监技能。基于方法论驱动的创意生成（SIT、TRIZ、横向思维、bisociation），加上一个戛纳狮子奖评估引擎，背后有571个传奇获奖案例库支撑。",
+    "prompt": "请从 https://github.com/smixs/creative-director-skill 下载文件，保存到 .claude/skills/creative-director-skill/ 目录完成安装。",
+    "translatedAt": "2026-07-03T04:29:27.129Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "k-kolomeitsev/data-structure-protocol": {
     "sourceHash": "837bd7ac1c11968c",
@@ -4459,10 +4459,10 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "26dc6beb623d858a",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 313 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可在浏览器中免费试用，或运行 'npx pm-claude-skills add'。",
-    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载文件，并保存到 .claude/skills/pm-claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-07-01T05:14:36.480Z",
+    "sourceHash": "2ce6ce71e96d60da",
+    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 400 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可以在浏览器中免费试用，或者运行 'npx pm-claude-skills add'。",
+    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载项目文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-03T04:29:12.600Z",
     "backTranslationDiff": 0.2727272727272727
   },
   "davepoon/buildwithclaude": {
@@ -5201,11 +5201,11 @@
     "backTranslationDiff": 0.4
   },
   "sergebulaev/linkedin-skills": {
-    "sourceHash": "b84561aaa3a1aa43",
-    "chineseDescription": "Claude Code 的 LinkedIn 增长技能：写像人话的帖子、写能吸引注意的评论、分析你的信息流、建立发布节奏——全在终端里完成。面向使用 Claude Code 的内容创作者、创始人和营销人员的即插即用技能。【使用场景】适用于想在终端里用 Claude Code 提升 LinkedIn 内容创作和互动效率的用户。",
-    "prompt": "请帮我安装 linkedin-skills 技能：从 GitHub 仓库 https://github.com/sergebulaev/linkedin-skills 下载所有文件，并保存到 .claude/skills/linkedin-skills/ 目录完成安装。",
-    "translatedAt": "2026-05-30T13:46:04.998Z",
-    "backTranslationDiff": 0.2592592592592593
+    "sourceHash": "6fa108aca214b22b",
+    "chineseDescription": "Claude Code 和 Codex 的 LinkedIn 增长技能包：从终端直接撰写真人感帖子、写能吸引注意的评论、分析你的信息流、建立发布节奏。即插即用，适合内容创作者、创始人和营销人员。",
+    "prompt": "请从 https://github.com/sergebulaev/linkedin-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/linkedin-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-03T04:29:17.864Z",
+    "backTranslationDiff": 0.42307692307692313
   },
   "helloruru/claude-memory-engine": {
     "sourceHash": "89d211dda2c33ee2",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "370a7835baff1327",
-    "chineseDescription": "一个包含 298 个 agent 技能（支持 Cursor、Claude Code 和 Codex）、5380 个 OpenClaw 技能、201 个 ML 笔记本、48 篇研究论文和 15 份行业报告的集合，面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将所有文件保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-06-26T05:03:46.722Z",
-    "backTranslationDiff": 0.2941176470588235
+    "sourceHash": "98293197f084f899",
+    "chineseDescription": "一个集合了 298 个 agent 技能（支持 Cursor、Claude Code 和 Codex）、5380 个 OpenClaw 技能、201 个 ML 笔记本、51 篇研究论文和 16 份行业报告的仓库，面向 PM、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其内容保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
+    "translatedAt": "2026-07-03T04:29:31.434Z",
+    "backTranslationDiff": 0.23529411764705888
   },
   "safishamsi/graphify": {
     "sourceHash": "88622295b634473e",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.125
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "ba676994ac10b473",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1600+ 个 agentic skills，支持 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。里面还有专用插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。",
-    "translatedAt": "2026-06-21T11:50:14.400Z",
-    "backTranslationDiff": 0.26086956521739135
+    "sourceHash": "157d8f01e8457442",
+    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1800+ 个 agentic skills，支持 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。里面还有专门的插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库，并将所有文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-03T04:28:59.823Z",
+    "backTranslationDiff": 0.30434782608695654
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -5985,11 +5985,11 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "hesreallyhim/awesome-claude-code": {
-    "sourceHash": "4e0ffd726686fa49",
-    "chineseDescription": "这是一个精心整理的列表，包含 Anthropic 为 Claude Code 提供的各种优秀技能（skills）、钩子（hooks）、斜杠命令（slash-commands）、代理编排器（agent orchestrators）、应用程序（applications）和插件（plugins）。【使用场景】当你需要发现和安装 Claude Code 的扩展资源时，可以查看此列表。",
-    "prompt": "请从 https://github.com/hesreallyhim/awesome-claude-code 下载该仓库（使用 git clone 或下载 ZIP 并解压），然后将所有内容保存到 .claude/skills/awesome-claude-code/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:31:22.793Z",
-    "backTranslationDiff": 0.46153846153846156
+    "sourceHash": "2a9220311522c2e0",
+    "chineseDescription": "一份精心挑选的 Claude Code 资源合集，汇集了最棒的技能、多面手代理、炫酷的状态行、顶级开发者工具，还有插件。来自 Anthropic PBC 团队打造的编程伴侣之王——Claude Code。",
+    "prompt": "请从 https://github.com/hesreallyhim/awesome-claude-code 下载仓库内容，保存到 .claude/skills/awesome-claude-code/ 目录，完成安装。",
+    "translatedAt": "2026-07-03T04:29:04.280Z",
+    "backTranslationDiff": 0.71875
   },
   "donchitos/claude-code-game-studios": {
     "sourceHash": "15c7ef15a766da2c",
@@ -7532,11 +7532,11 @@
     "backTranslationDiff": 0.375
   },
   "artokun/comfyui-mcp": {
-    "sourceHash": "b2047302f33b44e6",
-    "chineseDescription": "ComfyUI 的本地优先、AI 原生控制平面——MCP 服务器 + Claude Code 插件。提供 108 个工具、29 个 AI 技能（Flux · WAN · LTX video · Qwen · Z-Image）。可以用自然语言创建和运行工作流、编辑实时图表、管理模型和自定义节点。支持本地、局域网、VPS 或 Comfy Cloud 部署。",
+    "sourceHash": "d3088e360e041798",
+    "chineseDescription": "ComfyUI 的本地优先、AI 原生控制平面——MCP 服务器 + Claude Code 插件。提供 108 个工具、29 项 AI 技能（Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2）。你可以编写和运行工作流、用自然语言编辑实时图表、管理模型和自定义节点。支持本地、局域网、VPS 或 Comfy Cloud。",
     "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载整个仓库，并将其保存到 .claude/skills/comfyui-mcp/ 目录下，完成安装。",
-    "translatedAt": "2026-06-30T04:56:53.391Z",
-    "backTranslationDiff": 0.21875
+    "translatedAt": "2026-07-03T04:29:22.809Z",
+    "backTranslationDiff": 0.21212121212121215
   },
   "viryazheng/recomby-geo": {
     "sourceHash": "c20dcf7e8cb6c545",
@@ -7644,11 +7644,11 @@
     "backTranslationDiff": 0.050000000000000044
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "sourceHash": "a17fed6a80541610",
-    "chineseDescription": "38个营销技能 + 5个Claude Code命令 + 35+个AI代理：SEO/GEO + 网红营销(IMPACT)。框架：CORE-EEAT、CITE、C3。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载文件，保存到 .claude/skills/aaron-marketing-skills/ 目录，完成安装。",
-    "translatedAt": "2026-06-29T05:14:57.168Z",
-    "backTranslationDiff": 0.08333333333333337
+    "sourceHash": "c71e014a87e64809",
+    "chineseDescription": "54个营销技能 + 4个命令，适用于 Claude Code 和 AI agents：SEO/GEO、KOL营销（IMPACT）和付费广告（ROAS），全部整合在同一个共享合约中。框架包括：CORE-EEAT、CITE、C³、ROAS。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录，完成安装。",
+    "translatedAt": "2026-07-03T04:29:35.805Z",
+    "backTranslationDiff": 0.23529411764705888
   },
   "ratel-ai/ratel": {
     "sourceHash": "4be444ccd420f101",
@@ -7663,5 +7663,12 @@
     "prompt": "请从 https://github.com/pcliangx/appgenesisforge 下载所有文件，并将它们保存到 .claude/skills/appgenesisforge/ 目录中，完成安装。",
     "translatedAt": "2026-07-02T04:45:53.356Z",
     "backTranslationDiff": 0.9142857142857143
+  },
+  "vladimir-human/humanizer-ru": {
+    "sourceHash": "e36741341ea638eb",
+    "chineseDescription": "这是一个用于俄语 AI 代理的 Skill。它可以去除俄语文本中的机器生成痕迹。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru Skill 文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，以完成安装。",
+    "translatedAt": "2026-07-03T04:29:39.712Z",
+    "backTranslationDiff": 1
   }
 }
