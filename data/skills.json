@@ -14036,30 +14036,6 @@
     }
   },
   {
-    "repo": "liwala/sheal",
-    "name": "sheal",
-    "description": "your ai agent keeps making the same mistakes. sheal fixes that.",
-    "description_zh": "你的 AI agent 总是犯同样的错误。sheal 能修复这个问题。",
-    "description_en": "your ai agent keeps making the same mistakes. sheal fixes that.",
-    "prompt": "你的 AI agent 总是重复犯同样的错误。请使用 sheal 来修复这个问题。",
-    "tags": [
-      "claude-code",
-      "claude-code-skill",
-      "codex",
-      "memory",
-      "sessions"
-    ],
-    "metrics": {
-      "stars_total": 81,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "last_push": ""
-    }
-  },
-  {
     "repo": "pcliangx/appgenesisforge",
     "name": "AppGenesisForge",
     "description": "AI Agent Team scaffold for Claude Code — 19 roles collaborate through stage gates, enforced by mandatory skills + blocking hooks + DoD checklists. Spec-driven change folders, SIT-audited code reviews, 4-layer hook defense, multi-LLM (DeepSeek/Doubao/Qwen/MiniMax). Tracks: Web · WeChat Mini Program · Apple native (macOS/iOS). 中文/EN README.",
@@ -14095,6 +14071,54 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 16,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "yurukusa/cc-safe-setup",
+    "name": "cc-safe-setup",
+    "description": "Safety hooks for Claude Code that block destructive operations at the tool boundary and surface silent failures.",
+    "description_zh": "为 Claude Code 提供安全钩子（safety hooks），在工具边界阻止破坏性操作，并暴露静默失败（silent failures）。",
+    "description_en": "Safety hooks for Claude Code that block destructive operations at the tool boundary and surface silent failures.",
+    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载仓库文件，保存到 .claude/skills/cc-safe-setup/ 目录，完成安装。",
+    "tags": [
+      "claude-code",
+      "cli",
+      "developer-tools",
+      "hooks",
+      "safety"
+    ],
+    "metrics": {
+      "stars_total": 0,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 25,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "liwala/sheal",
+    "name": "sheal",
+    "description": "your ai agent keeps making the same mistakes. sheal fixes that.",
+    "description_zh": "你的 AI agent 总是犯同样的错误。sheal 能修复这个问题。",
+    "description_en": "your ai agent keeps making the same mistakes. sheal fixes that.",
+    "prompt": "你的 AI agent 总是重复犯同样的错误。请使用 sheal 来修复这个问题。",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "memory",
+      "sessions"
+    ],
+    "metrics": {
+      "stars_total": 81,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
       "last_push": ""
     }
   },

@@ -4718,11 +4718,11 @@
     "backTranslationDiff": 0.25
   },
   "yurukusa/cc-safe-setup": {
-    "sourceHash": "624b6fc62dd21e94",
-    "chineseDescription": "一条命令让 Claude Code 安全地自主运行。防止 rm -rf、密钥泄露、force-push、部署崩溃。包含 890+ 个示例钩子，MIT 协议，零依赖——基于真实的 Claude Code 自主运行经验和逐条真实事故报告构建。",
-    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载所有文件，并保存到 .claude/skills/cc-safe-setup/ 目录下，完成安装。",
-    "translatedAt": "2026-06-11T14:49:20.817Z",
-    "backTranslationDiff": 0.5185185185185186
+    "sourceHash": "4f1021dcc7585de2",
+    "chineseDescription": "为 Claude Code 提供安全钩子（safety hooks），在工具边界阻止破坏性操作，并暴露静默失败（silent failures）。",
+    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载仓库文件，保存到 .claude/skills/cc-safe-setup/ 目录，完成安装。",
+    "translatedAt": "2026-07-04T04:16:05.498Z",
+    "backTranslationDiff": 0.3076923076923077
   },
   "sageox/ox": {
     "sourceHash": "dae49407c2b303de",

@@ -8663,6 +8663,38 @@
     "checkedAt": "2026-07-03T04:11:32.201Z"
   },
   {
+    "repo": "sup3x/claude-code-eco",
+    "name": "claude-code-eco",
+    "description": "Eco mode for Claude Code. /eco: -31% to -73% output tokens with critical findings intact; /eco-max: up to -75% with lowered effort. Measured hardest on Claude Fable 5 (fable5), deep-studied on Sonnet 5, works on Opus 4.8 too. We publish our negative results. 82 raw benchmark runs.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-fable-5",
+      "claude-opus",
+      "claude-skills",
+      "claude-sonnet",
+      "cost-optimization",
+      "cost-reduction",
+      "developer-tools",
+      "fable-5",
+      "fable5",
+      "llm",
+      "token-optimization",
+      "tokens"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-02T19:20:19Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -9364,6 +9396,31 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-02T04:32:36.587Z"
+  },
+  {
+    "repo": "apoorvjain25/production-audit",
+    "name": "production-audit",
+    "description": "Claude Code skill that audits your product until it stops finding things - then proves it. 24 lenses, 2 convergence loops, 0 hedging.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "code-audit",
+      "code-review",
+      "developer-tools",
+      "llm",
+      "loop-engineering",
+      "production-readiness"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-25T08:30:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -15839,6 +15896,29 @@
     "checkedAt": "2026-07-03T04:11:32.201Z"
   },
   {
+    "repo": "lowwwbank/anything-to-course",
+    "name": "anything-to-course",
+    "description": "Agent Skill (Claude Code, Claude.ai, Codex) that turns any material into a self-study course built on learning science - retrieval practice, spaced repetition, interleaving. Not a content dump.",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "course-generator",
+      "education",
+      "instructional-design",
+      "learning-science"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-03T18:07:39Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -21562,6 +21642,102 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-03T04:11:32.201Z"
+  },
+  {
+    "repo": "programmerloverun/bilibili-to-doc",
+    "name": "bilibili-to-doc",
+    "description": "🎬 哔哩哔哩视频转文档 | Claude Code Skill: 自动将B站视频AI字幕提取为结构化Markdown文档",
+    "tags": [
+      "ai-tools",
+      "bilibili",
+      "bilibili-downloader",
+      "claude-code",
+      "claude-code-skill",
+      "markdown",
+      "subtitle",
+      "video-to-doc",
+      "yt-dlp"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-03T08:54:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
+    "repo": "hebulin/mcp-read-file-server",
+    "name": "mcp-read-file-server",
+    "description": "加密环境文件操作 MCP 工具。当 Node.js 是加密软件白名单进程时，通过 fs 模块自动解密读写文件明文，替代 AI Agent 内置文件工具，适用于任何支持 MCP 协议的 Agent。",
+    "tags": [
+      "agent",
+      "AI",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "encryption",
+      "mcp",
+      "mcp-tools",
+      "nodejs",
+      "read-the-encrypted-file-mcp",
+      "readfile",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-03T08:26:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
+    "repo": "undeemed/walkthrough-kit",
+    "name": "walkthrough-kit",
+    "description": "Claude Code plugin: spoken walkthrough kits for code demos inside isolated grader sandboxes. Code pointers + portable commands, no diagrams, no local paths.",
+    "tags": [
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-walkthrough",
+      "demo-script",
+      "developer-tools",
+      "presentation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-02T12:57:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
+    "repo": "undeemed/ocd",
+    "name": "ocd",
+    "description": "Claude Code plugin: zero-tolerance audit-and-fix pass for visual polish and code quality. Measures rendered output, fixes every violation, reports tersely.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-quality",
+      "developer-tools",
+      "ui-polish"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-02T13:11:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-04T04:05:00.358Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
