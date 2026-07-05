@@ -9423,6 +9423,30 @@
     "checkedAt": "2026-07-04T04:05:00.358Z"
   },
   {
+    "repo": "timoncool/prompt-warrior",
+    "name": "prompt-warrior",
+    "description": "Agent skill: your AI coding logs as a gamified character sheet — Claude Code, Codex, OpenCode, Gemini, Copilot. 74 achievements, fixed-scale metrics, LLM-written chronicle, research-backed advice. 100% local, RU/EN.",
+    "tags": [
+      "AI",
+      "analytics",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "gamification",
+      "open-source",
+      "prompt-engineering",
+      "self-analysis"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-04T17:13:48Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -10841,6 +10865,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-03T04:11:32.201Z"
+  },
+  {
+    "repo": "magithar/skillmama",
+    "name": "SKILLmama",
+    "description": "Finds, scores, and ranks the best library, SDK, or tool for your exact stack — no Reddit threads, no outdated blogs. 5-tier search, deterministic scoring, built-in security gate. Works with Claude Code, Claude.ai, Codex & Antigravity.",
+    "tags": [
+      "agent-skills",
+      "antigravity",
+      "claude",
+      "claude-cli",
+      "claude-skills",
+      "codex",
+      "llm-agents",
+      "skill-directory",
+      "skill-discovery",
+      "skillmama"
+    ],
+    "stars": 6,
+    "lastPush": "2026-07-03T14:31:16Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -15917,6 +15965,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
+    "repo": "sxuan-coder/alibaba-java-development-guide",
+    "name": "alibaba-java-development-guide",
+    "description": "《阿里巴巴Java开发手册(黄山版)》Claude Code / Codex Skill —— 让AI编码助手自动遵循阿里Java规约",
+    "tags": [
+      "alibaba-java",
+      "claude-code-skill",
+      "codex-skill",
+      "java",
+      "java-guide",
+      "skills",
+      "skills-sh"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-02T18:08:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -21738,6 +21807,75 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-04T04:05:00.358Z"
+  },
+  {
+    "repo": "saqqdy/ai-code-reviewer-plus",
+    "name": "ai-code-reviewer-plus",
+    "description": "AI-powered intelligent code reviewer — multi-dimensional semantic analysis, five-tier severity classification, actionable fix suggestions via Claude Code Skill",
+    "tags": [
+      "ai-code-reviewer-plus",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-review",
+      "intelligent-review",
+      "pr-review",
+      "semantic-analysis"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-04T07:54:48Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
+  },
+  {
+    "repo": "asiridalugoda/autonomous-loop",
+    "name": "autonomous-loop",
+    "description": "A Claude Code skill for running long, unattended, multi-goal work, the kind where a human isn't approving each step. ",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "autnomous",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-04T01:06:42Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
+  },
+  {
+    "repo": "connerkward/ckw-design-skill",
+    "name": "ckw-design-skill",
+    "description": "ckw-design — Conner K. Ward's frontend design skill for Claude Code: direction, design system, visual philosophy.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "css",
+      "设计",
+      "design-system",
+      "前端"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-05T04:32:19.852Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

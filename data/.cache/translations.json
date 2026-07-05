@@ -224,11 +224,11 @@
     "backTranslationDiff": 0.38888888888888884
   },
   "liwala/sheal": {
-    "sourceHash": "2464d4cd752d50e8",
-    "chineseDescription": "你的 AI agent 总是犯同样的错误。sheal 能修复这个问题。",
-    "prompt": "你的 AI agent 总是重复犯同样的错误。请使用 sheal 来修复这个问题。",
-    "translatedAt": "2026-05-23T20:00:16.999Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "1d6de4d5c2424088",
+    "chineseDescription": "这是一个为编码代理（coding agents）设计的自愈与自学习循环工具。它能让 AI 在运行过程中自动修复错误，并从经验中学习改进。",
+    "prompt": "请从 https://github.com/liwala/sheal 下载该技能，并将文件保存到 .claude/skills/sheal/ 目录下，完成安装。",
+    "translatedAt": "2026-07-05T04:49:18.957Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "nikolai-vysotskyi/trace-mcp": {
     "sourceHash": "c5f7e2d4c3c311d6",
@@ -3906,11 +3906,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "aspegio/nelson": {
-    "sourceHash": "78704db938ab6d32",
-    "chineseDescription": "受经过时间考验的英国皇家海军操作流程启发，为你的智能体团队提供组织管理。",
-    "prompt": "请从 https://github.com/aspegio/nelson 下载该 skill 的所有文件，并保存到 .claude/skills/nelson/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T17:47:07.712Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "80310fda9c422c07",
+    "chineseDescription": "一个受久经考验的皇家海军操作流程启发的 Claude Code 组织（Organisation）工具。",
+    "prompt": "请从 https://github.com/aspegio/nelson 下载文件，并将其保存到 .claude/skills/nelson/ 目录下，完成安装。",
+    "translatedAt": "2026-07-05T04:49:06.496Z",
+    "backTranslationDiff": 0.11111111111111116
   },
   "mikesheehan54/claude-code-design-ai": {
     "sourceHash": "8d06bd5d54fae896",
@@ -4858,11 +4858,11 @@
     "backTranslationDiff": 0
   },
   "aperivue/medsci-skills": {
-    "sourceHash": "a8cac193b84530df",
-    "chineseDescription": "Claude Code 的医学研究技能包——文献检索、报告规范、统计分析、发表级图表。由临床医生兼研究员开发，在真实论文中测试过。MIT 开源许可。",
-    "prompt": "请从 https://github.com/aperivue/medsci-skills 下载 medsci-skills 技能包，并将所有文件保存到 .claude/skills/medsci-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:04:05.015Z",
-    "backTranslationDiff": 0.5789473684210527
+    "sourceHash": "d0fc73d2f887b16d",
+    "chineseDescription": "这是一个面向医学研究的 Agent 技能包，涵盖文献检索、报告指南与引用检查、统计、发表图表、投稿等环节。兼容 Claude Code、Codex、Cursor 和 GitHub Copilot。由一位医生兼研究者开发，已在真实发表物上测试过。MIT 许可。",
+    "prompt": "请从 https://github.com/aperivue/medsci-skills 下载文件，并保存到 .claude/skills/medsci-skills/ 目录，完成安装。",
+    "translatedAt": "2026-07-05T04:48:59.406Z",
+    "backTranslationDiff": 0.37037037037037035
   },
   "ypares/rigup.nix": {
     "sourceHash": "ff7f7e6cf3cc729a",
@@ -5677,11 +5677,11 @@
     "backTranslationDiff": 0.14814814814814814
   },
   "nexu-io/open-design": {
-    "sourceHash": "d8885a5044fe7f89",
-    "chineseDescription": "🎨 本地优先、开源的 Claude Design 替代品。🖥️ 原生桌面应用。⚡ 259+ 技能 · ✨ 142+ 设计系统 🖼️ Web、桌面、移动端原型、幻灯片、图片、视频、HyperFrames 📦 沙盒预览 · HTML/PDF/PPTX/MP4 导出 🤖 支持 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi 及 17+ 个 CLI。【使用场景】适用于需要本地优先、开源的设计工具，支持多种原型和导出格式，可与多种 CLI 集成。",
-    "prompt": "请从 GitHub 仓库 https://github.com/nexu-io/open-design 下载最新版本，并将其内容放置到 .claude/skills/open-design/ 目录下（如果目录不存在则创建），完成安装。",
-    "translatedAt": "2026-05-31T16:19:04.743Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "28d02de462c366b9",
+    "chineseDescription": "🎨 Vibe Design 工作台，开源的 Claude Design 替代品。🖥️ 本地优先的桌面应用。🖼️ 你的编码助手变身设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——生成真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 通过 BYOK（自带密钥）支持 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen 及 20+ CLI 工具。",
+    "prompt": "请从 https://github.com/nexu-io/open-design 下载 open-design 项目文件，并将其保存到 .claude/skills/open-design/ 目录下，完成安装。",
+    "translatedAt": "2026-07-05T04:48:55.000Z",
+    "backTranslationDiff": 0.303030303030303
   },
   "sickn33/antigravity-awesome-skills": {
     "sourceHash": "157d8f01e8457442",
@@ -6531,11 +6531,11 @@
     "backTranslationDiff": 0
   },
   "moizibnyousaf/ai-agent-skills": {
-    "sourceHash": "fc9d3bef58c4f1c1",
-    "chineseDescription": "这是我整理的 agent skills 库，里面收集了一些实用的技能。",
-    "prompt": "请从 https://github.com/moizibnyousaf/ai-agent-skills 下载该仓库，并将所有文件保存到 .claude/skills/ai-agent-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:48:42.434Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "e1333f882b01a6cb",
+    "chineseDescription": "AI编码代理的通用技能安装器和包管理器。一条命令，支持12+运行时。npx ai-agent-skills",
+    "prompt": "请从 https://github.com/moizibnyousaf/ai-agent-skills 下载 Ai-Agent-Skills 技能，并将其文件保存到 .claude/skills/ai-agent-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-05T04:49:10.228Z",
+    "backTranslationDiff": 0.5
   },
   "yzfly/douyin-mcp-server": {
     "sourceHash": "3c32016139ef21f5",
@@ -7567,11 +7567,11 @@
     "backTranslationDiff": 0.17647058823529416
   },
   "rrezartprebreza/spring-boot-skills": {
-    "sourceHash": "9880c32b1f09286b",
-    "chineseDescription": "面向 Spring Boot 开发者的生产级 Claude Code 技能集",
-    "prompt": "请从 https://github.com/rrezartprebreza/spring-boot-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/spring-boot-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-15T18:35:08.005Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "0dadfb6486ae080e",
+    "chineseDescription": "面向 Spring Boot 开发者的生产级 Claude Code 和 Codex 技能集",
+    "prompt": "请从 https://github.com/rrezartprebreza/spring-boot-skills 下载文件，保存到 .claude/skills/spring-boot-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-05T04:49:03.181Z",
+    "backTranslationDiff": 0.25
   },
   "kgraph57/paper-writer-skill": {
     "sourceHash": "d5d4f0b7b8d15060",
@@ -7644,11 +7644,11 @@
     "backTranslationDiff": 0.050000000000000044
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "sourceHash": "c71e014a87e64809",
-    "chineseDescription": "54个营销技能 + 4个命令，适用于 Claude Code 和 AI agents：SEO/GEO、KOL营销（IMPACT）和付费广告（ROAS），全部整合在同一个共享合约中。框架包括：CORE-EEAT、CITE、C³、ROAS。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录，完成安装。",
-    "translatedAt": "2026-07-03T04:29:35.805Z",
-    "backTranslationDiff": 0.23529411764705888
+    "sourceHash": "202c7a4b4624184d",
+    "chineseDescription": "这是一个包含69个营销技能和5个命令的 Claude Code Skill 包，横跨4个领域——SEO/GEO、网红营销(IMPACT)、付费广告(ROAS)和邮件营销(SEND)，所有技能共享同一个合约。还附带5个质量框架及审计关卡：CORE-EEAT · CITE · C³ · ROAS · SEND。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录下完成安装。",
+    "translatedAt": "2026-07-05T04:49:15.303Z",
+    "backTranslationDiff": 0.42307692307692313
   },
   "ratel-ai/ratel": {
     "sourceHash": "4be444ccd420f101",
