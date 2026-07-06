@@ -1592,6 +1592,35 @@
     "lastPush": "2026-05-31T04:18:51Z"
   },
   {
+    "repo": "wesammustafa/claude-code-everything-you-need-to-know",
+    "name": "Claude-Code-Everything-You-Need-to-Know",
+    "description": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "best-practices",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-guide",
+      "claude-code-hooks",
+      "claude-code-skills",
+      "claude-code-tutorial",
+      "claude-skills",
+      "guide",
+      "mcp",
+      "mcp-servers",
+      "prompt-engineering",
+      "subagents",
+      "tutorial"
+    ],
+    "stars": 2254,
+    "lastPush": "2026-07-05T12:39:29Z"
+  },
+  {
     "repo": "foryourhealth111-pixel/vibe-skills",
     "name": "Vibe-Skills",
     "description": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgrade its functionality—eliminating the friction of fragmented tools and complex harnesses.",
@@ -3470,6 +3499,21 @@
     ],
     "stars": 605,
     "lastPush": "2026-02-08T19:43:04Z"
+  },
+  {
+    "repo": "ksimback/looper",
+    "name": "looper",
+    "description": "Design visual, review-gated agent loops for Claude Code before you run them.",
+    "tags": [
+      "agent-loops",
+      "agentic-workflows",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "llm-as-judge"
+    ],
+    "stars": 589,
+    "lastPush": "2026-07-05T22:30:11Z"
   },
   {
     "repo": "mhattingpete/claude-skills-marketplace",
@@ -9656,6 +9700,25 @@
     "lastPush": "2026-03-29T21:13:10Z"
   },
   {
+    "repo": "kimsh-1/deck-factory",
+    "name": "deck-factory",
+    "description": "One line of intent → a presentation-grade, dark-editorial HTML deck. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "deck",
+      "design-system",
+      "html",
+      "presentation",
+      "slides"
+    ],
+    "stars": 36,
+    "lastPush": "2026-07-05T09:46:50Z"
+  },
+  {
     "repo": "massimodeluisa/recursive-decomposition-skill",
     "name": "recursive-decomposition-skill",
     "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
@@ -12428,6 +12491,20 @@
     "lastPush": "2026-05-30T03:51:25Z"
   },
   {
+    "repo": "francescoborzi/agent-toolkit",
+    "name": "agent-toolkit",
+    "description": "Minimalistic, project-agnostic skills and rules for AI coding agents",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "spec-driven-development"
+    ],
+    "stars": 17,
+    "lastPush": "2026-07-05T21:55:08Z"
+  },
+  {
     "repo": "ethos-link/rails-conventions",
     "name": "rails-conventions",
     "description": "Standard SKILL-convention Rails skill",
@@ -12801,6 +12878,25 @@
     ],
     "stars": 16,
     "lastPush": "2026-06-29T18:55:40Z"
+  },
+  {
+    "repo": "yzfly/awesome-skills-zh",
+    "name": "awesome-skills-zh",
+    "description": "🚀 精选 Claude Skills、Agent Skills、LLM Skills 及 AI 智能体开发资源列表（中文）。A curated list of awesome Claude / Agent / LLM Skills.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "llm",
+      "skills"
+    ],
+    "stars": 16,
+    "lastPush": "2026-07-05T11:54:43Z"
   },
   {
     "repo": "seanzor/claude-speed-reader",
@@ -13342,6 +13438,34 @@
     ],
     "stars": 14,
     "lastPush": "2026-06-03T15:12:11Z"
+  },
+  {
+    "repo": "contextjet-ai/awesome-llm-observability",
+    "name": "awesome-llm-observability",
+    "description": "50+ curated LLM observability tools PLUS 26 Agent Skills (several with runnable, unit-tested scripts) to build, evaluate, debug, secure & monitor reliable LLM apps. Tracing, evals, guardrails, LLMOps.",
+    "tags": [
+      "ai-agents",
+      "ai-engineering",
+      "ai-observability",
+      "awesome",
+      "awesome-list",
+      "claude-skills",
+      "evaluation",
+      "genai",
+      "guardrails",
+      "llm",
+      "llm-evaluation",
+      "llm-monitoring",
+      "llm-security",
+      "llmops",
+      "mlops",
+      "observability",
+      "opentelemetry",
+      "prompt-engineering",
+      "prompt-management"
+    ],
+    "stars": 14,
+    "lastPush": "2026-07-05T19:48:40Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -14697,6 +14821,22 @@
     "lastPush": "2026-06-29T23:06:10Z"
   },
   {
+    "repo": "sudais-khalid/vibe-ship",
+    "name": "vibe-ship",
+    "description": "A Claude Code / Claude.ai Skill that turns any codebase into something deployable with docker compose up and shippable through CI/CD, hardened by default, generated in one pass.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "stars": 11,
+    "lastPush": "2026-07-05T07:03:06Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -15307,6 +15447,27 @@
     "lastPush": "2026-06-30T11:04:27Z"
   },
   {
+    "repo": "agents365-ai/imagencn",
+    "name": "imagenCN",
+    "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
+    "tags": [
+      "agent-skills",
+      "ai-art",
+      "alibaba-cloud",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "dashscope",
+      "image-generation",
+      "openclaw",
+      "openclaw-skills",
+      "skill-md",
+      "skillsmp"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-05T12:38:47Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -15640,6 +15801,22 @@
     ],
     "stars": 9,
     "lastPush": "2026-07-02T19:20:19Z"
+  },
+  {
+    "repo": "anliberant/obsidian-ai-setup",
+    "name": "obsidian-ai-setup",
+    "description": "Bootstrap a fully personalized Obsidian vault with AI. Interactive onboarding, document ingestion, and automatic knowledge base generation for Claude Code and compatible AI agents.",
+    "tags": [
+      "ai-agents",
+      "claude-skills",
+      "knowledge-management",
+      "markdown",
+      "obsidian",
+      "productivity",
+      "second-brain"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-03T06:44:25Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -16781,6 +16958,46 @@
     ],
     "stars": 7,
     "lastPush": "2026-06-26T20:44:21Z"
+  },
+  {
+    "repo": "denniswei9898/fable-commander",
+    "name": "fable-commander",
+    "description": "Fable 指揮官工作流 — 最強模型只做規劃/審查，研究與執行派給你選的模型；maker/verifier 分離的執行迴圈。Commander workflow for Claude Code: plan & review on the top model, delegate research/execution, based on Loop Engineering. 中英雙語。",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "loop-engineering",
+      "multi-agent"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-04T07:41:28Z"
+  },
+  {
+    "repo": "jvogan/a-fable-of-codexes",
+    "name": "a-fable-of-codexes",
+    "description": "Claude Code skills that make Claude (Fable) the conductor of AI worker fleets: many parallel OpenAI Codex workers plus Opus design agents, organized into campaigns, waves, squads, and review gates.",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "developer-tools",
+      "llm",
+      "multi-agent",
+      "openai",
+      "openai-codex",
+      "orchestration"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-05T01:11:29Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -26113,6 +26330,23 @@
     ],
     "stars": 1,
     "lastPush": "2026-06-17T05:33:12Z"
+  },
+  {
+    "repo": "chaochaoji/a-stock-recon",
+    "name": "a-stock-recon",
+    "description": "A股全市场复盘数据函数库 — 涨跌停统计、溢价率、连板梯队、板块成交额、个股结构检查。10个函数，零鉴权，盘后一键获取。",
+    "tags": [
+      "a-stock",
+      "claude-code-skill",
+      "eastmoney",
+      "finance",
+      "python",
+      "quant",
+      "stock-market",
+      "trading"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-05T17:30:56Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

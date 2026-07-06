@@ -3479,11 +3479,11 @@
     "backTranslationDiff": 0.375
   },
   "raintree-technology/apple-hig-skills": {
-    "sourceHash": "455e64a1595506a4",
-    "chineseDescription": "Apple HIG 审计 CLI + 14 个 AI 编码助手代理技能——对任何项目进行 HIG 合规性评分，涵盖 12 个框架。【使用场景】用于检查 iOS/macOS 应用是否符合 Apple Human Interface Guidelines，适合 UI/UX 设计师和开发者。",
-    "prompt": "请从 GitHub 仓库 https://github.com/raintree-technology/apple-hig-skills 下载该 Skill 的所有文件，并将其保存到当前项目的 .claude/skills/apple-hig-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:22:42.851Z",
-    "backTranslationDiff": 0.36363636363636365
+    "sourceHash": "fb0dbc937cad0476",
+    "chineseDescription": "一个 AI 可读的 Apple HIG（人机界面指南）知识库，支持 MCP 查询和跨框架合规性审计 CLI。",
+    "prompt": "请从 https://github.com/raintree-technology/apple-hig-skills 下载 hig-doctor skill 文件，保存到 .claude/skills/apple-hig-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-06T05:01:32.223Z",
+    "backTranslationDiff": 0.4
   },
   "smixs/creative-director-skill": {
     "sourceHash": "05fde470730b6382",
@@ -4536,11 +4536,11 @@
     "backTranslationDiff": 0.8
   },
   "aaron-he-zhu/seo-geo-claude-skills": {
-    "sourceHash": "562f3861d52f541b",
-    "chineseDescription": "20个SEO & GEO技能，适用于Claude Code、Cursor、Codex以及35+ AI代理。涵盖关键词研究、内容撰写、技术审计、排名追踪。核心框架：CORE-EEAT + CITE。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/seo-geo-claude-skills 下载所有文件，并保存到 .claude/skills/seo-geo-claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-26T14:33:16.906Z",
-    "backTranslationDiff": 0.11764705882352944
+    "sourceHash": "84e766ec571876c1",
+    "chineseDescription": "Signpost → 16个SEO/GEO agent技能位于 aaron-marketing-skills 仓库；本仓库独立的20技能分支保存在标签 v9.9.12。安装命令：npx skills add aaron-he-zhu/aaron-marketing-skills",
+    "prompt": "请从 https://github.com/aaron-he-zhu/seo-geo-claude-skills 下载文件，保存到 .claude/skills/seo-geo-claude-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-06T05:01:23.036Z",
+    "backTranslationDiff": 0.4666666666666667
   },
   "composiohq/awesome-claude-plugins": {
     "sourceHash": "5b81fdd3d92dada6",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "98293197f084f899",
-    "chineseDescription": "一个集合了 298 个 agent 技能（支持 Cursor、Claude Code 和 Codex）、5380 个 OpenClaw 技能、201 个 ML 笔记本、51 篇研究论文和 16 份行业报告的仓库，面向 PM、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其内容保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-07-03T04:29:31.434Z",
-    "backTranslationDiff": 0.23529411764705888
+    "sourceHash": "78cfff258b42a89b",
+    "chineseDescription": "329个Agent技能（支持Cursor、Claude Code和Codex）、5380个OpenClaw技能、201个机器学习笔记本、51篇研究论文、16份行业报告，面向产品经理、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-vibe-coding 技能包，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录下完成安装。",
+    "translatedAt": "2026-07-06T05:01:36.343Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "safishamsi/graphify": {
     "sourceHash": "88622295b634473e",
@@ -7644,11 +7644,11 @@
     "backTranslationDiff": 0.050000000000000044
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "sourceHash": "202c7a4b4624184d",
-    "chineseDescription": "这是一个包含69个营销技能和5个命令的 Claude Code Skill 包，横跨4个领域——SEO/GEO、网红营销(IMPACT)、付费广告(ROAS)和邮件营销(SEND)，所有技能共享同一个合约。还附带5个质量框架及审计关卡：CORE-EEAT · CITE · C³ · ROAS · SEND。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录下完成安装。",
-    "translatedAt": "2026-07-05T04:49:15.303Z",
-    "backTranslationDiff": 0.42307692307692313
+    "sourceHash": "c47a3ded5ea04b4e",
+    "chineseDescription": "120个营销技能 + 8个命令，适用于Claude Code和AI代理，覆盖7个领域——SEO/GEO、KOL营销、付费广告、邮件营销、产品发布、社交媒体运营和品牌叙事——全部基于同一个共享合约，并配有8个审计关卡：CORE-EEAT · CITE · C³ · ROAS · SEND · RAMP · ECHO · TALE。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，保存到 .claude/skills/aaron-marketing-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-06T05:01:28.260Z",
+    "backTranslationDiff": 0.4193548387096774
   },
   "ratel-ai/ratel": {
     "sourceHash": "4be444ccd420f101",
@@ -7665,10 +7665,31 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "e36741341ea638eb",
-    "chineseDescription": "这是一个用于俄语 AI 代理的 Skill。它可以去除俄语文本中的机器生成痕迹。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru Skill 文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，以完成安装。",
-    "translatedAt": "2026-07-03T04:29:39.712Z",
+    "sourceHash": "4c81628835898248",
+    "chineseDescription": "去除俄语文本中的机器生成痕迹，让文字读起来更像人写的。",
+    "prompt": "请安装 humanizer-ru skill。从 https://github.com/vladimir-human/humanizer-ru 下载文件，并保存到 .claude/skills/humanizer-ru/ 目录。",
+    "translatedAt": "2026-07-06T05:01:52.486Z",
     "backTranslationDiff": 1
+  },
+  "kimsh-1/deck-factory": {
+    "sourceHash": "834994bff8b52848",
+    "chineseDescription": "一行意图 → 一份演示级别的、深色编辑风格的 HTML 幻灯片。这是一个 Claude Code Skill。",
+    "prompt": "请从 https://github.com/kimsh-1/deck-factory 下载该 Skill 的文件，并保存到 .claude/skills/deck-factory/ 目录中，完成安装。",
+    "translatedAt": "2026-07-06T05:01:40.165Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "wesammustafa/claude-code-everything-you-need-to-know": {
+    "sourceHash": "1bb0f87428514992",
+    "chineseDescription": "一份实用的 Claude Code 指南，包含清晰的思维模型和可直接复制粘贴的示例——涵盖 setup、prompt engineering、slash commands、skills、hooks、subagents、agent teams 和 MCP servers。从新手入门到高级用户深度使用，已被 Awesome Claude Code 收录。",
+    "prompt": "请从 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载文件，并将其保存到 .claude/skills/claude-code-everything-you-need-to-know/ 目录下，完成安装。",
+    "translatedAt": "2026-07-06T05:01:44.851Z",
+    "backTranslationDiff": 0.25
+  },
+  "ksimback/looper": {
+    "sourceHash": "ff8c6b59e1ad3da3",
+    "chineseDescription": "在运行之前，为 Claude Code 设计可视化、带审查门的 agent 循环（agent loops）。",
+    "prompt": "请安装 looper skill，从 https://github.com/ksimback/looper 下载文件，保存到 .claude/skills/looper/ 目录。",
+    "translatedAt": "2026-07-06T05:01:48.663Z",
+    "backTranslationDiff": 0.4444444444444444
   }
 }

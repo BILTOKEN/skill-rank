@@ -2022,6 +2022,40 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "wesammustafa/claude-code-everything-you-need-to-know",
+    "name": "Claude-Code-Everything-You-Need-to-Know",
+    "description": "A practical Claude Code guide with clear mental models and copy-paste examples — setup, prompt engineering, slash commands, skills, hooks, subagents, agent teams, and MCP servers. Beginner path to power-user depth. Featured in Awesome Claude Code.",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "best-practices",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-guide",
+      "claude-code-hooks",
+      "claude-code-skills",
+      "claude-code-tutorial",
+      "claude-skills",
+      "guide",
+      "mcp",
+      "mcp-servers",
+      "prompt-engineering",
+      "subagents",
+      "tutorial"
+    ],
+    "stars": 2254,
+    "lastPush": "2026-07-05T12:39:29Z",
+    "pool": "ranked",
+    "readmeLength": 6743,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-06T04:42:26.658Z"
+  },
+  {
     "repo": "foryourhealth111-pixel/vibe-skills",
     "name": "Vibe-Skills",
     "description": "Vibe-Skills is an all-in-one AI skills package. It seamlessly integrates expert-level capabilities and context management into a general-purpose skills package， enabling any AI agent to instantly upgrade its functionality—eliminating the friction of fragmented tools and complex harnesses.",
@@ -4440,6 +4474,26 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code",
     "checkedAt": "2026-05-31T15:26:11.340Z"
+  },
+  {
+    "repo": "ksimback/looper",
+    "name": "looper",
+    "description": "Design visual, review-gated agent loops for Claude Code before you run them.",
+    "tags": [
+      "agent-loops",
+      "agentic-workflows",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "llm-as-judge"
+    ],
+    "stars": 589,
+    "lastPush": "2026-07-05T22:30:11Z",
+    "pool": "ranked",
+    "readmeLength": 1872,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-06T04:42:26.658Z"
   },
   {
     "repo": "mhattingpete/claude-skills-marketplace",
