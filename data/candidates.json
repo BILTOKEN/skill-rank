@@ -11416,6 +11416,50 @@
     "lastPush": "2026-05-19T10:47:32Z"
   },
   {
+    "repo": "wu-haotian34/2dimg2motion",
+    "name": "2dimg2motion",
+    "description": "Agent skill for converting 2D character into style-consistent transparent animation sequences and spritesheets for game engines | 用于将静态 2D 角色/物体图片，通过 agent 转化为一致的透明背景游戏动画序列帧。",
+    "tags": [
+      "claude-skills",
+      "codex-skill",
+      "game-development",
+      "skill",
+      "sprite-animation",
+      "spritesheet"
+    ],
+    "stars": 23,
+    "lastPush": "2026-07-02T07:01:53Z"
+  },
+  {
+    "repo": "dizzymii/fable-skills",
+    "name": "fable-skills",
+    "description": "Six Claude Code skills that harden Opus 4.8 toward frontier behavior — written by Fable 5, pressure-tested on the target model with transcripts included.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "coding-assistant",
+      "developer-tools",
+      "llm",
+      "llmops",
+      "llms",
+      "open-source",
+      "opus",
+      "productivity",
+      "prompt-engineering",
+      "prompts",
+      "tdd"
+    ],
+    "stars": 23,
+    "lastPush": "2026-06-10T16:41:20Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -13466,6 +13510,27 @@
     ],
     "stars": 14,
     "lastPush": "2026-07-05T19:48:40Z"
+  },
+  {
+    "repo": "kgelster/awesome-ecom-skills",
+    "name": "awesome-ecom-skills",
+    "description": "Shopify agency playbooks as Claude agent skills: catalog cleanup, SEO metadata, structured data, redirects, landing pages. Markdown-only. The playbook companion to Shopify's official AI toolkit.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "ecommerce",
+      "json-ld",
+      "matrixify",
+      "product-taxonomy",
+      "seo",
+      "shopify",
+      "shopify-metafields",
+      "shopify-seo",
+      "structured-data"
+    ],
+    "stars": 14,
+    "lastPush": "2026-07-06T18:30:45Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -17000,6 +17065,20 @@
     "lastPush": "2026-07-05T01:11:29Z"
   },
   {
+    "repo": "kalyvask/winning-writing",
+    "name": "winning-writing",
+    "description": "Agentic writting toolkit built from Glenn Kramon's Winning Writing at Stanford GSB and Rachel Konrad's cold-outreach guest lectures. 31 Claude skills, a browser Coach with span-level inline critic and refinement chat, plus a Chrome MV3 extension that runs the same critic in the Gmail side panel.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "cold-outreach",
+      "editing",
+      "写作"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-10T23:17:21Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -20314,6 +20393,30 @@
     "lastPush": "2026-07-01T00:55:15Z"
   },
   {
+    "repo": "toni7891/deployguard",
+    "name": "DeployGuard",
+    "description": "Four-command Kubernetes deployment tool: scaffold hardened configs, validate output, estimate cost, and deploy with automatic rollback.",
+    "tags": [
+      "automation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills",
+      "cli",
+      "deployment",
+      "fastapi",
+      "iac",
+      "infrastructure-as-code",
+      "k8s",
+      "kubernetes",
+      "platform-engineering",
+      "python",
+      "rollback"
+    ],
+    "stars": 3,
+    "lastPush": "2026-06-28T19:44:12Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -21685,6 +21788,35 @@
     ],
     "stars": 2,
     "lastPush": "2026-07-02T18:08:33Z"
+  },
+  {
+    "repo": "zihao-wu06/claude-code-orchestrate",
+    "name": "claude-code-orchestrate",
+    "description": "A Claude Code skill for orchestrating Opus/Sonnet/Haiku subagents plus a cross-vendor Codex peer",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-code-subagents",
+      "codex",
+      "codex-cli",
+      "coding-agent",
+      "coding-agents",
+      "developer-tools",
+      "llm",
+      "multi-agent",
+      "orchestration",
+      "skills",
+      "subagents"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-06T16:05:15Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -26347,6 +26479,112 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-05T17:30:56Z"
+  },
+  {
+    "repo": "connerkward/lookdev-auto-skill",
+    "name": "lookdev-auto-skill",
+    "description": "lookdev-auto — a Claude Code skill for automated visual tuning: a vision model rates rendered variants in a loop.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "设计",
+      "lookdev",
+      "vision-model"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:17Z"
+  },
+  {
+    "repo": "connerkward/deterministic-design-skill",
+    "name": "deterministic-design-skill",
+    "description": "deterministic-design — a Claude Code skill that renders your UI and proves it's balanced + usable: deterministic layout audit + vision-judged usability.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "设计",
+      "design-system",
+      "layout",
+      "ui-testing"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:11Z"
+  },
+  {
+    "repo": "connerkward/lookdev-studio-skill",
+    "name": "lookdev-studio-skill",
+    "description": "lookdev — a Claude Code skill: a human-in-the-loop web studio to tune AI-generated output by eye.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "design-tools",
+      "generative-ai",
+      "human-in-the-loop",
+      "lookdev"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:09Z"
+  },
+  {
+    "repo": "endorphin-ai/hasbrains-agent-kit",
+    "name": "hasbrains-agent-kit",
+    "description": "The battle-tested Claude Code kit behind HasBrainsAI — agent skills, subagents & slash commands for production multi-agent systems. Install in one command.",
+    "tags": [
+      "agent-skills",
+      "agentic-engineering",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-commands",
+      "claude-code-marketplace",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "context-engineering",
+      "multi-agent",
+      "multi-agent-systems",
+      "prompt-engineering",
+      "subagents"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-03T03:52:22Z"
+  },
+  {
+    "repo": "connerkward/macos-screen-recorder-system-audio",
+    "name": "macos-screen-recorder-system-audio",
+    "description": "macos-screen-recorder (sck-record) — a macOS screen recorder with system audio via ScreenCaptureKit: CLI, no driver, no sudo. Plus a Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "ai-tools",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skill",
+      "macos",
+      "screen-recording",
+      "screencapturekit",
+      "swift",
+      "system-audio"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-17T05:33:16Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
