@@ -2835,11 +2835,11 @@
     "backTranslationDiff": 0.25
   },
   "alirezarezvani/claude-skills": {
-    "sourceHash": "b56ba8145c14d993",
-    "chineseDescription": "337个 Claude Code 技能、Agent 技能和插件（30+ Agent、70+ 自定义命令、330+ 技能、可自定义的参考文件和脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 等8个编码 Agent——涵盖工程、营销、产品、合规、C级顾问、研究、业务运营、商业与财务，以及你的日常生产力技能。",
-    "prompt": "请从 https://github.com/alirezarezvani/claude-skills 下载仓库内容，并将所有文件保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-05-30T11:02:02.439Z",
-    "backTranslationDiff": 0.16216216216216217
+    "sourceHash": "e4d7953eab09cdc3",
+    "chineseDescription": "345个 Claude Code 技能、Agent 技能和插件（30+ Agent、70+ 自定义命令、330+ 技能、可自定义的引用和脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 等8个编码 Agent——涵盖工程、市场、产品、合规、C级顾问、研究、业务运营、商业与财务，以及你的日常生产力技能。",
+    "prompt": "请从 https://github.com/alirezarezvani/claude-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-08T04:12:48.063Z",
+    "backTranslationDiff": 0.1351351351351351
   },
   "muratcankoylan/agent-skills-for-context-engineering": {
     "sourceHash": "d7019e6678a41c6a",
@@ -5677,11 +5677,11 @@
     "backTranslationDiff": 0.14814814814814814
   },
   "nexu-io/open-design": {
-    "sourceHash": "28d02de462c366b9",
-    "chineseDescription": "🎨 Vibe Design 工作台，开源的 Claude Design 替代品。🖥️ 本地优先的桌面应用。🖼️ 你的编码助手变身设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——生成真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 通过 BYOK（自带密钥）支持 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen 及 20+ CLI 工具。",
-    "prompt": "请从 https://github.com/nexu-io/open-design 下载 open-design 项目文件，并将其保存到 .claude/skills/open-design/ 目录下，完成安装。",
-    "translatedAt": "2026-07-05T04:48:55.000Z",
-    "backTranslationDiff": 0.303030303030303
+    "sourceHash": "59c5326c5aa16137",
+    "chineseDescription": "🎨 开源的 Claude Design 替代方案。🖥️ 本地优先的桌面应用。🖼️ 你的编码代理变身设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——生成真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 支持 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen 及 20+ CLI，自带密钥（BYOK）。",
+    "prompt": "请从 https://github.com/nexu-io/open-design 下载文件，保存到 .claude/skills/open-design/ 目录完成安装。",
+    "translatedAt": "2026-07-08T04:12:39.093Z",
+    "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
     "sourceHash": "157d8f01e8457442",
@@ -5894,11 +5894,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "santifer/career-ops": {
-    "sourceHash": "e3abc53b57668bb8",
-    "chineseDescription": "基于 Claude Code 的 AI 驱动求职系统。14 种技能模式（skill modes），Go 仪表盘（Go dashboard），PDF 生成（PDF generation），批量处理（batch processing）。【使用场景】适合求职者自动化投递简历、生成求职报告等。",
-    "prompt": "请从 GitHub 仓库 https://github.com/santifer/career-ops 下载 career-ops skill 的所有文件，并将它们保存到 .claude/skills/career-ops/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:27:54.788Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "dfaab55c220afed3",
+    "chineseDescription": "开源AI求职工具：扫描招聘网站、给职位列表打分（A-F）、定制简历、追踪申请进度——全部在你的AI编码CLI（Claude Code、Gemini、Codex、OpenCode等）本地运行。",
+    "prompt": "请从 https://github.com/santifer/career-ops 下载所有文件，保存到 .claude/skills/career-ops/ 目录，完成安装。",
+    "translatedAt": "2026-07-08T04:12:43.039Z",
+    "backTranslationDiff": 0.5263157894736843
   },
   "trailofbits/skills": {
     "sourceHash": "41ac4243f6ec1f3a",
@@ -7691,5 +7691,19 @@
     "prompt": "请安装 looper skill，从 https://github.com/ksimback/looper 下载文件，保存到 .claude/skills/looper/ 目录。",
     "translatedAt": "2026-07-06T05:01:48.663Z",
     "backTranslationDiff": 0.4444444444444444
+  },
+  "openfate-ai/openfate-mcp": {
+    "sourceHash": "5ba57cb1aa42dc81",
+    "chineseDescription": "OpenFate 八字 MCP 服务器，支持确定性四柱计算、真太阳时、地支相互作用以及反向八字查询。",
+    "prompt": "请从 https://github.com/openfate-ai/openfate-mcp 下载文件，并保存到 .claude/skills/openfate-mcp/ 目录完成安装。",
+    "translatedAt": "2026-07-08T04:12:52.116Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "publisher-skill/publisher": {
+    "sourceHash": "d8f80f6ee3169c8a",
+    "chineseDescription": "将 HTML 前端游戏发布到 AI Game MCP 平台。",
+    "prompt": "请从 https://github.com/publisher-skill/publisher 下载该 Skill 的所有文件，并保存到 .claude/skills/publisher/ 目录中，完成安装。",
+    "translatedAt": "2026-07-08T04:12:55.639Z",
+    "backTranslationDiff": 0.16666666666666663
   }
 }
