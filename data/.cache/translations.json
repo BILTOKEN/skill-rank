@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "dd39d3c210750090",
-    "chineseDescription": "一个集聊天、RAG（检索增强生成）、计划、MCP工具和智能体于一体的AI工作空间，支持多提供商模型。如果你觉得有用，请给这个仓库点个⭐！",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载文件，并保存到 .claude/skills/askimo/ 目录，完成安装。",
-    "translatedAt": "2026-06-28T05:17:43.123Z",
-    "backTranslationDiff": 0.5625
+    "sourceHash": "b3a3b021e5caadc3",
+    "chineseDescription": "一个支持多提供商模型的 AI 客户端，可用于聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。如果你觉得有用，请给这个仓库点个 ⭐！",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo skill 文件，并保存到 .claude/skills/askimo/ 目录中完成安装。",
+    "translatedAt": "2026-07-09T04:37:42.474Z",
+    "backTranslationDiff": 0.6
   },
   "borghei/claude-skills": {
     "sourceHash": "493c77c39cfb0afd",
@@ -5061,10 +5061,10 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "xr843/master-skill": {
-    "sourceHash": "424e06331a74cf9b",
-    "chineseDescription": "由 FoJin 驱动的 Buddhist Master-skill — 三大传统（汉传/藏传/南传）祖师大德 AI 教学角色生成器，引用 CBETA / BDRC / SuttaCentral 数据。【使用场景】用于生成佛教祖师大德AI教学角色，辅助经典学习。",
-    "prompt": "请从 https://github.com/xr843/master-skill 下载仓库的所有文件，并将其保存到 .claude/skills/master-skill/ 目录下，以完成 Master-skill 的安装。",
-    "translatedAt": "2026-05-30T13:40:38.671Z",
+    "sourceHash": "b7a304ceccf6c830",
+    "chineseDescription": "基于FoJin的佛教AI人格框架——来源可溯、边界感知、保真测试、运行时就绪。",
+    "prompt": "请从 https://github.com/xr843/master-skill 下载 master-skill 项目，将文件保存到 .claude/skills/master-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-09T04:37:46.294Z",
     "backTranslationDiff": 0.375
   },
   "seo-skills/seo-audit-skill": {
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "157d8f01e8457442",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1800+ 个 agentic skills，支持 Claude Code、Cursor、Codex CLI、Gemini CLI、Antigravity 等工具。里面还有专门的插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
+    "sourceHash": "f83c132e6ab07450",
+    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1,935+ 个 agentic 技能，适用于 Claude Code、Cursor、Codex CLI、Autohand Code、Gemini CLI、Antigravity 等工具。内含专用插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
     "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库，并将所有文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-03T04:28:59.823Z",
-    "backTranslationDiff": 0.30434782608695654
+    "translatedAt": "2026-07-09T04:37:38.558Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -7705,5 +7705,12 @@
     "prompt": "请从 https://github.com/publisher-skill/publisher 下载该 Skill 的所有文件，并保存到 .claude/skills/publisher/ 目录中，完成安装。",
     "translatedAt": "2026-07-08T04:12:55.639Z",
     "backTranslationDiff": 0.16666666666666663
+  },
+  "cozytab/fable5-mode": {
+    "sourceHash": "31b2e3b7c39faeac",
+    "chineseDescription": "Fable 5 级工作纪律，适用于任何 Claude 模型——这是一个 Claude Code skill 加 guard hooks（计划门控、模型上限、逐任务强制执行），让 Opus 4.8 或任何非前沿模型像 Fable 5 一样规划、自我验证和路由子代理，而不需要 Fable 5。",
+    "prompt": "请从 https://github.com/cozytab/fable5-mode 下载所有文件，并将它们保存到 .claude/skills/fable5-mode/ 目录中，以完成 fable5-mode skill 的安装。",
+    "translatedAt": "2026-07-09T04:37:51.124Z",
+    "backTranslationDiff": 0.19999999999999996
   }
 }

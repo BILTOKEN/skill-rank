@@ -9889,6 +9889,27 @@
     "lastPush": "2026-06-15T15:22:20Z"
   },
   {
+    "repo": "cozytab/fable5-mode",
+    "name": "fable5-mode",
+    "description": "Fable 5-grade work discipline for any Claude model — a Claude Code skill + guard hooks (plan gate, model ceiling, per-task enforcement) that make Opus 4.8 or any non-frontier model plan, self-verify, and route sub-agents like Fable 5, without Fable 5.",
+    "tags": [
+      "agent-hooks",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "fable-5",
+      "fable5",
+      "llm",
+      "opus",
+      "prompt-engineering",
+      "subagents"
+    ],
+    "stars": 35,
+    "lastPush": "2026-07-07T16:33:47Z"
+  },
+  {
     "repo": "muthuishere/hand-drawn-diagrams",
     "name": "hand-drawn-diagrams",
     "description": "Hand-drawn diagram skill for Claude Code and Codex. Generates monochrome architecture, workflow, and UX blueprint diagrams as PNGs.",
@@ -12036,6 +12057,35 @@
     "lastPush": "2026-06-24T14:20:36Z"
   },
   {
+    "repo": "nocodework/ai-context-kit",
+    "name": "ai-context-kit",
+    "description": "Build a reusable Markdown context about you and your company (Claude Code skills + templates), then use it in ChatGPT, Claude, Gemini, Cursor or CLAUDE.md. Write context once, reuse everywhere. MIT.",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "ai-context",
+      "ai-tools",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "company-context",
+      "context",
+      "context-engineering",
+      "cursor",
+      "gemini",
+      "llm",
+      "markdown",
+      "no-code",
+      "opensource",
+      "personal-context",
+      "prompt-engineering"
+    ],
+    "stars": 19,
+    "lastPush": "2026-07-08T22:06:40Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -12612,6 +12662,22 @@
     ],
     "stars": 17,
     "lastPush": "2026-07-05T21:55:08Z"
+  },
+  {
+    "repo": "drpwchen/claude-paper-tools",
+    "name": "claude-paper-tools",
+    "description": "Two Claude Code skills for reading one academic paper: /paper-review (journal-club appraisal, deterministic GRADE + CrossRef gate) and /paper-digest (fast content absorption). Reading end of a pipeline: pair with paper-radar for discovery.",
+    "tags": [
+      "academic-papers",
+      "claude-code",
+      "claude-skills",
+      "critical-appraisal",
+      "evidence-based-medicine",
+      "grade",
+      "pubmed"
+    ],
+    "stars": 17,
+    "lastPush": "2026-07-09T03:35:34Z"
   },
   {
     "repo": "ethos-link/rails-conventions",
@@ -13596,6 +13662,19 @@
     ],
     "stars": 14,
     "lastPush": "2026-07-06T18:30:45Z"
+  },
+  {
+    "repo": "sambwarren/parable",
+    "name": "parable",
+    "description": "A pseudo-Fable mode for Claude Opus — Fable-style planning, verification, and multi-agent discipline as a Claude Code skill set. Unofficial; not affiliated with Anthropic.",
+    "tags": [
+      "claude-code",
+      "claude-fable",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "stars": 14,
+    "lastPush": "2026-07-08T07:38:20Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -15993,6 +16072,28 @@
     "lastPush": "2026-07-03T06:44:25Z"
   },
   {
+    "repo": "techhorizonlabs/thl-open",
+    "name": "thl-open",
+    "description": "AI-visibility engineering, the open way — a Claude Code GEO/AI-search audit suite, two original tools (agent-readiness-scan + audit-report-kit), and the THL method that ties them together.",
+    "tags": [
+      "ai-search",
+      "ai-visibility",
+      "answer-engine-optimization",
+      "chatgpt-seo",
+      "claude-code",
+      "claude-skills",
+      "generative-engine-optimization",
+      "geo",
+      "llm-seo",
+      "llms-txt",
+      "schema-org",
+      "seo",
+      "structured-data"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-09T02:54:40Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -16598,6 +16699,33 @@
     ],
     "stars": 8,
     "lastPush": "2026-07-04T17:13:48Z"
+  },
+  {
+    "repo": "cofoundy/brand-skills",
+    "name": "brand-skills",
+    "description": "Open-source brand skills that turn an idea into a real brand — name, identity, voice & brand book — without leaving your AI agent. Works in Claude Code, Cursor & 70+ agents.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-branding",
+      "anthropic",
+      "brand-guidelines",
+      "brand-identity",
+      "brand-naming",
+      "brand-strategy",
+      "brand-voice",
+      "branding",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "naming",
+      "rebranding",
+      "startup",
+      "windsurf"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-23T00:36:39Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -17212,6 +17340,21 @@
     ],
     "stars": 7,
     "lastPush": "2026-07-04T12:48:11Z"
+  },
+  {
+    "repo": "andykear/filemaker-xmlsnippet-layout-claude-skill",
+    "name": "FileMaker-XMLsnippet-Layout-Claude-Skill",
+    "description": "Reverse-engineered specification of FileMaker's undocumented layout XML format (fmxmlsnippet LayoutObjectList). All 18 object types covered, flags decoded, element order confirmed, verified against production layouts. Packaged as a Claude skill that generates pasteable layout XML.",
+    "tags": [
+      "AI",
+      "claris",
+      "claude-skills",
+      "filemaker",
+      "layout",
+      "xml"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-08T23:56:01Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -26797,6 +26940,110 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-05T11:38:16Z"
+  },
+  {
+    "repo": "zaventh/dotagents-standard-skill",
+    "name": "dotagents-standard-skill",
+    "description": "An agent skill for organizing AI agent context with the dotagents standard (AGENTS.md + .agents/)",
+    "tags": [
+      "agent-skills",
+      "agents-md",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "context-engineering",
+      "cursor",
+      "developer-tools",
+      "dotagents",
+      "progressive-disclosure"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-08T06:40:20Z"
+  },
+  {
+    "repo": "amal-david/claude-to-codex",
+    "name": "claude-to-codex",
+    "description": "Claude Code /handoff skill and plugin that packages a local transcript and starts Codex with compact context.",
+    "tags": [
+      "agent-handoff",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skill",
+      "claude-to-codex",
+      "codex",
+      "codex-cli",
+      "context-transfer",
+      "developer-tools",
+      "handoff",
+      "llm-tools",
+      "openai-codex",
+      "terminal-automation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-08T12:33:27Z"
+  },
+  {
+    "repo": "claudefarid/neuromarketing-claude-skill",
+    "name": "neuromarketing-claude-skill",
+    "description": "🧠 Claude Skill: 20 brain-based buying triggers (loss aversion, social proof, anchoring, scarcity) + channel playbooks for ads, landing pages, pricing & offers",
+    "tags": [
+      "aeo",
+      "ai-marketing",
+      "behavioral-economics",
+      "claude",
+      "claude-code-skill",
+      "conversion-optimization",
+      "copywriting",
+      "marketing",
+      "neuromarketing"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-05T20:50:59Z"
+  },
+  {
+    "repo": "ojekjojek-creator/b-safety-stock-skill-inventrooy",
+    "name": "b-safety-stock-skill-inventrooy",
+    "description": "16 safety stock methods, auto method selection per SKU, professor-grade Excel audit. Benchmarked: 100% vs 51% without the skill. Built from a real 907-SKU project.",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "inventory-management",
+      "inventory-management-dashboard",
+      "safety-stock",
+      "supply-chain",
+      "supply-chain-analytics",
+      "supply-chain-management",
+      "supply-chain-optimization"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-05T19:54:35Z"
+  },
+  {
+    "repo": "ali-ahmad-khan/understudy",
+    "name": "understudy",
+    "description": "Enforcement harness that makes junior models operate like a senior agent: runtime gates + verification ledger + deterministic slop linter + graded drills. Distilled from Claude Fable 5.",
+    "tags": [
+      "agent-harness",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-quality",
+      "cursor",
+      "developer-tools",
+      "hooks",
+      "llm-agents",
+      "llm-evaluation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-07T19:30:55Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
