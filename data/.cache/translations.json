@@ -3262,11 +3262,11 @@
     "backTranslationDiff": 0
   },
   "sanjay3290/ai-skills": {
-    "sourceHash": "6a3bb0f073a610a3",
-    "chineseDescription": "AI编码助手的智能体技能集合",
-    "prompt": "请从 https://github.com/sanjay3290/ai-skills 下载该技能仓库，并将其保存到 .claude/skills/ai-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:13:43.031Z",
-    "backTranslationDiff": 1
+    "sourceHash": "ddbb5dd60cdea88a",
+    "chineseDescription": "24个跨平台 agent 技能（skill），适用于 Claude Code、Cursor、Codex 和 Gemini CLI，涵盖数据库、消息、研究、TTS、DevOps 和 Google Workspace。",
+    "prompt": "请从 https://github.com/sanjay3290/ai-skills 下载所有文件，并将它们保存到 .claude/skills/ai-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-10T04:46:13.184Z",
+    "backTranslationDiff": 0.1333333333333333
   },
   "testdino-hq/playwright-skill": {
     "sourceHash": "1dec3f0e41f43b6e",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "f83c132e6ab07450",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1,935+ 个 agentic 技能，适用于 Claude Code、Cursor、Codex CLI、Autohand Code、Gemini CLI、Antigravity 等工具。内含专用插件、安装 CLI、技能包、工作流以及官方/社区技能合集。",
+    "sourceHash": "3fb3cfbeb1334f59",
+    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1900+ 个 agentic 技能，支持 Claude Code、Cursor、Codex CLI、Autohand Code、Gemini CLI、Antigravity 等工具。里面有专门的插件、安装 CLI、技能包、工作流，以及官方和社区的技能合集。",
     "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库，并将所有文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-09T04:37:38.558Z",
-    "backTranslationDiff": 0.16666666666666663
+    "translatedAt": "2026-07-10T04:46:05.361Z",
+    "backTranslationDiff": 0.29166666666666663
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -7651,10 +7651,10 @@
     "backTranslationDiff": 0.4193548387096774
   },
   "ratel-ai/ratel": {
-    "sourceHash": "4be444ccd420f101",
-    "chineseDescription": "为 AI 代理（agent）做上下文工程（context engineering）。减少约 80% 的 token 消耗。解决工具过载（tool overload）问题。提供技能和记忆功能，使用进程内 BM25 检索（in-process BM25 retrieval）。不需要向量数据库（vector DB），也不需要嵌入（embeddings）。",
-    "prompt": "请从 https://github.com/ratel-ai/ratel 下载所有文件，并将它们保存到 .claude/skills/ratel/ 目录下，完成 ratel skill 的安装。",
-    "translatedAt": "2026-06-30T04:57:02.317Z",
+    "sourceHash": "e38e829862d0daf3",
+    "chineseDescription": "为 AI 代理（agent）做上下文工程（context engineering）。减少约80%的 token 消耗。解决工具过载（tool overload）问题。通过进程内（in-process）BM25 和语义检索（semantic retrieval）实现技能和记忆功能，无需向量数据库（vector DB）。",
+    "prompt": "请从 https://github.com/ratel-ai/ratel 下载文件，并保存到 .claude/skills/ratel/ 目录完成安装。",
+    "translatedAt": "2026-07-10T04:46:08.955Z",
     "backTranslationDiff": 0.4375
   },
   "pcliangx/appgenesisforge": {
@@ -7712,5 +7712,12 @@
     "prompt": "请从 https://github.com/cozytab/fable5-mode 下载所有文件，并将它们保存到 .claude/skills/fable5-mode/ 目录中，以完成 fable5-mode skill 的安装。",
     "translatedAt": "2026-07-09T04:37:51.124Z",
     "backTranslationDiff": 0.19999999999999996
+  },
+  "norahe0304-art/30x-video": {
+    "sourceHash": "da5038656a686389",
+    "chineseDescription": "输入一个链接，输出一条专业级的产品宣传视频。这是一个 Claude Code 技能（基于 Remotion + React），内置 16 条审美法则——12 个品牌风格、12 种视觉世界，零模板。",
+    "prompt": "请从 https://github.com/norahe0304-art/30x-video 下载该仓库的所有文件，并保存到 .claude/skills/30x-video/ 目录下，完成安装。",
+    "translatedAt": "2026-07-10T04:46:16.914Z",
+    "backTranslationDiff": 0.5882352941176471
   }
 }

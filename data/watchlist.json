@@ -4550,6 +4550,25 @@
     "checkedAt": "2026-06-01T19:31:48.348Z"
   },
   {
+    "repo": "eai-org/agent-toolkit",
+    "name": "agent-toolkit",
+    "description": "Minimalistic, project-agnostic skills and rules for AI coding agents",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "spec-driven-development"
+    ],
+    "stars": 18,
+    "lastPush": "2026-07-08T17:13:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
     "repo": "helius-labs/core-ai",
     "name": "core-ai",
     "description": "Official Helius AI tooling repository ",
@@ -7269,6 +7288,30 @@
     "checkedAt": "2026-07-08T03:47:54.363Z"
   },
   {
+    "repo": "norahe0304-art/30x-mckinsey-research-deck",
+    "name": "30x-mckinsey-research-deck",
+    "description": "McKinsey-grade market research decks for Claude Code — adversarially verified numbers, 15 McKinsey methodologies as executable workflow, multi-agent pipeline. 一条指令产出敢被挑战的麦肯锡级市场研究 deck。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "consulting",
+      "deck",
+      "market-research",
+      "mckinsey",
+      "multi-agent",
+      "presentation"
+    ],
+    "stars": 12,
+    "lastPush": "2026-07-09T13:49:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -9950,6 +9993,26 @@
     "checkedAt": "2026-07-09T04:16:02.360Z"
   },
   {
+    "repo": "divyamrastogi/cws-featured-badge-skill",
+    "name": "cws-featured-badge-skill",
+    "description": "Claude Code skill that audits Chrome extensions against Chrome Web Store Featured/Established Publisher badge criteria",
+    "tags": [
+      "agent-skills",
+      "chrome-extension",
+      "chrome-web-store",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-08T21:06:25Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -10737,6 +10800,49 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-09T04:16:02.360Z"
+  },
+  {
+    "repo": "sandypoli-boop/sansheng-distill",
+    "name": "sansheng-distill",
+    "description": "把一本书或一组视频蒸馏成单文件交互 HTML 页 · A book/video distillation skill for Claude Code, by 叁笙",
+    "tags": [
+      "agent-skills",
+      "book-distillation",
+      "chinese",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "reading"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-08T05:15:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "baranskyi/interrogation-partner",
+    "name": "interrogation-partner",
+    "description": "An AI skill that interrogates you — with your consent — until the story you tell yourself gives way to what's actually true. Claude Code plugin / Agent Skill.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "decision-making",
+      "self-reflection",
+      "socratic-method"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-08T16:21:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -14912,6 +15018,59 @@
     "checkedAt": "2026-07-07T04:18:22.968Z"
   },
   {
+    "repo": "gobeyondyang/skills",
+    "name": "skills",
+    "description": "Claude Code Skill for breaking change detection — analyze git diff, map business impact, detect API/field/schema incompatibilities, block risky   commits. Supports Java, Python, TypeScript, Go, Vue, JSP with bilingual (en/zh) reports.",
+    "tags": [
+      "api-compatibility",
+      "breaking-change-detection",
+      "business-conflict",
+      "claude-code",
+      "claude-code-skill",
+      "code-analysis",
+      "commit-guard",
+      "git-diff",
+      "impact-analysis"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-09T10:39:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "agents365-ai/videogencn",
+    "name": "videogenCN",
+    "description": "Claude Code skill: Chinese video model generation — Wan, PixVerse, Kling, Vidu, HappyHorse, Jimeng, MiniMax, Hunyuan. Text-to-video, image-to-video, first+last frame, reference-to-video.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "chinese-video-models",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "image-to-video",
+      "kling",
+      "openclaw",
+      "openclaw-skills",
+      "pixverse",
+      "skill-md",
+      "skillsmp",
+      "text-to-video",
+      "video-generation",
+      "wan"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-09T22:52:43Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -16672,6 +16831,54 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-07T04:18:22.968Z"
+  },
+  {
+    "repo": "norahe0304-art/30x-outreach",
+    "name": "30x-outreach",
+    "description": "End-to-end AI cold-outbound engine for Claude Code: business/ICP profiling, Apollo→LeadMagic→Instantly lead sourcing, 10-expert email scoring, competitive monitoring, and human-approved sending.",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "cold-email",
+      "gtm",
+      "outbound-sales",
+      "python",
+      "sales-automation"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-09T13:47:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "luckeyfaraday/codex-router",
+    "name": "codex-router",
+    "description": "Claude Code plugin that routes heavy coding tasks from Claude to OpenAI Codex (GPT-5.5) as a supervised background worker — Claude briefs, delegates, reviews, verifies.",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "codex",
+      "developer-tools",
+      "gpt-5",
+      "llm",
+      "multi-agent",
+      "openai-codex"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-08T15:18:27Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -22941,6 +23148,128 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-09T04:16:02.360Z"
+  },
+  {
+    "repo": "atdy/maoxuan-product-agent",
+    "name": "maoxuan-product-agent",
+    "description": "从《矛盾论》《实践论》完整推理结构蒸馏的中文产品决策 Agent Skill，支持 Codex、Claude Code、Cursor",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "chinese",
+      "chinese-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "decision-making",
+      "growth-strategy",
+      "maoxuan",
+      "on-contradiction",
+      "on-practice",
+      "product-management",
+      "product-manager",
+      "product-operations",
+      "product-strategy",
+      "requirements-prioritization",
+      "roadmap-planning"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-10T04:08:53Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "kevin12369/gaoshanwen-skill",
+    "name": "gaoshanwen-skill",
+    "description": "高善文风格宏观研究与财经分析 SKILL — 完整版,跨平台 Agent 兼容,致敬高善文先生(1971-2026)",
+    "tags": [
+      "agent-skill",
+      "china",
+      "claude-code-skill",
+      "finance",
+      "macro-economics",
+      "openclaw-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-09T08:07:39Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "publisher-skill/claude-skill",
+    "name": "claude-skill",
+    "description": "claude-skill skills ",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-09T04:09:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "agents365-ai/ocrcn",
+    "name": "ocrCN",
+    "description": "Multi-platform Chinese OCR skill — PaddleOCR/Baidu/Tencent/Alibaba/EasyOCR, all work in China",
+    "tags": [
+      "agent-skills",
+      "chinese-ocr",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "ocr",
+      "openclaw",
+      "openclaw-skills",
+      "paddleocr",
+      "skill-md",
+      "skillsmp",
+      "text-recognition"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-09T22:55:43Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
+  },
+  {
+    "repo": "notpalen/churn",
+    "name": "churn",
+    "description": "High-volume ideation tool - divergent thinking with zero quality filter",
+    "tags": [
+      "ai-tool",
+      "antigravity",
+      "antigravity-skills",
+      "brainstorm",
+      "brainstorming",
+      "brainstorming-ai-tools",
+      "claude-code",
+      "claude-code-skill",
+      "llm",
+      "llms",
+      "slash-command",
+      "slash-commands"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-09T14:21:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-10T04:18:05.232Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
