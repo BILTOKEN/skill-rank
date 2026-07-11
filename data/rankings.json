@@ -1,5 +1,5 @@
 {
-  "last_update": "2026-07-10 04:46",
+  "last_update": "2026-07-11 03:56",
   "weekly_growth": [
     {
       "repo": "addyosmani/agent-skills",
@@ -11437,6 +11437,33 @@
       ]
     },
     {
+      "repo": "mmthebest/research-architect",
+      "name": "Research-Architect",
+      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+      "tags": [
+        "academic-writing",
+        "claude-skills",
+        "research",
+        "research-assistant",
+        "research-methodology",
+        "research-workflows",
+        "scientific-writing"
+      ],
+      "stars_total": 64,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-30T23:50:46Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "massimodeluisa/recursive-decomposition-skill",
       "name": "recursive-decomposition-skill",
       "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
@@ -11463,6 +11490,28 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "rainlib/ai-storyboard",
+      "name": "AI-Storyboard",
+      "description": "claude-related skills or agent sharing.",
+      "tags": [
+        "claude-code",
+        "claude-skills"
+      ],
+      "stars_total": 38,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-11T06:06:39Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -12321,33 +12370,6 @@
       ]
     },
     {
-      "repo": "mmthebest/research-architect",
-      "name": "Research-Architect",
-      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
-      "tags": [
-        "academic-writing",
-        "claude-skills",
-        "research",
-        "research-assistant",
-        "research-methodology",
-        "research-workflows",
-        "scientific-writing"
-      ],
-      "stars_total": 62,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-30T23:50:46Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "xvirobotics/metaskill",
       "name": "metaskill",
       "description": "Metaskill: A Meta-Skill for Autonomous AI Agent Team Generation",
@@ -12695,28 +12717,6 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "rainlib/ai-storyboard",
-      "name": "AI-Storyboard",
-      "description": "claude-related skills or agent sharing.",
-      "tags": [
-        "claude-code",
-        "claude-skills"
-      ],
-      "stars_total": 37,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-01-11T06:06:39Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -14288,7 +14288,7 @@
         "hinge",
         "life-hacks"
       ],
-      "stars_total": 45,
+      "stars_total": 46,
       "stars_added_7d": 1,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -14394,36 +14394,6 @@
       ]
     },
     {
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "name": "canadian-finance-planner-skill",
-      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
-      "tags": [
-        "budgeting",
-        "canada",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "financial-planning",
-        "personal-finance",
-        "skill-md"
-      ],
-      "stars_total": 40,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-15T19:39:28Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "lsnackerman/raw-clauding-skills",
       "name": "raw-clauding-skills",
       "description": "workflows for compound thinking with AI",
@@ -14514,30 +14484,6 @@
       ]
     },
     {
-      "repo": "notmyself/claude-win11-speckit-update-skill",
-      "name": "claude-win11-speckit-update-skill",
-      "description": "A Claude Code Skill that manages GitHub SpecKit updates.",
-      "tags": [
-        "claude-code",
-        "powershell",
-        "speckit",
-        "windows-11"
-      ],
-      "stars_total": 32,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2025-10-26T02:12:53Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:data/_awesome_repos.json"
-      ]
-    },
-    {
       "repo": "frmoretto/clarity-gate",
       "name": "clarity-gate",
       "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -14570,6 +14516,59 @@
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
         "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "notmyself/claude-win11-speckit-update-skill",
+      "name": "claude-win11-speckit-update-skill",
+      "description": "A Claude Code Skill that manages GitHub SpecKit updates.",
+      "tags": [
+        "claude-code",
+        "powershell",
+        "speckit",
+        "windows-11"
+      ],
+      "stars_total": 32,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2025-10-26T02:12:53Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:data/_awesome_repos.json"
+      ]
+    },
+    {
+      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
+      "name": "luxembourg-accessibility-skillset",
+      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
+      "tags": [
+        "accessibility",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "luxembourg",
+        "skills",
+        "skills-sh",
+        "skillset",
+        "vercel-skills"
+      ],
+      "stars_total": 31,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-17T08:59:14Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -14703,6 +14702,37 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "solanabr/auditor-skill",
+      "name": "auditor-skill",
+      "description": "Claude Code / agentic security skill for Solana programs and software. Full audit-firm lifecycle, executable PoC + fix-patch delivery, a Rust pre-scanner + cross-audit memory, 1,346 checks across 20 checklists, and 131 real-world attack vectors.",
+      "tags": [
+        "anchor-lang",
+        "audit-skill",
+        "claude-skills",
+        "defi-security",
+        "pinnochio",
+        "security-audit",
+        "solana-program",
+        "static-analysis",
+        "vulnerability-scanner",
+        "web3-audit-reports",
+        "web3-security"
+      ],
+      "stars_total": 31,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 27,
+      "commits_capped": false,
+      "last_push": "2026-07-11T03:44:16Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -15160,6 +15190,28 @@
       ]
     },
     {
+      "repo": "atgreen/secscan-skill",
+      "name": "secscan-skill",
+      "description": "Mirror of https://cave.moxielogic.com/atgreen/secscan-skill",
+      "tags": [
+        "claude-skills",
+        "security-audit"
+      ],
+      "stars_total": 36,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-07-10T11:16:13Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "ergrelet/windiff",
       "name": "windiff",
       "description": "Tool that allows comparing symbol, type and syscall information of Microsoft Windows binaries across different versions of the OS, using a Web UI and/or LLMs.",
@@ -15353,6 +15405,38 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "composio-community/awesome-claude-plugins",
+      "name": "awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "tags": [
+        "anthropic",
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-plugin-marketplace",
+        "claude-code-plugins",
+        "claude-code-plugins-marketplace",
+        "claude-cowork",
+        "claude-desktop",
+        "claude-plugins",
+        "claude-skills",
+        "plugins"
+      ],
+      "stars_total": 1819,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T07:08:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -15871,6 +15955,46 @@
       "pool": "ranked",
       "quality_flags": [
         "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "zhenyuanpan822/relationship-candlestick-lab",
+      "name": "relationship-candlestick-lab",
+      "description": "把聊天记录画成K线图，看你和TA的关系曲线",
+      "tags": [
+        "candlestick-chart",
+        "chat-analysis",
+        "chinese",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "data-visualization",
+        "deepseek",
+        "emotional-intelligence",
+        "fastapi",
+        "gemini",
+        "kline",
+        "lightweight-charts",
+        "llm",
+        "ohlc",
+        "openai",
+        "python",
+        "relationship-analysis",
+        "technical-indicators",
+        "wechat"
+      ],
+      "stars_total": 76,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T11:13:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -16519,6 +16643,36 @@
       ]
     },
     {
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "name": "canadian-finance-planner-skill",
+      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
+      "tags": [
+        "budgeting",
+        "canada",
+        "claude-ai",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "financial-planning",
+        "personal-finance",
+        "skill-md"
+      ],
+      "stars_total": 40,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-15T19:39:28Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "mfwarren/entrepreneur-claude-skills",
       "name": "entrepreneur-claude-skills",
       "description": "Production-ready entrepreneurship skills for Claude Code — marketing, sales, operations, finance, and leadership. 24 skills built by a founder, for founders.",
@@ -16993,34 +17147,6 @@
       ]
     },
     {
-      "repo": "geekjourneyx/any2card",
-      "name": "any2card",
-      "description": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。 让卡片本身完成信息传达：先可读，再有审美，再适合传播。",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "claude-skills",
-        "infographic-card",
-        "infographic-design",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
-      ],
-      "stars_total": 34,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T08:31:24Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "rosalina7515/ui-modernizer",
       "name": "ui-modernizer",
       "description": "One prompt to modernize React + Tailwind UIs. A Claude Code Skill.",
@@ -17121,6 +17247,30 @@
       ]
     },
     {
+      "repo": "ktg-one/context",
+      "name": "context",
+      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
+      "tags": [
+        "agent-skills",
+        "ai-memory",
+        "claude-skills",
+        "context-engineering"
+      ],
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-07T12:56:48Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "kenryu42/awesome-claude-skills",
       "name": "awesome-claude-skills",
       "description": "Awesome list for Claude Skills — a reusable, filesystem-based resources that provide Claude with domain-specific expertise developed by Anthropic",
@@ -17170,88 +17320,6 @@
       ]
     },
     {
-      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
-      "name": "luxembourg-accessibility-skillset",
-      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
-      "tags": [
-        "accessibility",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "luxembourg",
-        "skills",
-        "skills-sh",
-        "skillset",
-        "vercel-skills"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-17T08:59:14Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "ktg-one/context",
-      "name": "context",
-      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
-      "tags": [
-        "agent-skills",
-        "ai-memory",
-        "claude-skills",
-        "context-engineering"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-07T12:56:48Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "infersports/infersports-skill",
-      "name": "infersports-skill",
-      "description": "InferSports Agent Skill — live Asian-priced football & basketball odds + scores. Read-only, keyless. Claude Code / Codex / OpenClaw.",
-      "tags": [
-        "agent-skills",
-        "basketball",
-        "claude-code",
-        "claude-plugin",
-        "claude-skills",
-        "football",
-        "mcp",
-        "odds-api",
-        "sports-odds"
-      ],
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-11T15:22:58Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
       "repo": "girofu/skill-fetch",
       "name": "skill-fetch",
       "description": "Multi-registry skill discovery and installation for AI coding agents — search 9 sources, score, paginate, and install agent skills with security labels",
@@ -17287,35 +17355,28 @@
       ]
     },
     {
-      "repo": "shelpuk-ai-technology-consulting/agent-skill-tdd",
-      "name": "agent-skill-tdd",
-      "description": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad.",
+      "repo": "infersports/infersports-skill",
+      "name": "infersports-skill",
+      "description": "InferSports Agent Skill — live Asian-priced football & basketball odds + scores. Read-only, keyless. Claude Code / Codex / OpenClaw.",
       "tags": [
         "agent-skills",
-        "AI",
-        "ai-agents",
-        "ai-skills",
-        "antigravity",
-        "antigravity-skills",
+        "basketball",
         "claude-code",
-        "claude-code-skills",
+        "claude-plugin",
         "claude-skills",
-        "codex",
-        "codex-skills",
-        "cursor",
-        "cursor-skills",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
+        "football",
+        "mcp",
+        "odds-api",
+        "sports-odds"
       ],
-      "stars_total": 28,
+      "stars_total": 29,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-04-10T14:44:18Z",
+      "last_push": "2026-06-11T15:22:58Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -19205,6 +19266,38 @@
       "activity_score": 13.1
     },
     {
+      "repo": "solanabr/auditor-skill",
+      "name": "auditor-skill",
+      "description": "Claude Code / agentic security skill for Solana programs and software. Full audit-firm lifecycle, executable PoC + fix-patch delivery, a Rust pre-scanner + cross-audit memory, 1,346 checks across 20 checklists, and 131 real-world attack vectors.",
+      "tags": [
+        "anchor-lang",
+        "audit-skill",
+        "claude-skills",
+        "defi-security",
+        "pinnochio",
+        "security-audit",
+        "solana-program",
+        "static-analysis",
+        "vulnerability-scanner",
+        "web3-audit-reports",
+        "web3-security"
+      ],
+      "stars_total": 31,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 27,
+      "commits_capped": false,
+      "last_push": "2026-07-11T03:44:16Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 13.1
+    },
+    {
       "repo": "aldefy/compose-skill",
       "name": "compose-skill",
       "description": "Jetpack Compose Agent Skill — AI-powered coding guidance with actual androidx/androidx source code receipts. Works with Claude Code, Codex CLI, Gemini CLI, Cursor, Copilot, Windsurf, and more.",
@@ -20823,26 +20916,6 @@
       "activity_score": 7.699999999999999
     },
     {
-      "repo": "staruhub/claudeskills",
-      "name": "ClaudeSkills",
-      "description": "Some sharing on Claude Skills",
-      "tags": [],
-      "stars_total": 559,
-      "stars_added_7d": 19,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 9,
-      "commits_capped": false,
-      "last_push": "2026-07-03T21:36:57Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 7.699999999999999
-    },
-    {
       "repo": "rshankras/claude-code-apple-skills",
       "name": "claude-code-apple-skills",
       "description": "Claude Code skills for Apple platform development (iOS, macOS, iPadOS) — product validation, code generation, App Store optimization, and more",
@@ -21159,37 +21232,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:README 关键词: claude code skill"
-      ],
-      "activity_score": 7.3
-    },
-    {
-      "repo": "antonbabenko/terraform-skill",
-      "name": "terraform-skill",
-      "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
-      "tags": [
-        "agent-skills",
-        "best-practices",
-        "claude-code",
-        "claude-skills",
-        "DevOps",
-        "infrastructure-as-code",
-        "modules",
-        "opentofu",
-        "terraform",
-        "测试"
-      ],
-      "stars_total": 2165,
-      "stars_added_7d": 30,
-      "issues_opened_7d": 2,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-07-03T05:56:41Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 7.3
     },
@@ -21565,32 +21607,6 @@
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 6.8
-    },
-    {
-      "repo": "microck/ordinary-claude-skills",
-      "name": "ordinary-claude-skills",
-      "description": "An unappealing collection of Claude Skills and resources.",
-      "tags": [
-        "claude",
-        "claude-code",
-        "claude-skills",
-        "collection",
-        "list"
-      ],
-      "stars_total": 256,
-      "stars_added_7d": 8,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 1,
-      "issue_comments": 0,
-      "commits_7d": 3,
-      "commits_capped": false,
-      "last_push": "2026-07-03T18:20:45Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 6.7
     },
     {
       "repo": "bananasjim/rdc-cli",
@@ -22224,32 +22240,6 @@
       "activity_score": 6.2
     },
     {
-      "repo": "aspegio/nelson",
-      "name": "nelson",
-      "description": "Organisation for Claude Code inspired by time-tested Royal Navy operating procedures.",
-      "tags": [
-        "agent-coordination",
-        "ai-agents",
-        "anthropic",
-        "claude-code",
-        "claude-code-skill"
-      ],
-      "stars_total": 398,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 4,
-      "commits_capped": false,
-      "last_push": "2026-07-03T17:07:37Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 6.2
-    },
-    {
       "repo": "pcx-wave/vibe-skill",
       "name": "vibe-skill",
       "description": "Claude Code skill — delegate coding tasks to Mistral Vibe, supervise via git diff & save 50-90% Claude token usage",
@@ -22283,67 +22273,6 @@
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 6.2
-    },
-    {
-      "repo": "agents365-ai/mermaid-skill",
-      "name": "mermaid-skill",
-      "description": "Mermaid diagrams (.mmd) from natural language with validation loop. 11+ types, multi-backend (mmdc / Kroki), PNG/SVG/PDF, multi-agent.",
-      "tags": [
-        "agent-skill",
-        "agent-skills",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skills",
-        "diagram",
-        "erd",
-        "flowchart",
-        "kroki",
-        "mermaid",
-        "openclaw",
-        "openclaw-skills",
-        "sequence-diagram",
-        "skill-md",
-        "skillsmp"
-      ],
-      "stars_total": 125,
-      "stars_added_7d": 15,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 1,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-07-03T09:33:35Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 6.1
-    },
-    {
-      "repo": "nidhinjs/prompt-master",
-      "name": "prompt-master",
-      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
-      "tags": [
-        "claude-ai",
-        "claude-skills",
-        "llm",
-        "prompt-engineering"
-      ],
-      "stars_total": 10361,
-      "stars_added_7d": 213,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 5,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-10T16:14:44Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 6
     },
     {
       "repo": "trailofbits/skills",
@@ -22520,6 +22449,29 @@
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 5.9
+    },
+    {
+      "repo": "atgreen/secscan-skill",
+      "name": "secscan-skill",
+      "description": "Mirror of https://cave.moxielogic.com/atgreen/secscan-skill",
+      "tags": [
+        "claude-skills",
+        "security-audit"
+      ],
+      "stars_total": 36,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-07-10T11:16:13Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 5.9
@@ -22763,43 +22715,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.6
-    },
-    {
-      "repo": "monte-carlo-data/mc-agent-toolkit",
-      "name": "mc-agent-toolkit",
-      "description": "Official Monte Carlo toolkit for AI coding agents. Skills and plugins that bring data and agent observability — monitoring, triaging, troubleshooting, health checks  — into Claude Code, Cursor, and more.",
-      "tags": [
-        "agent-observability",
-        "agent-skills",
-        "ai-agents",
-        "claude-code",
-        "codex-skills",
-        "cursor",
-        "data-observability",
-        "data-quality",
-        "mcp",
-        "monte-carlo",
-        "opencode",
-        "skill-md",
-        "skillsmp",
-        "snowflake-coco",
-        "snowflake-cortex",
-        "vscode"
-      ],
-      "stars_total": 89,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 2,
-      "commits_capped": false,
-      "last_push": "2026-07-03T22:10:15Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:data/_awesome_repos.json"
       ],
       "activity_score": 5.6
     },
@@ -23314,47 +23229,6 @@
       "activity_score": 5.3
     },
     {
-      "repo": "wenyuchiou/ai-research-skills",
-      "name": "ai-research-skills",
-      "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
-      "tags": [
-        "academic-writing",
-        "agentic-ai",
-        "agentskills",
-        "ai-research",
-        "ai-skills",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "cursor",
-        "gemini",
-        "literature-review",
-        "marketplace",
-        "multi-agent",
-        "notebooklm",
-        "obsidian",
-        "openclaw",
-        "research",
-        "research-workflow",
-        "skill-md",
-        "zotero"
-      ],
-      "stars_total": 142,
-      "stars_added_7d": 24,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-07-03T17:00:29Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5.3
-    },
-    {
       "repo": "apiotrowski-afk/commercial-legal-pl",
       "name": "commercial-legal-pl",
       "description": "Polish Commercial Legal — Claude skill do redakcji i analizy umów według prawa polskiego. B2B IT, ugody, prawo cywilne. Apache 2.0.",
@@ -23459,72 +23333,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:data/_awesome_repos.json"
-      ],
-      "activity_score": 5.3
-    },
-    {
-      "repo": "recomby-ai/promptly-prompt",
-      "name": "promptly-prompt",
-      "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
-      "tags": [
-        "agent-skills",
-        "ai-agent",
-        "ai-tools",
-        "claude",
-        "claude-code",
-        "claude-code-hooks",
-        "claude-code-plugin",
-        "claude-code-skill",
-        "context-engineering",
-        "openclaw",
-        "prompt-engineering",
-        "prompt-optimization"
-      ],
-      "stars_total": 49,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-07-04T03:46:28Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 5.3
-    },
-    {
-      "repo": "viryazheng/promptly-prompt",
-      "name": "promptly-prompt",
-      "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
-      "tags": [
-        "agent-skills",
-        "ai-agent",
-        "ai-tools",
-        "claude",
-        "claude-code",
-        "claude-code-hooks",
-        "claude-code-plugin",
-        "claude-code-skill",
-        "context-engineering",
-        "openclaw",
-        "prompt-engineering",
-        "prompt-optimization"
-      ],
-      "stars_total": 49,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 1,
-      "commits_capped": false,
-      "last_push": "2026-07-04T03:46:28Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 5.3
     },
@@ -23642,34 +23450,6 @@
       "activity_score": 5
     },
     {
-      "repo": "alirezarezvani/claude-code-tresor",
-      "name": "claude-code-tresor",
-      "description": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow",
-      "tags": [
-        "agent-development-kit",
-        "agentic-ai",
-        "agentic-coding",
-        "agentic-workflow",
-        "agents",
-        "anthropic-claude",
-        "claude-code"
-      ],
-      "stars_total": 747,
-      "stars_added_7d": 4,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-07-03T13:43:32Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code"
-      ],
-      "activity_score": 5
-    },
-    {
       "repo": "anombyte93/prd-taskmaster",
       "name": "prd-taskmaster",
       "description": "Zero-config goal-to-tasks engine for Claude Code (the Atlas engine). Graded PRD validation, dependency-ordered task graph, evidence-gated execution.",
@@ -23749,33 +23529,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 5
-    },
-    {
-      "repo": "agricidaniel/claude-shorts",
-      "name": "claude-shorts",
-      "description": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
-      "tags": [
-        "AI",
-        "ai-content",
-        "claude-code",
-        "claude-code-skill",
-        "content-creation",
-        "open-source"
-      ],
-      "stars_total": 144,
-      "stars_added_7d": 4,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-07-04T02:32:33Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 5
     },
@@ -23930,6 +23683,57 @@
       "activity_score": 5
     },
     {
+      "repo": "staruhub/claudeskills",
+      "name": "ClaudeSkills",
+      "description": "Some sharing on Claude Skills",
+      "tags": [],
+      "stars_total": 559,
+      "stars_added_7d": 19,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 9,
+      "commits_capped": false,
+      "last_push": "2026-07-03T21:36:57Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 4.699999999999999
+    },
+    {
+      "repo": "antonbabenko/terraform-skill",
+      "name": "terraform-skill",
+      "description": "Terraform & OpenTofu Skill for AI Agents - testing, modules, CI/CD, and production patterns",
+      "tags": [
+        "agent-skills",
+        "best-practices",
+        "claude-code",
+        "claude-skills",
+        "DevOps",
+        "infrastructure-as-code",
+        "modules",
+        "opentofu",
+        "terraform",
+        "测试"
+      ],
+      "stars_total": 2165,
+      "stars_added_7d": 30,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-07-03T05:56:41Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 4.3
+    },
+    {
       "repo": "mukul975/anthropic-cybersecurity-skills",
       "name": "Anthropic-Cybersecurity-Skills",
       "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
@@ -23967,6 +23771,31 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code"
+      ],
+      "activity_score": 4
+    },
+    {
+      "repo": "nidhinjs/prompt-master",
+      "name": "prompt-master",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "tags": [
+        "claude-ai",
+        "claude-skills",
+        "llm",
+        "prompt-engineering"
+      ],
+      "stars_total": 10361,
+      "stars_added_7d": 213,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 5,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-10T16:14:44Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 4
     },
@@ -24208,6 +24037,94 @@
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 3.8
+    },
+    {
+      "repo": "microck/ordinary-claude-skills",
+      "name": "ordinary-claude-skills",
+      "description": "An unappealing collection of Claude Skills and resources.",
+      "tags": [
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "collection",
+        "list"
+      ],
+      "stars_total": 256,
+      "stars_added_7d": 8,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 3,
+      "commits_capped": false,
+      "last_push": "2026-07-03T18:20:45Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 3.7
+    },
+    {
+      "repo": "aspegio/nelson",
+      "name": "nelson",
+      "description": "Organisation for Claude Code inspired by time-tested Royal Navy operating procedures.",
+      "tags": [
+        "agent-coordination",
+        "ai-agents",
+        "anthropic",
+        "claude-code",
+        "claude-code-skill"
+      ],
+      "stars_total": 398,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 4,
+      "commits_capped": false,
+      "last_push": "2026-07-03T17:07:37Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 3.2
+    },
+    {
+      "repo": "agents365-ai/mermaid-skill",
+      "name": "mermaid-skill",
+      "description": "Mermaid diagrams (.mmd) from natural language with validation loop. 11+ types, multi-backend (mmdc / Kroki), PNG/SVG/PDF, multi-agent.",
+      "tags": [
+        "agent-skill",
+        "agent-skills",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skills",
+        "diagram",
+        "erd",
+        "flowchart",
+        "kroki",
+        "mermaid",
+        "openclaw",
+        "openclaw-skills",
+        "sequence-diagram",
+        "skill-md",
+        "skillsmp"
+      ],
+      "stars_total": 125,
+      "stars_added_7d": 15,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-07-03T09:33:35Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 3.1
     },
     {
       "repo": "voltagent/awesome-openclaw-skills",
@@ -24567,6 +24484,150 @@
       "activity_score": 2.8
     },
     {
+      "repo": "monte-carlo-data/mc-agent-toolkit",
+      "name": "mc-agent-toolkit",
+      "description": "Official Monte Carlo toolkit for AI coding agents. Skills and plugins that bring data and agent observability — monitoring, triaging, troubleshooting, health checks  — into Claude Code, Cursor, and more.",
+      "tags": [
+        "agent-observability",
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex-skills",
+        "cursor",
+        "data-observability",
+        "data-quality",
+        "mcp",
+        "monte-carlo",
+        "opencode",
+        "skill-md",
+        "skillsmp",
+        "snowflake-coco",
+        "snowflake-cortex",
+        "vscode"
+      ],
+      "stars_total": 89,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 2,
+      "commits_capped": false,
+      "last_push": "2026-07-03T22:10:15Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:data/_awesome_repos.json"
+      ],
+      "activity_score": 2.6
+    },
+    {
+      "repo": "wenyuchiou/ai-research-skills",
+      "name": "ai-research-skills",
+      "description": "Universal SKILL.md catalog for research workflows: literature review, research design, project memory, manuscript writing, and cross-agent delegation for Claude Code, Codex, Gemini, Cursor, OpenClaw, and generic AI clients.",
+      "tags": [
+        "academic-writing",
+        "agentic-ai",
+        "agentskills",
+        "ai-research",
+        "ai-skills",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini",
+        "literature-review",
+        "marketplace",
+        "multi-agent",
+        "notebooklm",
+        "obsidian",
+        "openclaw",
+        "research",
+        "research-workflow",
+        "skill-md",
+        "zotero"
+      ],
+      "stars_total": 142,
+      "stars_added_7d": 24,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-07-03T17:00:29Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "recomby-ai/promptly-prompt",
+      "name": "promptly-prompt",
+      "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "ai-tools",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "context-engineering",
+        "openclaw",
+        "prompt-engineering",
+        "prompt-optimization"
+      ],
+      "stars_total": 49,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-07-04T03:46:28Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2.3
+    },
+    {
+      "repo": "viryazheng/promptly-prompt",
+      "name": "promptly-prompt",
+      "description": "Claude Code skill that forces AI to understand before executing. Three disciplines: cognition check, requirement understanding, method search.",
+      "tags": [
+        "agent-skills",
+        "ai-agent",
+        "ai-tools",
+        "claude",
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "context-engineering",
+        "openclaw",
+        "prompt-engineering",
+        "prompt-optimization"
+      ],
+      "stars_total": 49,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "commits_capped": false,
+      "last_push": "2026-07-04T03:46:28Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2.3
+    },
+    {
       "repo": "voltagent/awesome-agent-skills",
       "name": "awesome-agent-skills",
       "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
@@ -24637,51 +24698,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 2
-    },
-    {
-      "repo": "revfactory/harness",
-      "name": "harness",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "tags": [
-        "claude-code",
-        "claude-code-plugin",
-        "harness",
-        "harness-engineering"
-      ],
-      "stars_total": 8275,
-      "stars_added_7d": 109,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-10T05:30:36Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code"
-      ],
-      "activity_score": 2
-    },
-    {
-      "repo": "simoneavogadro/android-reverse-engineering-skill",
-      "name": "android-reverse-engineering-skill",
-      "description": "Claude Code skill to support Android app's reverse engineering",
-      "tags": [],
-      "stars_total": 6383,
-      "stars_added_7d": 80,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-10T13:03:36Z",
-      "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:README 关键词: claude code skill"
       ],
       "activity_score": 2
     },
@@ -25239,6 +25255,34 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 2
+    },
+    {
+      "repo": "alirezarezvani/claude-code-tresor",
+      "name": "claude-code-tresor",
+      "description": "A world-class collection of Claude Code utilities: autonomous skills, expert agents, slash commands, and prompts that supercharge your development workflow",
+      "tags": [
+        "agent-development-kit",
+        "agentic-ai",
+        "agentic-coding",
+        "agentic-workflow",
+        "agents",
+        "anthropic-claude",
+        "claude-code"
+      ],
+      "stars_total": 747,
+      "stars_added_7d": 4,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-07-03T13:43:32Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
       ],
       "activity_score": 2
     },
@@ -26498,6 +26542,33 @@
       "activity_score": 2
     },
     {
+      "repo": "agricidaniel/claude-shorts",
+      "name": "claude-shorts",
+      "description": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
+      "tags": [
+        "AI",
+        "ai-content",
+        "claude-code",
+        "claude-code-skill",
+        "content-creation",
+        "open-source"
+      ],
+      "stars_total": 144,
+      "stars_added_7d": 4,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-07-04T02:32:33Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 2
+    },
+    {
       "repo": "appautomaton/document-skills",
       "name": "document-SKILLs",
       "description": "Claude Code and Codex SKILLs for PDF, Excel, Word, and PowerPoint manipulation — extraction, forms, formulas, tracked changes, adapted from Anthropic skills.",
@@ -27062,6 +27133,34 @@
       "activity_score": 2
     },
     {
+      "repo": "mmthebest/research-architect",
+      "name": "Research-Architect",
+      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+      "tags": [
+        "academic-writing",
+        "claude-skills",
+        "research",
+        "research-assistant",
+        "research-methodology",
+        "research-workflows",
+        "scientific-writing"
+      ],
+      "stars_total": 64,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-30T23:50:46Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 2
+    },
+    {
       "repo": "x-glacier/kali-pentest",
       "name": "kali-pentest",
       "description": "Kali Linux penetration testing skill for AI agents (Claude Code, OpenClaw, Hermes Agent). 200+ CLI tools, 15 scenario playbooks. Autonomously plans attack paths, selects tools, and integrates results across phases to adapt the penetration strategy — with human approval gates for high-risk actions.",
@@ -27093,34 +27192,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 2
-    },
-    {
-      "repo": "mmthebest/research-architect",
-      "name": "Research-Architect",
-      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
-      "tags": [
-        "academic-writing",
-        "claude-skills",
-        "research",
-        "research-assistant",
-        "research-methodology",
-        "research-workflows",
-        "scientific-writing"
-      ],
-      "stars_total": 62,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-30T23:50:46Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 2
     },
@@ -27980,6 +28051,31 @@
       "activity_score": 0
     },
     {
+      "repo": "revfactory/harness",
+      "name": "harness",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "tags": [
+        "claude-code",
+        "claude-code-plugin",
+        "harness",
+        "harness-engineering"
+      ],
+      "stars_total": 8275,
+      "stars_added_7d": 109,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-10T05:30:36Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code"
+      ],
+      "activity_score": 0
+    },
+    {
       "repo": "automazeio/ccpm",
       "name": "ccpm",
       "description": "Project management skill system for Agents that uses GitHub Issues and Git worktrees for parallel agent execution.",
@@ -28065,6 +28161,26 @@
       "commits_7d": 0,
       "commits_capped": false,
       "last_push": "2026-06-03T11:35:43Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:README 关键词: claude code skill"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "simoneavogadro/android-reverse-engineering-skill",
+      "name": "android-reverse-engineering-skill",
+      "description": "Claude Code skill to support Android app's reverse engineering",
+      "tags": [],
+      "stars_total": 6383,
+      "stars_added_7d": 80,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-10T13:03:36Z",
       "pool": "ranked",
       "quality_flags": [
         "README 提及 Claude Code Skill",
@@ -28548,6 +28664,39 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "composio-community/awesome-claude-plugins",
+      "name": "awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "tags": [
+        "anthropic",
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-plugin-marketplace",
+        "claude-code-plugins",
+        "claude-code-plugins-marketplace",
+        "claude-cowork",
+        "claude-desktop",
+        "claude-plugins",
+        "claude-skills",
+        "plugins"
+      ],
+      "stars_total": 1819,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T07:08:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
     },
@@ -32955,6 +33104,47 @@
       "activity_score": 0
     },
     {
+      "repo": "zhenyuanpan822/relationship-candlestick-lab",
+      "name": "relationship-candlestick-lab",
+      "description": "把聊天记录画成K线图，看你和TA的关系曲线",
+      "tags": [
+        "candlestick-chart",
+        "chat-analysis",
+        "chinese",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "data-visualization",
+        "deepseek",
+        "emotional-intelligence",
+        "fastapi",
+        "gemini",
+        "kline",
+        "lightweight-charts",
+        "llm",
+        "ohlc",
+        "openai",
+        "python",
+        "relationship-analysis",
+        "technical-indicators",
+        "wechat"
+      ],
+      "stars_total": 76,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T11:13:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 0
+    },
+    {
       "repo": "agricidaniel/skill-forge",
       "name": "skill-forge",
       "description": "Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production-grade AI agent skills",
@@ -34050,6 +34240,32 @@
       "activity_score": 0
     },
     {
+      "repo": "b1rdmania/hinge-profile-optimizer",
+      "name": "hinge-profile-optimizer",
+      "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
+      "tags": [
+        "claude-code-skill",
+        "claude-skills",
+        "dating",
+        "hinge",
+        "life-hacks"
+      ],
+      "stars_total": 46,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-02-07T15:22:08Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 0
+    },
+    {
       "repo": "rafsilva85/credit-optimizer-v5",
       "name": "credit-optimizer-v5",
       "description": "Save 47% on Manus AI credits automatically. Zero downsides. Pays for itself in ~27 prompts. Free MCP Server (PyPI) + $12 Manus Skill bundle with Fast Navigation (115x speed boost).",
@@ -34103,32 +34319,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
-      "repo": "b1rdmania/hinge-profile-optimizer",
-      "name": "hinge-profile-optimizer",
-      "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
-      "tags": [
-        "claude-code-skill",
-        "claude-skills",
-        "dating",
-        "hinge",
-        "life-hacks"
-      ],
-      "stars_total": 45,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-02-07T15:22:08Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 0
     },
@@ -34227,6 +34417,32 @@
       "activity_score": 0
     },
     {
+      "repo": "agricidaniel/marketing-skill-pack",
+      "name": "marketing-skill-pack",
+      "description": "One-command installer for all AI Marketing Hub tools: Claude SEO, Claude Blog, Skill Forge, WP MCP Ultimate",
+      "tags": [
+        "AI",
+        "claude-code",
+        "claude-code-skill",
+        "developer-tools",
+        "open-source"
+      ],
+      "stars_total": 42,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-10T17:13:09Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ],
+      "activity_score": 0
+    },
+    {
       "repo": "gl0bal01/malware-analysis-claude-skills",
       "name": "malware-analysis-claude-skills",
       "description": "Complete Claude skills toolkit for professional malware analysis. 5 specialized skills covering triage, dynamic analysis, detection engineering, and reporting. Works with   REMnux/FlareVM offline environments.",
@@ -34266,27 +34482,32 @@
       "activity_score": 0
     },
     {
-      "repo": "agricidaniel/marketing-skill-pack",
-      "name": "marketing-skill-pack",
-      "description": "One-command installer for all AI Marketing Hub tools: Claude SEO, Claude Blog, Skill Forge, WP MCP Ultimate",
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "name": "canadian-finance-planner-skill",
+      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
       "tags": [
-        "AI",
+        "budgeting",
+        "canada",
+        "claude-ai",
         "claude-code",
         "claude-code-skill",
-        "developer-tools",
-        "open-source"
+        "claude-skill",
+        "claude-skills",
+        "financial-planning",
+        "personal-finance",
+        "skill-md"
       ],
-      "stars_total": 42,
-      "stars_added_7d": 2,
+      "stars_total": 40,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-04-10T17:13:09Z",
+      "last_push": "2026-03-15T19:39:28Z",
       "pool": "watchlist",
       "quality_flags": [
-        "README 提及 Claude Code Skill",
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 0
@@ -34354,37 +34575,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "name": "canadian-finance-planner-skill",
-      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
-      "tags": [
-        "budgeting",
-        "canada",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "financial-planning",
-        "personal-finance",
-        "skill-md"
-      ],
-      "stars_total": 40,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-15T19:39:28Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
       ],
       "activity_score": 0
     },
@@ -34520,6 +34710,29 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "rainlib/ai-storyboard",
+      "name": "AI-Storyboard",
+      "description": "claude-related skills or agent sharing.",
+      "tags": [
+        "claude-code",
+        "claude-skills"
+      ],
+      "stars_total": 38,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-11T06:06:39Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
@@ -34676,29 +34889,6 @@
       "activity_score": 0
     },
     {
-      "repo": "rainlib/ai-storyboard",
-      "name": "AI-Storyboard",
-      "description": "claude-related skills or agent sharing.",
-      "tags": [
-        "claude-code",
-        "claude-skills"
-      ],
-      "stars_total": 37,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-01-11T06:06:39Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
       "repo": "innei/media-library-organizer-skill",
       "name": "media-library-organizer-skill",
       "description": "A Claude Code skill for organizing media libraries (movies, TV, anime) — clean junk, merge scattered episodes, normalize folder names, verify completeness against TMDB",
@@ -34816,38 +35006,6 @@
       "activity_score": 0
     },
     {
-      "repo": "ea-toolkit/architecture-catalog",
-      "name": "architecture-catalog",
-      "description": "Git-native architecture catalog — Markdown registry, schema-driven UI, AI-ready",
-      "tags": [
-        "AI",
-        "ai-agents",
-        "archimate",
-        "architecture-as-code",
-        "astro",
-        "claude",
-        "claude-skills",
-        "enterprise-architecture",
-        "git-native",
-        "opensource",
-        "reactflow"
-      ],
-      "stars_total": 35,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-01T17:41:19Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
       "repo": "lbb00/ai-rules-sync",
       "name": "ai-rules-sync",
       "description": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
@@ -34883,31 +35041,70 @@
       "activity_score": 0
     },
     {
-      "repo": "geekjourneyx/any2card",
-      "name": "any2card",
-      "description": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。 让卡片本身完成信息传达：先可读，再有审美，再适合传播。",
+      "repo": "ea-toolkit/architecture-catalog",
+      "name": "architecture-catalog",
+      "description": "Git-native architecture catalog — Markdown registry, schema-driven UI, AI-ready",
       "tags": [
-        "agent-skills",
-        "claude-code",
+        "AI",
+        "ai-agents",
+        "archimate",
+        "architecture-as-code",
+        "astro",
+        "claude",
         "claude-skills",
-        "infographic-card",
-        "infographic-design",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
+        "enterprise-architecture",
+        "git-native",
+        "opensource",
+        "reactflow"
       ],
-      "stars_total": 34,
+      "stars_total": 35,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-04-10T08:31:24Z",
+      "last_push": "2026-05-01T17:41:19Z",
       "pool": "watchlist",
       "quality_flags": [
-        "根目录存在 SKILL.md",
+        "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "frmoretto/clarity-gate",
+      "name": "clarity-gate",
+      "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
+      "tags": [
+        "AI",
+        "ai-safety",
+        "clarity-gate",
+        "claude",
+        "context-engineering",
+        "documentation",
+        "epistemic-quality",
+        "hallucination",
+        "llm",
+        "methodology",
+        "pre-ingestion",
+        "prompt-engineering",
+        "rag",
+        "stream-coding",
+        "verification"
+      ],
+      "stars_total": 32,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-02T12:12:45Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:data/_awesome_repos.json"
       ],
       "activity_score": 0
     },
@@ -35000,38 +35197,72 @@
       "activity_score": 0
     },
     {
-      "repo": "frmoretto/clarity-gate",
-      "name": "clarity-gate",
-      "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
+      "repo": "tristan-mcinnis/ppt-translator-formatting-intact-with-llms",
+      "name": "PPT-Translator-Formatting-Intact-with-LLMs",
+      "description": "A powerful PowerPoint translation tool that preserves all formatting while translating content using the Deepseek API. This tool maintains fonts, colors, layouts, and other styling elements while providing accurate translations between languages.",
       "tags": [
         "AI",
-        "ai-safety",
-        "clarity-gate",
-        "claude",
-        "context-engineering",
-        "documentation",
-        "epistemic-quality",
-        "hallucination",
+        "ai-translation",
+        "anthropic-claude",
+        "claude-code",
+        "claude-skills",
+        "deepseek",
+        "grok",
         "llm",
-        "methodology",
-        "pre-ingestion",
-        "prompt-engineering",
-        "rag",
-        "stream-coding",
-        "verification"
+        "machine-translation",
+        "office",
+        "openai",
+        "openai-api",
+        "openapi",
+        "powerpoint",
+        "ppt",
+        "pptx",
+        "productivity",
+        "skills",
+        "translation"
       ],
-      "stars_total": 32,
+      "stars_total": 31,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-14T06:49:27Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ],
+      "activity_score": 0
+    },
+    {
+      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
+      "name": "luxembourg-accessibility-skillset",
+      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
+      "tags": [
+        "accessibility",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "luxembourg",
+        "skills",
+        "skills-sh",
+        "skillset",
+        "vercel-skills"
+      ],
+      "stars_total": 31,
       "stars_added_7d": 1,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-03-02T12:12:45Z",
+      "last_push": "2026-05-17T08:59:14Z",
       "pool": "watchlist",
       "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:data/_awesome_repos.json"
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
     },
@@ -35073,41 +35304,26 @@
       "activity_score": 0
     },
     {
-      "repo": "tristan-mcinnis/ppt-translator-formatting-intact-with-llms",
-      "name": "PPT-Translator-Formatting-Intact-with-LLMs",
-      "description": "A powerful PowerPoint translation tool that preserves all formatting while translating content using the Deepseek API. This tool maintains fonts, colors, layouts, and other styling elements while providing accurate translations between languages.",
+      "repo": "ktg-one/context",
+      "name": "context",
+      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
       "tags": [
-        "AI",
-        "ai-translation",
-        "anthropic-claude",
-        "claude-code",
+        "agent-skills",
+        "ai-memory",
         "claude-skills",
-        "deepseek",
-        "grok",
-        "llm",
-        "machine-translation",
-        "office",
-        "openai",
-        "openai-api",
-        "openapi",
-        "powerpoint",
-        "ppt",
-        "pptx",
-        "productivity",
-        "skills",
-        "translation"
+        "context-engineering"
       ],
-      "stars_total": 31,
+      "stars_total": 30,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-01-14T06:49:27Z",
+      "last_push": "2026-03-07T12:56:48Z",
       "pool": "watchlist",
       "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
@@ -35159,61 +35375,6 @@
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
-      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
-      "name": "luxembourg-accessibility-skillset",
-      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
-      "tags": [
-        "accessibility",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "luxembourg",
-        "skills",
-        "skills-sh",
-        "skillset",
-        "vercel-skills"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-17T08:59:14Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ],
-      "activity_score": 0
-    },
-    {
-      "repo": "ktg-one/context",
-      "name": "context",
-      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
-      "tags": [
-        "agent-skills",
-        "ai-memory",
-        "claude-skills",
-        "context-engineering"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-07T12:56:48Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
@@ -35276,43 +35437,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-code-skill"
-      ],
-      "activity_score": 0
-    },
-    {
-      "repo": "shelpuk-ai-technology-consulting/agent-skill-tdd",
-      "name": "agent-skill-tdd",
-      "description": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad.",
-      "tags": [
-        "agent-skills",
-        "AI",
-        "ai-agents",
-        "ai-skills",
-        "antigravity",
-        "antigravity-skills",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "codex",
-        "codex-skills",
-        "cursor",
-        "cursor-skills",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
-      ],
-      "stars_total": 28,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T14:44:18Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
       ],
       "activity_score": 0
     }
@@ -38697,6 +38821,38 @@
       ]
     },
     {
+      "repo": "composio-community/awesome-claude-plugins",
+      "name": "awesome-claude-plugins",
+      "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+      "tags": [
+        "anthropic",
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-plugin-marketplace",
+        "claude-code-plugins",
+        "claude-code-plugins-marketplace",
+        "claude-cowork",
+        "claude-desktop",
+        "claude-plugins",
+        "claude-skills",
+        "plugins"
+      ],
+      "stars_total": 1819,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-01T07:08:01Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "composiohq/awesome-claude-plugins",
       "name": "awesome-claude-plugins",
       "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
@@ -48883,6 +49039,46 @@
       ]
     },
     {
+      "repo": "zhenyuanpan822/relationship-candlestick-lab",
+      "name": "relationship-candlestick-lab",
+      "description": "把聊天记录画成K线图，看你和TA的关系曲线",
+      "tags": [
+        "candlestick-chart",
+        "chat-analysis",
+        "chinese",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "data-visualization",
+        "deepseek",
+        "emotional-intelligence",
+        "fastapi",
+        "gemini",
+        "kline",
+        "lightweight-charts",
+        "llm",
+        "ohlc",
+        "openai",
+        "python",
+        "relationship-analysis",
+        "technical-indicators",
+        "wechat"
+      ],
+      "stars_total": 76,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-07T11:13:06Z",
+      "pool": "ranked",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "aaron-he-zhu/seo-geo-claude-skills",
       "name": "seo-geo-claude-skills",
       "description": "Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this repo's standalone 20-skill line is preserved at tag v9.9.12. Install: npx skills add aaron-he-zhu/aaron-marketing-skills",
@@ -49489,6 +49685,33 @@
       ]
     },
     {
+      "repo": "mmthebest/research-architect",
+      "name": "Research-Architect",
+      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
+      "tags": [
+        "academic-writing",
+        "claude-skills",
+        "research",
+        "research-assistant",
+        "research-methodology",
+        "research-workflows",
+        "scientific-writing"
+      ],
+      "stars_total": 64,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-06-30T23:50:46Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
       "repo": "dianel555/dskills",
       "name": "DSkills",
       "description": "CLI tools skills for AI coding assistants (Claude Code, Codex, Gemini CLI).",
@@ -49781,33 +50004,6 @@
       "commits_capped": false,
       "last_push": "2026-06-09T09:09:19Z",
       "pool": "ranked",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "mmthebest/research-architect",
-      "name": "Research-Architect",
-      "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
-      "tags": [
-        "academic-writing",
-        "claude-skills",
-        "research",
-        "research-assistant",
-        "research-methodology",
-        "research-workflows",
-        "scientific-writing"
-      ],
-      "stars_total": 62,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-30T23:50:46Z",
-      "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
@@ -50998,6 +51194,31 @@
       ]
     },
     {
+      "repo": "b1rdmania/hinge-profile-optimizer",
+      "name": "hinge-profile-optimizer",
+      "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
+      "tags": [
+        "claude-code-skill",
+        "claude-skills",
+        "dating",
+        "hinge",
+        "life-hacks"
+      ],
+      "stars_total": 46,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-02-07T15:22:08Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "rafsilva85/credit-optimizer-v5",
       "name": "credit-optimizer-v5",
       "description": "Save 47% on Manus AI credits automatically. Zero downsides. Pays for itself in ~27 prompts. Free MCP Server (PyPI) + $12 Manus Skill bundle with Fast Navigation (115x speed boost).",
@@ -51076,31 +51297,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "b1rdmania/hinge-profile-optimizer",
-      "name": "hinge-profile-optimizer",
-      "description": "Hinge Dating Profile Optimizer — A Claude Skill. Comprehensive, research-backed process based on 45+ peer-reviewed sources. 45 mins to meet your life partner (or weekend 9/10).",
-      "tags": [
-        "claude-code-skill",
-        "claude-skills",
-        "dating",
-        "hinge",
-        "life-hacks"
-      ],
-      "stars_total": 45,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-02-07T15:22:08Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -51252,6 +51448,31 @@
       ]
     },
     {
+      "repo": "agricidaniel/marketing-skill-pack",
+      "name": "marketing-skill-pack",
+      "description": "One-command installer for all AI Marketing Hub tools: Claude SEO, Claude Blog, Skill Forge, WP MCP Ultimate",
+      "tags": [
+        "AI",
+        "claude-code",
+        "claude-code-skill",
+        "developer-tools",
+        "open-source"
+      ],
+      "stars_total": 42,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-04-10T17:13:09Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
       "repo": "gl0bal01/malware-analysis-claude-skills",
       "name": "malware-analysis-claude-skills",
       "description": "Complete Claude skills toolkit for professional malware analysis. 5 specialized skills covering triage, dynamic analysis, detection engineering, and reporting. Works with   REMnux/FlareVM offline environments.",
@@ -51290,31 +51511,6 @@
       ]
     },
     {
-      "repo": "agricidaniel/marketing-skill-pack",
-      "name": "marketing-skill-pack",
-      "description": "One-command installer for all AI Marketing Hub tools: Claude SEO, Claude Blog, Skill Forge, WP MCP Ultimate",
-      "tags": [
-        "AI",
-        "claude-code",
-        "claude-code-skill",
-        "developer-tools",
-        "open-source"
-      ],
-      "stars_total": 42,
-      "stars_added_7d": 2,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T17:13:09Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-code-skill"
-      ]
-    },
-    {
       "repo": "kgraph57/paper-writer-skill",
       "name": "paper-writer-skill",
       "description": "Claude Code skill for academic manuscript writing: IMRAD workflows, literature matrices, tables/figures, and tested utilities.",
@@ -51345,6 +51541,36 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "cjpatten/canadian-finance-planner-skill",
+      "name": "canadian-finance-planner-skill",
+      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
+      "tags": [
+        "budgeting",
+        "canada",
+        "claude-ai",
+        "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
+        "financial-planning",
+        "personal-finance",
+        "skill-md"
+      ],
+      "stars_total": 40,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-15T19:39:28Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -51449,36 +51675,6 @@
       "quality_flags": [
         "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "cjpatten/canadian-finance-planner-skill",
-      "name": "canadian-finance-planner-skill",
-      "description": "A Claude skill that turns Claude into your personal financial planner — built specifically for Canadians. Interviews, budgets, action plans, interactive dashboards, and ongoing coaching.",
-      "tags": [
-        "budgeting",
-        "canada",
-        "claude-ai",
-        "claude-code",
-        "claude-code-skill",
-        "claude-skill",
-        "claude-skills",
-        "financial-planning",
-        "personal-finance",
-        "skill-md"
-      ],
-      "stars_total": 40,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-15T19:39:28Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-code-skill"
       ]
     },
     {
@@ -51641,6 +51837,28 @@
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "rainlib/ai-storyboard",
+      "name": "AI-Storyboard",
+      "description": "claude-related skills or agent sharing.",
+      "tags": [
+        "claude-code",
+        "claude-skills"
+      ],
+      "stars_total": 38,
+      "stars_added_7d": 3,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-01-11T06:06:39Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -51852,24 +52070,24 @@
       ]
     },
     {
-      "repo": "rainlib/ai-storyboard",
-      "name": "AI-Storyboard",
-      "description": "claude-related skills or agent sharing.",
+      "repo": "atgreen/secscan-skill",
+      "name": "secscan-skill",
+      "description": "Mirror of https://cave.moxielogic.com/atgreen/secscan-skill",
       "tags": [
-        "claude-code",
-        "claude-skills"
+        "claude-skills",
+        "security-audit"
       ],
-      "stars_total": 37,
-      "stars_added_7d": 2,
+      "stars_total": 36,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
-      "commits_7d": 0,
+      "commits_7d": 3,
       "commits_capped": false,
-      "last_push": "2026-01-11T06:06:39Z",
+      "last_push": "2026-07-10T11:16:13Z",
       "pool": "watchlist",
       "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -51984,6 +52202,40 @@
       "quality_flags": [
         "根目录存在 SKILL.md",
         "source:GitHub topic: claude-code-skill"
+      ]
+    },
+    {
+      "repo": "lbb00/ai-rules-sync",
+      "name": "ai-rules-sync",
+      "description": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
+      "tags": [
+        "agents",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "copilot",
+        "copilot-prompts",
+        "cursor",
+        "gemini",
+        "opencode",
+        "rules",
+        "skills",
+        "subagents",
+        "trae",
+        "warp"
+      ],
+      "stars_total": 35,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-16T06:36:00Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
       ]
     },
     {
@@ -52132,65 +52384,38 @@
       ]
     },
     {
-      "repo": "lbb00/ai-rules-sync",
-      "name": "ai-rules-sync",
-      "description": "Synchronize, manage, and share your ai rules, skills, commands, subagents (Cursor, Claude Code, Copilot, OpenCode, Trae AI, Codex, Gemini CLI, Warp) with ease.",
+      "repo": "frmoretto/clarity-gate",
+      "name": "clarity-gate",
+      "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
       "tags": [
-        "agents",
-        "claude-code",
-        "claude-skills",
-        "codex",
-        "copilot",
-        "copilot-prompts",
-        "cursor",
-        "gemini",
-        "opencode",
-        "rules",
-        "skills",
-        "subagents",
-        "trae",
-        "warp"
+        "AI",
+        "ai-safety",
+        "clarity-gate",
+        "claude",
+        "context-engineering",
+        "documentation",
+        "epistemic-quality",
+        "hallucination",
+        "llm",
+        "methodology",
+        "pre-ingestion",
+        "prompt-engineering",
+        "rag",
+        "stream-coding",
+        "verification"
       ],
-      "stars_total": 35,
-      "stars_added_7d": 2,
+      "stars_total": 32,
+      "stars_added_7d": 1,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-03-16T06:36:00Z",
+      "last_push": "2026-03-02T12:12:45Z",
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "geekjourneyx/any2card",
-      "name": "any2card",
-      "description": "把任意文本、文章链接或线程内容，转成一张可以直接发布的 HTML 信息卡。 让卡片本身完成信息传达：先可读，再有审美，再适合传播。",
-      "tags": [
-        "agent-skills",
-        "claude-code",
-        "claude-skills",
-        "infographic-card",
-        "infographic-design",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
-      ],
-      "stars_total": 34,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-04-10T08:31:24Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
+        "source:data/_awesome_repos.json"
       ]
     },
     {
@@ -52279,70 +52504,30 @@
       ]
     },
     {
-      "repo": "frmoretto/clarity-gate",
-      "name": "clarity-gate",
-      "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
+      "repo": "solanabr/auditor-skill",
+      "name": "auditor-skill",
+      "description": "Claude Code / agentic security skill for Solana programs and software. Full audit-firm lifecycle, executable PoC + fix-patch delivery, a Rust pre-scanner + cross-audit memory, 1,346 checks across 20 checklists, and 131 real-world attack vectors.",
       "tags": [
-        "AI",
-        "ai-safety",
-        "clarity-gate",
-        "claude",
-        "context-engineering",
-        "documentation",
-        "epistemic-quality",
-        "hallucination",
-        "llm",
-        "methodology",
-        "pre-ingestion",
-        "prompt-engineering",
-        "rag",
-        "stream-coding",
-        "verification"
-      ],
-      "stars_total": 32,
-      "stars_added_7d": 1,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-02T12:12:45Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "存在 .claude/skills/**/SKILL.md",
-        "source:data/_awesome_repos.json"
-      ]
-    },
-    {
-      "repo": "sstklen/infinite-gratitude",
-      "name": "infinite-gratitude",
-      "description": "🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 | 10 AIエージェント協調リサーチ — AI Dojo series",
-      "tags": [
-        "agentic-ai",
-        "AI",
-        "automation",
-        "awesome",
-        "cats",
-        "claude-code",
+        "anchor-lang",
+        "audit-skill",
         "claude-skills",
-        "japan",
-        "multi-agent",
-        "opensource",
-        "parallel-processing",
-        "pet-ai",
-        "pets",
-        "research",
-        "research-tools",
-        "skill"
+        "defi-security",
+        "pinnochio",
+        "security-audit",
+        "solana-program",
+        "static-analysis",
+        "vulnerability-scanner",
+        "web3-audit-reports",
+        "web3-security"
       ],
       "stars_total": 31,
-      "stars_added_7d": 1,
+      "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
-      "commits_7d": 0,
+      "commits_7d": 27,
       "commits_capped": false,
-      "last_push": "2026-03-15T23:35:07Z",
+      "last_push": "2026-07-11T03:44:16Z",
       "pool": "watchlist",
       "quality_flags": [
         "根目录存在 SKILL.md",
@@ -52385,6 +52570,95 @@
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
+      "name": "luxembourg-accessibility-skillset",
+      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
+      "tags": [
+        "accessibility",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "luxembourg",
+        "skills",
+        "skills-sh",
+        "skillset",
+        "vercel-skills"
+      ],
+      "stars_total": 31,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-05-17T08:59:14Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "README 提及 Claude Code Skill",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "sstklen/infinite-gratitude",
+      "name": "infinite-gratitude",
+      "description": "🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 | 10 AIエージェント協調リサーチ — AI Dojo series",
+      "tags": [
+        "agentic-ai",
+        "AI",
+        "automation",
+        "awesome",
+        "cats",
+        "claude-code",
+        "claude-skills",
+        "japan",
+        "multi-agent",
+        "opensource",
+        "parallel-processing",
+        "pet-ai",
+        "pets",
+        "research",
+        "research-tools",
+        "skill"
+      ],
+      "stars_total": 31,
+      "stars_added_7d": 1,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-15T23:35:07Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
+        "source:GitHub topic: claude-skills"
+      ]
+    },
+    {
+      "repo": "ktg-one/context",
+      "name": "context",
+      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
+      "tags": [
+        "agent-skills",
+        "ai-memory",
+        "claude-skills",
+        "context-engineering"
+      ],
+      "stars_total": 30,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "commits_capped": false,
+      "last_push": "2026-03-07T12:56:48Z",
+      "pool": "watchlist",
+      "quality_flags": [
+        "根目录存在 SKILL.md",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -52434,88 +52708,6 @@
       "pool": "watchlist",
       "quality_flags": [
         "存在 .claude/skills/**/SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "geoffreycrofte/luxembourg-accessibility-skillset",
-      "name": "luxembourg-accessibility-skillset",
-      "description": "A set of skills including RAWeb, RAM, and RAPDF coverage for AI (targeting Claude Code)",
-      "tags": [
-        "accessibility",
-        "claude-code",
-        "claude-code-skills",
-        "claude-skills",
-        "luxembourg",
-        "skills",
-        "skills-sh",
-        "skillset",
-        "vercel-skills"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-05-17T08:59:14Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "ktg-one/context",
-      "name": "context",
-      "description": "C.O.N.T.EX.T is designed to compress complex, multi-domain conversations into machine-optimized \"Carry-Packets.\" These packets achieve a crystallization point of 0.15 entity/token, ensuring that a receiving model can reconstruct the original context with near-perfect fidelity.",
-      "tags": [
-        "agent-skills",
-        "ai-memory",
-        "claude-skills",
-        "context-engineering"
-      ],
-      "stars_total": 30,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-03-07T12:56:48Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "根目录存在 SKILL.md",
-        "source:GitHub topic: claude-skills"
-      ]
-    },
-    {
-      "repo": "infersports/infersports-skill",
-      "name": "infersports-skill",
-      "description": "InferSports Agent Skill — live Asian-priced football & basketball odds + scores. Read-only, keyless. Claude Code / Codex / OpenClaw.",
-      "tags": [
-        "agent-skills",
-        "basketball",
-        "claude-code",
-        "claude-plugin",
-        "claude-skills",
-        "football",
-        "mcp",
-        "odds-api",
-        "sports-odds"
-      ],
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 0,
-      "commits_capped": false,
-      "last_push": "2026-06-11T15:22:58Z",
-      "pool": "watchlist",
-      "quality_flags": [
-        "README 提及 Claude Code Skill",
         "source:GitHub topic: claude-skills"
       ]
     },
@@ -52579,35 +52771,28 @@
       ]
     },
     {
-      "repo": "shelpuk-ai-technology-consulting/agent-skill-tdd",
-      "name": "agent-skill-tdd",
-      "description": "TDD + requirements workflow skill for AI coding agents (Claude Code, Codex, Antigravity, Cursor, Windsurf, etc.). Part of the Shelpuk agentic suite alongside Serena, Kindly Web Search, and Lad.",
+      "repo": "infersports/infersports-skill",
+      "name": "infersports-skill",
+      "description": "InferSports Agent Skill — live Asian-priced football & basketball odds + scores. Read-only, keyless. Claude Code / Codex / OpenClaw.",
       "tags": [
         "agent-skills",
-        "AI",
-        "ai-agents",
-        "ai-skills",
-        "antigravity",
-        "antigravity-skills",
+        "basketball",
         "claude-code",
-        "claude-code-skills",
+        "claude-plugin",
         "claude-skills",
-        "codex",
-        "codex-skills",
-        "cursor",
-        "cursor-skills",
-        "openclaw",
-        "openclaw-skills",
-        "skills"
+        "football",
+        "mcp",
+        "odds-api",
+        "sports-odds"
       ],
-      "stars_total": 28,
+      "stars_total": 29,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 0,
       "commits_capped": false,
-      "last_push": "2026-04-10T14:44:18Z",
+      "last_push": "2026-06-11T15:22:58Z",
       "pool": "watchlist",
       "quality_flags": [
         "README 提及 Claude Code Skill",

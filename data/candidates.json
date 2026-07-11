@@ -1839,6 +1839,27 @@
     "lastPush": "2026-05-19T06:33:35Z"
   },
   {
+    "repo": "composio-community/awesome-claude-plugins",
+    "name": "awesome-claude-plugins",
+    "description": "A curated list of Plugins that let you extend Claude Code with custom commands, agents, hooks, and MCP servers through the plugin system.",
+    "tags": [
+      "anthropic",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugin-marketplace",
+      "claude-code-plugins",
+      "claude-code-plugins-marketplace",
+      "claude-cowork",
+      "claude-desktop",
+      "claude-plugins",
+      "claude-skills",
+      "plugins"
+    ],
+    "stars": 1819,
+    "lastPush": "2026-05-01T07:08:01Z"
+  },
+  {
     "repo": "aaron-he-zhu/seo-geo-claude-skills",
     "name": "seo-geo-claude-skills",
     "description": "20 SEO & GEO skills for Claude Code, Cursor, Codex, and 35+ AI agents. Keyword research, content writing, technical audits, rank tracking. CORE-EEAT + CITE frameworks.",
@@ -9768,6 +9789,17 @@
     "lastPush": "2026-07-05T09:46:50Z"
   },
   {
+    "repo": "atgreen/secscan-skill",
+    "name": "secscan-skill",
+    "description": "Mirror of https://cave.moxielogic.com/atgreen/secscan-skill",
+    "tags": [
+      "claude-skills",
+      "security-audit"
+    ],
+    "stars": 36,
+    "lastPush": "2026-07-10T11:16:13Z"
+  },
+  {
     "repo": "massimodeluisa/recursive-decomposition-skill",
     "name": "recursive-decomposition-skill",
     "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
@@ -10331,6 +10363,26 @@
     ],
     "stars": 31,
     "lastPush": "2026-06-09T15:50:16Z"
+  },
+  {
+    "repo": "solanabr/auditor-skill",
+    "name": "auditor-skill",
+    "description": "Claude Code / agentic security skill for Solana programs and software. Full audit-firm lifecycle, executable PoC + fix-patch delivery, a Rust pre-scanner + cross-audit memory, 1,346 checks across 20 checklists, and 131 real-world attack vectors.",
+    "tags": [
+      "anchor-lang",
+      "audit-skill",
+      "claude-skills",
+      "defi-security",
+      "pinnochio",
+      "security-audit",
+      "solana-program",
+      "static-analysis",
+      "vulnerability-scanner",
+      "web3-audit-reports",
+      "web3-security"
+    ],
+    "stars": 31,
+    "lastPush": "2026-07-11T03:44:16Z"
   },
   {
     "repo": "spillwavesolutions/jira",
@@ -17455,6 +17507,73 @@
     "lastPush": "2026-07-08T16:21:33Z"
   },
   {
+    "repo": "songshishuang/skills",
+    "name": "Skills",
+    "description": "AI 产品经理的 Claude Skills 集合 · PRD 写作 / 项目脚手架 / SaaS 架构图 / 高保真原型 / 对话归档",
+    "tags": [
+      "agent-skills",
+      "ai-product-management",
+      "anthropic",
+      "chinese",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "prd",
+      "product-management",
+      "saas",
+      "scrm"
+    ],
+    "stars": 7,
+    "lastPush": "2026-06-18T03:35:21Z"
+  },
+  {
+    "repo": "javier-garzas/ia-product-management",
+    "name": "ia-product-management",
+    "description": "Skills de IA para Product Management y Spec-Driven Development, creadas por Javier Garzas (233 Academy) y compartidas con la comunidad.",
+    "tags": [
+      "233-academy",
+      "agile",
+      "ai-agents",
+      "claude",
+      "claude-skills",
+      "ia",
+      "inteligencia-artificial",
+      "product-management",
+      "spec-driven-development"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-06T16:25:22Z"
+  },
+  {
+    "repo": "jasoncolapietro/suede-creator-skills",
+    "name": "suede-creator-skills",
+    "description": "23 open-source Agent Skills for Claude Code and Codex: multi-agent orchestration, A-F code review, AI evals, CI ship-gates, design, copy, SEO, and creator workflows.",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "ai-agents",
+      "ai-eval",
+      "anthropic",
+      "ci",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "creator-economy",
+      "developer-tools",
+      "llm",
+      "llm-evaluation",
+      "mcp",
+      "mcp-server",
+      "multi-agent",
+      "openai-codex",
+      "plugin-marketplace",
+      "seo"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-09T23:59:08Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -22274,6 +22393,43 @@
     ],
     "stars": 2,
     "lastPush": "2026-07-08T15:18:27Z"
+  },
+  {
+    "repo": "joey114132/fable-workflow-skill",
+    "name": "fable-workflow-skill",
+    "description": "Fable Workflow — a portable Claude Code / Cursor agent skill that makes any model (Opus, Sonnet, Haiku, Fable) find the unknowns before building, not after.",
+    "tags": [
+      "agent-skill",
+      "agentic-workflow",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "cursor",
+      "fable-workflow",
+      "llm",
+      "prompt-engineering"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-10T05:44:04Z"
+  },
+  {
+    "repo": "decodo/agent-skills",
+    "name": "agent-skills",
+    "description": "Agent skills that teach AI coding agents to use Decodo for web scraping",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "data-extraction",
+      "web-scraping"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-01T11:52:39Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -27320,6 +27476,93 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-09T14:21:21Z"
+  },
+  {
+    "repo": "fanfanbox/triz-innovation-toolkit",
+    "name": "triz-innovation-toolkit",
+    "description": "TRIZ systematic innovation toolkit — 24 chapters, 22 tools, 8 sources. Agent skill for Claude Code, Copilot CLI, Amp.",
+    "tags": [
+      "claude-code-skill",
+      "copilot-skill",
+      "creative-thinking",
+      "engineering",
+      "innovation",
+      "knowledge-management",
+      "methodology",
+      "problem-solving",
+      "systematic-innovation",
+      "triz"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-07T04:40:54Z"
+  },
+  {
+    "repo": "sorenkk/checkpoint-claudio",
+    "name": "checkpoint-claudio",
+    "description": "Persistent checkpoint system for Claude Code projects",
+    "tags": [
+      "checkpoint",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "debugging",
+      "developer-tools",
+      "memory"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-10T10:22:52Z"
+  },
+  {
+    "repo": "markshust/claude-code-skill-keynote-deck",
+    "name": "claude-code-skill-keynote-deck",
+    "description": "Turn markdown into beautiful, native Keynote presentations — with Claude Code.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "keynote",
+      "keynote-presentation",
+      "macos",
+      "markdown",
+      "presentation-slides",
+      "presentation-tools",
+      "presentations"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-10T15:00:50Z"
+  },
+  {
+    "repo": "hirovel/sustainable-energy-advisor",
+    "name": "sustainable-energy-advisor",
+    "description": "A Claude Code skill that reads your energy patterns across four dimensions and suggests one small experiment at a time. 高表现不是时间管理问题，而是精力管理问题。",
+    "tags": [
+      "agentskills",
+      "chinese",
+      "claude-code-skill",
+      "coaching",
+      "energy-management",
+      "productivity",
+      "well-being"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-10T23:59:44Z"
+  },
+  {
+    "repo": "daanvandenbergh/scribekit",
+    "name": "scribekit",
+    "description": "Drop-in, SEO-ready MDX blog and docs for Next.js App Router: server components for the post grid, articles, and a tabbed docs site, plus Claude Code skills that research and write them.",
+    "tags": [
+      "blog",
+      "claude-code",
+      "claude-code-skill",
+      "docs",
+      "mdx",
+      "nextjs",
+      "seo"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-10T08:42:21Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

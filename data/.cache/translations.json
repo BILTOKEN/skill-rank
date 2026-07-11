@@ -7719,5 +7719,26 @@
     "prompt": "请从 https://github.com/norahe0304-art/30x-video 下载该仓库的所有文件，并保存到 .claude/skills/30x-video/ 目录下，完成安装。",
     "translatedAt": "2026-07-10T04:46:16.914Z",
     "backTranslationDiff": 0.5882352941176471
+  },
+  "solanabr/auditor-skill": {
+    "sourceHash": "5eedf87e2e64e607",
+    "chineseDescription": "这是一个针对 Solana 程序和软件的安全审计技能（Claude Code / agentic security skill）。它覆盖了完整的审计流程，包括可执行的 PoC（Proof of Concept，概念验证）和修复补丁交付、一个 Rust 预扫描器（pre-scanner）加交叉审计内存、20 个检查清单中的 1,346 项检查，以及 131 个真实世界的攻击向量。",
+    "prompt": "请从 https://github.com/solanabr/auditor-skill 下载该技能的所有文件，并保存到 .claude/skills/auditor-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-11T03:56:19.944Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "atgreen/secscan-skill": {
+    "sourceHash": "71ab2707439a3e32",
+    "chineseDescription": "这是 https://cave.moxielogic.com/atgreen/secscan-skill 的镜像仓库，提供安全扫描相关的技能。",
+    "prompt": "请从 https://github.com/atgreen/secscan-skill 下载 secscan-skill 仓库的所有文件，并将它们保存到 .claude/skills/secscan-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-11T03:56:23.373Z",
+    "backTranslationDiff": 0.5
+  },
+  "composio-community/awesome-claude-plugins": {
+    "sourceHash": "5b81fdd3d92dada6",
+    "chineseDescription": "一个精选的插件列表，让你通过插件系统用自定义命令、代理（agents）、钩子（hooks）和 MCP 服务器来扩展 Claude Code 的功能。",
+    "prompt": "请从 https://github.com/composio-community/awesome-claude-plugins 下载项目文件，保存到 .claude/skills/awesome-claude-plugins/ 目录完成安装。",
+    "translatedAt": "2026-07-11T03:56:26.836Z",
+    "backTranslationDiff": 0.1875
   }
 }
