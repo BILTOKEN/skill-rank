@@ -6391,11 +6391,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "xiaomacoltai/math-modeling-skill": {
-    "sourceHash": "98ba98f27a291d93",
-    "chineseDescription": "数学建模技能 - 为CUMCM、MCM/ICM等数学建模竞赛提供结构化的三阶段工作流程：建模分析、代码实现、论文撰写。包含丰富的算法资源库（优化/预测/评价/图论/机器学习等）、角色指导文档、论文模板和实用工具脚本。",
-    "prompt": "请从 https://github.com/xiaomacoltai/math-modeling-skill 下载 math-modeling-skill 技能，并将所有文件保存到 .claude/skills/math-modeling-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:47:29.225Z",
-    "backTranslationDiff": 1
+    "sourceHash": "2b8cc5ef2bc7e68e",
+    "chineseDescription": "数学建模技能 - 面向 CUMCM、MCM/ICM 等数学建模竞赛的三阶段工作流：建模分析、Python/MATLAB 编程与 DOCX 论文生成。包含丰富的算法资源库（优化/预测/评价/图论/机器学习等）、角色指导文档、论文模板和实用工具脚本。",
+    "prompt": "请从 https://github.com/xiaomacoltai/math-modeling-skill 下载 math-modeling-skill 技能文件，并将其保存到 .claude/skills/math-modeling-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-12T04:33:34.306Z",
+    "backTranslationDiff": 0.8
   },
   "dominikmartn/nothing-design-skill": {
     "sourceHash": "7b82f723e74e1d15",
@@ -7252,11 +7252,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "appautomaton/presentation": {
-    "sourceHash": "25204d42b9cfe4d4",
-    "chineseDescription": "这是一个用于生成咨询级演示文稿的 Claude Code 和 Codex Skill——支持策略故事板（storyboarding）、品牌系统标识（brand-system identity），以及像素级完美的 PDF 或可编辑的 PPTX 输出。",
-    "prompt": "请从 https://github.com/appautomaton/presentation 下载 presentation Skill 文件，并将其保存到 .claude/skills/presentation/ 目录下，完成安装。",
-    "translatedAt": "2026-06-03T18:38:21.918Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "4e29841cf0b707ac",
+    "chineseDescription": "输入一个商业问题，输出一份咨询级演示文稿。包含四个可组合的 Skill：策略故事板（strategy storyboarding）、品牌标识（brand identity）、像素级完美 PDF、原生可编辑 PPTX。",
+    "prompt": "请从 https://github.com/appautomaton/presentation 下载 presentation skill 文件，并保存到 .claude/skills/presentation/ 目录下完成安装。",
+    "translatedAt": "2026-07-12T04:33:45.699Z",
+    "backTranslationDiff": 0.5
   },
   "lsnackerman/raw-clauding-skills": {
     "sourceHash": "92e053577216a345",
@@ -7462,11 +7462,11 @@
     "backTranslationDiff": 0
   },
   "wquguru/skills": {
-    "sourceHash": "fca3379421d8e7e8",
-    "chineseDescription": "实用的 Claude Code 技能集——包括英语工程师辅导、Pi Agent 设置等。通过 npx skills add 安装。",
-    "prompt": "请从 https://github.com/wquguru/skills 下载该仓库的所有文件，并将其保存到 .claude/skills/skills/ 目录中，完成安装。",
-    "translatedAt": "2026-06-05T12:38:11.375Z",
-    "backTranslationDiff": 0.09090909090909094
+    "sourceHash": "6b3cfc266026e3a6",
+    "chineseDescription": "实用Agent技能——包括英语工程师辅导、Pi Agent设置等。通过 npx skills add 安装。",
+    "prompt": "请从 https://github.com/wquguru/skills 下载技能文件，保存到 .claude/skills/skills/ 目录完成安装。",
+    "translatedAt": "2026-07-12T04:33:37.784Z",
+    "backTranslationDiff": 0.2222222222222222
   },
   "anbeime/skill": {
     "sourceHash": "c0447bd3d1038f01",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "4c81628835898248",
-    "chineseDescription": "去除俄语文本中的机器生成痕迹，让文字读起来更像人写的。",
-    "prompt": "请安装 humanizer-ru skill。从 https://github.com/vladimir-human/humanizer-ru 下载文件，并保存到 .claude/skills/humanizer-ru/ 目录。",
-    "translatedAt": "2026-07-06T05:01:52.486Z",
-    "backTranslationDiff": 1
+    "sourceHash": "c0558de5df16b131",
+    "chineseDescription": "这是一个面向 AI 智能体的技能：从俄语文本中去除机器生成的痕迹——包含 38 种模式（pattern）和 35 个正则标记（regex marker）。【使用场景】当你用 AI 生成俄语内容后，想让它读起来更像人写的，就用这个技能来润色。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载所有文件，并将它们保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
+    "translatedAt": "2026-07-12T04:33:41.966Z",
+    "backTranslationDiff": 0.8571428571428572
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7740,5 +7740,12 @@
     "prompt": "请从 https://github.com/composio-community/awesome-claude-plugins 下载项目文件，保存到 .claude/skills/awesome-claude-plugins/ 目录完成安装。",
     "translatedAt": "2026-07-11T03:56:26.836Z",
     "backTranslationDiff": 0.1875
+  },
+  "ai4s-research/ai4s-skills": {
+    "sourceHash": "ef5721c859c63b56",
+    "chineseDescription": "面向AI for Science的开源Agent技能集合：主题探索、文献调研、实验设计、论文写作和诚信审计——由任意编码Agent驱动。",
+    "prompt": "请从 https://github.com/ai4s-research/ai4s-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/ai4s-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-12T04:33:49.139Z",
+    "backTranslationDiff": 0.25
   }
 }
