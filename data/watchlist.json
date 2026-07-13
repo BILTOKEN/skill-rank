@@ -7988,6 +7988,26 @@
     "checkedAt": "2026-07-06T04:42:26.658Z"
   },
   {
+    "repo": "giasip/giasip-skills",
+    "name": "giasip-skills",
+    "description": "research & dispatch skills for Claude Code — 研究调度（Quick Recon + fact-check）+ 多模型调用器（纯调用器版）",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "deep-research",
+      "llm",
+      "multi-model"
+    ],
+    "stars": 11,
+    "lastPush": "2026-06-14T20:00:44Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -9248,6 +9268,35 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-09T04:16:02.360Z"
+  },
+  {
+    "repo": "todealmarket/tdm-daos-agent",
+    "name": "tdm-daos-agent",
+    "description": "Agent-specific payment workflows and examples for TDM",
+    "tags": [
+      "agent-orchestration",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "anthropic-skills",
+      "automation",
+      "claude",
+      "claude-skills",
+      "daos",
+      "payments",
+      "tdm",
+      "typescript",
+      "x402"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-12T09:30:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -11081,6 +11130,47 @@
     "checkedAt": "2026-07-12T04:00:54.509Z"
   },
   {
+    "repo": "akovalion/paranoid-qa",
+    "name": "paranoid-qa",
+    "description": "Claude Code skills that turn an AI agent into a meticulous QA engineer. Evidence or it didn't happen.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "playwright",
+      "qa",
+      "quality-assurance",
+      "test-automation",
+      "测试"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-12T12:13:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
+  },
+  {
+    "repo": "weisi-gu/xiaoyuzhou-podcast-notes",
+    "name": "xiaoyuzhou-podcast-notes",
+    "description": "把小宇宙单集播客转成结构化Markdown笔记的Skill",
+    "tags": [
+      "asr",
+      "claude-skills",
+      "podcast",
+      "transcription",
+      "xiaoyuzhou"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-12T09:46:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -11874,6 +11964,39 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-12T04:00:54.509Z"
+  },
+  {
+    "repo": "valentinavramko/editorial-skill-for-natural-russian-business-writing",
+    "name": "editorial-skill-for-natural-russian-business-writing",
+    "description": "Редакторский инструмент для естественного делового письма на русском без нейрояза, канцелярита, карьерных штампов и выдуманных деталей.",
+    "tags": [
+      "ai-writing",
+      "business-writing",
+      "chatgpt",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "editing",
+      "editorial",
+      "gemini",
+      "llm",
+      "prompt-design",
+      "prompt-engineering",
+      "prompt-spec",
+      "promt",
+      "russian",
+      "russian-language",
+      "russian-writing",
+      "skill"
+    ],
+    "stars": 6,
+    "lastPush": "2026-07-10T14:00:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
   },
   {
     "repo": "googlarz/health-skill",
@@ -15327,6 +15450,40 @@
     "checkedAt": "2026-07-10T04:18:05.232Z"
   },
   {
+    "repo": "noluyorabi/claude-code-recap",
+    "name": "claude-code-recap",
+    "description": "Browse every recent Claude Code session across all your projects and jump back into any of them. Shows project path, summary, git branch, model, turn count, and a ready-to-paste resume command. --open re-opens a whole working set in terminal tabs. Local files only: no network, no telemetry.",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-marketplace",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "cli",
+      "coding-agent",
+      "developer-productivity",
+      "developer-tools",
+      "iterm2",
+      "local-first",
+      "python-cli",
+      "session-history",
+      "session-resume",
+      "terminal"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-13T03:03:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -17216,6 +17373,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-12T04:00:54.509Z"
+  },
+  {
+    "repo": "antheurus/anywrite",
+    "name": "anywrite",
+    "description": "Full-coverage CLI for the Anytype local API (all 52 endpoints) — one binary, zero deps, wired as a Claude Code skill",
+    "tags": [
+      "agent-tools",
+      "anytype",
+      "bun",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "local-first",
+      "personal-knowledge-management",
+      "pkm",
+      "typescript"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-12T12:27:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -23719,6 +23900,49 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-11T03:45:10.978Z"
+  },
+  {
+    "repo": "playqodex/activation-engine",
+    "name": "activation-engine",
+    "description": "Zero-dependency Claude Code engine (Node/ESM): 'scan' indexes the machine's skills, rules, guidelines & memory; 'activate' loads the operating stack for any folder/repo/workspace and runs the pre-flight gates; 'instance' composes reusable bundles, each with its own /activate-<name> command.",
+    "tags": [
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "developer-tools",
+      "nodejs",
+      "workspace-bootstrap"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-12T16:11:19Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
+  },
+  {
+    "repo": "rudrasatani13/vibe-learn",
+    "name": "vibe-learn",
+    "description": "Learn while you vibe code — a Claude Code skill that explains the major concepts in your code as it's written, then quizzes you to make them stick.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "learning",
+      "vibe-coding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-24T12:59:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-13T04:03:12.874Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "77574c6484ef625b",
-    "chineseDescription": "Twitter 爬虫 API 技能，用于推文搜索、高级 Twitter 搜索、个人资料推文、粉丝导出、媒体下载、监控、webhooks、MCP 以及发布自动化：发送推文和回复。【使用场景】适用于需要自动化抓取 Twitter 数据、管理推文发布和监控的开发者。",
-    "prompt": "请安装 x-twitter-scraper 技能。请访问 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper，下载所有文件，并将它们保存到 .claude/skills/x-twitter-scraper/ 目录中，以完成安装。",
-    "translatedAt": "2026-05-24T13:18:34.582Z",
-    "backTranslationDiff": 0.15000000000000002
+    "sourceHash": "7bd1e3c7d69a3934",
+    "chineseDescription": "Twitter 爬虫 API 技能，支持推文搜索、高级 Twitter 搜索、个人资料推文、粉丝导出、媒体下载、监控、webhooks、MCP 以及发布自动化（发送推文和回复）。与 X Corp 无关。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper skill 文件，并保存到 .claude/skills/x-twitter-scraper/ 目录完成安装。",
+    "translatedAt": "2026-07-13T04:49:21.126Z",
+    "backTranslationDiff": 0.26086956521739135
   },
   "talkstream/ru-text": {
     "sourceHash": "ff7ff763cfa57db7",
@@ -6181,11 +6181,11 @@
     "backTranslationDiff": 0.4444444444444444
   },
   "levnikolaevich/claude-code-skills": {
-    "sourceHash": "98e9540809b23827",
-    "chineseDescription": "这是一个 Claude Code 的插件套件，内置了多个 MCP 服务器。覆盖完整的交付生命周期：支持敏捷流程（含多模型 AI 审查）、项目初始化、文档生成、代码库审计、性能优化、社区工作流。包含三个 MCP 服务器：hex-line（哈希校验编辑）、hex-graph（代码知识图谱）、hex-ssh（远程 SSH）。",
-    "prompt": "请从 https://github.com/levnikolaevich/claude-code-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-code-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T17:01:05.005Z",
-    "backTranslationDiff": 0.3055555555555556
+    "sourceHash": "600f0da4f1f39b6e",
+    "chineseDescription": "18个独立的 Claude Code 和 Codex 技能：代码审查、审计、优化、测试、产品发现以及安全的仓库发布。",
+    "prompt": "请从 https://github.com/levnikolaevich/claude-code-skills 下载所有文件，并将它们保存到 .claude/skills/claude-code-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-13T04:49:24.684Z",
+    "backTranslationDiff": 0.3571428571428571
   },
   "vila-lab/figmirror": {
     "sourceHash": "5b86b3facf772ca6",
