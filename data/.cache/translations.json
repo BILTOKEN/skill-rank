@@ -7747,5 +7747,40 @@
     "prompt": "请从 https://github.com/ai4s-research/ai4s-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/ai4s-skills/ 目录下，完成安装。",
     "translatedAt": "2026-07-12T04:33:49.139Z",
     "backTranslationDiff": 0.25
+  },
+  "covagashi/eplan_2026_ia_mcp_scripts": {
+    "sourceHash": "aa185d9d3ff97061",
+    "chineseDescription": "EPLAN Electric P8 + AI：MCP 服务器、文档 RAG，以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。",
+    "prompt": "请从 https://github.com/covagashi/eplan_2026_ia_mcp_scripts 下载仓库文件，并将其保存到 .claude/skills/eplan_2026_ia_mcp_scripts/ 目录下，完成安装。",
+    "translatedAt": "2026-07-14T03:48:40.477Z",
+    "backTranslationDiff": 0.4
+  },
+  "smixs/humanizer-ru": {
+    "sourceHash": "00385ca838b12082",
+    "chineseDescription": "用于 AI 智能体（Claude Code、Codex、OpenClaw、Hermes）的俄语文本人性化技能：消除俄语文本中 32 种 AI 生成痕迹——官腔、ChatGPT 套话、冗余词汇等。",
+    "prompt": "请从 https://github.com/smixs/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
+    "translatedAt": "2026-07-14T03:48:44.443Z",
+    "backTranslationDiff": 0.6190476190476191
+  },
+  "aeonfun/soul.md": {
+    "sourceHash": "420dad9ab6c22966",
+    "chineseDescription": "为你的 AI 智能体打造个性的最佳方式。让 Claude Code / OpenClaw 读取你的数据，构建你的 AI 灵魂。",
+    "prompt": "请从 https://github.com/aeonfun/soul.md 下载 soul.md 文件，并将其保存到 .claude/skills/soul.md/ 目录下，以完成安装。",
+    "translatedAt": "2026-07-14T03:48:47.607Z",
+    "backTranslationDiff": 0.09090909090909094
+  },
+  "tizzy916/humanities-writing-companion": {
+    "sourceHash": "de432eb5b4ba8367",
+    "chineseDescription": "端到端的人文学科写作助手——一个 Agent Skill（开放 SKILL.md 格式）。提供 11 种模式，从苏格拉底式研究问题打磨到 AI 使用声明。支持中英双语，能识别学科（文学/历史/哲学/艺术/宗教/语言学 + 跨学科）。具备四层批判机制、可调节的魔鬼代言人模式、保留作者个人风格。",
+    "prompt": "请从 https://github.com/tizzy916/humanities-writing-companion 下载该 Skill 的所有文件，并保存到 .claude/skills/humanities-writing-companion/ 目录下，完成安装。",
+    "translatedAt": "2026-07-14T03:48:51.841Z",
+    "backTranslationDiff": 0.5517241379310345
+  },
+  "growthack88/growth-marketing-os": {
+    "sourceHash": "549315bc59a715a2",
+    "chineseDescription": "Growth Marketing OS | Mahmoud Omar — 开源AI营销提示词、Claude技能、智能体及增长手册（英文+阿拉伯文）",
+    "prompt": "请从 https://github.com/growthack88/growth-marketing-os 下载整个仓库的内容，并将所有文件保存到 .claude/skills/growth-marketing-os/ 目录下，完成安装。",
+    "translatedAt": "2026-07-14T03:48:55.297Z",
+    "backTranslationDiff": 0
   }
 }
