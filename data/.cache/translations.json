@@ -3066,10 +3066,10 @@
     "backTranslationDiff": 0.07407407407407407
   },
   "asklokesh/claudeskill-loki-mode": {
-    "sourceHash": "2a58e5e56abcf98c",
-    "chineseDescription": "多智能体自主 SDLC（软件开发生命周期）框架。从规格说明到部署应用。支持 PRD（产品需求文档）、GitHub issue、OpenAPI/JSON/YAML 或一句话简述。集成 5 个 AI 提供商，11 个质量门（quality gates）。【使用场景】适用于需要快速从需求到部署的自动化开发流程，尤其是多智能体协作和严格质量检查的场景。",
-    "prompt": "请从 https://github.com/asklokesh/claudeskill-loki-mode 下载该 skill 的所有文件，并保存到 .claude/skills/claudeskill-loki-mode/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:01:01.180Z",
+    "sourceHash": "4cb0f72daac716de",
+    "chineseDescription": "多智能体自主 SDLC 框架。从需求规格到部署应用。支持 PRD、GitHub Issue、OpenAPI/JSON/YAML 或一句话简述。集成 5 个 AI 提供商，8 道质量关卡。【使用场景】适合需要从需求到部署全流程自动化、多智能体协作开发、质量严格把关的团队。",
+    "prompt": "请从 https://github.com/asklokesh/claudeskill-loki-mode 下载所有文件，保存到 .claude/skills/claudeskill-loki-mode/ 目录，完成 loki-mode skill 的安装。",
+    "translatedAt": "2026-07-15T03:55:56.611Z",
     "backTranslationDiff": 0.4375
   },
   "roundtable02/tutor-skills": {
@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "7bd1e3c7d69a3934",
-    "chineseDescription": "Twitter 爬虫 API 技能，支持推文搜索、高级 Twitter 搜索、个人资料推文、粉丝导出、媒体下载、监控、webhooks、MCP 以及发布自动化（发送推文和回复）。与 X Corp 无关。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper skill 文件，并保存到 .claude/skills/x-twitter-scraper/ 目录完成安装。",
-    "translatedAt": "2026-07-13T04:49:21.126Z",
-    "backTranslationDiff": 0.26086956521739135
+    "sourceHash": "f6df7717b739dfbd",
+    "chineseDescription": "Xquik 代理 Skill，支持 REST、OAuth 优先的 MCP（模型上下文协议）、Webhooks、数据导出、推文搜索、粉丝数据、监控以及确认门控发布。与 X Corp. 无关联。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，完成安装。",
+    "translatedAt": "2026-07-15T03:55:48.305Z",
+    "backTranslationDiff": 0.38888888888888884
   },
   "talkstream/ru-text": {
     "sourceHash": "ff7ff763cfa57db7",
@@ -3836,11 +3836,11 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "agricidaniel/claude-ads": {
-    "sourceHash": "4ba1d13a57a562be",
-    "chineseDescription": "全面的付费广告审计与优化技能，适用于 Claude Code。涵盖 Google、Meta、YouTube、LinkedIn、TikTok、Microsoft 和 Apple Ads 的 250 多项检查，支持加权评分、并行代理、行业模板和 AI 创意生成。【使用场景】适用于需要全面审计和优化付费广告投放的用户，尤其是使用 Claude Code 进行自动化分析的场景。",
-    "prompt": "请安装 claude-ads 技能。从 GitHub 仓库 https://github.com/agricidaniel/claude-ads 下载文件，并保存到 .claude/skills/claude-ads/ 目录。",
-    "translatedAt": "2026-05-24T17:43:44.676Z",
-    "backTranslationDiff": 0.11111111111111116
+    "sourceHash": "c3b8ed37ae6d28dc",
+    "chineseDescription": "Claude-first 付费媒体运营技能，支持 12 个广告平台（Google、Meta、YouTube、LinkedIn、TikTok、Microsoft、Apple、Amazon、Reddit、Pinterest、Snapchat、X）：基于来源的审计、确定性评分、版本化 JSON 报告，以及按能力分级的账户变更。",
+    "prompt": "请从 https://github.com/agricidaniel/claude-ads 下载 claude-ads 技能文件，并将其保存到 .claude/skills/claude-ads/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:55:26.808Z",
+    "backTranslationDiff": 0.3448275862068966
   },
   "wuyoscar/gpt-image2-skill": {
     "sourceHash": "67f338b783529e21",
@@ -3850,11 +3850,11 @@
     "backTranslationDiff": 0.125
   },
   "agents365-ai/drawio-skill": {
-    "sourceHash": "714a9aa90c0eba09",
-    "chineseDescription": "用自然语言生成 draw.io 图表——6 种预设模板、视觉自检 + 最多 5 轮优化、代码库转图表、10000+ 官方形状和 321 个 AI/LLM 品牌 Logo。支持导出 PNG/SVG/PDF/JPG。",
-    "prompt": "请从 https://github.com/agents365-ai/drawio-skill 下载 drawio-skill 文件，并保存到 .claude/skills/drawio-skill/ 目录完成安装。",
-    "translatedAt": "2026-06-03T18:36:13.318Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "3bafc50da9b9a700",
+    "chineseDescription": "用自然语言生成 draw.io 图表——内置11种预设（UML、SysML/MBSE、BPMN、网络图、C4架构图等），36个工具：代码库/CI/基础设施转图表、图片→可编辑图表、思维导图、逐步动画、执行视图压缩、可点击操作手册、PR差异机器人。视觉自检，支持10000+形状。导出PNG/SVG/PDF/JPG格式。",
+    "prompt": "请从 https://github.com/agents365-ai/drawio-skill 下载 drawio-skill 的所有文件，并保存到 .claude/skills/drawio-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:55:22.668Z",
+    "backTranslationDiff": 0.46875
   },
   "youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
     "sourceHash": "f7bd37a403edbc53",
@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "2ce6ce71e96d60da",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 400 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可以在浏览器中免费试用，或者运行 'npx pm-claude-skills add'。",
-    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载项目文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-03T04:29:12.600Z",
-    "backTranslationDiff": 0.2727272727272727
+    "sourceHash": "016b469101573edc",
+    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 515 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可直接在浏览器中免费试用，或运行 'npx pm-claude-skills add' 安装。",
+    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载仓库文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-15T03:55:35.946Z",
+    "backTranslationDiff": 0.31818181818181823
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "b3a3b021e5caadc3",
-    "chineseDescription": "一个支持多提供商模型的 AI 客户端，可用于聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。如果你觉得有用，请给这个仓库点个 ⭐！",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo skill 文件，并保存到 .claude/skills/askimo/ 目录中完成安装。",
-    "translatedAt": "2026-07-09T04:37:42.474Z",
-    "backTranslationDiff": 0.6
+    "sourceHash": "a7658ac626abd876",
+    "chineseDescription": "一个支持多提供商模型的 AI 客户端，可用于聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo skill 文件，并将其保存到 .claude/skills/askimo/ 目录中，完成安装。",
+    "translatedAt": "2026-07-15T03:55:39.445Z",
+    "backTranslationDiff": 0.7
   },
   "borghei/claude-skills": {
     "sourceHash": "493c77c39cfb0afd",
@@ -4809,11 +4809,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "jnmetacode/ai-shortfilm-prompts": {
-    "sourceHash": "b683d5c66723ce82",
-    "chineseDescription": "这是 Mx-Shell 制作的 AI 短片《Zombie Scavenger》背后的方法论、提示词和 Claude Code Skill——该短片被 AI 短片专家 PJ Ace 称为“我多年来见过的最佳短片之一”。支持 Sora、Kling、Veo、Seedance 等工具。",
-    "prompt": "请从 https://github.com/jnmetacode/ai-shortfilm-prompts 下载仓库文件，并将其保存到 .claude/skills/ai-shortfilm-prompts/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:03:41.406Z",
-    "backTranslationDiff": 0.36363636363636365
+    "sourceHash": "4570a7e0938691ce",
+    "chineseDescription": "这是一个 Claude Code Skill，能把任何想法变成电影级、可直接用于模型生成的视频提示词（prompt）——支持 Sora、Kling、Veo、Seedance 等主流视频生成模型。内置 21 种类型模板，采用 5 阶段结构，经过评估测试。这个技能提炼自 AI 短片，好莱坞导演 PJ Ace 称其为“我多年来见过的最佳短片之一”。【使用场景】适合需要快速生成高质量视频提示词的内容创作者、AI 视频制作者。",
+    "prompt": "请从 https://github.com/jnmetacode/ai-shortfilm-prompts 下载整个仓库，并将所有文件保存到 .claude/skills/ai-shortfilm-prompts/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:55:44.627Z",
+    "backTranslationDiff": 0.19354838709677424
   },
   "siddik-web/wp-block-theme-converter": {
     "sourceHash": "05d945c3c813f8fc",
@@ -7644,18 +7644,18 @@
     "backTranslationDiff": 0.050000000000000044
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "sourceHash": "c47a3ded5ea04b4e",
-    "chineseDescription": "120个营销技能 + 8个命令，适用于Claude Code和AI代理，覆盖7个领域——SEO/GEO、KOL营销、付费广告、邮件营销、产品发布、社交媒体运营和品牌叙事——全部基于同一个共享合约，并配有8个审计关卡：CORE-EEAT · CITE · C³ · ROAS · SEND · RAMP · ECHO · TALE。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，保存到 .claude/skills/aaron-marketing-skills/ 目录完成安装。",
-    "translatedAt": "2026-07-06T05:01:28.260Z",
-    "backTranslationDiff": 0.4193548387096774
+    "sourceHash": "de5ad69468b6770a",
+    "chineseDescription": "120个营销技能 + 8条命令，覆盖7大领域（SEO/GEO、KOL营销、付费广告、邮件营销、产品发布、社交媒体运营、品牌叙事），全部集成在一个共享合约里。还附带8个审计关卡：CORE-EEAT（核心EEAT评估）、CITE（引用验证）、STAR（情境-任务-行动-结果模型）、ROAS（广告支出回报率）、SEND（发送策略）、RAMP（爬坡计划）、ECHO（回声效应）、TALE（故事讲述）。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:55:32.037Z",
+    "backTranslationDiff": 0.5
   },
   "ratel-ai/ratel": {
-    "sourceHash": "e38e829862d0daf3",
-    "chineseDescription": "为 AI 代理（agent）做上下文工程（context engineering）。减少约80%的 token 消耗。解决工具过载（tool overload）问题。通过进程内（in-process）BM25 和语义检索（semantic retrieval）实现技能和记忆功能，无需向量数据库（vector DB）。",
-    "prompt": "请从 https://github.com/ratel-ai/ratel 下载文件，并保存到 .claude/skills/ratel/ 目录完成安装。",
-    "translatedAt": "2026-07-10T04:46:08.955Z",
-    "backTranslationDiff": 0.4375
+    "sourceHash": "caa408599e913b85",
+    "chineseDescription": "为 AI 代理进行上下文工程（Context Engineering）。减少约80%的 token 消耗。解决工具过载问题。通过进程内 BM25 和语义检索实现技能与记忆。渐进式信息展示（Progressive Disclosure）。无需向量数据库（Vector DB）。",
+    "prompt": "请从 https://github.com/ratel-ai/ratel 下载 ratel skill 文件，并保存到 .claude/skills/ratel/ 目录中，完成安装。",
+    "translatedAt": "2026-07-15T03:55:52.126Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "pcliangx/appgenesisforge": {
     "sourceHash": "63a62af436f46bee",
@@ -7707,11 +7707,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "cozytab/fable5-mode": {
-    "sourceHash": "31b2e3b7c39faeac",
-    "chineseDescription": "Fable 5 级工作纪律，适用于任何 Claude 模型——这是一个 Claude Code skill 加 guard hooks（计划门控、模型上限、逐任务强制执行），让 Opus 4.8 或任何非前沿模型像 Fable 5 一样规划、自我验证和路由子代理，而不需要 Fable 5。",
-    "prompt": "请从 https://github.com/cozytab/fable5-mode 下载所有文件，并将它们保存到 .claude/skills/fable5-mode/ 目录中，以完成 fable5-mode skill 的安装。",
-    "translatedAt": "2026-07-09T04:37:51.124Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "c30098d6089edf11",
+    "chineseDescription": "让 Opus 4.8（或任意 Claude 模型）像 Claude Fable 5 一样工作——这是一个 Claude Code skill，附带 guard hooks（计划门控、模型上限、每任务强制约束），实现 Fable-5 级别的纪律：规划、自我验证、路由子代理，但不需要 Fable 5。",
+    "prompt": "请从 https://github.com/cozytab/fable5-mode 下载文件，并保存到 .claude/skills/fable5-mode/ 目录完成安装。",
+    "translatedAt": "2026-07-15T03:56:05.635Z",
+    "backTranslationDiff": 0.29166666666666663
   },
   "norahe0304-art/30x-video": {
     "sourceHash": "da5038656a686389",
@@ -7782,5 +7782,40 @@
     "prompt": "请从 https://github.com/growthack88/growth-marketing-os 下载整个仓库的内容，并将所有文件保存到 .claude/skills/growth-marketing-os/ 目录下，完成安装。",
     "translatedAt": "2026-07-14T03:48:55.297Z",
     "backTranslationDiff": 0
+  },
+  "covagashi/eplan-rag-mcp": {
+    "sourceHash": "39bea35066e30300",
+    "chineseDescription": "EPLAN Electric P8 2026 + AI：MCP 服务器、文档 RAG，以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。支持 EEC PRO RAG。【使用场景】用于在 Claude Code 中辅助 EPLAN 脚本和 API 开发，通过 RAG 检索文档。",
+    "prompt": "请从 https://github.com/covagashi/eplan-rag-mcp 下载仓库文件，并将所有内容保存到 .claude/skills/eplan-rag-mcp/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:56:01.417Z",
+    "backTranslationDiff": 0.2727272727272727
+  },
+  "kerberosclaw/kc_ai_skills": {
+    "sourceHash": "12f511c358054304",
+    "chineseDescription": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · 适用于任何 LLM 工作流的可复用双语技能包",
+    "prompt": "请从 https://github.com/kerberosclaw/kc_ai_skills 下载整个仓库，将文件保存到 .claude/skills/kc_ai_skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-15T03:56:09.912Z",
+    "backTranslationDiff": 0.16666666666666663
+  },
+  "drpwchen/paper-review-and-digest": {
+    "sourceHash": "b295ee579da97d75",
+    "chineseDescription": "两个用于阅读学术论文的 Claude Code Skill：/paper-review（期刊俱乐部式评估，确定性 GRADE + CrossRef 网关）和 /paper-digest（快速内容吸收）。作为管线的末端：与 paper-radar（发现）和 paper-fetch（全文下载）配合使用。",
+    "prompt": "请从 https://github.com/drpwchen/paper-review-and-digest 下载文件，保存到 .claude/skills/paper-review-and-digest/ 目录，完成安装。",
+    "translatedAt": "2026-07-15T03:56:14.000Z",
+    "backTranslationDiff": 0.24
+  },
+  "asavvin-pixel/unslop": {
+    "sourceHash": "18fe49fd4a28dec1",
+    "chineseDescription": "这是一个针对 Claude 的英文文本人性化工具：优化排版、词汇和结构，能校准成你的个人风格。基于 UMD / Google DeepMind 研究和维基百科的 AI 写作识别指标开发。",
+    "prompt": "请从 https://github.com/asavvin-pixel/unslop 下载 unslop skill 文件，保存到 .claude/skills/unslop/ 目录下完成安装。",
+    "translatedAt": "2026-07-15T03:56:17.873Z",
+    "backTranslationDiff": 0.47058823529411764
+  },
+  "gabberflast/academic-pptx-skill": {
+    "sourceHash": "47a8cc7d37459e3d",
+    "chineseDescription": "一个用于创建学术演示文稿（会议报告、研讨会幻灯片、论文答辩、基金简报）的 Claude Skill。强制使用动作标题、结构化论证、展品规范、引用标准以及沟通优先的设计。可与 Anthropic 内置的 PPTX skill 配合使用。",
+    "prompt": "请从 https://github.com/gabberflast/academic-pptx-skill 下载文件，保存到 .claude/skills/academic-pptx-skill/ 目录完成安装。",
+    "translatedAt": "2026-07-15T03:56:21.731Z",
+    "backTranslationDiff": 0.16666666666666663
   }
 }

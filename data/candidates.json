@@ -3314,6 +3314,27 @@
     "lastPush": "2026-04-13T01:30:34Z"
   },
   {
+    "repo": "gabberflast/academic-pptx-skill",
+    "name": "academic-pptx-skill",
+    "description": "A Claude Skill for creating academic presentations (conference talks, seminar slides, thesis defenses, grant briefings). Enforces action titles, structured argument, exhibit discipline, citation standards, and communication-first design. Works alongside Anthropic's built-in PPTX skill.",
+    "tags": [
+      "academic",
+      "academic-presentations",
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-skills",
+      "data-visualization",
+      "pptx",
+      "presentation-design",
+      "presentations",
+      "slides"
+    ],
+    "stars": 684,
+    "lastPush": "2026-07-14T23:54:54Z"
+  },
+  {
     "repo": "onmax/nuxt-skills",
     "name": "nuxt-skills",
     "description": "Vue, Nuxt, and NuxtHub skills for AI coding assistants.",
@@ -7750,6 +7771,26 @@
     "lastPush": "2026-05-24T23:08:15Z"
   },
   {
+    "repo": "kerberosclaw/kc_ai_skills",
+    "name": "kc_ai_skills",
+    "description": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM workflow",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "llm",
+      "mcp",
+      "prompt-engineering",
+      "python"
+    ],
+    "stars": 75,
+    "lastPush": "2026-07-15T00:33:47Z"
+  },
+  {
     "repo": "pcx-wave/vibe-skill",
     "name": "vibe-skill",
     "description": "Claude Code skill — delegate coding tasks to Mistral Vibe, supervise via git diff & save 50-90% Claude token usage",
@@ -8973,6 +9014,24 @@
     "tags": [
       "claude-code",
       "claude-skills",
+      "eplan",
+      "eplan-api",
+      "eplan-electric-p8",
+      "mcp",
+      "mcp-server"
+    ],
+    "stars": 49,
+    "lastPush": "2026-07-13T14:26:13Z"
+  },
+  {
+    "repo": "covagashi/eplan-rag-mcp",
+    "name": "eplan-rag-mcp",
+    "description": "EPLAN Electric P8 2026  + AI: MCP servers, docs RAG, and a Claude Code skill for EPLAN scripting/API development. EEC PRO RAG",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "eec",
+      "eec-pro",
       "eplan",
       "eplan-api",
       "eplan-electric-p8",
@@ -10354,6 +10413,21 @@
     "lastPush": "2026-02-12T02:25:54Z"
   },
   {
+    "repo": "asavvin-pixel/unslop",
+    "name": "unslop",
+    "description": "English text humanizer for Claude: typography, vocabulary, structure. Calibrates to your voice. Built on the UMD / Google DeepMind study and Wikipedia's Signs of AI writing",
+    "tags": [
+      "ai-humanizer",
+      "claude",
+      "claude-skills",
+      "humanizer",
+      "llm",
+      "text-humanizer"
+    ],
+    "stars": 33,
+    "lastPush": "2026-07-14T17:34:09Z"
+  },
+  {
     "repo": "notmyself/claude-win11-speckit-update-skill",
     "name": "claude-win11-speckit-update-skill",
     "description": "A Claude Code Skill that manages GitHub SpecKit updates.",
@@ -10775,6 +10849,22 @@
     ],
     "stars": 29,
     "lastPush": "2026-06-11T16:23:56Z"
+  },
+  {
+    "repo": "drpwchen/paper-review-and-digest",
+    "name": "paper-review-and-digest",
+    "description": "Two Claude Code skills for reading one academic paper: /paper-review (journal-club appraisal, deterministic GRADE + CrossRef gate) and /paper-digest (fast content absorption). Reading end of a pipeline: pair with paper-radar (discovery) and paper-fetch (full-text download).",
+    "tags": [
+      "academic-papers",
+      "claude-code",
+      "claude-skills",
+      "critical-appraisal",
+      "evidence-based-medicine",
+      "grade",
+      "pubmed"
+    ],
+    "stars": 29,
+    "lastPush": "2026-07-14T08:21:40Z"
   },
   {
     "repo": "frmoretto/clarity-gate",
@@ -14458,6 +14548,27 @@
     "lastPush": "2026-06-25T02:53:18Z"
   },
   {
+    "repo": "himanshusaleria/gtm-engine",
+    "name": "gtm-engine",
+    "description": "Turns Claude Code into your sales team — 8 slash-command skills for pipeline tracking, daily rituals, call analysis, lead scoring, and cold outreach. Built for 0-to-1 founders.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "b2b-sales",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cold-email",
+      "founders",
+      "go-to-market",
+      "saas",
+      "sales",
+      "sales-automation"
+    ],
+    "stars": 13,
+    "lastPush": "2026-07-14T08:34:49Z"
+  },
+  {
     "repo": "darrenbenson/sdlc-studio",
     "name": "sdlc-studio",
     "description": "Claude Code skill for managing the full software development lifecycle",
@@ -16014,6 +16125,23 @@
     ],
     "stars": 10,
     "lastPush": "2026-07-10T12:58:50Z"
+  },
+  {
+    "repo": "neeeophytee/ai-cost-cutter-skills",
+    "name": "ai-cost-cutter-skills",
+    "description": "10 skills that cut your AI bill with proof instead of vibes. MIT, works in Claude Code, Codex, Cursor. Every skill's check is executed by CI.",
+    "tags": [
+      "agents",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "llms",
+      "rag"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-13T15:08:53Z"
   },
   {
     "repo": "diabloidyobane/pereconstruct",
@@ -17932,6 +18060,27 @@
     ],
     "stars": 7,
     "lastPush": "2026-07-13T08:47:56Z"
+  },
+  {
+    "repo": "x-rayluan/awesome-ceo-stack",
+    "name": "awesome-ceo-stack",
+    "description": "An awesome, curated stack of Claude / OpenClaw agent skills for founders & CEOs — strategy, knowledge base, decks, K-12 coaching, and a full local AI promo-video pipeline. Works with Claude Code, Codex & OpenClaw.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "awesome-list",
+      "ceo",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "founder",
+      "llm",
+      "openclaw",
+      "prompt-engineering"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-08T07:21:30Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -22974,6 +23123,27 @@
     ],
     "stars": 2,
     "lastPush": "2026-07-11T12:08:31Z"
+  },
+  {
+    "repo": "lucashenriquediniz/adsense-site-auditor",
+    "name": "adsense-site-auditor",
+    "description": "Claude Code Skill that audits websites against Google's 73 official AdSense eligibility requirements, with automated thin-content/duplicate detection and rubrics for tool sites and quiz sites.",
+    "tags": [
+      "adsense",
+      "adsense-checker",
+      "ai-tools",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "skill",
+      "skill-md",
+      "skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-06-26T13:13:29Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -28151,6 +28321,23 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-11T19:23:19Z"
+  },
+  {
+    "repo": "simplybychris/domain-check",
+    "name": "domain-check",
+    "description": "Check domain availability from your terminal or as a Claude Code skill — Hostido's open API (no login) with PLN pricing and RDAP verification. Built for Polish users.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "domain-availability",
+      "domains",
+      "hostido",
+      "python",
+      "rdap"
+    ],
+    "stars": 1,
+    "lastPush": "2026-06-28T18:46:01Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
