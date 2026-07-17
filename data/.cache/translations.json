@@ -4158,11 +4158,11 @@
     "backTranslationDiff": 0.7916666666666666
   },
   "aboudjem/humanizer-skill": {
-    "sourceHash": "0bf557a52a7d87cd",
-    "chineseDescription": "AI写作模式检测与改写器。43种模式，5种语气，0-100 AI痕迹评分（AI-tell score）。纯Markdown，零依赖。【使用场景】检测和改写AI生成的文本，降低AI痕迹评分，使内容更自然。",
-    "prompt": "请克隆 https://github.com/aboudjem/humanizer-skill 仓库到 .claude/skills/humanizer-skill/ 目录，完成安装。",
-    "translatedAt": "2026-05-31T16:31:03.214Z",
-    "backTranslationDiff": 0.3846153846153846
+    "sourceHash": "8cf8b55aaa402caf",
+    "chineseDescription": "AI 写作模式检测与重写工具。支持 53 种模式、5 种语气、0-100 的 AI 痕迹评分。纯 Markdown，零依赖。",
+    "prompt": "请从 https://github.com/aboudjem/humanizer-skill 下载 humanizer-skill 项目文件，并将其保存到 .claude/skills/humanizer-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-07-17T03:55:23.193Z",
+    "backTranslationDiff": 0.46153846153846156
   },
   "spillwavesolutions/mastering-langgraph-agent-skill": {
     "sourceHash": "58d69b85d07e19ed",
@@ -5180,11 +5180,11 @@
     "backTranslationDiff": 1
   },
   "karanjot786/agent-skills-cli": {
-    "sourceHash": "72f8dd89f8254ce7",
-    "chineseDescription": "Agent Skills 的通用命令行工具。从 SkillsMP 访问 40,000+ 个技能，并将它们同步到 Cursor、Claude Code、GitHub Copilot、OpenAI Codex 和 Antigravity。【使用场景】当你需要从 SkillsMP 获取大量 Agent 技能并同步到多个 AI 开发工具时，可以用这个 CLI 一键管理。",
-    "prompt": "请从 https://github.com/karanjot786/agent-skills-cli 下载该仓库的所有文件，并将其保存到 .claude/skills/agent-skills-cli/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T13:45:22.696Z",
-    "backTranslationDiff": 0
+    "sourceHash": "228e354a4e21f37d",
+    "chineseDescription": "这是一个通用的 Agent Skills CLI 工具，可以从 SkillsMP 获取超过 20 万个技能，并同步到 Cursor、Claude Code、GitHub Copilot、OpenAI Codex 和 Antigravity 中使用。",
+    "prompt": "请从 https://github.com/karanjot786/agent-skills-cli 下载项目文件，并将其保存到 .claude/skills/agent-skills-cli/ 目录中，完成安装。",
+    "translatedAt": "2026-07-17T03:55:30.217Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "smnandre/symfony-ux-skills": {
     "sourceHash": "071a69ee44c36ccf",
@@ -7623,11 +7623,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "adancurusul/embedded-debugger-mcp": {
-    "sourceHash": "7bd3dbcc6d33d0d5",
-    "chineseDescription": "这是一个用于嵌入式调试的 MCP 服务器、CLI 和 Codex/Claude 技能，基于 probe-rs，支持 ARM Cortex-M 和 RISC-V 的调试工作流。",
-    "prompt": "请从 https://github.com/adancurusul/embedded-debugger-mcp 下载整个仓库，并将所有文件保存到 .claude/skills/embedded-debugger-mcp/ 目录下，完成安装。",
-    "translatedAt": "2026-06-26T05:03:50.603Z",
-    "backTranslationDiff": 0.15384615384615385
+    "sourceHash": "8ca62afa40c0abab",
+    "chineseDescription": "这是一个 MCP 服务器 + CLI + Codex/Claude 技能，用于嵌入式调试。它通过 probe-rs 或 OpenOCD 支持 ARM Cortex-M、RISC-V 和 Xtensa（ESP32）架构，并带有 AI 崩溃诊断功能。",
+    "prompt": "请从 https://github.com/adancurusul/embedded-debugger-mcp 下载文件，并保存到 .claude/skills/embedded-debugger-mcp/ 目录完成安装。",
+    "translatedAt": "2026-07-17T03:55:26.843Z",
+    "backTranslationDiff": 0.2142857142857143
   },
   "xbuilderlab/cheat-on-skill": {
     "sourceHash": "12e956d1717c0bcd",

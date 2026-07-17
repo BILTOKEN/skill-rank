@@ -9109,6 +9109,26 @@
     "checkedAt": "2026-07-16T03:41:12.065Z"
   },
   {
+    "repo": "boringmarketer/kimi-first",
+    "name": "kimi-first",
+    "description": "Claude Code skill: Kimi types, Claude thinks & verifies — route implementation work-orders to the Kimi Code CLI (k3). A port of @steipete's codex-first (github.com/steipete/agent-scripts). By @boringmarketer · boringmarketing.com",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "kimi",
+      "moonshot-ai"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-16T18:28:16Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -10438,6 +10458,26 @@
     "checkedAt": "2026-07-12T04:00:54.509Z"
   },
   {
+    "repo": "seldonframe/reflect",
+    "name": "reflect",
+    "description": "Say 'reflect on <decision>' — your AI runs the decision process of Bezos, Munger & Farnam Street (23 compacted mental models), gives an opinionated call, and keeps score of your predictions.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "decision-making",
+      "mental-models"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-16T14:25:42Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -11558,6 +11598,50 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-16T03:41:12.065Z"
+  },
+  {
+    "repo": "ivanyinjc-blip/industry-chain-research",
+    "name": "industry-chain-research",
+    "description": "产业链深度研究 8 段对齐 skill · 三角定位法 · A 股强周期实战验证",
+    "tags": [
+      "chain-research",
+      "china-stocks",
+      "claude-skills",
+      "cycle-analysis",
+      "investing"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-08T00:35:55Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
+  },
+  {
+    "repo": "vanara-agents/skills",
+    "name": "skills",
+    "description": "29 free, verified agents, skills & packs for Claude Code - install with 'npx vanara install <name>'. Apache-2.0. From the Vanara catalog (206 items).",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "subagents"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-16T21:59:45Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -24514,6 +24598,49 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-16T03:41:12.065Z"
+  },
+  {
+    "repo": "bonznickdd-source/resume-skills-html",
+    "name": "resume-skills-html",
+    "description": "Chat with Codex or Claude Code to build job-tailored HTML/PDF resumes from confirmed experience.",
+    "tags": [
+      "ai-resume",
+      "career-tools",
+      "claude-code-skill",
+      "codex-skill",
+      "html-resume",
+      "job-application",
+      "pdf-resume",
+      "resume-builder"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-16T08:55:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
+  },
+  {
+    "repo": "howmindswork/systems-inventory",
+    "name": "systems-inventory",
+    "description": "Stop re-explaining your own codebase to your AI agent every session. One skill, one file, instant recall.",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "context-management",
+      "developer-tools",
+      "llm-agent",
+      "productivity"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-17T00:44:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-17T03:41:02.820Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
