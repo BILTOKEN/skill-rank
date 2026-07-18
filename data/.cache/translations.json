@@ -2989,11 +2989,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "foryourhealth111-pixel/vibe-skills": {
-    "sourceHash": "c466ae05519326a3",
-    "chineseDescription": "Vibe-Skills 是一个全能型 AI 技能包（all-in-one AI skills package）。它无缝集成了专家级能力（expert-level capabilities）和上下文管理（context management），形成一个通用技能包，让任何 AI agent（人工智能代理）都能即时升级功能——消除碎片化工具和复杂 harness（工具链）的摩擦。【使用场景】适用于需要快速提升 AI 代理能力、简化工具集成的开发者和团队。",
-    "prompt": "请从 GitHub 仓库 https://github.com/foryourhealth111-pixel/vibe-skills 下载 Vibe-Skills 技能包，并将其文件保存到 .claude/skills/vibe-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T12:57:23.351Z",
-    "backTranslationDiff": 0.13043478260869568
+    "sourceHash": "d867715b9d3bd9c2",
+    "chineseDescription": "AI 代理的受控工作流运行时：限定复杂请求的范围、协调本地 Skills、验证交付结果，并保留可恢复的上下文。",
+    "prompt": "请从 https://github.com/foryourhealth111-pixel/vibe-skills 下载 Vibe-Skills 项目文件，并将其保存到 .claude/skills/vibe-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-18T03:48:02.901Z",
+    "backTranslationDiff": 0.4
   },
   "supabase/agent-skills": {
     "sourceHash": "285ee3c7ae171a68",
@@ -4550,11 +4550,11 @@
     "backTranslationDiff": 0
   },
   "feiskyer/claude-code-settings": {
-    "sourceHash": "4735398463000375",
-    "chineseDescription": "Claude Code 的配置、命令和智能体（agents），用于 vibe coding（沉浸式编码）体验。",
-    "prompt": "请从 https://github.com/feiskyer/claude-code-settings 下载所有文件，并将它们保存到 .claude/skills/claude-code-settings/ 目录中，以完成安装。",
-    "translatedAt": "2026-05-26T14:33:24.735Z",
-    "backTranslationDiff": 0.4285714285714286
+    "sourceHash": "e6d04fb1a47e6b5f",
+    "chineseDescription": "精选的技能、子代理和配置模板，让 Claude Code 更强大——支持研究、图片生成、GitHub 自动化等功能。",
+    "prompt": "请从 https://github.com/feiskyer/claude-code-settings 下载仓库内容，并将所有文件保存到 .claude/skills/claude-code-settings/ 目录下，完成安装。",
+    "translatedAt": "2026-07-18T03:47:59.186Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "snailsploit/claude-red": {
     "sourceHash": "a5651a20512b68a9",

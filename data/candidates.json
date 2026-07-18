@@ -11588,6 +11588,22 @@
     "lastPush": "2026-03-07T09:44:24Z"
   },
   {
+    "repo": "vakovalskii/qwen-native-agents",
+    "name": "qwen-native-agents",
+    "description": "Build & prompt Qwen3.x agents in their native dialect — extracted from qwen-code & Qwen-Agent",
+    "tags": [
+      "agents",
+      "claude-code-skill",
+      "function-calling",
+      "llm-agents",
+      "prompt-engineering",
+      "qwen",
+      "qwen3"
+    ],
+    "stars": 24,
+    "lastPush": "2026-07-17T16:35:36Z"
+  },
+  {
     "repo": "lee-fuhr/claude-session-index",
     "name": "claude-session-index",
     "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
@@ -16208,6 +16224,35 @@
     "lastPush": "2026-07-16T18:28:16Z"
   },
   {
+    "repo": "mikaru0mystic/sectinel",
+    "name": "sectinel",
+    "description": "Open-source security arsenal for AI coding agents: 784 cybersecurity skills, scanner integrations, and a security MCP for Claude Code, Cursor, opencode, Gemini CLI, Cline, and any agentskills.io agent. Mapped to OWASP, MITRE ATT&CK, NIST CSF, D3FEND, ATLAS.",
+    "tags": [
+      "agentskills",
+      "ai-agents",
+      "ai-security",
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "cybersecurity",
+      "devsecops",
+      "dfir",
+      "llm-security",
+      "mcp",
+      "mitre-attack",
+      "opencode",
+      "owasp",
+      "pentest",
+      "sast",
+      "安全",
+      "security-tools",
+      "threat-hunting"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-03T14:50:27Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -17287,6 +17332,26 @@
     "lastPush": "2026-07-16T14:25:42Z"
   },
   {
+    "repo": "renakoni/note-organizer",
+    "name": "note-organizer",
+    "description": "笔记整理 Skill：一个用于 Claude Code 的课程资料、PDF、PPT、题库整理成 Markdown/Obsidian 复习笔记的 Claude Skill。",
+    "tags": [
+      "anthropic-skills",
+      "chinese",
+      "claude-skills",
+      "course-notes",
+      "knowledge-management",
+      "markdown",
+      "note-organizer",
+      "pdf",
+      "pptx",
+      "study-notes",
+      "study-tools"
+    ],
+    "stars": 8,
+    "lastPush": "2026-06-30T14:23:00Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -18216,6 +18281,35 @@
     ],
     "stars": 7,
     "lastPush": "2026-07-16T21:59:45Z"
+  },
+  {
+    "repo": "yerdaulet-damir/awesome-solo-ai",
+    "name": "awesome-solo-ai",
+    "description": "Curated AI tools, Claude skills, MCP servers & growth playbooks for solopreneurs, indie hackers and solo founders — the one-person-company AI stack you feed to Claude Code.",
+    "tags": [
+      "ai-agents",
+      "ai-stack",
+      "ai-tools",
+      "automation",
+      "awesome",
+      "awesome-list",
+      "bootstrapping",
+      "claude-code",
+      "claude-skills",
+      "generative-ai",
+      "growth-hacking",
+      "indie-hacker-tools",
+      "indie-hackers",
+      "mcp",
+      "mcp-servers",
+      "no-code",
+      "one-person-company",
+      "solo-ai",
+      "solo-founder",
+      "solopreneur"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-06T19:45:31Z"
   },
   {
     "repo": "leolin990405/grimoire-skill",
@@ -23295,6 +23389,19 @@
     ],
     "stars": 2,
     "lastPush": "2026-07-15T06:22:31Z"
+  },
+  {
+    "repo": "sh1ma/get-tweet",
+    "name": "get-tweet",
+    "description": "mClaude Code and Codex skill for retrieving X (Twitter) post without API Keys.",
+    "tags": [
+      "claude-code-skill",
+      "codex-skill",
+      "skills",
+      "twitter"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-17T15:40:50Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
