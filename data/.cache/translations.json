@@ -49,11 +49,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "sourceHash": "b3f3d8dc2f089ff3",
-    "chineseDescription": "这是一个跨 CLI 的 Obsidian 技能：把你的笔记库变成一个以 AI 为先的活体第二大脑，支持 Claude Code、Codex、Gemini、OpenCode、Hermes 和 Pi。包含 44 条命令——自动重写笔记、本地+混合语义搜索、无需密钥的网页研究、/obsidian-architect 代码库文档，以及在你睡觉时维护笔记库的定时代理。",
-    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载文件，并保存到 .claude/skills/obsidian-second-brain/ 目录，完成安装。",
-    "translatedAt": "2026-07-01T05:14:32.454Z",
-    "backTranslationDiff": 0.2571428571428571
+    "sourceHash": "9aa1dd1bd218398f",
+    "chineseDescription": "这是一个跨 CLI 的 Obsidian 技能：把你的 Obsidian 仓库变成一个 AI 优先的第二大脑，支持 Claude Code、Codex、Gemini、OpenCode、Antigravity、Hermes 和 Pi。包含 45 条命令——自动重写笔记、混合语义搜索、无需密钥的网页研究、/obsidian-architect 代码库文档，以及在你睡觉时维护仓库的定时代理。",
+    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载该技能的所有文件，并将它们保存到 .claude/skills/obsidian-second-brain/ 目录中，完成安装。",
+    "translatedAt": "2026-07-19T04:17:21.148Z",
+    "backTranslationDiff": 0.25
   },
   "oh-my-mermaid/oh-my-mermaid": {
     "sourceHash": "fa138449e304f216",
@@ -5089,11 +5089,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "laolaoshiren/claude-code-skills-zh": {
-    "sourceHash": "92a3e4e80f36a919",
-    "chineseDescription": "🛠️ 最实用的 Claude Code Skills 合集 | 精选 100+ | 18个原创可安装技能 | 按场景分类 | 复制即装【使用场景】适用于需要快速安装和使用 Claude Code 技能的用户，特别是中文用户。",
-    "prompt": "请从 https://github.com/laolaoshiren/claude-code-skills-zh 下载该技能包，并将其内容安装到 .claude/skills/claude-code-skills-zh/ 目录下。具体步骤：1. 使用 git clone 或直接下载仓库文件到临时目录；2. 将仓库中所有文件（包括子目录）复制到 .claude/skills/claude-code-skills-zh/（如目录不存在则创建）；3. 确认安装完成后，告知用户技能已就绪。",
-    "translatedAt": "2026-05-30T13:41:34.499Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "16e3cfc0d7db47f0",
+    "chineseDescription": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库，按场景分类，复制即装，持续更新。",
+    "prompt": "请从 https://github.com/laolaoshiren/claude-code-skills-zh 下载整个仓库，并将所有文件保存到 .claude/skills/claude-code-skills-zh/ 目录下，完成安装。",
+    "translatedAt": "2026-07-19T04:17:25.540Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "geekjourneyx/ai-daily-skill": {
     "sourceHash": "3ad9443d061a4cde",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "3fb3cfbeb1334f59",
-    "chineseDescription": "这是一个可安装的 GitHub 技能库，包含 1900+ 个 agentic 技能，支持 Claude Code、Cursor、Codex CLI、Autohand Code、Gemini CLI、Antigravity 等工具。里面有专门的插件、安装 CLI、技能包、工作流，以及官方和社区的技能合集。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库，并将所有文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-10T04:46:05.361Z",
-    "backTranslationDiff": 0.29166666666666663
+    "sourceHash": "8c2c39ac0db44534",
+    "chineseDescription": "AAS Core preview 是一个本地优先、以 agent 为中心的控制面板，用于发现、推荐、验证和规划精确的技能栈（skill stacks），背后有 1965+ 个 agentic 技能支持。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录，完成安装。",
+    "translatedAt": "2026-07-19T04:17:16.121Z",
+    "backTranslationDiff": 0.25
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -7665,10 +7665,10 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "c0558de5df16b131",
-    "chineseDescription": "这是一个面向 AI 智能体的技能：从俄语文本中去除机器生成的痕迹——包含 38 种模式（pattern）和 35 个正则标记（regex marker）。【使用场景】当你用 AI 生成俄语内容后，想让它读起来更像人写的，就用这个技能来润色。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载所有文件，并将它们保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
-    "translatedAt": "2026-07-12T04:33:41.966Z",
+    "sourceHash": "53457899e8bace60",
+    "chineseDescription": "这是一个用于 AI 智能体（agent）的技能：去除俄语文本中的机器生成痕迹——包含 38 个模式（pattern）和 36 个正则表达式（regex）标记（marker）。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
+    "translatedAt": "2026-07-19T04:17:30.012Z",
     "backTranslationDiff": 0.8571428571428572
   },
   "kimsh-1/deck-factory": {
