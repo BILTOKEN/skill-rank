@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "b99c3e70fea9a4a8",
-    "chineseDescription": "styleseed 是一个为 Claude Code、Codex 和 Cursor 设计的设计引擎——教的是设计判断力，而不只是数据。包含 74 条规则、48 个组件、7 套品牌皮肤（Toss/Stripe/Linear/Notion/Raycast/Arc/Vercel）、一套命名动画系统（5 个种子 + 20+ 种动作）、15 个 /ss-* 技能。别再让 AI 生成的 UI 看起来像模板货了。MIT 许可。",
-    "prompt": "请从 https://github.com/bitjaru/styleseed 下载整个仓库，并将所有文件保存到 .claude/skills/styleseed/ 目录下，完成 styleseed 技能的安装。",
-    "translatedAt": "2026-06-15T18:34:56.906Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "8071f1fe81d21579",
+    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。它给编码 agent 提供固定的设计判断力（不是固定一种审美），然后从参考中选取或推导出合适的语法，锁定项目决策，并验证 UI、轮播、幻灯片和文档。包含 20 个技能，MIT 协议。",
+    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 项目文件，并将所有内容保存到 .claude/skills/styleseed/ 目录下，完成安装。",
+    "translatedAt": "2026-07-20T04:22:25.554Z",
+    "backTranslationDiff": 0.3793103448275862
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -7817,5 +7817,12 @@
     "prompt": "请从 https://github.com/gabberflast/academic-pptx-skill 下载文件，保存到 .claude/skills/academic-pptx-skill/ 目录完成安装。",
     "translatedAt": "2026-07-15T03:56:21.731Z",
     "backTranslationDiff": 0.16666666666666663
+  },
+  "graphify-labs/graphify": {
+    "sourceHash": "88622295b634473e",
+    "chineseDescription": "AI 编码助手技能（支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等）。能把任意代码文件夹、SQL 模式、R 脚本、Shell 脚本、文档、论文、图片或视频，变成一个可查询的知识图谱。应用代码 + 数据库模式 + 基础设施都在一张图里。",
+    "prompt": "请从 https://github.com/graphify-labs/graphify 下载 graphify skill 文件，并保存到 .claude/skills/graphify/ 目录下，完成安装。",
+    "translatedAt": "2026-07-20T04:22:30.024Z",
+    "backTranslationDiff": 0.3571428571428571
   }
 }

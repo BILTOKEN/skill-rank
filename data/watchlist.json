@@ -3633,6 +3633,40 @@
     "checkedAt": "2026-07-07T04:18:22.968Z"
   },
   {
+    "repo": "alexpilotto/uxon-ai",
+    "name": "uxon-ai",
+    "description": "MCP server and Claude skills for PPC landing pages, A/B experiments, and first-party conversion tracking. Build Google Ads and Meta pages, run cross-domain experiments, and pull CRO reports via the UXON API.",
+    "tags": [
+      "ab-testing",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "conversion-tracking",
+      "cro-api",
+      "experimentation-api",
+      "first-party-attribution",
+      "google-ads",
+      "landing-page-api",
+      "marketing-automation",
+      "mcp",
+      "mcp-server",
+      "meta-ads",
+      "model-context-protocol",
+      "paid-search",
+      "post-click-optimization",
+      "ppc"
+    ],
+    "stars": 23,
+    "lastPush": "2026-07-20T04:13:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-20T04:07:25.506Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -11799,6 +11833,27 @@
     "checkedAt": "2026-07-18T03:36:22.165Z"
   },
   {
+    "repo": "andykear/filemaker-xml-field-definitions",
+    "name": "FileMaker-XML-field-definitions",
+    "description": "Reverse-engineered specification of FileMaker's undocumented FIELD and TABLE definition XML format. Covers field types, auto-enter, validation, calculation and summary fields, verified against FileMaker's own exports rather than inferred.",
+    "tags": [
+      "AI",
+      "claris",
+      "claude-skills",
+      "field-definition",
+      "filemaker",
+      "paste-to-filemaker",
+      "xmlsnippet"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-18T12:49:41Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-20T04:07:25.506Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -15073,6 +15128,31 @@
     "checkedAt": "2026-06-24T04:39:33.570Z"
   },
   {
+    "repo": "capsrock/bauhaus-design-skill",
+    "name": "bauhaus-design-skill",
+    "description": "A Claude Skill for generating UIs in the Bauhaus / Swiss International Typographic Style",
+    "tags": [
+      "bauhaus",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skill",
+      "claude-skills",
+      "design-system",
+      "swiss-design",
+      "typography"
+    ],
+    "stars": 4,
+    "lastPush": "2026-07-19T18:33:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-20T04:07:25.506Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -18169,6 +18249,32 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-18T03:36:22.165Z"
+  },
+  {
+    "repo": "taotaoboom/pdf2md-agent-skill",
+    "name": "pdf2md-agent-skill",
+    "description": "让 LLM agent 高效读懂任何文档：PDF/Word/PPT/Excel 转 Markdown，PDF 智能分流（文本页 PyMuPDF + 公式页/扫描页视觉 OCR）",
+    "tags": [
+      "agent-skill",
+      "claude-code",
+      "claude-code-skill",
+      "document-conversion",
+      "latex",
+      "llm",
+      "markdown",
+      "markitdown",
+      "ocr",
+      "pdf",
+      "pdf-to-markdown",
+      "pymupdf"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-19T11:46:00Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-20T04:07:25.506Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -24878,6 +24984,29 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-19T03:58:05.603Z"
+  },
+  {
+    "repo": "egorthinks/copypaste",
+    "name": "copypaste",
+    "description": "🦥 why retype when copy do trick — Claude Code skill that makes AI act like a lazy human: cp/curl/sed/git over regeneration, Edit over rewrite, saved scripts over re-typed ones",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "cost-optimization",
+      "developer-tools",
+      "llm",
+      "skill",
+      "token-optimization"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-19T17:00:53Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-20T04:07:25.506Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
