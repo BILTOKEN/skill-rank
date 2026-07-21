@@ -378,11 +378,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "praneybehl/llm-wiki-plugin": {
-    "sourceHash": "b617017514ed2852",
-    "chineseDescription": "Andrej Karpathy 的 LLM Wiki 模式作为 Claude Code 插件——将积累的源文件转化为一个自我维护、可扩展的 Markdown 知识库。",
-    "prompt": "将你积累的源文件（如代码、文档、笔记等）转化为一个自我维护、可扩展的 Markdown 知识库。请遵循 Andrej Karpathy 的 LLM Wiki 模式：\n1. 扫描并整理所有源文件中的关键信息。\n2. 生成结构化的 Markdown 文件，包含清晰的标题、摘要和链接。\n3. 确保知识库能够自动更新，当新源文件加入时，增量式地合并内容。\n4. 保持可扩展性，支持后续添加更多源文件而不破坏现有结构。\n\n请开始处理当前目录下的源文件。",
-    "translatedAt": "2026-05-23T20:01:42.745Z",
-    "backTranslationDiff": 0.1875
+    "sourceHash": "4e5da4e057b1a4e8",
+    "chineseDescription": "将 Andrej Karpathy 的 LLM Wiki 模式实现为 skill 和 Claude Code 插件——把你积累的各种资料变成一个能自动维护、可扩展的 markdown 知识库。",
+    "prompt": "请从 https://github.com/praneybehl/llm-wiki-plugin 下载所有文件，并保存到 .claude/skills/llm-wiki-plugin/ 目录下，完成安装。",
+    "translatedAt": "2026-07-21T04:04:37.835Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "shepsci/kaggle-skill": {
     "sourceHash": "0502cca4f90851ca",
@@ -7824,5 +7824,33 @@
     "prompt": "请从 https://github.com/graphify-labs/graphify 下载 graphify skill 文件，并保存到 .claude/skills/graphify/ 目录下，完成安装。",
     "translatedAt": "2026-07-20T04:22:30.024Z",
     "backTranslationDiff": 0.3571428571428571
+  },
+  "vincentwei1021/video-shotcraft": {
+    "sourceHash": "6c97373ffbf2c0a9",
+    "chineseDescription": "这是一个为 Claude Code 和 Codex 打造的 AI 视频技能——基于 Remotion 制作电影级产品视频：包含 106 张镜头配方卡片、161 个运动预览，以及一个可直接上手的模板。",
+    "prompt": "请从 https://github.com/vincentwei1021/video-shotcraft 下载 video-shotcraft 技能文件，并将其保存到 .claude/skills/video-shotcraft/ 目录下，完成安装。",
+    "translatedAt": "2026-07-21T04:04:41.693Z",
+    "backTranslationDiff": 0.23529411764705888
+  },
+  "codeswithroh/tastemaker": {
+    "sourceHash": "fb6085c9bfb3a25d",
+    "chineseDescription": "一个 Claude Code Skill，让 AI 生成的 UI 基于真实参考图片和每个开发者持久的 taste profile（品味档案），而不是默认的通用 AI 垃圾。",
+    "prompt": "请从 https://github.com/codeswithroh/tastemaker 下载 tastemaker skill 文件，保存到 .claude/skills/tastemaker/ 目录完成安装。",
+    "translatedAt": "2026-07-21T04:04:45.740Z",
+    "backTranslationDiff": 0.7647058823529411
+  },
+  "0xwilliamortiz/agents-council": {
+    "sourceHash": "ea68f66bbf75f84c",
+    "chineseDescription": "Claude Code 的多智能体协作插件——编排多个 AI 智能体（如 Codex CLI、Gemini CLI 等），提供多样化的视角。",
+    "prompt": "请从 https://github.com/0xwilliamortiz/agents-council 下载 agents-council skill，并将其保存到 .claude/skills/agents-council/ 目录中，完成安装。",
+    "translatedAt": "2026-07-21T04:04:49.060Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "gongnyang/deck-factory": {
+    "sourceHash": "834994bff8b52848",
+    "chineseDescription": "一行意图 → 一份演示级别的深色编辑风格 HTML 幻灯片。这是一个 Claude Code 技能。",
+    "prompt": "请从 https://github.com/gongnyang/deck-factory 下载该仓库的所有文件，并将其保存到 .claude/skills/deck-factory/ 目录下，完成安装。",
+    "translatedAt": "2026-07-21T04:04:52.323Z",
+    "backTranslationDiff": 0.2222222222222222
   }
 }

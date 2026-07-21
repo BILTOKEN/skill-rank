@@ -1897,6 +1897,24 @@
     "checkedAt": "2026-06-15T18:14:04.176Z"
   },
   {
+    "repo": "codeswithroh/tastemaker",
+    "name": "tastemaker",
+    "description": "A Claude Code skill that grounds AI-generated UI in real reference images and a persistent per-developer taste profile, instead of generic AI-slop defaults.",
+    "tags": [
+      "claude-skills",
+      "codex-skill",
+      "kimi-skill",
+      "ui-skill"
+    ],
+    "stars": 32,
+    "lastPush": "2026-07-21T02:22:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
+  },
+  {
     "repo": "sstklen/infinite-gratitude",
     "name": "infinite-gratitude",
     "description": "🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 | 10 AIエージェント協調リサーチ — AI Dojo series",
@@ -9761,6 +9779,25 @@
     "checkedAt": "2026-07-13T04:03:12.874Z"
   },
   {
+    "repo": "haroontrailblazer/ghost-font-decoder",
+    "name": "ghost-font-decoder",
+    "description": "Give AI agents motion vision, decode hidden messages inside random-dot “ghost font” videos.",
+    "tags": [
+      "claude-ai",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex-plugin",
+      "plugins"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-21T02:38:37Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -11854,6 +11891,32 @@
     "checkedAt": "2026-07-20T04:07:25.506Z"
   },
   {
+    "repo": "timwukp/agent-skills-best-practice",
+    "name": "agent-skills-best-practice",
+    "description": "35 portable agent skills (Agent Skills spec) for Kiro & Claude Code: Scrum DevSecOps roles, PCI-DSS/MAS TRM compliance, AWS Well-Architected reviews — each with evals and a 4-layer tested methodology",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "aws",
+      "best-practices",
+      "claude-code",
+      "claude-skills",
+      "compliance",
+      "devsecops",
+      "kiro",
+      "scrum",
+      "skills",
+      "well-architected"
+    ],
+    "stars": 7,
+    "lastPush": "2026-07-02T13:38:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -13491,6 +13554,34 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-06-25T04:36:07.070Z"
+  },
+  {
+    "repo": "tinylion1024/web-novel-master",
+    "name": "web-novel-master",
+    "description": "中文网文 AI 创作工作流 | Claude Code & OpenClaw skill for outlines, characters, serialized chapters, and continuity checks.",
+    "tags": [
+      "ai-agent",
+      "ai-writing",
+      "chinese",
+      "chinese-web-novel",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "creative-writing",
+      "novel-writing",
+      "openclaw",
+      "prompt-engineering",
+      "web-fiction",
+      "web-novel",
+      "writing-workflow"
+    ],
+    "stars": 5,
+    "lastPush": "2026-07-20T16:55:29Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -25007,6 +25098,44 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-20T04:07:25.506Z"
+  },
+  {
+    "repo": "ps-neko/project-doctor",
+    "name": "project-doctor",
+    "description": "프로젝트 주치의 — AI로 만들다 엉킨 프로젝트를, 비개발자도 읽을 수 있는 진단 보고서로 바꿔주는 Claude Code 스킬",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "code-health",
+      "code-review",
+      "korean",
+      "vibe-coding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-20T07:05:48Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
+  },
+  {
+    "repo": "haxxihaxx/handoff-skill",
+    "name": "handoff-skill",
+    "description": "A Claude Code / Claude skill that produces a compact handoff.md so a new agent or chat session can pick up exactly where you left off — using as few tokens as possible. ",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-14T09:18:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-21T03:49:28.410Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
