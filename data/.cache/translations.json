@@ -3136,11 +3136,11 @@
     "backTranslationDiff": 0
   },
   "deusyu/translate-book": {
-    "sourceHash": "2a96b7277e34e53e",
-    "chineseDescription": "使用并行子代理（parallel subagents）将整本书（PDF/DOCX/EPUB）翻译成任何语言的 Claude Code 技能。【使用场景】需要翻译整本书籍时，可以快速调用此技能。",
-    "prompt": "请安装 translate-book 技能：从 https://github.com/deusyu/translate-book 下载仓库内容，并将所有文件保存到 .claude/skills/translate-book/ 目录下完成安装。",
-    "translatedAt": "2026-05-24T13:07:16.396Z",
-    "backTranslationDiff": 0.3076923076923077
+    "sourceHash": "ad0f5d43b0e1b2a3",
+    "chineseDescription": "这是一个用于 Codex、Claude Code 和 OpenClaw 的 Agent skill，能用并行子代理把整本书（PDF/DOCX/EPUB）翻译成任何语言。",
+    "prompt": "请从 https://github.com/deusyu/translate-book 下载 translate-book skill 的所有文件，并保存到 .claude/skills/translate-book/ 目录下，完成安装。",
+    "translatedAt": "2026-07-22T04:07:39.555Z",
+    "backTranslationDiff": 0.1875
   },
   "obra/superpowers-skills": {
     "sourceHash": "4f948861ae4b5639",
@@ -3479,11 +3479,11 @@
     "backTranslationDiff": 0.375
   },
   "raintree-technology/apple-hig-skills": {
-    "sourceHash": "fb0dbc937cad0476",
-    "chineseDescription": "一个 AI 可读的 Apple HIG（人机界面指南）知识库，支持 MCP 查询和跨框架合规性审计 CLI。",
-    "prompt": "请从 https://github.com/raintree-technology/apple-hig-skills 下载 hig-doctor skill 文件，保存到 .claude/skills/apple-hig-skills/ 目录完成安装。",
-    "translatedAt": "2026-07-06T05:01:32.223Z",
-    "backTranslationDiff": 0.4
+    "sourceHash": "76f1a7ba588bc6cd",
+    "chineseDescription": "Apple HIG（人机界面指南）参考工具，以及跨框架的 UI 审计工具，供 AI 代理使用。",
+    "prompt": "请从 https://github.com/raintree-technology/apple-hig-skills 下载文件，保存到 .claude/skills/apple-hig-skills/ 目录，完成安装。",
+    "translatedAt": "2026-07-22T04:07:51.788Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "smixs/creative-director-skill": {
     "sourceHash": "05fde470730b6382",
@@ -4438,11 +4438,11 @@
     "backTranslationDiff": 0.375
   },
   "othmanadi/planning-with-files": {
-    "sourceHash": "65ab022920a41f7b",
-    "chineseDescription": "基于文件的持久化规划方案，专为AI编程代理和长时间运行的代理任务设计。崩溃防护的Markdown计划，能抵御上下文丢失和/clear命令，还包含确定性完成门控和多代理共享磁盘状态。类似Manus风格。支持Claude Code、Codex CLI、Cursor、Kiro、OpenCode等60多种代理，遵循SKILL.md标准。",
+    "sourceHash": "c19a4ff9c189a1a9",
+    "chineseDescription": "基于持久化文件的规划系统，专为 AI 编码代理和长时间运行任务设计。支持崩溃安全的 Markdown 计划、/clear 后的会话恢复与压缩、每轮重新注入以防止上下文腐烂、确定性完成门控。Manus 风格。兼容 Claude Code、Codex、Cursor、Kiro、OpenCode 及 60+ 代理（通过 Agent Skills 标准）。",
     "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载所有文件，并保存到 .claude/skills/planning-with-files/ 目录中，完成安装。",
-    "translatedAt": "2026-06-13T10:31:49.936Z",
-    "backTranslationDiff": 0.9722222222222222
+    "translatedAt": "2026-07-22T04:07:32.555Z",
+    "backTranslationDiff": 0.24242424242424243
   },
   "voltagent/awesome-agent-skills": {
     "sourceHash": "bc01a6d1a7277cc0",
@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 0.7
   },
   "borghei/claude-skills": {
-    "sourceHash": "493c77c39cfb0afd",
-    "chineseDescription": "343个AI技能、76个专家代理和835个stdlib Python工具，适用于每个团队：工程、产品管理、市场营销、高管层、合规等。可安装在Claude Code、Cursor、Codex、Gemini、Copilot及其他6个AI助手上。",
-    "prompt": "请从 https://github.com/borghei/claude-skills 下载仓库文件，并将其保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-06-30T04:56:57.892Z",
-    "backTranslationDiff": 0.09090909090909094
+    "sourceHash": "709216143827d12d",
+    "chineseDescription": "368个AI技能、76个专家代理和859个stdlib Python工具，适用于工程、产品管理、市场营销、高管层、合规、业务运营和研究等团队。可安装在Claude Code、Cursor、Codex、Gemini、Copilot以及其他6个AI助手上。",
+    "prompt": "请从 https://github.com/borghei/claude-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-22T04:07:43.948Z",
+    "backTranslationDiff": 0.25
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "4570a7e0938691ce",
@@ -5663,11 +5663,11 @@
     "backTranslationDiff": 0.2941176470588235
   },
   "safishamsi/graphify": {
-    "sourceHash": "88622295b634473e",
-    "chineseDescription": "AI编码助手技能（支持Claude Code、Codex、OpenCode、Cursor、Gemini CLI等）。将任意包含代码、SQL schema（数据库模式）、R脚本、shell脚本、文档、论文、图片或视频的文件夹，转化为可查询的知识图谱。应用代码、数据库schema（模式）和基础设施整合在一个图中。【使用场景】适用于需要将项目代码、数据库结构、文档等关联起来进行智能查询的场景。",
-    "prompt": "请从 https://github.com/safishamsi/graphify 下载 graphify 技能文件，并将其保存到 .claude/skills/graphify/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:18:19.741Z",
-    "backTranslationDiff": 0.2142857142857143
+    "sourceHash": "c7ccf748895b558b",
+    "chineseDescription": "将任何代码库（包括文档、SQL 模式、配置文件、PDF）转换成一个可查询的知识图谱。这是一个适用于 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify skill：本地确定性 AST 解析，每条边都有解释，无需向量存储。",
+    "prompt": "请从 https://github.com/safishamsi/graphify 下载该 skill 的所有文件，并保存到 .claude/skills/graphify/ 目录下，完成安装。",
+    "translatedAt": "2026-07-22T04:07:17.890Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "ruvnet/ruflo": {
     "sourceHash": "9081e4fea728ca4c",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "8c2c39ac0db44534",
-    "chineseDescription": "AAS Core preview 是一个本地优先、以 agent 为中心的控制面板，用于发现、推荐、验证和规划精确的技能栈（skill stacks），背后有 1965+ 个 agentic 技能支持。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录，完成安装。",
-    "translatedAt": "2026-07-19T04:17:16.121Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "be9d294e8e72023b",
+    "chineseDescription": "AAS Core 是一个本地优先、以 Agent 为核心的控制平面，用于完整的目录发现、Agent 自主选择、堆栈验证和规划，支持 1,969+ 个 Agent 技能。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-22T04:07:27.169Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -5894,11 +5894,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "santifer/career-ops": {
-    "sourceHash": "dfaab55c220afed3",
-    "chineseDescription": "开源AI求职工具：扫描招聘网站、给职位列表打分（A-F）、定制简历、追踪申请进度——全部在你的AI编码CLI（Claude Code、Gemini、Codex、OpenCode等）本地运行。",
-    "prompt": "请从 https://github.com/santifer/career-ops 下载所有文件，保存到 .claude/skills/career-ops/ 目录，完成安装。",
-    "translatedAt": "2026-07-08T04:12:43.039Z",
-    "backTranslationDiff": 0.5263157894736843
+    "sourceHash": "04bce1f3842ec4bb",
+    "chineseDescription": "开源 AI 求职工具：扫描招聘网站，用 A-F 评分体系给职位打分（1.0-5.0），定制简历，跟踪申请进度——全在你的 AI 编码 CLI（Claude Code、Codex、OpenCode、Antigravity 等）本地运行。【使用场景】适合想在命令行里用 AI 辅助求职、批量筛选职位并管理申请流程的开发者。",
+    "prompt": "请从 https://github.com/santifer/career-ops 下载文件，保存到 .claude/skills/career-ops/ 目录完成安装。",
+    "translatedAt": "2026-07-22T04:07:22.870Z",
+    "backTranslationDiff": 0.625
   },
   "trailofbits/skills": {
     "sourceHash": "41ac4243f6ec1f3a",
@@ -6846,11 +6846,11 @@
     "backTranslationDiff": 0
   },
   "staruhub/claudeskills": {
-    "sourceHash": "c01dd0bb0459d2b3",
-    "chineseDescription": "一些关于 Claude Skills 的分享",
-    "prompt": "请从 https://github.com/staruhub/claudeskills 下载该仓库的全部文件，并将它们保存到 .claude/skills/claudeskills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-02T13:11:48.360Z",
-    "backTranslationDiff": 0
+    "sourceHash": "35ebedbeec6260b3",
+    "chineseDescription": "13个精选的Claude Code agent技能——包括演示文稿、深度研究、PRD（产品需求文档）、文章、审计。像软件一样经过测试。",
+    "prompt": "请从 https://github.com/staruhub/claudeskills 下载所有文件，并将它们保存到 .claude/skills/claudeskills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-22T04:07:36.204Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "aj-geddes/claude-code-bmad-skills": {
     "sourceHash": "199e69f91c5fe094",
@@ -7665,10 +7665,10 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "53457899e8bace60",
-    "chineseDescription": "这是一个用于 AI 智能体（agent）的技能：去除俄语文本中的机器生成痕迹——包含 38 个模式（pattern）和 36 个正则表达式（regex）标记（marker）。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
-    "translatedAt": "2026-07-19T04:17:30.012Z",
+    "sourceHash": "f175559987bd24a3",
+    "chineseDescription": "这是一个针对俄语文本的 AI 写作人性化技能，能通过 37 种模式（pattern）和 38 个正则标记（regex marker）去除机器生成的痕迹，让文本更自然。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
+    "translatedAt": "2026-07-22T04:07:48.346Z",
     "backTranslationDiff": 0.8571428571428572
   },
   "kimsh-1/deck-factory": {
@@ -7819,11 +7819,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "graphify-labs/graphify": {
-    "sourceHash": "88622295b634473e",
-    "chineseDescription": "AI 编码助手技能（支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI 等）。能把任意代码文件夹、SQL 模式、R 脚本、Shell 脚本、文档、论文、图片或视频，变成一个可查询的知识图谱。应用代码 + 数据库模式 + 基础设施都在一张图里。",
-    "prompt": "请从 https://github.com/graphify-labs/graphify 下载 graphify skill 文件，并保存到 .claude/skills/graphify/ 目录下，完成安装。",
-    "translatedAt": "2026-07-20T04:22:30.024Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "c7ccf748895b558b",
+    "chineseDescription": "将任意代码库及其文档、SQL 模式、配置文件和 PDF 文件，转化为可查询的知识图谱。这是一个适用于 Claude Code、Cursor、Codex 和 Gemini CLI 的 /graphify skill：本地确定性 AST 解析，每条边都有解释，无需向量存储。",
+    "prompt": "请从 https://github.com/graphify-labs/graphify 下载 graphify skill 文件，并保存到 .claude/skills/graphify/ 目录中，完成安装。",
+    "translatedAt": "2026-07-22T04:07:56.013Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "vincentwei1021/video-shotcraft": {
     "sourceHash": "6c97373ffbf2c0a9",
