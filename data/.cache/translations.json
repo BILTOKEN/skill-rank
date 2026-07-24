@@ -2814,11 +2814,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "blader/humanizer": {
-    "sourceHash": "278cb5ab3323a0d2",
-    "chineseDescription": "Claude Code 技能，用于去除文本中的 AI 生成痕迹。【使用场景】需要将AI生成的文本润色得更像人类写作时使用。",
-    "prompt": "请从 https://github.com/blader/humanizer 下载该技能文件，并保存到 .claude/skills/humanizer/ 目录中，完成安装。",
-    "translatedAt": "2026-05-24T12:49:04.184Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "d154454314df59d3",
+    "chineseDescription": "一个 Agent 技能，用于从文本中去除 AI 生成的痕迹",
+    "prompt": "请从 https://github.com/blader/humanizer 下载 humanizer skill 文件，并保存到 .claude/skills/humanizer/ 目录下完成安装。",
+    "translatedAt": "2026-07-24T04:04:19.487Z",
+    "backTranslationDiff": 0.6666666666666667
   },
   "leonxlnx/taste-skill": {
     "sourceHash": "57473c9bc0d05bd3",
@@ -2989,11 +2989,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "foryourhealth111-pixel/vibe-skills": {
-    "sourceHash": "d867715b9d3bd9c2",
-    "chineseDescription": "AI 代理的受控工作流运行时：限定复杂请求的范围、协调本地 Skills、验证交付结果，并保留可恢复的上下文。",
-    "prompt": "请从 https://github.com/foryourhealth111-pixel/vibe-skills 下载 Vibe-Skills 项目文件，并将其保存到 .claude/skills/vibe-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-18T03:48:02.901Z",
-    "backTranslationDiff": 0.4
+    "sourceHash": "d725c4fb677aa549",
+    "chineseDescription": "VibeSkills 是一个通用型 Skill，能自动路由本地 Skills 并智能编排 harness 工作流。",
+    "prompt": "请从 https://github.com/foryourhealth111-pixel/vibe-skills 下载 Vibe-Skills 项目文件，并将其保存到 .claude/skills/vibe-skills/ 目录中，完成安装。",
+    "translatedAt": "2026-07-24T04:04:26.958Z",
+    "backTranslationDiff": 0
   },
   "supabase/agent-skills": {
     "sourceHash": "285ee3c7ae171a68",
@@ -4431,11 +4431,11 @@
     "backTranslationDiff": 0.2777777777777778
   },
   "elementalsouls/claude-bughunter": {
-    "sourceHash": "e7bd122f7d5c88eb",
-    "chineseDescription": "一个用于漏洞挖掘和外部红队工作的 Claude Code 技能包——包含71个技能、15个斜杠命令、覆盖24个核心漏洞类别的681个已披露报告模式，外加企业身份和基础设施攻击矩阵。",
-    "prompt": "请从 https://github.com/elementalsouls/claude-bughunter 下载该仓库的所有文件，并保存到 .claude/skills/claude-bughunter/ 目录下，完成安装。",
-    "translatedAt": "2026-06-07T10:38:14.819Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "3174c7ebe5d65dd7",
+    "chineseDescription": "一个用于漏洞挖掘和外部红队工作的 Claude Code Skill 包——包含 82 个技能、15 个斜杠命令、覆盖 24 个核心漏洞类别的 681 个已披露报告模式，以及企业身份+基础设施攻击矩阵。",
+    "prompt": "请从 https://github.com/elementalsouls/claude-bughunter 下载 Claude-BugHunter Skill 包，并将其保存到 .claude/skills/claude-bughunter/ 目录下，完成安装。",
+    "translatedAt": "2026-07-24T04:04:30.893Z",
+    "backTranslationDiff": 0.41666666666666663
   },
   "othmanadi/planning-with-files": {
     "sourceHash": "c19a4ff9c189a1a9",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "be9d294e8e72023b",
-    "chineseDescription": "AAS Core 是一个本地优先、以 Agent 为核心的控制平面，用于完整的目录发现、Agent 自主选择、堆栈验证和规划，支持 1,969+ 个 Agent 技能。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录完成安装。",
-    "translatedAt": "2026-07-22T04:07:27.169Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "533d643d8dee4eba",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent 为核心的控制平面，支持完整的目录发现、agent 自主选择、堆栈验证和规划，背后有 1,987+ 个 agentic skills 支撑。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载文件，保存到 .claude/skills/antigravity-awesome-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-24T04:04:23.550Z",
+    "backTranslationDiff": 0.25
   },
   "iofficeai/aionui": {
     "sourceHash": "d16b1c9fec9362c1",
@@ -6706,11 +6706,11 @@
     "backTranslationDiff": 0
   },
   "railly/agentfiles": {
-    "sourceHash": "f59336ca13f2a0c6",
-    "chineseDescription": "在 Claude Code、Cursor、Codex 等 13 多种工具中浏览、创建和编辑 AI agent 文件——从 Obsidian 开始。",
-    "prompt": "请从 https://github.com/railly/agentfiles 下载该仓库，并将其内容保存到 .claude/skills/agentfiles/ 目录下，完成 agentfiles skill 的安装。",
-    "translatedAt": "2026-06-02T13:10:31.084Z",
-    "backTranslationDiff": 0.15384615384615385
+    "sourceHash": "a0c8d1cfe766cf4a",
+    "chineseDescription": "在 Obsidian 中浏览、创建和编辑适用于 Claude Code、Cursor、Codex 等 12 款编码工具的 AI agent 文件。",
+    "prompt": "请从 https://github.com/railly/agentfiles 下载该仓库，将文件保存到 .claude/skills/agentfiles/ 目录下，完成 agentfiles skill 的安装。",
+    "translatedAt": "2026-07-24T04:04:39.693Z",
+    "backTranslationDiff": 0.1428571428571429
   },
   "0xranx/opencontext": {
     "sourceHash": "9b0f689c239ee4bb",
@@ -7217,11 +7217,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "y49/tlive": {
-    "sourceHash": "53142c205901ae13",
-    "chineseDescription": "Terminal Live — 从 Telegram、Discord 和飞书监控并与 AI 编码代理（Claude Code、Codex）聊天",
-    "prompt": "请从 https://github.com/y49/tlive 下载文件，保存到 .claude/skills/tlive/ 目录完成安装。",
-    "translatedAt": "2026-06-03T18:38:00.386Z",
-    "backTranslationDiff": 0.1428571428571429
+    "sourceHash": "c5cc55829deed543",
+    "chineseDescription": "为 Claude Code / Codex 提供自托管的远程审批 + 实时监控功能——支持 Telegram、飞书或 Web 终端。任何订阅或 API 密钥都能用。",
+    "prompt": "请安装 tlive skill。从 https://github.com/y49/tlive 下载文件，保存到 .claude/skills/tlive/ 目录完成安装。",
+    "translatedAt": "2026-07-24T04:04:43.107Z",
+    "backTranslationDiff": 0.15384615384615385
   },
   "streamlit/agent-skills": {
     "sourceHash": "6eabd6264c540c02",
@@ -7756,11 +7756,11 @@
     "backTranslationDiff": 0.36363636363636365
   },
   "smixs/humanizer-ru": {
-    "sourceHash": "00385ca838b12082",
-    "chineseDescription": "用于 AI 智能体（Claude Code、Codex、OpenClaw、Hermes）的俄语文本人性化技能：消除俄语文本中 32 种 AI 生成痕迹——官腔、ChatGPT 套话、冗余词汇等。",
-    "prompt": "请从 https://github.com/smixs/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
-    "translatedAt": "2026-07-14T03:48:44.443Z",
-    "backTranslationDiff": 0.6190476190476191
+    "sourceHash": "c0306944cbf43d53",
+    "chineseDescription": "这是一个给 AI 智能体（Claude Code、Codex、OpenClaw、Hermes 等）用的 Skill，功能是去除俄语文本中 37 种 AI 生成痕迹，并检测文本是否由神经网络生成——包括官腔套话、ChatGPT 常用模板、复制粘贴的残留痕迹。简单说就是俄语文本的 AI 人性化改写 + 检测工具。",
+    "prompt": "请从 https://github.com/smixs/humanizer-ru 下载 humanizer-ru Skill 的所有文件，保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
+    "translatedAt": "2026-07-24T04:04:35.761Z",
+    "backTranslationDiff": 0.7307692307692308
   },
   "aeonfun/soul.md": {
     "sourceHash": "420dad9ab6c22966",

@@ -8508,6 +8508,28 @@
     "checkedAt": "2026-07-23T03:48:09.068Z"
   },
   {
+    "repo": "nidheeshjain/itr-prep-skill",
+    "name": "itr-prep-skill",
+    "description": "Claude Code skill that prepares Indian Income Tax Returns (ITR-1/2/3/4): parses Form 16/AIS/26AS/broker statements, reconciles every rupee, compares regimes, computes tax + interest, and emits a portal-ready data-pack JSON for a browser agent to file.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "income-tax",
+      "india",
+      "itr",
+      "tax-filing"
+    ],
+    "stars": 11,
+    "lastPush": "2026-07-22T12:20:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -9955,6 +9977,65 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-21T03:49:28.410Z"
+  },
+  {
+    "repo": "cabbage2000-lab/textbook-writer-skills",
+    "name": "textbook-writer-skills",
+    "description": "基于 UbD 逆向设计的教材写作 skill 组合（支持 Claude Code / Codex CLI）：教学定位 → 五件套 gate → 章节树 gate → 逐章写作，例题真算验证、中断可续写，面向数学/物理/计算机等 STEM 学科成体系教材写作",
+    "tags": [
+      "agents-md",
+      "ai-agent",
+      "bloom-taxonomy",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "education",
+      "stem",
+      "textbook-generation",
+      "ubd"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-16T08:29:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
+  },
+  {
+    "repo": "dashaworks/report-skills",
+    "name": "report-skills",
+    "description": "Claude Code & Codex skills for AI reports, decks and client sharing: publish agent-made research as live tracked web reports, recurring client reports, view-tracked proposals and slide decks via the ReportRoom MCP. Beautiful by default, analytics back to the agent.",
+    "tags": [
+      "agencies",
+      "ai-agents",
+      "ai-marketing",
+      "ai-report-generator",
+      "analytics",
+      "anthropic",
+      "awesome-claude",
+      "claude-code",
+      "claude-skills",
+      "client-reporting",
+      "codex-skills",
+      "consultants",
+      "decks",
+      "document-sharing",
+      "llm-tools",
+      "mcp",
+      "presentations",
+      "proposals",
+      "publishing",
+      "reports"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-21T03:13:29Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -16577,6 +16658,30 @@
     "checkedAt": "2026-07-14T03:38:35.435Z"
   },
   {
+    "repo": "qmmughal/aspnetzero-blazor-telerik.skill",
+    "name": "aspnetzero-blazor-telerik.skill",
+    "description": "Claude Code Agent Skill for building & reviewing Blazor UI (Telerik) inside ASP.NET Zero / ABP solutions on .NET 10+",
+    "tags": [
+      "abp-framework",
+      "agent-skill",
+      "ai-agent",
+      "aspnetzero",
+      "blazor",
+      "claude-code",
+      "claude-code-skill",
+      "dotnet",
+      "llm",
+      "telerik"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-23T13:41:56Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -18672,6 +18777,32 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-23T03:48:09.068Z"
+  },
+  {
+    "repo": "qmmughal/blazor-crud-standards.skill",
+    "name": "blazor-crud-standards.skill",
+    "description": "Claude Code skill that scaffolds and reviews Blazor CRUD interfaces (Blazor Web App, Server, WebAssembly, Hybrid) following Microsoft's official architecture and component patterns.",
+    "tags": [
+      "ai-agent",
+      "blazor",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "code-generation",
+      "crud",
+      "csharp",
+      "developer-tools",
+      "dotnet",
+      "ef-core",
+      "razor"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-23T13:41:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -25685,6 +25816,31 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-23T03:48:09.068Z"
+  },
+  {
+    "repo": "wahyujhoo17/crypto-scanner",
+    "name": "crypto-scanner",
+    "description": "Open-source Agent Skill for scanning Binance markets using MA crossovers, Wilder RSI, volume analysis, and validated trade setups.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "binance",
+      "claude-code",
+      "claude-code-skill",
+      "crypto",
+      "crypto-scanner",
+      "opencode-skills",
+      "skill-md",
+      "technical-analysis",
+      "trading-tools"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-23T16:20:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-24T03:46:54.669Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
