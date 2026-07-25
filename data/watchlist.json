@@ -3379,6 +3379,26 @@
     "checkedAt": "2026-07-18T03:36:22.165Z"
   },
   {
+    "repo": "kennethkhoocy/legal-scholarship-skills",
+    "name": "legal-scholarship-skills",
+    "description": "Claude Code and Codex skills for legal scholarship: verified citation placement (Bluebook/OSCOLA/McGill), law-review docx pipelines, document delivery tooling",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "legal-scholarship",
+      "legal-writing"
+    ],
+    "stars": 24,
+    "lastPush": "2026-07-22T14:10:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-25T03:41:44.431Z"
+  },
+  {
     "repo": "lee-fuhr/claude-session-index",
     "name": "claude-session-index",
     "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
@@ -9458,6 +9478,32 @@
     "checkedAt": "2026-07-22T03:50:03.934Z"
   },
   {
+    "repo": "t3chnaztea/unifi-skills",
+    "name": "unifi-skills",
+    "description": "Agent skills for administering a real UniFi network over its local API: auth, zone firewall, Wi-Fi, clients, and the site map.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "firewall",
+      "home-lab",
+      "networking",
+      "ubiquiti",
+      "udm-pro",
+      "unifi",
+      "unifi-network",
+      "vlan",
+      "wifi"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-25T02:54:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-25T03:41:44.431Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -11021,6 +11067,38 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-23T03:48:09.068Z"
+  },
+  {
+    "repo": "martinholovsky/sota-skills",
+    "name": "SOTA-skills",
+    "description": "State-of-the-Art (2026) AI/LLM engineering skills/agents for building and auditing software — 40+ domain & language skills, BUILD/AUDIT modes, audit checklists.",
+    "tags": [
+      "ai-agents",
+      "ai-coding-assistant",
+      "anthropic",
+      "best-practices",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "code-quality",
+      "code-review",
+      "developer-tools",
+      "devsecops",
+      "llm",
+      "prompt-engineering",
+      "secure-coding",
+      "security-audit",
+      "skills",
+      "software-architecture",
+      "threat-modeling"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-24T21:05:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-25T03:41:44.431Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -18805,6 +18883,28 @@
     "checkedAt": "2026-07-24T03:46:54.669Z"
   },
   {
+    "repo": "yuchi-chang/no-cape",
+    "name": "no-cape",
+    "description": "no-cape keeps the knowledge and drops the cape.",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills",
+      "skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-24T10:09:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-25T03:41:44.431Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -25841,6 +25941,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-24T03:46:54.669Z"
+  },
+  {
+    "repo": "whiteteebhf/the-blessed-handoff",
+    "name": "the-blessed-handoff",
+    "description": "Cold-resumable session handoffs for Claude Code — a measured resumability gate, then a fresh primed instance picks up the thread",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "context-management",
+      "handoff"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-24T18:42:24Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-25T03:41:44.431Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
