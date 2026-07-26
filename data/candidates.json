@@ -11760,6 +11760,24 @@
     "lastPush": "2026-07-22T14:10:09Z"
   },
   {
+    "repo": "optim-agent/optim-plans",
+    "name": "optim-plans",
+    "description": "Human-in-the-loop planning plugin for Claude and Codex: turn ideas into reviewed Markdown plans, record decisions, enforce explicit execution gates, and provide tested controller primitives for safer agent workflows.",
+    "tags": [
+      "agent-skills",
+      "brainstorming",
+      "claude-skills",
+      "codex-skills",
+      "developer-tools",
+      "human-in-the-loop",
+      "loop-engineering",
+      "loops",
+      "planning"
+    ],
+    "stars": 24,
+    "lastPush": "2026-07-26T02:18:30Z"
+  },
+  {
     "repo": "lee-fuhr/claude-session-index",
     "name": "claude-session-index",
     "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
@@ -14287,6 +14305,22 @@
     ],
     "stars": 14,
     "lastPush": "2026-07-08T07:38:20Z"
+  },
+  {
+    "repo": "erhantezakar/claude-fable-5-spanking-claude-opus-4.8",
+    "name": "claude-fable-5-spanking-claude-opus-4.8",
+    "description": "SKILL: Claude FABLE 5 spanking Claude OPUS 4.8. Orchestrator-worker cost model for Claude Code: the expensive model reads and judges, Opus 4.8 subagents do all the writing.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cost-optimization",
+      "orchestration",
+      "skill",
+      "subagents"
+    ],
+    "stars": 14,
+    "lastPush": "2026-07-17T22:50:58Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -24131,6 +24165,43 @@
     "lastPush": "2026-07-24T10:09:11Z"
   },
   {
+    "repo": "stevysmith/find-me-a-museum-image-skill",
+    "name": "find-me-a-museum-image-skill",
+    "description": "Claude Code skill: find and download real, public-domain museum artwork (Met, Art Institute of Chicago, Cleveland, Rijksmuseum, Getty, SMK, Smithsonian) without leaving the CLI",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "museums",
+      "open-access",
+      "public-domain"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-25T00:31:48Z"
+  },
+  {
+    "repo": "code-saurabh/openskills",
+    "name": "OpenSkills",
+    "description": "45 production-grade AI agent skills (SKILL.md) for Claude Code, Codex & Antigravity — system design, DevOps, security, QA, and more. MIT licensed, open source.",
+    "tags": [
+      "agent-skills",
+      "ai-agent-skill",
+      "ai-agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "markdown",
+      "mcp",
+      "mcp-skill",
+      "open-source"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-25T10:46:52Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -29702,6 +29773,70 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-24T18:42:24Z"
+  },
+  {
+    "repo": "ehzawad/claude-coterie",
+    "name": "claude-coterie",
+    "description": "OpenAI Codex CLI skill that consults one persistent Claude Code agent for a second opinion — the single-agent, mirror-inverse of codex-council.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-plugin",
+      "codex-skill",
+      "codex-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-24T15:02:09Z"
+  },
+  {
+    "repo": "zane456/pe-plots-paper",
+    "name": "pe-plots-paper",
+    "description": "IEEE-paper-grade power-electronics figures for Claude Code: from data or a one-line description",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "ieee",
+      "matplotlib",
+      "mplstyle",
+      "plotting",
+      "power-electronics",
+      "scientific-figures"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-23T05:37:24Z"
+  },
+  {
+    "repo": "tokyubevoxelverse/checkup",
+    "name": "checkup",
+    "description": "Claude Code skill that gives your repo a physical — dead doc links, stale badges, outdated deps, CI decay, docs contradicting code — verified empirically, graded A-F, with the top three fixes made obvious. 🩺",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "audit",
+      "automation",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "developer-tools",
+      "devtools",
+      "documentation",
+      "llm",
+      "maintenance",
+      "repo-health",
+      "technical-debt"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-22T04:03:55Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
