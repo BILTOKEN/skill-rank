@@ -49,11 +49,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "sourceHash": "9aa1dd1bd218398f",
-    "chineseDescription": "这是一个跨 CLI 的 Obsidian 技能：把你的 Obsidian 仓库变成一个 AI 优先的第二大脑，支持 Claude Code、Codex、Gemini、OpenCode、Antigravity、Hermes 和 Pi。包含 45 条命令——自动重写笔记、混合语义搜索、无需密钥的网页研究、/obsidian-architect 代码库文档，以及在你睡觉时维护仓库的定时代理。",
-    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载该技能的所有文件，并将它们保存到 .claude/skills/obsidian-second-brain/ 目录中，完成安装。",
-    "translatedAt": "2026-07-19T04:17:21.148Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "9ba21eeda6bb0871",
+    "chineseDescription": "为 Claude Code 和其他 6 个 CLI 代理提供持久记忆，以纯 Markdown 格式存储在你的 Obsidian 仓库中。别再每次会话都重新解释你的项目、决策和人员了。包含 45 个命令：混合语义搜索、自改写笔记、无密钥网络研究，以及在你睡觉时维护仓库的定时代理。【使用场景】适合需要长期维护项目上下文、减少重复沟通的 Obsidian 用户。",
+    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载文件，并将其保存到 .claude/skills/obsidian-second-brain/ 目录中，完成安装。",
+    "translatedAt": "2026-07-27T04:30:40.614Z",
+    "backTranslationDiff": 0.08823529411764708
   },
   "oh-my-mermaid/oh-my-mermaid": {
     "sourceHash": "fa138449e304f216",
@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "f6df7717b739dfbd",
-    "chineseDescription": "Xquik 代理 Skill，支持 REST、OAuth 优先的 MCP（模型上下文协议）、Webhooks、数据导出、推文搜索、粉丝数据、监控以及确认门控发布。与 X Corp. 无关联。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，完成安装。",
-    "translatedAt": "2026-07-15T03:55:48.305Z",
-    "backTranslationDiff": 0.38888888888888884
+    "sourceHash": "39dc65585d50427f",
+    "chineseDescription": "Xquik agent 的 Skill，支持 REST、MCP、webhooks、导出、监控、推文搜索以及需确认的发布功能。与 X Corp. 无关。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并保存到 .claude/skills/x-twitter-scraper/ 目录中完成安装。",
+    "translatedAt": "2026-07-27T04:30:55.178Z",
+    "backTranslationDiff": 0.4
   },
   "talkstream/ru-text": {
     "sourceHash": "ff7ff763cfa57db7",
@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "016b469101573edc",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 515 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可直接在浏览器中免费试用，或运行 'npx pm-claude-skills add' 安装。",
-    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载仓库文件，并将其保存到 .claude/skills/pm-claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-07-15T03:55:35.946Z",
-    "backTranslationDiff": 0.31818181818181823
+    "sourceHash": "d5cd2d074714ce9c",
+    "chineseDescription": "822 个专业 Agent Skills，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex——可以用来解读租赁合同、写 PRD（产品需求文档）、开股东大会、准备 D&D（龙与地下城）跑团、练习薪资谈判。纯 Markdown 格式，MIT 协议，已收录在 Anthropic 官方插件目录。可以在浏览器里免费试用，或者运行 'npx pm-claude-skills add' 安装。【使用场景】需要快速获取大量现成的专业 Agent 技能模板，用于各种工作或娱乐场景。",
+    "prompt": "请从 https://github.com/mohitagw15856/pm-claude-skills 下载整个仓库的内容，并将所有文件保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-27T04:30:46.511Z",
+    "backTranslationDiff": 0.4482758620689655
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5271,11 +5271,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "mark393295827/third-brain-v5-skills": {
-    "sourceHash": "149cd85f082e31d5",
-    "chineseDescription": "agent wiki（智能体维基）——一个用于管理和查询智能体相关信息的工具。",
-    "prompt": "请从 https://github.com/mark393295827/third-brain-v5-skills 下载仓库文件，并将其保存到 .claude/skills/third-brain-v5-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-28T05:17:50.152Z",
-    "backTranslationDiff": 0
+    "sourceHash": "e46e5303481adf31",
+    "chineseDescription": "Agent Wiki + 工程技能（engineering skills）的集合，用于增强 Claude Code 的智能体协作和工程开发能力。",
+    "prompt": "请从 https://github.com/mark393295827/third-brain-v5-skills 下载所有文件，并将它们保存到 .claude/skills/third-brain-v5-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-27T04:30:59.046Z",
+    "backTranslationDiff": 0.5
   },
   "lingxling/awesome-skills-cn": {
     "sourceHash": "8e7dfb1f61af1b3c",
@@ -5579,11 +5579,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "smixs/visual-skills": {
-    "sourceHash": "b080d079f2f4bc51",
-    "chineseDescription": "专业的 Claude Skills，用于 AI 图像和视频提示词生成。支持 Nano Banana (Gemini 3 Pro/Flash)、GPT Image 2、Seedance 2.0、Kling 3.0（多镜头 + 原生对话）、Veo。适用于 Claude Code、Cursor、Windsurf、OpenCode、Hermes-agent。",
-    "prompt": "请从 https://github.com/smixs/visual-skills 下载所有文件，并将它们保存到 .claude/skills/visual-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-05-31T07:28:14.118Z",
-    "backTranslationDiff": 0.12
+    "sourceHash": "0dcdf216a645b978",
+    "chineseDescription": "AI电影导演技能包，适用于Claude agents：电影剧作技巧（Murch剪辑法则、镜头调度、蒙太奇）+ 针对Seedance 2.5、Kling 3.0 Turbo/Omni、Veo 3.1、Nano Banana 2、GPT Image 2的精确提示词语法。支持Claude Code、Cursor、Windsurf、OpenCode。",
+    "prompt": "请从 https://github.com/smixs/visual-skills 下载所有文件，并保存到 .claude/skills/visual-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-07-27T04:30:51.354Z",
+    "backTranslationDiff": 0.24
   },
   "baidu-maps/jsapi-skills": {
     "sourceHash": "af5f614754bd7e93",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "78cfff258b42a89b",
-    "chineseDescription": "329个Agent技能（支持Cursor、Claude Code和Codex）、5380个OpenClaw技能、201个机器学习笔记本、51篇研究论文、16份行业报告，面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-vibe-coding 技能包，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录下完成安装。",
-    "translatedAt": "2026-07-06T05:01:36.343Z",
-    "backTranslationDiff": 0.2941176470588235
+    "sourceHash": "f7798c0d6641ac00",
+    "chineseDescription": "这是一个包含 329 个 agent 技能（支持 Cursor、Claude Code 和 Codex）、5,380 个 OpenClaw 技能、201 个机器学习笔记本、7 本教科书、52 篇研究论文和 17 份行业报告的技能合集，面向产品经理、设计师和开发者。【使用场景】适合需要快速获取大量 AI 编程技能、学习资源或行业报告的用户，一键安装后即可在 Claude Code 中调用。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其中的所有文件保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
+    "translatedAt": "2026-07-27T04:31:16.818Z",
+    "backTranslationDiff": 0.2222222222222222
   },
   "safishamsi/graphify": {
     "sourceHash": "c7ccf748895b558b",
@@ -7852,5 +7852,26 @@
     "prompt": "请从 https://github.com/gongnyang/deck-factory 下载该仓库的所有文件，并将其保存到 .claude/skills/deck-factory/ 目录下，完成安装。",
     "translatedAt": "2026-07-21T04:04:52.323Z",
     "backTranslationDiff": 0.2222222222222222
+  },
+  "sickn33/agentic-awesome-skills": {
+    "sourceHash": "533d643d8dee4eba",
+    "chineseDescription": "AAS Core 是一个本地优先的 agent 控制平面，用于完整的目录发现、agent 自主选择、堆栈验证和规划，背后有 1,987+ 个 agentic skills 支持。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请从 https://github.com/sickn33/agentic-awesome-skills 下载 agentic-awesome-skills 项目文件，并将其保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。",
+    "translatedAt": "2026-07-27T04:31:03.433Z",
+    "backTranslationDiff": 0.16666666666666663
+  },
+  "nulightjens/humanizer-stack": {
+    "sourceHash": "05a40445473d274a",
+    "chineseDescription": "一个两阶段流水线，用于去除对外文本中的AI写作痕迹：表层处理（surface pass）加上基于 StoryScope 研究的结构处理（structural pass）。打包为 Claude Code Skills。免费社区：skool.com/jens-ai-community-1306",
+    "prompt": "请从 https://github.com/nulightjens/humanizer-stack 下载 humanizer-stack 技能文件，并保存到 .claude/skills/humanizer-stack/ 目录下完成安装。",
+    "translatedAt": "2026-07-27T04:31:08.403Z",
+    "backTranslationDiff": 0.31818181818181823
+  },
+  "kennethkhoocy/applied-micro-skills": {
+    "sourceHash": "a05c977240c20593",
+    "chineseDescription": "Claude Code 和 Codex 技能，用于实证应用微观研究：可重复性审计、LLM 管道方法、事件研究、WRDS、Stata、可发表级别的表格。",
+    "prompt": "请从 https://github.com/kennethkhoocy/applied-micro-skills 下载文件，并保存到 .claude/skills/applied-micro-skills/ 目录完成安装。",
+    "translatedAt": "2026-07-27T04:31:11.997Z",
+    "backTranslationDiff": 0.3529411764705882
   }
 }

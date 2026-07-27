@@ -292,6 +292,35 @@
     "lastPush": "2026-04-27T14:40:18Z"
   },
   {
+    "repo": "sickn33/agentic-awesome-skills",
+    "name": "agentic-awesome-skills",
+    "description": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-owned selection, stack validation, and planning, backed by 1,987+ agentic skills. Includes CLI, local MCP, catalog, plugins, and Workbench.",
+    "tags": [
+      "agent-skills",
+      "agentic-skills",
+      "ai-agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "ai-workflows",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skills",
+      "codex-cli",
+      "codex-skills",
+      "cursor",
+      "cursor-skills",
+      "developer-tools",
+      "gemini-cli",
+      "gemini-skills",
+      "kiro",
+      "mcp",
+      "skill-library"
+    ],
+    "stars": 43975,
+    "lastPush": "2026-07-27T04:18:01Z"
+  },
+  {
     "repo": "sickn33/antigravity-awesome-skills",
     "name": "antigravity-awesome-skills",
     "description": "Installable GitHub library of 1,400+ agentic skills for Claude Code, Cursor, Codex CLI, Gemini CLI, Antigravity, and more. Includes installer CLI, bundles, workflows, and official/community skill collections.",
@@ -16649,6 +16678,34 @@
     "lastPush": "2026-07-25T02:54:38Z"
   },
   {
+    "repo": "aidevgtm/gtm-cofounder",
+    "name": "gtm-cofounder",
+    "description": "The GTM co-founder you don't have. Open-source GTM Agent Skills for technical AI/dev-tool founders building alone: positioning, first users, launch, pricing. Built from real dev-tool GTM experience, sharpened by Frankl & Czakon. MIT.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-founders",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "dev-tools",
+      "developer-marketing",
+      "developer-tools",
+      "devtools",
+      "founder-tools",
+      "founders",
+      "go-to-market",
+      "gtm",
+      "open-source",
+      "positioning",
+      "startup",
+      "startups",
+      "technical-founders"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-26T20:13:45Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -17107,6 +17164,26 @@
     ],
     "stars": 9,
     "lastPush": "2026-07-21T03:13:29Z"
+  },
+  {
+    "repo": "teycir/assumptions",
+    "name": "Assumptions",
+    "description": "A SKILL that turns a code diff into an evidence-backed ledger of hidden assumptions, failure modes, and falsification tests.",
+    "tags": [
+      "appsec",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "cursor",
+      "llm",
+      "opencode",
+      "productivity",
+      "productivity-tools",
+      "skills"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-26T01:01:38Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -17924,6 +18001,27 @@
     ],
     "stars": 8,
     "lastPush": "2026-07-24T21:05:23Z"
+  },
+  {
+    "repo": "abubakarsiddik31/whisperx-transcribe",
+    "name": "whisperx-transcribe",
+    "description": "Claude Code skill/plugin: transcribe audio & video into clean, speaker-labeled Markdown via WhisperX, so an LLM can read a long meeting without processing raw audio.",
+    "tags": [
+      "ai-agent-tools",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "llm-tools",
+      "meeting-transcription",
+      "speaker-diarization",
+      "speech-to-text",
+      "transcription",
+      "video-to-text",
+      "whisper",
+      "whisperx"
+    ],
+    "stars": 8,
+    "lastPush": "2026-07-26T17:45:41Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -24202,6 +24300,27 @@
     "lastPush": "2026-07-25T10:46:52Z"
   },
   {
+    "repo": "hmbseaotter/agent-specification-toolkit",
+    "name": "agent-specification-toolkit",
+    "description": "Write software specifications an AI coding agent can execute: EARS/SHALL requirements, a determinism boundary, and a /specify interviewer that emits the spec + build prompt (or the skill/agent artifact).",
+    "tags": [
+      "agent-development",
+      "agent-specification",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "ears",
+      "llm",
+      "prompt-engineering",
+      "requirements-engineering",
+      "spec-driven-development",
+      "specification"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-27T02:57:45Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -29837,6 +29956,69 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-22T04:03:55Z"
+  },
+  {
+    "repo": "tal7aouy/recruitkit",
+    "name": "RecruitKit",
+    "description": "RecruitKit is an AI recruiting and hiring for Claude Code. Optimize job descriptions, screen resumes, generate interview frameworks, benchmark salaries, create offer letters, build onboarding plans…",
+    "tags": [
+      "AI",
+      "ai-agent",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "hiring",
+      "hiring-automation",
+      "hiring-platform",
+      "recuitment"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-23T21:18:58Z"
+  },
+  {
+    "repo": "tamasbege/staff-engineer-skills",
+    "name": "staff-engineer-skills",
+    "description": "Claude Code plugin marketplace for the hard, production-critical parts of engineering — backend reliability (API contracts, idempotency, rate limiting, resilience, caching, auth), adversarial code review, and frontend motion/UX.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "ai-agents",
+      "api-design",
+      "architecture",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "staff",
+      "staff-engineer",
+      "ux-design"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-26T19:20:50Z"
+  },
+  {
+    "repo": "403name/crypto-dev-helper",
+    "name": "crypto-dev-helper",
+    "description": "Cursor/Claude Code skill for Web3 and cryptocurrency development",
+    "tags": [
+      "blockchain",
+      "claude-code-skill",
+      "crypto",
+      "cursor-skill",
+      "defi",
+      "ethereum",
+      "nft",
+      "smart-contracts",
+      "solana",
+      "web3"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-26T23:21:58Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
