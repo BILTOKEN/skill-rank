@@ -5782,11 +5782,11 @@
     "backTranslationDiff": 0.30000000000000004
   },
   "ar9av/obsidian-wiki": {
-    "sourceHash": "2dd76f85950414ab",
-    "chineseDescription": "一个 AI 代理框架，通过 Obsidian wiki（Obsidian 维基）并使用 Karpathy 的 LLM Wiki 模式（Karpathy's LLM Wiki pattern）来构建和维护数字大脑。【使用场景】适用于需要利用 Obsidian 作为个人知识库，并希望 AI 代理自动管理笔记和知识的场景。",
-    "prompt": "请安装 obsidian-wiki skill。从 https://github.com/ar9av/obsidian-wiki 下载该仓库的所有文件，并将它们保存到当前项目的 .claude/skills/obsidian-wiki/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:24:09.143Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "ec412fe5baa4106b",
+    "chineseDescription": "一个让 AI 代理通过 Obsidian wiki 构建和维护数字大脑的框架",
+    "prompt": "请从 https://github.com/ar9av/obsidian-wiki 下载 obsidian-wiki skill 文件，保存到 .claude/skills/obsidian-wiki/ 目录完成安装。",
+    "translatedAt": "2026-07-29T04:00:56.051Z",
+    "backTranslationDiff": 0.11111111111111116
   },
   "brycewang-stanford/auto-empirical-research-skills": {
     "sourceHash": "9d3e07639f292148",
@@ -6790,11 +6790,11 @@
     "backTranslationDiff": 0.5
   },
   "huytieu/cog-second-brain": {
-    "sourceHash": "fd6df8d9018fd297",
-    "chineseDescription": "一个自我进化的第二大脑系统，集成了17个AI技能、6个工作代理（worker agents）和人员CRM（people CRM），灵感来自Garry Tan的gstack和gbrain。兼容Claude Code、Cursor、Kiro、Gemini CLI、Codex。",
-    "prompt": "请从 https://github.com/huytieu/cog-second-brain 下载文件，并将它们保存到 .claude/skills/cog-second-brain/ 目录中，完成安装。",
-    "translatedAt": "2026-06-02T13:11:18.774Z",
-    "backTranslationDiff": 0.04761904761904767
+    "sourceHash": "5b9d894b86f41fd5",
+    "chineseDescription": "自进化的第二大脑，包含33个AI技能、10个智能体以及人员CRM。闭环控制框架：采用V模型验证生命周期，工人永远不会给自己的作业打分。此外还配备了针对营销和产品UI的配对反垃圾设计技能。适用于Claude Code、Cursor、Kiro、Gemini CLI、Codex。",
+    "prompt": "请从 https://github.com/huytieu/cog-second-brain 下载文件，并保存到 .claude/skills/cog-second-brain/ 目录完成安装。",
+    "translatedAt": "2026-07-29T04:01:00.655Z",
+    "backTranslationDiff": 0.303030303030303
   },
   "xiaohuailabs/xiaohu-wechat-format": {
     "sourceHash": "b0d1ece0bbad69dd",
