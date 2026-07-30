@@ -4261,6 +4261,37 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "povvo/sleuth",
+    "name": "sleuth",
+    "description": "6 phase, 56 task agent workflow, consisting of; Operational Direction, Intelligence Collection, Collation & Entity Resolution, Chronological & Relational Processing, Hypothesis & Reasoning, concluding with  the Final Report. Templates for every step, reference files for each task are output by task_runner.py upon completion of the gate.",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "evidence-synthesis",
+      "investigative-journalism",
+      "journalism-tools",
+      "mcp",
+      "mcp-tools",
+      "networkx",
+      "osint",
+      "osint-reconnaissance",
+      "osint-tools",
+      "profiling-tools",
+      "python"
+    ],
+    "stars": 20,
+    "lastPush": "2026-05-10T05:45:20Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-30T03:32:41.334Z"
+  },
+  {
     "repo": "eniktab/scientific-paper-writer",
     "name": "scientific-paper-writer",
     "description": "Skill for writing scientific papers : fetches live journal guidelines, AI policy & LaTeX template before writing",
@@ -10336,6 +10367,27 @@
     "checkedAt": "2026-07-29T03:44:00.687Z"
   },
   {
+    "repo": "hirohyun/grounded-copy",
+    "name": "grounded-copy",
+    "description": "Style gate for marketing and web copy: every claim states a feature, a number, or a mechanism. Agent skill (Claude Code / Codex / Cursor) + deterministic linter covering 9 languages + CI hook.",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "copywriting",
+      "marketing",
+      "prose-linter",
+      "skillmd",
+      "style-guide"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-28T06:37:31Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-07-30T03:32:41.334Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -15982,6 +16034,29 @@
     "checkedAt": "2026-07-20T04:07:25.506Z"
   },
   {
+    "repo": "vchaindz/claude-vsphere-skill",
+    "name": "claude-vsphere-skill",
+    "description": "A Claude Code skill that turns Claude into a vSphere administrator using govc. Inventory, reports, snapshot audits, root-cause analysis, and safe VM/host/cluster management for VMware vCenter and ESXi — read-only first, with confirmation guardrails for destructive operations.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "esxi",
+      "govmomi",
+      "vcenter",
+      "vsphere",
+      "vsphere-automation",
+      "vsphere-sdk"
+    ],
+    "stars": 4,
+    "lastPush": "2026-07-29T17:53:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-30T03:32:41.334Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -17094,6 +17169,24 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-28T03:40:19.276Z"
+  },
+  {
+    "repo": "podlayer/consult-box",
+    "name": "consult-box",
+    "description": "Clean-context premium deliberation for Claude Code: one curated prompt pack in, one result file out, zero project overhead riding along. Every premium token goes on the question.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "context-engineering"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-23T08:30:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-30T03:32:41.334Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -26747,6 +26840,29 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-29T03:44:00.687Z"
+  },
+  {
+    "repo": "devkindhq/ideogram-ai-toolkit",
+    "name": "ideogram-ai-toolkit",
+    "description": "Claude Code skill for Ideogram AI image generation — structured JSON caption prompting, color palette control, and MCP-based style extraction from reference images.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "ideogram",
+      "ideogram-ai",
+      "image-generation",
+      "mcp",
+      "mcp-server",
+      "prompt-engineering"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-30T01:43:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-07-30T03:32:41.334Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
