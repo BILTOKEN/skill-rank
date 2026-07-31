@@ -3052,11 +3052,11 @@
     "backTranslationDiff": 0.23529411764705888
   },
   "conorluddy/ios-simulator-skill": {
-    "sourceHash": "18817859158c5d3b",
-    "chineseDescription": "一个用于 Claude Code 的 iOS 模拟器 Skill。用它来优化 Claude 构建、运行和与你的应用交互的能力。我主要把它当作 xcodebuild 的包装器来节省上下文。【使用场景】在 Claude Code 中频繁构建和测试 iOS 应用时，使用此 Skill 可以简化 xcodebuild 命令的执行并减少上下文占用。",
-    "prompt": "请从 https://github.com/conorluddy/ios-simulator-skill 下载该仓库的所有文件，并保存到 .claude/skills/ios-simulator-skill/ 目录，完成安装。",
-    "translatedAt": "2026-05-24T13:00:08.420Z",
-    "backTranslationDiff": 0.875
+    "sourceHash": "5ed933eaf0deb3b5",
+    "chineseDescription": "一个用于 Claude Code 的 iOS 模拟器技能（Skill）。用它来优化 Claude 构建、运行和与你的应用交互的能力，并代理 xcodebuild 以节省 token 浪费——LLM 直接调用 xcb 会消耗大量输出！",
+    "prompt": "请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载 ios-simulator-skill 技能文件，并将其保存到 .claude/skills/ios-simulator-skill/ 目录中，完成安装。安装后，该技能将帮助优化 Claude 在 iOS 模拟器上的构建、运行和交互能力，并通过代理 xcodebuild 减少 token 消耗。",
+    "translatedAt": "2026-07-31T04:11:38.351Z",
+    "backTranslationDiff": 0.38095238095238093
   },
   "prompt-security/clawsec": {
     "sourceHash": "6517a361e328b215",
@@ -3388,11 +3388,11 @@
     "backTranslationDiff": 0.4
   },
   "talkstream/ru-text": {
-    "sourceHash": "ff7ff763cfa57db7",
-    "chineseDescription": "针对 Claude Code、Cowork、Codex CLI、Gemini CLI、Cursor、OpenClaw 和 Notion 的俄语文本质量插件——涵盖排版（typography）、信息风格（info-style）、编辑（editorial）和用户体验写作（UX writing）。【使用场景】适用于需要处理俄语文本排版、信息风格、编辑和 UX 写作的场景。",
-    "prompt": "请从 https://github.com/talkstream/ru-text 下载 ru-text skill 的所有文件，并保存到 .claude/skills/ru-text/ 目录下完成安装。",
-    "translatedAt": "2026-05-24T13:18:41.270Z",
-    "backTranslationDiff": 0.05882352941176472
+    "sourceHash": "9a8414ed3c5cb06e",
+    "chineseDescription": "俄语文本质量优化工具（ru-text）——为 AI 代理提供俄语文本质量提升，包括去除神经废话（neuroslop）、排版规范、信息风格、编辑标准、UX 文案、商务信函等。包含 2,000+ 语言原子，按需加载。【使用场景】当你的 AI 代理需要生成或优化高质量俄语文本时使用。",
+    "prompt": "请安装 ru-text 技能。从 https://github.com/talkstream/ru-text 下载所有文件，保存到 .claude/skills/ru-text/ 目录。安装完成后，该技能将提供俄语文本质量优化功能，包括神经废话清理、排版规范、信息风格、编辑标准、UX 文案和商务信函写作支持。请确保所有文件完整下载并正确放置。",
+    "translatedAt": "2026-07-31T04:11:43.136Z",
+    "backTranslationDiff": 0.9473684210526316
   },
   "digidai/product-manager-skills": {
     "sourceHash": "21a199f8763265e6",
@@ -4487,11 +4487,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "tripleyak/skillforge": {
-    "sourceHash": "dfec58c39124a539",
-    "chineseDescription": "SkillForge 是一个针对 Claude Code 和 Codex 的智能技能路由与创建工具。它能分析任何输入，推荐已有技能、改进它们，或从零开始创建新技能。",
-    "prompt": "请从 https://github.com/tripleyak/skillforge 下载 SkillForge 项目文件，并将其保存到 .claude/skills/skillforge/ 目录下，完成安装。",
-    "translatedAt": "2026-05-26T14:32:49.361Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "ebac52ec8bde8761",
+    "chineseDescription": "SkillForge 是一个技能创建工具，它用证据证明自己创建的技能确实有效。为 Claude Code 和 Codex 提供基于证据的技能创建流程：包含基线测试生成、每个技能的回归评估、生态系统诊断、跨运行时编译，以及可选的主动顾问功能。",
+    "prompt": "请从 https://github.com/tripleyak/skillforge 下载 SkillForge 技能文件，保存到 .claude/skills/skillforge/ 目录下，完成安装。安装完成后，请简要说明该技能的功能和使用方法。",
+    "translatedAt": "2026-07-31T04:11:33.047Z",
+    "backTranslationDiff": 0.4782608695652174
   },
   "travisvn/awesome-claude-skills": {
     "sourceHash": "cd18f20ee93c48cb",
@@ -5705,11 +5705,11 @@
     "backTranslationDiff": 0.23076923076923073
   },
   "modu-ai/moai-adk": {
-    "sourceHash": "dd1693078f4525ed",
-    "chineseDescription": "SPEC优先的Claude Code智能体开发套件——内含24个AI智能体+52个技能，带有TDD/DDD质量门控，支持16种语言的项目和4种语言的文档。使用Go CLI，零依赖。【使用场景】适用于需要快速搭建多智能体协作开发环境的场景，特别是使用Claude Code进行TDD/DDD开发。",
-    "prompt": "请安装 moai-adk 技能。从 https://github.com/modu-ai/moai-adk 下载仓库内容，并将所有文件保存到 .claude/skills/moai-adk/ 目录下。完成后确认安装成功。",
-    "translatedAt": "2026-05-31T16:20:23.640Z",
-    "backTranslationDiff": 0.38888888888888884
+    "sourceHash": "4459ea7c8499bf63",
+    "chineseDescription": "面向 Claude Code 的智能体开发工具——基于 SPEC 驱动的计划/运行/同步流程，内置 TRUST 5 级质量门禁，支持模型与算力路由，以及 Claude×GLM 多模型成本控制。单一 Go 二进制文件，支持 16 种语言，零依赖。",
+    "prompt": "请从 https://github.com/modu-ai/moai-adk 下载 moai-adk 技能文件，并将其保存到 .claude/skills/moai-adk/ 目录中，完成安装。",
+    "translatedAt": "2026-07-31T04:11:47.362Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "vstorm-co/pydantic-deepagents": {
     "sourceHash": "2f1e228651f4af83",
@@ -5726,11 +5726,11 @@
     "backTranslationDiff": 0.45945945945945943
   },
   "jeremylongshore/claude-code-plugins-plus-skills": {
-    "sourceHash": "8e43fd5a8193c568",
-    "chineseDescription": "425 个插件、2,810 个技能、200 个代理，适用于 Claude Code。开源市场位于 tonsofskills.com，附带 ccpi CLI 包管理器。【使用场景】安装后即可获得海量社区贡献的插件和技能，通过 ccpi 命令行管理。",
-    "prompt": "请从 https://github.com/jeremylongshore/claude-code-plugins-plus-skills 下载该技能仓库，并将所有文件保存到 .claude/skills/claude-code-plugins-plus-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:21:32.880Z",
-    "backTranslationDiff": 0.15384615384615385
+    "sourceHash": "77c6d9fcd23dedfe",
+    "chineseDescription": "471 个插件、3,069 个技能、347 个代理，专为 Claude Code 打造。开源市场位于 tonsofskills.com，附带 ccpi CLI 包管理器。",
+    "prompt": "请从 https://github.com/jeremylongshore/claude-code-plugins-plus-skills 下载该仓库的全部内容，并保存到 .claude/skills/claude-code-plugins-plus-skills/ 目录下，完成安装。确保包含所有插件、技能和代理文件。",
+    "translatedAt": "2026-07-31T04:11:28.919Z",
+    "backTranslationDiff": 0
   },
   "shanraisshan/claude-code-best-practice": {
     "sourceHash": "06ab124bac5eb45f",
