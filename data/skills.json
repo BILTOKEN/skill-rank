@@ -14556,6 +14556,36 @@
     }
   },
   {
+    "repo": "m4vic/socratic",
+    "name": "socratic",
+    "description": "skill of 697 questions a senior engineer asks before writing code - packaged as a Claude/Codex skill and a portable prompt.",
+    "description_zh": "socratic 技能：资深工程师在写代码前会问的 697 个问题，打包成 Claude/Codex 技能和便携提示词。",
+    "description_en": "skill of 697 questions a senior engineer asks before writing code - packaged as a Claude/Codex skill and a portable prompt.",
+    "prompt": "请从 https://github.com/m4vic/socratic 下载该技能文件，并将其保存到 .claude/skills/socratic/ 目录中，以完成安装。",
+    "tags": [
+      "agentic-skills",
+      "claude-code",
+      "claude-skills",
+      "senior-engineer-skills",
+      "skills",
+      "socratic",
+      "socratic-learning",
+      "socratic-method",
+      "socratic-skill",
+      "socratic-tutor",
+      "systemdesign"
+    ],
+    "metrics": {
+      "stars_total": 42,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "y49/tlive",
     "name": "tlive",
     "description": "Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.",
@@ -15627,6 +15657,45 @@
     ],
     "metrics": {
       "stars_total": 130,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "oranai-ltd/orangeo-ai-visibility-skill",
+    "name": "orangeo-ai-visibility-skill",
+    "description": "Open-source GEO / AEO skill for AI visibility readiness: check robots.txt, llms.txt, schema, citation signals, competitor gaps, and buyer prompts",
+    "description_zh": "开源 GEO / AEO 技能，用于 AI 可见性准备：检查 robots.txt、llms.txt、schema、引用信号、竞争对手差距和买家提示词",
+    "description_en": "Open-source GEO / AEO skill for AI visibility readiness: check robots.txt, llms.txt, schema, citation signals, competitor gaps, and buyer prompts",
+    "prompt": "请帮我安装 orangeo-ai-visibility-skill 技能。这是一个开源的 GEO / AEO 技能，用于 AI 可见性准备，可以检查 robots.txt、llms.txt、schema、引用信号、竞争对手差距和买家提示词。请从 https://github.com/oranai-ltd/orangeo-ai-visibility-skill 下载文件，并保存到 .claude/skills/orangeo-ai-visibility-skill/ 目录完成安装。",
+    "tags": [
+      "aeo",
+      "ai-search",
+      "ai-visibility",
+      "answer-engine-optimization",
+      "brand-monitoring",
+      "chatgpt",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-skill",
+      "gemini",
+      "generative-engine-optimization",
+      "geo",
+      "grok",
+      "llm-seo",
+      "llms-txt",
+      "openai-codex",
+      "perplexity",
+      "robots-txt",
+      "seo"
+    ],
+    "metrics": {
+      "stars_total": 131,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,

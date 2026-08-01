@@ -595,6 +595,31 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "m4vic/socratic",
+    "name": "socratic",
+    "description": "skill of 697 questions a senior engineer asks before writing code - packaged as a Claude/Codex skill and a portable prompt.",
+    "tags": [
+      "agentic-skills",
+      "claude-code",
+      "claude-skills",
+      "senior-engineer-skills",
+      "skills",
+      "socratic",
+      "socratic-learning",
+      "socratic-method",
+      "socratic-skill",
+      "socratic-tutor",
+      "systemdesign"
+    ],
+    "stars": 42,
+    "lastPush": "2026-07-31T22:02:41Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
+  },
+  {
     "repo": "thatrebeccarae/claude-marketing",
     "name": "claude-marketing",
     "description": "A full marketing department for Claude Code. Skill packs for Klaviyo, Shopify, GA4, Looker Studio, paid media, and more. Audit, optimize, and report using natural language.",
@@ -7479,6 +7504,29 @@
     "checkedAt": "2026-07-31T03:53:42.383Z"
   },
   {
+    "repo": "xiaowu89/skill-function",
+    "name": "skill-function",
+    "description": "AI-powered image content moderation skill — detects adult, political, and violent content in images",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-skill",
+      "claude-skills",
+      "content-moderation",
+      "image-audit",
+      "mcp-server",
+      "skill-md",
+      "skillsmp"
+    ],
+    "stars": 13,
+    "lastPush": "2026-07-31T04:05:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
+  },
+  {
     "repo": "darrenbenson/sdlc-studio",
     "name": "sdlc-studio",
     "description": "Claude Code skill for managing the full software development lifecycle",
@@ -7966,6 +8014,29 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-14T03:38:35.435Z"
+  },
+  {
+    "repo": "xiaowu89/skill-matting",
+    "name": "skill-matting",
+    "description": "AI-powered image and video background removal using BiRefNet GGUF model — outputs transparent PNG/MOV/WebM",
+    "tags": [
+      "agent-skills",
+      "ai-skills",
+      "background-removal",
+      "birefnet",
+      "claude-skills",
+      "gguf",
+      "image-matting",
+      "skill-md",
+      "skillsmp"
+    ],
+    "stars": 12,
+    "lastPush": "2026-07-30T03:45:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -10475,6 +10546,31 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-30T03:32:41.334Z"
+  },
+  {
+    "repo": "gabberflast/prose-revision-skill-ht-anthony-lee-zhang",
+    "name": "prose-revision-skill-ht-anthony-lee-zhang",
+    "description": "A Claude Skill for revising draft prose — essays, papers, memos, reports — on the principle of idea flow before linguistic flow. Diagnoses structure before wording, leads with the main claim, preserves the author's voice and claim strength, and knows when to leave a good draft alone. Distinct from proofreading.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-skills",
+      "editing",
+      "prose",
+      "写作",
+      "writing-assistant",
+      "writing-tool"
+    ],
+    "stars": 9,
+    "lastPush": "2026-07-14T23:49:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -19583,6 +19679,32 @@
     "checkedAt": "2026-07-31T03:53:42.383Z"
   },
   {
+    "repo": "helmet88mo/chenshi-nutrition-skill",
+    "name": "chenshi-nutrition-skill",
+    "description": "🥗 陈石（Mars）运动营养师 Claude Code Skill — 营养矩阵40课体系、瘦素/皮质醇/胰岛素抵抗深度解析、麦克唐拉德增肌模型、可执行行动协议",
+    "tags": [
+      "chinese",
+      "claude-code",
+      "claude-code-skill",
+      "diet",
+      "fitness",
+      "health",
+      "insulin-resistance",
+      "metabolism",
+      "nutrition",
+      "sleep",
+      "sports-nutrition",
+      "weight-loss"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-19T15:06:44Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -27052,6 +27174,58 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-07-31T03:53:42.383Z"
+  },
+  {
+    "repo": "inphinity-design/claude-codex-fleet",
+    "name": "claude-codex-fleet",
+    "description": "Run a fleet of OpenAI Codex agents under Claude Code's command - multi-agent orchestration without leaving your terminal. Claude directs, Codex types, nothing ships unverified.",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "context-engineering",
+      "multi-agent",
+      "openai-codex",
+      "token-economy"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-31T07:10:07Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
+  },
+  {
+    "repo": "agents365-ai/zotero-dev-rules",
+    "name": "zotero-dev-rules",
+    "description": "Zotero developer docs as a coding-agent skill — Web API v3 (read/write, sync, streaming, OAuth), client JS API, Zotero 7 plugins, translators, CSL citation styles",
+    "tags": [
+      "agent-skills",
+      "bibliography",
+      "citation-styles",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "csl",
+      "openclaw",
+      "openclaw-skills",
+      "reference-manager",
+      "skill-md",
+      "skillsmp",
+      "zotero",
+      "zotero-api",
+      "zotero-plugin"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-19T05:08:37Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
