@@ -2947,11 +2947,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "zebbern/claude-code-guide": {
-    "sourceHash": "aa3512c063f3863e",
-    "chineseDescription": "Claude Code 指南 - 涵盖设置、命令、工作流、代理（agents）、技能（skills）以及技巧与窍门（tips-n-tricks），帮助您从新手成长为高级用户！【使用场景】适合想要系统学习 Claude Code 各项功能、提升使用效率的开发者。",
-    "prompt": "请从 GitHub 仓库 https://github.com/zebbern/claude-code-guide 下载所有文件，并将它们保存到当前项目的 .claude/skills/claude-code-guide/ 目录下，完成安装。如果目录不存在，请先创建。",
-    "translatedAt": "2026-05-24T12:55:24.858Z",
-    "backTranslationDiff": 0.23076923076923073
+    "sourceHash": "da00f4c571c3fb6c",
+    "chineseDescription": "Claude Code 指南——从入门到高级用户的设置、命令、工作流、agents、skills 及技巧大全！",
+    "prompt": "请帮我安装 claude-code-guide 这个 Skill。请前往 GitHub 仓库 https://github.com/zebbern/claude-code-guide 下载所有文件，并将其保存到 .claude/skills/claude-code-guide/ 目录下，完成安装。安装完成后，请确认文件已就位并告知我如何使用。",
+    "translatedAt": "2026-08-02T04:12:55.402Z",
+    "backTranslationDiff": 0.8461538461538461
   },
   "google-gemini/gemini-skills": {
     "sourceHash": "fec43978ab8ccc41",
@@ -4417,11 +4417,11 @@
     "backTranslationDiff": 0.2727272727272727
   },
   "teng-lin/notebooklm-py": {
-    "sourceHash": "88bede35673d9f91",
-    "chineseDescription": "这是 Google NotebookLM 的非官方 Python API 和 agentic skill。通过 Python、CLI 以及 Claude Code、Codex、OpenClaw 等 AI agent，可以完全以编程方式访问 NotebookLM 的功能——包括 Web UI 没暴露出来的能力。【使用场景】想用代码或 AI agent 自动化操作 NotebookLM，比如批量处理笔记、调用隐藏功能。",
-    "prompt": "请从 https://github.com/teng-lin/notebooklm-py 下载仓库文件，并保存到 .claude/skills/notebooklm-py/ 目录，完成安装。",
-    "translatedAt": "2026-05-26T14:32:08.442Z",
-    "backTranslationDiff": 0.2272727272727273
+    "sourceHash": "792bc3842d0e448b",
+    "chineseDescription": "非官方的 Google Gemini Notebook Python API 和 agentic skill。通过 Python、CLI 以及 Claude Code、Codex、OpenClaw 等 AI 代理，提供对 NotebookLM 功能的完整编程访问——包括 Web 界面未暴露的能力。",
+    "prompt": "请从 https://github.com/teng-lin/notebooklm-py 下载 notebooklm-py skill 的所有文件，并保存到 .claude/skills/notebooklm-py/ 目录中，完成安装。",
+    "translatedAt": "2026-08-02T04:12:37.058Z",
+    "backTranslationDiff": 0.26086956521739135
   },
   "maxritter/pilot-shell": {
     "sourceHash": "301f73842c265ac8",
@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "a7658ac626abd876",
-    "chineseDescription": "一个支持多提供商模型的 AI 客户端，可用于聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo skill 文件，并将其保存到 .claude/skills/askimo/ 目录中，完成安装。",
-    "translatedAt": "2026-07-15T03:55:39.445Z",
-    "backTranslationDiff": 0.7
+    "sourceHash": "772ee357c0bc833d",
+    "chineseDescription": "AI 客户端，支持聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。支持多种 LLM（大语言模型）：Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini、OpenRouter。",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载该 Skill 的所有文件，并保存到 .claude/skills/askimo/ 目录下，完成安装。安装后请验证文件是否完整，并告知用户如何使用。",
+    "translatedAt": "2026-08-02T04:12:50.205Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "borghei/claude-skills": {
     "sourceHash": "709216143827d12d",
@@ -5635,11 +5635,11 @@
     "backTranslationDiff": 0.2857142857142857
   },
   "guinacio/claude-image-gen": {
-    "sourceHash": "95cbd24c9de1c5d3",
-    "chineseDescription": "基于 Google Gemini 的 AI 图像生成能力，通过 Skills 集成到 Claude Code，或通过 MCP（模型上下文协议）集成到 Claude.ai。",
-    "prompt": "请从 https://github.com/guinacio/claude-image-gen 下载该仓库的所有文件，并将它们保存到 .claude/skills/claude-image-gen/ 目录下，完成 claude-image-gen Skill 的安装。",
-    "translatedAt": "2026-05-31T07:28:39.992Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "fbd7a9ce04b18948",
+    "chineseDescription": "AI 驱动的图像生成技能，支持 Google Gemini 或 OpenAI（gpt-image-2），通过 Skills 集成到 Claude Code，或通过 MCP（Model Context Protocol）集成到 Claude.ai。",
+    "prompt": "请从 https://github.com/guinacio/claude-image-gen 下载该技能文件，并将其保存到 .claude/skills/claude-image-gen/ 目录中，以完成安装。",
+    "translatedAt": "2026-08-02T04:13:05.558Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "gl0bal01/malware-analysis-claude-skills": {
     "sourceHash": "ef974767bbcac076",
@@ -5670,11 +5670,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "ruvnet/ruflo": {
-    "sourceHash": "9081e4fea728ca4c",
-    "chineseDescription": "🌊 领先的智能体元框架（agent meta-harness）。可部署智能多智能体集群（multi-player swarms）、协调自动化工作流、构建对话式AI系统。具备自适应记忆、自学习智能、RAG集成，并原生支持Claude Code / Codex / Hermes等众多工具。",
-    "prompt": "请从 https://github.com/ruvnet/ruflo 下载 ruflo 技能文件，并将其保存到 .claude/skills/ruflo/ 目录下，完成安装。",
-    "translatedAt": "2026-07-01T05:14:27.483Z",
-    "backTranslationDiff": 0.14814814814814814
+    "sourceHash": "88f8ae96c9252820",
+    "chineseDescription": "🌊 原始智能体元框架（agent meta-harness）。部署智能多玩家集群（multi-player swarms），协调自主工作流，构建对话式AI系统。具备自适应记忆（adaptive memory）、自学习智能（self-learning intelligence）、RAG集成，原生支持Claude Code / Codex / Hermes及更多集成。【使用场景】当需要构建多智能体协作系统、自动化工作流或对话式AI应用时使用。",
+    "prompt": "请从 https://github.com/ruvnet/ruflo 下载 ruflo 技能文件，并安装到 .claude/skills/ruflo/ 目录。安装步骤：1. 克隆或下载该仓库内容；2. 将仓库中的技能文件复制到 .claude/skills/ruflo/ 目录；3. 确保目录结构完整，包含必要的配置和脚本文件。完成后请确认安装成功。",
+    "translatedAt": "2026-08-02T04:12:32.238Z",
+    "backTranslationDiff": 0.9259259259259259
   },
   "nexu-io/open-design": {
     "sourceHash": "59c5326c5aa16137",
@@ -6048,11 +6048,11 @@
     "backTranslationDiff": 0.5714285714285714
   },
   "waybarrios/opencode-power-pack": {
-    "sourceHash": "5b04c6808a37e79d",
-    "chineseDescription": "将11个Claude Code技能移植到OpenCode：code-review（代码审查）、security-review（安全审查）、feature-dev（功能开发）、frontend-design（前端设计）等。只需一行配置、一个插件即可使用。",
-    "prompt": "请从 https://github.com/waybarrios/opencode-power-pack 下载文件，并保存到 .claude/skills/opencode-power-pack/ 目录，完成安装。",
-    "translatedAt": "2026-05-31T16:59:48.306Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "a5e40637469fdf96",
+    "chineseDescription": "opencode-power-pack 技能包：为 Codex、OpenCode 和 Pi 提供 11 个严谨的 Claude Code 工作流，涵盖代码审查、安全审计、功能开发、前端设计、MCP 工具等场景。",
+    "prompt": "请帮我安装 opencode-power-pack 技能。\n\n1. 克隆或下载 https://github.com/waybarrios/opencode-power-pack 仓库内容\n2. 将仓库中的文件保存到 .claude/skills/opencode-power-pack/ 目录\n3. 确保目录结构完整，包含所有技能定义文件\n4. 安装完成后，列出可用的技能列表\n\nGitHub 地址：https://github.com/waybarrios/opencode-power-pack\n\n【使用场景】当你需要快速获得一套完整的 Claude Code 工作流模板（代码审查、安全审计、前端设计等）时使用。",
+    "translatedAt": "2026-08-02T04:13:01.190Z",
+    "backTranslationDiff": 0.1875
   },
   "marianfoo/sap-ai-mcp-servers": {
     "sourceHash": "695088e569d7d410",
@@ -7532,11 +7532,11 @@
     "backTranslationDiff": 0.375
   },
   "artokun/comfyui-mcp": {
-    "sourceHash": "d3088e360e041798",
-    "chineseDescription": "ComfyUI 的本地优先、AI 原生控制平面——MCP 服务器 + Claude Code 插件。提供 108 个工具、29 项 AI 技能（Flux · WAN · LT2.3 · Qwen · Ideogram4 · Krea2）。你可以编写和运行工作流、用自然语言编辑实时图表、管理模型和自定义节点。支持本地、局域网、VPS 或 Comfy Cloud。",
-    "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载整个仓库，并将其保存到 .claude/skills/comfyui-mcp/ 目录下，完成安装。",
-    "translatedAt": "2026-07-03T04:29:22.809Z",
-    "backTranslationDiff": 0.21212121212121215
+    "sourceHash": "819dffdee0035b3b",
+    "chineseDescription": "本地优先、面向智能体的 ComfyUI 控制平面——MCP 服务器 + 侧边栏智能体，支持生成图像、视频和音频，编写并运行工作流，以及用自然语言编辑实时图表，兼容任何 LLM（Claude、ChatGPT、Gemini、离线 Ollama 或任何托管模型）。包含 178 个工具、36 个 AI 技能、55 个安装包。支持本地、局域网、VPS 或 Comfy Cloud。",
+    "prompt": "请从 https://github.com/artokun/comfyui-mcp 下载 comfyui-mcp 技能文件，并保存到 .claude/skills/comfyui-mcp/ 目录中，完成安装。",
+    "translatedAt": "2026-08-02T04:12:44.399Z",
+    "backTranslationDiff": 0.9473684210526316
   },
   "viryazheng/recomby-geo": {
     "sourceHash": "c20dcf7e8cb6c545",
@@ -7893,6 +7893,20 @@
     "chineseDescription": "开源 GEO / AEO 技能，用于 AI 可见性准备：检查 robots.txt、llms.txt、schema、引用信号、竞争对手差距和买家提示词",
     "prompt": "请帮我安装 orangeo-ai-visibility-skill 技能。这是一个开源的 GEO / AEO 技能，用于 AI 可见性准备，可以检查 robots.txt、llms.txt、schema、引用信号、竞争对手差距和买家提示词。请从 https://github.com/oranai-ltd/orangeo-ai-visibility-skill 下载文件，并保存到 .claude/skills/orangeo-ai-visibility-skill/ 目录完成安装。",
     "translatedAt": "2026-08-01T04:03:32.582Z",
+    "backTranslationDiff": 1
+  },
+  "iofficeai/officecli": {
+    "sourceHash": "787c4aeec680181e",
+    "chineseDescription": "OfficeCLI 是首个专为 AI 代理（agent）打造的 Office 套件，用于读取、编辑和自动化处理 Word、Excel 和 PowerPoint 文件。免费、开源、单一二进制文件，无需安装 Office。",
+    "prompt": "请从 https://github.com/iofficeai/officecli 下载 OfficeCLI 技能文件，并将其保存到 .claude/skills/officecli/ 目录中，完成安装。",
+    "translatedAt": "2026-08-02T04:13:10.113Z",
+    "backTranslationDiff": 0.15000000000000002
+  },
+  "0xwilliamortiz/humanizer-cli": {
+    "sourceHash": "e2c176d35722dec9",
+    "chineseDescription": "在终端里用33种方法识别AI生成的文本。包含前后对比示例、草稿检查器，零依赖。",
+    "prompt": "请安装 humanizer-cli 技能。从 GitHub 仓库 https://github.com/0xwilliamortiz/humanizer-cli 下载文件，保存到 .claude/skills/humanizer-cli/ 目录。安装完成后，该技能将提供33种识别AI文本的方法，支持前后对比示例和草稿检查功能。",
+    "translatedAt": "2026-08-02T04:13:16.245Z",
     "backTranslationDiff": 1
   }
 }

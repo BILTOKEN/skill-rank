@@ -482,6 +482,29 @@
     "lastPush": "2026-05-31T15:21:15Z"
   },
   {
+    "repo": "iofficeai/officecli",
+    "name": "OfficeCLI",
+    "description": "OfficeCLI is the first and best Office suite  purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+    "tags": [
+      "agent",
+      "AI",
+      "claude-code",
+      "cli",
+      "codex",
+      "docx",
+      "excel",
+      "office",
+      "openclaw",
+      "pptx",
+      "presentation",
+      "skills",
+      "word",
+      "xlsx"
+    ],
+    "stars": 24107,
+    "lastPush": "2026-07-31T13:24:58Z"
+  },
+  {
     "repo": "voltagent/awesome-agent-skills",
     "name": "awesome-agent-skills",
     "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
@@ -6748,6 +6771,34 @@
     ],
     "stars": 141,
     "lastPush": "2026-05-21T00:49:36Z"
+  },
+  {
+    "repo": "0xwilliamortiz/humanizer-cli",
+    "name": "humanizer-cli",
+    "description": "33 ways to spot AI-written text, right in your terminal. Before/after examples, draft checker, zero dependencies.",
+    "tags": [
+      "ai-slop",
+      "ai-slop-detection",
+      "ai-slop-detector",
+      "ai-slop-fixer",
+      "ai-slop-remover",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-plugin",
+      "codex-skill",
+      "human",
+      "humanization",
+      "humanize",
+      "humanize-ai",
+      "humanize-ai-text",
+      "humanize-text",
+      "humanized",
+      "humanizer"
+    ],
+    "stars": 141,
+    "lastPush": "2026-08-01T21:41:13Z"
   },
   {
     "repo": "sivaprasadreddy/sivalabs-agent-skills",
@@ -15520,6 +15571,17 @@
     ],
     "stars": 12,
     "lastPush": "2026-07-30T03:45:33Z"
+  },
+  {
+    "repo": "jattanjie21/plan-and-build",
+    "name": "plan-and-build",
+    "description": "A Claude Code skill that turns a vague feature idea or bug report into working, tested code.",
+    "tags": [
+      "claude-code",
+      "claude-skills"
+    ],
+    "stars": 12,
+    "lastPush": "2026-05-05T14:43:50Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -24845,6 +24907,21 @@
     "lastPush": "2026-07-19T15:06:44Z"
   },
   {
+    "repo": "nanwulan/claude-visuals-skill",
+    "name": "claude-visuals-skill",
+    "description": "Eyes for text-only LLMs — standalone CLI + Claude Code skill. Qwen3-VL-Plus image understanding (10-dimension description) + MinerU precision REST document parsing. visuals see / visuals parse.",
+    "tags": [
+      "claude-code-skill",
+      "document-parsing",
+      "llm",
+      "mineru",
+      "ocr",
+      "vision"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-02T03:29:59Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -30796,6 +30873,25 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-19T05:08:37Z"
+  },
+  {
+    "repo": "prvthmpcypher/skills-business",
+    "name": "skills-business",
+    "description": "29 Claude skills for business workflows. Project management, OKRs, SOPs, meeting summaries, proposals, and negotiation.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "business",
+      "claude",
+      "claude-code-skill",
+      "claude-skills",
+      "okr",
+      "productivity",
+      "sop",
+      "workflows"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-18T13:35:41Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

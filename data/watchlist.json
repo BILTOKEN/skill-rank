@@ -8039,6 +8039,22 @@
     "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
+    "repo": "jattanjie21/plan-and-build",
+    "name": "plan-and-build",
+    "description": "A Claude Code skill that turns a vague feature idea or bug report into working, tested code.",
+    "tags": [
+      "claude-code",
+      "claude-skills"
+    ],
+    "stars": 12,
+    "lastPush": "2026-05-05T14:43:50Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-02T03:55:57.223Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -19705,6 +19721,26 @@
     "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
+    "repo": "nanwulan/claude-visuals-skill",
+    "name": "claude-visuals-skill",
+    "description": "Eyes for text-only LLMs — standalone CLI + Claude Code skill. Qwen3-VL-Plus image understanding (10-dimension description) + MinerU precision REST document parsing. visuals see / visuals parse.",
+    "tags": [
+      "claude-code-skill",
+      "document-parsing",
+      "llm",
+      "mineru",
+      "ocr",
+      "vision"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-02T03:29:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-02T03:55:57.223Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -27226,6 +27262,30 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-01T03:53:34.715Z"
+  },
+  {
+    "repo": "prvthmpcypher/skills-business",
+    "name": "skills-business",
+    "description": "29 Claude skills for business workflows. Project management, OKRs, SOPs, meeting summaries, proposals, and negotiation.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "business",
+      "claude",
+      "claude-code-skill",
+      "claude-skills",
+      "okr",
+      "productivity",
+      "sop",
+      "workflows"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-18T13:35:41Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-02T03:55:57.223Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
