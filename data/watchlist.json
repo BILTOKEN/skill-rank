@@ -4507,6 +4507,34 @@
     "checkedAt": "2026-07-09T04:16:02.360Z"
   },
   {
+    "repo": "sadekxd/cardstock-diorama-myth",
+    "name": "cardstock-diorama-myth",
+    "description": "Claude skill that turns a single request into a narrated mythic short film in a layered cut-paper diorama style — three-colour cardstock worlds, paper wipes, Unsora MCP + local ffmpeg, one assembled MP4.",
+    "tags": [
+      "ai-video",
+      "animation",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "claude-skills",
+      "generative-ai",
+      "mcp",
+      "papercraft",
+      "storytelling",
+      "text-to-video",
+      "unsora",
+      "unsora-mcp",
+      "video-generation"
+    ],
+    "stars": 19,
+    "lastPush": "2026-08-02T19:49:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-03T03:58:21.606Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -14575,6 +14603,30 @@
     "checkedAt": "2026-07-28T03:40:19.276Z"
   },
   {
+    "repo": "gomesfellipe/book-to-audiobook",
+    "name": "book-to-audiobook",
+    "description": "Turns any book into a narrated audiobook, translated into any language. A free Claude Code Skill, no API key required.",
+    "tags": [
+      "audiobook",
+      "claude-code",
+      "claude-code-skill",
+      "edge-tts",
+      "epub",
+      "pdf",
+      "python",
+      "text-to-speech",
+      "translation",
+      "tts"
+    ],
+    "stars": 5,
+    "lastPush": "2026-07-29T00:02:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-03T03:58:21.606Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -17390,6 +17442,34 @@
     "checkedAt": "2026-07-30T03:32:41.334Z"
   },
   {
+    "repo": "ayukyo/icode-skill",
+    "name": "icode-skill",
+    "description": "A 6-step coding workflow for Claude Code — Plan → Review → Finalize → Code → Deep Check → Audit. Run all at once or step-by-step, switch models between steps.          Claude Code 六步编码工作流：计划 → 审查 → 定稿 → 编码 → 复检 → 终审，一步到位或分步执行，步骤间可切换模型。",
+    "tags": [
+      "ai-agent",
+      "ai-coding",
+      "ai-workflow",
+      "automation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "coding-agent",
+      "coding-assistant",
+      "llm",
+      "mcp",
+      "skill",
+      "workflow"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-02T17:36:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-03T03:58:21.606Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -19739,6 +19819,35 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-02T03:55:57.223Z"
+  },
+  {
+    "repo": "ddtcorex/dev-skills-hub",
+    "name": "dev-skills-hub",
+    "description": "An extensible, flat AI Skills Registry for Claude Code, OpenCode, Codex, and Copilot. Pre-configured for Magento 2 and Govard workflows.",
+    "tags": [
+      "ai-agents",
+      "ai-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills",
+      "codex-plugin",
+      "codex-skill",
+      "copilot-instructions",
+      "custom-skills",
+      "developer-productivity",
+      "govard",
+      "magento2",
+      "opencode"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-31T03:31:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-03T03:58:21.606Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -27286,6 +27395,35 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-02T03:55:57.223Z"
+  },
+  {
+    "repo": "tokyubevoxelverse/skills",
+    "name": "skills",
+    "description": "A toolbox of Claude Code skills that do real work — resurrect dead repos, catch lying READMEs, hunt flaky tests, background-check dependencies, break PRs before they merge, and more. One clone each. 🧰",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "automation",
+      "awesome",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "collection",
+      "developer-tools",
+      "devtools",
+      "llm",
+      "open-source",
+      "toolbox"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-22T04:04:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-03T03:58:21.606Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

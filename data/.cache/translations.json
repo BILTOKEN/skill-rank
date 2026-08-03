@@ -6048,11 +6048,11 @@
     "backTranslationDiff": 0.5714285714285714
   },
   "waybarrios/opencode-power-pack": {
-    "sourceHash": "a5e40637469fdf96",
-    "chineseDescription": "opencode-power-pack 技能包：为 Codex、OpenCode 和 Pi 提供 11 个严谨的 Claude Code 工作流，涵盖代码审查、安全审计、功能开发、前端设计、MCP 工具等场景。",
-    "prompt": "请帮我安装 opencode-power-pack 技能。\n\n1. 克隆或下载 https://github.com/waybarrios/opencode-power-pack 仓库内容\n2. 将仓库中的文件保存到 .claude/skills/opencode-power-pack/ 目录\n3. 确保目录结构完整，包含所有技能定义文件\n4. 安装完成后，列出可用的技能列表\n\nGitHub 地址：https://github.com/waybarrios/opencode-power-pack\n\n【使用场景】当你需要快速获得一套完整的 Claude Code 工作流模板（代码审查、安全审计、前端设计等）时使用。",
-    "translatedAt": "2026-08-02T04:13:01.190Z",
-    "backTranslationDiff": 0.1875
+    "sourceHash": "ed78ef96886fc58a",
+    "chineseDescription": "45个严谨的skills，适用于Codex、OpenCode和Pi：代码审查、安全审计、功能开发、前端设计、MCP工具、Hugging Face机器学习/训练等。【使用场景】当用户需要为Claude Code安装一套涵盖代码审查、安全审计、前端设计、机器学习等多领域的技能包时使用。",
+    "prompt": "请从 https://github.com/waybarrios/opencode-power-pack 下载该技能包，并将所有文件保存到 .claude/skills/opencode-power-pack/ 目录下，完成安装。该技能包包含45个技能，涵盖代码审查、安全审计、功能开发、前端设计、MCP工具、Hugging Face机器学习/训练等领域。",
+    "translatedAt": "2026-08-03T04:12:44.843Z",
+    "backTranslationDiff": 1
   },
   "marianfoo/sap-ai-mcp-servers": {
     "sourceHash": "695088e569d7d410",
@@ -7908,5 +7908,12 @@
     "prompt": "请安装 humanizer-cli 技能。从 GitHub 仓库 https://github.com/0xwilliamortiz/humanizer-cli 下载文件，保存到 .claude/skills/humanizer-cli/ 目录。安装完成后，该技能将提供33种识别AI文本的方法，支持前后对比示例和草稿检查功能。",
     "translatedAt": "2026-08-02T04:13:16.245Z",
     "backTranslationDiff": 1
+  },
+  "woodfantasy/seedance-shotdesign-skills": {
+    "sourceHash": "8e63cd46e6167da1",
+    "chineseDescription": "Seedance 2.5 镜头设计技能（Shot Design Skills）——用于辅助生成或优化视频分镜、镜头语言和拍摄方案。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名为 Seedance-ShotDesign-Skills。请从 GitHub 仓库 https://github.com/woodfantasy/seedance-shotdesign-skills 下载所有文件，并保存到 .claude/skills/seedance-shotdesign-skills/ 目录下，完成安装。安装后请确认该技能已可用。",
+    "translatedAt": "2026-08-03T04:12:49.070Z",
+    "backTranslationDiff": 0.5
   }
 }
