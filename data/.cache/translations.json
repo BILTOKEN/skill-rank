@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "772ee357c0bc833d",
-    "chineseDescription": "AI 客户端，支持聊天、RAG（检索增强生成）、计划、MCP 工具和智能体。支持多种 LLM（大语言模型）：Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini、OpenRouter。",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载该 Skill 的所有文件，并保存到 .claude/skills/askimo/ 目录下，完成安装。安装后请验证文件是否完整，并告知用户如何使用。",
-    "translatedAt": "2026-08-02T04:12:50.205Z",
-    "backTranslationDiff": 0.2941176470588235
+    "sourceHash": "9a967949250cf3c3",
+    "chineseDescription": "askimo 是一个 AI 客户端（Client），用于聊天（Chat）、RAG（检索增强生成）、计划（Plans）、MCP 工具（Model Context Protocol tools）和智能体（Agents）。支持多种大语言模型（LLMs），包括 Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini 和 OpenRouter。【使用场景】当你想在 Claude Code 中集成一个统一的 AI 客户端，用来连接多个 LLM 提供商并管理 RAG 和 MCP 工具时，可以用这个 Skill。",
+    "prompt": "请从 https://github.com/askimo-ai/askimo 下载 askimo Skill 的所有文件，并保存到 .claude/skills/askimo/ 目录下，完成安装。安装后，告诉我如何使用它来连接不同的 LLM 提供商（如 Anthropic、OpenAI 等）以及配置 RAG 和 MCP 工具。",
+    "translatedAt": "2026-08-04T03:55:49.855Z",
+    "backTranslationDiff": 1
   },
   "borghei/claude-skills": {
     "sourceHash": "709216143827d12d",
@@ -5418,11 +5418,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "woodfantasy/seedance2.0-shotdesign-skills": {
-    "sourceHash": "6a9c686185534076",
-    "chineseDescription": "Seedance 2.0 镜头设计技能包，用于辅助生成视频分镜和镜头规划。",
-    "prompt": "请从 https://github.com/woodfantasy/seedance2.0-shotdesign-skills 下载该仓库的所有文件，并保存到 .claude/skills/seedance2.0-shotdesign-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T07:26:55.140Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "8e63cd46e6167da1",
+    "chineseDescription": "Seedance 2.5 镜头设计技能（Shot Design Skills）——用于辅助生成视频分镜、镜头语言和视觉叙事设计的专业技能包。",
+    "prompt": "请帮我安装 Seedance-ShotDesign-Skills 技能。请从 GitHub 仓库 https://github.com/woodfantasy/seedance2.0-shotdesign-skills 下载所有文件，并将其保存到 .claude/skills/seedance2.0-shotdesign-skills/ 目录下，完成安装。安装完成后请确认文件结构正确。",
+    "translatedAt": "2026-08-04T03:56:01.810Z",
+    "backTranslationDiff": 0.5
   },
   "dianel555/dskills": {
     "sourceHash": "251df61c3e2dec5f",
@@ -5579,11 +5579,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "smixs/visual-skills": {
-    "sourceHash": "0dcdf216a645b978",
-    "chineseDescription": "AI电影导演技能包，适用于Claude agents：电影剧作技巧（Murch剪辑法则、镜头调度、蒙太奇）+ 针对Seedance 2.5、Kling 3.0 Turbo/Omni、Veo 3.1、Nano Banana 2、GPT Image 2的精确提示词语法。支持Claude Code、Cursor、Windsurf、OpenCode。",
-    "prompt": "请从 https://github.com/smixs/visual-skills 下载所有文件，并保存到 .claude/skills/visual-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-27T04:30:51.354Z",
-    "backTranslationDiff": 0.24
+    "sourceHash": "40689a7923e5d688",
+    "chineseDescription": "面向 AI 代理（Agent）的电影导演技能：包含电影剧作理论（Murch 剪辑法、场面调度、蒙太奇）以及针对 Seedance 2.5、Kling 3.0 Turbo/Omni、Veo 3.1、Nano Banana 2、GPT Image 2 的精确提示词（Prompt）语法。【使用场景】当你需要生成电影感强的视频或图像时，这个技能能帮你写出符合专业导演思路的提示词，并适配主流 AI 视频/图像生成模型。",
+    "prompt": "请从 https://github.com/smixs/visual-skills 下载该技能的全部文件，并保存到 .claude/skills/visual-skills/ 目录下，完成安装。安装后请确认技能可用，并简要说明该技能的功能。GitHub 仓库地址：https://github.com/smixs/visual-skills",
+    "translatedAt": "2026-08-04T03:55:56.603Z",
+    "backTranslationDiff": 0.85
   },
   "baidu-maps/jsapi-skills": {
     "sourceHash": "af5f614754bd7e93",
