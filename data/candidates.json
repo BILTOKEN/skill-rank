@@ -6935,6 +6935,24 @@
     "lastPush": "2026-04-15T09:43:43Z"
   },
   {
+    "repo": "xiincs/claude-code-vision-skill",
+    "name": "claude-code-vision-skill",
+    "description": "为 Claude Code 赋能多模态视觉能力，支持豆包、通义千问、GPT-4o 等模型，用于截图 / UI / 图表分析；适配 DeepSeek 等无视觉底座，搭配 browser-harness 可做前端布局自动化检查。",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "deepseek",
+      "multimodal",
+      "python",
+      "qwen",
+      "vision"
+    ],
+    "stars": 132,
+    "lastPush": "2026-08-03T14:55:15Z"
+  },
+  {
     "repo": "oranai-ltd/orangeo-ai-visibility-skill",
     "name": "orangeo-ai-visibility-skill",
     "description": "Open-source GEO / AEO skill for AI visibility readiness: check robots.txt, llms.txt, schema, citation signals, competitor gaps, and buyer prompts",
@@ -11676,6 +11694,20 @@
     "lastPush": "2026-07-07T13:35:56Z"
   },
   {
+    "repo": "polinnizhong/github-publish-skill",
+    "name": "github-publish-skill",
+    "description": "Agent-native skill for publishing local projects to GitHub with zero-config proxy detection",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "github-automation",
+      "kimi-skill",
+      "skill"
+    ],
+    "stars": 26,
+    "lastPush": "2026-07-15T12:11:07Z"
+  },
+  {
     "repo": "wrsmith108/varlock-claude-skill",
     "name": "varlock-claude-skill",
     "description": "Claude Code skill for secure environment variable management with Varlock. Never expose secrets in Claude sessions.",
@@ -15636,6 +15668,26 @@
     "lastPush": "2026-05-05T14:43:50Z"
   },
   {
+    "repo": "abdobasyioni/business-analysis-skill",
+    "name": "business-analysis-skill",
+    "description": "Executive business analysis skill for Claude — Big Four-grade consulting from any Excel/CSV file (Arabic RTL)",
+    "tags": [
+      "business-intelligence",
+      "business-intelligence-analysis",
+      "business-intelligence-analytics",
+      "business-intelligence-dashboard",
+      "business-intelligence-data",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "excel-analysis"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-03T18:39:47Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -17132,6 +17184,28 @@
     ],
     "stars": 10,
     "lastPush": "2026-08-04T02:36:25Z"
+  },
+  {
+    "repo": "mikefluff/skills",
+    "name": "skills",
+    "description": "42 Claude Code skills for making content that doesn't read like a machine made it — prose editing with an offline linter, prompt engineering for 40+ image/video/music models with optional one-command execution, and orchestrators from research to a published carousel, reel or proposal. Russian-first, English throughout.",
+    "tags": [
+      "agent-skills",
+      "ai-image-generation",
+      "ai-video-generation",
+      "anti-llm-detection",
+      "claude-code",
+      "claude-skills",
+      "content-automation",
+      "llm-tools",
+      "neuroslop",
+      "prompt-engineering",
+      "prose-editing",
+      "russian-language",
+      "writing-tools"
+    ],
+    "stars": 10,
+    "lastPush": "2026-08-03T22:27:10Z"
   },
   {
     "repo": "diabloidyobane/pereconstruct",
@@ -22279,6 +22353,26 @@
     "lastPush": "2026-07-29T17:53:34Z"
   },
   {
+    "repo": "allanops/clean-backend",
+    "name": "Clean-Backend",
+    "description": "Claude skill for production-hardening practices whenever you're designing, writing, or reviewing your backend code. Featuring endpoints, payment flows, deletes, background jobs, and alerting.",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "后端",
+      "backend-development",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-08-04T07:13:02Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -23212,6 +23306,35 @@
     ],
     "stars": 3,
     "lastPush": "2026-08-02T17:36:49Z"
+  },
+  {
+    "repo": "antoniocardenas/generate-nanobanana",
+    "name": "generate-nanobanana",
+    "description": "Claude Code skill for AI image & video generation with Google Gemini — Nano Banana 2 Lite, Nano Banana Pro, Gemini Omni Flash. Cost gates before paid runs, real reference images, a prompt log beside every file.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "agent-skils",
+      "ai-agent-skills",
+      "ai-coding",
+      "ai-tools",
+      "antigravity",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "cursor-skill",
+      "cursor-skills",
+      "developer-tools",
+      "gemini",
+      "gemini-omni",
+      "higgsfield",
+      "higgsfield-ai",
+      "nanobanana",
+      "nanobanana2"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-04T14:41:10Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -31103,6 +31226,80 @@
     ],
     "stars": 1,
     "lastPush": "2026-07-22T04:04:23Z"
+  },
+  {
+    "repo": "kislonfreak/publish-skill",
+    "name": "publish-skill",
+    "description": "Claude Code skill for publishing skills to GitHub - bilingual docs, README structure, topic tagging, gh CLI on Windows. EN + PL.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "automation",
+      "bilingual",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "developer-tools",
+      "documentation",
+      "gh-cli",
+      "git",
+      "github",
+      "github-cli",
+      "open-source",
+      "powershell",
+      "publishing",
+      "repository-management",
+      "skill-development",
+      "windows"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-04T15:44:18Z"
+  },
+  {
+    "repo": "kislonfreak/rk3326-handheld",
+    "name": "rk3326-handheld",
+    "description": "Claude Code skill for RK3326 retro handhelds (R36S, R40XX, RG351, clones) - hardware ID, diagnostics, firmware, emulator config. EN + PL.",
+    "tags": [
+      "anthropic",
+      "arkos",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "darkos",
+      "device-tree",
+      "emulation",
+      "emulationstation",
+      "handheld",
+      "portmaster",
+      "r36s",
+      "r40xx",
+      "retro-gaming",
+      "retro-handheld",
+      "retroarch",
+      "rg351",
+      "rk3326",
+      "rockchip",
+      "rocknix"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-04T15:35:14Z"
+  },
+  {
+    "repo": "alexgaoth/claude-tend",
+    "name": "claude-tend",
+    "description": "Claude Code skill that keeps project CLAUDE.md files true and lean — distills non-obvious session learnings into the file and prunes what went stale",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "context-engineering",
+      "llm"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-02T23:21:23Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
