@@ -10044,6 +10044,66 @@
     "checkedAt": "2026-08-05T03:36:49.820Z"
   },
   {
+    "repo": "dxkjuanjuan/juanjuan-team",
+    "name": "juanjuan-team",
+    "description": "🌀 The first adversarial-collaboration multi-agent Skill for Claude Code. 7 agents + 11 phases + Hook enforcement + 9 signal groups + dual-layer adversarial review. Inspired by NTCoding, agent-review-panel, AgentTeams. v1.6 — main+sub dual-layer adversarial review.",
+    "tags": [
+      "adversarial-collaboration",
+      "agent-orchestration",
+      "ai-agents",
+      "automation",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "memory-system",
+      "multi-agent",
+      "prompt-engineering",
+      "ruflo"
+    ],
+    "stars": 10,
+    "lastPush": "2026-08-05T02:52:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
+  },
+  {
+    "repo": "terminallylazy/tree-ring-memory",
+    "name": "Tree-Ring-Memory",
+    "description": "Framework-agnostic, local-first memory lifecycle for AI agents: Rust CLI, SQLite/FTS recall, forgetting, audit, consolidation, DOX/Revolve adapters, and TUI.",
+    "tags": [
+      "agent-memory",
+      "agent-skills",
+      "ai-agents",
+      "ai-memory",
+      "claude-skills",
+      "cli",
+      "codex-skills",
+      "context-engineering",
+      "developer-tools",
+      "dox",
+      "llm-memory",
+      "local-first",
+      "memory-management",
+      "ratatui",
+      "revolve",
+      "rust",
+      "rust-cli",
+      "sqlite",
+      "sqlite-fts",
+      "terminal-ui"
+    ],
+    "stars": 10,
+    "lastPush": "2026-07-23T22:36:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -20083,6 +20143,27 @@
     "checkedAt": "2026-08-03T03:58:21.606Z"
   },
   {
+    "repo": "pcx-wave/claude-nextsession",
+    "name": "claude-nextsession",
+    "description": "Don't let your claude session limits break your flow! Program your tasks for the next session, CC starts working on them as soon as it can, come back online, read your reports and keep building! ",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "productivity",
+      "task-automation",
+      "task-scheduler"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-05T21:38:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -27746,6 +27827,22 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-05T03:36:49.820Z"
+  },
+  {
+    "repo": "konraddzbik/preflight-check-skill",
+    "name": "preflight-check-skill",
+    "description": "Defensive toolkit for Claude Code: stop secrets, API keys, and personal data from leaving your machine — and clean transcripts before you publish.",
+    "tags": [
+      "claude-code-cli",
+      "claude-code-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-04T21:01:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

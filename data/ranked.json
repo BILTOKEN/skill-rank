@@ -6464,6 +6464,30 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "0xwilliamortiz/claude-red",
+    "name": "claude-red",
+    "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "redteam",
+      "redteaming",
+      "skill",
+      "skills"
+    ],
+    "stars": 332,
+    "lastPush": "2026-08-05T17:02:04Z",
+    "pool": "ranked",
+    "readmeLength": 1579,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
+  },
+  {
     "repo": "harries/skills-desktop",
     "name": "skills-desktop",
     "description": "this is a desktop client for skills.lc",
@@ -9324,6 +9348,39 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "docmancer/docmancer",
+    "name": "docmancer",
+    "description": "Find out what your coding agents already know. Docmancer indexes the memory, rules, and instructions Claude Code, Codex, Cursor, and Gemini wrote on your machine, then carries the durable parts to every agent. It is local-first and under MIT license.",
+    "tags": [
+      "agent-memory",
+      "AI",
+      "ai-agents",
+      "ai-memory",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "cli",
+      "codex",
+      "context-engineering",
+      "developer-tools",
+      "devtool",
+      "llm",
+      "local-first",
+      "mcp",
+      "memory",
+      "python",
+      "rag",
+      "semantic-search"
+    ],
+    "stars": 119,
+    "lastPush": "2026-08-05T15:19:35Z",
+    "pool": "ranked",
+    "readmeLength": 2128,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-06T03:42:26.173Z"
   },
   {
     "repo": "hainrixz/cyber-neo",

@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "0fa6ea28b7cfa2e8",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中 · 848 个专业 Agent Skills（PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。可在浏览器中免费试用，或通过 npx pm-claude-skills add 安装。【使用场景】需要为 AI 助手快速添加大量专业工作流技能（如写 PRD、做合规检查、优化简历）时使用。",
-    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载并安装 pm-claude-skills 技能。具体步骤：1. 克隆或下载该仓库的全部内容；2. 将仓库中的 skills 目录（或仓库根目录下的所有技能文件）复制到当前项目的 .claude/skills/pm-claude-skills/ 目录下；3. 确保所有技能文件（如 SKILL.md 等）都被正确保存；4. 完成后告诉我安装成功。如果仓库结构复杂，请先查看 README 了解安装方式，再按说明操作。",
-    "translatedAt": "2026-08-05T03:53:38.339Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "c9364bcc0e60f9a7",
+    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中收录的 958 个专业 Agent Skills（涵盖 PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。支持浏览器内免费试用，或通过 npx pm-claude-skills add 安装。",
+    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载并安装 pm-claude-skills 技能包。具体步骤：1) 克隆或下载该仓库的全部内容；2) 将仓库中的 skills 目录（或所有技能文件）复制到当前项目的 .claude/skills/pm-claude-skills/ 目录下；3) 确保目录结构完整，包含所有必要的配置文件（如 SKILL.md 等）；4) 安装完成后，确认技能可被 Claude Code 正常识别和调用。",
+    "translatedAt": "2026-08-06T04:01:15.723Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5691,11 +5691,11 @@
     "backTranslationDiff": 0.29166666666666663
   },
   "iofficeai/aionui": {
-    "sourceHash": "d16b1c9fec9362c1",
-    "chineseDescription": "免费、本地、开源的 24/7 协作应用，支持 OpenClaw、Hermes Agent、Claude Code、Codex、OpenCode、Gemini CLI 等 20 多种 CLI | 自定义你的助手 | 如果喜欢请点星！【使用场景】在 Claude Code 中集成 AionUi 协作工具，方便管理多个 CLI 助手。",
-    "prompt": "请从 https://github.com/iofficeai/aionui 下载 AionUi skill 文件，并将其保存到 .claude/skills/aionui/ 目录下。完成安装后，确认文件存在。",
-    "translatedAt": "2026-05-31T16:19:56.850Z",
-    "backTranslationDiff": 0.21052631578947367
+    "sourceHash": "029ffda4884e5d96",
+    "chineseDescription": "开源的全天候（24/7）协作应用，支持 OpenClaw、Hermes Agent、Claude Code、Codex、OpenCode、Gemini CLI 等 20 多种命令行工具（CLI）| 可自定义你的助手 | 喜欢就点个 Star 吧！",
+    "prompt": "请帮我安装 AionUi 技能（Skill）。这是一个开源的全天候协作应用，支持多种 CLI 工具。请执行以下步骤：\n1. 访问 GitHub 仓库 https://github.com/iofficeai/aionui 下载相关文件\n2. 将下载的文件保存到 .claude/skills/aionui/ 目录下\n3. 完成安装后，告诉我如何使用这个技能",
+    "translatedAt": "2026-08-06T04:01:08.296Z",
+    "backTranslationDiff": 0.17647058823529416
   },
   "gadievron/raptor": {
     "sourceHash": "c57046fa28d53b51",
@@ -6181,11 +6181,11 @@
     "backTranslationDiff": 0.4444444444444444
   },
   "levnikolaevich/claude-code-skills": {
-    "sourceHash": "600f0da4f1f39b6e",
-    "chineseDescription": "18个独立的 Claude Code 和 Codex 技能：代码审查、审计、优化、测试、产品发现以及安全的仓库发布。",
-    "prompt": "请从 https://github.com/levnikolaevich/claude-code-skills 下载所有文件，并将它们保存到 .claude/skills/claude-code-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-07-13T04:49:24.684Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "85d6e96e78196ccc",
+    "chineseDescription": "为 Claude Code 和 Codex 提供的独立工程技能：代码审查、审计、优化、测试、产品发现、架构设计以及安全发布。",
+    "prompt": "请从 https://github.com/levnikolaevich/claude-code-skills 下载该仓库的全部文件，并将其保存到 .claude/skills/claude-code-skills/ 目录中，以完成安装。安装完成后，请确认目录结构正确并告知我。",
+    "translatedAt": "2026-08-06T04:01:21.343Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "vila-lab/figmirror": {
     "sourceHash": "5b86b3facf772ca6",
@@ -7922,5 +7922,19 @@
     "prompt": "请帮我安装 claude-code-vision-skill 技能。请访问 https://github.com/xiincs/claude-code-vision-skill 下载该技能的全部文件，并将其保存到 .claude/skills/claude-code-vision-skill/ 目录下，完成安装。安装完成后，请告诉我如何使用该技能进行视觉分析。",
     "translatedAt": "2026-08-05T03:53:48.431Z",
     "backTranslationDiff": 0.11111111111111116
+  },
+  "docmancer/docmancer": {
+    "sourceHash": "4e0de8209fc08f72",
+    "chineseDescription": "Docmancer 能帮你搞清楚你的编码代理（coding agents）已经知道什么。它会索引 Claude Code、Codex、Cursor 和 Gemini 在你机器上写入的记忆、规则和指令，然后把那些持久有用的部分带到每个代理那里。它是本地优先（local-first）的，采用 MIT 许可证。",
+    "prompt": "请从 https://github.com/docmancer/docmancer 下载 Docmancer 技能文件，并将其保存到 .claude/skills/docmancer/ 目录中，完成安装。安装后，告诉我如何使用它来索引和共享代理记忆。",
+    "translatedAt": "2026-08-06T04:01:26.118Z",
+    "backTranslationDiff": 0.25
+  },
+  "0xwilliamortiz/claude-red": {
+    "sourceHash": "a5651a20512b68a9",
+    "chineseDescription": "claude-red 是一个为 Claude skills 系统设计的攻击性安全技能精选库。每个技能都是一个结构化的 SKILL.md 文件，为 Claude 提供针对特定攻击面的专家级方法论——从 SQL 注入（SQLi）到 shellcode，从 EDR 规避到漏洞利用开发。",
+    "prompt": "请从 https://github.com/0xwilliamortiz/claude-red 下载 claude-red 技能库，并将其保存到 .claude/skills/claude-red/ 目录中。请克隆该仓库或下载所有文件，确保 SKILL.md 文件完整保留，以便 Claude 能够正确加载这些攻击性安全技能。",
+    "translatedAt": "2026-08-06T04:01:31.366Z",
+    "backTranslationDiff": 0.8571428571428572
   }
 }
