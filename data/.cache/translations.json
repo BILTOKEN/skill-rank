@@ -6034,11 +6034,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "hashgraph-online/awesome-codex-plugins": {
-    "sourceHash": "be08599e2f9c0223",
-    "chineseDescription": "这是一个精选的 OpenAI Codex 插件、技能和资源列表，号称是排名第一的 Codex 市场。你可以在这里找到各种实用的插件和工具。实时插件列表请访问：https://hol.org/registry/plugins",
-    "prompt": "请从 https://github.com/hashgraph-online/awesome-codex-plugins 下载仓库文件，并将其保存到 .claude/skills/awesome-codex-plugins/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:59:40.950Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "4a34282133dc9396",
+    "chineseDescription": "精选的 OpenAI Codex / ChatGPT 插件、技能和资源列表，号称第一 Codex 市场。可在线查看插件：https://hol.org/registry/plugins",
+    "prompt": "请从 GitHub 仓库 https://github.com/hashgraph-online/awesome-codex-plugins 下载 awesome-codex-plugins 技能，并将其保存到 .claude/skills/awesome-codex-plugins/ 目录中。下载完成后，请确认安装成功。",
+    "translatedAt": "2026-08-07T03:28:07.958Z",
+    "backTranslationDiff": 0.7692307692307692
   },
   "zhixiangluo/10xproductivity": {
     "sourceHash": "3abbf3ddb640ffb4",
@@ -7936,5 +7936,12 @@
     "prompt": "请从 https://github.com/0xwilliamortiz/claude-red 下载 claude-red 技能库，并将其保存到 .claude/skills/claude-red/ 目录中。请克隆该仓库或下载所有文件，确保 SKILL.md 文件完整保留，以便 Claude 能够正确加载这些攻击性安全技能。",
     "translatedAt": "2026-08-06T04:01:31.366Z",
     "backTranslationDiff": 0.8571428571428572
+  },
+  "openwarehq/websiteprompts": {
+    "sourceHash": "bd54b2955b800e0c",
+    "chineseDescription": "一个技能搞定漂亮3D网站，还附带50多个网站提示词（website prompts）供你使用。",
+    "prompt": "请帮我安装一个名为 websiteprompts 的 Claude Code Skill。安装步骤：1. 从 GitHub 仓库 https://github.com/openwarehq/websiteprompts 下载所有文件；2. 将文件保存到 .claude/skills/websiteprompts/ 目录下；3. 确认安装完成。该技能可以让你轻松创建漂亮的3D网站，并附带50多个现成的网站提示词。请执行安装操作。",
+    "translatedAt": "2026-08-07T03:28:12.906Z",
+    "backTranslationDiff": 1
   }
 }
