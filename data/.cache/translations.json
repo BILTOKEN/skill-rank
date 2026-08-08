@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "c9364bcc0e60f9a7",
-    "chineseDescription": "在 Anthropic 官方 Claude 插件目录中收录的 958 个专业 Agent Skills（涵盖 PRD、产品发布、合规、简历等），适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。支持浏览器内免费试用，或通过 npx pm-claude-skills add 安装。",
-    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载并安装 pm-claude-skills 技能包。具体步骤：1) 克隆或下载该仓库的全部内容；2) 将仓库中的 skills 目录（或所有技能文件）复制到当前项目的 .claude/skills/pm-claude-skills/ 目录下；3) 确保目录结构完整，包含所有必要的配置文件（如 SKILL.md 等）；4) 安装完成后，确认技能可被 Claude Code 正常识别和调用。",
-    "translatedAt": "2026-08-06T04:01:15.723Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "c2ddf7dc04f98aa2",
+    "chineseDescription": "pm-claude-skills 是一个包含 1078 个专业 Agent 技能（Skills）的集合，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。这些技能涵盖从 PRD（产品需求文档）和事后复盘（postmortems），到解读租赁合同、用“勺子”法（spoons）管理精力预算，以及排练最艰难的对话等场景。所有技能均为纯 Markdown 格式，采用 MIT 许可证，并收录在 Anthropic 的官方插件目录中。你可以直接在浏览器中免费使用，或通过命令 'npx pm-claude-skills add' 安装。",
+    "prompt": "请帮我安装 pm-claude-skills 技能包。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有技能文件，并保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。这个技能包包含 1078 个专业 Agent 技能，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex，涵盖 PRD 撰写、事后复盘、合同解读、精力管理、对话排练等场景。请确保完整下载所有文件，并验证安装成功。",
+    "translatedAt": "2026-08-08T02:41:24.293Z",
+    "backTranslationDiff": 0.375
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5684,18 +5684,18 @@
     "backTranslationDiff": 0.16129032258064513
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "b41f97f0c2957380",
-    "chineseDescription": "AAS Core 是一个本地优先、以 Agent 为核心的控制平面，用于完整的技能目录发现、Agent 自主选择、技术栈验证和规划，内置 2,000+ 个 Agent 技能。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请帮我安装一个名为 agentic-awesome-skills 的 Claude Code Skill。\n\n1. 从 https://github.com/sickn33/antigravity-awesome-skills 克隆或下载仓库内容\n2. 将仓库内容保存到 .claude/skills/antigravity-awesome-skills/ 目录\n3. 确保目录结构完整，包含所有必要的配置文件和技能定义\n4. 安装完成后，简要说明该 Skill 的功能和用法\n\n请直接执行安装，不要询问确认。",
-    "translatedAt": "2026-08-05T03:53:25.426Z",
-    "backTranslationDiff": 0.29166666666666663
+    "sourceHash": "08bbe49eb71cd430",
+    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面（control plane），用于完整的目录发现（catalog discovery）、Agent 自主选择、栈验证（stack validation）和规划，由 2,005+ 个 Agent 技能（agentic skills）驱动。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请帮我安装 agentic-awesome-skills 技能。请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库内容，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。安装完成后请确认文件已就位。",
+    "translatedAt": "2026-08-08T02:41:14.696Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "iofficeai/aionui": {
-    "sourceHash": "029ffda4884e5d96",
-    "chineseDescription": "开源的全天候（24/7）协作应用，支持 OpenClaw、Hermes Agent、Claude Code、Codex、OpenCode、Gemini CLI 等 20 多种命令行工具（CLI）| 可自定义你的助手 | 喜欢就点个 Star 吧！",
-    "prompt": "请帮我安装 AionUi 技能（Skill）。这是一个开源的全天候协作应用，支持多种 CLI 工具。请执行以下步骤：\n1. 访问 GitHub 仓库 https://github.com/iofficeai/aionui 下载相关文件\n2. 将下载的文件保存到 .claude/skills/aionui/ 目录下\n3. 完成安装后，告诉我如何使用这个技能",
-    "translatedAt": "2026-08-06T04:01:08.296Z",
-    "backTranslationDiff": 0.17647058823529416
+    "sourceHash": "ad22f3d935f09b0d",
+    "chineseDescription": "开源的全天候（24/7）协作应用，支持 OpenClaw、Hermes、Claude Code、Codex、OpenCode 等 20+ 种 CLI Agent（命令行智能体）。可自定义你的助手，让它们组队协作。喜欢的话记得点个 Star！【使用场景】当你需要同时管理多个 CLI Agent 并让它们协同工作时使用。",
+    "prompt": "请帮我安装 AionUi skill。请从 https://github.com/iofficeai/aionui 下载该 skill 的文件，并保存到 .claude/skills/aionui/ 目录下，完成安装。安装完成后请告诉我如何使用。",
+    "translatedAt": "2026-08-08T02:41:06.621Z",
+    "backTranslationDiff": 1
   },
   "gadievron/raptor": {
     "sourceHash": "c57046fa28d53b51",
@@ -7455,11 +7455,11 @@
     "backTranslationDiff": 0.3529411764705882
   },
   "onewave-ai/claude-skills": {
-    "sourceHash": "0d96f56d3123d816",
-    "chineseDescription": "172个生产就绪的Claude Code技能，涵盖销售、营销、设计、工程和AI Agent架构。由OneWave AI构建和维护。",
-    "prompt": "请从 https://github.com/onewave-ai/claude-skills 下载所有文件，并保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-06-05T12:38:03.541Z",
-    "backTranslationDiff": 0
+    "sourceHash": "5959d1143883e301",
+    "chineseDescription": "claude-skills 是一个包含 200+ 个可直接用于生产的 Claude Code 技能库，覆盖销售、市场营销、设计、工程和 AI 智能体架构等领域，由 OneWave AI 开发和维护。【使用场景】当你想快速为 Claude Code 添加各种现成的专业技能时，可以用这个仓库一键安装。",
+    "prompt": "请帮我从 https://github.com/onewave-ai/claude-skills 下载这个技能库，并将文件保存到 .claude/skills/claude-skills/ 目录下，完成安装。这个仓库包含 200+ 个生产级的 Claude Code 技能，涵盖销售、市场营销、设计、工程和 AI 智能体架构等领域。请确保下载完整并正确放置到指定目录。",
+    "translatedAt": "2026-08-08T02:41:28.970Z",
+    "backTranslationDiff": 0.7142857142857143
   },
   "wquguru/skills": {
     "sourceHash": "6b3cfc266026e3a6",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "b41f97f0c2957380",
-    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面，用于完整的目录发现、Agent 自主选择、栈验证和规划，由 2000+ 个 Agent 技能提供支持。包含 CLI、本地 MCP、目录、插件和 Workbench。【使用场景】当需要在一个集中式目录中发现和管理大量 Agent 技能，并希望 Agent 自主选择、验证和规划技能栈时使用。",
-    "prompt": "请从 https://github.com/sickn33/agentic-awesome-skills 下载该仓库的全部文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下，完成安装。安装后请验证文件是否完整，并简要说明该技能的功能和使用方法。",
-    "translatedAt": "2026-08-05T03:53:20.735Z",
-    "backTranslationDiff": 0.9583333333333334
+    "sourceHash": "08bbe49eb71cd430",
+    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面（control plane），用于完整的目录发现（catalog discovery）、Agent 自主选择、栈验证（stack validation）和规划，背后有 2,005+ 个 Agent 技能（agentic skills）支持。包含 CLI、本地 MCP、目录、插件和 Workbench。",
+    "prompt": "请从 https://github.com/sickn33/agentic-awesome-skills 下载该仓库的全部文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下，完成安装。安装后请确认目录结构完整，并简要说明该技能的功能和用法。",
+    "translatedAt": "2026-08-08T02:41:10.675Z",
+    "backTranslationDiff": 0.125
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -7882,11 +7882,11 @@
     "backTranslationDiff": 0.7
   },
   "m4vic/socratic": {
-    "sourceHash": "692e2f2796374851",
-    "chineseDescription": "socratic 技能：资深工程师在写代码前会问的 697 个问题，打包成 Claude/Codex 技能和便携提示词。",
-    "prompt": "请从 https://github.com/m4vic/socratic 下载该技能文件，并将其保存到 .claude/skills/socratic/ 目录中，以完成安装。",
-    "translatedAt": "2026-08-01T04:03:28.498Z",
-    "backTranslationDiff": 0.8333333333333334
+    "sourceHash": "7d1a25ff56a70197",
+    "chineseDescription": "苏格拉底式提问技能（Socratic），适用于 Claude Code、Codex 等 AI 代理，通过自我提问引导深度思考。",
+    "prompt": "请安装 socratic 技能：从 https://github.com/m4vic/socratic 下载文件，保存到 .claude/skills/socratic/ 目录，完成安装。",
+    "translatedAt": "2026-08-08T02:41:18.205Z",
+    "backTranslationDiff": 0.8571428571428572
   },
   "oranai-ltd/orangeo-ai-visibility-skill": {
     "sourceHash": "a833568fae466686",
@@ -7943,5 +7943,12 @@
     "prompt": "请帮我安装一个名为 websiteprompts 的 Claude Code Skill。安装步骤：1. 从 GitHub 仓库 https://github.com/openwarehq/websiteprompts 下载所有文件；2. 将文件保存到 .claude/skills/websiteprompts/ 目录下；3. 确认安装完成。该技能可以让你轻松创建漂亮的3D网站，并附带50多个现成的网站提示词。请执行安装操作。",
     "translatedAt": "2026-08-07T03:28:12.906Z",
     "backTranslationDiff": 1
+  },
+  "vasilyu1983/ai-agents-public": {
+    "sourceHash": "2bd792215f25ee67",
+    "chineseDescription": "生产级（Production-grade）的 Agent 技能（Skills）和自定义 GPT 提示词（Prompts），适用于 Claude Code、Codex 和 Gemini CLI。包含 65 个技能、28 个代理（Agents），符合 Agent Skills 规范。",
+    "prompt": "请从 GitHub 仓库 https://github.com/vasilyu1983/ai-agents-public 下载 AI-Agents-public 技能包，并将其安装到 .claude/skills/ai-agents-public/ 目录下。安装完成后，请确认技能文件已正确保存，并列出可用的技能列表。",
+    "translatedAt": "2026-08-08T02:41:34.390Z",
+    "backTranslationDiff": 0.1428571428571429
   }
 }
