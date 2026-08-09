@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "8071f1fe81d21579",
-    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。它给编码 agent 提供固定的设计判断力（不是固定一种审美），然后从参考中选取或推导出合适的语法，锁定项目决策，并验证 UI、轮播、幻灯片和文档。包含 20 个技能，MIT 协议。",
-    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 项目文件，并将所有内容保存到 .claude/skills/styleseed/ 目录下，完成安装。",
-    "translatedAt": "2026-07-20T04:22:25.554Z",
-    "backTranslationDiff": 0.3793103448275862
+    "sourceHash": "97e629145bdf0558",
+    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。内置固定设计判断、多种语法、参考编译、语义调色板，以及用于验证 UI、交互、图像/视频任务、轮播图、演示文稿和文档的 Studio 工作流。包含 22 个技能，MIT 许可。",
+    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 技能文件，并将其保存到 .claude/skills/styleseed/ 目录中。下载完成后，确认所有文件已正确安装，并告知用户该技能已就绪。",
+    "translatedAt": "2026-08-09T02:52:24.997Z",
+    "backTranslationDiff": 0.9259259259259259
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "f175559987bd24a3",
-    "chineseDescription": "这是一个针对俄语文本的 AI 写作人性化技能，能通过 37 种模式（pattern）和 38 个正则标记（regex marker）去除机器生成的痕迹，让文本更自然。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
-    "translatedAt": "2026-07-22T04:07:48.346Z",
-    "backTranslationDiff": 0.8571428571428572
+    "sourceHash": "881282a73556b762",
+    "chineseDescription": "这是一个面向 AI 代理的 Skill：能够从俄语文本中识别并去除机器生成的痕迹——包含 37 种模式、38 个正则表达式标记以及证据登记表 | 俄语 AI 写作人性化处理 Skill",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该 Skill 的文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，以完成安装。安装后，该 Skill 将能够处理俄语文本，识别并消除机器生成的痕迹。",
+    "translatedAt": "2026-08-09T02:52:30.216Z",
+    "backTranslationDiff": 1
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7945,10 +7945,10 @@
     "backTranslationDiff": 1
   },
   "vasilyu1983/ai-agents-public": {
-    "sourceHash": "2bd792215f25ee67",
-    "chineseDescription": "生产级（Production-grade）的 Agent 技能（Skills）和自定义 GPT 提示词（Prompts），适用于 Claude Code、Codex 和 Gemini CLI。包含 65 个技能、28 个代理（Agents），符合 Agent Skills 规范。",
-    "prompt": "请从 GitHub 仓库 https://github.com/vasilyu1983/ai-agents-public 下载 AI-Agents-public 技能包，并将其安装到 .claude/skills/ai-agents-public/ 目录下。安装完成后，请确认技能文件已正确保存，并列出可用的技能列表。",
-    "translatedAt": "2026-08-08T02:41:34.390Z",
-    "backTranslationDiff": 0.1428571428571429
+    "sourceHash": "702d999da0af1a15",
+    "chineseDescription": "生产级 agent skills（代理技能）和 Custom GPT prompts（自定义 GPT 提示词），适用于 Claude Code、Codex 和 Gemini CLI。包含 64 个 skills（技能）、28 个 agents（代理），符合 Agent Skills 规范。",
+    "prompt": "请帮我安装 AI-Agents-public 技能包。请从 GitHub 仓库 https://github.com/vasilyu1983/ai-agents-public 下载所有文件，并保存到 .claude/skills/ai-agents-public/ 目录下，完成安装。安装完成后请确认文件已就位。",
+    "translatedAt": "2026-08-09T02:52:35.087Z",
+    "backTranslationDiff": 0.2142857142857143
   }
 }

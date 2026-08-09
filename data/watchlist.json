@@ -7653,6 +7653,25 @@
     "checkedAt": "2026-08-08T02:23:25.907Z"
   },
   {
+    "repo": "theadust/lore",
+    "name": "lore",
+    "description": "This is an AI coding agent Skill that provides framework-agnostic project memory, enabling agents to preserve architecture, decisions, and conventions across sessions.",
+    "tags": [
+      "agent",
+      "agent-memory",
+      "agent-skills",
+      "claude-skills",
+      "python"
+    ],
+    "stars": 13,
+    "lastPush": "2026-08-08T14:15:54Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
     "repo": "darrenbenson/sdlc-studio",
     "name": "sdlc-studio",
     "description": "Claude Code skill for managing the full software development lifecycle",
@@ -8232,6 +8251,40 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-08-08T02:23:25.907Z"
+  },
+  {
+    "repo": "theislampill/implementaudit.md",
+    "name": "IMPLEMENTAUDIT.md",
+    "description": "A self-correcting system of nested engineering loops: plan & execute repo work; safely implement audit findings; design greenfield & improve brownfield; learn from failures; re-verify until closure.",
+    "tags": [
+      "agentic-workflow",
+      "ai-agents",
+      "audit",
+      "audit-automation",
+      "claude-code",
+      "claude-code-skill",
+      "codex-skill",
+      "continuous-improvement",
+      "developer-tools",
+      "gemba",
+      "hermes-skill",
+      "kaizen",
+      "kaizen-agents",
+      "lean-six-sigma",
+      "llm-tools",
+      "release-engineering",
+      "repo-hygiene",
+      "skills-sh",
+      "software-quality",
+      "verification"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-08T22:22:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -10246,6 +10299,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-08-08T02:23:25.907Z"
+  },
+  {
+    "repo": "mahmoud20138/tradecraft",
+    "name": "Tradecraft",
+    "description": "102 Claude Code skills across 7 categories -- trading strategies, Azure, VSCode extensions, AI prompts, and custom automation skills",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "claude-skills",
+      "skills",
+      "tradinganalysis",
+      "tradingsignalmonitoring"
+    ],
+    "stars": 10,
+    "lastPush": "2026-04-23T09:23:32Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
   },
   {
     "repo": "diabloidyobane/pereconstruct",
@@ -15027,6 +15100,40 @@
     "checkedAt": "2026-08-03T03:58:21.606Z"
   },
   {
+    "repo": "cooler333/cool-claude-code",
+    "name": "cool-claude-code",
+    "description": "Awesome Claude Code And Agent Tools",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "coding-agent",
+      "coding-assistant",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "ranking",
+      "subagents",
+      "trending"
+    ],
+    "stars": 5,
+    "lastPush": "2026-08-09T00:17:00Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -17929,6 +18036,32 @@
     "checkedAt": "2026-08-05T03:36:49.820Z"
   },
   {
+    "repo": "jmosier69/refute",
+    "name": "refute",
+    "description": "A deep, multi-angle, adversarially-refuted code review skill for Claude Code, Cursor, and other coding agents",
+    "tags": [
+      "adversarial-review",
+      "agent-skills",
+      "ai-code-review",
+      "claude-code",
+      "claude-code-skill",
+      "code-quality",
+      "code-review",
+      "codex",
+      "codex-skill",
+      "kimi-code",
+      "multi-agent",
+      "security-audit"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-08T12:47:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -20354,6 +20487,49 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-08T02:23:25.907Z"
+  },
+  {
+    "repo": "ujjwal502/debugduck",
+    "name": "debugduck",
+    "description": "A debugging skill for Claude Code, Cursor, and any coding agent. Reproduce, trace the full path, find the root cause, and prove the fix. Works on frontend, backend, libraries, CLIs, browser extensions, GitHub apps, and data pipelines.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "cursor",
+      "debugging",
+      "debugging-tool",
+      "developer-tools",
+      "root-cause-analysis",
+      "rubber-duck-debugging",
+      "skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-08T15:22:17Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "kmturley/steam-debug",
+    "name": "steam-debug",
+    "description": "A Claude skill and standalone CLI for inspecting, debugging, and injecting code into a running Steam client (desktop or Steam Deck) via the Chrome DevTools Protocol (CDP)",
+    "tags": [
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "skill-md"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-08T03:37:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -28129,6 +28305,106 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-08T02:23:25.907Z"
+  },
+  {
+    "repo": "marcelocajueiro/html-password-gate",
+    "name": "html-password-gate",
+    "description": "Password-protect a static HTML page with no backend: encrypt with AES-256-GCM before upload, decrypt in the browser. Standalone Node tool + Claude Code skill for Cloudflare Pages & GitHub Pages.",
+    "tags": [
+      "aes-256-gcm",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cloudflare-pages",
+      "encryption",
+      "github-pages",
+      "no-backend",
+      "static-site",
+      "web-crypto"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-20T18:58:46Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "wholeit-hub/water-engineering-skill",
+    "name": "water-engineering-skill",
+    "description": "水利工程Claude Code Skill — 水文计算/水工设计/中国水利规范/报告模板/HEC-RAS/MIKE 11",
+    "tags": [
+      "chinese-standard",
+      "claude-code-skill",
+      "hec-ras",
+      "hydraulic-engineering",
+      "hydrology",
+      "mike11",
+      "water-engineering"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-22T09:29:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "pedrovelasquez9/optimize-assets",
+    "name": "optimize-assets",
+    "description": "Claude/AI agent skill for assets/images optimization for your web development projects",
+    "tags": [
+      "AI",
+      "ai-image-processing",
+      "ai-tools",
+      "assets",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claudecode",
+      "image-optimizer",
+      "skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-23T09:28:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "tokyubevoxelverse/vet",
+    "name": "vet",
+    "description": "Claude Code skill that background-checks a dependency before you install it — maintenance pulse, real install weight, license conflicts, security history, typosquat identity — verdict with dated evidence. 🔎",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "audit",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "dependencies",
+      "dependency-management",
+      "developer-tools",
+      "devtools",
+      "llm",
+      "npm",
+      "open-source",
+      "安全",
+      "supply-chain"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-22T04:02:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-09T02:31:26.093Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
