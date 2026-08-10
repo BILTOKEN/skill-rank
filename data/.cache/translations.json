@@ -4438,11 +4438,11 @@
     "backTranslationDiff": 0.41666666666666663
   },
   "othmanadi/planning-with-files": {
-    "sourceHash": "c19a4ff9c189a1a9",
-    "chineseDescription": "基于持久化文件的规划系统，专为 AI 编码代理和长时间运行任务设计。支持崩溃安全的 Markdown 计划、/clear 后的会话恢复与压缩、每轮重新注入以防止上下文腐烂、确定性完成门控。Manus 风格。兼容 Claude Code、Codex、Cursor、Kiro、OpenCode 及 60+ 代理（通过 Agent Skills 标准）。",
-    "prompt": "请从 https://github.com/othmanadi/planning-with-files 下载所有文件，并保存到 .claude/skills/planning-with-files/ 目录中，完成安装。",
-    "translatedAt": "2026-07-22T04:07:32.555Z",
-    "backTranslationDiff": 0.24242424242424243
+    "sourceHash": "8abf3046f584e432",
+    "chineseDescription": "基于文件的持久化规划工具，专为 AI 编码代理和长时间运行的任务设计。崩溃防护的 Markdown 计划、/clear 和压缩后的会话恢复、每轮重新注入以对抗上下文腐化、确定性完成门槛。Manus 风格。可通过 npm、Claude Code 插件市场或 npx skills 安装。支持 Codex、Cursor、OpenCode 等 60+ 代理。",
+    "prompt": "请帮我安装 planning-with-files 这个 Claude Code Skill。\n\n1. 访问 GitHub 仓库 https://github.com/othmanadi/planning-with-files 下载所有文件\n2. 将文件保存到 .claude/skills/planning-with-files/ 目录下\n3. 确保 SKILL.md 文件位于该目录的根位置\n4. 安装完成后，确认 skill 已正确加载\n\n【使用场景】当你需要为长时间运行的 AI 编码任务做持久化规划，或需要在会话中断后恢复计划时使用。",
+    "translatedAt": "2026-08-10T02:53:12.512Z",
+    "backTranslationDiff": 0.9444444444444444
   },
   "voltagent/awesome-agent-skills": {
     "sourceHash": "bc01a6d1a7277cc0",
@@ -7950,5 +7950,12 @@
     "prompt": "请帮我安装 AI-Agents-public 技能包。请从 GitHub 仓库 https://github.com/vasilyu1983/ai-agents-public 下载所有文件，并保存到 .claude/skills/ai-agents-public/ 目录下，完成安装。安装完成后请确认文件已就位。",
     "translatedAt": "2026-08-09T02:52:35.087Z",
     "backTranslationDiff": 0.2142857142857143
+  },
+  "seb1n/awesome-ai-agent-skills": {
+    "sourceHash": "2634a605a0d3fa8f",
+    "chineseDescription": "103个即开即用的AI Agent技能（Skill），适用于Claude Code、OpenAI Codex、Gemini CLI、Cursor、GitHub Copilot、Windsurf以及其他兼容Agent Skills的工具。包含完整的SKILL.md工作流——不是链接目录。",
+    "prompt": "请从 https://github.com/seb1n/awesome-ai-agent-skills 下载该仓库的全部内容，并将其保存到 .claude/skills/awesome-ai-agent-skills/ 目录下，完成安装。",
+    "translatedAt": "2026-08-10T02:53:16.885Z",
+    "backTranslationDiff": 1
   }
 }

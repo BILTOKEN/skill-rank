@@ -3466,6 +3466,29 @@
     "checkedAt": "2026-07-26T03:58:50.951Z"
   },
   {
+    "repo": "bushrabeg/turkce-humanizer",
+    "name": "turkce-humanizer",
+    "description": "Türkçe metinlerden yapay zekâ yazım imzalarını temizleyen Claude skill'i. YZ üretimi Türkçe'yi doğal, insan-sesli Türkçe'ye dönüştürür. | A Claude skill that removes AI writing signatures from Turkish text.",
+    "tags": [
+      "ai-humanizer",
+      "ai-writing",
+      "claude-code",
+      "claude-skills",
+      "humanizer",
+      "text-humanizer",
+      "turkce",
+      "turkish",
+      "turkish-nlp"
+    ],
+    "stars": 24,
+    "lastPush": "2026-08-09T14:42:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-10T02:36:35.128Z"
+  },
+  {
     "repo": "lee-fuhr/claude-session-index",
     "name": "claude-session-index",
     "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
@@ -5924,6 +5947,29 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-23T03:48:09.068Z"
+  },
+  {
+    "repo": "lunkibr/ship-it",
+    "name": "ship-it",
+    "description": "A Claude Code skill that catches commonly-forgotten UX/product details before you ship a screen or feature.",
+    "tags": [
+      "accessibility",
+      "agent-skills",
+      "ai-agents",
+      "checklist",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "product-design",
+      "ux-checklist"
+    ],
+    "stars": 16,
+    "lastPush": "2026-08-09T17:32:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-10T02:36:35.128Z"
   },
   {
     "repo": "seanzor/claude-speed-reader",
@@ -20530,6 +20576,63 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "ref0o0/deepseek-vision-skill",
+    "name": "deepseek-vision-skill",
+    "description": "Codex技能：让纯文本模型识图、听音、看视频！",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "deepseek",
+      "mimo",
+      "multimodal",
+      "opencode",
+      "opencode-skills",
+      "vision"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-09T10:22:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-10T02:36:35.128Z"
+  },
+  {
+    "repo": "pashki975/thm-claude-kit",
+    "name": "thm-claude-kit",
+    "description": "A coach for TryHackMe, powered by Claude Code. A consistent methodology (classify → enumerate → foothold → privesc), room-state tracking, ready-made commands, and specialist subagents for CVE research, privesc, and write-ups — all guiding you through each room step by step rather than solving it for you. A hands-on alternative to reading write-ups.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "ctf",
+      "ctf-challenges",
+      "ctf-tools",
+      "ctf-writeups",
+      "cyber-security",
+      "cybersecurity",
+      "cybersecurity-education",
+      "tryhackme",
+      "tryhackme-answers",
+      "tryhackme-ctf",
+      "tryhackme-module",
+      "tryhackme-notes",
+      "tryhackme-walkthroughs",
+      "tryhackme-writeups"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-09T16:27:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-10T02:36:35.128Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
