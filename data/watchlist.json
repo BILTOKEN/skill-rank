@@ -3489,6 +3489,27 @@
     "checkedAt": "2026-08-10T02:36:35.128Z"
   },
   {
+    "repo": "login-tb/claude-skills",
+    "name": "claude-skills",
+    "description": "Agent Skills von LOGIN zur freien Nutzung - SKILL.md-Format fuer Claude Code, Claude-App und API",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "claude",
+      "claude-skills",
+      "deutsch",
+      "prompt-engineering",
+      "skill-md"
+    ],
+    "stars": 24,
+    "lastPush": "2026-08-08T09:19:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-11T02:29:44.639Z"
+  },
+  {
     "repo": "lee-fuhr/claude-session-index",
     "name": "claude-session-index",
     "description": "Index, search, and analyze your Claude Code sessions. Full-text search, conversation retrieval, analytics, and cross-session synthesis.",
@@ -28508,6 +28529,51 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-09T02:31:26.093Z"
+  },
+  {
+    "repo": "yuanpingsong/embassy",
+    "name": "embassy",
+    "description": " Local, single-user message gateway between Claude Code sessions and Codex desktop tasks — bidirectional, consent-first pairing, bounded delivery with receipts, bilingual live dashboard",
+    "tags": [
+      "agent-collaboration",
+      "ai-agent",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-code-skill",
+      "cli-tool",
+      "codex-skill",
+      "developer-tool",
+      "local-first-ai",
+      "macosx",
+      "message-brokers",
+      "multi-agents",
+      "openai-codex"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-10T16:43:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-11T02:29:44.639Z"
+  },
+  {
+    "repo": "silentashish/claude-resume-generator-skill",
+    "name": "claude-resume-generator-skill",
+    "description": "Resume Tailor is an claude code skill that turns a job description and a candidate's master profile into ATS-verified, tailored resumes and matching cover letters compiled into publication-quality PDFs.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-11T01:11:49Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-11T02:29:44.639Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
