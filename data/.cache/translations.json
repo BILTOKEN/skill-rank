@@ -2975,11 +2975,11 @@
     "backTranslationDiff": 0.75
   },
   "lackeyjb/playwright-skill": {
-    "sourceHash": "45d66fff0d28dd40",
-    "chineseDescription": "Claude Code Skill，用于通过 Playwright 进行浏览器自动化。由模型调用——Claude 自主编写并执行自定义自动化脚本，用于测试和验证。【使用场景】当你需要让 Claude 自动操作浏览器进行测试或数据抓取时，可以使用这个 Skill。",
-    "prompt": "请从 GitHub 仓库 https://github.com/lackeyjb/playwright-skill 下载 playwright-skill 的所有文件，并将它们保存到 .claude/skills/playwright-skill/ 目录中，以完成安装。",
-    "translatedAt": "2026-05-24T12:56:31.005Z",
-    "backTranslationDiff": 0.2142857142857143
+    "sourceHash": "3b28798ae9cd223b",
+    "chineseDescription": "通用型 Playwright 自动化工具，供编程代理（coding agents）使用。",
+    "prompt": "请从 https://github.com/lackeyjb/playwright-skill 下载该 Skill 的所有文件，并将其保存到 .claude/skills/playwright-skill/ 目录下，以完成安装。",
+    "translatedAt": "2026-08-12T03:11:15.632Z",
+    "backTranslationDiff": 0.8
   },
   "snyk/agent-scan": {
     "sourceHash": "8b576b07558a39ce",
@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "c2ddf7dc04f98aa2",
-    "chineseDescription": "pm-claude-skills 是一个包含 1078 个专业 Agent 技能（Skills）的集合，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。这些技能涵盖从 PRD（产品需求文档）和事后复盘（postmortems），到解读租赁合同、用“勺子”法（spoons）管理精力预算，以及排练最艰难的对话等场景。所有技能均为纯 Markdown 格式，采用 MIT 许可证，并收录在 Anthropic 的官方插件目录中。你可以直接在浏览器中免费使用，或通过命令 'npx pm-claude-skills add' 安装。",
-    "prompt": "请帮我安装 pm-claude-skills 技能包。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有技能文件，并保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。这个技能包包含 1078 个专业 Agent 技能，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex，涵盖 PRD 撰写、事后复盘、合同解读、精力管理、对话排练等场景。请确保完整下载所有文件，并验证安装成功。",
-    "translatedAt": "2026-08-08T02:41:24.293Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "1ffb04bb97ceba64",
+    "chineseDescription": "pm-claude-skills 是一个包含1098个专业 Agent 技能（Skills）的集合，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。技能覆盖范围从产品需求文档（PRD）和事后复盘（postmortems），到申请残疾福利、准备应急包（go-bag）、适应新国家生活等。全部为纯 Markdown 格式，MIT 许可，收录于 Anthropic 官方插件目录。可免费在浏览器中使用，或通过 'npx pm-claude-skills add' 命令安装。",
+    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载全部技能文件，并保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。安装后请确认技能列表可用。",
+    "translatedAt": "2026-08-12T03:11:20.230Z",
+    "backTranslationDiff": 0.5161290322580645
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "f7798c0d6641ac00",
-    "chineseDescription": "这是一个包含 329 个 agent 技能（支持 Cursor、Claude Code 和 Codex）、5,380 个 OpenClaw 技能、201 个机器学习笔记本、7 本教科书、52 篇研究论文和 17 份行业报告的技能合集，面向产品经理、设计师和开发者。【使用场景】适合需要快速获取大量 AI 编程技能、学习资源或行业报告的用户，一键安装后即可在 Claude Code 中调用。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载整个仓库，并将其中的所有文件保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。",
-    "translatedAt": "2026-07-27T04:31:16.818Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "659b926cc005a78d",
+    "chineseDescription": "329个Agent技能（支持Cursor、Claude Code和Codex），5,380个OpenClaw技能，201个机器学习笔记本，8本教科书，82篇研究论文，18份行业报告，面向产品经理、设计师和开发者。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-agentic-ai 技能包，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录中，完成安装。",
+    "translatedAt": "2026-08-12T03:11:27.974Z",
+    "backTranslationDiff": 0.2777777777777778
   },
   "safishamsi/graphify": {
     "sourceHash": "c7ccf748895b558b",
@@ -7956,6 +7956,13 @@
     "chineseDescription": "103个即开即用的AI Agent技能（Skill），适用于Claude Code、OpenAI Codex、Gemini CLI、Cursor、GitHub Copilot、Windsurf以及其他兼容Agent Skills的工具。包含完整的SKILL.md工作流——不是链接目录。",
     "prompt": "请从 https://github.com/seb1n/awesome-ai-agent-skills 下载该仓库的全部内容，并将其保存到 .claude/skills/awesome-ai-agent-skills/ 目录下，完成安装。",
     "translatedAt": "2026-08-10T02:53:16.885Z",
+    "backTranslationDiff": 1
+  },
+  "zenbu-labs/terminal-browser": {
+    "sourceHash": "a1bbe3cf2a764b3c",
+    "chineseDescription": "{\"description_zh\":\"一个直接在你的现有终端（terminal）内运行的浏览器。\",\"prompt\":\"请从 https://github.com/zenbu-labs/terminal-browser 下载这个 skill 的文件，并保存到 .claude/skills/terminal-browser/ 目录中，完成安装。\",\"【使用场景】当用户需要在终端中直接浏览网页或查看网页内容，而不想打开图形浏览器时使用。\"}",
+    "prompt": "暂无提示词",
+    "translatedAt": "2026-08-12T03:11:24.292Z",
     "backTranslationDiff": 1
   }
 }

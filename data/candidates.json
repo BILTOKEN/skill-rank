@@ -2891,6 +2891,24 @@
     "lastPush": "2026-05-24T14:26:25Z"
   },
   {
+    "repo": "zenbu-labs/terminal-browser",
+    "name": "terminal-browser",
+    "description": "A browser that runs directly inside your existing terminal",
+    "tags": [
+      "browser",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "codex",
+      "herdr-plugin",
+      "rust",
+      "terminal",
+      "web"
+    ],
+    "stars": 926,
+    "lastPush": "2026-08-11T17:32:21Z"
+  },
+  {
     "repo": "weizhena/deep-research-skills",
     "name": "Deep-Research-skills",
     "description": "Structured deep research skill for Claude Code/Open Code/Codex with human-in-the-loop control",
@@ -11842,6 +11860,32 @@
     "lastPush": "2026-07-15T12:11:07Z"
   },
   {
+    "repo": "eldermoraes/quarkus-agentic-scaffolding",
+    "name": "quarkus-agentic-scaffolding",
+    "description": "Scaffolding skill + always-on conventions (CLAUDE.md/AGENTS.md) for Quarkus + LangChain4j agentic AI apps: AI services, multi-agent workflows, and RAG. Installable in Claude Code, Codex, Copilot, Cursor, and any Agent Skills-compatible agent.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex-skills",
+      "developer-tools",
+      "gemini-cli-extension",
+      "java",
+      "langchain4j",
+      "llm",
+      "ollama",
+      "quarkus",
+      "rag",
+      "scaffolding",
+      "templates"
+    ],
+    "stars": 26,
+    "lastPush": "2026-08-11T19:27:44Z"
+  },
+  {
     "repo": "wrsmith108/varlock-claude-skill",
     "name": "varlock-claude-skill",
     "description": "Claude Code skill for secure environment variable management with Varlock. Never expose secrets in Claude sessions.",
@@ -15990,6 +16034,35 @@
     "lastPush": "2026-08-08T22:22:34Z"
   },
   {
+    "repo": "useosint/osint-skills",
+    "name": "osint-skills",
+    "description": "28 OSINT Agent Skills that turn Cursor, Claude & AI coding agents into a full open-source intelligence platform — reconnaissance, attribution, GEOINT, breach checks & due diligence. Ethical, sourced, passive-first.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-skills",
+      "cursor",
+      "cursor-skills",
+      "cybersecurity",
+      "digital-forensics",
+      "due-diligence",
+      "geoint",
+      "information-gathering",
+      "infosec",
+      "investigation",
+      "open-source-intelligence",
+      "osint",
+      "osint-tools",
+      "pentesting",
+      "reconnaissance",
+      "socmint",
+      "threat-intelligence"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-03T00:38:10Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -16605,6 +16678,20 @@
     ],
     "stars": 11,
     "lastPush": "2026-07-30T02:07:25Z"
+  },
+  {
+    "repo": "ama-zingco/anti-ai-writing-skill",
+    "name": "anti-ai-writing-skill",
+    "description": "A skill that removes common AI writing tells, based on published AI-detection research",
+    "tags": [
+      "ai-writing",
+      "anthropic-claude",
+      "claude",
+      "claude-skills",
+      "skills"
+    ],
+    "stars": 11,
+    "lastPush": "2026-08-06T20:14:04Z"
   },
   {
     "repo": "umutbozdag/agent-skills-manager",
@@ -21464,6 +21551,35 @@
     "lastPush": "2026-08-09T00:17:00Z"
   },
   {
+    "repo": "novoads/claude-code-ads",
+    "name": "claude-code-ads",
+    "description": "Claude Code skills to generate AI video ads, UGC ads, and image ads. The official Novoads skill pack (REST API + MCP).",
+    "tags": [
+      "agent-skills",
+      "ai-ads",
+      "ai-agents",
+      "ai-marketing",
+      "ai-video",
+      "anthropic",
+      "arcads-alternative",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "image-generation",
+      "mcp",
+      "meta-ads",
+      "ugc",
+      "ugc-ads",
+      "video-ads",
+      "video-generation"
+    ],
+    "stars": 5,
+    "lastPush": "2026-08-12T01:09:36Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -22832,6 +22948,32 @@
     "lastPush": "2026-08-04T07:13:02Z"
   },
   {
+    "repo": "forger-labs-hq/researchforge",
+    "name": "researchforge",
+    "description": "Autonomous AI agent & benchmarking CLI for Claude Code and Cursor. Build, validate, and ship research hypotheses repos — entirely locally.",
+    "tags": [
+      "ai-agents",
+      "automated-benchmarking",
+      "automated-build",
+      "autonomous-research",
+      "autonomous-researcher",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "cursor-ide",
+      "cursor-ide-mcp",
+      "dashboard",
+      "hypothesis-testing",
+      "llm-agent",
+      "llm-tools",
+      "llmops",
+      "mcp-server",
+      "python3"
+    ],
+    "stars": 4,
+    "lastPush": "2026-08-11T06:49:40Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -23815,6 +23957,21 @@
     ],
     "stars": 3,
     "lastPush": "2026-08-08T12:47:58Z"
+  },
+  {
+    "repo": "djfksjd/cover-letter-team",
+    "name": "cover-letter-team",
+    "description": "한국 취준생 자소서 작성 멀티 에이전트 Claude Code 스킬 심층 인터뷰로 소재 발굴, 경험카드·claim-map으로 날조 차단, 사용자 문체 반영",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "cover-letter",
+      "jasoseo",
+      "korean"
+    ],
+    "stars": 3,
+    "lastPush": "2026-07-20T06:00:31Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -25827,6 +25984,53 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-09T16:27:11Z"
+  },
+  {
+    "repo": "codyte/tia-portal-cli",
+    "name": "Tia-Portal-CLI",
+    "description": "Drive Siemens TIA Portal from the command line via Openness - 77 verbs, JSON in and JSON out. Built for AI agents and engineers who prefer a terminal over ClickOps.",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "claudeskills",
+      "cli",
+      "openness",
+      "plc",
+      "siemens",
+      "siemens-plc",
+      "siemens-s7-plcs",
+      "tia",
+      "tia-portal",
+      "tiaportal",
+      "v19",
+      "v20",
+      "v21"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-11T19:30:49Z"
+  },
+  {
+    "repo": "tabarc-code/deweygraph-file-organizer",
+    "name": "Deweygraph-file-organizer",
+    "description": "One skill with internal modular reasoning for Claude. Work in progress It uses the Dewey Decimal System t tag files in a folder so CLaude and other Ai can sort and understand quickly.",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-desktop",
+      "claude-skills",
+      "dewey-decimal",
+      "dewey-decimal-classification",
+      "dewey-system",
+      "deweydecimalclassification"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-02T16:30:03Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -32097,6 +32301,42 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-11T01:11:49Z"
+  },
+  {
+    "repo": "erkan3034/aegis",
+    "name": "aegis",
+    "description": "Production-Grade Red-Team Security Auditor & Vulnerability Scanner Skill for AI Coding Assistants (Claude Code, Cursor, Antigravity, Windsurf)",
+    "tags": [
+      "agent-skills",
+      "ai-skill",
+      "antigravity-skill",
+      "appsec",
+      "claude-code-skill",
+      "code-review",
+      "cursor-rules",
+      "cybersecurity",
+      "owasp",
+      "penetration-testing",
+      "red-team",
+      "security-audit",
+      "vulnerability-scanner",
+      "windsurf-rules",
+      "zero-trustai-security"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-28T11:04:35Z"
+  },
+  {
+    "repo": "felixofabio/dig-deeper",
+    "name": "dig-deeper",
+    "description": "A Claude Code skill that turns a real personal experience into authentic social media content, through a guided interview.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-08T03:09:20Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
