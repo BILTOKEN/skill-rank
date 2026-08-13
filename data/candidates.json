@@ -10283,6 +10283,22 @@
     "lastPush": "2025-11-07T09:56:55Z"
   },
   {
+    "repo": "avgvstvs96/better-github-skill",
+    "name": "better-github-skill",
+    "description": "Optimized GitHub skill for coding agents: fewer tool calls, less context burned, lower cost, faster answers. One bounded call each for PR state, review threads, and CI failures.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "gh-cli",
+      "github-cli",
+      "skills"
+    ],
+    "stars": 37,
+    "lastPush": "2026-08-11T22:06:02Z"
+  },
+  {
     "repo": "lsnackerman/raw-clauding-skills",
     "name": "raw-clauding-skills",
     "description": "workflows for compound thinking with AI",
@@ -13740,6 +13756,29 @@
     "lastPush": "2026-08-03T10:57:23Z"
   },
   {
+    "repo": "agentii-ai/agentii-investment-intelligence",
+    "name": "agentii-investment-intelligence",
+    "description": "Claude-type skills for institutional equity research — 25 AI agent skills with SEC   filings, XBRL financials, earnings calendars, DCF/comps/LBO models, and PPT   generation. Powered by agentii.ai data plane. Works with Claude Code, OpenCode,   Codex, OpenClaw, Goose.",
+    "tags": [
+      "agent-skills",
+      "agentii-ai",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cowork",
+      "dcf",
+      "equity-research",
+      "goose",
+      "industry-analysis",
+      "opencode",
+      "sec-filings",
+      "xbrl"
+    ],
+    "stars": 17,
+    "lastPush": "2026-06-15T12:06:12Z"
+  },
+  {
     "repo": "ethos-link/rails-conventions",
     "name": "rails-conventions",
     "description": "Standard SKILL-convention Rails skill",
@@ -14466,6 +14505,53 @@
     ],
     "stars": 15,
     "lastPush": "2026-07-22T17:03:53Z"
+  },
+  {
+    "repo": "getcargohq/cargo-skills",
+    "name": "cargo-skills",
+    "description": "GTM engineering skills for AI coding agents — build lead lists, find & verify emails, waterfall enrichment, lead scoring, CRM sync, and buying-signal monitoring (job changes, funding, tech intent) from Claude Code, Codex, or Cursor. Powered by the Cargo CLI: 138 integrations, 50 data providers.",
+    "tags": [
+      "agent-plugins",
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "crm",
+      "cursor",
+      "data-enrichment",
+      "email-finder",
+      "gemini-cli-extension",
+      "go-to-market",
+      "gtm",
+      "lead-enrichment",
+      "outbound",
+      "prospecting",
+      "revops",
+      "sales-automation",
+      "skills-sh"
+    ],
+    "stars": 15,
+    "lastPush": "2026-08-13T02:03:41Z"
+  },
+  {
+    "repo": "jellybrick/korean-prose-skill",
+    "name": "korean-prose-skill",
+    "description": "이상한 해요체는 이제 그만...!! 한국어 작성 및 교정 스킬",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "antigravity",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "gemini",
+      "korean",
+      "skills"
+    ],
+    "stars": 15,
+    "lastPush": "2026-08-13T01:49:34Z"
   },
   {
     "repo": "adelaidasofia/ai-brain-starter",
@@ -16692,6 +16778,19 @@
     ],
     "stars": 11,
     "lastPush": "2026-08-06T20:14:04Z"
+  },
+  {
+    "repo": "kraayenjon/agent-skills-es",
+    "name": "agent-skills-es",
+    "description": "Lista curada de skills para agentes de IA, explicadas en español: qué hace cada una, para qué sirve y cómo instalarla. Compatible con Claude Code, Codex, Cursor, Gemini CLI y OpenCode.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "skills"
+    ],
+    "stars": 11,
+    "lastPush": "2026-08-07T13:07:39Z"
   },
   {
     "repo": "umutbozdag/agent-skills-manager",
@@ -22974,6 +23073,22 @@
     "lastPush": "2026-08-11T06:49:40Z"
   },
   {
+    "repo": "jiayx01/codex-claude-skills",
+    "name": "codex-claude-skills",
+    "description": "Two Claude Code Skills for Codex collaboration: execution delegation discipline + plan co-creation discipline, avoiding context pollution and false second opinions in dual-model workflows",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "codex",
+      "multi-agent",
+      "openai-codex"
+    ],
+    "stars": 4,
+    "lastPush": "2026-08-12T09:51:39Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -26031,6 +26146,37 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-02T16:30:03Z"
+  },
+  {
+    "repo": "okokjai/claude-reasoning",
+    "name": "claude-reasoning",
+    "description": "Graph-based reasoning pipeline for Claude Code — structured contracts × DAG orchestration",
+    "tags": [
+      "ai-agent",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "mcp-client",
+      "reasoning-engine",
+      "reasoning-engines",
+      "sequential-thinking",
+      "structured-prompts"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-13T02:31:54Z"
+  },
+  {
+    "repo": "jielosc/taoci-letter",
+    "name": "taoci-letter",
+    "description": "🎓 保研/申研个性化套磁信生成器 | An AI agent skill for generating highly personalized cold emails for grad school applications. It automatically crawls professor profiles to match your background, ensuring sincere and relevant outreach.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code-skill",
+      "codex-skill"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-16T14:31:51Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -32337,6 +32483,125 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-08T03:09:20Z"
+  },
+  {
+    "repo": "shreyas-s-rao/vislide",
+    "name": "vislide",
+    "description": "VISlide: a Claude Code skill and plugin to build animated, infographic-rich HTML slide decks — single-file presentations with step-by-step reveals, animated SVG diagrams, a synced presenter view with speaker notes and countdown timers, and a thumbnail overview. A PowerPoint / reveal.js alternative for AI-assisted, code-driven presentations.",
+    "tags": [
+      "ai-agent",
+      "anthropic-claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "data-visualization",
+      "developer-tools",
+      "html-presentation",
+      "infographics",
+      "no-build",
+      "powerpoint-alternative",
+      "presentation",
+      "presentation-template",
+      "presenter-notes",
+      "reveal-js-alternative",
+      "single-file",
+      "slide-deck",
+      "slides",
+      "slideshow",
+      "svg-animation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-12T12:47:29Z"
+  },
+  {
+    "repo": "zinglam0924/thinking-toolkit",
+    "name": "thinking-toolkit",
+    "description": "9+15 thinking tools distilled from real work: 6 Hats, SMART, 5W2H, First Principles, Pyramid Principle, and more.",
+    "tags": [
+      "claude-code-skill",
+      "decision-making",
+      "methodology",
+      "problem-solving",
+      "thinking-models"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-28T08:02:52Z"
+  },
+  {
+    "repo": "getcassis/skills",
+    "name": "skills",
+    "description": "Agent skills for working with Cassis: author and maintain your ontology in git, and query your data through MCP.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "analytics-engineering",
+      "cassis",
+      "claude-code",
+      "claude-code-skill",
+      "mcp",
+      "ontology",
+      "semantic-layer"
+    ],
+    "stars": 1,
+    "lastPush": "2026-07-30T14:58:40Z"
+  },
+  {
+    "repo": "chaosx-space/god-of-the-void",
+    "name": "god-of-the-void",
+    "description": "A Claude Code skill with a BODY: persistent memory across sessions, ~0-token semantic search, an errarium that ambushes you before you repeat a bug, caged autonomy, and a local dashboard. 16 organs · 54 commands · 1,650 tests · zero dependencies.",
+    "tags": [
+      "agent-memory",
+      "ai-agent",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "cli",
+      "dashboard",
+      "developer-tools",
+      "fts5",
+      "knowledge-base",
+      "llm-tools",
+      "obsidian-alternative",
+      "persistent-memory",
+      "productivity",
+      "second-brain",
+      "semantic-search",
+      "sqlite",
+      "zero-dependencies"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-01T02:56:14Z"
+  },
+  {
+    "repo": "zyeri/claude-snapshot",
+    "name": "claude-snapshot",
+    "description": "Back up, restore, and diff your Claude Code configuration across machines and OSes — secret-free, no dependencies.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-06T01:49:52Z"
+  },
+  {
+    "repo": "easypay-labs/easypay-skill",
+    "name": "easypay-skill",
+    "description": "EasyPay AI Skill — natural language payment processing via MCP (Stripe, Mercury, Crypto, T-Bank)",
+    "tags": [
+      "ai-agent",
+      "claude-code-skill",
+      "easypay",
+      "mcp",
+      "payments",
+      "skill",
+      "stripe"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-06T15:36:17Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

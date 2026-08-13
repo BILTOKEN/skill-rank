@@ -2037,11 +2037,11 @@
     "backTranslationDiff": 0.8
   },
   "nextlevelbuilder/ui-ux-pro-max-skill": {
-    "sourceHash": "f6317b3797ca7eaf",
-    "chineseDescription": "一个 AI SKILL，提供设计智能（design intelligence），用于构建专业的 UI/UX 多平台应用。【使用场景】适用于需要快速搭建专业 UI/UX 设计的开发者或设计师。",
-    "prompt": "请从 https://github.com/nextlevelbuilder/ui-ux-pro-max-skill 下载 ui-ux-pro-max-skill 文件，并保存到 .claude/skills/ui-ux-pro-max-skill/ 目录完成安装。",
-    "translatedAt": "2026-05-24T08:09:58.807Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "cbf1ccdfb3bcda40",
+    "chineseDescription": "一个为多平台构建专业 UI/UX 提供设计智能的 AI 技能。",
+    "prompt": "请从 https://github.com/nextlevelbuilder/ui-ux-pro-max-skill 下载该技能文件，并保存到 .claude/skills/ui-ux-pro-max-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-08-13T03:19:15.013Z",
+    "backTranslationDiff": 0.09090909090909094
   },
   "farion1231/cc-switch": {
     "sourceHash": "3773858d334e12cf",
@@ -3388,10 +3388,10 @@
     "backTranslationDiff": 0.4
   },
   "talkstream/ru-text": {
-    "sourceHash": "9a8414ed3c5cb06e",
-    "chineseDescription": "俄语文本质量优化工具（ru-text）——为 AI 代理提供俄语文本质量提升，包括去除神经废话（neuroslop）、排版规范、信息风格、编辑标准、UX 文案、商务信函等。包含 2,000+ 语言原子，按需加载。【使用场景】当你的 AI 代理需要生成或优化高质量俄语文本时使用。",
-    "prompt": "请安装 ru-text 技能。从 https://github.com/talkstream/ru-text 下载所有文件，保存到 .claude/skills/ru-text/ 目录。安装完成后，该技能将提供俄语文本质量优化功能，包括神经废话清理、排版规范、信息风格、编辑标准、UX 文案和商务信函写作支持。请确保所有文件完整下载并正确放置。",
-    "translatedAt": "2026-07-31T04:11:43.136Z",
+    "sourceHash": "7e2fccd6e99cec28",
+    "chineseDescription": "ru-text 技能——面向 AI 代理的俄语文本质量优化：消除神经废话（neuroslop）、排版规范、信息风格、编辑标准、UX 文案、商务信函。为文本打分（0–10 分）。包含 2,000+ 语言原子（linguistic atoms）。",
+    "prompt": "请从 https://github.com/talkstream/ru-text 下载 ru-text 技能文件，并将其保存到 .claude/skills/ru-text/ 目录中，完成安装。安装后，该技能将用于优化俄语文本质量，包括消除神经废话、规范排版、调整信息风格、符合编辑标准、优化 UX 文案和商务信函，并为文本打分（0–10 分）。",
+    "translatedAt": "2026-08-13T03:19:20.035Z",
     "backTranslationDiff": 0.9473684210526316
   },
   "digidai/product-manager-skills": {
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "881282a73556b762",
-    "chineseDescription": "这是一个面向 AI 代理的 Skill：能够从俄语文本中识别并去除机器生成的痕迹——包含 37 种模式、38 个正则表达式标记以及证据登记表 | 俄语 AI 写作人性化处理 Skill",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该 Skill 的文件，并将其保存到 .claude/skills/humanizer-ru/ 目录中，以完成安装。安装后，该 Skill 将能够处理俄语文本，识别并消除机器生成的痕迹。",
-    "translatedAt": "2026-08-09T02:52:30.216Z",
-    "backTranslationDiff": 1
+    "sourceHash": "7b08cc0bf991d4ba",
+    "chineseDescription": "这是一个面向 AI 代理（agent）的技能（skill）：从俄语文本中识别并去除机器生成的痕迹——包含 38 种模式（pattern）、38 个正则表达式（regex）标记，以及一份证据登记表。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能（skill）文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装完成后，请确认该技能已就绪，并简要说明其用途。",
+    "translatedAt": "2026-08-13T03:19:25.224Z",
+    "backTranslationDiff": 0.8823529411764706
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7964,5 +7964,12 @@
     "prompt": "暂无提示词",
     "translatedAt": "2026-08-12T03:11:24.292Z",
     "backTranslationDiff": 1
+  },
+  "avgvstvs96/better-github-skill": {
+    "sourceHash": "9cacad53f624f0ed",
+    "chineseDescription": "针对编码代理优化的 GitHub 技能（Skill）：更少的工具调用（tool calls）、更少的上下文消耗（context burn）、更低的成本、更快的回答。每次只做一次有边界的调用（bounded call），分别处理 PR 状态（PR state）、评审线程（review threads）和 CI 失败（CI failures）。",
+    "prompt": "请从 https://github.com/avgvstvs96/better-github-skill 下载该技能（Skill）的所有文件，并保存到 .claude/skills/better-github-skill/ 目录下，完成安装。安装后，该技能将优化 GitHub 相关操作，减少工具调用次数和上下文消耗，提升效率。",
+    "translatedAt": "2026-08-13T03:19:30.973Z",
+    "backTranslationDiff": 0.2272727272727273
   }
 }
