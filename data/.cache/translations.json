@@ -7971,5 +7971,19 @@
     "prompt": "请从 https://github.com/avgvstvs96/better-github-skill 下载该技能（Skill）的所有文件，并保存到 .claude/skills/better-github-skill/ 目录下，完成安装。安装后，该技能将优化 GitHub 相关操作，减少工具调用次数和上下文消耗，提升效率。",
     "translatedAt": "2026-08-13T03:19:30.973Z",
     "backTranslationDiff": 0.2272727272727273
+  },
+  "titanwings/colleague-skill": {
+    "sourceHash": "2ad268cc84ab6bf0",
+    "chineseDescription": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！告别不再是终点，而是新生的开始。🫶",
+    "prompt": "请从 https://github.com/titanwings/colleague-skill 下载该 Skill 的所有文件，并将其保存到 .claude/skills/colleague-skill/ 目录下，完成安装。安装后，该 Skill 将把冰冷的离别转化为温暖的体验，欢迎加入数字生命1.0！",
+    "translatedAt": "2026-08-14T03:01:18.744Z",
+    "backTranslationDiff": 1
+  },
+  "leutenegger/book-to-skill": {
+    "sourceHash": "3d3ce66fc2535479",
+    "chineseDescription": "把任意技术书籍 PDF 转成 Claude Code skill（技能）——装好后随时可以学习、查阅，并在工作中直接使用。",
+    "prompt": "请帮我安装一个名为 book-to-skill 的 Claude Code skill。请前往 GitHub 仓库 https://github.com/leutenegger/book-to-skill 下载该 skill 的所有文件，并将其保存到 .claude/skills/book-to-skill/ 目录下，完成安装。安装完成后，请确认文件已就位，并简要说明该 skill 的用途和使用方法。",
+    "translatedAt": "2026-08-14T03:01:27.509Z",
+    "backTranslationDiff": 0.6666666666666667
   }
 }

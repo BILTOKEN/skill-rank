@@ -14420,6 +14420,36 @@
     }
   },
   {
+    "repo": "titanwings/colleague-skill",
+    "name": "colleague-skill",
+    "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+    "description_zh": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！告别不再是终点，而是新生的开始。🫶",
+    "description_en": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+    "prompt": "请从 https://github.com/titanwings/colleague-skill 下载该 Skill 的所有文件，并将其保存到 .claude/skills/colleague-skill/ 目录下，完成安装。安装后，该 Skill 将把冰冷的离别转化为温暖的体验，欢迎加入数字生命1.0！",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "dsh-plugin",
+      "hermes-agent",
+      "knowledge-distillation",
+      "meta-skill",
+      "openclaw",
+      "skill-generator"
+    ],
+    "metrics": {
+      "stars_total": 21370,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 4,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "vasilyu1983/ai-agents-public",
     "name": "AI-Agents-public",
     "description": "Production-grade agent skills and Custom GPT prompts for ChatGPT, Claude Code, and Codex. 140 skills, 28 agents, Agent Skills spec compliant.",
@@ -14725,6 +14755,45 @@
     }
   },
   {
+    "repo": "leutenegger/book-to-skill",
+    "name": "book-to-skill",
+    "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "description_zh": "把任意技术书籍 PDF 转成 Claude Code skill（技能）——装好后随时可以学习、查阅，并在工作中直接使用。",
+    "description_en": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+    "prompt": "请帮我安装一个名为 book-to-skill 的 Claude Code skill。请前往 GitHub 仓库 https://github.com/leutenegger/book-to-skill 下载该 skill 的所有文件，并将其保存到 .claude/skills/book-to-skill/ 目录下，完成安装。安装完成后，请确认文件已就位，并简要说明该 skill 的用途和使用方法。",
+    "tags": [
+      "agent",
+      "agent-memory",
+      "agent-skill",
+      "agent-skills",
+      "agentic",
+      "agentic-ai",
+      "agents",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "github-copilot",
+      "pdf",
+      "pdf-document",
+      "pdf-generation",
+      "pdf-parser",
+      "pdf-tools",
+      "pdf-viewer",
+      "skill-generator"
+    ],
+    "metrics": {
+      "stars_total": 1031,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "monte-carlo-data/mc-agent-toolkit",
     "name": "mc-agent-toolkit",
     "description": "Official Monte Carlo toolkit for AI coding agents. Skills and plugins that bring data and agent observability — monitoring, triaging, troubleshooting, health checks  — into Claude Code, Cursor, and more.",
@@ -14785,32 +14854,6 @@
       "issues_closed": 0,
       "issue_comments": 0,
       "commits_this_week": 2,
-      "last_push": ""
-    }
-  },
-  {
-    "repo": "mmthebest/research-architect",
-    "name": "Research-Architect",
-    "description": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
-    "description_zh": "一个端到端的研究工作流技能，帮你把想法变成有证据支持、有引用的手稿草稿",
-    "description_en": "An end-to-end research workflow skill for turning ideas into evidence-backed, citation-supported manuscript drafts",
-    "prompt": "请从 https://github.com/mmthebest/research-architect 下载 Research-Architect 技能文件，并将其保存到 .claude/skills/research-architect/ 目录中，完成安装。",
-    "tags": [
-      "academic-writing",
-      "claude-skills",
-      "research",
-      "research-assistant",
-      "research-methodology",
-      "research-workflows",
-      "scientific-writing"
-    ],
-    "metrics": {
-      "stars_total": 29,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 6,
       "last_push": ""
     }
   },
