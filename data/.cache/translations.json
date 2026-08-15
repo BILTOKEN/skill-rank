@@ -6048,11 +6048,11 @@
     "backTranslationDiff": 0.5714285714285714
   },
   "waybarrios/opencode-power-pack": {
-    "sourceHash": "ed78ef96886fc58a",
-    "chineseDescription": "45个严谨的skills，适用于Codex、OpenCode和Pi：代码审查、安全审计、功能开发、前端设计、MCP工具、Hugging Face机器学习/训练等。【使用场景】当用户需要为Claude Code安装一套涵盖代码审查、安全审计、前端设计、机器学习等多领域的技能包时使用。",
-    "prompt": "请从 https://github.com/waybarrios/opencode-power-pack 下载该技能包，并将所有文件保存到 .claude/skills/opencode-power-pack/ 目录下，完成安装。该技能包包含45个技能，涵盖代码审查、安全审计、功能开发、前端设计、MCP工具、Hugging Face机器学习/训练等领域。",
-    "translatedAt": "2026-08-03T04:12:44.843Z",
-    "backTranslationDiff": 1
+    "sourceHash": "20386a53daab66d0",
+    "chineseDescription": "opencode-power-pack 是一个包含54个严谨技能的工具包，适用于 Codex、OpenCode 和 Pi，涵盖代码审查、安全审计、功能开发、前端设计、MCP 工具、Hugging Face 机器学习/训练等场景。",
+    "prompt": "请从 https://github.com/waybarrios/opencode-power-pack 下载该仓库的全部内容，并将其保存到 .claude/skills/opencode-power-pack/ 目录下，完成安装。安装后，请确认技能文件已正确放置，并简要说明其中包含的技能类型。",
+    "translatedAt": "2026-08-15T02:10:41.866Z",
+    "backTranslationDiff": 0.9411764705882353
   },
   "marianfoo/sap-ai-mcp-servers": {
     "sourceHash": "695088e569d7d410",
@@ -6566,11 +6566,11 @@
     "backTranslationDiff": 0.1333333333333333
   },
   "juliusbrussee/cavekit": {
-    "sourceHash": "514820641fa0cb20",
-    "chineseDescription": "一个 Claude Code 插件，能把自然语言变成蓝图，蓝图变成并行构建计划，再通过自动迭代、验证和跨模型同行评审，最终生成可工作的软件。",
-    "prompt": "请从 https://github.com/juliusbrussee/cavekit 下载 cavekit 插件，并将文件保存到 .claude/skills/cavekit/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:48:59.274Z",
-    "backTranslationDiff": 0.08695652173913049
+    "sourceHash": "3a623caab9d92349",
+    "chineseDescription": "Frozen — 为 Claude Code 设计的压缩规格驱动开发插件。仍然可用；活跃开发已迁移至 JuliusBrussee/caveman。【使用场景】当用户需要安装或了解 cavekit 插件时使用。",
+    "prompt": "请从 https://github.com/juliusbrussee/cavekit 下载该插件的所有文件，并将其保存到 .claude/skills/cavekit/ 目录中，以完成安装。安装后，请确认文件已正确放置，并告知用户该插件已准备就绪。",
+    "translatedAt": "2026-08-15T02:10:34.819Z",
+    "backTranslationDiff": 0.8333333333333334
   },
   "astro-han/karpathy-llm-wiki": {
     "sourceHash": "b3b92881fc554cef",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "7b08cc0bf991d4ba",
-    "chineseDescription": "这是一个面向 AI 代理（agent）的技能（skill）：从俄语文本中识别并去除机器生成的痕迹——包含 38 种模式（pattern）、38 个正则表达式（regex）标记，以及一份证据登记表。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能（skill）文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装完成后，请确认该技能已就绪，并简要说明其用途。",
-    "translatedAt": "2026-08-13T03:19:25.224Z",
-    "backTranslationDiff": 0.8823529411764706
+    "sourceHash": "a533ec1bf74d48ac",
+    "chineseDescription": "这是一个面向 AI 代理的技能：自动检测并清除俄语文本中的机器生成痕迹。内置 38 种模式、39 个带证据登记表的正则标记器、盲配对运行，以及文件层级的 C2PA/EXIF/XMP 元数据清理功能。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该技能的全部文件，并保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后即可使用该技能处理俄语文本的拟人化改写。",
+    "translatedAt": "2026-08-15T02:10:47.067Z",
+    "backTranslationDiff": 0.8214285714285714
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7985,5 +7985,19 @@
     "prompt": "请帮我安装一个名为 book-to-skill 的 Claude Code skill。请前往 GitHub 仓库 https://github.com/leutenegger/book-to-skill 下载该 skill 的所有文件，并将其保存到 .claude/skills/book-to-skill/ 目录下，完成安装。安装完成后，请确认文件已就位，并简要说明该 skill 的用途和使用方法。",
     "translatedAt": "2026-08-14T03:01:27.509Z",
     "backTranslationDiff": 0.6666666666666667
+  },
+  "sepinetam/mcp-for-stata": {
+    "sourceHash": "536fedb1a8f1663e",
+    "chineseDescription": "一个用于 Stata 的 MCP 服务器，将 Stata 集成到你的 agent 中。【使用场景】当你想让 Claude Code 直接调用 Stata 执行统计分析时使用。",
+    "prompt": "请帮我安装一个名为 mcp-for-stata 的 Skill。请前往 GitHub 仓库 https://github.com/sepinetam/mcp-for-stata 下载相关文件，并将其保存到 .claude/skills/mcp-for-stata/ 目录下，完成安装。安装完成后，请确认该 Skill 已可用。",
+    "translatedAt": "2026-08-15T02:10:52.028Z",
+    "backTranslationDiff": 0.8333333333333334
+  },
+  "chang416/im-human": {
+    "sourceHash": "fa94c1f2c9fa9308",
+    "chineseDescription": "让 AI 用台湾人的繁体中文说话，并清除已写内容中的 AI 味。适用于 Claude Code、claude.ai、ChatGPT Codex 以及一般聊天场景。",
+    "prompt": "请安装 im-human skill。这是一个让 AI 用台湾人的繁体中文说话，并清除文字中 AI 味的技能。请从 GitHub 仓库 https://github.com/chang416/im-human 下载文件，并保存到 .claude/skills/im-human/ 目录中完成安装。",
+    "translatedAt": "2026-08-15T02:10:56.327Z",
+    "backTranslationDiff": 1
   }
 }

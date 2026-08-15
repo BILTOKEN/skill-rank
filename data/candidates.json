@@ -5715,6 +5715,32 @@
     "lastPush": "2026-06-03T07:24:09Z"
   },
   {
+    "repo": "sepinetam/mcp-for-stata",
+    "name": "mcp-for-stata",
+    "description": "A MCP server for Stata to integrate Stata into your agent. ",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "codex",
+      "codex-plugin",
+      "dsh-plugin",
+      "dsh-plugins",
+      "econometrics",
+      "empirical",
+      "empirical-research",
+      "llm",
+      "mcp",
+      "social-science",
+      "social-science-research",
+      "stata",
+      "stata-mcp",
+      "statistical-analysis"
+    ],
+    "stars": 243,
+    "lastPush": "2026-08-14T07:13:54Z"
+  },
+  {
     "repo": "axtonliu/ai-pair",
     "name": "ai-pair",
     "description": "Coordinate multiple AI models (Claude + GPT + Gemini) as a heterogeneous team. One creates, two review. A Claude Code Skill.",
@@ -9511,6 +9537,22 @@
     ],
     "stars": 49,
     "lastPush": "2026-07-13T14:26:13Z"
+  },
+  {
+    "repo": "chang416/im-human",
+    "name": "im-human",
+    "description": "讓 AI 用台灣人的繁體中文講話，並把已寫好的文字清掉 AI 味。Claude Code、claude.ai、ChatGPT Codex 與一般聊天都能用。",
+    "tags": [
+      "aiwriting",
+      "chatgpt",
+      "claude-skills",
+      "codex",
+      "prompt-engineering",
+      "taiwan",
+      "traditional-chinese"
+    ],
+    "stars": 49,
+    "lastPush": "2026-08-14T03:43:00Z"
   },
   {
     "repo": "sjy051/music-composition",
@@ -16904,6 +16946,25 @@
     "lastPush": "2026-08-08T13:52:58Z"
   },
   {
+    "repo": "tonydzi/clawrush",
+    "name": "clawrush",
+    "description": "Building an AI digital twin in public with Claude Code - English diary, longreads & reusable artifacts. RU version: Telegram @ClawRush.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "build-in-public",
+      "building-in-public",
+      "claude-code",
+      "claude-skills",
+      "devlog",
+      "digital-twin",
+      "llm",
+      "second-brain"
+    ],
+    "stars": 11,
+    "lastPush": "2026-08-14T14:39:50Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -17918,6 +17979,26 @@
     "lastPush": "2026-04-23T09:23:32Z"
   },
   {
+    "repo": "kurone-kito/idd-skill",
+    "name": "idd-skill",
+    "description": "🤖 An automated setup kit for implementing loop engineering based on issue-driven development in your repository; since 2026.5",
+    "tags": [
+      "claude-skills",
+      "codex-skills",
+      "copilot-skills",
+      "development-automation",
+      "grok-build-skills",
+      "idd",
+      "instruction-template",
+      "instructions",
+      "loop-engineering",
+      "opencode-skills",
+      "skills-prompts"
+    ],
+    "stars": 10,
+    "lastPush": "2026-08-14T19:13:13Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -18508,6 +18589,34 @@
     ],
     "stars": 9,
     "lastPush": "2026-08-03T07:37:20Z"
+  },
+  {
+    "repo": "smshahbaj/crucible",
+    "name": "crucible",
+    "description": "Production-ready Claude Code decision intelligence marketplace with adversarial routing, evidence-driven analysis, specialized agents, benchmarks, and automated validation.",
+    "tags": [
+      "adversarial-testing",
+      "ai-agent",
+      "ai-agents",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-marketplace",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "decision-intelligence",
+      "decision-intelligence-systems",
+      "decision-intelligence-tools",
+      "decision-making",
+      "decision-making-system",
+      "llm-agents",
+      "open-source",
+      "opensource"
+    ],
+    "stars": 9,
+    "lastPush": "2026-08-14T19:05:57Z"
   },
   {
     "repo": "agents365-ai/imagen-qwen",
@@ -23200,6 +23309,30 @@
     "lastPush": "2026-08-12T09:51:39Z"
   },
   {
+    "repo": "ting-hong-shieh/polish-open-source-prose",
+    "name": "polish-open-source-prose",
+    "description": "Agent Skill for Claude Code + Codex that edits open-source prose without losing facts or voice. Includes zh-Hant-TW.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "developer-tools",
+      "documentation",
+      "localization",
+      "open-source",
+      "taiwan",
+      "technical-writing",
+      "traditional-chinese",
+      "zh-hant-tw"
+    ],
+    "stars": 4,
+    "lastPush": "2026-08-14T20:10:14Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -26316,6 +26449,33 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-13T09:54:10Z"
+  },
+  {
+    "repo": "ezra-y/academic-pdf-translation",
+    "name": "academic-pdf-translation",
+    "description": "面向 AI Agent 的论文 PDF 翻译 Skill：重建可读、可搜索、可逐页验收的多语言 PDF，支持复杂表格、图表与 Zotero 收尾。",
+    "tags": [
+      "academic-papers",
+      "academic-pdf",
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-skill",
+      "document-translation",
+      "multilingual",
+      "openai-codex",
+      "pdf-processing",
+      "pdf-translation",
+      "python",
+      "research-tools",
+      "skill-md",
+      "translation",
+      "zotero"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-03T12:51:59Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -32786,6 +32946,25 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-13T02:28:06Z"
+  },
+  {
+    "repo": "chndr-3/visualize-skills",
+    "name": "visualize-skills",
+    "description": "Claude Code skill that turns AI-written fixes into a small diagram so vibe coders can actually see what changed and why — instead of trusting a wall of text they didn't write.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "code-review",
+      "developer-tools",
+      "diagram",
+      "documentation",
+      "svg",
+      "vibe-coding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-14T08:44:09Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
