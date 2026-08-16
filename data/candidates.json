@@ -5286,6 +5286,28 @@
     "lastPush": "2026-03-19T12:37:28Z"
   },
   {
+    "repo": "reticlehq/reticle",
+    "name": "reticle",
+    "description": "AI agents can generate code, but they still struggle to understand what they build. Reticle gives them runtime perception of web applications.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "agent-testing",
+      "agent-verification",
+      "ai-testing-tool",
+      "automated-testing",
+      "claude-code",
+      "claude-skills",
+      "playwright-mcp",
+      "proof-layer",
+      "reticle-mcp",
+      "skills-sh",
+      "testing-tool"
+    ],
+    "stars": 305,
+    "lastPush": "2026-08-15T18:41:18Z"
+  },
+  {
     "repo": "zhixiangluo/10xproductivity",
     "name": "10xProductivity",
     "description": "Build your personal AI assistant for work from any coding agent. Connect the tools you use daily with zero infrastructure or IT hassle. Coach your agent, build skills, and automate real work locally.",
@@ -10085,6 +10107,30 @@
     "lastPush": "2026-06-10T04:16:31Z"
   },
   {
+    "repo": "desko77/claude-code-skills-1c",
+    "name": "claude-code-skills-1c",
+    "description": "112 скилов и 35 правил для Claude Code: агент собирает исходники 1С (метаданные, формы, расширения, роли, СКД, обработки) из компактного JSON и разбирает обратно. Базовые операции - без Конфигуратора.",
+    "tags": [
+      "1c",
+      "1c-development",
+      "1c-edt",
+      "1c-enterprise",
+      "ai-agent",
+      "anthropic",
+      "bsl",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "code-generation",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "onec"
+    ],
+    "stars": 41,
+    "lastPush": "2026-08-15T11:18:21Z"
+  },
+  {
     "repo": "heshamfs/materials-simulation-skills",
     "name": "materials-simulation-skills",
     "description": "Agent Skills for computational materials science -- numerical stability, solvers, meshing,   convergence, and simulation workflows.",
@@ -14666,6 +14712,24 @@
     "lastPush": "2026-08-13T01:49:34Z"
   },
   {
+    "repo": "daniellublinsky/skill-atlas",
+    "name": "Skill-Atlas",
+    "description": "Skill-Atlas",
+    "tags": [
+      "ai-agents",
+      "ai-tools",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "python",
+      "skill-development",
+      "skill-management",
+      "skills"
+    ],
+    "stars": 15,
+    "lastPush": "2026-08-15T10:03:03Z"
+  },
+  {
     "repo": "adelaidasofia/ai-brain-starter",
     "name": "ai-brain-starter",
     "description": "The operating system for Claude Code. Memory, accountability, journaling, knowledge graphs, pattern recognition — one install, every session compounds.",
@@ -16963,6 +17027,30 @@
     ],
     "stars": 11,
     "lastPush": "2026-08-14T14:39:50Z"
+  },
+  {
+    "repo": "hanlulong/econ-slides-skill",
+    "name": "econ-slides-skill",
+    "description": "Turn an economics paper into a seminar-ready Beamer talk with a timed speaker script — conference, job-market and discussant slides. Agent Skill for Claude Code & Codex.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "beamer",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "economics",
+      "latex",
+      "presentation",
+      "research-tools",
+      "seminar",
+      "slides"
+    ],
+    "stars": 11,
+    "lastPush": "2026-07-20T01:23:21Z"
   },
   {
     "repo": "umutbozdag/agent-skills-manager",
@@ -24333,6 +24421,24 @@
     "lastPush": "2026-07-20T06:00:31Z"
   },
   {
+    "repo": "remybroun/infographic",
+    "name": "infographic",
+    "description": "A Claude Code skill that turns a document or a topic into a designed visual explainer. 52 block forms, an enforced word budget, and guards that fail the build.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skill",
+      "claude-skills",
+      "dataviz",
+      "dsh-plugin",
+      "infographic",
+      "skills"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-14T10:38:03Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -26476,6 +26582,27 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-03T12:51:59Z"
+  },
+  {
+    "repo": "skywain/trip-planner-skill",
+    "name": "trip-planner-skill",
+    "description": "Claude Code skill for AI trip planning — verified, bookable travel itineraries: hour-by-hour days, real flight prices, offline maps (KML), eight themed renders · 旅行规划 / 行程 / 机票比价",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "flight-search",
+      "itinerary",
+      "itinerary-planner",
+      "kml",
+      "travel",
+      "travel-itinerary",
+      "travel-planner",
+      "trip-planner"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-15T19:38:13Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -32965,6 +33092,25 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-14T08:44:09Z"
+  },
+  {
+    "repo": "cucuwang/aeoptimize",
+    "name": "aeoptimize",
+    "description": "CLI toolkit + Claude Code skills that transform SEO-optimized websites into AI-search-ready content",
+    "tags": [
+      "aeo",
+      "ai-search",
+      "ai-seo",
+      "answer-engine-optimization",
+      "claude-code-skill",
+      "generative-engine-optimization",
+      "json-ld",
+      "llms-txt",
+      "seo",
+      "structured-data"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-15T03:49:59Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

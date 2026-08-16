@@ -5677,11 +5677,11 @@
     "backTranslationDiff": 0.9259259259259259
   },
   "nexu-io/open-design": {
-    "sourceHash": "59c5326c5aa16137",
-    "chineseDescription": "🎨 开源的 Claude Design 替代方案。🖥️ 本地优先的桌面应用。🖼️ 你的编码代理变身设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——生成真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 支持 Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen 及 20+ CLI，自带密钥（BYOK）。",
-    "prompt": "请从 https://github.com/nexu-io/open-design 下载文件，保存到 .claude/skills/open-design/ 目录完成安装。",
-    "translatedAt": "2026-07-08T04:12:39.093Z",
-    "backTranslationDiff": 0.16129032258064513
+    "sourceHash": "1adda5a9d94c05dd",
+    "chineseDescription": "🎨 最佳 DeepSeek Harness 设计插件。开源的 Claude Design 替代方案。🖥️ 本地优先的桌面应用。🖼️ 你的编码代理变成设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 通过 BYOK 支持 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode 及 20+ CLI。",
+    "prompt": "请从 https://github.com/nexu-io/open-design 下载该 Skill 的所有文件，保存到 .claude/skills/open-design/ 目录下，完成安装。安装后请确认文件结构完整，并告知我如何使用。",
+    "translatedAt": "2026-08-16T02:14:02.420Z",
+    "backTranslationDiff": 0.7272727272727273
   },
   "sickn33/antigravity-awesome-skills": {
     "sourceHash": "08bbe49eb71cd430",
@@ -7998,6 +7998,20 @@
     "chineseDescription": "让 AI 用台湾人的繁体中文说话，并清除已写内容中的 AI 味。适用于 Claude Code、claude.ai、ChatGPT Codex 以及一般聊天场景。",
     "prompt": "请安装 im-human skill。这是一个让 AI 用台湾人的繁体中文说话，并清除文字中 AI 味的技能。请从 GitHub 仓库 https://github.com/chang416/im-human 下载文件，并保存到 .claude/skills/im-human/ 目录中完成安装。",
     "translatedAt": "2026-08-15T02:10:56.327Z",
+    "backTranslationDiff": 1
+  },
+  "reticlehq/reticle": {
+    "sourceHash": "5bf0212da4bfa022",
+    "chineseDescription": "AI 代理（agent）能生成代码，但很难理解自己构建的东西。Reticle 让它们获得 Web 应用的运行时感知（runtime perception）。【使用场景】当 AI 代理需要实时理解或调试 Web 应用时，安装此技能可增强其运行时感知能力。",
+    "prompt": "请从 https://github.com/reticlehq/reticle 下载该技能文件，并将其保存到 .claude/skills/reticle/ 目录中，完成安装。安装后，我将能够利用 Reticle 的运行时感知能力来更好地理解和调试 Web 应用。",
+    "translatedAt": "2026-08-16T02:14:06.721Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "desko77/claude-code-skills-1c": {
+    "sourceHash": "6142880d1de0c5f4",
+    "chineseDescription": "112个技能和35条规则，用于Claude Code：代理从紧凑的JSON中收集1C源代码（元数据、表单、扩展、角色、SKD、处理），并解析回去。基本操作无需配置器。",
+    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载技能文件，并保存到 .claude/skills/claude-code-skills-1c/ 目录。安装完成后，确认技能已就绪。",
+    "translatedAt": "2026-08-16T02:14:10.954Z",
     "backTranslationDiff": 1
   }
 }
