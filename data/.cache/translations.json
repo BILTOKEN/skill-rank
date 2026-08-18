@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "863815a9f668e091",
-    "chineseDescription": "Claude Skills 治理、风险与合规（GRC）：针对 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、澳大利亚 ISM、EU NIS2、CCPA/CPRA 等标准的专家级合规指导。基准测试：启用技能后准确率 97%，未启用则为 81%。",
-    "prompt": "请从 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载所有文件，并保存到 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下，完成安装。",
-    "translatedAt": "2026-06-22T18:28:01.340Z",
-    "backTranslationDiff": 0.2571428571428571
+    "sourceHash": "0cf3500d4499203f",
+    "chineseDescription": "Claude 治理、风险与合规（GRC）技能：为 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险、SWIFT、CCPA/CPRA 等提供专家级合规指导。基准测试：使用技能时准确率 93%，不使用时为 79%。每月更新。",
+    "prompt": "请从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载 Claude-Skills-Governance-Risk-and-Compliance 技能文件，并将其保存到 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下，完成安装。安装后，请确认技能可用，并简要说明该技能的功能。",
+    "translatedAt": "2026-08-18T02:08:43.179Z",
+    "backTranslationDiff": 0.9705882352941176
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -7469,10 +7469,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "anbeime/skill": {
-    "sourceHash": "c0447bd3d1038f01",
-    "chineseDescription": "收录最全、更新最快的技能Skills商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的72个精选技能包。所有技能已打包完成，可直接安装使用！该商店自动抓取了GitHub上的所有Skills项目，并按照分类、更新时间、Star数量等标签进行整理。【使用场景】快速查找和安装社区贡献的Claude Code技能包，覆盖常见开发与创作场景。",
-    "prompt": "请从 https://github.com/anbeime/skill 下载整个仓库，并将所有文件保存到 .claude/skills/skill/ 目录下，完成安装。",
-    "translatedAt": "2026-06-06T09:41:42.780Z",
+    "sourceHash": "4ce2902bde501dbd",
+    "chineseDescription": "收录最全、更新最快的技能Skills商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的416个精选技能包。所有技能已打包完成，可直接安装使用！该商店自动抓取了GitHub上所有的Skills项目，并按照分类、更新时间、Star数量等标签进行整理。",
+    "prompt": "请从 https://github.com/anbeime/skill 下载这个技能商店仓库，将其内容保存到 .claude/skills/skill/ 目录下，完成安装。安装后即可使用其中收录的416个精选技能包，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域。仓库会自动抓取GitHub上所有Skills项目，并按分类、更新时间、Star数量等标签整理，方便查找和使用。",
+    "translatedAt": "2026-08-18T02:08:36.755Z",
     "backTranslationDiff": 0.7777777777777778
   },
   "plugin87/ux-ui-agent-skills": {
