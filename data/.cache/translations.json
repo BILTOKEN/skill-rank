@@ -4844,11 +4844,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "oliver-kriska/claude-elixir-phoenix": {
-    "sourceHash": "a4a6606d7990a0c7",
-    "chineseDescription": "Claude Code 的 Elixir/Phoenix/LiveView 插件——包含 20 个专业 agent、Iron Laws 强制规则和 Tidewave MCP 集成。通过并行研究 agent 规划功能，自动验证执行，4 个 agent 并行审计审查，并将学习成果捕获为可复用的知识。",
-    "prompt": "请从 https://github.com/oliver-kriska/claude-elixir-phoenix 下载所有文件，并保存到 .claude/skills/claude-elixir-phoenix/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:03:57.989Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "e504c6a850353c45",
+    "chineseDescription": "Claude Code 的 Elixir/Phoenix/LiveView 插件——包含 26 个专业 agent、Iron Laws 规则强制和 Tidewave MCP 集成。用并行研究 agent 规划功能，自动验证执行，4-agent 并行审计审查，并把学习成果沉淀为可复用知识。【使用场景】在 Elixir/Phoenix/LiveView 项目中，需要规划、开发、审查和知识管理一体化时使用。",
+    "prompt": "请从 https://github.com/oliver-kriska/claude-elixir-phoenix 下载该 Skill 的所有文件，保存到 .claude/skills/claude-elixir-phoenix/ 目录下，完成安装。安装后我会自动识别并使用其中的 26 个 agent 和 Iron Laws 规则。",
+    "translatedAt": "2026-08-19T02:17:04.993Z",
+    "backTranslationDiff": 0.8076923076923077
   },
   "matlab/agent-skills-playground": {
     "sourceHash": "3ed2d3ec89317623",
@@ -8013,5 +8013,19 @@
     "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载技能文件，并保存到 .claude/skills/claude-code-skills-1c/ 目录。安装完成后，确认技能已就绪。",
     "translatedAt": "2026-08-16T02:14:10.954Z",
     "backTranslationDiff": 1
+  },
+  "hidorakai002/ai-workspace-archive": {
+    "sourceHash": "9e4c3e498e0bc441",
+    "chineseDescription": "一个大规模、自动更新的本地 AI 工具归档库——包含 11,000+ 个 agent 技能（skills）、240+ 个 MCP 服务器（servers）、2,200+ 条 IDE 规则（rules，适用于 Cursor/Cline），以及 30+ 套系统提示词（prompt）合集。一个仓库搞定所有需求。",
+    "prompt": "请帮我安装 ai-workspace-archive 这个技能。它来自 GitHub 仓库：https://github.com/hidorakai002/ai-workspace-archive 。请克隆或下载该仓库的全部内容，并将其保存到 .claude/skills/ai-workspace-archive/ 目录下，确保所有文件完整。安装完成后，告诉我这个技能包含了哪些内容，以及如何使用它。",
+    "translatedAt": "2026-08-19T02:17:10.214Z",
+    "backTranslationDiff": 0.4
+  },
+  "yuzzyuk/marketing-os": {
+    "sourceHash": "c3d5756b2f60290b",
+    "chineseDescription": "一个将整个营销部门打包成单个 Claude Skill 的工具。包含 14 个模块：0-100 分的审计评分、18 种策略的钩子引擎、在你看之前就完成文案评分、广告诊断、GEO、邮件、发布、定价。支持 Claude、Codex 和 Cursor。【使用场景】适合需要一站式营销分析、文案优化和策略生成的营销人员或创业者。",
+    "prompt": "请从 https://github.com/yuzzyuk/marketing-os 下载整个仓库内容，并将其保存到 .claude/skills/marketing-os/ 目录下，完成安装。安装后，我将能够使用 marketing-os 技能来执行营销审计、生成钩子、评估文案、诊断广告、优化 GEO、撰写邮件、规划发布和定价策略等任务。",
+    "translatedAt": "2026-08-19T02:17:15.865Z",
+    "backTranslationDiff": 0.375
   }
 }
