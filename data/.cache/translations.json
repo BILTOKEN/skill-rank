@@ -8008,11 +8008,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "desko77/claude-code-skills-1c": {
-    "sourceHash": "6142880d1de0c5f4",
-    "chineseDescription": "112个技能和35条规则，用于Claude Code：代理从紧凑的JSON中收集1C源代码（元数据、表单、扩展、角色、SKD、处理），并解析回去。基本操作无需配置器。",
-    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载技能文件，并保存到 .claude/skills/claude-code-skills-1c/ 目录。安装完成后，确认技能已就绪。",
-    "translatedAt": "2026-08-16T02:14:10.954Z",
-    "backTranslationDiff": 1
+    "sourceHash": "eb60908337402266",
+    "chineseDescription": "为 Claude Code 提供 115 个技能和 35 条规则：代理从紧凑的 JSON 中收集 1C 源码（元数据、表单、扩展、角色、SKD、处理），解析回原格式，并根据导出结果进行校验。无需 Configurator，也无需 EDT。",
+    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载该仓库的全部内容，并将其保存到 .claude/skills/claude-code-skills-1c/ 目录下，完成安装。安装后，请确认技能文件已正确放置。",
+    "translatedAt": "2026-08-20T02:04:23.165Z",
+    "backTranslationDiff": 0.9545454545454546
   },
   "hidorakai002/ai-workspace-archive": {
     "sourceHash": "9e4c3e498e0bc441",
@@ -8027,5 +8027,12 @@
     "prompt": "请从 https://github.com/yuzzyuk/marketing-os 下载整个仓库内容，并将其保存到 .claude/skills/marketing-os/ 目录下，完成安装。安装后，我将能够使用 marketing-os 技能来执行营销审计、生成钩子、评估文案、诊断广告、优化 GEO、撰写邮件、规划发布和定价策略等任务。",
     "translatedAt": "2026-08-19T02:17:15.865Z",
     "backTranslationDiff": 0.375
+  },
+  "zongziforu/cn-law-hub": {
+    "sourceHash": "0a226281b2a0d8c4",
+    "chineseDescription": "中国法条与法律法规检索 Agent Skill｜用于从官方来源检索和核验中国法律的 Chinese legal research Agent Skill｜支持具体法条检索、现行有效核验、10 个官方法律数据源",
+    "prompt": "请帮我安装一个 Claude Code Skill，名为 cn-law-hub。请从 https://github.com/zongziforu/cn-law-hub 下载该 Skill 的文件，并保存到 .claude/skills/cn-law-hub/ 目录下，完成安装。安装后请确认该 Skill 已可用，并简要说明其功能。",
+    "translatedAt": "2026-08-20T02:04:27.794Z",
+    "backTranslationDiff": 0.7142857142857143
   }
 }

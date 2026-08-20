@@ -8918,6 +8918,24 @@
     "lastPush": "2026-05-23T03:02:20Z"
   },
   {
+    "repo": "zongziforu/cn-law-hub",
+    "name": "cn-law-hub",
+    "description": "中国法条与法律法规检索 Agent Skill｜Chinese legal research Agent Skill for retrieving and verifying Chinese laws from official sources｜支持具体法条检索、现行有效核验、10 个官方法律数据源",
+    "tags": [
+      "agent-skills",
+      "china-law",
+      "chinese-law",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-skills",
+      "legal-ai",
+      "legal-research",
+      "legal-tech"
+    ],
+    "stars": 58,
+    "lastPush": "2026-08-19T11:40:41Z"
+  },
+  {
     "repo": "akxan/ppt-agent-skill",
     "name": "ppt-agent-skill",
     "description": "🎨 World-class AI presentation generator · 26 styles · 18 charts · benchmarked against Linear/Anthropic/Stripe/Apple/NYT — a Claude Code Skill that turns one sentence into design-agency-quality decks (HTML + editable PPTX)",
@@ -15965,6 +15983,35 @@
     ],
     "stars": 13,
     "lastPush": "2026-08-18T05:58:12Z"
+  },
+  {
+    "repo": "seed-forge/harness-ai-kit",
+    "name": "harness-ai-kit",
+    "description": "Package manager for AI agent assets — 42 skills, 5 CLIs, 1 plugin. Skills for AI/LLM agent engineering, eval-driven dev, spec-driven dev, database (MySQL/PG/Redis/Kafka/Mongo/Oracle/NL2SQL), K8s/Docker diagnostics, infra ops (Dify/Nexus/Harbor/SonarQube) & docs/patent. Runtimes: Codex, Claude Code, Cursor, Kiro, DSH.",
+    "tags": [
+      "agent-framework",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "database",
+      "dify",
+      "docker",
+      "dsh",
+      "dsh-plugin",
+      "kiro",
+      "kubernetes",
+      "llm",
+      "mcp",
+      "mysql",
+      "nexus",
+      "python",
+      "sonarqube"
+    ],
+    "stars": 13,
+    "lastPush": "2026-08-18T10:37:19Z"
   },
   {
     "repo": "darrenbenson/sdlc-studio",
@@ -26974,6 +27021,52 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-11T20:14:25Z"
+  },
+  {
+    "repo": "the-lukez/discord-intent-application",
+    "name": "discord-intent-application",
+    "description": "Skill for Claude to help writing a good Discord intent application",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-desktop",
+      "claude-plugin",
+      "claude-skills",
+      "discord",
+      "discord-bot",
+      "discordbot",
+      "intents",
+      "skill",
+      "skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-13T13:32:42Z"
+  },
+  {
+    "repo": "yukino1338/cml-novel-purifier",
+    "name": "cml-novel-purifier",
+    "description": "skill:保守清理中文 TXT 小说里的站外广告、水印和下载引导：Agent 结合上下文逐条判断，原文不覆盖，拿不准就停，验证通过后再导出。",
+    "tags": [
+      "agent-skill",
+      "ai-agent",
+      "chinese-novel",
+      "claude-code-skill",
+      "codex-skill",
+      "ebook",
+      "hermes-skill",
+      "novel-clear",
+      "opencode-skills",
+      "pi-skill",
+      "python",
+      "text-processing",
+      "txt"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-14T17:23:04Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
