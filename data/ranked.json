@@ -1053,6 +1053,32 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "untrivial-ai/agent-orchestrator",
+    "name": "agent-orchestrator",
+    "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+    "tags": [
+      "agent-fleet",
+      "agent-swarm",
+      "claude-code",
+      "codex-cli",
+      "git-worktrees",
+      "multi-agent",
+      "orchestration",
+      "orchestrator",
+      "parallel-agents",
+      "parallel-coding",
+      "skills",
+      "tmux"
+    ],
+    "stars": 9670,
+    "lastPush": "2026-08-21T00:11:38Z",
+    "pool": "ranked",
+    "readmeLength": 1964,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-08-21T01:59:34.868Z"
+  },
+  {
     "repo": "diet103/claude-code-infrastructure-showcase",
     "name": "claude-code-infrastructure-showcase",
     "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
@@ -10708,6 +10734,40 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "simota/agent-skills",
+    "name": "agent-skills",
+    "description": "90 specialist AI agents + 3 project-local extensions for Claude Code / Codex CLI / Antigravity CLI (agy). Anthropic Agent Skills spec-aligned, hub-spoke orchestration via Nexus with 49 Recipes and 11 Skill Packs. Covers development, security, design, testing, FinOps, compliance, observability, and AI/ML.",
+    "tags": [
+      "agent-ecosystem",
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-ai",
+      "agy",
+      "ai-agents",
+      "ai-orchestration",
+      "anthropic",
+      "antigravity-cli",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "prompt-engineering",
+      "安全",
+      "skill-md",
+      "subagent"
+    ],
+    "stars": 72,
+    "lastPush": "2026-08-20T23:45:21Z",
+    "pool": "ranked",
+    "readmeLength": 10603,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-21T01:59:34.868Z"
+  },
+  {
     "repo": "summerkaze/skill-arkts-syntax-assistant",
     "name": "skill-arkts-syntax-assistant",
     "description": "ArkTS language learning and development assistant",
@@ -11393,6 +11453,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-07-03T04:11:32.201Z"
+  },
+  {
+    "repo": "thrixel/build-world",
+    "name": "build-world",
+    "description": "Build interactive 3D worlds with high-quality assets from Thrixel and your AI agent of choice.",
+    "tags": [
+      "3d-assets",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "game-prototyping",
+      "gamedev",
+      "mcp",
+      "model-context-protocol",
+      "text-to-3d",
+      "threejs",
+      "thrixel",
+      "unity"
+    ],
+    "stars": 59,
+    "lastPush": "2026-08-20T19:58:11Z",
+    "pool": "ranked",
+    "readmeLength": 1209,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-21T01:59:34.868Z"
   },
   {
     "repo": "agricidaniel/skill-forge",

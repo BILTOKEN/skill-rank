@@ -853,6 +853,27 @@
     "lastPush": "2026-01-18T13:09:50Z"
   },
   {
+    "repo": "untrivial-ai/agent-orchestrator",
+    "name": "agent-orchestrator",
+    "description": "Agent IDE that enables you to manage fleets of coding agents. It comes with an agentic orchestrator that plans tasks, spawns agents, and autonomously handles CI fixes, merge conflicts, and code reviews.",
+    "tags": [
+      "agent-fleet",
+      "agent-swarm",
+      "claude-code",
+      "codex-cli",
+      "git-worktrees",
+      "multi-agent",
+      "orchestration",
+      "orchestrator",
+      "parallel-agents",
+      "parallel-coding",
+      "skills",
+      "tmux"
+    ],
+    "stars": 9670,
+    "lastPush": "2026-08-21T00:11:38Z"
+  },
+  {
     "repo": "diet103/claude-code-infrastructure-showcase",
     "name": "claude-code-infrastructure-showcase",
     "description": "Examples of my Claude Code infrastructure with skill auto-activation, hooks, and agents",
@@ -8333,6 +8354,35 @@
     "lastPush": "2026-05-25T21:24:01Z"
   },
   {
+    "repo": "simota/agent-skills",
+    "name": "agent-skills",
+    "description": "90 specialist AI agents + 3 project-local extensions for Claude Code / Codex CLI / Antigravity CLI (agy). Anthropic Agent Skills spec-aligned, hub-spoke orchestration via Nexus with 49 Recipes and 11 Skill Packs. Covers development, security, design, testing, FinOps, compliance, observability, and AI/ML.",
+    "tags": [
+      "agent-ecosystem",
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-ai",
+      "agy",
+      "ai-agents",
+      "ai-orchestration",
+      "anthropic",
+      "antigravity-cli",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "prompt-engineering",
+      "安全",
+      "skill-md",
+      "subagent"
+    ],
+    "stars": 72,
+    "lastPush": "2026-08-20T23:45:21Z"
+  },
+  {
     "repo": "summerkaze/skill-arkts-syntax-assistant",
     "name": "skill-arkts-syntax-assistant",
     "description": "ArkTS language learning and development assistant",
@@ -8873,6 +8923,27 @@
     ],
     "stars": 59,
     "lastPush": "2026-07-02T18:23:38Z"
+  },
+  {
+    "repo": "thrixel/build-world",
+    "name": "build-world",
+    "description": "Build interactive 3D worlds with high-quality assets from Thrixel and your AI agent of choice.",
+    "tags": [
+      "3d-assets",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "game-prototyping",
+      "gamedev",
+      "mcp",
+      "model-context-protocol",
+      "text-to-3d",
+      "threejs",
+      "thrixel",
+      "unity"
+    ],
+    "stars": 59,
+    "lastPush": "2026-08-20T19:58:11Z"
   },
   {
     "repo": "agricidaniel/skill-forge",
@@ -10345,6 +10416,30 @@
     ],
     "stars": 39,
     "lastPush": "2026-01-30T01:17:16Z"
+  },
+  {
+    "repo": "miaoqichuan/new-litigation-visualization",
+    "name": "new-litigation-visualization",
+    "description": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集：把凌乱的诉讼图重画成能进材料的图，或直接读案件材料画准一张时间轴。Claude Skill / DeepSeek Harness 通用。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "deepseek-harness",
+      "diagram",
+      "dsh-plugin",
+      "legal",
+      "legal-tech",
+      "litigation",
+      "python",
+      "svg",
+      "timeline",
+      "visualization",
+      "zero-dependency"
+    ],
+    "stars": 39,
+    "lastPush": "2026-08-20T09:05:47Z"
   },
   {
     "repo": "rafsilva85/credit-optimizer-v5",
@@ -19811,6 +19906,35 @@
     "lastPush": "2026-07-26T17:45:41Z"
   },
   {
+    "repo": "jordanwei1/jiaojie-skill",
+    "name": "jiaojie-skill",
+    "description": "交接 Skill（Jiaojie）：跨窗口、跨模型、跨设备、跨语言的 AI 上下文交接工具。换窗口，不失忆；换模型，不重来。Open-source AI context handoff.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-agents",
+      "ai-memory",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "context-engineering",
+      "context-handoff",
+      "cross-model",
+      "cursor",
+      "cursor-skills",
+      "gemini-cli",
+      "gemini-cli-skills",
+      "handoff",
+      "llm",
+      "open-source",
+      "openclaw",
+      "openclaw-skill"
+    ],
+    "stars": 8,
+    "lastPush": "2026-08-20T13:47:18Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -27069,6 +27193,21 @@
     "lastPush": "2026-08-14T17:23:04Z"
   },
   {
+    "repo": "airoasting/council",
+    "name": "council",
+    "description": "고개만 끄덕이는 자문단은 잊으세요. 25인 거장 자문단이 당신의 어려운 결정을 로스팅합니다. AI ROASTING 자문단 · Claude Code 스킬",
+    "tags": [
+      "ai-agents",
+      "ai-roasting",
+      "claude-code",
+      "claude-code-skill",
+      "decision-making",
+      "korean"
+    ],
+    "stars": 2,
+    "lastPush": "2026-07-27T14:19:38Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -33712,6 +33851,64 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-16T23:31:30Z"
+  },
+  {
+    "repo": "mun1to/spanishcaveman",
+    "name": "SpanishCaveMan",
+    "description": "Claude Code skill: caveman-style token efficiency, spoken with a real Spanish regional accent",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "dialects",
+      "fun",
+      "llm",
+      "productivity",
+      "spanish",
+      "token-efficiency"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-13T11:53:59Z"
+  },
+  {
+    "repo": "tsetse012/persona-panel-kr",
+    "name": "persona-panel-kr",
+    "description": "한국어 가상 페르소나 설문 패널 — Nemotron-Personas-Korea 층화 표집 + Claude 응답 시뮬레이션 (가설 정제용)",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "korean",
+      "llm",
+      "persona",
+      "survey-simulation"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-19T07:02:00Z"
+  },
+  {
+    "repo": "rlx/uplevel",
+    "name": "uplevel",
+    "description": "Uplevel your repo's engineering process. Most tools tell you what's wrong; uplevel tells you also what's missing, then hands you a ranked plan. A Claude Code skill that can learn your specific repository and adapts to it. Nothing changes until you pick.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ci-cd",
+      "claude-code",
+      "claude-code-skill",
+      "code-quality",
+      "developer-tools",
+      "DevOps",
+      "engineering-standards",
+      "release-engineering",
+      "repository-audit",
+      "software-quality",
+      "supply-chain-security"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-21T01:40:08Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",

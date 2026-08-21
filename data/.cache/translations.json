@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "39dc65585d50427f",
-    "chineseDescription": "Xquik agent 的 Skill，支持 REST、MCP、webhooks、导出、监控、推文搜索以及需确认的发布功能。与 X Corp. 无关。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并保存到 .claude/skills/x-twitter-scraper/ 目录中完成安装。",
-    "translatedAt": "2026-07-27T04:30:55.178Z",
-    "backTranslationDiff": 0.4
+    "sourceHash": "34463a080801a3a2",
+    "chineseDescription": "Twitter 数据抓取 API 技能，支持推文搜索、导出、监控、Webhooks 以及经过批准的 X 操作。与 X Corp. 无关联。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载该 Skill 的所有文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，以完成安装。",
+    "translatedAt": "2026-08-21T02:21:04.819Z",
+    "backTranslationDiff": 0.8461538461538461
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -5313,11 +5313,11 @@
     "backTranslationDiff": 0.8461538461538461
   },
   "masriyan/claude-code-cybersecurity-skill": {
-    "sourceHash": "2e82291d32bde6fb",
-    "chineseDescription": "这是一个包含15个Claude Code Skill的综合性安全工具包，覆盖了攻击性安全（offensive security）、防御运维（defensive operations）、逆向工程（reverse engineering）、威胁狩猎（threat hunting）、CSOC自动化（CSOC automation）等多个领域，专为网络安全从业者设计。",
-    "prompt": "请从 https://github.com/masriyan/claude-code-cybersecurity-skill 下载所有文件，并保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T07:26:06.534Z",
-    "backTranslationDiff": 0.3157894736842105
+    "sourceHash": "defe53934d766c3f",
+    "chineseDescription": "一个包含19个 Claude Code Skills 的综合性工具集，专为网络安全专业人员设计，涵盖攻击性安全（offensive security）、防御性运维（defensive operations）、逆向工程（reverse engineering）、威胁狩猎（threat hunting）、CSOC 自动化（CSOC automation）等多个领域。",
+    "prompt": "请帮我安装 Claude-Code-CyberSecurity-Skill，这是一个包含19个网络安全相关 Skills 的工具集，覆盖攻击性安全、防御运维、逆向工程、威胁狩猎和 CSOC 自动化等场景。请从 GitHub 仓库 https://github.com/masriyan/claude-code-cybersecurity-skill 下载所有文件，并保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装后告诉我如何使用。",
+    "translatedAt": "2026-08-21T02:21:01.139Z",
+    "backTranslationDiff": 0.7894736842105263
   },
   "arabelatso/skills-4-se": {
     "sourceHash": "cccd915f4b1827ab",
@@ -5656,11 +5656,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "adriannoes/awesome-vibe-coding": {
-    "sourceHash": "659b926cc005a78d",
-    "chineseDescription": "329个Agent技能（支持Cursor、Claude Code和Codex），5,380个OpenClaw技能，201个机器学习笔记本，8本教科书，82篇研究论文，18份行业报告，面向产品经理、设计师和开发者。",
-    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载 awesome-agentic-ai 技能包，并将其保存到 .claude/skills/awesome-vibe-coding/ 目录中，完成安装。",
-    "translatedAt": "2026-08-12T03:11:27.974Z",
-    "backTranslationDiff": 0.2777777777777778
+    "sourceHash": "426098b30151903b",
+    "chineseDescription": "一份精选的 vibe coding（与 AI 协作写代码）参考资料清单。",
+    "prompt": "请从 https://github.com/adriannoes/awesome-vibe-coding 下载该技能仓库，并将所有文件保存到 .claude/skills/awesome-vibe-coding/ 目录下，完成安装。安装后请确认技能可用。",
+    "translatedAt": "2026-08-21T02:21:34.100Z",
+    "backTranslationDiff": 0.4444444444444444
   },
   "safishamsi/graphify": {
     "sourceHash": "c7ccf748895b558b",
@@ -7644,11 +7644,11 @@
     "backTranslationDiff": 0.050000000000000044
   },
   "aaron-he-zhu/aaron-marketing-skills": {
-    "sourceHash": "de5ad69468b6770a",
-    "chineseDescription": "120个营销技能 + 8条命令，覆盖7大领域（SEO/GEO、KOL营销、付费广告、邮件营销、产品发布、社交媒体运营、品牌叙事），全部集成在一个共享合约里。还附带8个审计关卡：CORE-EEAT（核心EEAT评估）、CITE（引用验证）、STAR（情境-任务-行动-结果模型）、ROAS（广告支出回报率）、SEND（发送策略）、RAMP（爬坡计划）、ECHO（回声效应）、TALE（故事讲述）。",
-    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载所有文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-15T03:55:32.037Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "7231704334f9621e",
+    "chineseDescription": "120个营销技能，相当于一个AI营销员工——可作为插件、便携技能，或一个覆盖7大领域（叙事、SEO/GEO、社交媒体、邮件、付费广告、网红营销、产品发布）的8机器人团队，统一在一个合同下运行，并配备8个审计关卡：TALE · CORE-EEAT · CITE · ECHO · SEND · ROAS · STAR · RAMP。",
+    "prompt": "请从 https://github.com/aaron-he-zhu/aaron-marketing-skills 下载该技能仓库的全部文件，并保存到 .claude/skills/aaron-marketing-skills/ 目录下，完成安装。安装后请确认技能文件已就位，并简要说明该技能包的功能和用法。",
+    "translatedAt": "2026-08-21T02:20:56.191Z",
+    "backTranslationDiff": 0.31034482758620685
   },
   "ratel-ai/ratel": {
     "sourceHash": "caa408599e913b85",
@@ -8008,11 +8008,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "desko77/claude-code-skills-1c": {
-    "sourceHash": "eb60908337402266",
-    "chineseDescription": "为 Claude Code 提供 115 个技能和 35 条规则：代理从紧凑的 JSON 中收集 1C 源码（元数据、表单、扩展、角色、SKD、处理），解析回原格式，并根据导出结果进行校验。无需 Configurator，也无需 EDT。",
-    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载该仓库的全部内容，并将其保存到 .claude/skills/claude-code-skills-1c/ 目录下，完成安装。安装后，请确认技能文件已正确放置。",
-    "translatedAt": "2026-08-20T02:04:23.165Z",
-    "backTranslationDiff": 0.9545454545454546
+    "sourceHash": "c14aae71ba19f701",
+    "chineseDescription": "为 Claude Code 提供 116 个技能和 35 条规则：代理从紧凑的 JSON 中收集 1C 源代码（元数据、表单、扩展、角色、SKD、处理），解析回原格式，根据导出结果校验输出，并将 BSP 调用与 API 参考手册核对。无需 Configurator，也无需 EDT。",
+    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载该技能包，并将其保存到 .claude/skills/claude-code-skills-1c/ 目录下，完成安装。",
+    "translatedAt": "2026-08-21T02:21:21.084Z",
+    "backTranslationDiff": 0.9615384615384616
   },
   "hidorakai002/ai-workspace-archive": {
     "sourceHash": "9e4c3e498e0bc441",
@@ -8034,5 +8034,33 @@
     "prompt": "请帮我安装一个 Claude Code Skill，名为 cn-law-hub。请从 https://github.com/zongziforu/cn-law-hub 下载该 Skill 的文件，并保存到 .claude/skills/cn-law-hub/ 目录下，完成安装。安装后请确认该 Skill 已可用，并简要说明其功能。",
     "translatedAt": "2026-08-20T02:04:27.794Z",
     "backTranslationDiff": 0.7142857142857143
+  },
+  "untrivial-ai/agent-orchestrator": {
+    "sourceHash": "9a4c591cc1970db7",
+    "chineseDescription": "Agent IDE（集成开发环境），用于管理编码代理（coding agents）集群。内置代理编排器（agentic orchestrator），可规划任务、生成代理，并自动处理 CI 修复、合并冲突和代码审查。",
+    "prompt": "请从 https://github.com/untrivial-ai/agent-orchestrator 下载该 Skill 的所有文件，并保存到 .claude/skills/agent-orchestrator/ 目录下，完成安装。安装后请确认文件结构完整，并告知用户如何使用。",
+    "translatedAt": "2026-08-21T02:21:09.565Z",
+    "backTranslationDiff": 0.2727272727272727
+  },
+  "simota/agent-skills": {
+    "sourceHash": "47388ec7940ed41d",
+    "chineseDescription": "90 个专业 AI 代理（Agent）+ 3 个项目本地扩展，适用于 Claude Code / Codex CLI / Antigravity CLI (agy)。符合 Anthropic Agent Skills 规范，通过 Nexus 实现中心辐射式编排，包含 49 个配方（Recipes）和 11 个技能包（Skill Packs）。覆盖开发、安全、设计、测试、FinOps、合规、可观测性和 AI/ML 等领域。",
+    "prompt": "请从 https://github.com/simota/agent-skills 下载该技能仓库，并将其保存到 .claude/skills/agent-skills/ 目录下，完成安装。安装后请确认技能可用，并简要说明该技能的主要功能。",
+    "translatedAt": "2026-08-21T02:21:16.372Z",
+    "backTranslationDiff": 0.13793103448275867
+  },
+  "miaoqichuan/new-litigation-visualization": {
+    "sourceHash": "bb431c8770c8ad54",
+    "chineseDescription": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集：把凌乱的诉讼图重画成能进材料的图，或直接读案件材料画准一张时间轴。Claude Skill / DeepSeek Harness 通用。",
+    "prompt": "请帮我安装一个名为 new-litigation-visualization 的 Claude Code Skill。请从 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 下载所有文件，并保存到 .claude/skills/new-litigation-visualization/ 目录下，完成安装。",
+    "translatedAt": "2026-08-21T02:21:25.118Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "thrixel/build-world": {
+    "sourceHash": "5e0b0c461b00dfee",
+    "chineseDescription": "使用 Thrixel 的高质量素材和你选择的 AI 代理，构建交互式 3D 世界。",
+    "prompt": "请从 https://github.com/thrixel/build-world 下载该 Skill 的所有文件，并将其保存到 .claude/skills/build-world/ 目录中，完成安装。安装后，我将能够使用该 Skill 来构建交互式 3D 世界。",
+    "translatedAt": "2026-08-21T02:21:29.652Z",
+    "backTranslationDiff": 0.9090909090909091
   }
 }
