@@ -7872,6 +7872,45 @@
     }
   },
   {
+    "repo": "samuraigpt/awesome-openclaw",
+    "name": "awesome-openclaw",
+    "description": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
+    "description_zh": "一份精心整理的 OpenClaw 资源、工具、技能、教程与文章列表。OpenClaw（原名 Moltbot / Clawdbot）是一个开源自托管的 AI 代理，支持 WhatsApp、Telegram、Discord 以及 50 多种集成。",
+    "description_en": "A curated list of OpenClaw resources, tools, skills, tutorials & articles. OpenClaw (formerly Moltbot / Clawdbot) — open-source self-hosted AI agent for WhatsApp, Telegram, Discord & 50+ integrations.",
+    "prompt": "请从 https://github.com/samuraigpt/awesome-openclaw 下载整个仓库的内容，并将其保存到 .claude/skills/awesome-openclaw/ 目录下，完成安装。",
+    "tags": [
+      "agentic-ai",
+      "ai-agent",
+      "ai-automation",
+      "autonomous-agents",
+      "awesome",
+      "awesome-list",
+      "chatbot",
+      "clawdbot",
+      "llm-agent",
+      "local-llm",
+      "mcp",
+      "model-context-protocol",
+      "moltbot",
+      "nodejs",
+      "open-source-ai",
+      "openclaw",
+      "personal-assistant",
+      "self-hosted",
+      "telegram-bot",
+      "whatsapp-bot"
+    ],
+    "metrics": {
+      "stars_total": 993,
+      "stars_added_7d": 7,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "appautomaton/document-skills",
     "name": "document-SKILLs",
     "description": "Claude Code and Codex SKILLs for PDF, Excel, Word, and PowerPoint manipulation — extraction, forms, formulas, tracked changes, adapted from Anthropic skills.",

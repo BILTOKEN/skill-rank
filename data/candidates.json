@@ -13064,6 +13064,35 @@
     "lastPush": "2026-06-03T16:59:12Z"
   },
   {
+    "repo": "leehueeng/store-screenshots",
+    "name": "store-screenshots",
+    "description": "🖼️ AI agent skill for Claude Code & Codex — turns raw app screenshots into store-ready App Store & Google Play marketing images: device frames (iPhone·iPad·Galaxy·Fold·Flip), app-matched backgrounds, marketing copy, exact store sizes. 앱스토어·플레이스토어 마케팅 스크린샷 자동 생성",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "android",
+      "app-store",
+      "app-store-optimization",
+      "app-store-screenshots",
+      "aso",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "developer-tools",
+      "device-frames",
+      "google-play",
+      "ios",
+      "marketing-assets",
+      "play-store",
+      "screenshot-generator",
+      "screenshots"
+    ],
+    "stars": 21,
+    "lastPush": "2026-08-21T07:22:51Z"
+  },
+  {
     "repo": "more-io/claude-apple-bridges",
     "name": "claude-apple-bridges",
     "description": "Swift CLI bridges giving Claude Code native access to Apple Reminders, Calendar, Contacts, Notes, Mail and tmux — includes Claude Code skill with full command reference",
@@ -16648,6 +16677,38 @@
     ],
     "stars": 12,
     "lastPush": "2026-08-18T13:49:45Z"
+  },
+  {
+    "repo": "millwright-labs/minto-pyramid-skill",
+    "name": "minto-pyramid-skill",
+    "description": "Agent Skill: make Claude write in Barbara Minto's Pyramid Principle - answer first, grouped reasons, evidence under each.",
+    "tags": [
+      "agent-skills",
+      "business-writing",
+      "claude-code",
+      "claude-skills",
+      "communication",
+      "executive-communication",
+      "minto",
+      "pyramid-principle"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-16T21:40:50Z"
+  },
+  {
+    "repo": "coderandylee/amz-review-analysis-skill",
+    "name": "amz-review-analysis-skill",
+    "description": "亚马逊评论分析 Agent Skill：卖家精灵 Review 表 → 一/二/三级分类树（格子里是买家原话）→ HTML 看板 + 交付 Excel",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "amazon-seller",
+      "claude-skills",
+      "ecommerce",
+      "review-analysis"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-18T02:24:37Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -27208,6 +27269,40 @@
     "lastPush": "2026-07-27T14:19:38Z"
   },
   {
+    "repo": "pouljenny/trundle",
+    "name": "trundle",
+    "description": "Turn your AI coding agent's solo session into a turn-based group discussion — bring codex, gemini, claude and other CLI agents into the design conversation you're already having. You stay in as a participant, not a report reader.",
+    "tags": [
+      "agent-harness",
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cli-agent",
+      "codex",
+      "codex-plugin",
+      "gemini",
+      "llm",
+      "multi-agent",
+      "plugin"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-17T07:17:16Z"
+  },
+  {
+    "repo": "jgoetzmann/fullsend",
+    "name": "fullsend",
+    "description": "A skill for building greenfield code fast with parallel agents and blind spec tests.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "prompt-engineering"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-22T00:08:16Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -33909,6 +34004,36 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-21T01:40:08Z"
+  },
+  {
+    "repo": "iamravenous/dependabot-review-skill",
+    "name": "dependabot-review-skill",
+    "description": "Claude Code skill that reviews Dependabot and Renovate dependency-update PRs for breaking changes, supply-chain risk, and real codebase impact.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "dependabot",
+      "dependabot-review",
+      "dependency-management",
+      "pr-review",
+      "renovate",
+      "supply-chain-security"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-19T20:07:17Z"
+  },
+  {
+    "repo": "longhun12346/artifact-skills",
+    "name": "artifact-skills",
+    "description": "A collection of skills for Claude Code, featuring advanced encoding fixers and dev tools.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "encode",
+      "file-encoding"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-09T13:59:19Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
