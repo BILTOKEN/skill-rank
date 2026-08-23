@@ -3052,11 +3052,11 @@
     "backTranslationDiff": 0.23529411764705888
   },
   "conorluddy/ios-simulator-skill": {
-    "sourceHash": "5ed933eaf0deb3b5",
-    "chineseDescription": "一个用于 Claude Code 的 iOS 模拟器技能（Skill）。用它来优化 Claude 构建、运行和与你的应用交互的能力，并代理 xcodebuild 以节省 token 浪费——LLM 直接调用 xcb 会消耗大量输出！",
-    "prompt": "请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载 ios-simulator-skill 技能文件，并将其保存到 .claude/skills/ios-simulator-skill/ 目录中，完成安装。安装后，该技能将帮助优化 Claude 在 iOS 模拟器上的构建、运行和交互能力，并通过代理 xcodebuild 减少 token 消耗。",
-    "translatedAt": "2026-07-31T04:11:38.351Z",
-    "backTranslationDiff": 0.38095238095238093
+    "sourceHash": "e40f91833859eb54",
+    "chineseDescription": "一个用于 Claude Code 的 iOS 模拟器技能（Skill）。用它来优化 Claude 构建、运行和与你的应用交互的能力，并代理 xcodebuild 以节省 token 和上下文浪费。【使用场景】当你在 Claude Code 中开发 iOS 应用，需要高效管理模拟器、减少 token 消耗时使用。",
+    "prompt": "请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载 ios-simulator-skill 技能文件，并将其保存到 .claude/skills/ios-simulator-skill/ 目录中，以完成安装。安装后，该技能将帮助我优化 iOS 模拟器的构建、运行和交互，并通过代理 xcodebuild 来节省 token 和上下文资源。",
+    "translatedAt": "2026-08-23T02:22:55.251Z",
+    "backTranslationDiff": 0.3529411764705882
   },
   "prompt-security/clawsec": {
     "sourceHash": "6517a361e328b215",
@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "97e629145bdf0558",
-    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。内置固定设计判断、多种语法、参考编译、语义调色板，以及用于验证 UI、交互、图像/视频任务、轮播图、演示文稿和文档的 Studio 工作流。包含 22 个技能，MIT 许可。",
-    "prompt": "请从 https://github.com/bitjaru/styleseed 下载 styleseed 技能文件，并将其保存到 .claude/skills/styleseed/ 目录中。下载完成后，确认所有文件已正确安装，并告知用户该技能已就绪。",
-    "translatedAt": "2026-08-09T02:52:24.997Z",
-    "backTranslationDiff": 0.9259259259259259
+    "sourceHash": "50ce1e1e7a4b331b",
+    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。包含 23 个代理技能，用于固定设计判断、多种语法、语义调色板、参考汇编和证据验证的 UI。MIT 许可证。",
+    "prompt": "请帮我安装 styleseed 技能。这是一个开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor，包含 23 个代理技能，用于固定设计判断、多种语法、语义调色板、参考汇编和证据验证的 UI。请从 GitHub 仓库 https://github.com/bitjaru/styleseed 下载文件，并保存到 .claude/skills/styleseed/ 目录中，完成安装。安装完成后，请确认技能已正确配置。",
+    "translatedAt": "2026-08-23T02:22:38.935Z",
+    "backTranslationDiff": 0.95
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "34463a080801a3a2",
-    "chineseDescription": "Twitter 数据抓取 API 技能，支持推文搜索、导出、监控、Webhooks 以及经过批准的 X 操作。与 X Corp. 无关联。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载该 Skill 的所有文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，以完成安装。",
-    "translatedAt": "2026-08-21T02:21:04.819Z",
-    "backTranslationDiff": 0.8461538461538461
+    "sourceHash": "f8241222b8864f1d",
+    "chineseDescription": "X (Twitter) 数据抓取 API，也是 X API 的替代方案。无需官方 X 开发者账号，也无需连接或使用 X 账号即可完成支持的抓取任务。与 X Corp 无关联。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载并安装 x-twitter-scraper Skill。将仓库内容保存到 .claude/skills/x-twitter-scraper/ 目录下，确保包含所有必要的文件（如 SKILL.md、脚本等），然后验证安装是否成功。",
+    "translatedAt": "2026-08-23T02:23:01.539Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -6664,11 +6664,11 @@
     "backTranslationDiff": 0.3125
   },
   "sangrokjung/claude-forge": {
-    "sourceHash": "2d8c61c59087ab33",
-    "chineseDescription": "用11个AI代理、36条命令和15个技能来增强 Claude Code——这是一个受 oh-my-zsh 启发的 claude-code 插件框架。包含6层安全钩子。5分钟即可安装完成。",
-    "prompt": "请从 https://github.com/sangrokjung/claude-forge 下载 claude-forge 插件，将文件保存到 .claude/skills/claude-forge/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:49:51.781Z",
-    "backTranslationDiff": 0.4444444444444444
+    "sourceHash": "8570f724b79c43f6",
+    "chineseDescription": "claude-forge 是 Claude Code 的 oh-my-zsh 风格增强包——一次安装即可获得 16 个代理（agent）、35 条命令、32 个技能（skill）和 21 个安全钩子（safety hook）。v4.0 新增了对抗性审查循环：一个永远不会看到第一个代理推理过程的第二代理。MIT 许可。",
+    "prompt": "请从 https://github.com/sangrokjung/claude-forge 下载 claude-forge 技能包，并将所有文件保存到 .claude/skills/claude-forge/ 目录下，完成安装。安装后请验证文件完整性并告知我如何使用。\n\n【使用场景】适合想快速为 Claude Code 添加大量预置代理、命令、技能和安全机制的开发者，尤其适用于需要多代理协作和对抗性审查的复杂项目。",
+    "translatedAt": "2026-08-23T02:22:49.980Z",
+    "backTranslationDiff": 0.8695652173913043
   },
   "alirezarezvani/claude-code-tresor": {
     "sourceHash": "2ce0bc3aa2748ecc",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "a533ec1bf74d48ac",
-    "chineseDescription": "这是一个面向 AI 代理的技能：自动检测并清除俄语文本中的机器生成痕迹。内置 38 种模式、39 个带证据登记表的正则标记器、盲配对运行，以及文件层级的 C2PA/EXIF/XMP 元数据清理功能。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该技能的全部文件，并保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后即可使用该技能处理俄语文本的拟人化改写。",
-    "translatedAt": "2026-08-15T02:10:47.067Z",
-    "backTranslationDiff": 0.8214285714285714
+    "sourceHash": "63d9f1689eec58ee",
+    "chineseDescription": "这是一个面向 AI 代理的技能包：自动检测并清除俄语文本中的机器生成痕迹。内置 38 种模式、39 个带证据登记表的 regex 标记、盲配对双轮检测，以及文件层面的 C2PA/EXIF/XMP 元数据剥离。提供 PyPI 包和在线演示。",
+    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能包，并将其保存到 .claude/skills/humanizer-ru/ 目录中。安装完成后，该技能将用于检测和清除俄语文本中的机器生成痕迹，包括：1) 38 种文本模式识别；2) 39 个 regex 标记及证据登记；3) 盲配对双轮检测；4) 文件层 C2PA/EXIF/XMP 元数据剥离。请确保所有依赖（如 PyPI 包 humanizer-ru）也已正确安装。",
+    "translatedAt": "2026-08-23T02:22:44.979Z",
+    "backTranslationDiff": 0.9032258064516129
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7959,10 +7959,10 @@
     "backTranslationDiff": 1
   },
   "zenbu-labs/terminal-browser": {
-    "sourceHash": "a1bbe3cf2a764b3c",
-    "chineseDescription": "{\"description_zh\":\"一个直接在你的现有终端（terminal）内运行的浏览器。\",\"prompt\":\"请从 https://github.com/zenbu-labs/terminal-browser 下载这个 skill 的文件，并保存到 .claude/skills/terminal-browser/ 目录中，完成安装。\",\"【使用场景】当用户需要在终端中直接浏览网页或查看网页内容，而不想打开图形浏览器时使用。\"}",
-    "prompt": "暂无提示词",
-    "translatedAt": "2026-08-12T03:11:24.292Z",
+    "sourceHash": "87db46334c37ffc4",
+    "chineseDescription": "在终端（terminal）里运行的浏览器（browser）",
+    "prompt": "请帮我安装一个名为 terminal-browser 的 Claude Code Skill。\n\n1. 访问 GitHub 仓库 https://github.com/zenbu-labs/terminal-browser 下载该 Skill 的所有文件\n2. 将文件保存到 .claude/skills/terminal-browser/ 目录下\n3. 确保 Skill 配置正确，安装完成后告诉我如何使用\n\n【使用场景】当你想在终端里直接浏览网页、查看页面内容而不需要打开图形浏览器时使用。",
+    "translatedAt": "2026-08-23T02:22:29.155Z",
     "backTranslationDiff": 1
   },
   "avgvstvs96/better-github-skill": {
@@ -8001,11 +8001,11 @@
     "backTranslationDiff": 1
   },
   "reticlehq/reticle": {
-    "sourceHash": "5bf0212da4bfa022",
-    "chineseDescription": "AI 代理（agent）能生成代码，但很难理解自己构建的东西。Reticle 让它们获得 Web 应用的运行时感知（runtime perception）。【使用场景】当 AI 代理需要实时理解或调试 Web 应用时，安装此技能可增强其运行时感知能力。",
-    "prompt": "请从 https://github.com/reticlehq/reticle 下载该技能文件，并将其保存到 .claude/skills/reticle/ 目录中，完成安装。安装后，我将能够利用 Reticle 的运行时感知能力来更好地理解和调试 Web 应用。",
-    "translatedAt": "2026-08-16T02:14:06.721Z",
-    "backTranslationDiff": 0.6666666666666667
+    "sourceHash": "ef910fea784a8880",
+    "chineseDescription": "AI 智能体（agent）能生成代码，但依然难以理解自己构建的东西。Reticle 为它们提供 Web 和桌面应用（desktop application）的运行时感知（runtime perception）能力。【使用场景】当 AI 需要实时理解或调试自己生成的 Web/桌面应用界面时使用。",
+    "prompt": "请从 GitHub 仓库 https://github.com/reticlehq/reticle 下载 reticle skill 文件，并将其保存到 .claude/skills/reticle/ 目录中，完成安装。安装后，该 skill 将赋予 AI 对 Web 和桌面应用的运行时感知能力，帮助 AI 理解自己构建的应用界面。",
+    "translatedAt": "2026-08-23T02:22:34.472Z",
+    "backTranslationDiff": 0.0625
   },
   "desko77/claude-code-skills-1c": {
     "sourceHash": "c14aae71ba19f701",
