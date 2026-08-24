@@ -14619,6 +14619,45 @@
     }
   },
   {
+    "repo": "titanwings/distilly",
+    "name": "distilly",
+    "description": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+    "description_zh": "Distilly — 将他们的思考方式提炼成可复用的 Skills，适用于任何 Agent 或 Bot。原名为 Colleague Skill（同事 Skill）。【使用场景】当你希望从某个 Agent 或 Bot 的交互中提取出可复用的技能模板，并安装到 Claude Code 中使用时。",
+    "description_en": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+    "prompt": "请从 GitHub 仓库 https://github.com/titanwings/distilly 下载 Distilly Skill 文件，并将其保存到 .claude/skills/distilly/ 目录中，完成安装。安装完成后，请确认文件已正确放置，并简要说明该 Skill 的功能和使用方法。",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agent",
+      "ai-persona",
+      "claude-code",
+      "claude-code-skills",
+      "codex",
+      "codex-skills",
+      "colleague-skill",
+      "deepseek-harness",
+      "digital-human",
+      "distilly",
+      "dsh-plugin",
+      "hermes-agent",
+      "knowledge-distillation",
+      "llm-agent",
+      "meta-skill",
+      "openclaw",
+      "prompt-engineering",
+      "skill-generator"
+    ],
+    "metrics": {
+      "stars_total": 23864,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 3,
+      "issues_closed_7d": 2,
+      "issue_comments": 0,
+      "commits_7d": 17,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "y49/tlive",
     "name": "tlive",
     "description": "Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.",
@@ -14856,6 +14895,34 @@
     }
   },
   {
+    "repo": "shadowaqueduct/watermark-remover",
+    "name": "watermark-remover",
+    "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+    "description_zh": "清除多厂商 AI 水印：清理 Unicode 文本、应用统计重写钩子，并从 PNG、JPEG、SVG、PDF、DOCX、HTML 和 MD 文件中移除 C2PA 及元数据。",
+    "description_en": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+    "prompt": "请安装 watermark-remover 技能。从 https://github.com/shadowaqueduct/watermark-remover 下载文件，保存到 .claude/skills/watermark-remover/ 目录，并按照仓库说明完成配置。",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-skill",
+      "codex-skills",
+      "watermark"
+    ],
+    "metrics": {
+      "stars_total": 760,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 6,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "kerberosclaw/kc_ai_skills",
     "name": "kc_ai_skills",
     "description": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM workflow",
@@ -15087,6 +15154,33 @@
       "stars_total": 59,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "taxueseek/say-it-human",
+    "name": "say-it-human",
+    "description": "专业消除AI味的skill",
+    "description_zh": "专业消除AI味的skill，让AI输出更自然、更像人类写的。",
+    "description_en": "专业消除AI味的skill",
+    "prompt": "请从 https://github.com/taxueseek/say-it-human 下载这个skill，保存到 .claude/skills/say-it-human/ 目录下，然后告诉我安装完成。",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "chinese",
+      "claude-skills",
+      "content-quality",
+      "humanize-ai",
+      "python",
+      "writing-tool"
+    ],
+    "metrics": {
+      "stars_total": 60,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 1,

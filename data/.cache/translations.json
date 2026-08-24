@@ -8062,5 +8062,26 @@
     "prompt": "请从 https://github.com/thrixel/build-world 下载该 Skill 的所有文件，并将其保存到 .claude/skills/build-world/ 目录中，完成安装。安装后，我将能够使用该 Skill 来构建交互式 3D 世界。",
     "translatedAt": "2026-08-21T02:21:29.652Z",
     "backTranslationDiff": 0.9090909090909091
+  },
+  "titanwings/distilly": {
+    "sourceHash": "fb02372270d482fe",
+    "chineseDescription": "Distilly — 将他们的思考方式提炼成可复用的 Skills，适用于任何 Agent 或 Bot。原名为 Colleague Skill（同事 Skill）。【使用场景】当你希望从某个 Agent 或 Bot 的交互中提取出可复用的技能模板，并安装到 Claude Code 中使用时。",
+    "prompt": "请从 GitHub 仓库 https://github.com/titanwings/distilly 下载 Distilly Skill 文件，并将其保存到 .claude/skills/distilly/ 目录中，完成安装。安装完成后，请确认文件已正确放置，并简要说明该 Skill 的功能和使用方法。",
+    "translatedAt": "2026-08-24T02:09:58.818Z",
+    "backTranslationDiff": 0.3846153846153846
+  },
+  "shadowaqueduct/watermark-remover": {
+    "sourceHash": "6b9ce25295240d17",
+    "chineseDescription": "清除多厂商 AI 水印：清理 Unicode 文本、应用统计重写钩子，并从 PNG、JPEG、SVG、PDF、DOCX、HTML 和 MD 文件中移除 C2PA 及元数据。",
+    "prompt": "请安装 watermark-remover 技能。从 https://github.com/shadowaqueduct/watermark-remover 下载文件，保存到 .claude/skills/watermark-remover/ 目录，并按照仓库说明完成配置。",
+    "translatedAt": "2026-08-24T02:10:03.050Z",
+    "backTranslationDiff": 0.1428571428571429
+  },
+  "taxueseek/say-it-human": {
+    "sourceHash": "a9004dbedb181493",
+    "chineseDescription": "专业消除AI味的skill，让AI输出更自然、更像人类写的。",
+    "prompt": "请从 https://github.com/taxueseek/say-it-human 下载这个skill，保存到 .claude/skills/say-it-human/ 目录下，然后告诉我安装完成。",
+    "translatedAt": "2026-08-24T02:10:07.389Z",
+    "backTranslationDiff": 1
   }
 }
