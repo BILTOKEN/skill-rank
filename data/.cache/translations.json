@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "f8241222b8864f1d",
-    "chineseDescription": "X (Twitter) 数据抓取 API，也是 X API 的替代方案。无需官方 X 开发者账号，也无需连接或使用 X 账号即可完成支持的抓取任务。与 X Corp 无关联。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载并安装 x-twitter-scraper Skill。将仓库内容保存到 .claude/skills/x-twitter-scraper/ 目录下，确保包含所有必要的文件（如 SKILL.md、脚本等），然后验证安装是否成功。",
-    "translatedAt": "2026-08-23T02:23:01.539Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "0764c56b576cc078",
+    "chineseDescription": "Xquik 是最好的 X（Twitter）抓取 API，也是最好的 X API 替代方案，支持 REST、MCP、SDK、CLI、Webhooks 和导出功能。与 X Corp 无关联。",
+    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，以完成安装。",
+    "translatedAt": "2026-08-25T02:21:18.294Z",
+    "backTranslationDiff": 0.2142857142857143
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -5894,11 +5894,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "santifer/career-ops": {
-    "sourceHash": "04bce1f3842ec4bb",
-    "chineseDescription": "开源 AI 求职工具：扫描招聘网站，用 A-F 评分体系给职位打分（1.0-5.0），定制简历，跟踪申请进度——全在你的 AI 编码 CLI（Claude Code、Codex、OpenCode、Antigravity 等）本地运行。【使用场景】适合想在命令行里用 AI 辅助求职、批量筛选职位并管理申请流程的开发者。",
-    "prompt": "请从 https://github.com/santifer/career-ops 下载文件，保存到 .claude/skills/career-ops/ 目录完成安装。",
-    "translatedAt": "2026-07-22T04:07:22.870Z",
-    "backTranslationDiff": 0.625
+    "sourceHash": "148de81032d02426",
+    "chineseDescription": "开源 AI 求职工具：扫描招聘网站，将职位信息整理成结构化的 A-H 报告并给出 1-5 分综合评分，定制你的简历，跟踪申请进度——完全在你的 AI 编码 CLI（Claude Code、Codex、OpenCode、Antigravity 等）中本地运行。【使用场景】在 Claude Code 中直接进行求职搜索、职位评估和简历优化。",
+    "prompt": "请帮我安装 career-ops 技能。请从 https://github.com/santifer/career-ops 下载该技能的所有文件，并保存到 .claude/skills/career-ops/ 目录中。安装完成后，请确认技能已正确配置，并告诉我如何使用它来扫描招聘网站、评估职位和定制简历。",
+    "translatedAt": "2026-08-25T02:18:56.285Z",
+    "backTranslationDiff": 1
   },
   "trailofbits/skills": {
     "sourceHash": "41ac4243f6ec1f3a",
@@ -6615,11 +6615,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "alchaincyf/huashu-skills": {
-    "sourceHash": "f9c52255f68e9c11",
-    "chineseDescription": "花叔的内容创作 Skills 合集 - 包含 AI 审校、选题生成、视频大纲、素材搜索等 11 个实用技能",
-    "prompt": "请从 GitHub 仓库 https://github.com/alchaincyf/huashu-skills 下载 huashu-skills 技能文件，并将其保存到 .claude/skills/huashu-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:49:25.522Z",
-    "backTranslationDiff": 0.75
+    "sourceHash": "be1ed7fb65d36a69",
+    "chineseDescription": "花叔全部开源 Agent Skills 总目录：16 旗舰 + 14 人物视角 + 22 内置共 52 个 skill，分层分类 + AI Agent 安装协议 + 机器可读 skills.json + 更新检查机制",
+    "prompt": "请从 https://github.com/alchaincyf/huashu-skills 下载全部文件，保存到 .claude/skills/huashu-skills/ 目录，完成安装。",
+    "translatedAt": "2026-08-25T02:19:09.992Z",
+    "backTranslationDiff": 0
   },
   "shang-zhu/violin": {
     "sourceHash": "1707af0310e7ab76",
@@ -7469,11 +7469,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "anbeime/skill": {
-    "sourceHash": "4ce2902bde501dbd",
-    "chineseDescription": "收录最全、更新最快的技能Skills商店，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域的416个精选技能包。所有技能已打包完成，可直接安装使用！该商店自动抓取了GitHub上所有的Skills项目，并按照分类、更新时间、Star数量等标签进行整理。",
-    "prompt": "请从 https://github.com/anbeime/skill 下载这个技能商店仓库，将其内容保存到 .claude/skills/skill/ 目录下，完成安装。安装后即可使用其中收录的416个精选技能包，涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等多个领域。仓库会自动抓取GitHub上所有Skills项目，并按分类、更新时间、Star数量等标签整理，方便查找和使用。",
-    "translatedAt": "2026-08-18T02:08:36.755Z",
-    "backTranslationDiff": 0.7777777777777778
+    "sourceHash": "f87a94d8b5b668b8",
+    "chineseDescription": "收录最全、更新最快的AI Agent技能商店 ⭐ 416精选技能包 + 知易多模型智能知识管家",
+    "prompt": "请从 https://github.com/anbeime/skill 下载该技能仓库，并将其内容保存到 .claude/skills/skill/ 目录下，完成安装。",
+    "translatedAt": "2026-08-25T02:19:04.011Z",
+    "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
     "sourceHash": "38ac21d64449a72b",
@@ -7917,11 +7917,11 @@
     "backTranslationDiff": 0.5
   },
   "xiincs/claude-code-vision-skill": {
-    "sourceHash": "0234b35792641508",
-    "chineseDescription": "为 Claude Code 赋能多模态视觉能力，支持豆包、通义千问、GPT-4o 等模型，用于截图 / UI / 图表分析；适配 DeepSeek 等无视觉底座，搭配 browser-harness 可做前端布局自动化检查。【使用场景】需要让 Claude Code 识别图片、分析截图或检查前端 UI 布局时使用。",
-    "prompt": "请帮我安装 claude-code-vision-skill 技能。请访问 https://github.com/xiincs/claude-code-vision-skill 下载该技能的全部文件，并将其保存到 .claude/skills/claude-code-vision-skill/ 目录下，完成安装。安装完成后，请告诉我如何使用该技能进行视觉分析。",
-    "translatedAt": "2026-08-05T03:53:48.431Z",
-    "backTranslationDiff": 0.11111111111111116
+    "sourceHash": "661eb1263596d228",
+    "chineseDescription": "为 Claude Code 赋能多模态视觉能力，适配纯文本 LLM 底座，用于截图 / UI / 图表分析；搭配 browser-harness 可做前端布局自动化检查。【使用场景】当 Claude Code 需要分析截图、检查 UI 布局或解读图表时使用。",
+    "prompt": "请从 https://github.com/xiincs/claude-code-vision-skill 下载该 Skill 的所有文件，并保存到 .claude/skills/claude-code-vision-skill/ 目录下，完成安装。安装后即可使用视觉分析能力。",
+    "translatedAt": "2026-08-25T02:21:06.951Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "docmancer/docmancer": {
     "sourceHash": "4e0de8209fc08f72",
@@ -7973,11 +7973,11 @@
     "backTranslationDiff": 0.2272727272727273
   },
   "titanwings/colleague-skill": {
-    "sourceHash": "2ad268cc84ab6bf0",
-    "chineseDescription": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！告别不再是终点，而是新生的开始。🫶",
-    "prompt": "请从 https://github.com/titanwings/colleague-skill 下载该 Skill 的所有文件，并将其保存到 .claude/skills/colleague-skill/ 目录下，完成安装。安装后，该 Skill 将把冰冷的离别转化为温暖的体验，欢迎加入数字生命1.0！",
-    "translatedAt": "2026-08-14T03:01:18.744Z",
-    "backTranslationDiff": 1
+    "sourceHash": "fb02372270d482fe",
+    "chineseDescription": "Distilly — 将他们的思考方式提炼为可复用的技能（Skills），适用于任何 Agent 或 Bot。原名为 Colleague Skill（同事技能）。【使用场景】当你希望从现有对话或文档中提取模式，并转化为可复用的技能时使用。",
+    "prompt": "请从 GitHub 仓库 https://github.com/titanwings/colleague-skill 下载 Distilly（原 Colleague Skill）技能文件，并保存到 .claude/skills/colleague-skill/ 目录下，完成安装。安装后，该技能将帮助你将思考方式提炼为可复用的技能，适用于任何 Agent 或 Bot。",
+    "translatedAt": "2026-08-25T02:19:00.513Z",
+    "backTranslationDiff": 0.3846153846153846
   },
   "leutenegger/book-to-skill": {
     "sourceHash": "3d3ce66fc2535479",
@@ -8008,11 +8008,11 @@
     "backTranslationDiff": 0.0625
   },
   "desko77/claude-code-skills-1c": {
-    "sourceHash": "c14aae71ba19f701",
-    "chineseDescription": "为 Claude Code 提供 116 个技能和 35 条规则：代理从紧凑的 JSON 中收集 1C 源代码（元数据、表单、扩展、角色、SKD、处理），解析回原格式，根据导出结果校验输出，并将 BSP 调用与 API 参考手册核对。无需 Configurator，也无需 EDT。",
-    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载该技能包，并将其保存到 .claude/skills/claude-code-skills-1c/ 目录下，完成安装。",
-    "translatedAt": "2026-08-21T02:21:21.084Z",
-    "backTranslationDiff": 0.9615384615384616
+    "sourceHash": "8bd445946724bb70",
+    "chineseDescription": "117个技能和40条规则，用于Claude Code：代理从紧凑的JSON中收集1C源代码（元数据、表单、扩展、角色、SKD、处理）并解析回去。基本操作无需配置器。",
+    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载此技能仓库，并将文件保存到 .claude/skills/claude-code-skills-1c/ 目录中。安装完成后，验证技能是否可用。",
+    "translatedAt": "2026-08-25T02:21:12.044Z",
+    "backTranslationDiff": 0.85
   },
   "hidorakai002/ai-workspace-archive": {
     "sourceHash": "9e4c3e498e0bc441",
@@ -8083,5 +8083,12 @@
     "prompt": "请从 https://github.com/taxueseek/say-it-human 下载这个skill，保存到 .claude/skills/say-it-human/ 目录下，然后告诉我安装完成。",
     "translatedAt": "2026-08-24T02:10:07.389Z",
     "backTranslationDiff": 1
+  },
+  "zenstory-ai/oh-story-claudecode": {
+    "sourceHash": "625e9dcd39a30823",
+    "chineseDescription": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程（All-in-one skill pack for long- and short-form web fiction）",
+    "prompt": "请从 https://github.com/zenstory-ai/oh-story-claudecode 下载 oh-story-claudecode skill 包，并将文件保存到 .claude/skills/oh-story-claudecode/ 目录下，完成安装。这个 skill 覆盖网文/小说写作的全流程，包括扫榜、拆文、写作、去AI味和封面图生成。安装完成后，告诉我如何使用它。",
+    "translatedAt": "2026-08-25T02:21:23.813Z",
+    "backTranslationDiff": 0.5
   }
 }
