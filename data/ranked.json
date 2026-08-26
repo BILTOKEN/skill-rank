@@ -11974,6 +11974,36 @@
     "checkedAt": "2026-07-25T03:41:44.431Z"
   },
   {
+    "repo": "adscanpro/claude-ad",
+    "name": "Claude-AD",
+    "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), OPSEC telemetry and DORA/NIS2/ENS mapping. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
+    "tags": [
+      "active-directory",
+      "active-directory-security",
+      "adcs",
+      "bloodhound",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "dcsync",
+      "kerberoasting",
+      "kerberos",
+      "ntlm-relay",
+      "offensive-security",
+      "penetration-testing",
+      "pentesting",
+      "red-team"
+    ],
+    "stars": 54,
+    "lastPush": "2026-08-24T18:14:38Z",
+    "pool": "ranked",
+    "readmeLength": 873,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-26T02:00:26.514Z"
+  },
+  {
     "repo": "raintree-technology/apple-hig-skills",
     "name": "hig-doctor",
     "description": "Apple HIG audit CLI + 14 agent skills for AI coding assistants — score any project for HIG compliance across 12 frameworks",

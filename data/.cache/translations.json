@@ -2835,11 +2835,11 @@
     "backTranslationDiff": 0.25
   },
   "alirezarezvani/claude-skills": {
-    "sourceHash": "e4d7953eab09cdc3",
-    "chineseDescription": "345个 Claude Code 技能、Agent 技能和插件（30+ Agent、70+ 自定义命令、330+ 技能、可自定义的引用和脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 等8个编码 Agent——涵盖工程、市场、产品、合规、C级顾问、研究、业务运营、商业与财务，以及你的日常生产力技能。",
-    "prompt": "请从 https://github.com/alirezarezvani/claude-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/claude-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-07-08T04:12:48.063Z",
-    "backTranslationDiff": 0.1351351351351351
+    "sourceHash": "02d0971c141acfae",
+    "chineseDescription": "380 个 Claude Code 技能、代理技能和插件（30+ 代理、70+ 自定义命令、380+ 技能、可自定义引用和脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 等 8 种以上编码代理——涵盖工程、营销、产品、合规、C 级顾问、研究、业务运营、商业与财务，以及日常生产力技能。",
+    "prompt": "请从 https://github.com/alirezarezvani/claude-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-skills/ 目录中，完成安装。安装后请简要列出可用的技能类别和几个示例技能名称。",
+    "translatedAt": "2026-08-26T02:16:27.333Z",
+    "backTranslationDiff": 0.16216216216216217
   },
   "muratcankoylan/agent-skills-for-context-engineering": {
     "sourceHash": "d7019e6678a41c6a",
@@ -7469,10 +7469,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "anbeime/skill": {
-    "sourceHash": "f87a94d8b5b668b8",
-    "chineseDescription": "收录最全、更新最快的AI Agent技能商店 ⭐ 416精选技能包 + 知易多模型智能知识管家",
-    "prompt": "请从 https://github.com/anbeime/skill 下载该技能仓库，并将其内容保存到 .claude/skills/skill/ 目录下，完成安装。",
-    "translatedAt": "2026-08-25T02:19:04.011Z",
+    "sourceHash": "68b1ceba22034845",
+    "chineseDescription": "收录最全、更新最快的技能Skills商店：416个精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。【使用场景】需要快速获取大量现成的Claude Code技能包，或想浏览GitHub上热门Skills项目时使用。",
+    "prompt": "请帮我安装一个名为 skill 的 Claude Code 技能。请从 GitHub 仓库 https://github.com/anbeime/skill 下载文件，并保存到 .claude/skills/skill/ 目录下完成安装。这个技能是一个技能商店，包含416个精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），并会自动抓取GitHub上万个Skills项目按分类、更新时间、Star数量整理。请执行以下步骤：1. 克隆或下载 https://github.com/anbeime/skill 仓库内容 2. 将文件保存到 .claude/skills/skill/ 目录 3. 确认安装完成并告知我如何使用。",
+    "translatedAt": "2026-08-26T02:16:33.454Z",
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
@@ -8090,5 +8090,12 @@
     "prompt": "请从 https://github.com/zenstory-ai/oh-story-claudecode 下载 oh-story-claudecode skill 包，并将文件保存到 .claude/skills/oh-story-claudecode/ 目录下，完成安装。这个 skill 覆盖网文/小说写作的全流程，包括扫榜、拆文、写作、去AI味和封面图生成。安装完成后，告诉我如何使用它。",
     "translatedAt": "2026-08-25T02:21:23.813Z",
     "backTranslationDiff": 0.5
+  },
+  "adscanpro/claude-ad": {
+    "sourceHash": "bc39245435553dc3",
+    "chineseDescription": "Claude-AD 是一个面向 Claude Code 的 Active Directory 渗透测试方法论工具包，包含技能、代理和斜杠命令，用于内部 AD 红队工作（Kerberoasting、ADCS ESC1-17、DCSync、ACL 滥用、NTLM 中继、委派攻击）、OPSEC 遥测以及 DORA/NIS2/ENS 映射。它驱动 netexec、impacket、certipy、bloodyAD、BloodHound CE 等工具。",
+    "prompt": "请从 https://github.com/adscanpro/claude-ad 下载并安装 Claude-AD 技能。将仓库内容克隆或下载到 .claude/skills/claude-ad/ 目录，确保所有技能文件、代理配置和斜杠命令都正确保存。安装完成后，验证技能是否可用，并简要说明如何使用这些技能进行 AD 渗透测试。GitHub 仓库地址：https://github.com/adscanpro/claude-ad",
+    "translatedAt": "2026-08-26T02:16:39.572Z",
+    "backTranslationDiff": 0.8709677419354839
   }
 }

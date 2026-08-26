@@ -9339,6 +9339,31 @@
     "lastPush": "2026-07-24T16:33:23Z"
   },
   {
+    "repo": "adscanpro/claude-ad",
+    "name": "Claude-AD",
+    "description": "Active Directory pentest methodology for Claude Code: skills, agents and slash commands for internal AD red-team work (Kerberoasting, ADCS ESC1-17, DCSync, ACL abuse, NTLM relay, delegation), OPSEC telemetry and DORA/NIS2/ENS mapping. Drives netexec, impacket, certipy, bloodyAD, BloodHound CE.",
+    "tags": [
+      "active-directory",
+      "active-directory-security",
+      "adcs",
+      "bloodhound",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "dcsync",
+      "kerberoasting",
+      "kerberos",
+      "ntlm-relay",
+      "offensive-security",
+      "penetration-testing",
+      "pentesting",
+      "red-team"
+    ],
+    "stars": 54,
+    "lastPush": "2026-08-24T18:14:38Z"
+  },
+  {
     "repo": "raintree-technology/apple-hig-skills",
     "name": "hig-doctor",
     "description": "Apple HIG audit CLI + 14 agent skills for AI coding assistants — score any project for HIG compliance across 12 frameworks",
@@ -25133,6 +25158,26 @@
     "lastPush": "2026-08-14T10:38:03Z"
   },
   {
+    "repo": "winterbim/wincreator",
+    "name": "wincreator",
+    "description": "Stop your AI agent from lying about tests. Hierarchical engineering loops with machine-checkable proof gates.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "skill-md",
+      "tdd",
+      "verification"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-25T17:34:51Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -27638,6 +27683,55 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-02T21:03:00Z"
+  },
+  {
+    "repo": "iabhishekjhai/brain",
+    "name": "brain",
+    "description": "Don't lose context, stop re-explaining your project to your AI agent every session. A Claude skill that maintains the brain of your project — decisions, flow, and TODOs — so any agent gets up to speed fast and helps you keep track of the code flow",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "context-management",
+      "decision-log",
+      "decision-logging",
+      "decision-trees",
+      "developer-tools",
+      "documentation",
+      "harness",
+      "harness-ai"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-25T07:50:07Z"
+  },
+  {
+    "repo": "tetckx/deep-structural-analysis-skill",
+    "name": "deep-structural-analysis-skill",
+    "description": "Deep Structural Analysis — a multi-perspective structural analysis skill for complex social, economic, philosophical, and systemic questions. 16 lenses, 10 structural tools, an attack-loop protocol against analytical priors. Behavior-verified from real usage. MIT licensed.深度结构分析——面向复杂社会、哲学与系统性问题的多学科结构分析技能。16 透镜、10 结构工具、攻击循环协议对抗分析先验。基于实战行为验证。MIT许可。",
+    "tags": [
+      "adversarial-review",
+      "ai-skill",
+      "analysis-framework",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "deep-analysis",
+      "dsh-plugin",
+      "dsh-plugins",
+      "multi-lens",
+      "opencode-skill",
+      "opencode-skills",
+      "prompt-engineering",
+      "skill",
+      "skills",
+      "structural-analysis"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-21T02:20:32Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
