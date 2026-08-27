@@ -4158,11 +4158,11 @@
     "backTranslationDiff": 0.7916666666666666
   },
   "aboudjem/humanizer-skill": {
-    "sourceHash": "8cf8b55aaa402caf",
-    "chineseDescription": "AI 写作模式检测与重写工具。支持 53 种模式、5 种语气、0-100 的 AI 痕迹评分。纯 Markdown，零依赖。",
-    "prompt": "请从 https://github.com/aboudjem/humanizer-skill 下载 humanizer-skill 项目文件，并将其保存到 .claude/skills/humanizer-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-07-17T03:55:23.193Z",
-    "backTranslationDiff": 0.46153846153846156
+    "sourceHash": "394ca52b4c198171",
+    "chineseDescription": "AI 写作人性化工具和模式检测器。支持 55 种模式、5 种语气、0-100 分的 AI 痕迹评分。纯 Markdown 实现，零依赖。",
+    "prompt": "请从 https://github.com/aboudjem/humanizer-skill 下载 humanizer-skill 技能文件，并保存到 .claude/skills/humanizer-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-08-27T10:18:47.319Z",
+    "backTranslationDiff": 1
   },
   "spillwavesolutions/mastering-langgraph-agent-skill": {
     "sourceHash": "58d69b85d07e19ed",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "63d9f1689eec58ee",
-    "chineseDescription": "这是一个面向 AI 代理的技能包：自动检测并清除俄语文本中的机器生成痕迹。内置 38 种模式、39 个带证据登记表的 regex 标记、盲配对双轮检测，以及文件层面的 C2PA/EXIF/XMP 元数据剥离。提供 PyPI 包和在线演示。",
-    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载 humanizer-ru 技能包，并将其保存到 .claude/skills/humanizer-ru/ 目录中。安装完成后，该技能将用于检测和清除俄语文本中的机器生成痕迹，包括：1) 38 种文本模式识别；2) 39 个 regex 标记及证据登记；3) 盲配对双轮检测；4) 文件层 C2PA/EXIF/XMP 元数据剥离。请确保所有依赖（如 PyPI 包 humanizer-ru）也已正确安装。",
-    "translatedAt": "2026-08-23T02:22:44.979Z",
-    "backTranslationDiff": 0.9032258064516129
+    "sourceHash": "1f531c27ffd85294",
+    "chineseDescription": "这是一个面向 AI 代理的技能：自动检测并清除俄语文本中的机器生成痕迹，不破坏自然表达，也不擅自补充事实。内置 56 种模式、40 个正则标记（证据库准确率 38/40），提供“检测度前后对比”轴并带误报控制，支持移除 C2PA/EXIF/XMP 元数据，附带 PyPI 包和在线演示。",
+    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载该技能的全部文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后请确认技能可用，并简要说明其功能。",
+    "translatedAt": "2026-08-27T10:18:52.181Z",
+    "backTranslationDiff": 0.9285714285714286
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -8092,10 +8092,31 @@
     "backTranslationDiff": 0.5
   },
   "adscanpro/claude-ad": {
-    "sourceHash": "bc39245435553dc3",
-    "chineseDescription": "Claude-AD 是一个面向 Claude Code 的 Active Directory 渗透测试方法论工具包，包含技能、代理和斜杠命令，用于内部 AD 红队工作（Kerberoasting、ADCS ESC1-17、DCSync、ACL 滥用、NTLM 中继、委派攻击）、OPSEC 遥测以及 DORA/NIS2/ENS 映射。它驱动 netexec、impacket、certipy、bloodyAD、BloodHound CE 等工具。",
-    "prompt": "请从 https://github.com/adscanpro/claude-ad 下载并安装 Claude-AD 技能。将仓库内容克隆或下载到 .claude/skills/claude-ad/ 目录，确保所有技能文件、代理配置和斜杠命令都正确保存。安装完成后，验证技能是否可用，并简要说明如何使用这些技能进行 AD 渗透测试。GitHub 仓库地址：https://github.com/adscanpro/claude-ad",
-    "translatedAt": "2026-08-26T02:16:39.572Z",
-    "backTranslationDiff": 0.8709677419354839
+    "sourceHash": "b7b339d79d154f3a",
+    "chineseDescription": "Active Directory 渗透测试方法论，为 Claude Code 提供技能、代理和斜杠命令，用于内部 AD 红队工作（Kerberoasting、ADCS ESC1-17、DCSync、ACL 滥用、NTLM 中继、委派），并附带每项技术的 OPSEC/遥测注意事项。驱动 netexec、impacket、certipy、bloodyAD、BloodHound CE。",
+    "prompt": "请从 https://github.com/adscanpro/claude-ad 下载 Claude-AD 技能文件，并将其保存到 .claude/skills/claude-ad/ 目录中，完成安装。安装后，请确认技能可用，并简要说明其功能。",
+    "translatedAt": "2026-08-27T10:19:12.637Z",
+    "backTranslationDiff": 0.9032258064516129
+  },
+  "ayueh0102/ronnier-skill": {
+    "sourceHash": "758d4013fe62877a",
+    "chineseDescription": "色彩科学／色度学完整中文学习笔记，打包成 Claude Code skill，也支持 Codex。涵盖 CIE 色度学、CIEDE2000、CIECAM02、色适应与演色性。【使用场景】用于在 Claude Code 中快速查阅色彩科学和色度学的系统知识，适合做颜色计算、色彩管理或相关开发时参考。",
+    "prompt": "请帮我安装一个名为 Ronnier-skill 的 Claude Code skill。请从 GitHub 仓库 https://github.com/ayueh0102/ronnier-skill 下载文件，并保存到 .claude/skills/ronnier-skill/ 目录下，完成安装。这个 skill 提供色彩科学／色度学的完整中文学习笔记，涵盖 CIE 色度学、CIEDE2000、CIECAM02、色适应与演色性等内容。",
+    "translatedAt": "2026-08-27T10:18:56.685Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "leopard627/fire-your-seo-agency": {
+    "sourceHash": "f71de04cfa0c71b0",
+    "chineseDescription": "解雇你的 SEO 代理 🔥 一个 Claude Code 技能，可自行审计和优化 SEO·AEO·GEO·LLMO·NEO(Naver)——每月 50~350 万韩元的'AI 搜索优化'代理服务，由 AI 智能体替代",
+    "prompt": "请从 https://github.com/leopard627/fire-your-seo-agency 下载 fire-your-seo-agency 技能文件，并保存到 .claude/skills/fire-your-seo-agency/ 目录中，完成安装。",
+    "translatedAt": "2026-08-27T10:19:02.687Z",
+    "backTranslationDiff": 0.5625
+  },
+  "eriemon/verilog-generator": {
+    "sourceHash": "9ce3108ecadede4c",
+    "chineseDescription": "用于 Verilog-2001 RTL 生成和 FPGA 设计工作流的 Agent 技能。",
+    "prompt": "请从 https://github.com/eriemon/verilog-generator 下载该技能文件，并将其保存到 .claude/skills/verilog-generator/ 目录中，以完成安装。",
+    "translatedAt": "2026-08-27T10:19:07.092Z",
+    "backTranslationDiff": 0.5714285714285714
   }
 }

@@ -5774,6 +5774,25 @@
     "lastPush": "2026-05-07T15:13:39Z"
   },
   {
+    "repo": "eriemon/verilog-generator",
+    "name": "verilog-generator",
+    "description": "Agent skill for Verilog-2001 RTL generation and FPGA design workflows.",
+    "tags": [
+      "agent-skill",
+      "claude-skills",
+      "codex-skills",
+      "deepseek-harness-skills",
+      "eda",
+      "fpga",
+      "gemini-skills",
+      "hardware-generation",
+      "rtl",
+      "verilog"
+    ],
+    "stars": 247,
+    "lastPush": "2026-08-25T14:53:26Z"
+  },
+  {
     "repo": "intertwine/dspy-agent-skills",
     "name": "dspy-agent-skills",
     "description": "Production-grade DSPy 3.2.x agent skills + validated end-to-end examples for Claude Code and Codex CLI — fundamentals, evaluation, GEPA, BetterTogether, and RLM.",
@@ -7406,6 +7425,24 @@
     "lastPush": "2026-04-29T10:42:34Z"
   },
   {
+    "repo": "leopard627/fire-your-seo-agency",
+    "name": "fire-your-seo-agency",
+    "description": "Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver) by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다",
+    "tags": [
+      "aeo",
+      "ai-search",
+      "claude-code",
+      "claude-skills",
+      "geo",
+      "llmo",
+      "llms-txt",
+      "naver",
+      "seo"
+    ],
+    "stars": 122,
+    "lastPush": "2026-08-27T06:26:41Z"
+  },
+  {
     "repo": "askimo-ai/askimo",
     "name": "askimo",
     "description": "Local-first AI agent platform for desktop and CLI. Chat, RAG search, multi-step Plans workflows, MCP tools, and Agents integration. Supports OpenAI, Claude, Gemini, Grok, Ollama, LM Studio and more",
@@ -8448,6 +8485,26 @@
     ],
     "stars": 72,
     "lastPush": "2026-08-20T23:45:21Z"
+  },
+  {
+    "repo": "ayueh0102/ronnier-skill",
+    "name": "Ronnier-skill",
+    "description": "色彩科學／色度學完整中文學習筆記，包裝成 Claude Code skill，也支援 Codex。涵蓋 CIE 色度學、CIEDE2000、CIECAM02、色適應與演色性。",
+    "tags": [
+      "agent-md",
+      "ciecam02",
+      "ciede2000",
+      "cielab",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "color-appearance",
+      "color-science",
+      "colorimetry"
+    ],
+    "stars": 72,
+    "lastPush": "2026-08-26T09:02:00Z"
   },
   {
     "repo": "summerkaze/skill-arkts-syntax-assistant",
@@ -16950,6 +17007,28 @@
     "lastPush": "2026-08-23T05:36:37Z"
   },
   {
+    "repo": "idea2go2go/smartfolder-skill",
+    "name": "smartfolder-skill",
+    "description": "A Claude skill that turns a folder into a collaboration knowledge base for you, your AI, and your humans",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "collaboration",
+      "digital-archive",
+      "file-organization",
+      "knowledge-base",
+      "knowledge-distillation",
+      "knowledge-management",
+      "knowledge-sharing",
+      "markdown",
+      "smartfolder"
+    ],
+    "stars": 12,
+    "lastPush": "2026-08-17T13:15:43Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -20262,6 +20341,35 @@
     ],
     "stars": 8,
     "lastPush": "2026-08-20T13:47:18Z"
+  },
+  {
+    "repo": "elithril/blender-kiln",
+    "name": "blender-kiln",
+    "description": "Blender skill and plugin for Claude Code — 3D asset pipeline from text brief to production GLB: Blender MCP, Hunyuan3D generation, texturing, rigging, batch mode",
+    "tags": [
+      "3d",
+      "3d-assets",
+      "agent-skills",
+      "asset-pipeline",
+      "blender",
+      "blender-mcp",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "gamedev",
+      "glb",
+      "gltf",
+      "hunyuan3d",
+      "mcp",
+      "model-context-protocol",
+      "pbr",
+      "texturing",
+      "threejs",
+      "usdz"
+    ],
+    "stars": 8,
+    "lastPush": "2026-08-27T07:26:04Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -25178,6 +25286,26 @@
     "lastPush": "2026-08-25T17:34:51Z"
   },
   {
+    "repo": "nks0614/harnessay",
+    "name": "harnessay",
+    "description": "Profile Claude Code context, discover repeated workflows, and regression-test your skills. Local-only, zero-dependency.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "context-window",
+      "developer-tools",
+      "llm",
+      "profiling"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-26T08:07:32Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -27732,6 +27860,118 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-21T02:20:32Z"
+  },
+  {
+    "repo": "simooo45/bottle",
+    "name": "bottle",
+    "description": "Lets Claude Code drive complex, multi-session projects while you stay at the helm: small markdown files (rules, backlog, roadmap, changelog) it reads in full every time, so nothing gets relearned. Out of credits with an idea? Jot it in BACKLOG.md for next time.",
+    "tags": [
+      "bootstrap",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "message-in-a-bottle",
+      "project-management",
+      "skill-md",
+      "software-engineering",
+      "vibecoderszone",
+      "vibecoding-tool"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-25T15:16:42Z"
+  },
+  {
+    "repo": "ahammadnafiz/uxi",
+    "name": "uxi",
+    "description": "Ask it for a fake countdown timer and it says no. A UX and accessibility skill for Claude Code: surface-class-aware audits, WCAG 2.2 checks, deceptive-pattern screening, and five zero-dependency lint and stats tools.",
+    "tags": [
+      "a11y",
+      "accessibility",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills",
+      "dark-patterns",
+      "deceptive-patterns",
+      "design-review",
+      "heuristic-evaluation",
+      "ui-design",
+      "usability-testing",
+      "ux",
+      "ux-audit",
+      "ux-research",
+      "wcag",
+      "wcag22"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-26T19:56:41Z"
+  },
+  {
+    "repo": "eklavya-san/ctq-extraction",
+    "name": "CTQ-extraction",
+    "description": "AI agent skill for extracting Critical-To-Quality (CTQ) parameters, GD&T feature control frames, and verbatim tolerances from engineering drawings & CAD files into structured JSON.",
+    "tags": [
+      "ai-agents",
+      "antigravity-skills",
+      "cad",
+      "claude-code-skill",
+      "ctq",
+      "engineering-drawings",
+      "gdt",
+      "iso-1101",
+      "json-schema",
+      "manufacturing-quality",
+      "opencode-skill",
+      "python3",
+      "tolerances"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-08T17:05:53Z"
+  },
+  {
+    "repo": "heyparsadev/liquid-glass-skill",
+    "name": "liquid-glass-skill",
+    "description": "Claude Code skill for iOS 26 Liquid Glass SwiftUI design — glassEffect API reference, HIG principles, design tokens, motion and accessibility rules, a pattern library, and nine example screens that compile in Xcode 26.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "apple",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skill",
+      "claude-skills",
+      "design-system",
+      "hig",
+      "ios",
+      "ios26",
+      "liquid-glass",
+      "skills",
+      "swift",
+      "swiftui",
+      "ui-design"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-12T10:36:14Z"
+  },
+  {
+    "repo": "tadthefisherman/feynman-it",
+    "name": "feynman-it",
+    "description": "Turn any topic into a hand-illustrated, Feynman-method explainer PDF. A Claude Code Skill.",
+    "tags": [
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "explainer",
+      "learning",
+      "pdf-generation"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-03T03:15:58Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -34528,6 +34768,28 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-23T23:41:27Z"
+  },
+  {
+    "repo": "maiconlara/session-start",
+    "name": "session-start",
+    "description": "Standing session rules for Claude Code, injected before the first reply of every session via a SessionStart hook: best-solution-first quality bar, em-dash ban, useEffect ban, JSDoc-only comment policy and per-commit/per-push authorization. Agent skill plus the hook script that auto-loads it.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-skill",
+      "claude-code-skills",
+      "code-style",
+      "codex-skills",
+      "coding-standards",
+      "developer-experience",
+      "hooks",
+      "session-start",
+      "skills-sh"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-26T02:58:13Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
