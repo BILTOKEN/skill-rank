@@ -7734,6 +7734,27 @@
     "lastPush": "2026-04-19T20:47:43Z"
   },
   {
+    "repo": "ovid/paad",
+    "name": "paad",
+    "description": "The practices that made software work didn't stop working. They stopped keeping up. PAAD brings them back at AI speed.",
+    "tags": [
+      "agent-skill",
+      "AI",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "genai",
+      "qa",
+      "sdlc"
+    ],
+    "stars": 105,
+    "lastPush": "2026-08-27T14:18:11Z"
+  },
+  {
     "repo": "mark393295827/third-brain-v5-skills",
     "name": "third-brain-v5-skills",
     "description": "claude-skills",
@@ -9287,6 +9308,28 @@
     ],
     "stars": 56,
     "lastPush": "2026-04-14T19:44:28Z"
+  },
+  {
+    "repo": "aleclindz/seo-skill-bench",
+    "name": "seo-skill-bench",
+    "description": "Open benchmark for Claude Code SEO skills — real headless execution against fixture sites with planted-defect answer keys. Deterministic scoring, pre-registered rubric.",
+    "tags": [
+      "aeo",
+      "agent-skills",
+      "AI",
+      "ai-seo",
+      "benchmark",
+      "claude-code",
+      "claude-code-skill",
+      "evals",
+      "geo",
+      "llm",
+      "llm-evaluation",
+      "open-source",
+      "seo"
+    ],
+    "stars": 56,
+    "lastPush": "2026-08-21T23:59:04Z"
   },
   {
     "repo": "yuzzyuk/marketing-os",
@@ -15673,6 +15716,35 @@
     "lastPush": "2026-08-12T10:07:22Z"
   },
   {
+    "repo": "fishzjp/qa-skills",
+    "name": "qa-skills",
+    "description": "让 AI 像资深测试工程师一样工作：全生命周期 QA Agent Skills 框架——方法论 + 10 Skills + 可复现 Benchmark（Claude Code 等 Agent 可用）",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-testing",
+      "benchmark",
+      "claude-code",
+      "claude-skills",
+      "deepseek",
+      "deepseek-harness",
+      "dsh",
+      "dsh-plugin",
+      "evals",
+      "llm",
+      "playwright",
+      "pytest",
+      "qa",
+      "quality-assurance",
+      "software-testing",
+      "test-automation",
+      "test-case-writing",
+      "测试"
+    ],
+    "stars": 14,
+    "lastPush": "2026-08-27T16:37:09Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -16409,6 +16481,22 @@
     ],
     "stars": 13,
     "lastPush": "2026-08-18T10:37:19Z"
+  },
+  {
+    "repo": "matteobaccan/linkedincringe",
+    "name": "LinkedInCringe",
+    "description": "Skill per la creazione di storie Cringe per LinkedIn",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "cringe",
+      "italian",
+      "linkedin",
+      "satire",
+      "skill"
+    ],
+    "stars": 13,
+    "lastPush": "2026-08-25T11:09:12Z"
   },
   {
     "repo": "darrenbenson/sdlc-studio",
@@ -21369,6 +21457,30 @@
     "lastPush": "2026-07-02T13:38:47Z"
   },
   {
+    "repo": "nurkamol/website-build-kit",
+    "name": "website-build-kit",
+    "description": "Build production marketing sites with Claude Code — an Astro + Cloudflare Workers template, a WordPress→Astro migration playbook, and 33 silent failures documented from real rebuilds.",
+    "tags": [
+      "ai-agents",
+      "astro",
+      "claude-code",
+      "claude-code-skill",
+      "cloudflare-workers",
+      "elementor",
+      "jamstack",
+      "marketing-website",
+      "seo",
+      "site-migration",
+      "starter-template",
+      "static-site",
+      "wcag",
+      "web-accessibility",
+      "wordpress-migration"
+    ],
+    "stars": 7,
+    "lastPush": "2026-08-28T10:02:24Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -24246,6 +24358,19 @@
     ],
     "stars": 4,
     "lastPush": "2026-08-14T20:10:14Z"
+  },
+  {
+    "repo": "jmtom-io/lulu-cheng-skill",
+    "name": "lulu-cheng-skill",
+    "description": "Lulu cheng.skill，Lulu的传播和营销方法论。A marketing skill for builders.",
+    "tags": [
+      "claude-code-skill",
+      "codex",
+      "gtm",
+      "skill"
+    ],
+    "stars": 4,
+    "lastPush": "2026-08-27T14:13:19Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -27972,6 +28097,43 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-03T03:15:58Z"
+  },
+  {
+    "repo": "theopenlane/claude-skills",
+    "name": "claude-skills",
+    "description": "Openlane's battle-tested compliance knowledge loaded into your claude environment",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills",
+      "compliance",
+      "compliance-automation",
+      "openlane",
+      "soc2"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-06T06:48:10Z"
+  },
+  {
+    "repo": "gnomeshgh0714/mbb-deck",
+    "name": "mbb-deck",
+    "description": "MBB 咨询风汇报 Deck 生成技能：Claude Code 原生 + 跨平台部署（OpenAI / WorkBuddy 等）",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "consulting",
+      "html-deck",
+      "mckinsey",
+      "presentation"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-28T06:54:48Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

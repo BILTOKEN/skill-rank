@@ -9954,6 +9954,32 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "ovid/paad",
+    "name": "paad",
+    "description": "The practices that made software work didn't stop working. They stopped keeping up. PAAD brings them back at AI speed.",
+    "tags": [
+      "agent-skill",
+      "AI",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "genai",
+      "qa",
+      "sdlc"
+    ],
+    "stars": 105,
+    "lastPush": "2026-08-27T14:18:11Z",
+    "pool": "ranked",
+    "readmeLength": 9147,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-08-28T11:29:10.207Z"
+  },
+  {
     "repo": "mark393295827/third-brain-v5-skills",
     "name": "third-brain-v5-skills",
     "description": "claude-skills",
@@ -11907,6 +11933,33 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "aleclindz/seo-skill-bench",
+    "name": "seo-skill-bench",
+    "description": "Open benchmark for Claude Code SEO skills — real headless execution against fixture sites with planted-defect answer keys. Deterministic scoring, pre-registered rubric.",
+    "tags": [
+      "aeo",
+      "agent-skills",
+      "AI",
+      "ai-seo",
+      "benchmark",
+      "claude-code",
+      "claude-code-skill",
+      "evals",
+      "geo",
+      "llm",
+      "llm-evaluation",
+      "open-source",
+      "seo"
+    ],
+    "stars": 56,
+    "lastPush": "2026-08-21T23:59:04Z",
+    "pool": "ranked",
+    "readmeLength": 1791,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-08-28T11:29:10.207Z"
   },
   {
     "repo": "yuzzyuk/marketing-os",

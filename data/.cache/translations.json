@@ -119,11 +119,11 @@
     "backTranslationDiff": 0.5
   },
   "ombulabs/claude-code_rails-upgrade-skill": {
-    "sourceHash": "18b8a1aabc089b20",
-    "chineseDescription": "一个用于升级 Rails 的 Claude Code Skill",
-    "prompt": "请帮我升级 Rails 项目。首先分析当前 Gemfile 中的 Rails 版本，然后按照官方升级指南逐步执行升级步骤，包括：更新 Gemfile、运行 bundle update、执行数据库迁移、修复兼容性问题、更新配置文件和测试代码。每一步完成后请确认无错误再继续下一步。",
-    "translatedAt": "2026-05-23T19:13:48.601Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "81c6e378cb0529f3",
+    "chineseDescription": "🤖 由 FastRuby.io 打造的 Rails 升级专用 Claude Code Skill——基于 60,000 小时的开发经验，支持从 Rails 2.3 一路升级到 8.1。采用双启动（Dual boot）方式，让你可以一次只升级一个次要版本，逐步推进。🚀",
+    "prompt": "请帮我安装 claude-code_rails-upgrade-skill 这个 Claude Code Skill。\n\n1. 访问 GitHub 仓库：https://github.com/ombulabs/claude-code_rails-upgrade-skill\n2. 下载该仓库的全部文件\n3. 将文件保存到 .claude/skills/claude-code_rails-upgrade-skill/ 目录下\n4. 确认安装完成后，告诉我如何使用这个 Skill 来升级 Rails 项目",
+    "translatedAt": "2026-08-28T11:48:14.996Z",
+    "backTranslationDiff": 0.4545454545454546
   },
   "giuseppe-trisciuoglio/developer-kit": {
     "sourceHash": "af9e5266cd441d18",
@@ -3850,11 +3850,11 @@
     "backTranslationDiff": 0.125
   },
   "agents365-ai/drawio-skill": {
-    "sourceHash": "3bafc50da9b9a700",
-    "chineseDescription": "用自然语言生成 draw.io 图表——内置11种预设（UML、SysML/MBSE、BPMN、网络图、C4架构图等），36个工具：代码库/CI/基础设施转图表、图片→可编辑图表、思维导图、逐步动画、执行视图压缩、可点击操作手册、PR差异机器人。视觉自检，支持10000+形状。导出PNG/SVG/PDF/JPG格式。",
-    "prompt": "请从 https://github.com/agents365-ai/drawio-skill 下载 drawio-skill 的所有文件，并保存到 .claude/skills/drawio-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-07-15T03:55:22.668Z",
-    "backTranslationDiff": 0.46875
+    "sourceHash": "c39b16a5c2d386eb",
+    "chineseDescription": "从自然语言生成 draw.io 图表——11 种预设（UML、SysML/MBSE、BPMN、网络、C4 等），39 个工具：代码库/CI/基础设施转图表、图片转可编辑图表、Databricks 产品图标、思维导图、构建动画、执行视图压缩、点击式运行手册、PR 差异机器人。视觉自检，10000+ 形状。导出 PNG/SVG/PDF/JPG。",
+    "prompt": "请从 https://github.com/agents365-ai/drawio-skill 下载 drawio-skill 技能文件，并保存到 .claude/skills/drawio-skill/ 目录中，完成安装。",
+    "translatedAt": "2026-08-28T11:48:01.202Z",
+    "backTranslationDiff": 0.9714285714285714
   },
   "youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
     "sourceHash": "f7bd37a403edbc53",
@@ -4480,10 +4480,10 @@
     "backTranslationDiff": 0.8333333333333334
   },
   "jeffallan/claude-skills": {
-    "sourceHash": "e0c9c7846185995c",
-    "chineseDescription": "66个面向全栈开发者的专业技能（Skills）。把 Claude Code 变成你的专家级结对编程伙伴。",
-    "prompt": "请从 https://github.com/jeffallan/claude-skills 下载该仓库的所有文件，并将它们保存到 .claude/skills/claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-26T14:32:45.546Z",
+    "sourceHash": "c584d651e719337e",
+    "chineseDescription": "67个专为全栈开发者设计的专业技能（Skills）。将 Claude Code 变成你的专家级结对编程伙伴。",
+    "prompt": "请从 GitHub 仓库 https://github.com/jeffallan/claude-skills 下载全部技能文件，并将其保存到 .claude/skills/claude-skills/ 目录中，以完成安装。安装完成后，请确认所有技能已正确加载。",
+    "translatedAt": "2026-08-28T11:48:04.846Z",
     "backTranslationDiff": 0.33333333333333337
   },
   "tripleyak/skillforge": {
@@ -8008,10 +8008,10 @@
     "backTranslationDiff": 0.0625
   },
   "desko77/claude-code-skills-1c": {
-    "sourceHash": "8bd445946724bb70",
-    "chineseDescription": "117个技能和40条规则，用于Claude Code：代理从紧凑的JSON中收集1C源代码（元数据、表单、扩展、角色、SKD、处理）并解析回去。基本操作无需配置器。",
-    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载此技能仓库，并将文件保存到 .claude/skills/claude-code-skills-1c/ 目录中。安装完成后，验证技能是否可用。",
-    "translatedAt": "2026-08-25T02:21:12.044Z",
+    "sourceHash": "5db5a7bd7e80f442",
+    "chineseDescription": "为 Claude Code 提供 116 个技能和 40 条规则：代理可从紧凑的 JSON 中收集 1C 源代码（元数据、表单、扩展、角色、SKD、处理）并解析回来。基本操作无需配置器。",
+    "prompt": "请从 https://github.com/desko77/claude-code-skills-1c 下载并安装技能。将仓库内容保存到 .claude/skills/claude-code-skills-1c/ 目录，然后按 README 中的说明进行配置。",
+    "translatedAt": "2026-08-28T11:48:10.726Z",
     "backTranslationDiff": 0.85
   },
   "hidorakai002/ai-workspace-archive": {
@@ -8118,5 +8118,19 @@
     "prompt": "请从 https://github.com/eriemon/verilog-generator 下载该技能文件，并将其保存到 .claude/skills/verilog-generator/ 目录中，以完成安装。",
     "translatedAt": "2026-08-27T10:19:07.092Z",
     "backTranslationDiff": 0.5714285714285714
+  },
+  "ovid/paad": {
+    "sourceHash": "8d4f75ba2686cd03",
+    "chineseDescription": "让软件正常工作的实践方法并没有失效，它们只是跟不上时代了。PAAD 以 AI 的速度让这些实践重新发挥作用。【使用场景】当你想了解或采用 PAAD 这套实践方法时。",
+    "prompt": "请从 GitHub 仓库 https://github.com/ovid/paad 下载 PAAD 技能文件，并将其保存到 .claude/skills/paad/ 目录下，完成安装。",
+    "translatedAt": "2026-08-28T11:48:19.004Z",
+    "backTranslationDiff": 0.625
+  },
+  "aleclindz/seo-skill-bench": {
+    "sourceHash": "6ba56a6fada3aa16",
+    "chineseDescription": "面向 Claude Code SEO 技能的开放基准测试（benchmark）——在预置了缺陷答案键（answer key）的固定站点上执行真实无头（headless）测试。采用确定性评分（deterministic scoring）和预注册评分标准（pre-registered rubric）。【使用场景】用于评估和对比不同 Claude Code SEO 技能的实际效果，确保测试结果可复现、可量化。",
+    "prompt": "请从 https://github.com/aleclindz/seo-skill-bench 下载该技能的全部文件，并保存到 .claude/skills/seo-skill-bench/ 目录下，完成安装。安装后请确认文件结构完整，并告知我如何使用该基准测试来评估我的 SEO 技能。",
+    "translatedAt": "2026-08-28T11:48:23.582Z",
+    "backTranslationDiff": 0.3157894736842105
   }
 }
