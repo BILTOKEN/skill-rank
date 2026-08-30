@@ -2989,11 +2989,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "foryourhealth111-pixel/vibe-skills": {
-    "sourceHash": "d725c4fb677aa549",
-    "chineseDescription": "VibeSkills 是一个通用型 Skill，能自动路由本地 Skills 并智能编排 harness 工作流。",
-    "prompt": "请从 https://github.com/foryourhealth111-pixel/vibe-skills 下载 Vibe-Skills 项目文件，并将其保存到 .claude/skills/vibe-skills/ 目录中，完成安装。",
-    "translatedAt": "2026-07-24T04:04:26.958Z",
-    "backTranslationDiff": 0
+    "sourceHash": "361ae2d6dc67901b",
+    "chineseDescription": "智能技能路由与工作流编排，面向 AI 代理（Agent）——在 SkillsBench 基准测试中，使用 DeepSeekV4Flash-VE 模型时，奖励（Reward）提升 +21.12 个百分点，Token 消耗降低 29.6%。【使用场景】当你的 Claude Code 需要自动选择最合适的技能（Skill）并优化执行流程时，这个技能可以帮你减少 Token 开销、提升任务完成质量。",
+    "prompt": "请帮我安装一个名为 Vibe-Skills 的技能。请从 GitHub 仓库 https://github.com/foryourhealth111-pixel/vibe-skills 下载所有文件，并保存到 .claude/skills/vibe-skills/ 目录下，完成安装。这个技能用于智能技能路由和工作流编排，可以提升 AI 代理的奖励表现并减少 Token 消耗。",
+    "translatedAt": "2026-08-30T05:48:38.138Z",
+    "backTranslationDiff": 0.8461538461538461
   },
   "supabase/agent-skills": {
     "sourceHash": "285ee3c7ae171a68",
@@ -3878,11 +3878,11 @@
     "backTranslationDiff": 0.5
   },
   "agricidaniel/banana-claude": {
-    "sourceHash": "3a22779bc892f2a8",
-    "chineseDescription": "AI图像生成技能，适用于 Claude Code——由 Gemini 驱动的创意总监。【使用场景】在 Claude Code 中通过自然语言指令生成图像，利用 Gemini 模型进行创意指导。",
-    "prompt": "请从 https://github.com/agricidaniel/banana-claude 下载仓库文件，并将其保存到 .claude/skills/banana-claude/ 目录中，完成安装。",
-    "translatedAt": "2026-05-24T17:46:05.722Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "a5c5d348e8f2fd08",
+    "chineseDescription": "AI 图像生成技能，适用于 Claude Code——由 Gemini 驱动的创意总监。",
+    "prompt": "请从 https://github.com/agricidaniel/banana-claude 下载该技能文件，并将其保存到 .claude/skills/banana-claude/ 目录中，以完成安装。",
+    "translatedAt": "2026-08-30T05:48:41.920Z",
+    "backTranslationDiff": 1
   },
   "abhishekk130804/claude-mythos-ai-anthropic-app": {
     "sourceHash": "f007262c3cb63f04",
@@ -4081,11 +4081,11 @@
     "backTranslationDiff": 0.1428571428571429
   },
   "agents365-ai/mermaid-skill": {
-    "sourceHash": "4b84187a3b518504",
-    "chineseDescription": "从自然语言生成Mermaid图表(.mmd)，带有验证循环(validation loop)。支持11+种图表类型，多后端(multi-backend: mmdc / Kroki)，输出PNG/SVG/PDF，多智能体(multi-agent)。",
-    "prompt": "请安装 mermaid-skill：从 https://github.com/agents365-ai/mermaid-skill 下载该 skill 的代码，并将所有文件保存到 .claude/skills/mermaid-skill/ 目录下完成安装。",
-    "translatedAt": "2026-05-24T17:57:31.452Z",
-    "backTranslationDiff": 0.06666666666666665
+    "sourceHash": "006e76c4d19c6ea4",
+    "chineseDescription": "Agent 技能：生成 Mermaid 图表（.mmd 文件），校验语法，通过 mmdc 或 Kroki API 导出 PNG/SVG/PDF。支持 17+ 种图表类型，自动布局，中英文双语触发。",
+    "prompt": "请从 https://github.com/agents365-ai/mermaid-skill 下载该 Skill 的全部文件，保存到 .claude/skills/mermaid-skill/ 目录下，完成安装。安装后，我就可以使用该技能生成 Mermaid 图表、校验语法并导出为 PNG/SVG/PDF 格式。",
+    "translatedAt": "2026-08-30T05:48:48.167Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "agricidaniel/linkedin-content-creator": {
     "sourceHash": "97d910c5c2cb1607",
@@ -4718,11 +4718,11 @@
     "backTranslationDiff": 0.25
   },
   "yurukusa/cc-safe-setup": {
-    "sourceHash": "4f1021dcc7585de2",
-    "chineseDescription": "为 Claude Code 提供安全钩子（safety hooks），在工具边界阻止破坏性操作，并暴露静默失败（silent failures）。",
-    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载仓库文件，保存到 .claude/skills/cc-safe-setup/ 目录，完成安装。",
-    "translatedAt": "2026-07-04T04:16:05.498Z",
-    "backTranslationDiff": 0.3076923076923077
+    "sourceHash": "c32e22b281129177",
+    "chineseDescription": "Claude Code 安全钩子（safety hooks），在工具边界阻止破坏性操作并暴露静默失败（silent failures）。包含 914 个经过测试的 Claude Code 钩子示例，一条命令即可安装，同时提供针对 git、凭据和令牌激增的 Claude Code 安全防护。",
+    "prompt": "请从 https://github.com/yurukusa/cc-safe-setup 下载该技能（cc-safe-setup），将仓库内容保存到 .claude/skills/cc-safe-setup/ 目录，并按照 README 中的说明完成安装。安装后，该技能将提供安全钩子，用于阻止破坏性操作并暴露静默失败，同时包含 git、凭据和令牌相关的安全防护。请确保所有文件正确放置，并验证安装是否成功。",
+    "translatedAt": "2026-08-30T05:49:05.173Z",
+    "backTranslationDiff": 0.3846153846153846
   },
   "sageox/ox": {
     "sourceHash": "dae49407c2b303de",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "1f531c27ffd85294",
-    "chineseDescription": "这是一个面向 AI 代理的技能：自动检测并清除俄语文本中的机器生成痕迹，不破坏自然表达，也不擅自补充事实。内置 56 种模式、40 个正则标记（证据库准确率 38/40），提供“检测度前后对比”轴并带误报控制，支持移除 C2PA/EXIF/XMP 元数据，附带 PyPI 包和在线演示。",
-    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载该技能的全部文件，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后请确认技能可用，并简要说明其功能。",
-    "translatedAt": "2026-08-27T10:18:52.181Z",
-    "backTranslationDiff": 0.9285714285714286
+    "sourceHash": "54edce23397ecda1",
+    "chineseDescription": "这是一个面向 AI 代理（agent）的技能包：自动检测并清除俄语文本中的机器生成痕迹，不破坏自然表达，也不擅自补充事实。内置 58 种模式、40 个正则标记（证据库准确率 38/40），提供“检测度前后差值”评估轴并带误报控制，支持移除 C2PA/EXIF/XMP 元数据，同时提供 PyPI 包和在线演示。测试通过率 73/69，共 193 项测试。",
+    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载该技能包，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后请验证文件完整性，并简要说明该技能的主要功能和使用方法。",
+    "translatedAt": "2026-08-30T05:48:53.752Z",
+    "backTranslationDiff": 0.967741935483871
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -8132,5 +8132,19 @@
     "prompt": "请从 https://github.com/aleclindz/seo-skill-bench 下载该技能的全部文件，并保存到 .claude/skills/seo-skill-bench/ 目录下，完成安装。安装后请确认文件结构完整，并告知我如何使用该基准测试来评估我的 SEO 技能。",
     "translatedAt": "2026-08-28T11:48:23.582Z",
     "backTranslationDiff": 0.3157894736842105
+  },
+  "aleksandr-alhoff/seo-landing": {
+    "sourceHash": "ad6b5e0dd716fb40",
+    "chineseDescription": "SEO Landing：让你的 AI 编程助手具备资深技术 SEO 工程师的能力。这是一个用于构建高性能、技术优化的 SEO 落地页的 Agent Skill。把 AI 编程助手变成技术 SEO 专家。构建和改进落地页，支持：• 🚀 100/100 Google PageSpeed 目标 • ⚡ Core Web Vitals 优化",
+    "prompt": "请从 https://github.com/aleksandr-alhoff/seo-landing 下载这个 Skill 并安装到 .claude/skills/seo-landing/ 目录。安装完成后，你将获得资深技术 SEO 工程师的能力，可以构建高性能、技术优化的 SEO 落地页，支持 100/100 Google PageSpeed 目标和 Core Web Vitals 优化。",
+    "translatedAt": "2026-08-30T05:48:58.903Z",
+    "backTranslationDiff": 0.7666666666666666
+  },
+  "fabricioctelles/skills": {
+    "sourceHash": "a015bb54c41d9ff4",
+    "chineseDescription": "这是一个为 AI 代理（如 Kiro、Cursor、Windsurf、Claude Code 等）准备的技能集合。每个技能都是一个可复用的模块，教会代理如何带着上下文、结构和最佳实践去完成复杂任务。",
+    "prompt": "请从 GitHub 仓库 https://github.com/fabricioctelles/skills 下载这个技能集合，并将其保存到 .claude/skills/skills/ 目录下。下载完成后，请确认文件已正确安装，并简要说明这个技能集合包含哪些内容以及如何使用。",
+    "translatedAt": "2026-08-30T05:49:09.148Z",
+    "backTranslationDiff": 0.125
   }
 }
