@@ -15814,6 +15814,28 @@
     "checkedAt": "2026-08-08T02:23:25.907Z"
   },
   {
+    "repo": "kalabint/chatgpt-primer",
+    "name": "ChatGPT-Primer",
+    "description": "AI-Tooling Sammelsurium",
+    "tags": [
+      "agent-handoff",
+      "agent-harness",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-skill",
+      "claude-code-skills",
+      "context-engineering",
+      "llm-tooling"
+    ],
+    "stars": 6,
+    "lastPush": "2026-09-01T22:57:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-02T04:41:25.023Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -23317,6 +23339,35 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-31T05:42:29.378Z"
+  },
+  {
+    "repo": "rodert/copyright-forge-skill",
+    "name": "copyright-forge-skill",
+    "description": "软件著作权申请材料生成 Skill｜Generate standardized software copyright registration materials with AI.",
+    "tags": [
+      "agent-skill",
+      "ai-agent",
+      "automation",
+      "china-copyright",
+      "claude-code-skill",
+      "code-analysis",
+      "code2copyright",
+      "codex-skill",
+      "copyright",
+      "copyright-registration",
+      "developer-tools",
+      "document-generation",
+      "opencode",
+      "software-copyright",
+      "software-registration"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-01T12:54:55Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-02T04:41:25.023Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

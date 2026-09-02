@@ -3850,11 +3850,11 @@
     "backTranslationDiff": 0.125
   },
   "agents365-ai/drawio-skill": {
-    "sourceHash": "c39b16a5c2d386eb",
-    "chineseDescription": "从自然语言生成 draw.io 图表——11 种预设（UML、SysML/MBSE、BPMN、网络、C4 等），39 个工具：代码库/CI/基础设施转图表、图片转可编辑图表、Databricks 产品图标、思维导图、构建动画、执行视图压缩、点击式运行手册、PR 差异机器人。视觉自检，10000+ 形状。导出 PNG/SVG/PDF/JPG。",
-    "prompt": "请从 https://github.com/agents365-ai/drawio-skill 下载 drawio-skill 技能文件，并保存到 .claude/skills/drawio-skill/ 目录中，完成安装。",
-    "translatedAt": "2026-08-28T11:48:01.202Z",
-    "backTranslationDiff": 0.9714285714285714
+    "sourceHash": "371a01ce326ce86d",
+    "chineseDescription": "从文本和真实数据源生成可维护的 .drawio 架构模型：支持带来源类型配置的 Diagram IR（中间表示）、保留手动布局的增量同步、多视角投影、架构即测试（含 CI 动作）、查询/审查、假设分析、无障碍 Story Mode，以及内置 MCP 服务器。",
+    "prompt": "请帮我安装 drawio-skill 技能。请从 GitHub 仓库 https://github.com/agents365-ai/drawio-skill 下载技能文件，并保存到 .claude/skills/drawio-skill/ 目录下，完成安装。安装完成后请确认技能可用。",
+    "translatedAt": "2026-09-02T05:01:41.959Z",
+    "backTranslationDiff": 0.3214285714285714
   },
   "youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
     "sourceHash": "f7bd37a403edbc53",
@@ -4081,11 +4081,11 @@
     "backTranslationDiff": 0.1428571428571429
   },
   "agents365-ai/mermaid-skill": {
-    "sourceHash": "006e76c4d19c6ea4",
-    "chineseDescription": "Agent 技能：生成 Mermaid 图表（.mmd 文件），校验语法，通过 mmdc 或 Kroki API 导出 PNG/SVG/PDF。支持 17+ 种图表类型，自动布局，中英文双语触发。",
-    "prompt": "请从 https://github.com/agents365-ai/mermaid-skill 下载该 Skill 的全部文件，保存到 .claude/skills/mermaid-skill/ 目录下，完成安装。安装后，我就可以使用该技能生成 Mermaid 图表、校验语法并导出为 PNG/SVG/PDF 格式。",
-    "translatedAt": "2026-08-30T05:48:48.167Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "0786cc3a811d53aa",
+    "chineseDescription": "Agent 技能：生成 Mermaid 图表（.mmd），通过 Kroki-first 循环进行验证，使用 mmdc 或 Kroki 导出为 PNG/SVG/PDF。支持 Mermaid.live 交接、仓库批量扫描模式、视觉自检，覆盖 17+ 种图表类型。",
+    "prompt": "请从 https://github.com/agents365-ai/mermaid-skill 下载该 Skill 的全部文件，并保存到 .claude/skills/mermaid-skill/ 目录下，完成安装。安装后，该 Skill 将支持生成 Mermaid 图表（.mmd）、通过 Kroki 进行验证、导出 PNG/SVG/PDF 等多种格式，并支持 17+ 种图表类型。",
+    "translatedAt": "2026-09-02T05:01:50.846Z",
+    "backTranslationDiff": 0.09090909090909094
   },
   "agricidaniel/linkedin-content-creator": {
     "sourceHash": "97d910c5c2cb1607",
@@ -6153,11 +6153,11 @@
     "backTranslationDiff": 0.3571428571428571
   },
   "skilld-dev/skilld": {
-    "sourceHash": "183b270cd91ebf10",
-    "chineseDescription": "从你的 NPM / create 依赖中生成 AI 代理技能。运行 npx skilld 即可。",
-    "prompt": "请从 https://github.com/skilld-dev/skilld 下载 skilld 技能文件，并保存到 .claude/skills/skilld/ 目录，完成安装。",
-    "translatedAt": "2026-05-31T17:00:49.683Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "1367c93bd1dab38e",
+    "chineseDescription": "skilld 是一个由人类作者策划的 Agent Skills 集合。通过一个 CLI（命令行工具），你可以搜索、运行、安装并保持这些技能的最新状态。",
+    "prompt": "请帮我安装 skilld 技能。请从 GitHub 仓库 https://github.com/skilld-dev/skilld 下载文件，并将其保存到 .claude/skills/skilld/ 目录中，以完成安装。安装完成后，请告诉我如何使用。",
+    "translatedAt": "2026-09-02T05:01:55.647Z",
+    "backTranslationDiff": 0.8571428571428572
   },
   "yunshu0909/yunshu_skillshub": {
     "sourceHash": "8bc7a93fe0ccd5aa",
@@ -7469,10 +7469,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "anbeime/skill": {
-    "sourceHash": "68b1ceba22034845",
-    "chineseDescription": "收录最全、更新最快的技能Skills商店：416个精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。【使用场景】需要快速获取大量现成的Claude Code技能包，或想浏览GitHub上热门Skills项目时使用。",
-    "prompt": "请帮我安装一个名为 skill 的 Claude Code 技能。请从 GitHub 仓库 https://github.com/anbeime/skill 下载文件，并保存到 .claude/skills/skill/ 目录下完成安装。这个技能是一个技能商店，包含416个精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），并会自动抓取GitHub上万个Skills项目按分类、更新时间、Star数量整理。请执行以下步骤：1. 克隆或下载 https://github.com/anbeime/skill 仓库内容 2. 将文件保存到 .claude/skills/skill/ 目录 3. 确认安装完成并告知我如何使用。",
-    "translatedAt": "2026-08-26T02:16:33.454Z",
+    "sourceHash": "5e69d3f97f29aa58",
+    "chineseDescription": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.【使用场景】当用户需要查找或安装各种AI Agent技能（Skills）时，可通过此技能商店快速获取精选或热门技能包。",
+    "prompt": "请从 GitHub 仓库 https://github.com/anbeime/skill 下载该技能包，并将其保存到 .claude/skills/skill/ 目录下，完成安装。该技能是一个AI Agent技能商店，提供精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流等），并自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。安装后即可使用该技能来浏览和安装其他技能。",
+    "translatedAt": "2026-09-02T05:01:47.292Z",
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
