@@ -15462,6 +15462,33 @@
     }
   },
   {
+    "repo": "foyzulkarim/skills",
+    "name": "skills",
+    "description": "Personal Claude Code plugin marketplace",
+    "description_zh": "个人 Claude Code 插件市场（Plugin Marketplace），用于集中管理和安装各类 Claude Code 技能（Skills）。",
+    "description_en": "Personal Claude Code plugin marketplace",
+    "prompt": "请帮我安装一个 Claude Code 技能（Skill），它来自 GitHub 仓库：https://github.com/foyzulkarim/skills 。请执行以下步骤：\n1. 克隆或下载该仓库到本地临时目录。\n2. 将仓库内容复制到当前项目的 .claude/skills/skills/ 目录下（如果目录不存在则创建）。\n3. 确认安装完成后，简要列出已安装的技能及其用途。\n\n请确保使用完整的 GitHub 地址进行下载，不要假设我已经安装了任何东西。",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "metrics": {
+      "stars_total": 41,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 2,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "scarletkc/vexor",
     "name": "vexor",
     "description": "A semantic search engine for files and code.",
