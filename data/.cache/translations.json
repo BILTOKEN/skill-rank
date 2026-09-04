@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "0764c56b576cc078",
-    "chineseDescription": "Xquik 是最好的 X（Twitter）抓取 API，也是最好的 X API 替代方案，支持 REST、MCP、SDK、CLI、Webhooks 和导出功能。与 X Corp 无关联。",
-    "prompt": "请从 https://github.com/xquik-dev/x-twitter-scraper 下载 x-twitter-scraper Skill 文件，并将其保存到 .claude/skills/x-twitter-scraper/ 目录中，以完成安装。",
-    "translatedAt": "2026-08-25T02:21:18.294Z",
-    "backTranslationDiff": 0.2142857142857143
+    "sourceHash": "17db800bb5600707",
+    "chineseDescription": "X (Twitter) 数据抓取 API，以及 X API 的替代方案，支持 REST、MCP（模型上下文协议）、SDK 和 webhooks。与 X Corp. 无关联。",
+    "prompt": "请安装 x-twitter-scraper 技能。从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载文件，并保存到 .claude/skills/x-twitter-scraper/ 目录。完成后确认安装成功。",
+    "translatedAt": "2026-09-04T05:01:27.777Z",
+    "backTranslationDiff": 0.30000000000000004
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -4158,11 +4158,11 @@
     "backTranslationDiff": 0.7916666666666666
   },
   "aboudjem/humanizer-skill": {
-    "sourceHash": "394ca52b4c198171",
-    "chineseDescription": "AI 写作人性化工具和模式检测器。支持 55 种模式、5 种语气、0-100 分的 AI 痕迹评分。纯 Markdown 实现，零依赖。",
-    "prompt": "请从 https://github.com/aboudjem/humanizer-skill 下载 humanizer-skill 技能文件，并保存到 .claude/skills/humanizer-skill/ 目录中，完成安装。",
-    "translatedAt": "2026-08-27T10:18:47.319Z",
-    "backTranslationDiff": 1
+    "sourceHash": "b7dc3f53de0e44df",
+    "chineseDescription": "免费、开源的 AI 写作人性化工具和检测器。包含 55 种模式、5 种语气、0-100 的 AI 痕迹评分，且所有处理都在本地完成，数据不会离开你的设备。【使用场景】当你需要将 AI 生成的文本改写得更像人类写作，或检测一段文字是否由 AI 生成时使用。",
+    "prompt": "请帮我安装 humanizer-skill 技能。请从 GitHub 仓库 https://github.com/aboudjem/humanizer-skill 下载该技能的全部文件，并保存到 .claude/skills/humanizer-skill/ 目录下。安装完成后，请确认技能可用，并告诉我如何使用它来人性化 AI 文本或检测 AI 痕迹。",
+    "translatedAt": "2026-09-04T05:01:06.225Z",
+    "backTranslationDiff": 0.3571428571428571
   },
   "spillwavesolutions/mastering-langgraph-agent-skill": {
     "sourceHash": "58d69b85d07e19ed",
@@ -5068,11 +5068,11 @@
     "backTranslationDiff": 0.375
   },
   "seo-skills/seo-audit-skill": {
-    "sourceHash": "2793a4074d77b318",
-    "chineseDescription": "一个全面的SEO审计命令行工具，包含12个类别共108条审计规则。可分析任何网站的SEO最佳实践、Core Web Vitals、安全标头、结构化数据、可访问性等。【使用场景】用于网站SEO健康检查，快速发现优化问题。",
-    "prompt": "请安装 SEO Audit Skill。从 https://github.com/seo-skills/seo-audit-skill 下载文件，保存到 .claude/skills/seo-audit-skill/ 目录下完成安装。",
-    "translatedAt": "2026-05-30T13:40:55.136Z",
-    "backTranslationDiff": 0.15000000000000002
+    "sourceHash": "652df39bb358a210",
+    "chineseDescription": "一个全面的 SEO 审计命令行工具，包含 20 个类别、332 条审计规则。可分析任意网站的 SEO 最佳实践、Core Web Vitals（核心网页指标）、安全头、结构化数据、可访问性等。",
+    "prompt": "请帮我安装一个名为 seo-audit-skill 的 Claude Code Skill。请从 GitHub 仓库 https://github.com/seo-skills/seo-audit-skill 下载所有文件，并将它们保存到 .claude/skills/seo-audit-skill/ 目录中。安装完成后，请确认文件已就位，并简要说明该 Skill 的用途和基本用法。",
+    "translatedAt": "2026-09-04T05:01:02.058Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "microck/ordinary-claude-skills": {
     "sourceHash": "426abd8bbc68a9fa",
@@ -6034,10 +6034,10 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "hashgraph-online/awesome-codex-plugins": {
-    "sourceHash": "4a34282133dc9396",
-    "chineseDescription": "精选的 OpenAI Codex / ChatGPT 插件、技能和资源列表，号称第一 Codex 市场。可在线查看插件：https://hol.org/registry/plugins",
-    "prompt": "请从 GitHub 仓库 https://github.com/hashgraph-online/awesome-codex-plugins 下载 awesome-codex-plugins 技能，并将其保存到 .claude/skills/awesome-codex-plugins/ 目录中。下载完成后，请确认安装成功。",
-    "translatedAt": "2026-08-07T03:28:07.958Z",
+    "sourceHash": "93b0db3c2c4a22be",
+    "chineseDescription": "精选的 OpenAI Codex / ChatGPT 插件、技能和资源列表，号称 #1 Codex 市场。可在线查看插件：https://hol.org/plugins/best-codex-plugins",
+    "prompt": "请帮我安装 awesome-codex-plugins 这个技能。\n\n1. 克隆或下载 https://github.com/hashgraph-online/awesome-codex-plugins 仓库内容\n2. 将文件保存到 .claude/skills/awesome-codex-plugins/ 目录\n3. 确保目录结构完整，包含 README 等必要文件\n4. 完成后告诉我安装成功，并简要说明这个技能能做什么\n\nGitHub 仓库地址：https://github.com/hashgraph-online/awesome-codex-plugins",
+    "translatedAt": "2026-09-04T05:00:58.485Z",
     "backTranslationDiff": 0.7692307692307692
   },
   "zhixiangluo/10xproductivity": {
@@ -6153,11 +6153,11 @@
     "backTranslationDiff": 0.3571428571428571
   },
   "skilld-dev/skilld": {
-    "sourceHash": "1367c93bd1dab38e",
-    "chineseDescription": "skilld 是一个由人类作者策划的 Agent Skills 集合。通过一个 CLI（命令行工具），你可以搜索、运行、安装并保持这些技能的最新状态。",
-    "prompt": "请帮我安装 skilld 技能。请从 GitHub 仓库 https://github.com/skilld-dev/skilld 下载文件，并将其保存到 .claude/skills/skilld/ 目录中，以完成安装。安装完成后，请告诉我如何使用。",
-    "translatedAt": "2026-09-02T05:01:55.647Z",
-    "backTranslationDiff": 0.8571428571428572
+    "sourceHash": "99ce615d1d1ac326",
+    "chineseDescription": "由人类精选的 agent 技能（skills）。通过一个命令行（CLI）即可搜索、运行、安装并保持它们最新。",
+    "prompt": "请从 https://github.com/skilld-dev/skilld 下载 skilld 技能，并将其安装到 .claude/skills/skilld/ 目录。安装完成后，请确认 skilld 已就绪，并简要说明其用途。",
+    "translatedAt": "2026-09-04T05:01:31.606Z",
+    "backTranslationDiff": 0.9166666666666666
   },
   "yunshu0909/yunshu_skillshub": {
     "sourceHash": "8bc7a93fe0ccd5aa",
@@ -6580,11 +6580,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "samuraigpt/awesome-openclaw": {
-    "sourceHash": "c17fb15ab52c140a",
-    "chineseDescription": "一份精心整理的 OpenClaw 资源、工具、技能、教程与文章列表。OpenClaw（原名 Moltbot / Clawdbot）是一个开源自托管的 AI 代理，支持 WhatsApp、Telegram、Discord 以及 50 多种集成。",
-    "prompt": "请从 https://github.com/samuraigpt/awesome-openclaw 下载整个仓库的内容，并将其保存到 .claude/skills/awesome-openclaw/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:49:07.052Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "3809a1b60bf9b362",
+    "chineseDescription": "这个技能收录了 660+ 个由 muapi 托管的生成式媒体模型，以及社区提交的第三方 API 工具（涵盖 SEO、数据增强、社交、网页抓取等）。每个条目对应一个 YAML 文件，可按功能分类浏览。",
+    "prompt": "请从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载 awesome-agent-apis 技能文件，并将其保存到 .claude/skills/awesome-openclaw/ 目录下，完成安装。安装后，该技能将提供 660+ 个生成式媒体模型和第三方 API 工具的索引，每个条目以 YAML 文件形式组织，可按功能浏览。",
+    "translatedAt": "2026-09-04T05:01:24.302Z",
+    "backTranslationDiff": 0.5882352941176471
   },
   "helloianneo/ian-handdrawn-ppt": {
     "sourceHash": "f44596f3e5a1a66d",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "54edce23397ecda1",
-    "chineseDescription": "这是一个面向 AI 代理（agent）的技能包：自动检测并清除俄语文本中的机器生成痕迹，不破坏自然表达，也不擅自补充事实。内置 58 种模式、40 个正则标记（证据库准确率 38/40），提供“检测度前后差值”评估轴并带误报控制，支持移除 C2PA/EXIF/XMP 元数据，同时提供 PyPI 包和在线演示。测试通过率 73/69，共 193 项测试。",
-    "prompt": "请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载该技能包，并将其保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后请验证文件完整性，并简要说明该技能的主要功能和使用方法。",
-    "translatedAt": "2026-08-30T05:48:53.752Z",
-    "backTranslationDiff": 0.967741935483871
+    "sourceHash": "ccaa5e9396b043d2",
+    "chineseDescription": "俄语文本规范化与诊断工具：处理复制粘贴产生的文本伪影（artifacts），在不改变原意的前提下进行排版优化（typography），并提供带域名状态（domain status）的文本衔接词（connectives）检测器。数字会被记录在带勘误表（errata）的事实登记表中。不适用于英语、代码、法律文件和文学性散文。",
+    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该 Skill 的所有文件，并保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后即可使用该 Skill 对俄语文本进行规范化处理。",
+    "translatedAt": "2026-09-04T05:01:11.465Z",
+    "backTranslationDiff": 1
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7749,11 +7749,11 @@
     "backTranslationDiff": 0.25
   },
   "covagashi/eplan_2026_ia_mcp_scripts": {
-    "sourceHash": "39bea35066e30300",
-    "chineseDescription": "EPLAN Electric P8 2026 + AI：MCP 服务器、文档 RAG（检索增强生成），以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。包含 EEC PRO RAG。",
-    "prompt": "请从 https://github.com/covagashi/eplan_2026_ia_mcp_scripts 下载整个仓库，并将所有文件保存到 .claude/skills/eplan_2026_ia_mcp_scripts/ 目录下，完成安装。",
-    "translatedAt": "2026-07-16T03:53:46.661Z",
-    "backTranslationDiff": 0.36363636363636365
+    "sourceHash": "2417932f03526c0e",
+    "chineseDescription": "EPLAN Electric P8 2026/2027 + AI：MCP 服务器（Model Context Protocol servers）、文档 RAG（检索增强生成）以及一个用于 EPLAN 脚本/API 开发的 Claude Code 技能。EEC PRO RAG。",
+    "prompt": "请从 https://github.com/covagashi/eplan_2026_ia_mcp_scripts 下载该仓库的全部文件，并将其保存到 .claude/skills/eplan_2026_ia_mcp_scripts/ 目录下，完成安装。安装后，该技能将用于 EPLAN Electric P8 2026/2027 的脚本和 API 开发，支持 MCP 服务器和文档 RAG 功能。",
+    "translatedAt": "2026-09-04T05:01:15.403Z",
+    "backTranslationDiff": 0.41666666666666663
   },
   "smixs/humanizer-ru": {
     "sourceHash": "c0306944cbf43d53",
@@ -7784,11 +7784,11 @@
     "backTranslationDiff": 0
   },
   "covagashi/eplan-rag-mcp": {
-    "sourceHash": "39bea35066e30300",
-    "chineseDescription": "EPLAN Electric P8 2026 + AI：MCP 服务器、文档 RAG，以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。支持 EEC PRO RAG。【使用场景】用于在 Claude Code 中辅助 EPLAN 脚本和 API 开发，通过 RAG 检索文档。",
-    "prompt": "请从 https://github.com/covagashi/eplan-rag-mcp 下载仓库文件，并将所有内容保存到 .claude/skills/eplan-rag-mcp/ 目录下，完成安装。",
-    "translatedAt": "2026-07-15T03:56:01.417Z",
-    "backTranslationDiff": 0.2727272727272727
+    "sourceHash": "2417932f03526c0e",
+    "chineseDescription": "EPLAN Electric P8 2026/2027 + AI：MCP 服务器（Model Context Protocol 服务器）、文档 RAG（检索增强生成）系统，以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。包含 EEC PRO RAG 支持。",
+    "prompt": "请从 GitHub 仓库 https://github.com/covagashi/eplan-rag-mcp 下载 eplan-rag-mcp Skill 文件，并将其保存到 .claude/skills/eplan-rag-mcp/ 目录中，完成安装。安装完成后，请确认 Skill 已就绪，并简要说明其功能。",
+    "translatedAt": "2026-09-04T05:01:20.362Z",
+    "backTranslationDiff": 0.5
   },
   "kerberosclaw/kc_ai_skills": {
     "sourceHash": "12f511c358054304",
@@ -7987,11 +7987,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "sepinetam/mcp-for-stata": {
-    "sourceHash": "536fedb1a8f1663e",
-    "chineseDescription": "一个用于 Stata 的 MCP 服务器，将 Stata 集成到你的 agent 中。【使用场景】当你想让 Claude Code 直接调用 Stata 执行统计分析时使用。",
-    "prompt": "请帮我安装一个名为 mcp-for-stata 的 Skill。请前往 GitHub 仓库 https://github.com/sepinetam/mcp-for-stata 下载相关文件，并将其保存到 .claude/skills/mcp-for-stata/ 目录下，完成安装。安装完成后，请确认该 Skill 已可用。",
-    "translatedAt": "2026-08-15T02:10:52.028Z",
-    "backTranslationDiff": 0.8333333333333334
+    "sourceHash": "c7d3369df2e8dac1",
+    "chineseDescription": "一个用于将 Stata 集成到你的 agent 循环中的 MCP 服务器，采用安全优先的设计。",
+    "prompt": "请帮我安装一个名为 mcp-for-stata 的 Skill。请从 GitHub 仓库 https://github.com/sepinetam/mcp-for-stata 下载相关文件，并将其保存到 .claude/skills/mcp-for-stata/ 目录下，完成安装。",
+    "translatedAt": "2026-09-04T05:01:34.805Z",
+    "backTranslationDiff": 0.8
   },
   "chang416/im-human": {
     "sourceHash": "fa94c1f2c9fa9308",
@@ -8167,5 +8167,12 @@
     "prompt": "请帮我安装一个 Claude Code 技能（Skill），它来自 GitHub 仓库：https://github.com/foyzulkarim/skills 。请执行以下步骤：\n1. 克隆或下载该仓库到本地临时目录。\n2. 将仓库内容复制到当前项目的 .claude/skills/skills/ 目录下（如果目录不存在则创建）。\n3. 确认安装完成后，简要列出已安装的技能及其用途。\n\n请确保使用完整的 GitHub 地址进行下载，不要假设我已经安装了任何东西。",
     "translatedAt": "2026-09-03T04:50:13.579Z",
     "backTranslationDiff": 0.6
+  },
+  "rtur2003/claude-code-promts-skills": {
+    "sourceHash": "99b907ed22b7a661",
+    "chineseDescription": "为 Claude 编码代理打造的即用型提示词库。采用 APEI 方法论，包含约 35 个专家级提示词，覆盖当前 Claude Code 功能，并附带一个 /find-prompt 技能，可将任何任务自动路由到合适的提示词。",
+    "prompt": "请从 GitHub 仓库 https://github.com/rtur2003/claude-code-promts-skills 下载该技能的全部文件，并将其保存到 .claude/skills/claude-code-promts-skills/ 目录下，完成安装。安装后，该技能将提供一套生产级提示词库，包含约 35 个专家级提示词，并支持通过 /find-prompt 技能自动匹配任务。",
+    "translatedAt": "2026-09-04T05:01:39.982Z",
+    "backTranslationDiff": 0.23809523809523814
   }
 }
