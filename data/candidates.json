@@ -15583,6 +15583,23 @@
     "lastPush": "2026-08-29T18:04:10Z"
   },
   {
+    "repo": "hiro-inagawa/write-like-me",
+    "name": "write-like-me",
+    "description": "Measures how you write and builds a voice profile, then enforces it with a deterministic checker: em dashes, filler, hedges, and AI tells are caught by code, not by asking the model to be careful. Multiple named voices, eval harness with golden tests, no dependencies.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "nlp",
+      "style-checker",
+      "stylometry",
+      "voice-profile",
+      "写作",
+      "writing-style"
+    ],
+    "stars": 15,
+    "lastPush": "2026-09-05T02:19:05Z"
+  },
+  {
     "repo": "adelaidasofia/ai-brain-starter",
     "name": "ai-brain-starter",
     "description": "The operating system for Claude Code. Memory, accountability, journaling, knowledge graphs, pattern recognition — one install, every session compounds.",
@@ -22610,6 +22627,23 @@
     "lastPush": "2026-09-01T22:57:21Z"
   },
   {
+    "repo": "kalabint/llm-tooling",
+    "name": "LLM-Tooling",
+    "description": "AI-Tooling Sammelsurium",
+    "tags": [
+      "agent-handoff",
+      "agent-harness",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-skill",
+      "claude-code-skills",
+      "context-engineering",
+      "llm-tooling"
+    ],
+    "stars": 6,
+    "lastPush": "2026-09-02T10:23:31Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -25913,6 +25947,20 @@
     ],
     "stars": 3,
     "lastPush": "2026-08-30T00:54:13Z"
+  },
+  {
+    "repo": "pro-vibe-coding/pvc-timestamp-hook",
+    "name": "pvc-timestamp-hook",
+    "description": "Claude Code skill that makes a project time-aware. Installs one UserPromptSubmit hook that stamps every prompt with the date, weekday, and time, so Claude knows how much time passed between messages. Apache 2.0.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "hooks",
+      "pro-vibe-coding",
+      "timestamp"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-04T09:44:37Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -35537,6 +35585,24 @@
     ],
     "stars": 1,
     "lastPush": "2026-08-28T22:27:40Z"
+  },
+  {
+    "repo": "massimodeluisa/nerdfonts-skill",
+    "name": "nerdfonts-skill",
+    "description": "Agent skill for Nerd Fonts: use Nerd Fonts glyphs for any icon, pick and install patched fonts, look up icons via nerdfonts.com cheat-sheet and font-downloads.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "fonts",
+      "icons",
+      "nerd-fonts",
+      "skills-md",
+      "terminal"
+    ],
+    "stars": 1,
+    "lastPush": "2026-09-01T13:30:36Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
