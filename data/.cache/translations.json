@@ -210,11 +210,11 @@
     "backTranslationDiff": 0.31999999999999995
   },
   "7onez/cti-expert": {
-    "sourceHash": "c5d2eefc5e2abb16",
-    "chineseDescription": "CTI 专家 — 面向 Claude Code 的 Cyber Threat Intelligence（网络威胁情报）与 OSINT（开源情报）分析技能。包含 67 条以上命令、35 种技术，无需 API 密钥。",
-    "prompt": "你是一个 CTI（网络威胁情报）与 OSINT（开源情报）分析专家。请根据用户的问题，使用以下能力进行分析：\n- 支持 67 条以上命令，涵盖威胁情报收集、IOC（入侵指标）提取、关联分析等。\n- 支持 35 种分析技术，包括但不限于域名/IP/哈希分析、威胁源追踪、漏洞情报关联。\n- 无需外部 API 密钥，所有分析基于内置规则和公开数据源。\n\n请直接输出分析结果，不要询问额外信息。如果用户未指定具体命令，请根据上下文选择最合适的分析方式。",
-    "translatedAt": "2026-05-23T20:00:09.839Z",
-    "backTranslationDiff": 0.15384615384615385
+    "sourceHash": "bcdf7b5452cb2820",
+    "chineseDescription": "CTI Expert — 面向 Claude Code / Codex 的威胁情报与开源情报（OSINT）分析技能。包含 120+ 条命令、57 种技术、79 个类型化 MCP 工具、确定性案件处理流程（pipeline）以及 ICD-203 格式报告。核心功能无需 API 密钥。",
+    "prompt": "请从 https://github.com/7onez/cti-expert 下载该技能的全部文件，并保存到 .claude/skills/cti-expert/ 目录下，完成安装。安装后请确认技能可用，并简要说明其核心功能。",
+    "translatedAt": "2026-09-06T05:07:17.036Z",
+    "backTranslationDiff": 0.30434782608695654
   },
   "AgriciDaniel/claude-shorts": {
     "sourceHash": "c469ef6c18d77307",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.7272727272727273
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "08bbe49eb71cd430",
-    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面（control plane），用于完整的目录发现（catalog discovery）、Agent 自主选择、栈验证（stack validation）和规划，由 2,005+ 个 Agent 技能（agentic skills）驱动。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请帮我安装 agentic-awesome-skills 技能。请从 https://github.com/sickn33/antigravity-awesome-skills 下载仓库内容，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。安装完成后请确认文件已就位。",
-    "translatedAt": "2026-08-08T02:41:14.696Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "4374a8820eac36fc",
+    "chineseDescription": "AAS Core 是一个本地优先、以 Agent 为核心的控制平面，用于完整的技能目录发现、Agent 自主选择、技术栈验证和规划，内置 2,100+ 个 Agent 技能。包含 CLI、本地 MCP、目录、插件和 Workbench。\n【使用场景】当你想让 Claude Code 自动发现并选用合适的 Agent 技能，或需要在一个大型技能库中做技术栈验证和任务规划时使用。",
+    "prompt": "请帮我安装一个名为 agentic-awesome-skills 的 Claude Code Skill。\n\n安装步骤：\n1. 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件\n2. 将文件保存到 .claude/skills/antigravity-awesome-skills/ 目录下\n3. 确认安装完成后，告诉我该 Skill 的用途和基本用法\n\n请开始执行。",
+    "translatedAt": "2026-09-06T05:07:04.823Z",
+    "backTranslationDiff": 0.9166666666666666
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -5726,11 +5726,11 @@
     "backTranslationDiff": 0.45945945945945943
   },
   "jeremylongshore/claude-code-plugins-plus-skills": {
-    "sourceHash": "77c6d9fcd23dedfe",
-    "chineseDescription": "471 个插件、3,069 个技能、347 个代理，专为 Claude Code 打造。开源市场位于 tonsofskills.com，附带 ccpi CLI 包管理器。",
-    "prompt": "请从 https://github.com/jeremylongshore/claude-code-plugins-plus-skills 下载该仓库的全部内容，并保存到 .claude/skills/claude-code-plugins-plus-skills/ 目录下，完成安装。确保包含所有插件、技能和代理文件。",
-    "translatedAt": "2026-07-31T04:11:28.919Z",
-    "backTranslationDiff": 0
+    "sourceHash": "671fe0b0aa41da50",
+    "chineseDescription": "模型无关的 Agent 技能平台，提供无需额外框架的规范层、经过验证的适配器，以及 ccpi 包管理器。可访问 tonsofskills.com 探索更多。",
+    "prompt": "请从 https://github.com/jeremylongshore/claude-code-plugins-plus-skills 下载该技能仓库，并将文件保存到 .claude/skills/claude-code-plugins-plus-skills/ 目录下，完成安装。安装后请确认技能可用，并简要说明其功能。",
+    "translatedAt": "2026-09-06T05:07:08.540Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "shanraisshan/claude-code-best-practice": {
     "sourceHash": "06ab124bac5eb45f",
@@ -6608,11 +6608,11 @@
     "backTranslationDiff": 0.1875
   },
   "synalinks/synalinks-skills": {
-    "sourceHash": "99244d85f1872cb2",
-    "chineseDescription": "Synalinks 开源项目的 Claude 技能集合",
-    "prompt": "请从 https://github.com/synalinks/synalinks-skills 下载 Synalinks Skills 技能文件，并将其保存到 .claude/skills/synalinks-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-01T19:49:21.675Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "4e8b1fef97fd1969",
+    "chineseDescription": "为 Synalinks 开源项目（OSS）准备的 Coding Agents 技能包，帮助 AI 编码助手更好地理解和操作 Synalinks 相关代码。",
+    "prompt": "请从 GitHub 仓库 https://github.com/synalinks/synalinks-skills 下载 synalinks-skills 技能文件，并将其保存到 .claude/skills/synalinks-skills/ 目录下，完成安装。安装完成后，请确认技能已就绪。",
+    "translatedAt": "2026-09-06T05:07:20.581Z",
+    "backTranslationDiff": 0.25
   },
   "alchaincyf/huashu-skills": {
     "sourceHash": "be1ed7fb65d36a69",
@@ -7665,10 +7665,10 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "ccaa5e9396b043d2",
-    "chineseDescription": "俄语文本规范化与诊断工具：处理复制粘贴产生的文本伪影（artifacts），在不改变原意的前提下进行排版优化（typography），并提供带域名状态（domain status）的文本衔接词（connectives）检测器。数字会被记录在带勘误表（errata）的事实登记表中。不适用于英语、代码、法律文件和文学性散文。",
-    "prompt": "请从 https://github.com/vladimir-human/humanizer-ru 下载该 Skill 的所有文件，并保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装后即可使用该 Skill 对俄语文本进行规范化处理。",
-    "translatedAt": "2026-09-04T05:01:11.465Z",
+    "sourceHash": "e4c3bc3d44c930e8",
+    "chineseDescription": "检查俄语文本中从聊天插入的内容是否卫生（即检查文本是否带有聊天痕迹，如格式混乱、非自然表达等）",
+    "prompt": "请安装 humanizer-ru skill。该 skill 用于检查俄语文本中从聊天插入的内容是否卫生。请从 https://github.com/vladimir-human/humanizer-ru 下载文件，并保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
+    "translatedAt": "2026-09-06T05:07:11.703Z",
     "backTranslationDiff": 1
   },
   "kimsh-1/deck-factory": {
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "08bbe49eb71cd430",
-    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面（control plane），用于完整的目录发现（catalog discovery）、Agent 自主选择、栈验证（stack validation）和规划，背后有 2,005+ 个 Agent 技能（agentic skills）支持。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请从 https://github.com/sickn33/agentic-awesome-skills 下载该仓库的全部文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下，完成安装。安装后请确认目录结构完整，并简要说明该技能的功能和用法。",
-    "translatedAt": "2026-08-08T02:41:10.675Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "4374a8820eac36fc",
+    "chineseDescription": "AAS Core 是本地、以 Agent 为先的控制平面，用于完整的目录发现（catalog discovery）、Agent 自主选择（agent-owned selection）、堆栈验证（stack validation）和规划（planning），背后有 2100+ 个 Agent 技能（agentic skills）支持。包含 CLI、本地 MCP、目录（catalog）、插件（plugins）和 Workbench。【使用场景】当你想快速发现并选用大量现成的 Agent 技能，或需要一个本地化的技能管理中枢时，可以用它来统一检索、验证和规划你的技能栈。",
+    "prompt": "暂无提示词",
+    "translatedAt": "2026-09-06T05:07:00.711Z",
+    "backTranslationDiff": 0.08333333333333337
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",

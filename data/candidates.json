@@ -13760,6 +13760,16 @@
     "lastPush": "2026-05-10T05:45:20Z"
   },
   {
+    "repo": "lilithsemi/claude-for-hardware",
+    "name": "claude-for-hardware",
+    "description": "Claude Code skills for hardware design, validation, and bring-up",
+    "tags": [
+      "claude-skills"
+    ],
+    "stars": 20,
+    "lastPush": "2026-08-02T03:24:13Z"
+  },
+  {
     "repo": "eniktab/scientific-paper-writer",
     "name": "scientific-paper-writer",
     "description": "Skill for writing scientific papers : fetches live journal guidelines, AI policy & LaTeX template before writing",
@@ -16068,6 +16078,35 @@
     "lastPush": "2026-08-30T12:49:52Z"
   },
   {
+    "repo": "av/skills",
+    "name": "skills",
+    "description": "Agent skills for Claude Code, Codex, OpenCode & Cursor — autonomous orchestration, code quality, local LLMs (Harbor), and writing pipelines",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex-skills",
+      "coding-agent",
+      "cursor-skills",
+      "gemini-cli-skills",
+      "harbor",
+      "llamacpp",
+      "llm",
+      "local-llm",
+      "ollama",
+      "opencode-skills",
+      "prompt-engineering",
+      "skills"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-05T09:17:49Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -16946,6 +16985,33 @@
     ],
     "stars": 13,
     "lastPush": "2026-09-03T13:19:44Z"
+  },
+  {
+    "repo": "lj22503/awesome-finai-tools-zn",
+    "name": "awesome-finai-tools-zn",
+    "description": "中国金融 AI 工具全景图：Market Data MCP / 量化框架 / 券商 Skills / 金融 CLI / Python 金融库。覆盖 A股 港股 基金 期货 行情数据 量化回测 因子挖掘 舆情分析 投研。支持 OpenClaw / Claude / Cursor / Coze 等 AI Agent 平台。每周自动巡检更新。",
+    "tags": [
+      "ai-tools",
+      "akshare",
+      "awesome-list",
+      "baostock",
+      "china",
+      "china-stock-market",
+      "claude-skills",
+      "eastmoney",
+      "finance",
+      "fintech",
+      "investment-research",
+      "market-data",
+      "mcp-server",
+      "openclaw",
+      "quantitative-trading",
+      "skill-ecosystem",
+      "trading-bot",
+      "tushare"
+    ],
+    "stars": 13,
+    "lastPush": "2026-07-29T12:33:02Z"
   },
   {
     "repo": "darrenbenson/sdlc-studio",
@@ -25963,6 +26029,43 @@
     "lastPush": "2026-09-04T09:44:37Z"
   },
   {
+    "repo": "vasco-branco06/geo-check",
+    "name": "geo-check",
+    "description": "Check whether a website is reachable and readable by AI crawlers, and score it. Two scores, never averaged. Blocking model training costs no points.",
+    "tags": [
+      "aeo",
+      "agent-skills",
+      "ai-crawlers",
+      "ai-seo",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "cli",
+      "generative-engine-optimization",
+      "gptbot",
+      "llms-txt",
+      "python",
+      "robots-txt",
+      "seo",
+      "structured-data",
+      "website-audit"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-05T23:14:42Z"
+  },
+  {
+    "repo": "antreasantoniou/archivum",
+    "name": "archivum",
+    "description": "A Git-backed, agent-readable workspace for durable knowledge and long-horizon work.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "claude-skills"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-05T16:05:17Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -28738,6 +28841,77 @@
     ],
     "stars": 2,
     "lastPush": "2026-08-25T10:03:30Z"
+  },
+  {
+    "repo": "rishabhrawat35/diet-workout-plan-as-if-you-were-an-athlete",
+    "name": "diet-workout-plan-as-if-you-were-an-athlete",
+    "description": "A training and eating plan that checks its own work before you see it. Refuses to guess, catches its own mistakes, and won't sell you anything.",
+    "tags": [
+      "claude",
+      "claude-code-skill",
+      "claude-skills",
+      "diet",
+      "diet-managment",
+      "diet-planner",
+      "fitness",
+      "nutrition",
+      "nutrition-calculator",
+      "skill",
+      "skill-md",
+      "skills",
+      "workout",
+      "workout-generator",
+      "workout-planner"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-05T15:42:54Z"
+  },
+  {
+    "repo": "yizchu/patent-compose-skill",
+    "name": "patent-compose-skill",
+    "description": "AI驱动的专利撰写工作流，自动化完成项目分析、查新检索、专利组合生成与优化、交底书和流程图撰写。",
+    "tags": [
+      "claim-optimization",
+      "claim-tree",
+      "claude-code-skill",
+      "cnki",
+      "compose",
+      "fpo",
+      "intellectual-property",
+      "patent",
+      "portfolio",
+      "python"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-06T03:27:26Z"
+  },
+  {
+    "repo": "indiecoredev/ask-first",
+    "name": "ask-first",
+    "description": "A Claude Code skill and hooks that put every question in a card instead of a paragraph",
+    "tags": [
+      "agentic-coding",
+      "agentic-coding-rules",
+      "agentic-coding-tool",
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-marketplace",
+      "claude-code-plugin",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-desktop",
+      "claude-plugin",
+      "claude-skills",
+      "developer-tools",
+      "developer-tools-ai-agent",
+      "developer-tools-ai-agents",
+      "developer-tools-productivity"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-02T19:41:40Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
@@ -35603,6 +35777,53 @@
     ],
     "stars": 1,
     "lastPush": "2026-09-01T13:30:36Z"
+  },
+  {
+    "repo": "tianchengc/spill-beans",
+    "name": "spill-beans",
+    "description": "Your developer soulmate and viral Build-in-Public strategist that turns late-night coding struggles into authentic X threads.",
+    "tags": [
+      "agent-skills",
+      "antigravity",
+      "build-in-public",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "social-media-automation",
+      "twitter-thread-generator",
+      "x-threads"
+    ],
+    "stars": 1,
+    "lastPush": "2026-08-16T22:02:59Z"
+  },
+  {
+    "repo": "qiusuo0226/skill-devkit-skill",
+    "name": "skill-devkit-skill",
+    "description": "Meta-skill toolkit: scaffold production-grade Agent Skills with versioning, baselines, packaging & release audit — initialize or adopt any skill repo in one command",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-skills",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugins",
+      "claude-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "grok",
+      "scaffolding",
+      "skill",
+      "skill-md",
+      "skills-sh",
+      "skillsmp"
+    ],
+    "stars": 1,
+    "lastPush": "2026-09-04T14:50:41Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
