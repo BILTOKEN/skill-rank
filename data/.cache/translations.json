@@ -8174,5 +8174,19 @@
     "prompt": "请从 GitHub 仓库 https://github.com/rtur2003/claude-code-promts-skills 下载该技能的全部文件，并将其保存到 .claude/skills/claude-code-promts-skills/ 目录下，完成安装。安装后，该技能将提供一套生产级提示词库，包含约 35 个专家级提示词，并支持通过 /find-prompt 技能自动匹配任务。",
     "translatedAt": "2026-09-04T05:01:39.982Z",
     "backTranslationDiff": 0.23809523809523814
+  },
+  "aiworkskills/wechat-article-skills": {
+    "sourceHash": "7c3f73d3a4178922",
+    "chineseDescription": "微信公众号 AI 运营助手 | 覆盖选题、写稿、审稿、排版、配图、发布全流程的 Skill，支持 OpenClaw / Claude Code / Cursor / Codex",
+    "prompt": "请帮我安装 wechat-article-skills 这个 Skill。它来自 GitHub 仓库：https://github.com/aiworkskills/wechat-article-skills。请克隆或下载该仓库的内容，并将文件保存到 .claude/skills/wechat-article-skills/ 目录下，完成安装。安装后请确认目录结构正确，并告诉我如何使用。",
+    "translatedAt": "2026-09-07T05:00:15.218Z",
+    "backTranslationDiff": 0.4444444444444444
+  },
+  "rankspotai/awesome-seo-agent-skills": {
+    "sourceHash": "7055cd4ddb24572e",
+    "chineseDescription": "一个精选的 SEO Agent Skills 集合。涵盖技术审计（Technical audits）、关键词研究（Keyword research）、内容简报（Content briefs）、Schema 结构化数据、GEO 和 AI 可见性（AI visibility），适用于 Claude Code、Codex、Cursor 和 OpenClaw。",
+    "prompt": "请从 https://github.com/rankspotai/awesome-seo-agent-skills 下载这个 SEO Agent Skills 集合，并将其保存到 .claude/skills/awesome-seo-agent-skills/ 目录中，完成安装。这个集合包含技术审计、关键词研究、内容简报、Schema、GEO 和 AI 可见性等技能，适用于 Claude Code、Codex、Cursor 和 OpenClaw。请确保所有文件完整下载并正确放置。",
+    "translatedAt": "2026-09-07T05:00:19.719Z",
+    "backTranslationDiff": 0.2777777777777778
   }
 }

@@ -5016,6 +5016,40 @@
     "checkedAt": "2026-05-26T14:13:16.996Z"
   },
   {
+    "repo": "aiworkskills/wechat-article-skills",
+    "name": "wechat-article-skills",
+    "description": "微信公众号 AI 运营助手 | 选题、写稿、审稿、排版、配图、发布全流程 Skill，支持 OpenClaw / Claude Code / Cursor / Codex",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-skills",
+      "ai-writing",
+      "anthropic",
+      "chinese-nlp",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-automation",
+      "content-creation",
+      "content-marketing",
+      "copywriting",
+      "cursor",
+      "llm",
+      "markdown-to-html",
+      "openclaw",
+      "wechat",
+      "wechat-api",
+      "wechat-official-account"
+    ],
+    "stars": 567,
+    "lastPush": "2026-09-06T23:52:56Z",
+    "pool": "ranked",
+    "readmeLength": 1320,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-07T04:48:46.566Z"
+  },
+  {
     "repo": "microsoftdocs/agent-skills",
     "name": "Agent-Skills",
     "description": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
@@ -10448,6 +10482,32 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "data/_awesome_repos.json",
     "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "rankspotai/awesome-seo-agent-skills",
+    "name": "awesome-seo-agent-skills",
+    "description": "A curated list of Agent Skills for SEO. Technical audits, keyword research, content briefs, schema, GEO and AI visibility, for Claude Code, Codex, Cursor and OpenClaw.",
+    "tags": [
+      "aeo",
+      "agent-skills",
+      "ai-seo",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "generative-engine-optimization",
+      "geo",
+      "seo",
+      "seo-tools",
+      "skills"
+    ],
+    "stars": 86,
+    "lastPush": "2026-09-06T12:53:53Z",
+    "pool": "ranked",
+    "readmeLength": 2232,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-07T04:48:46.566Z"
   },
   {
     "repo": "hqhq1025/skill-optimizer",

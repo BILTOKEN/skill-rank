@@ -3941,6 +3941,35 @@
     "lastPush": "2026-05-16T07:52:41Z"
   },
   {
+    "repo": "aiworkskills/wechat-article-skills",
+    "name": "wechat-article-skills",
+    "description": "微信公众号 AI 运营助手 | 选题、写稿、审稿、排版、配图、发布全流程 Skill，支持 OpenClaw / Claude Code / Cursor / Codex",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-skills",
+      "ai-writing",
+      "anthropic",
+      "chinese-nlp",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-automation",
+      "content-creation",
+      "content-marketing",
+      "copywriting",
+      "cursor",
+      "llm",
+      "markdown-to-html",
+      "openclaw",
+      "wechat",
+      "wechat-api",
+      "wechat-official-account"
+    ],
+    "stars": 567,
+    "lastPush": "2026-09-06T23:52:56Z"
+  },
+  {
     "repo": "microsoftdocs/agent-skills",
     "name": "Agent-Skills",
     "description": "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs.",
@@ -8128,6 +8157,27 @@
     ],
     "stars": 86,
     "lastPush": "2026-05-22T11:05:18Z"
+  },
+  {
+    "repo": "rankspotai/awesome-seo-agent-skills",
+    "name": "awesome-seo-agent-skills",
+    "description": "A curated list of Agent Skills for SEO. Technical audits, keyword research, content briefs, schema, GEO and AI visibility, for Claude Code, Codex, Cursor and OpenClaw.",
+    "tags": [
+      "aeo",
+      "agent-skills",
+      "ai-seo",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "generative-engine-optimization",
+      "geo",
+      "seo",
+      "seo-tools",
+      "skills"
+    ],
+    "stars": 86,
+    "lastPush": "2026-09-06T12:53:53Z"
   },
   {
     "repo": "hqhq1025/skill-optimizer",
@@ -16105,6 +16155,29 @@
     ],
     "stars": 14,
     "lastPush": "2026-09-05T09:17:49Z"
+  },
+  {
+    "repo": "fanchengchen1-collab/super-director",
+    "name": "super-director",
+    "description": "🎬 超级导演系统 · A director's judgment installed into Claude — 光影/分镜/调度图/节奏/美学全套导演工艺,输出六段式视频提示词 (Sora/Kling/Veo/Seedance)。13 skills incl. 11 master-director styles. Bilingual 中/EN.",
+    "tags": [
+      "ai-filmmaking",
+      "ai-video",
+      "aigc",
+      "chinese",
+      "cinematography",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "kling",
+      "prompt-engineering",
+      "seedance",
+      "short-drama",
+      "storyboard",
+      "video-prompts"
+    ],
+    "stars": 14,
+    "lastPush": "2026-08-04T04:47:54Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -28914,6 +28987,93 @@
     "lastPush": "2026-09-02T19:41:40Z"
   },
   {
+    "repo": "mafftopia/trade-stories",
+    "name": "trade-stories",
+    "description": "Trade Stories DSL",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-desktop",
+      "claude-plugin",
+      "claude-skills",
+      "metatrader",
+      "trade-crypto",
+      "trade-stocks",
+      "trading-signals",
+      "trading-strategies",
+      "trading-strategy-simulation",
+      "trading-toolkit",
+      "tradingview-automation",
+      "tradingview-ideas",
+      "tradingview-signal",
+      "tradingview-signals",
+      "tradingview-strategy-tester"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-06T18:38:25Z"
+  },
+  {
+    "repo": "qiusuo0226/session-handoff-skill",
+    "name": "session-handoff-skill",
+    "description": "Seamless AI session handoff: preserve context across conversations so agents pick up where they left off — zero context loss, one command",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-skills",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugins",
+      "claude-skill",
+      "claude-skills",
+      "codex",
+      "context-engineering",
+      "cursor",
+      "grok",
+      "productivity",
+      "skill",
+      "skill-md",
+      "skills-sh",
+      "skillsmp"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-04T17:43:21Z"
+  },
+  {
+    "repo": "qiusuo0226/job-research-analyst-skill",
+    "name": "job-research-analyst-skill",
+    "description": "Job-hunting research analyst skill: turn target companies & roles into structured intelligence — salary, tech stack, growth, fit scoring for smarter career decisions",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-skills",
+      "career",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugins",
+      "claude-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "grok",
+      "job-search",
+      "skill",
+      "skill-md",
+      "skills-sh",
+      "skillsmp"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-06T15:35:31Z"
+  },
+  {
     "repo": "dgrauet/claude-skill-mlx-porting",
     "name": "claude-skill-mlx-porting",
     "description": "Claude Code skill for porting PyTorch / CUDA models to Apple MLX — workflow, pitfalls, parity-test helpers",
@@ -35824,6 +35984,22 @@
     ],
     "stars": 1,
     "lastPush": "2026-09-04T14:50:41Z"
+  },
+  {
+    "repo": "zyang0107/claudeify",
+    "name": "claudeify",
+    "description": "让 agent 说得像 Claude 的高保真模仿 skill | High-fidelity parody skill that makes your agent talk and write like Claude",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "skills"
+    ],
+    "stars": 1,
+    "lastPush": "2026-09-07T03:46:36Z"
   },
   {
     "repo": "ryvrimmersive/exec-meta-eval",
