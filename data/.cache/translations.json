@@ -5313,11 +5313,11 @@
     "backTranslationDiff": 0.8461538461538461
   },
   "masriyan/claude-code-cybersecurity-skill": {
-    "sourceHash": "defe53934d766c3f",
-    "chineseDescription": "一个包含19个 Claude Code Skills 的综合性工具集，专为网络安全专业人员设计，涵盖攻击性安全（offensive security）、防御性运维（defensive operations）、逆向工程（reverse engineering）、威胁狩猎（threat hunting）、CSOC 自动化（CSOC automation）等多个领域。",
-    "prompt": "请帮我安装 Claude-Code-CyberSecurity-Skill，这是一个包含19个网络安全相关 Skills 的工具集，覆盖攻击性安全、防御运维、逆向工程、威胁狩猎和 CSOC 自动化等场景。请从 GitHub 仓库 https://github.com/masriyan/claude-code-cybersecurity-skill 下载所有文件，并保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装后告诉我如何使用。",
-    "translatedAt": "2026-08-21T02:21:01.139Z",
-    "backTranslationDiff": 0.7894736842105263
+    "sourceHash": "a6a0320927b66aaf",
+    "chineseDescription": "22个生产级质量的 Claude Code 技能（Skills），专为网络安全专业人士打造——覆盖攻击性安全（Offensive Security）、防御性运营（Defensive Operations）、逆向工程（Reverse Engineering）、威胁狩猎（Threat Hunting）、威胁情报（Threat Intelligence）、紫队/对手模拟（Purple Team / Adversary Emulation）、CSOC 自动化、AI/LLM 安全、移动端、OT/ICS、GRC、软件供应链安全等方向。",
+    "prompt": "请从 GitHub 仓库 https://github.com/masriyan/claude-code-cybersecurity-skill 下载该技能包，并将所有文件保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装。该技能包含22个面向网络安全场景的 Claude Code 技能，覆盖攻防、逆向、威胁狩猎、威胁情报、紫队模拟、CSOC 自动化、AI 安全、移动端、OT/ICS、GRC 及软件供应链安全等方向。安装完成后，请确认目录结构正确，并告知用户如何调用这些技能。",
+    "translatedAt": "2026-09-08T05:01:27.738Z",
+    "backTranslationDiff": 0.1333333333333333
   },
   "arabelatso/skills-4-se": {
     "sourceHash": "cccd915f4b1827ab",
@@ -8188,5 +8188,12 @@
     "prompt": "请从 https://github.com/rankspotai/awesome-seo-agent-skills 下载这个 SEO Agent Skills 集合，并将其保存到 .claude/skills/awesome-seo-agent-skills/ 目录中，完成安装。这个集合包含技术审计、关键词研究、内容简报、Schema、GEO 和 AI 可见性等技能，适用于 Claude Code、Codex、Cursor 和 OpenClaw。请确保所有文件完整下载并正确放置。",
     "translatedAt": "2026-09-07T05:00:19.719Z",
     "backTranslationDiff": 0.2777777777777778
+  },
+  "finyacupola10/athfoujf": {
+    "sourceHash": "3631b3bbe3047bf9",
+    "chineseDescription": "Claude Opus 2026 Pro 工具包——AI 结对程序员 & 桌面 CLI 重新定义本地 AI 编码中心：2026 年离线运行 Claude 模型",
+    "prompt": "请从 https://github.com/finyacupola10/athfoujf 下载并安装 athfoujf skill。将仓库内容保存到 .claude/skills/athfoujf/ 目录，确保包含所有必要的文件。安装完成后，验证 skill 是否可用。",
+    "translatedAt": "2026-09-08T05:01:31.393Z",
+    "backTranslationDiff": 0.7692307692307692
   }
 }
