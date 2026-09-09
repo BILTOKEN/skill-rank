@@ -3231,6 +3231,32 @@
     "checkedAt": "2026-06-06T09:29:58.692Z"
   },
   {
+    "repo": "irinabuht12-oss/marketing-skills",
+    "name": "marketing-skills",
+    "description": "48 free Claude marketing skills (Google Ads, Meta Ads, SEO, AI visibility) + Ryze MCP: claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+    "tags": [
+      "ai-visibility",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "cursor",
+      "geo",
+      "google-ads",
+      "marketing",
+      "mcp",
+      "mcp-server",
+      "meta-ads",
+      "seo"
+    ],
+    "stars": 1224,
+    "lastPush": "2026-09-09T02:26:42Z",
+    "pool": "ranked",
+    "readmeLength": 520,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-09T04:48:41.865Z"
+  },
+  {
     "repo": "denissergeevitch/agents-best-practices",
     "name": "agents-best-practices",
     "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
@@ -7352,6 +7378,40 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "michael-denyer/pstack-claude",
+    "name": "pstack-claude",
+    "description": "Claude Code, Codex, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated to other agents.",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "coding-agent",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "opencode",
+      "prompt-engineering",
+      "pstack",
+      "subagents",
+      "tdd"
+    ],
+    "stars": 258,
+    "lastPush": "2026-09-09T00:38:11Z",
+    "pool": "ranked",
+    "readmeLength": 4079,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-09T04:48:41.865Z"
+  },
+  {
     "repo": "rampstackco/claude-skills",
     "name": "claude-skills",
     "description": "Stack-agnostic Claude Skills covering the full website lifecycle: brand, design, content, SEO, dev, ops, growth, and research. Build, ship, audit, optimize.",
@@ -8970,6 +9030,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "irinabuht12-oss/email-campaigns-claude",
+    "name": "email-campaigns-claude",
+    "description": "Claude Code skill for HTML email campaigns with Resend. Pull the numbers from your ads via the free Ryze MCP: claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "email",
+      "marketing",
+      "mcp",
+      "resend"
+    ],
+    "stars": 156,
+    "lastPush": "2026-09-08T23:58:38Z",
+    "pool": "ranked",
+    "readmeLength": 395,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-09T04:48:41.865Z"
   },
   {
     "repo": "smnandre/symfony-ux-skills",
