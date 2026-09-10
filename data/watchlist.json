@@ -7919,6 +7919,38 @@
     "checkedAt": "2026-09-07T04:48:46.566Z"
   },
   {
+    "repo": "bkraad47/fat_llama_fftw",
+    "name": "fat_llama_fftw",
+    "description": "fat_llama_fftw is a Python package for upscaling audio files to FLAC or WAV formats using advanced audio processing techniques. It utilizes fftw-accelerated calculations to enhance audio quality by upsampling and adding missing frequencies through FFT, resulting in richer and more detailed audio.",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-claude",
+      "audio",
+      "audio-processing",
+      "claude-ai",
+      "claude-api",
+      "claude-code",
+      "claude-skills",
+      "fft",
+      "fft-analysis",
+      "fftw",
+      "fftw3",
+      "hires",
+      "hpc",
+      "ist",
+      "parallel",
+      "upscaler"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-09T11:51:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-10T04:49:40.604Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -20510,6 +20542,31 @@
     "checkedAt": "2026-09-08T04:44:18.067Z"
   },
   {
+    "repo": "haremank/nsfw-prompt",
+    "name": "nsfw-prompt",
+    "description": "成人 NSFW 图像提示词编译器（Grok L1–L5，Flux / Pony / Illustrious / NAI / SDXL / Z-Image / Wan）。中文说明，英文提示词。",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "codex-skill",
+      "flux",
+      "grok",
+      "nsfw",
+      "openclaw-skill",
+      "prompt-engineering",
+      "skill-md",
+      "stable-diffusion",
+      "zcode"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-02T14:18:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-10T04:49:40.604Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -24263,6 +24320,33 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-09T04:48:41.865Z"
+  },
+  {
+    "repo": "crowd9/giveaway-skills",
+    "name": "giveaway-skills",
+    "description": "Skills for running better giveaways: prize, entry methods, timing, winner structure, promotion, provably fair draws, winner messages and ideas. Platform-neutral, supported by Gleam.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codex-skill",
+      "codex-skills",
+      "contests",
+      "giveaways",
+      "gleam",
+      "marketing-skills",
+      "sweepstakes"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-09T22:53:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-10T04:49:40.604Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

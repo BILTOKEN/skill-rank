@@ -5391,6 +5391,35 @@
     "lastPush": "2026-05-15T02:22:15Z"
   },
   {
+    "repo": "ilyautov/humanizer-ru",
+    "name": "humanizer-ru",
+    "description": "humanizer-ru: очеловечить русский AI-текст для Claude Code, Cursor, Codex и других AI-агентов",
+    "tags": [
+      "agent-skills",
+      "ai-detection",
+      "anthropic",
+      "anti-ai-detector",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-cowork",
+      "claude-skill",
+      "claude-skills",
+      "codex-cli",
+      "copywriting",
+      "cursor",
+      "gemini-cli",
+      "humanizer",
+      "humanizer-ru",
+      "russian",
+      "skill-md",
+      "text-humanizer",
+      "ux-writing"
+    ],
+    "stars": 313,
+    "lastPush": "2026-09-09T23:31:59Z"
+  },
+  {
     "repo": "agentara/skills",
     "name": "skills",
     "description": "Original and practical skills for AI builders.",
@@ -5622,6 +5651,33 @@
     ],
     "stars": 285,
     "lastPush": "2026-05-26T23:58:26Z"
+  },
+  {
+    "repo": "vincentwei1021/anything2explainer",
+    "name": "anything2explainer",
+    "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "edge-tts",
+      "educational-video",
+      "explainer-video",
+      "kokoro",
+      "motion-graphics",
+      "multi-agent",
+      "react",
+      "remotion",
+      "text-to-video",
+      "tts",
+      "typescript",
+      "video-generation"
+    ],
+    "stars": 282,
+    "lastPush": "2026-09-09T06:31:02Z"
   },
   {
     "repo": "win4r/openclaw-workspace",
@@ -16332,6 +16388,33 @@
     "lastPush": "2026-08-04T04:47:54Z"
   },
   {
+    "repo": "bkraad47/fat_llama_fftw",
+    "name": "fat_llama_fftw",
+    "description": "fat_llama_fftw is a Python package for upscaling audio files to FLAC or WAV formats using advanced audio processing techniques. It utilizes fftw-accelerated calculations to enhance audio quality by upsampling and adding missing frequencies through FFT, resulting in richer and more detailed audio.",
+    "tags": [
+      "anthropic",
+      "anthropic-ai",
+      "anthropic-claude",
+      "audio",
+      "audio-processing",
+      "claude-ai",
+      "claude-api",
+      "claude-code",
+      "claude-skills",
+      "fft",
+      "fft-analysis",
+      "fftw",
+      "fftw3",
+      "hires",
+      "hpc",
+      "ist",
+      "parallel",
+      "upscaler"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-09T11:51:35Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -26420,6 +26503,26 @@
     "lastPush": "2026-09-08T04:12:58Z"
   },
   {
+    "repo": "haremank/nsfw-prompt",
+    "name": "nsfw-prompt",
+    "description": "成人 NSFW 图像提示词编译器（Grok L1–L5，Flux / Pony / Illustrious / NAI / SDXL / Z-Image / Wan）。中文说明，英文提示词。",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "codex-skill",
+      "flux",
+      "grok",
+      "nsfw",
+      "openclaw-skill",
+      "prompt-engineering",
+      "skill-md",
+      "stable-diffusion",
+      "zcode"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-02T14:18:02Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -29428,6 +29531,28 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-08T15:42:51Z"
+  },
+  {
+    "repo": "crowd9/giveaway-skills",
+    "name": "giveaway-skills",
+    "description": "Skills for running better giveaways: prize, entry methods, timing, winner structure, promotion, provably fair draws, winner messages and ideas. Platform-neutral, supported by Gleam.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codex-skill",
+      "codex-skills",
+      "contests",
+      "giveaways",
+      "gleam",
+      "marketing-skills",
+      "sweepstakes"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-09T22:53:03Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

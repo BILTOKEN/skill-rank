@@ -4221,11 +4221,11 @@
     "backTranslationDiff": 0
   },
   "plutolei/paperbanana-skill": {
-    "sourceHash": "4a71fb3c3e230a5e",
-    "chineseDescription": "Claude Code 的 PaperBanana 技能——用 AI 生成出版级学术图表",
-    "prompt": "请从 https://github.com/plutolei/paperbanana-skill 下载 PaperBanana Skill 文件，保存到 .claude/skills/paperbanana-skill/ 目录，完成安装。",
-    "translatedAt": "2026-05-25T14:11:16.099Z",
-    "backTranslationDiff": 0.4444444444444444
+    "sourceHash": "13d8ca04ea0ba757",
+    "chineseDescription": "这是一个给 Claude Code 和 Codex 用的 Agent 技能（Agent skills），专门帮你搞定学术图表（academic figures）和可编辑的幻灯片（editable slide decks）。简单说，就是让 AI 帮你画论文里的图、做能改的 PPT，不用自己从零折腾。",
+    "prompt": "请帮我安装 paperbanana-skill 这个技能。具体步骤：\n\n1. 从 GitHub 仓库 https://github.com/plutolei/paperbanana-skill 下载所有文件（可以用 git clone 或者直接下载压缩包）。\n2. 在当前项目的 .claude/skills/ 目录下创建 paperbanana-skill 文件夹，也就是路径 .claude/skills/paperbanana-skill/。\n3. 把下载下来的文件全部放到这个目录里。\n4. 确认目录结构正确，比如 SKILL.md 等文件都在 .claude/skills/paperbanana-skill/ 下面。\n5. 安装完成后告诉我一声，并简单说明这个技能能干什么。\n\n如果 .claude/skills/ 目录不存在，请先创建它。",
+    "translatedAt": "2026-09-10T05:04:42.632Z",
+    "backTranslationDiff": 0.6
   },
   "agricidaniel/marketing-skill-pack": {
     "sourceHash": "7e63912316d37964",
@@ -6300,11 +6300,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "jnmetacode/superpowers-zh": {
-    "sourceHash": "f050bce9a930c76a",
-    "chineseDescription": "🦸 AI 编程超能力 · 中文增强版 — superpowers（116k+ ⭐）完整汉化 + 6 个中国原创 skills，让 Claude Code / Copilot CLI / Hermes Agent / Cursor / Windsurf / Kiro / Gemini CLI 等 16 款 AI 编程工具真正会干活",
-    "prompt": "请从 https://github.com/jnmetacode/superpowers-zh 下载 superpowers-zh 项目文件，并保存到 .claude/skills/superpowers-zh/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T17:02:15.073Z",
-    "backTranslationDiff": 0.4375
+    "sourceHash": "73a9ebb831ad4af8",
+    "chineseDescription": "🦸 AI 编程超能力 · 中文增强版 — 把 superpowers（250k+ ⭐）完整汉化，再加上 4 个中国原创 skills（技能包），让 Claude Code、Copilot CLI、Hermes Agent、Cursor、Windsurf、Kiro、Gemini CLI、Qoder 等 26 款 AI 编程工具真正能干活。",
+    "prompt": "帮我安装 superpowers-zh 这个 skill（技能包）。请从 GitHub 仓库 https://github.com/jnmetacode/superpowers-zh 下载全部文件，保存到 .claude/skills/superpowers-zh/ 目录下，完成安装。如果目录不存在就先创建。安装完成后告诉我装好了哪些 skills。",
+    "translatedAt": "2026-09-10T05:04:30.482Z",
+    "backTranslationDiff": 0.6470588235294117
   },
   "gotalab/cc-sdd": {
     "sourceHash": "48bf30964cae14ad",
@@ -8036,11 +8036,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "untrivial-ai/agent-orchestrator": {
-    "sourceHash": "9dc174a0d0b7764b",
-    "chineseDescription": "{\"description_zh\":\"运行并监督编码代理团队，从规划到合并。支持任何 harness（Claude code、codex 等 27 种以上）。覆盖桌面、网页、移动端和云端代理。【使用场景】当需要同时管理多个编码代理协作完成复杂项目时，此技能可帮助你编排和监督整个流程。\"}\n\n{\"prompt\":\"请帮我安装 agent-orchestrator 技能。请从 https://github.com/untrivial-ai/agent-orchestrator 下载该仓库的全部文件，并保存到 .claude/skills/agent-orchestrator/ 目录下，完成安装。安装完成后请确认文件已就位。\"}",
-    "prompt": "暂无提示词",
-    "translatedAt": "2026-09-09T05:11:26.086Z",
-    "backTranslationDiff": 0.23529411764705888
+    "sourceHash": "f7641f663ecc7bf4",
+    "chineseDescription": "从规划到合并（merge），全程运行并监管多支编码 agent（智能体）团队。支持任意 harness（执行框架，包括 Claude Code、Codex 以及另外 25 种以上）。覆盖桌面端、网页端、移动端和云端 agent。",
+    "prompt": "请帮我安装 agent-orchestrator 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/untrivial-ai/agent-orchestrator 下载所需文件，并保存到 .claude/skills/agent-orchestrator/ 目录下完成安装。安装完成后告诉我怎么使用它。",
+    "translatedAt": "2026-09-10T05:04:26.500Z",
+    "backTranslationDiff": 1
   },
   "simota/agent-skills": {
     "sourceHash": "47388ec7940ed41d",
@@ -8223,5 +8223,19 @@
     "prompt": "请从 https://github.com/jakeschincariol/linkedin-agent-skill 下载该技能仓库，并将文件保存到 .claude/skills/linkedin-agent-skill/ 目录下，完成安装。",
     "translatedAt": "2026-09-09T05:11:50.929Z",
     "backTranslationDiff": 0.375
+  },
+  "ilyautov/humanizer-ru": {
+    "sourceHash": "b570ff215cf6244e",
+    "chineseDescription": "humanizer-ru：让俄语 AI 生成的文本更像人写的，适用于 Claude Code、Cursor、Codex 等 AI 代理工具。",
+    "prompt": "请帮我安装 humanizer-ru 这个 Skill。去 GitHub 仓库 https://github.com/ilyautov/humanizer-ru 下载所有文件，保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
+    "translatedAt": "2026-09-10T05:04:34.159Z",
+    "backTranslationDiff": 0.9
+  },
+  "vincentwei1021/anything2explainer": {
+    "sourceHash": "6ed36c9b01542b77",
+    "chineseDescription": "输入一个主题，输出带旁白的解说视频。这是一个 Claude Code / Codex 技能（skill），能把任何主题变成黑底动态图形（motion-graphics）解说视频，自带 TTS 语音旁白、字幕和章节进度条。支持中文或英文；每一帧都用代码通过 Remotion 绘制。",
+    "prompt": "请帮我安装 anything2explainer 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/vincentwei1021/anything2explainer 下载所有文件，并保存到 .claude/skills/anything2explainer/ 目录下完成安装。安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-09-10T05:04:37.858Z",
+    "backTranslationDiff": 0.8846153846153846
   }
 }
