@@ -5579,11 +5579,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "smixs/visual-skills": {
-    "sourceHash": "40689a7923e5d688",
-    "chineseDescription": "面向 AI 代理（Agent）的电影导演技能：包含电影剧作理论（Murch 剪辑法、场面调度、蒙太奇）以及针对 Seedance 2.5、Kling 3.0 Turbo/Omni、Veo 3.1、Nano Banana 2、GPT Image 2 的精确提示词（Prompt）语法。【使用场景】当你需要生成电影感强的视频或图像时，这个技能能帮你写出符合专业导演思路的提示词，并适配主流 AI 视频/图像生成模型。",
-    "prompt": "请从 https://github.com/smixs/visual-skills 下载该技能的全部文件，并保存到 .claude/skills/visual-skills/ 目录下，完成安装。安装后请确认技能可用，并简要说明该技能的功能。GitHub 仓库地址：https://github.com/smixs/visual-skills",
-    "translatedAt": "2026-08-04T03:55:56.603Z",
-    "backTranslationDiff": 0.85
+    "sourceHash": "9314dd75086d2a48",
+    "chineseDescription": "给 AI agent（智能体）用的电影导演技能包：包含电影化的戏剧编排（Murch 剪辑理论、场面调度 blocking、蒙太奇 montage），以及针对 Seedance 2.5、Kling 3.0 Turbo/Omni、Veo 3.1、Nano Banana 2、GPT Image 2.5 这些模型的精确提示词（prompt）语法。",
+    "prompt": "请帮我安装 visual-skills 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/smixs/visual-skills 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/visual-skills/ 目录；3) 把下载到的所有文件放到 .claude/skills/visual-skills/ 里；4) 确认目录下有 SKILL.md（或同等的技能说明文件），没有的话告诉我。完成后把安装路径和文件列表给我看一下。",
+    "translatedAt": "2026-09-11T05:10:43.432Z",
+    "backTranslationDiff": 0.8571428571428572
   },
   "baidu-maps/jsapi-skills": {
     "sourceHash": "af5f614754bd7e93",
@@ -5838,10 +5838,10 @@
     "backTranslationDiff": 0.5
   },
   "storybloq/storybloq": {
-    "sourceHash": "12621b482184bbe7",
-    "chineseDescription": "跨会话上下文（Cross-session context）用于 Claude Code。CLI + MCP 服务器 + /story skill，在 .story/ 目录中跟踪工单（tickets）、问题（issues）、交接（handovers）和路线图（roadmap）。【使用场景】",
-    "prompt": "请从 GitHub 仓库 https://github.com/storybloq/storybloq 下载所有文件，并将它们保存到 .claude/skills/storybloq/ 目录中，完成安装。",
-    "translatedAt": "2026-05-31T16:26:08.987Z",
+    "sourceHash": "5c5b3cae4ebfda5f",
+    "chineseDescription": "为 Claude Code 和 Codex（代码助手）提供的项目记忆与工作流工具。把故事（stories）、计划（plans）、交接文档（handovers）和评审证据（review evidence）都保存在你的代码仓库里。支持跨会话（session）恢复进度，并可在 Mac 应用里跟踪进展。",
+    "prompt": "请帮我安装 storybloq 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/storybloq/storybloq 下载所需的文件，并保存到 .claude/skills/storybloq/ 目录下完成安装。安装完成后，请告诉我如何使用它。",
+    "translatedAt": "2026-09-11T05:10:47.059Z",
     "backTranslationDiff": 0.19999999999999996
   },
   "vercel-labs/skills": {
@@ -8237,5 +8237,12 @@
     "prompt": "请帮我安装 anything2explainer 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/vincentwei1021/anything2explainer 下载所有文件，并保存到 .claude/skills/anything2explainer/ 目录下完成安装。安装完成后告诉我这个技能能做什么、怎么用。",
     "translatedAt": "2026-09-10T05:04:37.858Z",
     "backTranslationDiff": 0.8846153846153846
+  },
+  "undefined-ui/second-brain-os": {
+    "sourceHash": "31d4f1ec5844a891",
+    "chineseDescription": "一个能自我维护的 AI 第二大脑（second brain）。包含完整指南、入门知识库（starter vault）、agent skills 和脚本，帮你在 Claude Code 和 Obsidian 里搭建一个能自我组织的知识库。",
+    "prompt": "请帮我安装 second-brain-os 这个 skill。去 GitHub 仓库 https://github.com/undefined-ui/second-brain-os 下载所有文件，保存到 .claude/skills/second-brain-os/ 目录下完成安装。安装完成后告诉我这个 skill 能做什么、怎么用。",
+    "translatedAt": "2026-09-11T05:10:50.497Z",
+    "backTranslationDiff": 0.8333333333333334
   }
 }
