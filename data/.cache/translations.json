@@ -5670,11 +5670,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "ruvnet/ruflo": {
-    "sourceHash": "88f8ae96c9252820",
-    "chineseDescription": "🌊 原始智能体元框架（agent meta-harness）。部署智能多玩家集群（multi-player swarms），协调自主工作流，构建对话式AI系统。具备自适应记忆（adaptive memory）、自学习智能（self-learning intelligence）、RAG集成，原生支持Claude Code / Codex / Hermes及更多集成。【使用场景】当需要构建多智能体协作系统、自动化工作流或对话式AI应用时使用。",
-    "prompt": "请从 https://github.com/ruvnet/ruflo 下载 ruflo 技能文件，并安装到 .claude/skills/ruflo/ 目录。安装步骤：1. 克隆或下载该仓库内容；2. 将仓库中的技能文件复制到 .claude/skills/ruflo/ 目录；3. 确保目录结构完整，包含必要的配置和脚本文件。完成后请确认安装成功。",
-    "translatedAt": "2026-08-02T04:12:32.238Z",
-    "backTranslationDiff": 0.9259259259259259
+    "sourceHash": "f3f5f05f4e064f28",
+    "chineseDescription": "🌊 元老级的 agent harness（智能体框架）。可以部署智能化的多人 swarm（集群），协调自主工作流，搭建对话式 AI 系统。自带自适应记忆、自学习智能、federation（联邦协作）、vector RAG（向量检索增强生成）集成，并且原生支持 Claude Code / Codex / Hermes 等多种平台。",
+    "prompt": "请帮我安装 ruflo 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/ruvnet/ruflo 下载全部文件；2) 在项目根目录创建 .claude/skills/ruflo/ 目录；3) 把下载的文件保存到该目录下；4) 确认 SKILL.md 等关键文件已就位，完成后告诉我安装结果。",
+    "translatedAt": "2026-09-12T04:53:06.137Z",
+    "backTranslationDiff": 0.24137931034482762
   },
   "nexu-io/open-design": {
     "sourceHash": "1adda5a9d94c05dd",
@@ -8225,11 +8225,11 @@
     "backTranslationDiff": 0.375
   },
   "ilyautov/humanizer-ru": {
-    "sourceHash": "b570ff215cf6244e",
-    "chineseDescription": "humanizer-ru：让俄语 AI 生成的文本更像人写的，适用于 Claude Code、Cursor、Codex 等 AI 代理工具。",
-    "prompt": "请帮我安装 humanizer-ru 这个 Skill。去 GitHub 仓库 https://github.com/ilyautov/humanizer-ru 下载所有文件，保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。",
-    "translatedAt": "2026-09-10T05:04:34.159Z",
-    "backTranslationDiff": 0.9
+    "sourceHash": "1009f005a61f5512",
+    "chineseDescription": "humanizer-ru：给俄语 AI 文本「去味」，适用于 Claude Code、Cursor、Codex 等 AI 代理。内置 64 项神经网络特征识别、21 条硬性封禁规则，还附带扫描器。功能是从俄语文本中清除 AI 生成痕迹，是一个开源 Skill（技能），支持 Claude Code、Cursor、Codex 等代理。",
+    "prompt": "请帮我安装 humanizer-ru 这个 Skill（技能）。请从 GitHub 仓库 https://github.com/ilyautov/humanizer-ru 下载所需文件，并保存到 .claude/skills/humanizer-ru/ 目录下完成安装。安装完成后告诉我这个 Skill 怎么用。",
+    "translatedAt": "2026-09-12T04:53:13.768Z",
+    "backTranslationDiff": 0.7307692307692308
   },
   "vincentwei1021/anything2explainer": {
     "sourceHash": "6ed36c9b01542b77",
@@ -8244,5 +8244,19 @@
     "prompt": "请帮我安装 second-brain-os 这个 skill。去 GitHub 仓库 https://github.com/undefined-ui/second-brain-os 下载所有文件，保存到 .claude/skills/second-brain-os/ 目录下完成安装。安装完成后告诉我这个 skill 能做什么、怎么用。",
     "translatedAt": "2026-09-11T05:10:50.497Z",
     "backTranslationDiff": 0.8333333333333334
+  },
+  "zenstory-ai/drama-skills": {
+    "sourceHash": "64e3854803ecb1da",
+    "chineseDescription": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。",
+    "prompt": "帮我安装 drama-skills 这个 skill。请从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载所有文件，保存到 .claude/skills/drama-skills/ 目录下完成安装。如果目录不存在就先创建，安装完成后告诉我装好了哪些内容。",
+    "translatedAt": "2026-09-12T04:53:09.818Z",
+    "backTranslationDiff": 0.6875
+  },
+  "eternityspring/reelbench-skills": {
+    "sourceHash": "70ea79dd6a253f19",
+    "chineseDescription": "这是一个关于 AI 视频（AI video）的学习笔记和工具 skill（技能）集合，帮你了解 AI 视频相关的知识和实用工具。",
+    "prompt": "请帮我安装 reelbench-skills 这个 skill。具体步骤：1. 从 GitHub 仓库 https://github.com/eternityspring/reelbench-skills 下载所有文件；2. 在项目根目录下创建 .claude/skills/reelbench-skills/ 目录；3. 把下载的文件保存到该目录中；4. 确认安装完成后告诉我这个 skill 能做什么。",
+    "translatedAt": "2026-09-12T04:53:17.458Z",
+    "backTranslationDiff": 1
   }
 }

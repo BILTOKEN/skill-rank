@@ -8006,6 +8006,46 @@
     "checkedAt": "2026-09-11T04:46:41.884Z"
   },
   {
+    "repo": "oufinx/mistok-chytalnia",
+    "name": "mistok-chytalnia",
+    "description": "Скіли, методики й сирі матеріали архівного пошуку по українських селах. Напрацьовано для «Містка», викладено для всіх / Claude Code skills and methods for archival research on Ukrainian villages",
+    "tags": [
+      "archival-research",
+      "claude-code",
+      "claude-skills",
+      "digital-humanities",
+      "genealogy",
+      "ukraine"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-11T15:35:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
+  },
+  {
+    "repo": "spyfighting/my-academic-skills",
+    "name": "my-academic-skills",
+    "description": "Research skills for Claude Code, Codex, and OpenCode.",
+    "tags": [
+      "agent-skills",
+      "binder-design",
+      "claude-skills",
+      "protein-design",
+      "reproducibility",
+      "structural-biology"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-08T08:50:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
+  },
+  {
     "repo": "alexander-danilenko/cortex-ai-skills",
     "name": "cortex-ai-skills",
     "description": "Opinionated AI Coding Skills for AI coding agents",
@@ -19161,6 +19201,31 @@
     "checkedAt": "2026-09-09T04:48:41.865Z"
   },
   {
+    "repo": "subashc2023/codexctl",
+    "name": "codexctl",
+    "description": "Use Claude Code to drive Codex through the documented Codex Control Plane",
+    "tags": [
+      "agent-harness",
+      "agent-swarm",
+      "chatgpt",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "harness",
+      "subagent",
+      "subagents"
+    ],
+    "stars": 4,
+    "lastPush": "2026-09-05T23:19:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -24425,6 +24490,40 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-11T04:46:41.884Z"
+  },
+  {
+    "repo": "barinfo/ouroboros.skill",
+    "name": "Ouroboros.skill",
+    "description": "🐍 让 agent 一直干活到完成的递归 Skill",
+    "tags": [
+      "agent",
+      "agentic",
+      "ai-agents",
+      "autonomous-agents",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "goal",
+      "long-running-goal",
+      "orchestration",
+      "ouroboros",
+      "recursive",
+      "self-wake",
+      "skill",
+      "skills",
+      "sub-agent",
+      "sub-agents",
+      "timer"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-08T15:47:53Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

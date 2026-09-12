@@ -2577,6 +2577,31 @@
     "checkedAt": "2026-05-26T14:13:16.996Z"
   },
   {
+    "repo": "zenstory-ai/drama-skills",
+    "name": "drama-skills",
+    "description": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。| An AI short-drama skill suite for Claude Code & Codex: scripts, assets, storyboards, image/video prompts, and independent review.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "aigc",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "prompt-engineering",
+      "screenwriting",
+      "short-drama",
+      "storyboard",
+      "zenstory"
+    ],
+    "stars": 1803,
+    "lastPush": "2026-09-11T17:02:58Z",
+    "pool": "ranked",
+    "readmeLength": 501,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
+  },
+  {
     "repo": "zubair-trabzada/ai-marketing-claude",
     "name": "ai-marketing-claude",
     "description": "AI Marketing Suite for Claude Code. 15 marketing skills with parallel subagents — audit any website, generate copy, email sequences, ad campaigns, content calendars, competitive intelligence, and client-ready PDF reports.",
@@ -8473,6 +8498,26 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "eternityspring/reelbench-skills",
+    "name": "reelbench-skills",
+    "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+    "tags": [
+      "ai-video",
+      "claude-code",
+      "claude-skills",
+      "ffmpeg",
+      "shot-analysis",
+      "video-analysis"
+    ],
+    "stars": 206,
+    "lastPush": "2026-09-12T01:56:22Z",
+    "pool": "ranked",
+    "readmeLength": 160,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-12T04:41:49.295Z"
   },
   {
     "repo": "thegreatgildo/nerv-ui",
