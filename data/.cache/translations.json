@@ -3850,11 +3850,11 @@
     "backTranslationDiff": 0.125
   },
   "agents365-ai/drawio-skill": {
-    "sourceHash": "371a01ce326ce86d",
-    "chineseDescription": "从文本和真实数据源生成可维护的 .drawio 架构模型：支持带来源类型配置的 Diagram IR（中间表示）、保留手动布局的增量同步、多视角投影、架构即测试（含 CI 动作）、查询/审查、假设分析、无障碍 Story Mode，以及内置 MCP 服务器。",
-    "prompt": "请帮我安装 drawio-skill 技能。请从 GitHub 仓库 https://github.com/agents365-ai/drawio-skill 下载技能文件，并保存到 .claude/skills/drawio-skill/ 目录下，完成安装。安装完成后请确认技能可用。",
-    "translatedAt": "2026-09-02T05:01:41.959Z",
-    "backTranslationDiff": 0.3214285714285714
+    "sourceHash": "2ed2b1a81ab94c30",
+    "chineseDescription": "这个 Agent Skill（智能体技能）能把自然语言、代码、Terraform/K8s 配置、SQL、OpenAPI、AsyncAPI 和 Protobuf 源文件，转成可编辑、可测试的 draw.io 架构图。支持增量同步（incremental sync）、多视图投影（multi-view projection）、漂移对比（drift diff）、CI 架构测试、白板去栅格化（whiteboard derasterize），还能导出成可交互的 HTML/PPTX/Mermaid 格式。",
+    "prompt": "请帮我安装 drawio-skill 这个 Claude Code 技能。步骤：1）从 GitHub 仓库 https://github.com/agents365-ai/drawio-skill 下载全部文件；2）在项目根目录创建 .claude/skills/drawio-skill/ 目录；3）把下载的文件保存到该目录下（保留原有的目录结构，比如 SKILL.md 等文件）；4）安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-09-13T05:13:25.153Z",
+    "backTranslationDiff": 0.29032258064516125
   },
   "youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
     "sourceHash": "f7bd37a403edbc53",
@@ -4473,11 +4473,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "geekjourneyx/md2wechat-skill": {
-    "sourceHash": "9516896a23ffdc80",
-    "chineseDescription": "Markdown 转微信公众号 CLI 工具 | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题、AI 配图、批量发布、多账号管理",
-    "prompt": "请从 https://github.com/geekjourneyx/md2wechat-skill 下载 md2wechat-skill 技能文件，保存到 .claude/skills/md2wechat-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-06-26T05:03:34.501Z",
-    "backTranslationDiff": 0.8333333333333334
+    "sourceHash": "c2955e276fcb6d27",
+    "chineseDescription": "Markdown 转微信 CLI（命令行工具） | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题、AI 配图、批量发布、多账号管理、多平台发布",
+    "prompt": "帮我安装 md2wechat-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/geekjourneyx/md2wechat-skill 下载所有文件，保存到 .claude/skills/md2wechat-skill/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么、怎么用。",
+    "translatedAt": "2026-09-13T05:13:29.030Z",
+    "backTranslationDiff": 0.6666666666666667
   },
   "jeffallan/claude-skills": {
     "sourceHash": "c584d651e719337e",
@@ -6181,11 +6181,11 @@
     "backTranslationDiff": 0.4444444444444444
   },
   "levnikolaevich/claude-code-skills": {
-    "sourceHash": "85d6e96e78196ccc",
-    "chineseDescription": "为 Claude Code 和 Codex 提供的独立工程技能：代码审查、审计、优化、测试、产品发现、架构设计以及安全发布。",
-    "prompt": "请从 https://github.com/levnikolaevich/claude-code-skills 下载该仓库的全部文件，并将其保存到 .claude/skills/claude-code-skills/ 目录中，以完成安装。安装完成后，请确认目录结构正确并告知我。",
-    "translatedAt": "2026-08-06T04:01:21.343Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "13a5880baea81352",
+    "chineseDescription": "适用于 Claude Code 和 Codex 的独立技能（Skill）集合，覆盖产品探索（product discovery）、架构设计（architecture）、规划（planning）、实现（implementation）、质量保障（quality assurance）、交付（delivery）和运维（operations）等环节。",
+    "prompt": "请帮我安装 claude-code-skills 这个技能包。请从 GitHub 仓库 https://github.com/levnikolaevich/claude-code-skills 下载所有文件，并保存到 .claude/skills/claude-code-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我具体安装了哪些技能。",
+    "translatedAt": "2026-09-13T05:13:32.926Z",
+    "backTranslationDiff": 0.8571428571428572
   },
   "vila-lab/figmirror": {
     "sourceHash": "5b86b3facf772ca6",
@@ -8258,5 +8258,12 @@
     "prompt": "请帮我安装 reelbench-skills 这个 skill。具体步骤：1. 从 GitHub 仓库 https://github.com/eternityspring/reelbench-skills 下载所有文件；2. 在项目根目录下创建 .claude/skills/reelbench-skills/ 目录；3. 把下载的文件保存到该目录中；4. 确认安装完成后告诉我这个 skill 能做什么。",
     "translatedAt": "2026-09-12T04:53:17.458Z",
     "backTranslationDiff": 1
+  },
+  "erfnzdeh/arvancloud-agent-skill": {
+    "sourceHash": "f7a92777f4d3c755",
+    "chineseDescription": "这是一个非官方的 Agent Skill（智能体技能），适用于 Claude Code 以及其他兼容 SKILL.md 的智能体。它能调用 ArvanCloud 的各项 API，包括 CDN（内容分发网络）、DNS（域名解析）、IaaS（基础设施即服务）、Object Storage（对象存储）、Edge（边缘计算）、CaaS（容器即服务）、VOD/Live/Video Ads（点播/直播/视频广告），还能通过 acme.sh 搞定 Let's Encrypt 的 DNS-01 证书签发。",
+    "prompt": "请帮我安装 arvancloud-agent-skill 这个技能。去 GitHub 仓库 https://github.com/erfnzdeh/arvancloud-agent-skill 把里面的文件下载下来，保存到 .claude/skills/arvancloud-agent-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-09-13T05:13:36.926Z",
+    "backTranslationDiff": 0.76
   }
 }

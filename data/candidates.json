@@ -8271,6 +8271,30 @@
     "lastPush": "2026-07-21T00:03:36Z"
   },
   {
+    "repo": "erfnzdeh/arvancloud-agent-skill",
+    "name": "arvancloud-agent-skill",
+    "description": "Unofficial Agent Skill for Claude Code and other SKILL.md-compatible agents, driving ArvanCloud's APIs (CDN, DNS, IaaS, Object Storage, Edge, CaaS, VOD/Live/Video Ads) and Let's Encrypt DNS-01 certs via acme.sh.",
+    "tags": [
+      "acme-sh",
+      "agent-skill",
+      "agent-skills",
+      "arvan",
+      "arvancloud",
+      "cdn",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "cursor-skills",
+      "dns",
+      "iran",
+      "lets-encrypt",
+      "object-storage"
+    ],
+    "stars": 89,
+    "lastPush": "2026-09-12T17:52:01Z"
+  },
+  {
     "repo": "robertguss/claude-code-toolkit",
     "name": "claude-code-toolkit",
     "description": "A collection of custom skills that extend Claude's capabilities with specialized workflows, methods, and domain knowledge.",
@@ -14246,6 +14270,32 @@
     "lastPush": "2026-08-22T22:12:38Z"
   },
   {
+    "repo": "liarjsdev/liarjs-skills",
+    "name": "liarjs-skills",
+    "description": "Agent Skills for browser fingerprint testing: run liarjs from Claude Code, Codex, Cursor or Copilot to score a browser against itself - 40 consistency checks over canvas, WebGL, WebGPU, audio, fonts and WebRTC, cross-checked against the TLS/HTTP layer. Playwright and Puppeteer harness QA, CI regression gates, headless detection triage.",
+    "tags": [
+      "agent-skills",
+      "anti-detection",
+      "bot-detection",
+      "browser-fingerprinting",
+      "cdp",
+      "claude-code-skills",
+      "claude-skills",
+      "fingerprinting",
+      "gemini-cli-extension",
+      "headless-detection",
+      "liarjs",
+      "playwright",
+      "puppeteer",
+      "qa-automation",
+      "skill-md",
+      "skills",
+      "web-scraping"
+    ],
+    "stars": 19,
+    "lastPush": "2026-08-06T06:55:38Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -19929,6 +19979,35 @@
     "lastPush": "2026-07-28T12:31:34Z"
   },
   {
+    "repo": "cooler333/awesome-claude-code",
+    "name": "awesome-claude-code",
+    "description": "Awesome Claude Code And Agent Tools",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "anthropic",
+      "anthropic-claude",
+      "awesome",
+      "awesome-list",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "coding-agent",
+      "coding-assistant",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "ranking",
+      "subagents",
+      "trending"
+    ],
+    "stars": 10,
+    "lastPush": "2026-09-12T11:05:22Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -25477,6 +25556,28 @@
     "lastPush": "2026-09-05T23:19:59Z"
   },
   {
+    "repo": "rdilruba/codebase-map",
+    "name": "codebase-map",
+    "description": "Turn an unfamiliar repo into something you can contribute to. An agent skill that maps architecture, traces real flows, and writes it all to docs/codebase-map/.",
+    "tags": [
+      "agent-skills",
+      "architecture",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codebase-analysis",
+      "codex-skill",
+      "codex-skills",
+      "developer-tools",
+      "documentation",
+      "mermaid",
+      "onboarding"
+    ],
+    "stars": 4,
+    "lastPush": "2026-09-11T21:23:03Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -29730,6 +29831,28 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-08T15:47:53Z"
+  },
+  {
+    "repo": "covagashi/eplan-development-skill",
+    "name": "eplan-development-skill",
+    "description": "Host-agnostic Claude Code skill for EPLAN Electric P8 development: C# scripting, the EPLAN API, and Remote Client automation.",
+    "tags": [
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "csharp",
+      "electrical-engineering",
+      "eplan",
+      "eplan-api",
+      "eplan-electric",
+      "eplan-p8",
+      "plugin-marketplace",
+      "scripting"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-10T11:12:47Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
