@@ -6174,11 +6174,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "alphagbm/skills": {
-    "sourceHash": "073cd4c76208033c",
-    "chineseDescription": "为 AI 智能体提供真实数据期权智能——29 个适用于 Claude Code、Cursor 等工具的 Skills。",
-    "prompt": "请从 https://github.com/alphagbm/skills 下载文件，并保存到 .claude/skills/skills/ 目录完成安装。",
-    "translatedAt": "2026-05-31T17:01:00.738Z",
-    "backTranslationDiff": 0.4444444444444444
+    "sourceHash": "d6dd6f878ce7b54c",
+    "chineseDescription": "把实时市场数据和研究工作流带进 Claude Code、Cursor 等工具——包含 29 个开源 Skill（技能），覆盖股票、期权（options）和大宗商品（commodities）。",
+    "prompt": "请帮我安装 skills 这个 Skill。步骤：1) 从 https://github.com/alphagbm/skills 下载仓库文件（可以用 git clone 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/skills/ 目录（如果不存在的话）；3) 把下载到的所有 Skill 文件复制到 .claude/skills/skills/ 目录下；4) 确认目录结构正确，告诉我安装完成，并列出安装好的 Skill 清单。仓库地址：https://github.com/alphagbm/skills",
+    "translatedAt": "2026-09-14T05:20:03.630Z",
+    "backTranslationDiff": 0.9375
   },
   "levnikolaevich/claude-code-skills": {
     "sourceHash": "13a5880baea81352",
@@ -7476,11 +7476,11 @@
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
-    "sourceHash": "38ac21d64449a72b",
-    "chineseDescription": "将 Claude 变成资深设计架构师——支持 DTCG 设计令牌（design tokens）、42 个组件、WCAG 2.2 无障碍标准、任意框架代码、138 个设计系统，以及可运行的技能。",
-    "prompt": "请从 https://github.com/plugin87/ux-ui-agent-skills 下载 ux-ui-agent-skills 项目，并将其所有文件保存到 .claude/skills/ux-ui-agent-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-07T10:38:30.997Z",
-    "backTranslationDiff": 0.1875
+    "sourceHash": "f79c8584a4859e85",
+    "chineseDescription": "把 Claude 变成一个资深设计架构师（design architect）——支持 DTCG 设计令牌（design tokens）、50 个组件、WCAG 2.2 AA 到 AAA 无障碍标准、138 套设计系统（design systems）、任意框架（any-framework）的代码，还有 38 道客观检查关卡（objective gates），构建不通过就直接失败，而不是嘴上说成功。可以作为 Claude Code 插件（plugin）安装，也可以用 npx 安装。",
+    "prompt": "帮我安装 ux-ui-agent-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载所有文件，保存到 .claude/skills/ux-ui-agent-skills/ 目录下完成安装。如果目录不存在就先创建，安装完成后告诉我这个 Skill 提供了哪些能力。",
+    "translatedAt": "2026-09-14T05:19:55.350Z",
+    "backTranslationDiff": 0.8888888888888888
   },
   "mworldorg/markdown-memory": {
     "sourceHash": "5f936ca1e57d1450",
@@ -8085,11 +8085,11 @@
     "backTranslationDiff": 1
   },
   "zenstory-ai/oh-story-claudecode": {
-    "sourceHash": "625e9dcd39a30823",
-    "chineseDescription": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程（All-in-one skill pack for long- and short-form web fiction）",
-    "prompt": "请从 https://github.com/zenstory-ai/oh-story-claudecode 下载 oh-story-claudecode skill 包，并将文件保存到 .claude/skills/oh-story-claudecode/ 目录下，完成安装。这个 skill 覆盖网文/小说写作的全流程，包括扫榜、拆文、写作、去AI味和封面图生成。安装完成后，告诉我如何使用它。",
-    "translatedAt": "2026-08-25T02:21:23.813Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "cfa36513bf6e2ddf",
+    "chineseDescription": "这是一套给 Claude Code、Codex、OpenCode 用的 agent skill（智能体技能），专门写中文网文：从扫榜、拆文、写作、去 AI 味到做封面，全流程都能搞定，长篇短篇都支持。一共 13 个 skill，覆盖小说创作和长篇连载，用文件来记录剧情连贯性（continuity tracking）。MIT 协议开源。",
+    "prompt": "请帮我安装 oh-story-claudecode 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件；2) 在项目里创建目录 .claude/skills/oh-story-claudecode/；3) 把下载的文件放到这个目录下（保持原有的目录结构，比如 SKILL.md 和各子 skill 文件夹）；4) 完成后告诉我装了哪些 skill、怎么用。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-09-14T05:19:59.630Z",
+    "backTranslationDiff": 0.8421052631578947
   },
   "adscanpro/claude-ad": {
     "sourceHash": "b7b339d79d154f3a",
@@ -8246,11 +8246,11 @@
     "backTranslationDiff": 0.8333333333333334
   },
   "zenstory-ai/drama-skills": {
-    "sourceHash": "64e3854803ecb1da",
-    "chineseDescription": "AI 短剧/漫剧创作 skill 合集，覆盖剧本、资产、分镜、图片/视频提示词到独立审查全链路，适配 Claude Code 与 Codex。",
-    "prompt": "帮我安装 drama-skills 这个 skill。请从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载所有文件，保存到 .claude/skills/drama-skills/ 目录下完成安装。如果目录不存在就先创建，安装完成后告诉我装好了哪些内容。",
-    "translatedAt": "2026-09-12T04:53:09.818Z",
-    "backTranslationDiff": 0.6875
+    "sourceHash": "a818d5abdaf61df8",
+    "chineseDescription": "开源 AI 短剧/漫剧创作 skill（技能）合集：涵盖剧本、角色资产、分镜 storyboard（故事板）、图片/视频提示词（prompt）、审查，适配 Claude Code 与 Codex。采用 MIT 许可证。",
+    "prompt": "请帮我安装 drama-skills 这个 skill（技能）。请从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载全部文件，并保存到 .claude/skills/drama-skills/ 目录下完成安装。安装完成后告诉我这个 skill 包含哪些功能。",
+    "translatedAt": "2026-09-14T05:20:08.036Z",
+    "backTranslationDiff": 0.8095238095238095
   },
   "eternityspring/reelbench-skills": {
     "sourceHash": "70ea79dd6a253f19",
@@ -8265,5 +8265,12 @@
     "prompt": "请帮我安装 arvancloud-agent-skill 这个技能。去 GitHub 仓库 https://github.com/erfnzdeh/arvancloud-agent-skill 把里面的文件下载下来，保存到 .claude/skills/arvancloud-agent-skill/ 目录下，完成安装。",
     "translatedAt": "2026-09-13T05:13:36.926Z",
     "backTranslationDiff": 0.76
+  },
+  "filtalgo/filtmall-shopping-skill": {
+    "sourceHash": "28901c479e933515",
+    "chineseDescription": "面向 Agent（智能体）的购物技能，主打极致性价比：提供可验证的同款商品比价证据，并覆盖下单结算（checkout）、订单管理、配送跟踪和售后服务。",
+    "prompt": "请帮我安装 Filtmall-Shopping-Skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/filtalgo/filtmall-shopping-skill 下载全部文件；2) 在项目根目录创建 .claude/skills/filtmall-shopping-skill/ 目录；3) 把下载的文件保存到该目录下（保留原有目录结构，如 SKILL.md 等）；4) 完成后告诉我安装结果和这个技能的用途。",
+    "translatedAt": "2026-09-14T05:20:11.761Z",
+    "backTranslationDiff": 1
   }
 }
