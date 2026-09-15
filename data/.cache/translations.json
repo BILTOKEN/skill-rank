@@ -8272,5 +8272,19 @@
     "prompt": "请帮我安装 Filtmall-Shopping-Skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/filtalgo/filtmall-shopping-skill 下载全部文件；2) 在项目根目录创建 .claude/skills/filtmall-shopping-skill/ 目录；3) 把下载的文件保存到该目录下（保留原有目录结构，如 SKILL.md 等）；4) 完成后告诉我安装结果和这个技能的用途。",
     "translatedAt": "2026-09-14T05:20:11.761Z",
     "backTranslationDiff": 1
+  },
+  "ark0n/codeman": {
+    "sourceHash": "c36c01ecefd1a676",
+    "chineseDescription": "Codeman 是一个自托管的 AI 编程代理任务控制中心（mission control）：让你 7×24 小时运行 Claude Code、OpenCode、Pi、Codex、Antigravity 和 Gemini CLI，从任何设备都能访问，并实时观看每一个子代理（subagent）的运行情况。\n\n【使用场景】当你想让 AI 编程代理长时间不间断地跑任务、又不想一直守在电脑前时，用 Codeman 把它们集中托管起来，随时用手机或别的设备查看进度和子代理动态。",
+    "prompt": "请帮我安装 Codeman 这个 Claude Code Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/ark0n/codeman 下载该 Skill 的全部文件（如果仓库根目录有 SKILL.md 或 skill 相关文件，一并获取；也可以直接 clone 整个仓库）。\n2. 在本地创建目录 .claude/skills/codeman/（如果不存在的话）。\n3. 把下载到的文件保存/复制到 .claude/skills/codeman/ 目录下，保持原有的目录结构。\n4. 安装完成后，告诉我这个 Skill 提供了哪些功能、怎么用，以及是否需要额外的依赖或配置。\n\n仓库地址：https://github.com/ark0n/codeman",
+    "translatedAt": "2026-09-15T05:11:35.990Z",
+    "backTranslationDiff": 0.8888888888888888
+  },
+  "pliablepixels/gap-trap": {
+    "sourceHash": "32f142140be29fd5",
+    "chineseDescription": "把 vibe coding（随性编程）变成高质量代码。在你的仓库里设置规则和关卡（gates），让 AI 写的代码保持正确，不用你逐行审查。",
+    "prompt": "请帮我安装 gap-trap 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/pliablepixels/gap-trap 下载所有文件；2) 在项目根目录创建 .claude/skills/gap-trap/ 目录；3) 把下载的文件保存到该目录下；4) 确认安装完成并告诉我这个 skill 能做什么。仓库地址：https://github.com/pliablepixels/gap-trap",
+    "translatedAt": "2026-09-15T05:11:39.453Z",
+    "backTranslationDiff": 0.9
   }
 }
