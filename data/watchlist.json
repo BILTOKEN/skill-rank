@@ -6802,6 +6802,29 @@
     "checkedAt": "2026-08-24T01:59:15.427Z"
   },
   {
+    "repo": "ssssssanjiu/skill_manager",
+    "name": "skill_manager",
+    "description": "A local web panel for managing Claude Code skills — paste a GitHub URL to install, symlink-hosted with zero copies, plus a daily feed of newly published skills. Zero dependencies.",
+    "tags": [
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "launchd",
+      "macos",
+      "nodejs",
+      "skill-manager",
+      "swiftbar",
+      "zero-dependency"
+    ],
+    "stars": 16,
+    "lastPush": "2026-09-09T07:52:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-16T04:54:31.192Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -17502,6 +17525,28 @@
     "checkedAt": "2026-08-12T02:47:01.053Z"
   },
   {
+    "repo": "karamveersidhu/personalizer",
+    "name": "personalizer",
+    "description": "Write and edit in your own voice. A portable Agent Skill with reusable voice profiles.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "personalization",
+      "写作",
+      "writing-assistant"
+    ],
+    "stars": 5,
+    "lastPush": "2026-09-14T21:02:29Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-16T04:54:31.192Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -24762,6 +24807,67 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-13T04:53:52.374Z"
+  },
+  {
+    "repo": "rodrigonask/claude-code-clone-website-skill",
+    "name": "claude-code-clone-website-skill",
+    "description": "Clone any website pixel-perfect with Claude Code. A Claude Code skill that reverse-engineers a live page through your own Chrome (Playwriter) and rebuilds it in React + Tailwind, with a ready-to-run /goal prompt.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "clone-website",
+      "landing-page",
+      "pixel-perfect",
+      "playwriter",
+      "react",
+      "tailwindcss",
+      "vite",
+      "website-cloner"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-08T15:01:28Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-16T04:54:31.192Z"
+  },
+  {
+    "repo": "dorelysm/naturalizacion-texto-es",
+    "name": "naturalizacion-texto-es",
+    "description": "Skill para Claude Code que naturaliza texto en español generado por IA: 11 técnicas lingüísticas y detección de marcas técnicas/tipográficas (watermarking, caracteres invisibles), orientadas a calidad editorial, no a evasión de detectores.",
+    "tags": [
+      "ai-detection",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "espanol",
+      "humanizacion",
+      "humanizador-de-ia",
+      "humanizador-de-texto",
+      "humanizar-texto-ia",
+      "humanize-ai",
+      "humanize-text",
+      "humanizer",
+      "ia",
+      "nlp",
+      "prompt-engineering",
+      "skill",
+      "spanish",
+      "spanish-nlp"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-15T13:15:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-16T04:54:31.192Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

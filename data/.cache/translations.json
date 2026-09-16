@@ -3850,11 +3850,11 @@
     "backTranslationDiff": 0.125
   },
   "agents365-ai/drawio-skill": {
-    "sourceHash": "2ed2b1a81ab94c30",
-    "chineseDescription": "这个 Agent Skill（智能体技能）能把自然语言、代码、Terraform/K8s 配置、SQL、OpenAPI、AsyncAPI 和 Protobuf 源文件，转成可编辑、可测试的 draw.io 架构图。支持增量同步（incremental sync）、多视图投影（multi-view projection）、漂移对比（drift diff）、CI 架构测试、白板去栅格化（whiteboard derasterize），还能导出成可交互的 HTML/PPTX/Mermaid 格式。",
-    "prompt": "请帮我安装 drawio-skill 这个 Claude Code 技能。步骤：1）从 GitHub 仓库 https://github.com/agents365-ai/drawio-skill 下载全部文件；2）在项目根目录创建 .claude/skills/drawio-skill/ 目录；3）把下载的文件保存到该目录下（保留原有的目录结构，比如 SKILL.md 等文件）；4）安装完成后告诉我这个技能能做什么、怎么用。",
-    "translatedAt": "2026-09-13T05:13:25.153Z",
-    "backTranslationDiff": 0.29032258064516125
+    "sourceHash": "4747ec6c717fcbd1",
+    "chineseDescription": "这个 Agent skill（智能体技能）能把自然语言、代码、Terraform/K8s 配置、SQL、OpenAPI、AsyncAPI、Protobuf 和 GraphQL 这些来源，自动转成可编辑、经过测试的 draw.io 架构图。支持增量同步（incremental sync）、多视图投影（multi-view projection）、漂移对比（drift diff）、CI 架构测试、白板去栅格化（whiteboard derasterize），还能导出交互式 HTML/PPTX/Mermaid 文件。",
+    "prompt": "请帮我安装 drawio-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/agents365-ai/drawio-skill 下载全部文件，保存到 .claude/skills/drawio-skill/ 目录下完成安装。安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-09-16T05:16:10.770Z",
+    "backTranslationDiff": 0.9375
   },
   "youmind-openlab/nano-banana-pro-prompts-recommend-skill": {
     "sourceHash": "f7bd37a403edbc53",
@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "8a78ad68faf6caed",
-    "chineseDescription": "Claude Skills 用于治理、风险与合规（GRC）：针对 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、CCPA/CPRA 等提供专家级合规指导。基准测试：使用技能时准确率 93%，不使用技能时 74%。每月更新。",
-    "prompt": "请从 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载 Claude-Skills-Governance-Risk-and-Compliance 技能文件，并保存到 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下，完成安装。安装后，我将能够提供 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、CCPA/CPRA 等合规框架的专家级指导。",
-    "translatedAt": "2026-08-31T06:05:33.531Z",
-    "backTranslationDiff": 0.20588235294117652
+    "sourceHash": "6e82327ad861ee41",
+    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级的合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案（EU AI Act）、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险框架、SWIFT、CCPA/CPRA 等。基准测试成绩：使用该 Skill 时 89%，不使用时为 57%。每月更新。",
+    "prompt": "帮我安装一个 Claude Code Skill：Claude-Skills-Governance-Risk-and-Compliance。请你去 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件，并保存到当前项目的 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下完成安装。如果目录不存在就创建它。安装完成后告诉我这个 Skill 能做什么、怎么用。",
+    "translatedAt": "2026-09-16T05:16:15.345Z",
+    "backTranslationDiff": 0.9705882352941176
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -7476,11 +7476,11 @@
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
-    "sourceHash": "f79c8584a4859e85",
-    "chineseDescription": "把 Claude 变成一个资深设计架构师（design architect）——支持 DTCG 设计令牌（design tokens）、50 个组件、WCAG 2.2 AA 到 AAA 无障碍标准、138 套设计系统（design systems）、任意框架（any-framework）的代码，还有 38 道客观检查关卡（objective gates），构建不通过就直接失败，而不是嘴上说成功。可以作为 Claude Code 插件（plugin）安装，也可以用 npx 安装。",
-    "prompt": "帮我安装 ux-ui-agent-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载所有文件，保存到 .claude/skills/ux-ui-agent-skills/ 目录下完成安装。如果目录不存在就先创建，安装完成后告诉我这个 Skill 提供了哪些能力。",
-    "translatedAt": "2026-09-14T05:19:55.350Z",
-    "backTranslationDiff": 0.8888888888888888
+    "sourceHash": "a6bb57be11c07878",
+    "chineseDescription": "把 Claude 变成一个资深设计架构师：支持 DTCG（Design Tokens Community Group）设计令牌、50 个组件、WCAG 2.2 AA-AAA 无障碍标准、138 套设计系统（design systems）、任意框架的代码生成，还有 43 道客观检查关卡（gates）——不达标就直接让构建失败，绝不糊弄过关。",
+    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在当前项目的 .claude/skills/ux-ui-agent-skills/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的所有文件放到这个目录里；4) 确认目录结构正确后告诉我安装完成。仓库地址是 https://github.com/plugin87/ux-ui-agent-skills",
+    "translatedAt": "2026-09-16T05:16:06.784Z",
+    "backTranslationDiff": 0.9545454545454546
   },
   "mworldorg/markdown-memory": {
     "sourceHash": "5f936ca1e57d1450",
