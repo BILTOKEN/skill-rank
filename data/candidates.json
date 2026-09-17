@@ -11875,6 +11875,55 @@
     "lastPush": "2026-09-07T22:58:19Z"
   },
   {
+    "repo": "arahim3/cachebeat",
+    "name": "cachebeat",
+    "description": "A tiny Claude Code skill that keeps your prompt cache warm during idle sessions, so your next message reads from cache instead of paying full price.",
+    "tags": [
+      "AI",
+      "anthropic",
+      "caching",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "cost-optimization",
+      "developer-tools",
+      "llm",
+      "llm-tools",
+      "productivity",
+      "prompt-caching",
+      "token-optimization"
+    ],
+    "stars": 33,
+    "lastPush": "2026-09-15T18:44:30Z"
+  },
+  {
+    "repo": "coupler-io/skills",
+    "name": "skills",
+    "description": "AI agent skills for marketing, sales, finance, ecommerce, PPC, and reporting analysis with live Coupler.io data.",
+    "tags": [
+      "agent-skills",
+      "ai-agent-skills",
+      "ai-skills",
+      "business-analytics",
+      "business-intelligence",
+      "claude-code",
+      "claude-skills",
+      "coupler-io",
+      "data-analysis",
+      "ecommerce-analytics",
+      "financial-analytics",
+      "marketing-analytics",
+      "mcp",
+      "model-context-protocol",
+      "ppc",
+      "sales-analytics"
+    ],
+    "stars": 33,
+    "lastPush": "2026-09-16T15:18:46Z"
+  },
+  {
     "repo": "notmyself/claude-win11-speckit-update-skill",
     "name": "claude-win11-speckit-update-skill",
     "description": "A Claude Code Skill that manages GitHub SpecKit updates.",
@@ -16700,6 +16749,27 @@
     ],
     "stars": 14,
     "lastPush": "2026-09-13T08:13:22Z"
+  },
+  {
+    "repo": "ap6pack/outrider-recon",
+    "name": "outrider-recon",
+    "description": "Claude-native, governed offensive-OSINT & external attack-surface platform for authorized red-team and bug-bounty. Multi-agent recon across web, identity, cloud, secrets & breach intel under deterministic scope/evidence/approval controls, with human-reviewed findings for hand-off to pen-testing. Not an exploitation framework.",
+    "tags": [
+      "attack-surface",
+      "bug-bounty",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "mcp-server",
+      "osint",
+      "pentesting",
+      "recon",
+      "reconnaissance",
+      "red-team",
+      "安全"
+    ],
+    "stars": 14,
+    "lastPush": "2026-09-12T16:52:39Z"
   },
   {
     "repo": "alexander-danilenko/cortex-ai-skills",
@@ -30081,6 +30151,31 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-15T13:15:47Z"
+  },
+  {
+    "repo": "cypher0n3/dotagents",
+    "name": "dotagents",
+    "description": "Opinionated, portable agent skills and instructions with installer script for Claude Code, Codex, Cursor, Gemini, and Grok. One directory (~/.agents), installed by symlink.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-skill",
+      "ai-skill-file",
+      "ai-skills",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex-skill",
+      "cursor",
+      "dotfiles",
+      "dotfiles-linux",
+      "dotfiles-macos",
+      "gemini-cli",
+      "grok-build",
+      "llm-tools"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-12T10:58:52Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

@@ -8050,11 +8050,11 @@
     "backTranslationDiff": 0.13793103448275867
   },
   "miaoqichuan/new-litigation-visualization": {
-    "sourceHash": "bb431c8770c8ad54",
-    "chineseDescription": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集：把凌乱的诉讼图重画成能进材料的图，或直接读案件材料画准一张时间轴。Claude Skill / DeepSeek Harness 通用。",
-    "prompt": "请帮我安装一个名为 new-litigation-visualization 的 Claude Code Skill。请从 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 下载所有文件，并保存到 .claude/skills/new-litigation-visualization/ 目录下，完成安装。",
-    "translatedAt": "2026-08-21T02:21:25.118Z",
-    "backTranslationDiff": 0.1428571428571429
+    "sourceHash": "8e2bc7d5e207346e",
+    "chineseDescription": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集：把凌乱的诉讼图重画成能进材料的图，直接读案件材料画准一张时间轴，并提供庭前三大法宝（大事记表、庭审对抗图、法律关系图）。Claude Skill / DeepSeek Harness 通用。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 new-litigation-visualization。\n\n请你自己去 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 下载这个 Skill 的所有文件，然后保存到本地的 .claude/skills/new-litigation-visualization/ 目录下，完成安装。\n\n具体步骤：\n1. 访问 https://github.com/miaoqichuan/new-litigation-visualization\n2. 下载仓库中的全部文件（包括 SKILL.md 等）\n3. 在本地创建目录 .claude/skills/new-litigation-visualization/\n4. 把下载的文件放到该目录下\n5. 确认安装完成后告诉我这个 Skill 怎么用\n\n注意：不要假设我已经装过这个 Skill，请完整地从 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 拉取并安装。",
+    "translatedAt": "2026-09-17T05:11:56.990Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "thrixel/build-world": {
     "sourceHash": "5e0b0c461b00dfee",
@@ -8286,5 +8286,19 @@
     "prompt": "请帮我安装 gap-trap 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/pliablepixels/gap-trap 下载所有文件；2) 在项目根目录创建 .claude/skills/gap-trap/ 目录；3) 把下载的文件保存到该目录下；4) 确认安装完成并告诉我这个 skill 能做什么。仓库地址：https://github.com/pliablepixels/gap-trap",
     "translatedAt": "2026-09-15T05:11:39.453Z",
     "backTranslationDiff": 0.9
+  },
+  "arahim3/cachebeat": {
+    "sourceHash": "068608839c74115e",
+    "chineseDescription": "一个轻量的 Claude Code skill（技能），能在会话空闲时保持你的 prompt cache（提示词缓存）处于活跃状态，这样你下次发消息时就能直接读取缓存，而不用按全价付费。【使用场景】适合长时间挂着 Claude Code 会话、时不时才发一条消息的用户，帮你省下重复计算提示词的开销。",
+    "prompt": "请帮我安装 cachebeat 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/arahim3/cachebeat 下载相关文件，并保存到 .claude/skills/cachebeat/ 目录下完成安装。安装完成后告诉我怎么使用它。",
+    "translatedAt": "2026-09-17T05:12:01.076Z",
+    "backTranslationDiff": 0.8095238095238095
+  },
+  "coupler-io/skills": {
+    "sourceHash": "f51707f56a60974b",
+    "chineseDescription": "这是一套给 AI agent（智能体）用的技能包，覆盖市场营销、销售、财务、电商、PPC（按点击付费广告）和报表分析等场景，并且能直接对接 Coupler.io 的实时数据。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 skills。请你自己去这个 GitHub 仓库下载：https://github.com/coupler-io/skills ，然后把下载下来的文件保存到 .claude/skills/skills/ 目录里，完成安装。装好后告诉我一声。",
+    "translatedAt": "2026-09-17T05:12:04.611Z",
+    "backTranslationDiff": 0.9230769230769231
   }
 }
