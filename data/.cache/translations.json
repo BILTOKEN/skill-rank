@@ -5425,11 +5425,11 @@
     "backTranslationDiff": 0.5
   },
   "dianel555/dskills": {
-    "sourceHash": "251df61c3e2dec5f",
-    "chineseDescription": "DSkills 是为 AI 编程助手（Claude Code、Codex、Gemini CLI）提供的 CLI 工具技能集。",
-    "prompt": "请从 https://github.com/dianel555/dskills 下载所有文件，并将它们保存到 .claude/skills/dskills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T07:26:58.390Z",
-    "backTranslationDiff": 0.11111111111111116
+    "sourceHash": "d9ddad46caafe0cb",
+    "chineseDescription": "DSkills 是一套给 AI 编程助手（Claude Code、Codex、Antigravity CLI）用的命令行工具（CLI tools）技能包。装上之后，这些 AI 助手就能调用各种命令行工具来干活，比如跑脚本、处理文件、执行系统命令之类的。",
+    "prompt": "帮我安装 DSkills 技能包。请从 GitHub 仓库 https://github.com/dianel555/dskills 下载所有文件，保存到 .claude/skills/dskills/ 目录下，完成安装。如果目录不存在就先创建。",
+    "translatedAt": "2026-09-18T05:08:51.638Z",
+    "backTranslationDiff": 1
   },
   "fareedkhan-dev/claude-code-staff-engineer": {
     "sourceHash": "68934561e1540240",
@@ -6181,11 +6181,11 @@
     "backTranslationDiff": 0.9375
   },
   "levnikolaevich/claude-code-skills": {
-    "sourceHash": "13a5880baea81352",
-    "chineseDescription": "适用于 Claude Code 和 Codex 的独立技能（Skill）集合，覆盖产品探索（product discovery）、架构设计（architecture）、规划（planning）、实现（implementation）、质量保障（quality assurance）、交付（delivery）和运维（operations）等环节。",
-    "prompt": "请帮我安装 claude-code-skills 这个技能包。请从 GitHub 仓库 https://github.com/levnikolaevich/claude-code-skills 下载所有文件，并保存到 .claude/skills/claude-code-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我具体安装了哪些技能。",
-    "translatedAt": "2026-09-13T05:13:32.926Z",
-    "backTranslationDiff": 0.8571428571428572
+    "sourceHash": "2c036cbda5a3ce38",
+    "chineseDescription": "帮你的 AI agent（智能体）真正把活干完：解决对的问题、让改动保持聚焦、并展示验证过的东西。适用于 Claude Code 和 Codex。",
+    "prompt": "请帮我安装一个 Claude Code Skill（技能），名称是 claude-code-skills。\n\n请执行以下步骤：\n1. 从 GitHub 仓库 https://github.com/levnikolaevich/claude-code-skills 下载该 Skill 的所有文件（如果仓库有子目录结构，请保持原有结构）。\n2. 在本地创建目录 .claude/skills/claude-code-skills/（如果不存在的话）。\n3. 把下载的文件保存到 .claude/skills/claude-code-skills/ 目录下。\n4. 确认安装完成，并告诉我这个 Skill 提供了哪些功能。\n\n仓库地址：https://github.com/levnikolaevich/claude-code-skills",
+    "translatedAt": "2026-09-18T05:08:47.653Z",
+    "backTranslationDiff": 0.8823529411764706
   },
   "vila-lab/figmirror": {
     "sourceHash": "5b86b3facf772ca6",
