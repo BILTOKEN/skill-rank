@@ -8300,5 +8300,12 @@
     "prompt": "帮我安装一个 Claude Code Skill，名字叫 skills。请你自己去这个 GitHub 仓库下载：https://github.com/coupler-io/skills ，然后把下载下来的文件保存到 .claude/skills/skills/ 目录里，完成安装。装好后告诉我一声。",
     "translatedAt": "2026-09-17T05:12:04.611Z",
     "backTranslationDiff": 0.9230769230769231
+  },
+  "tronghieu/agent-skills": {
+    "sourceHash": "a49f0bb6de5854b1",
+    "chineseDescription": "这是一套方法论驱动的 agent skills（智能体技能），专门用于知识型工作：战略规划、调研、批判性思维、数据分析、文档撰写、幻灯片制作。兼容 Claude Code、Codex、Cursor 以及任何符合 agentskills.io 标准的 agent。",
+    "prompt": "请帮我安装 agent-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/tronghieu/agent-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/agent-skills/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的所有文件放到该目录里；4) 完成后列出安装好的文件清单，确认安装成功。",
+    "translatedAt": "2026-09-19T04:57:26.988Z",
+    "backTranslationDiff": 0.9047619047619048
   }
 }

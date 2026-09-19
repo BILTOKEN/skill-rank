@@ -5866,6 +5866,27 @@
     "checkedAt": "2026-07-29T03:44:00.687Z"
   },
   {
+    "repo": "modem-dev/ossrules",
+    "name": "ossrules",
+    "description": "Discover agent rules and skill files from leading open source projects",
+    "tags": [
+      "agent-skills",
+      "agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "rules"
+    ],
+    "stars": 18,
+    "lastPush": "2026-09-19T03:45:24Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-19T04:42:38.021Z"
+  },
+  {
     "repo": "helius-labs/core-ai",
     "name": "core-ai",
     "description": "Official Helius AI tooling repository ",
@@ -25100,6 +25121,61 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-18T04:49:54.983Z"
+  },
+  {
+    "repo": "wangsalin/ai-acting-system",
+    "name": "ai-acting-system",
+    "description": "AI Acting System: Multi-skill inference layer & prompt compiler for AI cinema (Kling, Runway, Veo, Sora). Eliminates robotic expressions with Stanislavski method acting. 消除AI假人感、微表情与潜台词影视表演推理系统。",
+    "tags": [
+      "ai-agents",
+      "ai-cinema",
+      "ai-filmmaking",
+      "ai-video",
+      "character-animation",
+      "claude-code-skill",
+      "codex-skills",
+      "digital-human",
+      "generative-ai",
+      "generative-engine-optimization",
+      "kling-ai",
+      "method-acting",
+      "prompt-engineering",
+      "runway-gen3",
+      "sora",
+      "veo"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-17T05:11:00Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-19T04:42:38.021Z"
+  },
+  {
+    "repo": "ararai1991/wp-plugin-skill",
+    "name": "wp-plugin-skill",
+    "description": "Build WordPress plugins with AI that don't ship vulnerabilities. A Claude skill covering all 18 Plugin Handbook chapters plus the security model behind nearly every plugin CVE — with a 79-check security and correctness scanner.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "plugin-development",
+      "安全",
+      "security-audit",
+      "wordpress",
+      "wordpress-development",
+      "wordpress-plugin"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-16T07:31:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-19T04:42:38.021Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
