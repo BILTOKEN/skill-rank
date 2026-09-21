@@ -4781,11 +4781,11 @@
     "backTranslationDiff": 0.18181818181818177
   },
   "pivoshenko/kasetto": {
-    "sourceHash": "c1d37d4821424fc2",
-    "chineseDescription": "📼 一个用 Rust 编写的声明式 AI 代理环境管理器",
-    "prompt": "请从 https://github.com/pivoshenko/kasetto 下载 kasetto 项目文件，并将其保存到 .claude/skills/kasetto/ 目录中，完成安装。",
-    "translatedAt": "2026-05-30T11:03:15.108Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "fa395eda66e752ec",
+    "chineseDescription": "📼 声明式 AI agent（智能体）环境管理器，用 Rust 编写。【使用场景】当你需要以声明式的方式统一管理和配置 AI agent 的运行环境时使用，适合希望用 Rust 工具链来定义、复现和切换 agent 环境的开发者。",
+    "prompt": "请帮我安装 kasetto 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/pivoshenko/kasetto 下载所需的文件，并保存到 .claude/skills/kasetto/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我如何使用。",
+    "translatedAt": "2026-09-21T05:21:54.291Z",
+    "backTranslationDiff": 0.6666666666666667
   },
   "jamditis/claude-skills-journalism": {
     "sourceHash": "834def81ea705bf9",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.7272727272727273
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "c7e0ff4a52fca198",
-    "chineseDescription": "AAS Core 是一个本地、以 Agent 为先的控制平面（control plane），用于完整的技能目录发现（catalog discovery）、Agent 自主选择、技术栈验证（stack validation）和规划，背后有 2,115+ 个 Agent 技能（agentic skills）支持。包含 CLI、本地 MCP、目录、插件和工作台（Workbench）。【使用场景】当你想快速浏览和选用大量现成的 Agent 技能，并让 Agent 自己决定用哪个技能来完成任务时。",
-    "prompt": "请从 https://github.com/sickn33/antigravity-awesome-skills 下载整个仓库内容，并将其保存到 .claude/skills/antigravity-awesome-skills/ 目录下，完成安装。安装完成后，简要说明该技能的功能和用法。",
-    "translatedAt": "2026-09-09T05:11:21.707Z",
-    "backTranslationDiff": 0.08333333333333337
+    "sourceHash": "46856a5a4550034e",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面，用于完整的目录发现、由 agent 自主完成的选择、技术栈验证和规划，背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP（模型上下文协议）、目录、插件以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
+    "translatedAt": "2026-09-21T05:21:39.943Z",
+    "backTranslationDiff": 0.875
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -5782,11 +5782,11 @@
     "backTranslationDiff": 0.30000000000000004
   },
   "ar9av/obsidian-wiki": {
-    "sourceHash": "ec412fe5baa4106b",
-    "chineseDescription": "一个让 AI 代理通过 Obsidian wiki 构建和维护数字大脑的框架",
-    "prompt": "请从 https://github.com/ar9av/obsidian-wiki 下载 obsidian-wiki skill 文件，保存到 .claude/skills/obsidian-wiki/ 目录完成安装。",
-    "translatedAt": "2026-07-29T04:00:56.051Z",
-    "backTranslationDiff": 0.11111111111111116
+    "sourceHash": "cd046409d2f42b4c",
+    "chineseDescription": "让 AI agent（智能体）通过 Obsidian wiki 搭建并维护一个「数字大脑」的框架，本质上是给 agent 用的记忆系统（Memory System）。简单说，就是让 AI 把学到的东西存进 Obsidian 笔记里，下次还能翻出来用。",
+    "prompt": "请帮我安装 obsidian-wiki 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ar9av/obsidian-wiki 下载全部文件；2) 在项目里创建目录 .claude/skills/obsidian-wiki/；3) 把下载的文件放进该目录；4) 确认 SKILL.md 等文件已就位，完成后告诉我怎么用。",
+    "translatedAt": "2026-09-21T05:21:50.643Z",
+    "backTranslationDiff": 0.8181818181818181
   },
   "brycewang-stanford/auto-empirical-research-skills": {
     "sourceHash": "9d3e07639f292148",
@@ -5859,11 +5859,11 @@
     "backTranslationDiff": 0
   },
   "taishi-i/awesome-chatgpt-repositories": {
-    "sourceHash": "0ad19e0d3d949168",
-    "chineseDescription": "一个精选的 ChatGPT、OpenAI API 和 Codex 相关开源 GitHub 仓库列表。可以通过 Claude Code 技能搜索。",
-    "prompt": "请从 https://github.com/taishi-i/awesome-chatgpt-repositories 下载该仓库的内容，并将其保存到 .claude/skills/awesome-chatgpt-repositories/ 目录下，完成安装。",
-    "translatedAt": "2026-06-18T12:52:16.000Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "39f765e165daa1a3",
+    "chineseDescription": "这是一个精选的开源 GitHub 仓库列表，收录了与 ChatGPT、OpenAI API 和 Codex 相关的项目。可以通过 Claude Code 和 Codex 的 skill（技能）进行搜索。",
+    "prompt": "请帮我安装 awesome-ChatGPT-repositories 这个 skill。具体步骤：1. 从 GitHub 仓库 https://github.com/taishi-i/awesome-chatgpt-repositories 下载所有文件；2. 在项目根目录创建 .claude/skills/awesome-chatgpt-repositories/ 目录；3. 把下载的文件保存到该目录下。安装完成后告诉我这个 skill 能做什么。",
+    "translatedAt": "2026-09-21T05:22:01.915Z",
+    "backTranslationDiff": 0.75
   },
   "op7418/guizang-social-card-skill": {
     "sourceHash": "a564ab040f4c03d3",
@@ -6580,11 +6580,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "samuraigpt/awesome-openclaw": {
-    "sourceHash": "3809a1b60bf9b362",
-    "chineseDescription": "这个技能收录了 660+ 个由 muapi 托管的生成式媒体模型，以及社区提交的第三方 API 工具（涵盖 SEO、数据增强、社交、网页抓取等）。每个条目对应一个 YAML 文件，可按功能分类浏览。",
-    "prompt": "请从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载 awesome-agent-apis 技能文件，并将其保存到 .claude/skills/awesome-openclaw/ 目录下，完成安装。安装后，该技能将提供 660+ 个生成式媒体模型和第三方 API 工具的索引，每个条目以 YAML 文件形式组织，可按功能浏览。",
-    "translatedAt": "2026-09-04T05:01:24.302Z",
-    "backTranslationDiff": 0.5882352941176471
+    "sourceHash": "93cc49797faa4a3e",
+    "chineseDescription": "可直接复制粘贴的 Muse agent（智能体）任务简报，覆盖实用工作流（workflow）、已连接应用、审批流程（approval）以及有据可查的自动化（automation）。",
+    "prompt": "请帮我安装 awesome-meta-muse-agent 这个 Skill。步骤：1）从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载全部文件；2）在当前项目的 .claude/skills/awesome-openclaw/ 目录下创建文件夹（如果不存在就新建）；3）把下载的文件保存到该目录中；4）确认安装完成后告诉我这个 Skill 能做什么。仓库地址是 https://github.com/samuraigpt/awesome-openclaw，请直接去下载，不要问我是否已经装过。",
+    "translatedAt": "2026-09-21T05:22:05.326Z",
+    "backTranslationDiff": 0.8181818181818181
   },
   "helloianneo/ian-handdrawn-ppt": {
     "sourceHash": "f44596f3e5a1a66d",
@@ -6790,11 +6790,11 @@
     "backTranslationDiff": 0.5
   },
   "huytieu/cog-second-brain": {
-    "sourceHash": "5b9d894b86f41fd5",
-    "chineseDescription": "自进化的第二大脑，包含33个AI技能、10个智能体以及人员CRM。闭环控制框架：采用V模型验证生命周期，工人永远不会给自己的作业打分。此外还配备了针对营销和产品UI的配对反垃圾设计技能。适用于Claude Code、Cursor、Kiro、Gemini CLI、Codex。",
-    "prompt": "请从 https://github.com/huytieu/cog-second-brain 下载文件，并保存到 .claude/skills/cog-second-brain/ 目录完成安装。",
-    "translatedAt": "2026-07-29T04:01:00.655Z",
-    "backTranslationDiff": 0.303030303030303
+    "sourceHash": "c5f0343cb773d4f7",
+    "chineseDescription": "自进化的第二大脑（second brain），包含 35 个 AI 技能（skills）、10 个智能体（agents）和一套人脉 CRM。采用闭环执行框架（closed-loop harness）：基于 V 模型（V-model）的验证生命周期，干活的人永远不能给自己的作业打分。另外还配了一对反垃圾（anti-slop）设计技能，分别用于营销和产品 UI。支持 Claude Code、Cursor、Kiro、Gemini CLI、Codex。",
+    "prompt": "请帮我安装 COG-second-brain 这个 Claude Code 技能包。请你自己去 GitHub 仓库 https://github.com/huytieu/cog-second-brain 下载所有文件，并保存到 .claude/skills/cog-second-brain/ 目录下完成安装。安装完成后，请告诉我这个技能包包含哪些技能（skills）和智能体（agents），以及怎么使用。",
+    "translatedAt": "2026-09-21T05:21:58.566Z",
+    "backTranslationDiff": 0.9696969696969697
   },
   "xiaohuailabs/xiaohu-wechat-format": {
     "sourceHash": "b0d1ece0bbad69dd",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "c7e0ff4a52fca198",
-    "chineseDescription": "AAS Core 是本地优先的 agent 控制平面，用于完整目录发现（catalog discovery）、agent 自主选择、堆栈验证（stack validation）和规划，内置 2,115+ 个 agentic skills。包含 CLI、本地 MCP、目录、插件和 Workbench。",
-    "prompt": "请从 https://github.com/sickn33/agentic-awesome-skills 下载该 Skill 仓库，并将所有文件保存到 .claude/skills/agentic-awesome-skills/ 目录下，完成安装。安装后请验证目录结构是否正确，并告知我该 Skill 的主要功能和使用方式。",
-    "translatedAt": "2026-09-09T05:11:17.732Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "46856a5a4550034e",
+    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）优先的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载相关文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我如何使用。",
+    "translatedAt": "2026-09-21T05:21:35.843Z",
+    "backTranslationDiff": 0.125
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8001,11 +8001,11 @@
     "backTranslationDiff": 1
   },
   "reticlehq/reticle": {
-    "sourceHash": "ef910fea784a8880",
-    "chineseDescription": "AI 智能体（agent）能生成代码，但依然难以理解自己构建的东西。Reticle 为它们提供 Web 和桌面应用（desktop application）的运行时感知（runtime perception）能力。【使用场景】当 AI 需要实时理解或调试自己生成的 Web/桌面应用界面时使用。",
-    "prompt": "请从 GitHub 仓库 https://github.com/reticlehq/reticle 下载 reticle skill 文件，并将其保存到 .claude/skills/reticle/ 目录中，完成安装。安装后，该 skill 将赋予 AI 对 Web 和桌面应用的运行时感知能力，帮助 AI 理解自己构建的应用界面。",
-    "translatedAt": "2026-08-23T02:22:34.472Z",
-    "backTranslationDiff": 0.0625
+    "sourceHash": "e7ec29258b768855",
+    "chineseDescription": "AI agent（智能体）能生成代码，但依然很难理解自己到底构建出了什么。Reticle 把 Jev 风格的机器原生运行时感知（machine-native runtime perception）带到了 Web 和桌面应用上。\n\n【使用场景】当你用 AI 写完前端或桌面应用，却想让它真正\"看到\"运行时的界面状态、交互行为和实际渲染结果时使用。",
+    "prompt": "请帮我安装 reticle 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/reticlehq/reticle 下载该 Skill 的全部文件；2) 在项目根目录创建 .claude/skills/reticle/ 目录；3) 把下载的文件保存到该目录下（保留原有的目录结构，比如 SKILL.md 等文件）；4) 完成后告诉我安装了哪些文件，以及这个 Skill 是做什么用的。如果 .claude/skills/ 目录不存在，请先创建。仓库地址：https://github.com/reticlehq/reticle",
+    "translatedAt": "2026-09-21T05:21:43.922Z",
+    "backTranslationDiff": 0.11764705882352944
   },
   "desko77/claude-code-skills-1c": {
     "sourceHash": "5db5a7bd7e80f442",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "52fdfe5694ce08f5",
-    "chineseDescription": "pstack-claude 是 Poteto 的 pstack 在 Claude Code、Codex、OpenCode、Gemini 和 Prime Agent 上的版本。将 Cursor 的严格 Agent 工作流（primitives）移植到其他 Agent 上。",
-    "prompt": "请从 https://github.com/michael-denyer/pstack-claude 下载 pstack-claude Skill 文件，并将其保存到 .claude/skills/pstack-claude/ 目录中，完成安装。",
-    "translatedAt": "2026-09-09T05:11:39.199Z",
-    "backTranslationDiff": 0.7777777777777778
+    "sourceHash": "5cf6597954f51be6",
+    "chineseDescription": "这是 Poteto 的 pstack 在 Claude Code、Codex、OpenCode、Gemini 和 Prime Agent 上的版本。把 Cursor 的原始工作流原语（primitives）翻译适配到其他 agent 框架（harness）上，提供一套严谨的 agent 工作流。",
+    "prompt": "请帮我安装 pstack-claude 这个 Skill。\n\n步骤：\n1. 访问 GitHub 仓库：https://github.com/michael-denyer/pstack-claude\n2. 下载仓库中的全部文件\n3. 保存到本地目录：.claude/skills/pstack-claude/\n4. 完成后告诉我安装成功，并简单说明这个 Skill 是做什么的\n\n注意：不要假设我已经装过任何东西，请直接从 https://github.com/michael-denyer/pstack-claude 拉取文件。",
+    "translatedAt": "2026-09-21T05:21:47.271Z",
+    "backTranslationDiff": 0.4444444444444444
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "0f2129787ad3a030",
@@ -8307,5 +8307,19 @@
     "prompt": "请帮我安装 agent-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/tronghieu/agent-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/agent-skills/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的所有文件放到该目录里；4) 完成后列出安装好的文件清单，确认安装成功。",
     "translatedAt": "2026-09-19T04:57:26.988Z",
     "backTranslationDiff": 0.9047619047619048
+  },
+  "activeing123/mcptoon": {
+    "sourceHash": "171cb6e073424c71",
+    "chineseDescription": "MCP 工具 schema（模式定义）+ agent skills（智能体技能）：71,929 个 token（词元）压缩到 581 个（实测减少 99.2%）。mcptoon 能把它们同步到每个 agent。一个零依赖的 CLI（命令行工具），不用手写配置。",
+    "prompt": "请帮我安装 mcptoon 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/activeing123/mcptoon 下载所需文件，并保存到 .claude/skills/mcptoon/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-09-21T05:22:09.306Z",
+    "backTranslationDiff": 0.8235294117647058
+  },
+  "heyixuan2/bambu-studio-ai": {
+    "sourceHash": "f1f3ffac76786199",
+    "chineseDescription": "Bambu Lab AI（Bambu Studio AI）：面向拓竹（Bambu Lab）3D 打印的 agent skill（智能体技能）。它能在 MakerWorld 和 Printables 上找模型，用 CAD 生成或设计模型，检查可打印性（printability），把模型交给 Bambu Studio，并读取打印机和 AMS（自动供料系统）状态。适用于 Claude Code、Codex、Cursor、Gemini CLI 以及任何支持 SKILL.md 的 agent。曾入选「我的拓竹 Skill 大赏」。",
+    "prompt": "请帮我安装 bambu-studio-ai 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/heyixuan2/bambu-studio-ai 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/bambu-studio-ai/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的文件全部放到该目录里，确保 SKILL.md 位于 .claude/skills/bambu-studio-ai/SKILL.md；4) 安装完成后告诉我这个 skill 能做什么、怎么触发使用。",
+    "translatedAt": "2026-09-21T05:22:13.470Z",
+    "backTranslationDiff": 0.7741935483870968
   }
 }

@@ -6666,6 +6666,35 @@
     "lastPush": "2026-04-20T10:14:43Z"
   },
   {
+    "repo": "activeing123/mcptoon",
+    "name": "mcptoon",
+    "description": "MCP tool schemas + agent skills: 71,929 tokens -> 581 (-99.2%, measured). mcptoon syncs them to every agent. A zero-dependency CLI, no hand-written config.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-desktop",
+      "claude-skills",
+      "cli",
+      "codex",
+      "context-compression",
+      "cursor",
+      "gemini-cli-extension",
+      "llm",
+      "mcp",
+      "mcp-client",
+      "mcp-server",
+      "model-context-protocol",
+      "python",
+      "skill-management",
+      "token-optimization"
+    ],
+    "stars": 202,
+    "lastPush": "2026-09-20T03:06:16Z"
+  },
+  {
     "repo": "technillogue/ptx-isa-markdown",
     "name": "ptx-isa-markdown",
     "description": "PTX ISA 9.1 documentation converted to searchable markdown. Includes Claude Code skill for CUDA development.",
@@ -8094,6 +8123,35 @@
     ],
     "stars": 100,
     "lastPush": "2026-05-23T02:32:44Z"
+  },
+  {
+    "repo": "heyixuan2/bambu-studio-ai",
+    "name": "bambu-studio-ai",
+    "description": "Bambu Lab AI (Bambu Studio AI): agent skill for 3D printing on Bambu Lab. Finds models on MakerWorld & Printables, generates or designs them in CAD, checks printability, hands them to Bambu Studio and reads printer/AMS status. For Claude Code, Codex, Cursor, Gemini CLI and any SKILL.md agent. Featured in 我的拓竹 Skill 大赏.",
+    "tags": [
+      "3d-models",
+      "3d-printing",
+      "3mf",
+      "agent-skills",
+      "ai-agents",
+      "bambu-lab",
+      "bambu-lab-ai",
+      "bambu-studio",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "image-to-3d",
+      "makerworld",
+      "parametric-cad",
+      "printables",
+      "skill-md",
+      "stl",
+      "text-to-3d"
+    ],
+    "stars": 100,
+    "lastPush": "2026-09-19T16:39:44Z"
   },
   {
     "repo": "altimateai/data-engineering-skills",
@@ -14915,6 +14973,27 @@
     "lastPush": "2026-09-19T03:45:24Z"
   },
   {
+    "repo": "dlazy-ai/ecommerce-skills",
+    "name": "ecommerce-skills",
+    "description": "面向电商视觉生产的 Agent 技能库：26 个可组合的 skill.md，覆盖平铺图 → 模特上身 → 裂变套图 → 详情页 → 主图视频 → 投前质检 → 平台合规校验。不锁后端，dLazy / OpenAI / Gemini / fal / Replicate / 火山方舟自带 key 即可，不用摄影棚、不约模特。",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-image-generation",
+      "aigc",
+      "claude-skills",
+      "dlazy",
+      "dlazy-cli",
+      "ecommerce",
+      "image-editing",
+      "product-photography",
+      "prompt-engineering",
+      "virtual-try-on"
+    ],
+    "stars": 18,
+    "lastPush": "2026-09-21T02:35:42Z"
+  },
+  {
     "repo": "helius-labs/core-ai",
     "name": "core-ai",
     "description": "Official Helius AI tooling repository ",
@@ -15248,6 +15327,25 @@
     ],
     "stars": 17,
     "lastPush": "2026-08-19T15:57:33Z"
+  },
+  {
+    "repo": "leonardleroy/i-dont-believe-you",
+    "name": "i-dont-believe-you",
+    "description": "A skill to stop your coding agent from telling you it works when the diff says otherwise.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agent",
+      "developer-tools",
+      "llm",
+      "测试"
+    ],
+    "stars": 17,
+    "lastPush": "2026-09-19T10:21:43Z"
   },
   {
     "repo": "ethos-link/rails-conventions",
@@ -16226,6 +16324,30 @@
     ],
     "stars": 15,
     "lastPush": "2026-09-08T01:28:22Z"
+  },
+  {
+    "repo": "cabbage2000-lab/data-analysis-skills",
+    "name": "data-analysis-skills",
+    "description": "把数据文件（CSV/Excel/JSON/TSV）变成会讲故事的分析报告的 skill（支持 Claude Code / Codex / WorkBuddy 三家编程智能体）：先跟你确认行业与报告受众，再清洗分析，产出单文件 HTML 交互报告——结论先行的六段式、每张图配解读、数据处理过程可追溯；不杜撰行业基准、相关不当因果、小样本不硬下结论",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "business-intelligence",
+      "chinese",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "codex",
+      "data-analysis",
+      "data-visualization",
+      "echarts",
+      "html-report",
+      "pandas",
+      "reporting",
+      "workbuddy"
+    ],
+    "stars": 15,
+    "lastPush": "2026-09-03T02:06:22Z"
   },
   {
     "repo": "adelaidasofia/ai-brain-starter",
@@ -27092,6 +27214,35 @@
     "lastPush": "2026-09-02T14:18:02Z"
   },
   {
+    "repo": "armitanemati/liquid-glass-claude-skill",
+    "name": "liquid-glass-claude-skill",
+    "description": "Claude Skill (SKILL.md) for Liquid Glass and glassmorphism UI design: Apple-style layering, material tiers, accessible contrast, and fallbacks for web, SwiftUI, and mobile.",
+    "tags": [
+      "accessibility",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "claude-skills-creator",
+      "css",
+      "design-system",
+      "design-systems",
+      "design-thinking",
+      "前端",
+      "glassmorphism",
+      "glassmorphism-ui",
+      "liquid-glass",
+      "skill-md",
+      "swiftui",
+      "ui-design",
+      "ux-design",
+      "wcag",
+      "web-design"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-17T16:25:57Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -30361,6 +30512,73 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-16T07:31:47Z"
+  },
+  {
+    "repo": "itqianchen/java-springboot-standards-skill",
+    "name": "java-springboot-standards-skill",
+    "description": "一套面向 Java Spring Boot 的跨平台通用 Agent 开发规范 Skill，遵循开放的 Agent Skills 标准（SKILL.md），可被 Claude Code、Codex、Cursor、Cline 等主流 Agent 直接加载使用。",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "codex-skill",
+      "codex-skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-20T09:05:10Z"
+  },
+  {
+    "repo": "cp-here/docx-formatter-skill",
+    "name": "docx-formatter-skill",
+    "description": "Word 排版 / docx 排版 / 中文文档格式化 skill。将 Markdown 或纯文本排版为专业中文 Word (.docx) 文档，支持 OMML 数学公式、表格框图、目录与引用上标。Chinese Word (.docx) typesetting skill built with python-docx.",
+    "tags": [
+      "agent-skill",
+      "chinese",
+      "chinese-typesetting",
+      "claude-code-skill",
+      "docx",
+      "docx-generator",
+      "dsh",
+      "dsh-skill",
+      "markdown",
+      "omml",
+      "python",
+      "typesetting",
+      "word",
+      "word-formatting"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-21T03:32:59Z"
+  },
+  {
+    "repo": "dmitrax/second-brain-setup",
+    "name": "second-brain-setup",
+    "description": "Personal knowledge management system for Claude Code. Obsidian vault as external memory that grows with every session. 5 slash commands, AI-First notes, Obsidian graph. Based on Karpathy's LLM Knowledge Bases.",
+    "tags": [
+      "ai-agents",
+      "ai-second-brain",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "knowledge-base",
+      "knowledge-management",
+      "llm",
+      "long-term-memory",
+      "markdown",
+      "note-taking",
+      "obsidian",
+      "obsidian-vault",
+      "persistent-memory",
+      "personal-knowledge-management",
+      "pkm",
+      "second-brain",
+      "slash-commands"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-15T10:59:52Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
