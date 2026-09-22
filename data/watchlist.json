@@ -13480,6 +13480,37 @@
     "checkedAt": "2026-08-15T01:51:52.545Z"
   },
   {
+    "repo": "onemoh/html-explainer",
+    "name": "html-explainer",
+    "description": "把一个主题做成有配音、字幕、封面的讲解分析类视频 —— 全本地、用 HTML 写画面，稳定音画同步。 面向 AI 编程智能体的确定性 HTML → MP4 渲染流水线。",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "explainer-video",
+      "explainer-videos",
+      "html-to-video",
+      "text-to-speech",
+      "tts",
+      "video-generation",
+      "workbuddy",
+      "workbuddy-skill",
+      "workbuddy-skills"
+    ],
+    "stars": 9,
+    "lastPush": "2026-09-21T06:53:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-22T05:04:22.724Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -21220,6 +21251,35 @@
     "checkedAt": "2026-09-21T05:03:15.352Z"
   },
   {
+    "repo": "eching1208-code/echi-storyboard-director",
+    "name": "echi-storyboard-director",
+    "description": "Professional AI film storyboard director for text-to-video generators",
+    "tags": [
+      "ai-video",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "gpt",
+      "gpt-5",
+      "prompt-engineering",
+      "seedance",
+      "seedance-2",
+      "seedance-2-0",
+      "seedance-2-5",
+      "seedance2",
+      "storyboard"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-21T17:07:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-22T05:04:22.724Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -25371,6 +25431,74 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-21T05:03:15.352Z"
+  },
+  {
+    "repo": "22rahulrai/simple-explainer",
+    "name": "simple-explainer",
+    "description": "Claude Code skill for plain-language explanations of concepts, code, errors, and architecture - ends where you can act. Installs via /plugin or a folder copy.",
+    "tags": [
+      "ai-tools",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-08-28T10:59:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-22T05:04:22.724Z"
+  },
+  {
+    "repo": "davekruse/phaser",
+    "name": "phaser",
+    "description": "Agent engineering harness that joins automation and human-in-the-loop for well crafted software.",
+    "tags": [
+      "AI",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-16T20:10:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-22T05:04:22.724Z"
+  },
+  {
+    "repo": "hamsterpark/report-annotator",
+    "name": "report-annotator",
+    "description": "Claude Code skill that annotates Markdown reports with plain-language explanations after every paragraph and table, verifies nothing was lost, and bundles them into one self-contained HTML digest.",
+    "tags": [
+      "annotation",
+      "claude-code",
+      "claude-code-skill",
+      "documentation",
+      "html",
+      "llm-agents",
+      "markdown",
+      "python",
+      "research-reports",
+      "technical-writing"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-10T05:45:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-22T05:04:22.724Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
