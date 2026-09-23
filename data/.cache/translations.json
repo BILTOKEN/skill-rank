@@ -4802,10 +4802,10 @@
     "backTranslationDiff": 0.17647058823529416
   },
   "borghei/claude-skills": {
-    "sourceHash": "709216143827d12d",
-    "chineseDescription": "368个AI技能、76个专家代理和859个stdlib Python工具，适用于工程、产品管理、市场营销、高管层、合规、业务运营和研究等团队。可安装在Claude Code、Cursor、Codex、Gemini、Copilot以及其他6个AI助手上。",
-    "prompt": "请从 https://github.com/borghei/claude-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-07-22T04:07:43.948Z",
+    "sourceHash": "ef6eb78815bfc49b",
+    "chineseDescription": "这个 Skill 集合包含 372 个 AI 技能（skills）、76 个专家级智能体（agents），以及 867 个基于 Python 标准库（stdlib）的工具，覆盖各类团队场景：工程、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营和研究。支持在 Claude Code、Cursor、Codex、Gemini、Copilot 以及其他 6 种 AI 助手上安装使用。",
+    "prompt": "请帮我安装 Claude-Skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/borghei/claude-skills 下载所有文件；2) 在当前项目的 .claude/skills/claude-skills/ 目录下创建文件夹（如果不存在的话）；3) 把下载的文件保存到该目录中；4) 确认安装完成后告诉我这个技能包包含哪些内容。",
+    "translatedAt": "2026-09-23T05:08:09.906Z",
     "backTranslationDiff": 0.25
   },
   "jnmetacode/ai-shortfilm-prompts": {
@@ -6153,11 +6153,11 @@
     "backTranslationDiff": 0.3571428571428571
   },
   "skilld-dev/skilld": {
-    "sourceHash": "99ce615d1d1ac326",
-    "chineseDescription": "由人类精选的 agent 技能（skills）。通过一个命令行（CLI）即可搜索、运行、安装并保持它们最新。",
-    "prompt": "请从 https://github.com/skilld-dev/skilld 下载 skilld 技能，并将其安装到 .claude/skills/skilld/ 目录。安装完成后，请确认 skilld 已就绪，并简要说明其用途。",
-    "translatedAt": "2026-09-04T05:01:31.606Z",
-    "backTranslationDiff": 0.9166666666666666
+    "sourceHash": "dbfd2bdeee329b77",
+    "chineseDescription": "开源的、注重隐私保护的 skills.sh 替代方案，适合人类和 AI agent（智能体）使用。",
+    "prompt": "请帮我安装 skilld 这个 Claude Code Skill。步骤：1) 访问 GitHub 仓库 https://github.com/skilld-dev/skilld 下载所需文件；2) 在项目根目录创建 .claude/skills/skilld/ 目录；3) 把下载的文件保存到该目录下完成安装。如果目录不存在请自动创建，安装完成后告诉我怎么使用。",
+    "translatedAt": "2026-09-23T05:08:13.400Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "yunshu0909/yunshu_skillshub": {
     "sourceHash": "8bc7a93fe0ccd5aa",
