@@ -2912,11 +2912,11 @@
     "backTranslationDiff": 0.09999999999999998
   },
   "agricidaniel/claude-seo": {
-    "sourceHash": "f6adc69c6bdeab68",
-    "chineseDescription": "Claude Code 的通用 SEO 技能。包含 25 个子技能 + 18 个子代理，覆盖技术 SEO、E-E-A-T（经验、专业、权威、信任）、Schema（结构化数据）、GEO/AEO（生成式引擎优化/答案引擎优化）、外链、本地 SEO、地图情报、语义聚类、电商 SEO、国际化 SEO、Google API 以及 PDF/Excel 报告。可选扩展：DataForSEO、Firecrawl 和 Banana。【使用场景】适用于需要全面 SEO 分析的 Claude Code 用户，可一键安装并调用多种 SEO 子技能。",
-    "prompt": "请从 https://github.com/agricidaniel/claude-seo 下载该技能的所有文件，并保存到 .claude/skills/claude-seo/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T12:53:44.366Z",
-    "backTranslationDiff": 0.3448275862068966
+    "sourceHash": "f574215e870eef56",
+    "chineseDescription": "Claude Code 的通用 SEO 技能（Skill）。包含 26 个子技能（sub-skills）+ 19 个子代理（sub-agents），覆盖技术 SEO、E-E-A-T、结构化数据（schema）、GEO/AEO、代理就绪（agent readiness，包括 Lighthouse Agentic Browsing、WebMCP、llms.txt）、外链（backlinks）、本地 SEO、电商 SEO、国际化 SEO、Google API，以及 PDF/Excel 报告。另有 9 个可选扩展（extensions），包括 DataForSEO、Firecrawl、Ahrefs 和 Matomo。",
+    "prompt": "请帮我安装 claude-seo 这个 Claude Code 技能（Skill）。请从 GitHub 仓库 https://github.com/agricidaniel/claude-seo 下载全部文件，并保存到 .claude/skills/claude-seo/ 目录下完成安装。安装完成后，请告诉我这个技能包含哪些子技能（sub-skills）和子代理（sub-agents），以及如何使用它。",
+    "translatedAt": "2026-09-24T05:19:18.560Z",
+    "backTranslationDiff": 0.9117647058823529
   },
   "pleaseprompto/notebooklm-skill": {
     "sourceHash": "b69c74b91c1064de",
@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "1ffb04bb97ceba64",
-    "chineseDescription": "pm-claude-skills 是一个包含1098个专业 Agent 技能（Skills）的集合，适用于 Claude、ChatGPT、Gemini、Cursor 和 Codex。技能覆盖范围从产品需求文档（PRD）和事后复盘（postmortems），到申请残疾福利、准备应急包（go-bag）、适应新国家生活等。全部为纯 Markdown 格式，MIT 许可，收录于 Anthropic 官方插件目录。可免费在浏览器中使用，或通过 'npx pm-claude-skills add' 命令安装。",
-    "prompt": "请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载全部技能文件，并保存到 .claude/skills/pm-claude-skills/ 目录下，完成安装。安装后请确认技能列表可用。",
-    "translatedAt": "2026-08-12T03:11:20.230Z",
-    "backTranslationDiff": 0.5161290322580645
+    "sourceHash": "21a3bf4d5bf631e3",
+    "chineseDescription": "为 Claude、ChatGPT、Gemini、Cursor 和 Codex 提供 1166 个专业 Agent Skills（智能体技能）——涵盖 PRD（产品需求文档）、复盘报告（postmortem）、租房合同、医疗账单、裁员、应急包（go-bag）、移居新国家等场景。纯 Markdown 格式，MIT 许可证，已收录在 Anthropic 的插件目录中。另外还有一层带类型的决策层（decision layer）：该用哪个技能、是否安全、该发布还是该跳过。可在浏览器中免费使用，或通过 npx pm-claude-skills add 安装。",
+    "prompt": "请帮我安装 pm-claude-skills 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有文件，并保存到 .claude/skills/pm-claude-skills/ 目录下完成安装。安装完成后，请告诉我安装了什么内容以及如何使用。",
+    "translatedAt": "2026-09-24T05:19:41.469Z",
+    "backTranslationDiff": 0.8611111111111112
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -4473,11 +4473,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "geekjourneyx/md2wechat-skill": {
-    "sourceHash": "c2955e276fcb6d27",
-    "chineseDescription": "Markdown 转微信 CLI（命令行工具） | 一键排版发布到微信公众号：支持 40+ 排版样式和专业主题、AI 配图、批量发布、多账号管理、多平台发布",
-    "prompt": "帮我安装 md2wechat-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/geekjourneyx/md2wechat-skill 下载所有文件，保存到 .claude/skills/md2wechat-skill/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么、怎么用。",
-    "translatedAt": "2026-09-13T05:13:29.030Z",
-    "backTranslationDiff": 0.6666666666666667
+    "sourceHash": "0de0031b25a3454c",
+    "chineseDescription": "面向 AI Agent 的微信公众号创作与发布 CLI（命令行工具）：支持 Markdown 排版、AI 配图、预览与草稿创建；还能通过浏览器 Agent 保存知乎、CSDN、头条的未发布草稿。",
+    "prompt": "请帮我安装 md2wechat-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/geekjourneyx/md2wechat-skill 下载该 Skill 的所有文件，并保存到 .claude/skills/md2wechat-skill/ 目录下完成安装。安装完成后请告诉我如何使用它。",
+    "translatedAt": "2026-09-24T05:19:45.025Z",
+    "backTranslationDiff": 0.5
   },
   "jeffallan/claude-skills": {
     "sourceHash": "c584d651e719337e",
@@ -4795,11 +4795,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "askimo-ai/askimo": {
-    "sourceHash": "387c6a1d1c72b3e5",
-    "chineseDescription": "AI客户端，支持聊天、RAG（检索增强生成）、技能、MCP工具和智能体。兼容多种大语言模型（Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini、OpenRouter）",
-    "prompt": "请从 https://github.com/askimo-ai/askimo 下载并安装 askimo 技能。将仓库内容保存到 .claude/skills/askimo/ 目录，确保包含所有必要的配置文件和代码。安装完成后，验证技能是否可用。",
-    "translatedAt": "2026-09-09T05:11:35.217Z",
-    "backTranslationDiff": 0.17647058823529416
+    "sourceHash": "56e404b8f7e10556",
+    "chineseDescription": "Askimo 是一款 AI 桌面应用（desktop app），集成了聊天（chat）、RAG（检索增强生成）、Skills（技能）、MCP 工具（MCP tools）和智能体（agents）功能。支持多种大语言模型（LLM），包括 Anthropic、OpenAI、VertexAI、vLLM、Nvidia NIM、Gemini 和 OpenRouter。",
+    "prompt": "请帮我安装 Askimo 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/askimo-ai/askimo 下载所需的文件，并保存到 .claude/skills/askimo/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我怎么使用。",
+    "translatedAt": "2026-09-24T05:19:36.844Z",
+    "backTranslationDiff": 1
   },
   "borghei/claude-skills": {
     "sourceHash": "ef6eb78815bfc49b",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.7272727272727273
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "46856a5a4550034e",
-    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面，用于完整的目录发现、由 agent 自主完成的选择、技术栈验证和规划，背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP（模型上下文协议）、目录、插件以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
-    "translatedAt": "2026-09-21T05:21:39.943Z",
-    "backTranslationDiff": 0.875
+    "sourceHash": "6749025d742d509d",
+    "chineseDescription": "AAS Core 是一个本地、以 agent（智能体）优先的控制平面（control plane），用于完整的目录发现、agent 自主选择、技术栈验证和规划，背后由 2,445+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件和 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果和如何使用。",
+    "translatedAt": "2026-09-24T05:19:29.060Z",
+    "backTranslationDiff": 0.125
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "46856a5a4550034e",
-    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）优先的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载相关文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我如何使用。",
-    "translatedAt": "2026-09-21T05:21:35.843Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "6749025d742d509d",
+    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划，背后有 2,445+ 个 agentic skills（智能体技能）支撑。它包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
+    "translatedAt": "2026-09-24T05:19:25.744Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8148,11 +8148,11 @@
     "backTranslationDiff": 0.125
   },
   "ryze-ai-adgent/open-seo-mcp-skills": {
-    "sourceHash": "8d39c7eac9655405",
-    "chineseDescription": "开源 SEO + GEO 技能，让 Claude 直接对接你的真实 GSC/GA4/广告数据。免费 MCP：claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-    "prompt": "请帮我安装 open-seo-mcp-skills 技能。\n\n1. 从 GitHub 仓库 https://github.com/ryze-ai-adgent/open-seo-mcp-skills 下载所有文件\n2. 将文件保存到 .claude/skills/open-seo-mcp-skills/ 目录下\n3. 安装完成后，告诉我如何使用这个技能\n\n这个技能是开源的 SEO + GEO 工具，可以让 Claude 直接访问你的 Google Search Console、GA4 和广告数据。它通过免费的 MCP 连接器工作，安装命令是：claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-    "translatedAt": "2026-09-09T05:11:14.527Z",
-    "backTranslationDiff": 0.6923076923076923
+    "sourceHash": "f1634f47136379fb",
+    "chineseDescription": "免费的 SEO MCP 服务器（MCP server），加上开源的 SEO 和 GEO 技能（skills），专为 Claude 打造：关键词研究、排名跟踪、网站审计、外链分析，以及基于你真实 GSC/GA4/广告数据的 AI 可见度分析。安装命令：claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+    "prompt": "请帮我安装 open-seo-mcp-skills 这个 Claude Code 技能。请执行以下步骤：\n\n1. 从 GitHub 仓库 https://github.com/ryze-ai-adgent/open-seo-mcp-skills 下载所有文件\n2. 在项目根目录创建 .claude/skills/open-seo-mcp-skills/ 目录\n3. 把下载的文件保存到该目录中\n4. 完成后告诉我安装成功，并简单说明这个技能能做什么\n\n注意：如果 .claude/skills/ 目录不存在，请先创建。如果 git 可用，可以直接用 git clone https://github.com/ryze-ai-adgent/open-seo-mcp-skills 然后移动到目标目录。",
+    "translatedAt": "2026-09-24T05:19:22.230Z",
+    "backTranslationDiff": 0.8095238095238095
   },
   "chen3tu/interview-master-skill": {
     "sourceHash": "bbe65f51d2d5df00",
@@ -8204,11 +8204,11 @@
     "backTranslationDiff": 0.4444444444444444
   },
   "irinabuht12-oss/marketing-skills": {
-    "sourceHash": "0f2129787ad3a030",
-    "chineseDescription": "48个免费的Claude营销技能（Google Ads、Meta Ads、SEO、AI可见性）+ Ryze MCP：claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
-    "prompt": "请帮我安装 marketing-skills 技能包。请从 GitHub 仓库 https://github.com/irinabuht12-oss/marketing-skills 下载所有文件，并保存到 .claude/skills/marketing-skills/ 目录下。这个技能包包含48个免费的Claude营销技能，涵盖 Google Ads、Meta Ads、SEO 和 AI 可见性等领域。下载完成后，请确认安装成功并告诉我如何使用。注意：如果仓库中有 README 或安装说明，请一并阅读并遵循其中的指引。",
-    "translatedAt": "2026-09-09T05:11:43.000Z",
-    "backTranslationDiff": 0.7857142857142857
+    "sourceHash": "6cac47c094053c9b",
+    "chineseDescription": "面向营销的 Claude 技能包（skills）：为 Claude Code 和 claude.ai 提供 49 个免费营销技能，涵盖 Google Ads（谷歌广告）、Meta Ads（Meta 广告）、SEO（搜索引擎优化）和 AI visibility（AI 可见度），另外还包含 Ryze 的 Google Ads MCP 和 Meta Ads MCP。安装 MCP 的命令：claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
+    "prompt": "请帮我在当前项目里安装 marketing-skills 这个 Claude 技能包。步骤：1) 从 GitHub 仓库 https://github.com/irinabuht12-oss/marketing-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目根目录下创建 .claude/skills/marketing-skills/ 目录；3) 把仓库里的技能文件全部放到 .claude/skills/marketing-skills/ 目录下，保持原有的目录结构；4) 安装完成后告诉我一共装了多少个技能，以及怎么使用它们。如果本地还没有这个仓库，请自己去 https://github.com/irinabuht12-oss/marketing-skills 拉取，不要假设我已经下载好了。",
+    "translatedAt": "2026-09-24T05:19:33.429Z",
+    "backTranslationDiff": 0.5555555555555556
   },
   "irinabuht12-oss/email-campaigns-claude": {
     "sourceHash": "bed8e9536a645922",

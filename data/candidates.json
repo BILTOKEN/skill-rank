@@ -13360,6 +13360,35 @@
     "lastPush": "2026-09-03T02:09:59Z"
   },
   {
+    "repo": "ilien-dev/quiron",
+    "name": "quiron",
+    "description": "AI humanizer skill for Claude Code, Codex and Cursor. Removes AI slop and the signs of AI writing, then measures the rewrite against human baselines.",
+    "tags": [
+      "agent-skills",
+      "ai-humanizer",
+      "ai-slop",
+      "ai-writing",
+      "anti-slop",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "deslop",
+      "humanize-ai-text",
+      "humanizer",
+      "llm",
+      "nlp",
+      "prompt-engineering",
+      "stylometry",
+      "writing-assistant",
+      "writing-tools"
+    ],
+    "stars": 25,
+    "lastPush": "2026-09-23T23:22:22Z"
+  },
+  {
     "repo": "tanis90/pdf-converter-mineru",
     "name": "pdf-converter-mineru",
     "description": "a pdf converter skill base on mineru ecosystem",
@@ -14994,6 +15023,19 @@
     "lastPush": "2026-09-21T02:35:42Z"
   },
   {
+    "repo": "toolmonsters/find-all",
+    "name": "find-all",
+    "description": "Claude skill: type /find-all and query the public web like a database. A source under every cell, blanks and rejected rows shown. Runs on Bright Data (free tier).",
+    "tags": [
+      "bright-data",
+      "claude",
+      "claude-skills",
+      "mcp"
+    ],
+    "stars": 18,
+    "lastPush": "2026-09-17T15:14:13Z"
+  },
+  {
     "repo": "helius-labs/core-ai",
     "name": "core-ai",
     "description": "Official Helius AI tooling repository ",
@@ -15886,6 +15928,18 @@
     ],
     "stars": 16,
     "lastPush": "2026-09-22T19:08:42Z"
+  },
+  {
+    "repo": "skillmedev/skills",
+    "name": "skills",
+    "description": "The open Skill Me catalog — every hosted skill as a portable, MIT-licensed SKILL.md",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "skill-me"
+    ],
+    "stars": 16,
+    "lastPush": "2026-07-05T03:17:43Z"
   },
   {
     "repo": "seanzor/claude-speed-reader",
@@ -30753,6 +30807,20 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-21T18:53:08Z"
+  },
+  {
+    "repo": "docsor1212/pubmed-verifier",
+    "name": "pubmed-verifier",
+    "description": "PubMed文献引用批量验证工具 - AI幻觉检测",
+    "tags": [
+      "citation-verification",
+      "claude-code-skill",
+      "claude-skills",
+      "medical",
+      "pubmed"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-24T04:02:58Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
