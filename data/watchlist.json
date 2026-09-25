@@ -7108,6 +7108,31 @@
     "checkedAt": "2026-09-24T04:58:24.220Z"
   },
   {
+    "repo": "andreworia/claude-finance-skills",
+    "name": "claude-finance-skills",
+    "description": "12 Claude skills for investment banking, private equity and corporate finance: valuation, trading comps, LBO returns, diligence and IC memos. Built by Oria.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "dcf",
+      "finance",
+      "investment-banking",
+      "lbo",
+      "private-equity",
+      "valuation"
+    ],
+    "stars": 16,
+    "lastPush": "2026-09-10T20:03:41Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-25T05:02:57.352Z"
+  },
+  {
     "repo": "seanzor/claude-speed-reader",
     "name": "claude-speed-reader",
     "description": "Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting",
@@ -25673,6 +25698,53 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-24T04:58:24.220Z"
+  },
+  {
+    "repo": "bjaysingh/claudewhisperer",
+    "name": "claudewhisperer",
+    "description": "/whisper: a Claude Code skill that optimizes your prompt before it runs and gets better every time you correct it.",
+    "tags": [
+      "agentic-coding",
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "prompt-engineering",
+      "prompt-optimization",
+      "self-improving",
+      "typesafe-jev"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-23T00:02:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-25T05:02:57.352Z"
+  },
+  {
+    "repo": "aritpal15/markdown-asset-doctor",
+    "name": "markdown-asset-doctor",
+    "description": "Deterministic, zero-token markdown documentation link and asset validator. Audits broken relative links and flags orphaned images across project repositories.",
+    "tags": [
+      "agent-skills",
+      "agent-skills-marketplace",
+      "claude-code",
+      "claude-code-skill",
+      "cursor-rules",
+      "developer-tools",
+      "markdown",
+      "skills-sh",
+      "skills-share",
+      "skills-sharing",
+      "skills-showcase"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-24T09:11:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-25T05:02:57.352Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

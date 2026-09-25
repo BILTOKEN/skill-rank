@@ -2879,6 +2879,34 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "eatmoreduck/boss-zhipin-scraper",
+    "name": "boss-zhipin-scraper",
+    "description": "Boss直聘爬虫 / BOSS直聘职位数据抓取工具，基于 Chrome CDP 协议复用真实登录态，绕过字体反爬，输出明文薪资 JSON/CSV + 薪资技能分析。A Chrome-CDP-based BOSS Zhipin job scraper/crawler.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "boss-zhipin",
+      "boss-zhipin-scraper",
+      "boss-zhipin-spider",
+      "bosszp",
+      "chrome-cdp",
+      "claude-skills",
+      "crawler",
+      "job-scraper",
+      "python",
+      "scraper",
+      "spider",
+      "zhipin"
+    ],
+    "stars": 1470,
+    "lastPush": "2026-09-17T05:58:04Z",
+    "pool": "ranked",
+    "readmeLength": 1012,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-25T05:02:57.352Z"
+  },
+  {
     "repo": "opencoworkai/open-cowork",
     "name": "open-cowork",
     "description": "Open-source AI agent desktop app for Windows & macOS. One-click install Claude Code, MCP tools, and Skills — with sandbox isolation, multi-model support, and Feishu/Slack integration.",
@@ -7791,6 +7819,36 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-15T01:51:52.545Z"
+  },
+  {
+    "repo": "danjdewhurst/story-skills",
+    "name": "story-skills",
+    "description": "Agent Skills for end-to-end story writing in markdown, packaged as Codex and Claude Code plugins.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-plugin",
+      "continuity",
+      "creative-writing",
+      "fiction-writing",
+      "markdown",
+      "novel-writing",
+      "plot-structure",
+      "skill-md",
+      "storytelling",
+      "worldbuilding",
+      "writing-tools"
+    ],
+    "stars": 243,
+    "lastPush": "2026-09-24T21:48:45Z",
+    "pool": "ranked",
+    "readmeLength": 4079,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-25T05:02:57.352Z"
   },
   {
     "repo": "axtonliu/ai-pair",

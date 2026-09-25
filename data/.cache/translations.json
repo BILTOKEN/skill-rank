@@ -6580,11 +6580,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "samuraigpt/awesome-openclaw": {
-    "sourceHash": "93cc49797faa4a3e",
-    "chineseDescription": "可直接复制粘贴的 Muse agent（智能体）任务简报，覆盖实用工作流（workflow）、已连接应用、审批流程（approval）以及有据可查的自动化（automation）。",
-    "prompt": "请帮我安装 awesome-meta-muse-agent 这个 Skill。步骤：1）从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载全部文件；2）在当前项目的 .claude/skills/awesome-openclaw/ 目录下创建文件夹（如果不存在就新建）；3）把下载的文件保存到该目录中；4）确认安装完成后告诉我这个 Skill 能做什么。仓库地址是 https://github.com/samuraigpt/awesome-openclaw，请直接去下载，不要问我是否已经装过。",
-    "translatedAt": "2026-09-21T05:22:05.326Z",
-    "backTranslationDiff": 0.8181818181818181
+    "sourceHash": "76a1a8790720972e",
+    "chineseDescription": "一个带来源标注的 Meta Muse 集成（integration）和社区连接器技能（connector skill）目录，附带能力、认证（authentication）和权限（permission）说明。",
+    "prompt": "请帮我安装 awesome-muse-connectors 这个 Skill。请从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载相关文件，并保存到 .claude/skills/awesome-openclaw/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么。",
+    "translatedAt": "2026-09-25T05:15:39.221Z",
+    "backTranslationDiff": 0.8461538461538461
   },
   "helloianneo/ian-handdrawn-ppt": {
     "sourceHash": "f44596f3e5a1a66d",
@@ -8321,5 +8321,19 @@
     "prompt": "请帮我安装 bambu-studio-ai 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/heyixuan2/bambu-studio-ai 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/bambu-studio-ai/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的文件全部放到该目录里，确保 SKILL.md 位于 .claude/skills/bambu-studio-ai/SKILL.md；4) 安装完成后告诉我这个 skill 能做什么、怎么触发使用。",
     "translatedAt": "2026-09-21T05:22:13.470Z",
     "backTranslationDiff": 0.7741935483870968
+  },
+  "danjdewhurst/story-skills": {
+    "sourceHash": "6d0fd7de7cc3d4f8",
+    "chineseDescription": "一套用于端到端（end-to-end）故事写作的 Agent Skills（智能体技能），基于 markdown 格式，打包为 Codex 和 Claude Code 插件。",
+    "prompt": "请帮我安装 story-skills 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/danjdewhurst/story-skills 下载所有文件，并保存到 .claude/skills/story-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我如何使用。",
+    "translatedAt": "2026-09-25T05:15:42.705Z",
+    "backTranslationDiff": 0.6363636363636364
+  },
+  "eatmoreduck/boss-zhipin-scraper": {
+    "sourceHash": "7545dbf5fc51dd94",
+    "chineseDescription": "BOSS直聘职位数据抓取工具（爬虫），基于 Chrome CDP（Chrome DevTools Protocol，Chrome 开发者工具协议）复用真实登录态，绕过字体反爬，输出明文薪资的 JSON/CSV 文件，并附带薪资与技能分析。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 boss-zhipin-scraper。\n\n请你自己去这个 GitHub 仓库下载安装：https://github.com/eatmoreduck/boss-zhipin-scraper\n\n安装步骤：\n1. 从 https://github.com/eatmoreduck/boss-zhipin-scraper 克隆或下载仓库文件\n2. 把文件保存到 .claude/skills/boss-zhipin-scraper/ 目录下\n3. 确认 SKILL.md 等必要文件都已就位\n4. 装好后告诉我这个 skill 怎么用\n\n注意：不要假设我本地已经有这个仓库，请自己从 GitHub 拉取。",
+    "translatedAt": "2026-09-25T05:15:46.581Z",
+    "backTranslationDiff": 0.8
   }
 }
