@@ -5166,11 +5166,11 @@
     "backTranslationDiff": 0.23529411764705888
   },
   "kagurananaga/document-format-skills": {
-    "sourceHash": "dab3ccca51a235aa",
-    "chineseDescription": "专业的中文Word文档格式化工具包。【使用场景】用于快速格式化中文Word文档，包括样式调整、排版优化等。",
-    "prompt": "请从 https://github.com/kagurananaga/document-format-skills 下载文件，并保存到 .claude/skills/document-format-skills/ 目录完成安装。",
-    "translatedAt": "2026-05-30T13:44:42.452Z",
-    "backTranslationDiff": 1
+    "sourceHash": "8f2a7e9f76512b3e",
+    "chineseDescription": "公文格式处理 Skill（技能）：专门用来处理中文公文 Word 文档格式的专业工具包。",
+    "prompt": "请帮我安装 document-format-skills 这个 Skill。具体步骤：1. 从 GitHub 仓库 https://github.com/kagurananaga/document-format-skills 下载全部文件；2. 在当前项目的 .claude/skills/document-format-skills/ 目录下创建文件夹（如果不存在就新建）；3. 把下载的文件保存到该目录中；4. 安装完成后告诉我这个 Skill 怎么用。",
+    "translatedAt": "2026-09-26T05:23:49.598Z",
+    "backTranslationDiff": 0.8888888888888888
   },
   "geekjourneyx/agora": {
     "sourceHash": "def83efbd9e2c48d",
@@ -8309,11 +8309,11 @@
     "backTranslationDiff": 0.9047619047619048
   },
   "activeing123/mcptoon": {
-    "sourceHash": "171cb6e073424c71",
-    "chineseDescription": "MCP 工具 schema（模式定义）+ agent skills（智能体技能）：71,929 个 token（词元）压缩到 581 个（实测减少 99.2%）。mcptoon 能把它们同步到每个 agent。一个零依赖的 CLI（命令行工具），不用手写配置。",
-    "prompt": "请帮我安装 mcptoon 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/activeing123/mcptoon 下载所需文件，并保存到 .claude/skills/mcptoon/ 目录下完成安装。安装完成后告诉我怎么用。",
-    "translatedAt": "2026-09-21T05:22:09.306Z",
-    "backTranslationDiff": 0.8235294117647058
+    "sourceHash": "726fb70fbfbb81dd",
+    "chineseDescription": "一个零依赖 CLI（命令行工具），统一管理你所有的 MCP 工具和 Agent 技能。工具发现环节省下 99.2% 的 token，一份配置通吃所有 Agent，无需预装任何东西。整个工具只有 227KB，纯 Python 标准库实现。",
+    "prompt": "请帮我安装 mcptoon 这个 Claude Code Skill。步骤：1) 访问 GitHub 仓库 https://github.com/activeing123/mcptoon 下载全部文件；2) 在项目根目录创建 .claude/skills/mcptoon/ 目录；3) 把下载的文件保存到该目录下；4) 确认安装完成后告诉我怎么用。仓库地址是 https://github.com/activeing123/mcptoon",
+    "translatedAt": "2026-09-26T05:23:53.204Z",
+    "backTranslationDiff": 0.8181818181818181
   },
   "heyixuan2/bambu-studio-ai": {
     "sourceHash": "f1f3ffac76786199",

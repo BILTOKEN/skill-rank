@@ -5965,6 +5965,36 @@
     "checkedAt": "2026-09-24T04:58:24.220Z"
   },
   {
+    "repo": "lintsinghua/paint-mv-skills",
+    "name": "paint-mv-skills",
+    "description": "Agent skills that turn a song and its lyrics into a hand-painted watercolour music video (p5.brush + headless Chrome + ffmpeg), following PDoomVideo's pipeline",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "aigc",
+      "animation",
+      "claude-skills",
+      "creative-coding",
+      "cursor-skills",
+      "ffmpeg",
+      "generative-art",
+      "lyrics",
+      "music-video",
+      "mv",
+      "p5-brush",
+      "p5js",
+      "puppeteer",
+      "watercolor"
+    ],
+    "stars": 18,
+    "lastPush": "2026-09-25T12:34:56Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-26T05:05:43.552Z"
+  },
+  {
     "repo": "helius-labs/core-ai",
     "name": "core-ai",
     "description": "Official Helius AI tooling repository ",
@@ -17967,6 +17997,25 @@
     "checkedAt": "2026-09-16T04:54:31.192Z"
   },
   {
+    "repo": "takwerx/atak-plugin-pipeline",
+    "name": "atak-plugin-pipeline",
+    "description": "How takwerx builds ATAK plugins and gets them through TAK's third-party signing pipeline, as a Claude Code skill. No SDK included.",
+    "tags": [
+      "atak",
+      "atak-plugin",
+      "claude-code",
+      "claude-code-skill",
+      "tak"
+    ],
+    "stars": 5,
+    "lastPush": "2026-09-25T13:31:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-26T05:05:43.552Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -21424,6 +21473,56 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-22T05:04:22.724Z"
+  },
+  {
+    "repo": "pathmodeio/claude-plugin",
+    "name": "claude-plugin",
+    "description": "Pathmode plugin for Claude Code — MCP server + intent-engineering skill pack. Install: /plugin marketplace add pathmodeio/claude-plugin",
+    "tags": [
+      "agent-skills",
+      "claude-agent-skill",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skill",
+      "intent-engineering",
+      "mcp"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-25T23:10:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-26T05:05:43.552Z"
+  },
+  {
+    "repo": "painhardcore/pstack",
+    "name": "pstack",
+    "description": "Portable coding-agent workflows adapted from Cursor’s pstack for Codex, Claude Code, and OpenCode.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "opencode",
+      "opencode-plugin",
+      "opencode-plugins",
+      "opencode-skill",
+      "opencode-skills",
+      "skill-md",
+      "skills"
+    ],
+    "stars": 3,
+    "lastPush": "2026-08-27T12:19:55Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-26T05:05:43.552Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -25745,6 +25844,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-09-25T05:02:57.352Z"
+  },
+  {
+    "repo": "sohaibdevv/claude-code-workflow-guide",
+    "name": "Claude-Code-Workflow-Guide",
+    "description": "A friendly guide for using Claude Code in projects and teams Workflows, tools, and Safety rules that help you stay productive and in control.",
+    "tags": [
+      "AI",
+      "ai-agents",
+      "ai-coding",
+      "ai-tools",
+      "claude",
+      "claude-ai",
+      "claude-api",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "sohaibdevv",
+      "sohaibdevv-github"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-19T21:03:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-09-26T05:05:43.552Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
