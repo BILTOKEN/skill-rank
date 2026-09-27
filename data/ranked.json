@@ -11689,6 +11689,26 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "kaankiziltug/logo-design-skill",
+    "name": "logo-design-skill",
+    "description": "A comprehensive logo-design skill for Claude: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+    "tags": [
+      "agent-skills",
+      "branding",
+      "claude",
+      "claude-skills",
+      "logo-design",
+      "svg"
+    ],
+    "stars": 67,
+    "lastPush": "2026-09-26T20:44:29Z",
+    "pool": "ranked",
+    "readmeLength": 3010,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-27T05:23:37.495Z"
+  },
+  {
     "repo": "bevibing/socrates-skill",
     "name": "socrates-skill",
     "description": "Socratic method teaching skill for Claude Code — guides users to discover answers through questioning",
@@ -12365,6 +12385,36 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-08-20T01:53:38.853Z"
+  },
+  {
+    "repo": "metamusicx/zissa-wiki",
+    "name": "zissa-wiki",
+    "description": "Zissa Wiki — an LLM-maintained research knowledge base in plain markdown, maintained by any AI agent (Claude, Codex, Gemini, DeepSeek, Kimi, Grok, Mistral or any chat app). Implements Karpathy's LLM Wiki pattern; checks every quote against its source.",
+    "tags": [
+      "academic-research",
+      "agents-md",
+      "chatgpt",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "karpathy",
+      "knowledge-base",
+      "llm-research-wiki",
+      "llm-wiki",
+      "markdown",
+      "mermaid",
+      "obsidian",
+      "personal-knowledge-management",
+      "research",
+      "second-brain"
+    ],
+    "stars": 58,
+    "lastPush": "2026-09-26T06:40:21Z",
+    "pool": "ranked",
+    "readmeLength": 2540,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-27T05:23:37.495Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",

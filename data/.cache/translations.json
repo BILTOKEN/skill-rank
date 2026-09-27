@@ -8335,5 +8335,26 @@
     "prompt": "帮我安装一个 Claude Code Skill，名字叫 boss-zhipin-scraper。\n\n请你自己去这个 GitHub 仓库下载安装：https://github.com/eatmoreduck/boss-zhipin-scraper\n\n安装步骤：\n1. 从 https://github.com/eatmoreduck/boss-zhipin-scraper 克隆或下载仓库文件\n2. 把文件保存到 .claude/skills/boss-zhipin-scraper/ 目录下\n3. 确认 SKILL.md 等必要文件都已就位\n4. 装好后告诉我这个 skill 怎么用\n\n注意：不要假设我本地已经有这个仓库，请自己从 GitHub 拉取。",
     "translatedAt": "2026-09-25T05:15:46.581Z",
     "backTranslationDiff": 0.8
+  },
+  "kaankiziltug/logo-design-skill": {
+    "sourceHash": "1030e8216b884e3e",
+    "chineseDescription": "一个给 Claude 用的全能 logo 设计技能（skill）：包含设计原则、流程、SVG 制作技巧、测试工具，还有一个 1400+ 的 logo 参考库。",
+    "prompt": "帮我安装一个 Claude Code 技能（skill），名字叫 logo-design-skill。请你自己去 GitHub 仓库 https://github.com/kaankiziltug/logo-design-skill 把文件下载下来，保存到 .claude/skills/logo-design-skill/ 目录里，完成安装。安装好后告诉我这个技能怎么用。",
+    "translatedAt": "2026-09-27T05:41:28.103Z",
+    "backTranslationDiff": 0.9230769230769231
+  },
+  "metamusicx/zissa-wiki": {
+    "sourceHash": "b839be5bb3780c96",
+    "chineseDescription": "Zissa Wiki —— 一个由 LLM（大语言模型）维护的研究知识库，用纯 markdown（纯文本标记语言）写成，任何 AI agent（智能体）都能维护它（Claude、Codex、Gemini、DeepSeek、Kimi、Grok、Mistral 或任意聊天应用都行）。它实现了 Karpathy 的 LLM Wiki 模式，会把每一条引用都拿去和原始出处核对一遍。",
+    "prompt": "请帮我安装 zissa-wiki 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/metamusicx/zissa-wiki 下载所需文件，并保存到 .claude/skills/zissa-wiki/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-09-27T05:41:31.402Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "andyshiu/claude-skill-playwright-browser": {
+    "sourceHash": "08bbcb90c2401550",
+    "chineseDescription": "Claude Code 技能：一个后台运行的 Playwright 浏览器，支持截图（桌面/平板/手机）、前端健康检查（health checks）、视觉差异对比（visual diffs）、脚本化 UI 流程（scripted UI flows）以及登录后的页面 —— 适用于任何项目。｜ 让 Claude Code 拥有后台浏览器：多尺寸截图、前端健康检查、视觉比对、操作流程与登录页面，适用于任何项目。",
+    "prompt": "请帮我安装一个 Claude Code 技能（skill），名称是 claude-skill-playwright-browser。\n\n请从 GitHub 仓库 https://github.com/andyshiu/claude-skill-playwright-browser 下载该技能的所有文件，并保存到当前项目的 .claude/skills/claude-skill-playwright-browser/ 目录下，完成安装。\n\n具体步骤：\n1. 克隆或下载仓库 https://github.com/andyshiu/claude-skill-playwright-browser 的内容\n2. 在项目根目录创建 .claude/skills/claude-skill-playwright-browser/ 目录\n3. 把仓库里的文件（包括 SKILL.md 等）放到该目录下\n4. 确认安装完成后告诉我这个技能能做什么\n\n如果 .claude/skills/ 目录不存在，请一并创建。",
+    "translatedAt": "2026-09-27T05:41:35.802Z",
+    "backTranslationDiff": 0.8421052631578947
   }
 }
