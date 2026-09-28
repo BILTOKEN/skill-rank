@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0.7272727272727273
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "6749025d742d509d",
-    "chineseDescription": "AAS Core 是一个本地、以 agent（智能体）优先的控制平面（control plane），用于完整的目录发现、agent 自主选择、技术栈验证和规划，背后由 2,445+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件和 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果和如何使用。",
-    "translatedAt": "2026-09-24T05:19:29.060Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "46856a5a4550034e",
+    "chineseDescription": "AAS Core 是一个本地优先、面向 agent（智能体）的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）和 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载该 Skill 的全部文件（如果 git 可用，直接 git clone https://github.com/sickn33/antigravity-awesome-skills；否则用 curl 或 wget 下载仓库的 zip 包并解压）。\n2. 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录（如果不存在的话）。\n3. 把下载到的所有文件放到 .claude/skills/antigravity-awesome-skills/ 目录下，确保 SKILL.md 等文件位于该目录根部。\n4. 安装完成后，列出 .claude/skills/antigravity-awesome-skills/ 下的文件，确认安装成功。\n\n仓库地址：https://github.com/sickn33/antigravity-awesome-skills",
+    "translatedAt": "2026-09-28T05:50:37.906Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -7210,11 +7210,11 @@
     "backTranslationDiff": 0.7272727272727273
   },
   "tanviet12/vbsec": {
-    "sourceHash": "e4984d0a0cf60c47",
-    "chineseDescription": "一个 Claude Code 技能，能对你的源代码进行深度安全扫描，检测 20 多种最常见的安全漏洞。",
-    "prompt": "请从 https://github.com/tanviet12/vbsec 下载 vbsec 技能文件，并将其保存到 .claude/skills/vbsec/ 目录中，完成安装。",
-    "translatedAt": "2026-06-03T18:37:56.525Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "e8290f7b9a1c8dcf",
+    "chineseDescription": "这是一个给 Claude Code、Codex 和 Antigravity 用的安全扫描技能（Security Scanning Skill）。它能找出 AI 写的代码里最常见的 21 种漏洞（vulnerabilities），并且针对每一个漏洞告诉你该怎么修。",
+    "prompt": "请帮我安装 vbsec 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/tanviet12/vbsec 下载全部文件；2) 在项目根目录创建 .claude/skills/vbsec/ 目录；3) 把下载的文件保存到该目录下（保持原有目录结构）；4) 确认 SKILL.md 等文件已就位，并告诉我安装完成。",
+    "translatedAt": "2026-09-28T05:50:45.835Z",
+    "backTranslationDiff": 0.8125
   },
   "y49/tlive": {
     "sourceHash": "c5cc55829deed543",
@@ -7854,10 +7854,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "6749025d742d509d",
-    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划，背后有 2,445+ 个 agentic skills（智能体技能）支撑。它包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
-    "translatedAt": "2026-09-24T05:19:25.744Z",
+    "sourceHash": "46856a5a4550034e",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录中完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
+    "translatedAt": "2026-09-28T05:50:33.618Z",
     "backTranslationDiff": 0.16666666666666663
   },
   "nulightjens/humanizer-stack": {
@@ -8225,11 +8225,11 @@
     "backTranslationDiff": 0.375
   },
   "ilyautov/humanizer-ru": {
-    "sourceHash": "1009f005a61f5512",
-    "chineseDescription": "humanizer-ru：给俄语 AI 文本「去味」，适用于 Claude Code、Cursor、Codex 等 AI 代理。内置 64 项神经网络特征识别、21 条硬性封禁规则，还附带扫描器。功能是从俄语文本中清除 AI 生成痕迹，是一个开源 Skill（技能），支持 Claude Code、Cursor、Codex 等代理。",
-    "prompt": "请帮我安装 humanizer-ru 这个 Skill（技能）。请从 GitHub 仓库 https://github.com/ilyautov/humanizer-ru 下载所需文件，并保存到 .claude/skills/humanizer-ru/ 目录下完成安装。安装完成后告诉我这个 Skill 怎么用。",
-    "translatedAt": "2026-09-12T04:53:13.768Z",
-    "backTranslationDiff": 0.7307692307692308
+    "sourceHash": "7800f7b0efe3680c",
+    "chineseDescription": "humanizer-ru：给 AI agent（智能体）用的俄语文本润色工具。专门清理公文腔和套话模板，同时核对语义和事实。内置 67 项特征检测、21 条硬性禁令、扫描器、CLI（命令行工具）、MCP（模型上下文协议）以及 Chrome 浏览器扩展。",
+    "prompt": "请帮我安装 humanizer-ru 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ilyautov/humanizer-ru 下载全部文件；2) 在项目根目录创建 .claude/skills/humanizer-ru/ 目录；3) 把下载的文件放进该目录；4) 确认 SKILL.md 等配置文件就位后告诉我安装完成。仓库地址：https://github.com/ilyautov/humanizer-ru",
+    "translatedAt": "2026-09-28T05:50:42.050Z",
+    "backTranslationDiff": 0.896551724137931
   },
   "vincentwei1021/anything2explainer": {
     "sourceHash": "6ed36c9b01542b77",
@@ -8337,11 +8337,11 @@
     "backTranslationDiff": 0.8
   },
   "kaankiziltug/logo-design-skill": {
-    "sourceHash": "1030e8216b884e3e",
-    "chineseDescription": "一个给 Claude 用的全能 logo 设计技能（skill）：包含设计原则、流程、SVG 制作技巧、测试工具，还有一个 1400+ 的 logo 参考库。",
-    "prompt": "帮我安装一个 Claude Code 技能（skill），名字叫 logo-design-skill。请你自己去 GitHub 仓库 https://github.com/kaankiziltug/logo-design-skill 把文件下载下来，保存到 .claude/skills/logo-design-skill/ 目录里，完成安装。安装好后告诉我这个技能怎么用。",
-    "translatedAt": "2026-09-27T05:41:28.103Z",
-    "backTranslationDiff": 0.9230769230769231
+    "sourceHash": "0635f3c981bc2393",
+    "chineseDescription": "这是一个给 Claude、Gemini CLI、Codex 以及其他 AI agent（智能体）用的全能 logo 设计技能包：包含设计原则、完整流程、SVG（可缩放矢量图形）实操技巧、测试工具，还有一个 1400+ 的 logo 参考库。",
+    "prompt": "请帮我安装 logo-design-skill 这个技能。去 GitHub 仓库 https://github.com/kaankiziltug/logo-design-skill 把里面的文件下载下来，保存到 .claude/skills/logo-design-skill/ 目录里，装好后告诉我怎么用。",
+    "translatedAt": "2026-09-28T05:50:49.647Z",
+    "backTranslationDiff": 0.9444444444444444
   },
   "metamusicx/zissa-wiki": {
     "sourceHash": "b839be5bb3780c96",
@@ -8356,5 +8356,12 @@
     "prompt": "请帮我安装一个 Claude Code 技能（skill），名称是 claude-skill-playwright-browser。\n\n请从 GitHub 仓库 https://github.com/andyshiu/claude-skill-playwright-browser 下载该技能的所有文件，并保存到当前项目的 .claude/skills/claude-skill-playwright-browser/ 目录下，完成安装。\n\n具体步骤：\n1. 克隆或下载仓库 https://github.com/andyshiu/claude-skill-playwright-browser 的内容\n2. 在项目根目录创建 .claude/skills/claude-skill-playwright-browser/ 目录\n3. 把仓库里的文件（包括 SKILL.md 等）放到该目录下\n4. 确认安装完成后告诉我这个技能能做什么\n\n如果 .claude/skills/ 目录不存在，请一并创建。",
     "translatedAt": "2026-09-27T05:41:35.802Z",
     "backTranslationDiff": 0.8421052631578947
+  },
+  "zhuyansen/awesome-claude-video-skills": {
+    "sourceHash": "18b8f4e78f204765",
+    "chineseDescription": "这是一个开源技能（skills）和工具包（toolkits）合集，让 Claude Code、Codex 以及其他编程智能体（coding agents）能够制作视频。收录了 180 个仓库，按类型分类，每个都做了安全评级（security-graded）。支持英文和中文。",
+    "prompt": "请帮我安装 awesome-claude-video-skills 这个技能。请从 GitHub 仓库 https://github.com/zhuyansen/awesome-claude-video-skills 下载所有文件，并保存到 .claude/skills/awesome-claude-video-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我这个技能能做什么。",
+    "translatedAt": "2026-09-28T05:50:53.500Z",
+    "backTranslationDiff": 0.9411764705882353
   }
 }
