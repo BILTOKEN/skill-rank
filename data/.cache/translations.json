@@ -3066,11 +3066,11 @@
     "backTranslationDiff": 0.07407407407407407
   },
   "asklokesh/claudeskill-loki-mode": {
-    "sourceHash": "4cb0f72daac716de",
-    "chineseDescription": "多智能体自主 SDLC 框架。从需求规格到部署应用。支持 PRD、GitHub Issue、OpenAPI/JSON/YAML 或一句话简述。集成 5 个 AI 提供商，8 道质量关卡。【使用场景】适合需要从需求到部署全流程自动化、多智能体协作开发、质量严格把关的团队。",
-    "prompt": "请从 https://github.com/asklokesh/claudeskill-loki-mode 下载所有文件，保存到 .claude/skills/claudeskill-loki-mode/ 目录，完成 loki-mode skill 的安装。",
-    "translatedAt": "2026-07-15T03:55:56.611Z",
-    "backTranslationDiff": 0.4375
+    "sourceHash": "1eb820d0fabcfad5",
+    "chineseDescription": "自主软件工厂（Autonomous Software Factory）。你只要给它一个 GitHub issue、一份规格说明（spec），或者一句话的任务描述，它就能还你一个 pull request（PR），还附带一份带签名的凭证（signed receipt），任何人都能离线复核。它跑在你自己的机器上，用你自己的密钥：Claude、Codex、OpenCode。",
+    "prompt": "请帮我安装 loki-mode 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/asklokesh/claudeskill-loki-mode 下载所有文件，并保存到 .claude/skills/claudeskill-loki-mode/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-09-29T06:09:55.277Z",
+    "backTranslationDiff": 0.28
   },
   "roundtable02/tutor-skills": {
     "sourceHash": "b3db02c1eec1c161",
@@ -5012,11 +5012,11 @@
     "backTranslationDiff": 0.2727272727272727
   },
   "waynesutton/convexskills": {
-    "sourceHash": "fc97e2ff2f09426f",
-    "chineseDescription": "AI agent 技能和模板，用于使用 Convex 构建生产级应用。包含 queries（查询）、mutations（变更）、cron jobs（定时任务）、webhooks（Webhook）、migrations（迁移）等模式。【使用场景】在开发 Convex 应用时，需要快速实现常见后端模式（如查询、变更、定时任务等）的开发者。",
-    "prompt": "请安装 convexskills skill：从 GitHub 仓库 https://github.com/waynesutton/convexskills 下载文件，并保存到 .claude/skills/convexskills/ 目录，完成安装。",
-    "translatedAt": "2026-05-30T13:38:41.061Z",
-    "backTranslationDiff": 0.23529411764705888
+    "sourceHash": "5b911e52e98a9acb",
+    "chineseDescription": "为 Convex 应用打造的构建者技能（Builder Skills）。包含 Convex 开发模式（patterns），以及一套面向 Claude Code、Codex、Cursor 和 OpenCode 的工作流，涵盖 PRD、task.md、changelog 和 files.md。",
+    "prompt": "请帮我安装 builder-skills 技能。请从 GitHub 仓库 https://github.com/waynesutton/convexskills 下载所有文件，并保存到 .claude/skills/convexskills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我安装了哪些文件。",
+    "translatedAt": "2026-09-29T06:10:02.515Z",
+    "backTranslationDiff": 0.8125
   },
   "ancoleman/ai-design-components": {
     "sourceHash": "163be08e339d44e6",
@@ -7987,11 +7987,11 @@
     "backTranslationDiff": 0.6666666666666667
   },
   "sepinetam/mcp-for-stata": {
-    "sourceHash": "c7d3369df2e8dac1",
-    "chineseDescription": "一个用于将 Stata 集成到你的 agent 循环中的 MCP 服务器，采用安全优先的设计。",
-    "prompt": "请帮我安装一个名为 mcp-for-stata 的 Skill。请从 GitHub 仓库 https://github.com/sepinetam/mcp-for-stata 下载相关文件，并将其保存到 .claude/skills/mcp-for-stata/ 目录下，完成安装。",
-    "translatedAt": "2026-09-04T05:01:34.805Z",
-    "backTranslationDiff": 0.8
+    "sourceHash": "e22e1d9355d40323",
+    "chineseDescription": "Stata-MCP：一个 MCP 服务器（MCP server），把 Stata 集成进你的 agent 循环（agent loop）里，设计上安全优先。",
+    "prompt": "请帮我安装 mcp-for-stata 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/sepinetam/mcp-for-stata 下载所有文件；2) 在当前项目的 .claude/skills/mcp-for-stata/ 目录下创建文件夹（如果不存在的话）；3) 把下载的文件保存到该目录中；4) 确认安装完成，并告诉我这个 Skill 是做什么的。",
+    "translatedAt": "2026-09-29T06:09:58.917Z",
+    "backTranslationDiff": 0.8181818181818181
   },
   "chang416/im-human": {
     "sourceHash": "fa94c1f2c9fa9308",
@@ -8363,5 +8363,33 @@
     "prompt": "请帮我安装 awesome-claude-video-skills 这个技能。请从 GitHub 仓库 https://github.com/zhuyansen/awesome-claude-video-skills 下载所有文件，并保存到 .claude/skills/awesome-claude-video-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我这个技能能做什么。",
     "translatedAt": "2026-09-28T05:50:53.500Z",
     "backTranslationDiff": 0.9411764705882353
+  },
+  "solanabr/ai-kit": {
+    "sourceHash": "f4df84b824ba06fe",
+    "chineseDescription": "专为资深 Solana 开发者打造的 Claude Code / Codex / AI 配置合集。包含 CLAUDE.md、agents（智能体）、commands（命令）、hooks（钩子）、rules（规则）、skills（技能）和 settings（设置），覆盖 Web、Anchor、Pinnochio、Unity、Mobile、安全等多个方向。",
+    "prompt": "请帮我安装 ai-kit 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/solanabr/ai-kit 下载所有文件，并保存到 .claude/skills/ai-kit/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我包含哪些内容。",
+    "translatedAt": "2026-09-29T06:10:06.453Z",
+    "backTranslationDiff": 0.7727272727272727
+  },
+  "howseen-ai/claude-motion-design": {
+    "sourceHash": "3065ab01c75d1d5c",
+    "chineseDescription": "一个 Claude Code 技能（skill），用纯代码做动态设计（motion design）视频：HTML + Playwright + ffmpeg。不需要 After Effects，也不需要 Remotion 授权。",
+    "prompt": "请帮我安装 claude-motion-design 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/howseen-ai/claude-motion-design 下载所有文件，并保存到 .claude/skills/claude-motion-design/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-09-29T06:10:09.836Z",
+    "backTranslationDiff": 0.6875
+  },
+  "waynesutton/builder-skills": {
+    "sourceHash": "5b911e52e98a9acb",
+    "chineseDescription": "面向 Convex 应用的构建器技能（Builder Skills）。包含 Convex 开发模式（patterns），以及一套 PRD、task.md、changelog 和 files.md 工作流，适用于 Claude Code、Codex、Cursor 和 OpenCode。",
+    "prompt": "请帮我安装 builder-skills 技能。请从 GitHub 仓库 https://github.com/waynesutton/builder-skills 下载所有文件，并保存到 .claude/skills/builder-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我安装了哪些文件。",
+    "translatedAt": "2026-09-29T06:10:13.613Z",
+    "backTranslationDiff": 0.8125
+  },
+  "jakeschincariol/arena-skill": {
+    "sourceHash": "7c8c1d0313c74f05",
+    "chineseDescription": "当 Claude 老是给你烂答案时，就让它生成 100 个版本互相厮杀。同一个任务，100 种不同策略，搞个淘汰赛（bracket），最后只留一个答案。免费的 Claude Code skill。",
+    "prompt": "请帮我安装 arena-skill 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/jakeschincariol/arena-skill 下载相关文件，并保存到 .claude/skills/arena-skill/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-09-29T06:10:17.293Z",
+    "backTranslationDiff": 0.8947368421052632
   }
 }

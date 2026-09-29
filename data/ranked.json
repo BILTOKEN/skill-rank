@@ -6163,6 +6163,32 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "waynesutton/builder-skills",
+    "name": "builder-skills",
+    "description": "Builder skills for Convex apps. Convex patterns plus a PRD, task.md, changelog, and files.md workflow for Claude Code, Codex, Cursor, and OpenCode.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "后端",
+      "builder-skills",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "convex",
+      "cursor",
+      "database",
+      "skills"
+    ],
+    "stars": 405,
+    "lastPush": "2026-09-28T05:54:06Z",
+    "pool": "ranked",
+    "readmeLength": 1205,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
     "repo": "hoangsonww/claude-code-agent-monitor",
     "name": "Claude-Code-Agent-Monitor",
     "description": "🚀 A real-time monitoring dashboard for Claude Code, built with SQLite3, Node.js, Express, React, Vite, TailwindCSS, and WebSockets. It tracks sessions, agent activity, tool usage, and subagent orchestration, providing live analytics, a Kanban status board, status notifications, and an interactive web interface/MacOS native app.",
@@ -10365,6 +10391,31 @@
     "checkedAt": "2026-08-28T11:29:10.207Z"
   },
   {
+    "repo": "solanabr/ai-kit",
+    "name": "ai-kit",
+    "description": "Claude Code / Codex / AI configs for the expert Solana builder. CLAUDE.md, agents, commands, hooks, rules, skills and settings across Web, Anchor, Pinnochio, Unity, Mobile, security and more.",
+    "tags": [
+      "claude-agent",
+      "claude-code",
+      "claude-commands",
+      "claude-md",
+      "claude-skills",
+      "claude-subagents",
+      "solana-agents",
+      "solana-ai",
+      "solana-claude",
+      "solana-engineer",
+      "solana-program"
+    ],
+    "stars": 105,
+    "lastPush": "2026-09-29T00:17:30Z",
+    "pool": "ranked",
+    "readmeLength": 3587,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
     "repo": "mark393295827/third-brain-v5-skills",
     "name": "third-brain-v5-skills",
     "description": "claude-skills",
@@ -12811,6 +12862,25 @@
     "checkedAt": "2026-08-26T02:00:26.514Z"
   },
   {
+    "repo": "howseen-ai/claude-motion-design",
+    "name": "claude-motion-design",
+    "description": "A Claude Code skill to make motion design videos in pure code: HTML + Playwright + ffmpeg. No After Effects, no Remotion license.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "ffmpeg",
+      "motion-design",
+      "playwright"
+    ],
+    "stars": 54,
+    "lastPush": "2026-09-28T11:18:19Z",
+    "pool": "ranked",
+    "readmeLength": 632,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
     "repo": "raintree-technology/apple-hig-skills",
     "name": "hig-doctor",
     "description": "Apple HIG audit CLI + 14 agent skills for AI coding assistants — score any project for HIG compliance across 12 frameworks",
@@ -12969,6 +13039,27 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-06-28T04:54:06.383Z"
+  },
+  {
+    "repo": "jakeschincariol/arena-skill",
+    "name": "arena-skill",
+    "description": "When Claude keeps giving you bad answers, make 100 versions of it fight to the death. Same task, 100 different strategies, a bracket, one answer left. Free Claude Code skill.",
+    "tags": [
+      "arena",
+      "claude-code",
+      "claude-skills",
+      "multi-agent",
+      "prompting",
+      "subagents",
+      "tournament"
+    ],
+    "stars": 53,
+    "lastPush": "2026-09-27T13:20:07Z",
+    "pool": "ranked",
+    "readmeLength": 1681,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-09-29T05:49:07.810Z"
   },
   {
     "repo": "agents365-ai/mermaid-skill",
