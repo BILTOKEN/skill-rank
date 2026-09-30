@@ -8391,5 +8391,19 @@
     "prompt": "请帮我安装 arena-skill 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/jakeschincariol/arena-skill 下载相关文件，并保存到 .claude/skills/arena-skill/ 目录下完成安装。安装完成后告诉我怎么用。",
     "translatedAt": "2026-09-29T06:10:17.293Z",
     "backTranslationDiff": 0.8947368421052632
+  },
+  "sagochiko/aws-drawio-diagram-skill": {
+    "sourceHash": "1417bc6b2a0fab91",
+    "chineseDescription": "这个 Skill 让 Claude Code 能直接画 AWS 架构图（architecture diagram），输出格式是 draw.io 文件，画完可以直接用 draw.io 打开编辑。",
+    "prompt": "帮我安装一个 Claude Code Skill，叫 aws-drawio-diagram-skill。请你去 GitHub 仓库 https://github.com/sagochiko/aws-drawio-diagram-skill 把里面的文件下载下来，保存到 .claude/skills/aws-drawio-diagram-skill/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-09-30T05:50:07.035Z",
+    "backTranslationDiff": 0.6363636363636364
+  },
+  "simonlin1212/a-stock-data": {
+    "sourceHash": "cb79c39ebc49fda8",
+    "chineseDescription": "A股全栈数据工具包：行情K线、当日逐笔成交、研报、信号、资金面、新闻、财务、公告、打板、ETF期权、舆情、宏观利率、期货大宗（含大商所日K）、事件驱动、可转债。共15层、87个端点（endpoint）、34个数据源，除 iwencai 外全部免 Key。专为 AI agent 打造的 A股数据接口。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 a-stock-data。请你自己去 GitHub 仓库 https://github.com/simonlin1212/a-stock-data 下载该 Skill 的全部文件，并保存到 .claude/skills/a-stock-data/ 目录下完成安装。安装完成后告诉我这个 Skill 提供了哪些功能。",
+    "translatedAt": "2026-09-30T05:50:11.465Z",
+    "backTranslationDiff": 1
   }
 }

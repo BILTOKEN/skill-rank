@@ -874,6 +874,29 @@
     "lastPush": "2026-05-24T16:34:50Z"
   },
   {
+    "repo": "simonlin1212/a-stock-data",
+    "name": "a-stock-data",
+    "description": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
+    "tags": [
+      "a-share",
+      "ai-agent",
+      "ai-skill",
+      "china-stocks",
+      "claude-code",
+      "financial-data",
+      "fintech",
+      "investment-research",
+      "llm-tools",
+      "market-data",
+      "python",
+      "quantitative-finance",
+      "stock-market",
+      "trading"
+    ],
+    "stars": 10447,
+    "lastPush": "2026-09-25T09:56:12Z"
+  },
+  {
     "repo": "numman-ali/openskills",
     "name": "openskills",
     "description": "Universal skills loader for AI coding agents - npm i -g openskills",
@@ -12187,6 +12210,23 @@
     "lastPush": "2026-09-16T15:18:46Z"
   },
   {
+    "repo": "sagochiko/aws-drawio-diagram-skill",
+    "name": "aws-drawio-diagram-skill",
+    "description": "AWS の構成図を draw.io の形式で描く Claude Code の Skill / Claude Code Skill that draws AWS architecture diagrams as draw.io files",
+    "tags": [
+      "agent-skills",
+      "architecture-diagram",
+      "aws",
+      "aws-architecture",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "drawio"
+    ],
+    "stars": 33,
+    "lastPush": "2026-09-29T13:07:19Z"
+  },
+  {
     "repo": "notmyself/claude-win11-speckit-update-skill",
     "name": "claude-win11-speckit-update-skill",
     "description": "A Claude Code Skill that manages GitHub SpecKit updates.",
@@ -14063,6 +14103,32 @@
     ],
     "stars": 23,
     "lastPush": "2026-07-20T04:13:59Z"
+  },
+  {
+    "repo": "selfishprimate/seekter",
+    "name": "seekter",
+    "description": "A job-search agent for Claude Code. It searches job sources every day, filters postings against your rules (location, visa, salary, sectors, seniority, language), fills application forms in your own Chrome, and keeps every application and skip as a markdown file you can read, grep and diff.",
+    "tags": [
+      "AI",
+      "ai-agent",
+      "ai-agents",
+      "ats",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "job-board",
+      "job-portal",
+      "job-search",
+      "job-tracker",
+      "jobs",
+      "jobsearch",
+      "resume",
+      "skill-md",
+      "skills"
+    ],
+    "stars": 23,
+    "lastPush": "2026-09-29T18:37:52Z"
   },
   {
     "repo": "jimmysadek/strategic-partner",
@@ -27815,6 +27881,41 @@
     "lastPush": "2026-09-28T05:27:54Z"
   },
   {
+    "repo": "jongos/dazzler",
+    "name": "Dazzler",
+    "description": "Dazzler: frontend design skill for AI with expressive typography, vibrant color theory, and purposeful interfaces.",
+    "tags": [
+      "agent-skills",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "design-system",
+      "frontend-design",
+      "gemini-cli-extension",
+      "github-copilot",
+      "typography",
+      "ui-design"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-29T04:33:08Z"
+  },
+  {
+    "repo": "skill-plus-plus-org/skill-plus-plus",
+    "name": "skill-plus-plus",
+    "description": "Spot the work you keep repeating in Claude Code, and turn it into skills you review.",
+    "tags": [
+      "agent-skills",
+      "agent-skills-manager",
+      "claude-code",
+      "claude-code-skill",
+      "ollama"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-29T20:39:38Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -31320,6 +31421,26 @@
     ],
     "stars": 2,
     "lastPush": "2026-09-27T11:22:16Z"
+  },
+  {
+    "repo": "marcosmodly/marketing-skill",
+    "name": "marketing-skill",
+    "description": "Claude Code plugin with 12 composable marketing skills: competitor research, content calendars, SEO briefs, ad copy, cold outreach, short-form video packages, and rules-aware community posting, plus a pipeline to publish via webhook or platform APIs.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "cold-outreach",
+      "content-marketing",
+      "marketing-automation",
+      "seo",
+      "social-media"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-29T12:06:07Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

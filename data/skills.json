@@ -11864,6 +11864,32 @@
     }
   },
   {
+    "repo": "laolaoshiren/claude-code-skills-zh",
+    "name": "claude-code-skills-zh",
+    "description": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库｜按场景分类｜复制即装｜持续更新",
+    "description_zh": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库，按场景分类，复制即装，持续更新。",
+    "description_en": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库｜按场景分类｜复制即装｜持续更新",
+    "prompt": "请从 https://github.com/laolaoshiren/claude-code-skills-zh 下载整个仓库，并将所有文件保存到 .claude/skills/claude-code-skills-zh/ 目录下，完成安装。",
+    "tags": [
+      "ai-agent",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "prompt-engineering",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 869,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "gentleman-programming/gentleman-skills",
     "name": "Gentleman-Skills",
     "description": "Community-driven AI agent skills for Claude Code, OpenCode, and other AI assistants. Curated patterns and community contributions.",
@@ -15272,6 +15298,33 @@
     }
   },
   {
+    "repo": "sagochiko/aws-drawio-diagram-skill",
+    "name": "aws-drawio-diagram-skill",
+    "description": "AWS の構成図を draw.io の形式で描く Claude Code の Skill / Claude Code Skill that draws AWS architecture diagrams as draw.io files",
+    "description_zh": "这个 Skill 让 Claude Code 能直接画 AWS 架构图（architecture diagram），输出格式是 draw.io 文件，画完可以直接用 draw.io 打开编辑。",
+    "description_en": "AWS の構成図を draw.io の形式で描く Claude Code の Skill / Claude Code Skill that draws AWS architecture diagrams as draw.io files",
+    "prompt": "帮我安装一个 Claude Code Skill，叫 aws-drawio-diagram-skill。请你去 GitHub 仓库 https://github.com/sagochiko/aws-drawio-diagram-skill 把里面的文件下载下来，保存到 .claude/skills/aws-drawio-diagram-skill/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "tags": [
+      "agent-skills",
+      "architecture-diagram",
+      "aws",
+      "aws-architecture",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "drawio"
+    ],
+    "metrics": {
+      "stars_total": 33,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 6,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "tronghieu/agent-skills",
     "name": "agent-skills",
     "description": "Method-driven agent skills for knowledge work: strategy, research, critical thinking, data analysis, docs, slides. Works with Claude Code, Codex, Cursor and any agentskills.io-compatible agent.",
@@ -15566,6 +15619,39 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 7,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "simonlin1212/a-stock-data",
+    "name": "a-stock-data",
+    "description": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
+    "description_zh": "A股全栈数据工具包：行情K线、当日逐笔成交、研报、信号、资金面、新闻、财务、公告、打板、ETF期权、舆情、宏观利率、期货大宗（含大商所日K）、事件驱动、可转债。共15层、87个端点（endpoint）、34个数据源，除 iwencai 外全部免 Key。专为 AI agent 打造的 A股数据接口。",
+    "description_en": "A股全栈数据工具包：行情K线·当日逐笔·研报·信号·资金面·新闻·财务·公告·打板·ETF期权·舆情·宏观利率·期货大宗(含大商所日K)·事件驱动·可转债 | 15层·87端点·34数据源·除iwencai外免Key | A-share data for AI agents: K-lines, ticks, reports, fund flow, news, financials, filings, options, macro, futures, events, convertibles | 15 layers·87 endpoints·34 sources",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 a-stock-data。请你自己去 GitHub 仓库 https://github.com/simonlin1212/a-stock-data 下载该 Skill 的全部文件，并保存到 .claude/skills/a-stock-data/ 目录下完成安装。安装完成后告诉我这个 Skill 提供了哪些功能。",
+    "tags": [
+      "a-share",
+      "ai-agent",
+      "ai-skill",
+      "china-stocks",
+      "claude-code",
+      "financial-data",
+      "fintech",
+      "investment-research",
+      "llm-tools",
+      "market-data",
+      "python",
+      "quantitative-finance",
+      "stock-market",
+      "trading"
+    ],
+    "metrics": {
+      "stars_total": 10447,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 1,
       "last_push": ""
     }
   },
