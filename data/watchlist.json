@@ -5538,6 +5538,26 @@
     "checkedAt": "2026-09-13T04:53:52.374Z"
   },
   {
+    "repo": "seokwoooo/promptfilm",
+    "name": "promptfilm",
+    "description": "One sentence in, a researched 3D motion graphic out — a Claude Code skill that makes looping real-time HTML films (Three.js) and frame-exact MP4s",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "motion-graphics",
+      "shorts",
+      "threejs"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-01T18:16:37Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-02T05:46:18.128Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -6629,6 +6649,51 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
+    "repo": "0xpratzyy/dissect",
+    "name": "dissect",
+    "description": "Reverse-engineer any video (YouTube, TikTok, Reels, X...) into a reusable blueprint for making similar videos. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "content-creation",
+      "video-analysis",
+      "whisper",
+      "yt-dlp"
+    ],
+    "stars": 17,
+    "lastPush": "2026-10-01T11:42:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-02T05:46:18.128Z"
+  },
+  {
+    "repo": "niansia/taiwan-exam",
+    "name": "taiwan-exam",
+    "description": "讓 AI 出一份原創的學測模擬考：命題、解題驗算、套用大考正式版面，交付題目與答案詳解兩份 PDF。支援 Claude、ChatGPT、Gemini；學測七科可用，會考與分科測驗規劃中。",
+    "tags": [
+      "ai-education",
+      "chatgpt",
+      "claude-skills",
+      "education",
+      "exam",
+      "gemini",
+      "gsat",
+      "mock-exam",
+      "pdf",
+      "taiwan"
+    ],
+    "stars": 17,
+    "lastPush": "2026-09-29T08:46:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-02T05:46:18.128Z"
   },
   {
     "repo": "ethos-link/rails-conventions",

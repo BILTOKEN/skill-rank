@@ -845,6 +845,21 @@
     "lastPush": "2026-04-28T19:30:24Z"
   },
   {
+    "repo": "latent-spaces/brag",
+    "name": "brag",
+    "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "hyperframes",
+      "launch-video",
+      "video-generation"
+    ],
+    "stars": 12826,
+    "lastPush": "2026-10-01T16:24:38Z"
+  },
+  {
     "repo": "wanshuiyin/auto-claude-code-research-in-sleep",
     "name": "Auto-claude-code-research-in-sleep",
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
@@ -14895,6 +14910,21 @@
     "lastPush": "2026-08-06T06:55:38Z"
   },
   {
+    "repo": "seokwoooo/promptfilm",
+    "name": "promptfilm",
+    "description": "One sentence in, a researched 3D motion graphic out — a Claude Code skill that makes looping real-time HTML films (Three.js) and frame-exact MP4s",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "motion-graphics",
+      "shorts",
+      "threejs"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-01T18:16:37Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -15767,6 +15797,41 @@
     ],
     "stars": 17,
     "lastPush": "2026-09-06T21:14:06Z"
+  },
+  {
+    "repo": "0xpratzyy/dissect",
+    "name": "dissect",
+    "description": "Reverse-engineer any video (YouTube, TikTok, Reels, X...) into a reusable blueprint for making similar videos. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "content-creation",
+      "video-analysis",
+      "whisper",
+      "yt-dlp"
+    ],
+    "stars": 17,
+    "lastPush": "2026-10-01T11:42:33Z"
+  },
+  {
+    "repo": "niansia/taiwan-exam",
+    "name": "taiwan-exam",
+    "description": "讓 AI 出一份原創的學測模擬考：命題、解題驗算、套用大考正式版面，交付題目與答案詳解兩份 PDF。支援 Claude、ChatGPT、Gemini；學測七科可用，會考與分科測驗規劃中。",
+    "tags": [
+      "ai-education",
+      "chatgpt",
+      "claude-skills",
+      "education",
+      "exam",
+      "gemini",
+      "gsat",
+      "mock-exam",
+      "pdf",
+      "taiwan"
+    ],
+    "stars": 17,
+    "lastPush": "2026-09-29T08:46:40Z"
   },
   {
     "repo": "ethos-link/rails-conventions",

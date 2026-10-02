@@ -8405,5 +8405,12 @@
     "prompt": "请帮我安装一个 Claude Code Skill，名称是 a-stock-data。请你自己去 GitHub 仓库 https://github.com/simonlin1212/a-stock-data 下载该 Skill 的全部文件，并保存到 .claude/skills/a-stock-data/ 目录下完成安装。安装完成后告诉我这个 Skill 提供了哪些功能。",
     "translatedAt": "2026-09-30T05:50:11.465Z",
     "backTranslationDiff": 1
+  },
+  "latent-spaces/brag": {
+    "sourceHash": "ebe1bbc3b1dffef2",
+    "chineseDescription": "你做完了项目，现在该炫耀一下了。用一条命令，把你刚做好的项目变成一段简短、适合分享的发布视频（launch video）。",
+    "prompt": "请帮我安装 brag 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/latent-spaces/brag 下载该 Skill 的所有文件；2) 在项目根目录创建 .claude/skills/brag/ 目录；3) 把下载的文件保存到该目录下，确保 SKILL.md 等文件结构完整。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-10-02T05:58:46.065Z",
+    "backTranslationDiff": 0.3076923076923077
   }
 }

@@ -14699,6 +14699,31 @@
     }
   },
   {
+    "repo": "latent-spaces/brag",
+    "name": "brag",
+    "description": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+    "description_zh": "你做完了项目，现在该炫耀一下了。用一条命令，把你刚做好的项目变成一段简短、适合分享的发布视频（launch video）。",
+    "description_en": "You built it. Now brag. Turn the project you just created into a short, shareable launch video with one command.",
+    "prompt": "请帮我安装 brag 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/latent-spaces/brag 下载该 Skill 的所有文件；2) 在项目根目录创建 .claude/skills/brag/ 目录；3) 把下载的文件保存到该目录下，确保 SKILL.md 等文件结构完整。安装完成后告诉我怎么用。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "hyperframes",
+      "launch-video",
+      "video-generation"
+    ],
+    "metrics": {
+      "stars_total": 12826,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 4,
+      "issues_closed_7d": 3,
+      "issue_comments": 0,
+      "commits_7d": 7,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "metamusicx/zissa-wiki",
     "name": "zissa-wiki",
     "description": "Zissa Wiki — an LLM-maintained research knowledge base in plain markdown, maintained by any AI agent (Claude, Codex, Gemini, DeepSeek, Kimi, Grok, Mistral or any chat app). Implements Karpathy's LLM Wiki pattern; checks every quote against its source.",
