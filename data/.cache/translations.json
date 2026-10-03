@@ -5495,11 +5495,11 @@
     "backTranslationDiff": 0.2666666666666667
   },
   "thepushkarp/cc-gemini-plugin": {
-    "sourceHash": "3efe72ef87e90903",
-    "chineseDescription": "为 Claude Code 和 Codex 提供 Gemini CLI 集成。",
-    "prompt": "请从 https://github.com/thepushkarp/cc-gemini-plugin 下载该仓库的所有文件，并将它们保存到 .claude/skills/cc-gemini-plugin/ 目录下，以完成安装。",
-    "translatedAt": "2026-05-31T07:27:33.253Z",
-    "backTranslationDiff": 0
+    "sourceHash": "7fa10386f24d82f0",
+    "chineseDescription": "把 Gemini CLI（命令行工具）集成到 Claude Code 和 Codex 里，说白了，任何 agent（智能体）都能用。",
+    "prompt": "帮我安装 cc-gemini-plugin 这个 Skill。请从 GitHub 仓库 https://github.com/thepushkarp/cc-gemini-plugin 下载全部文件，保存到 .claude/skills/cc-gemini-plugin/ 目录下，完成安装。",
+    "translatedAt": "2026-10-03T05:42:42.940Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "geeksfino/openskills": {
     "sourceHash": "727cc99990764f83",
@@ -5894,11 +5894,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "santifer/career-ops": {
-    "sourceHash": "de4aedd205af0f77",
-    "chineseDescription": "开源 AI 求职助手：扫描招聘网站，把职位信息整理成结构化的 A-H 报告并给出 1-5 的全球评分，帮你定制简历、跟踪申请进度——全部在你本地的 AI 编程 CLI（Claude Code、Codex、OpenCode、Antigravity 等）里运行。",
-    "prompt": "请帮我安装 career-ops 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/santifer/career-ops 下载全部文件；2) 在项目根目录创建 .claude/skills/career-ops/ 目录；3) 把下载的文件保存到该目录下（保留原有的目录结构，比如 SKILL.md 等文件）；4) 安装完成后告诉我这个 Skill 怎么用。如果本地已经有同名目录，先提示我再决定是否覆盖。",
-    "translatedAt": "2026-10-01T06:23:18.337Z",
-    "backTranslationDiff": 0.36
+    "sourceHash": "632d7477dee8e771",
+    "chineseDescription": "开源 AI 求职助手（job search agent）和职位搜索工具：扫描招聘网站（job boards），在你投递前先根据你的简历（CV）给每个职位打 1-5 分，帮你定制符合 ATS（申请人跟踪系统）要求的简历和求职信，还提供面试准备和求职申请追踪器（job application tracker）。它帮你把每份申请都填好，你只需要点提交。完全在你本地的 AI 编程命令行工具（CLI）里运行，支持 Claude Code、Codex、OpenCode 等。",
+    "prompt": "请帮我安装 career-ops 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/santifer/career-ops 下载相关文件，并保存到 .claude/skills/career-ops/ 目录下完成安装。安装完成后告诉我怎么使用它。",
+    "translatedAt": "2026-10-03T05:42:31.309Z",
+    "backTranslationDiff": 0.47058823529411764
   },
   "trailofbits/skills": {
     "sourceHash": "41ac4243f6ec1f3a",
@@ -7091,11 +7091,11 @@
     "backTranslationDiff": 0.5
   },
   "meet-miyani/compose-skill": {
-    "sourceHash": "3a2a1ee23ef2b1e5",
-    "chineseDescription": "这是一个面向 Jetpack Compose 和 Compose Multiplatform (KMP/CMP) 的 AI agent 技能包。涵盖 MVI 架构、Navigation 3、Koin/Hilt 依赖注入、Ktor 网络请求、Room 数据库、DataStore 存储、Paging 3 分页、Coil 图片加载、协程/Flow 异步、动画、性能优化、无障碍、测试以及跨平台开发模式。适用于 Codex、Cursor、Claude Code 等工具。",
-    "prompt": "请从 https://github.com/meet-miyani/compose-skill 下载文件，并将其保存到 .claude/skills/compose-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-06-03T18:36:57.125Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "d22a8d69c3678376",
+    "chineseDescription": "Compose Skill（Compose 工具包）：一套给 Jetpack Compose 和 Compose Multiplatform（多平台）用的 agent skill（智能体技能）。它能让 Claude Code、Codex、Cursor、Copilot、Gemini CLI 和 OpenCode 写出更好的 Compose 代码，涵盖 MVI、Koin、Navigation 3、Ktor、Room 这些常用技术栈。作者在 5 个模型上做了 120 次 agentic run（智能体运行）的盲测。\n\n【使用场景】当你在用 Claude Code 或其他 AI 编程助手写 Android / Kotlin Multiplatform 的 Compose 界面、状态管理（MVI）、依赖注入（Koin）、导航（Navigation 3）、网络请求（Ktor）或本地数据库（Room）时，装上这个技能能让 AI 生成的代码更规范、更贴近最佳实践。",
+    "prompt": "请帮我安装 compose-skill 这个 Claude Code 技能。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/meet-miyani/compose-skill 下载全部文件（可以用 git clone 或者直接下载 zip 解压）。\n2. 把下载下来的内容保存到当前项目的 .claude/skills/compose-skill/ 目录下（如果目录不存在就创建）。\n3. 确认目录结构正确，比如 .claude/skills/compose-skill/SKILL.md 或类似的技能描述文件存在。\n4. 安装完成后告诉我这个技能能做什么、怎么触发使用。\n\n仓库地址：https://github.com/meet-miyani/compose-skill",
+    "translatedAt": "2026-10-03T05:42:39.523Z",
+    "backTranslationDiff": 0.7931034482758621
   },
   "cortexreach/memory-lancedb-pro-skill": {
     "sourceHash": "2604c8fa9ab96b5a",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "5cf6597954f51be6",
-    "chineseDescription": "这是 Poteto 的 pstack 在 Claude Code、Codex、OpenCode、Gemini 和 Prime Agent 上的版本。把 Cursor 的原始工作流原语（primitives）翻译适配到其他 agent 框架（harness）上，提供一套严谨的 agent 工作流。",
-    "prompt": "请帮我安装 pstack-claude 这个 Skill。\n\n步骤：\n1. 访问 GitHub 仓库：https://github.com/michael-denyer/pstack-claude\n2. 下载仓库中的全部文件\n3. 保存到本地目录：.claude/skills/pstack-claude/\n4. 完成后告诉我安装成功，并简单说明这个 Skill 是做什么的\n\n注意：不要假设我已经装过任何东西，请直接从 https://github.com/michael-denyer/pstack-claude 拉取文件。",
-    "translatedAt": "2026-09-21T05:21:47.271Z",
-    "backTranslationDiff": 0.4444444444444444
+    "sourceHash": "7c0f74ef6b490354",
+    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的版本，包括 Claude Code、Codex、Pi、OpenCode、Gemini 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（workflow）原语（primitive）翻译适配到了其他 harness 上，让你在别的工具里也能用上同一套流程。",
+    "prompt": "请帮我安装 pstack-claude 这个 Skill。请从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载相关文件，并保存到 .claude/skills/pstack-claude/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我装好了哪些文件。",
+    "translatedAt": "2026-10-03T05:42:35.315Z",
+    "backTranslationDiff": 0.7777777777777778
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "6cac47c094053c9b",
@@ -8412,5 +8412,19 @@
     "prompt": "请帮我安装 brag 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/latent-spaces/brag 下载该 Skill 的所有文件；2) 在项目根目录创建 .claude/skills/brag/ 目录；3) 把下载的文件保存到该目录下，确保 SKILL.md 等文件结构完整。安装完成后告诉我怎么用。",
     "translatedAt": "2026-10-02T05:58:46.065Z",
     "backTranslationDiff": 0.3076923076923077
+  },
+  "rebelytics/one-skill-to-rule-them-all": {
+    "sourceHash": "10d8edcdb9c26aee",
+    "chineseDescription": "这个 Skill 是个「元技能」（meta-skill），专门用来构建和改进你所有的技能，包括它自己。它会盯着你的工作过程（不管是自动跑的还是人工操作的），把里面的模式、纠正和判断决策都记下来，然后转化成技能改进方案和新的技能候选，交给你审核。这是「增强专业能力」（Augmented Expertise）方法论的实际落地。开源协议：CC BY 4.0。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/rebelytics/one-skill-to-rule-them-all 下载所有文件，保存到 .claude/skills/one-skill-to-rule-them-all/ 目录下，完成安装。如果目录不存在请先创建。安装完成后告诉我这个 Skill 是干什么用的。",
+    "translatedAt": "2026-10-03T05:42:46.823Z",
+    "backTranslationDiff": 0.48484848484848486
+  },
+  "autodesk-platform-services/skills": {
+    "sourceHash": "668b1d79bb5dd1d2",
+    "chineseDescription": "这是一套可复用的 AI agent 技能（skills）合集，面向 Autodesk Platform Services（Autodesk 平台服务）以及 Autodesk 的行业云产品，比如 Flow、Forma 和 Fusion。简单说，就是把 Autodesk 这些平台相关的常用能力打包成 Claude Code 能直接调用的技能，省得每次重新写。",
+    "prompt": "请帮我安装一个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/autodesk-platform-services/skills 下载所有文件；2) 在项目里创建目录 .claude/skills/skills/；3) 把下载的内容保存到该目录下，保持原有的文件结构。完成后告诉我安装了哪些技能。",
+    "translatedAt": "2026-10-03T05:42:50.994Z",
+    "backTranslationDiff": 0.7692307692307692
   }
 }
