@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "6e82327ad861ee41",
-    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级的合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案（EU AI Act）、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险框架、SWIFT、CCPA/CPRA 等。基准测试成绩：使用该 Skill 时 89%，不使用时为 57%。每月更新。",
-    "prompt": "帮我安装一个 Claude Code Skill：Claude-Skills-Governance-Risk-and-Compliance。请你去 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件，并保存到当前项目的 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下完成安装。如果目录不存在就创建它。安装完成后告诉我这个 Skill 能做什么、怎么用。",
-    "translatedAt": "2026-09-16T05:16:15.345Z",
-    "backTranslationDiff": 0.9705882352941176
+    "sourceHash": "8fe2f98bf84c7abd",
+    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级的合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案（EU AI Act）、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险（NIST AI Risk）、SWIFT、CCPA/CPRA 等。基准测试成绩：使用 Skills 时 89%，不使用 Skills 时 55%。每月更新。",
+    "prompt": "请帮我安装 Claude-Skills-Governance-Risk-and-Compliance 这个 Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件（如果 git 可用就用 git clone，否则用 curl 或 wget 下载压缩包并解压）。\n2. 在项目根目录创建 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录。\n3. 把下载到的所有文件放到该目录下（保持原有的目录结构，确保 SKILL.md 等文件位于 .claude/skills/claude-skills-governance-risk-and-compliance/ 内）。\n4. 安装完成后，列出该目录下的文件，确认安装成功。\n\n仓库地址：https://github.com/sushegaad/claude-skills-governance-risk-and-compliance",
+    "translatedAt": "2026-10-04T06:20:26.700Z",
+    "backTranslationDiff": 0.9411764705882353
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -8309,11 +8309,11 @@
     "backTranslationDiff": 0.9047619047619048
   },
   "activeing123/mcptoon": {
-    "sourceHash": "726fb70fbfbb81dd",
-    "chineseDescription": "一个零依赖 CLI（命令行工具），统一管理你所有的 MCP 工具和 Agent 技能。工具发现环节省下 99.2% 的 token，一份配置通吃所有 Agent，无需预装任何东西。整个工具只有 227KB，纯 Python 标准库实现。",
-    "prompt": "请帮我安装 mcptoon 这个 Claude Code Skill。步骤：1) 访问 GitHub 仓库 https://github.com/activeing123/mcptoon 下载全部文件；2) 在项目根目录创建 .claude/skills/mcptoon/ 目录；3) 把下载的文件保存到该目录下；4) 确认安装完成后告诉我怎么用。仓库地址是 https://github.com/activeing123/mcptoon",
-    "translatedAt": "2026-09-26T05:23:53.204Z",
-    "backTranslationDiff": 0.8181818181818181
+    "sourceHash": "9b9298c8356c9585",
+    "chineseDescription": "一个零依赖（zero-dependency）的 CLI（命令行工具），统一管理所有 MCP server 和 agent skill。核心功能：token 优化（token optimization）、工具发现（tool discovery）和上下文压缩（context compression）——实测从 71,929 个 token 降到 581 个（减少 99.2%），schema 不再占用上下文。一份配置就能同时用于 Claude Code、Codex、Cursor 以及各种 agent。体积仅 341KB，纯 Python 编写。",
+    "prompt": "请帮我安装 mcptoon 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/activeing123/mcptoon 下载全部文件；2) 在项目根目录创建 .claude/skills/mcptoon/ 目录；3) 把下载的文件放到该目录下；4) 确认目录结构正确后告诉我安装完成。仓库地址是 https://github.com/activeing123/mcptoon",
+    "translatedAt": "2026-10-04T06:20:30.602Z",
+    "backTranslationDiff": 0.8387096774193549
   },
   "heyixuan2/bambu-studio-ai": {
     "sourceHash": "f1f3ffac76786199",
@@ -8426,5 +8426,12 @@
     "prompt": "请帮我安装一个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/autodesk-platform-services/skills 下载所有文件；2) 在项目里创建目录 .claude/skills/skills/；3) 把下载的内容保存到该目录下，保持原有的文件结构。完成后告诉我安装了哪些技能。",
     "translatedAt": "2026-10-03T05:42:50.994Z",
     "backTranslationDiff": 0.7692307692307692
+  },
+  "jakeschincariol/replica-skill": {
+    "sourceHash": "7cf2d9d23a2f6c8d",
+    "chineseDescription": "十一个免费的 Claude 技能（skills），能克隆任何应用：逆向工程（reverse-engineer）它、重建它、测试它的 bug，然后修复用户讨厌的地方。免费，MIT 许可。",
+    "prompt": "请帮我安装 replica-skill 这个 Claude Code 技能。步骤：1）从 GitHub 仓库 https://github.com/jakeschincariol/replica-skill 下载全部文件；2）在项目根目录创建 .claude/skills/replica-skill/ 目录；3）把下载的文件保存到该目录下；4）确认安装完成并告诉我这个技能能做什么。",
+    "translatedAt": "2026-10-04T06:20:33.996Z",
+    "backTranslationDiff": 0.9411764705882353
   }
 }
