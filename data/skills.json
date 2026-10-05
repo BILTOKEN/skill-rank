@@ -639,6 +639,39 @@
     }
   },
   {
+    "repo": "vincentwei1021/video-shotcraft",
+    "name": "video-shotcraft",
+    "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+    "description_zh": "面向 Claude Code 和 Codex 的 AI 视频技能——用 Remotion 制作电影感产品视频：包含 152 个镜头配方卡片、209 个运动预览，以及一个可直接上手的生产级模板。",
+    "description_en": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
+    "prompt": "请从 https://github.com/vincentwei1021/video-shotcraft 下载该技能文件，并将其保存到 .claude/skills/video-shotcraft/ 目录下，完成安装。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "motion-design",
+      "motion-graphics",
+      "product-video",
+      "promo-video",
+      "remotion",
+      "video-generation",
+      "video-production"
+    ],
+    "metrics": {
+      "stars_total": 10300,
+      "stars_added_7d": 557,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 1,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "santifer/career-ops",
     "name": "career-ops",
     "description": "Open-source AI job search agent and job finder: scan job boards, score each job 1-5 against your CV before you apply, tailor an ATS-friendly resume and cover letter, get interview prep and a job application tracker. It helps you fill in each application; you press Submit. Runs locally in your AI coding CLI (Claude Code, Codex, OpenCode and more).",
@@ -1912,6 +1945,43 @@
       "issues_closed_7d": 4,
       "issue_comments": 0,
       "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "vincentwei1021/anything2explainer",
+    "name": "anything2explainer",
+    "description": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+    "description_zh": "输入一个主题，输出带旁白的解说视频。这是一个 Claude Code / Codex 技能（skill），能把任何主题变成黑底动态图形（motion-graphics）解说视频，自带 TTS 语音旁白、字幕和章节进度条。支持中文或英文；每一帧都用代码通过 Remotion 绘制。",
+    "description_en": "Topic in, narrated explainer video out. A Claude Code / Codex skill that turns any topic into a black-canvas motion-graphics explainer video with TTS voiceover, subtitles and a chapter progress bar. Chinese or English; every frame drawn in code with Remotion.",
+    "prompt": "请帮我安装 anything2explainer 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/vincentwei1021/anything2explainer 下载所有文件，并保存到 .claude/skills/anything2explainer/ 目录下完成安装。安装完成后告诉我这个技能能做什么、怎么用。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-video",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "edge-tts",
+      "educational-video",
+      "explainer-video",
+      "kokoro",
+      "motion-graphics",
+      "multi-agent",
+      "react",
+      "remotion",
+      "text-to-video",
+      "tts",
+      "typescript",
+      "video-generation"
+    ],
+    "metrics": {
+      "stars_total": 2238,
+      "stars_added_7d": 124,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
       "last_push": ""
     }
   },
@@ -13911,6 +13981,77 @@
     }
   },
   {
+    "repo": "tt-a1i/archify",
+    "name": "archify",
+    "description": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+    "description_zh": "把任何想法、方案或代码库（codebase）变成漂亮的交互式图表（interactive diagram）。这是一个给 Claude Code、Codex 等工具用的 agent skill（智能体技能）。",
+    "description_en": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for Claude Code, Codex, and more.",
+    "prompt": "帮我安装一个 Claude Code skill，名字叫 archify。请你去 GitHub 仓库 https://github.com/tt-a1i/archify 下载相关文件，并保存到 .claude/skills/archify/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "architecture-diagram",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "deepseek-harness",
+      "developer-tools",
+      "diagrams",
+      "diagrams-as-code",
+      "dsh-plugin",
+      "flowchart",
+      "llm",
+      "mermaid",
+      "opencode",
+      "sequence-diagram",
+      "software-architecture",
+      "system-design",
+      "visualization"
+    ],
+    "metrics": {
+      "stars_total": 77626,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 7,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "orchestratorinc/agent-orchestrator",
+    "name": "agent-orchestrator",
+    "description": "Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.",
+    "description_zh": "从规划到合并（merge），运行并监督编码代理（coding agents）团队。支持任意执行框架（harness），包括 Claude Code、Codex 以及另外 25 种以上。支持桌面端、网页端、移动端和云端代理（cloud agents）。",
+    "description_en": "Run and supervise teams of coding agents from planning to merge. Any harness (Claude code, codex, +25 more). Desktop, web, mobile, and cloud agents.",
+    "prompt": "请帮我安装 agent-orchestrator 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/orchestratorinc/agent-orchestrator 下载所需的文件，并保存到 .claude/skills/agent-orchestrator/ 目录下完成安装。安装完成后请告诉我如何使用它。",
+    "tags": [
+      "agent-fleet",
+      "agent-ide",
+      "agent-orchestration",
+      "agent-swarm",
+      "claude-code",
+      "codex-cli",
+      "git-worktrees",
+      "multi-agent",
+      "orchestration",
+      "orchestrator",
+      "parallel-agents",
+      "parallel-coding",
+      "skills"
+    ],
+    "metrics": {
+      "stars_total": 12746,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 9,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "rebelytics/one-skill-to-rule-them-all",
     "name": "one-skill-to-rule-them-all",
     "description": "The meta-skill that builds and improves all your skills, including itself. Watches your work sessions (autonomous or human-led), captures patterns, corrections and judgement calls, and turns them into skill improvements and new skill candidates for your review. Practical application of the Augmented Expertise methodology. Open source: CC BY 4.0.",
@@ -14036,6 +14177,64 @@
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 25,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "leonxlnx/cinetic",
+    "name": "cinetic",
+    "description": "Cinematic launch films and motion design from code, directed by your coding agent.",
+    "description_zh": "用代码制作电影级发布短片和动态设计（motion design），由你的编程智能体（coding agent）来当导演。",
+    "description_en": "Cinematic launch films and motion design from code, directed by your coding agent.",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 cinetic。请你自己去这个 GitHub 仓库下载：https://github.com/leonxlnx/cinetic ，把里面的文件保存到 .claude/skills/cinetic/ 目录下，完成安装。装好后告诉我这个 skill 是干嘛的、怎么用。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "launch-video",
+      "motion-design",
+      "remotion"
+    ],
+    "metrics": {
+      "stars_total": 48,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "sebastianhaba/book-to-course-skill",
+    "name": "book-to-course-skill",
+    "description": "Claude skill that turns a book (EPUB, PDF, HTML, DOCX, Markdown) into an interactive beginner-friendly course: step-by-step lessons, animations, quizzes, chapter tests, flashcards and coding exercises checked by unit tests, with progress saved to files.",
+    "description_zh": "这个 Claude skill（技能）能把一本书（支持 EPUB、PDF、HTML、DOCX、Markdown 格式）变成一门适合新手入门的互动课程：包含分步骤讲解、动画、随堂测验、章节测试、记忆卡片（flashcards），还有用单元测试（unit tests）自动批改的编程练习，学习进度会保存到文件里。",
+    "description_en": "Claude skill that turns a book (EPUB, PDF, HTML, DOCX, Markdown) into an interactive beginner-friendly course: step-by-step lessons, animations, quizzes, chapter tests, flashcards and coding exercises checked by unit tests, with progress saved to files.",
+    "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 book-to-course-skill。\n\n请你自己去这个 GitHub 仓库下载：https://github.com/sebastianhaba/book-to-course-skill\n\n下载后把相关文件保存到 .claude/skills/book-to-course-skill/ 目录下，完成安装。\n\n注意：不要假设我已经提前下载好了，你需要自己去获取仓库内容并放到正确的位置。安装完成后告诉我怎么用。",
+    "tags": [
+      "AI",
+      "ai-skill",
+      "ai-skill-file",
+      "ai-skills",
+      "books",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "course",
+      "course-materials",
+      "courses",
+      "hyperskill"
+    ],
+    "metrics": {
+      "stars_total": 37,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 1,
+      "issues_closed_7d": 1,
       "issue_comments": 0,
       "commits_7d": 25,
       "last_push": ""
@@ -14217,6 +14416,32 @@
     ],
     "metrics": {
       "stars_total": 33,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 6,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "xianyu110/ecommerce-image-skills",
+    "name": "ecommerce-image-skills",
+    "description": "12 电商出图 Agent Skills for Claude Code / Codex / Cursor · GPT Image 2.5 (Flare/Sunburst) · Amazon 白底主图, A+, 场景图, 模特图, 小红书封面, 淘宝详情页",
+    "description_zh": "12 个电商出图 Agent Skills（智能体技能），适用于 Claude Code / Codex / Cursor · 基于 GPT Image 2.5（Flare/Sunburst）· 支持 Amazon 白底主图、A+ 页面、场景图、模特图、小红书封面、淘宝详情页",
+    "description_en": "12 电商出图 Agent Skills for Claude Code / Codex / Cursor · GPT Image 2.5 (Flare/Sunburst) · Amazon 白底主图, A+, 场景图, 模特图, 小红书封面, 淘宝详情页",
+    "prompt": "请帮我安装 ecommerce-image-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/xianyu110/ecommerce-image-skills 下载所有文件，并保存到 .claude/skills/ecommerce-image-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我这个 Skill 包含哪些功能。",
+    "tags": [
+      "agent-skills",
+      "ai-image",
+      "amazon",
+      "claude-skills",
+      "ecommerce",
+      "gpt-image",
+      "product-photography"
+    ],
+    "metrics": {
+      "stars_total": 41,
       "stars_added_7d": 0,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
@@ -14423,6 +14648,30 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 13,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "mrbongoc/ai-iso-skill",
+    "name": "ai-iso-skill",
+    "description": "Claude skill that draws interactive isometric figures in a single HTML file",
+    "description_zh": "这个 Claude skill（技能）可以在单个 HTML 文件里画出可交互的等距图形（isometric figures）。",
+    "description_en": "Claude skill that draws interactive isometric figures in a single HTML file",
+    "prompt": "请帮我安装 ai-iso-skill 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/mrbongoc/ai-iso-skill 下载所有文件，并保存到 .claude/skills/ai-iso-skill/ 目录下完成安装。安装完成后告诉我怎么使用它。",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "isometric",
+      "svg"
+    ],
+    "metrics": {
+      "stars_total": 48,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 4,
       "last_push": ""
     }
   },
