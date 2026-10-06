@@ -2912,11 +2912,11 @@
     "backTranslationDiff": 0.09999999999999998
   },
   "agricidaniel/claude-seo": {
-    "sourceHash": "f574215e870eef56",
-    "chineseDescription": "Claude Code 的通用 SEO 技能（Skill）。包含 26 个子技能（sub-skills）+ 19 个子代理（sub-agents），覆盖技术 SEO、E-E-A-T、结构化数据（schema）、GEO/AEO、代理就绪（agent readiness，包括 Lighthouse Agentic Browsing、WebMCP、llms.txt）、外链（backlinks）、本地 SEO、电商 SEO、国际化 SEO、Google API，以及 PDF/Excel 报告。另有 9 个可选扩展（extensions），包括 DataForSEO、Firecrawl、Ahrefs 和 Matomo。",
-    "prompt": "请帮我安装 claude-seo 这个 Claude Code 技能（Skill）。请从 GitHub 仓库 https://github.com/agricidaniel/claude-seo 下载全部文件，并保存到 .claude/skills/claude-seo/ 目录下完成安装。安装完成后，请告诉我这个技能包含哪些子技能（sub-skills）和子代理（sub-agents），以及如何使用它。",
-    "translatedAt": "2026-09-24T05:19:18.560Z",
-    "backTranslationDiff": 0.9117647058823529
+    "sourceHash": "320a35ec8b34937e",
+    "chineseDescription": "Claude Code 的通用 SEO（搜索引擎优化）技能包。包含 26 个子技能（sub-skills）和 19 个子代理（sub-agents），覆盖技术 SEO、E-E-A-T、schema（结构化数据）、GEO/AEO（生成式引擎优化/答案引擎优化）、代理就绪（Agent Readiness，包括 Lighthouse Agentic Browsing、WebMCP、llms.txt）、外链（backlinks）、本地 SEO、电商 SEO、国际化 SEO、Google APIs，以及 PDF/Excel 报告生成。另有 9 个可选扩展，用于接入实时 SEO 数据。",
+    "prompt": "请帮我安装 claude-seo 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/agricidaniel/claude-seo 下载所有文件，并保存到 .claude/skills/claude-seo/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个技能包含哪些子技能和子代理。",
+    "translatedAt": "2026-10-06T06:50:43.142Z",
+    "backTranslationDiff": 0.25806451612903225
   },
   "pleaseprompto/notebooklm-skill": {
     "sourceHash": "b69c74b91c1064de",
@@ -3304,11 +3304,11 @@
     "backTranslationDiff": 0.125
   },
   "cosmoblk/email-marketing-bible": {
-    "sourceHash": "5621260b81f068f0",
-    "chineseDescription": "这是 Claude Code 的 Email marketing（电子邮件营销）技能。包含 55K 单词、908 个来源、19 个行业剧本（playbook）。安装该技能后，Claude 将成为你的电子邮件营销专家。【使用场景】适用于需要快速掌握电子邮件营销策略、模板和最佳实践的开发者或营销人员。",
-    "prompt": "请从 GitHub 仓库 https://github.com/cosmoblk/email-marketing-bible 下载 email-marketing-bible skill，并将所有文件保存到 .claude/skills/email-marketing-bible/ 目录，完成安装。",
-    "translatedAt": "2026-05-24T13:15:15.753Z",
-    "backTranslationDiff": 0.15384615384615385
+    "sourceHash": "63ef997629e9645f",
+    "chineseDescription": "这是一个给 Claude Code 用的邮件营销（Email Marketing）技能包。包含 8.8 万字内容、908 个信息来源、19 个行业实战手册（playbook）。装上这个技能后，Claude 就能变成你的邮件营销专家。",
+    "prompt": "请帮我安装 email-marketing-bible 技能：从 GitHub 仓库 https://github.com/cosmoblk/email-marketing-bible 下载所有文件，保存到 .claude/skills/email-marketing-bible/ 目录下，完成安装。",
+    "translatedAt": "2026-10-06T06:50:59.253Z",
+    "backTranslationDiff": 0.9230769230769231
   },
   "chrisvoncsefalvay/claude-d3js-skill": {
     "sourceHash": "014458f81cb3b1a7",
@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "21a3bf4d5bf631e3",
-    "chineseDescription": "为 Claude、ChatGPT、Gemini、Cursor 和 Codex 提供 1166 个专业 Agent Skills（智能体技能）——涵盖 PRD（产品需求文档）、复盘报告（postmortem）、租房合同、医疗账单、裁员、应急包（go-bag）、移居新国家等场景。纯 Markdown 格式，MIT 许可证，已收录在 Anthropic 的插件目录中。另外还有一层带类型的决策层（decision layer）：该用哪个技能、是否安全、该发布还是该跳过。可在浏览器中免费使用，或通过 npx pm-claude-skills add 安装。",
-    "prompt": "请帮我安装 pm-claude-skills 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有文件，并保存到 .claude/skills/pm-claude-skills/ 目录下完成安装。安装完成后，请告诉我安装了什么内容以及如何使用。",
-    "translatedAt": "2026-09-24T05:19:41.469Z",
-    "backTranslationDiff": 0.8611111111111112
+    "sourceHash": "ad3a8fa4058f55c3",
+    "chineseDescription": "为 Claude、ChatGPT、Gemini、Cursor 和 Codex 提供的 1255 个专业 Agent Skills（智能体技能）——涵盖 PRD（产品需求文档）、复盘报告（postmortem）、租约、医疗账单、裁员、应急包（go-bag）、移居新国家等场景。纯 markdown 格式，MIT 许可，已收录在 Anthropic 的插件目录中。另外还有一层带类型的决策层（decision layer）：该用哪个 skill、是否安全、是发布还是跳过。可在浏览器中免费使用，或通过 npx pm-claude-skills add 安装。",
+    "prompt": "请帮我安装 pm-claude-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有文件，并保存到 .claude/skills/pm-claude-skills/ 目录下完成安装。安装完成后，请告诉我这个 skill 包含哪些功能，以及如何使用它。",
+    "translatedAt": "2026-10-06T06:50:55.934Z",
+    "backTranslationDiff": 0.8888888888888888
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -6818,11 +6818,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "artemxtech/personal-os-skills": {
-    "sourceHash": "129acf24ad6438c5",
-    "chineseDescription": "Claude Code 的 Obsidian 技能 | Claude Code x Obsidian Lab 将于5月5日启动",
-    "prompt": "请从 https://github.com/artemxtech/personal-os-skills 下载 personal-os-skills 技能，将文件保存到 .claude/skills/personal-os-skills/ 目录，完成安装。",
-    "translatedAt": "2026-06-02T13:11:33.257Z",
-    "backTranslationDiff": 0.4
+    "sourceHash": "9fdce70d7292bf6e",
+    "chineseDescription": "面向 Obsidian 的 Claude Code 技能（skills）｜Point B，为期 14 天的个人 AI 智能体（personal AI agents）冲刺，11 月 3 日开营。",
+    "prompt": "请帮我安装 personal-os-skills 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/artemxtech/personal-os-skills 下载全部文件，并保存到 .claude/skills/personal-os-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，告诉我这个技能包含哪些内容以及如何使用。",
+    "translatedAt": "2026-10-06T06:51:15.201Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "aldefy/compose-skill": {
     "sourceHash": "65fedfd9ab685e10",
@@ -7476,10 +7476,10 @@
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
-    "sourceHash": "a6bb57be11c07878",
-    "chineseDescription": "把 Claude 变成一个资深设计架构师：支持 DTCG（Design Tokens Community Group）设计令牌、50 个组件、WCAG 2.2 AA-AAA 无障碍标准、138 套设计系统（design systems）、任意框架的代码生成，还有 43 道客观检查关卡（gates）——不达标就直接让构建失败，绝不糊弄过关。",
-    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在当前项目的 .claude/skills/ux-ui-agent-skills/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的所有文件放到这个目录里；4) 确认目录结构正确后告诉我安装完成。仓库地址是 https://github.com/plugin87/ux-ui-agent-skills",
-    "translatedAt": "2026-09-16T05:16:06.784Z",
+    "sourceHash": "94d520a54dbc4fcd",
+    "chineseDescription": "把 Claude 变成一位资深设计架构师：支持 DTCG（Design Tokens Community Group）设计令牌、50 个组件、WCAG 2.2 AA-AAA 无障碍标准、138 套设计系统、适配任意框架的代码，还有 48 道客观检查关卡——不达标就直接让构建失败，而不是假装成功。",
+    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。请从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件，并保存到 .claude/skills/ux-ui-agent-skills/ 目录下完成安装。安装完成后，告诉我这个 Skill 提供了哪些能力，以及怎么使用它。",
+    "translatedAt": "2026-10-06T06:50:47.360Z",
     "backTranslationDiff": 0.9545454545454546
   },
   "mworldorg/markdown-memory": {
@@ -7679,11 +7679,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "wesammustafa/claude-code-everything-you-need-to-know": {
-    "sourceHash": "1bb0f87428514992",
-    "chineseDescription": "一份实用的 Claude Code 指南，包含清晰的思维模型和可直接复制粘贴的示例——涵盖 setup、prompt engineering、slash commands、skills、hooks、subagents、agent teams 和 MCP servers。从新手入门到高级用户深度使用，已被 Awesome Claude Code 收录。",
-    "prompt": "请从 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载文件，并将其保存到 .claude/skills/claude-code-everything-you-need-to-know/ 目录下，完成安装。",
-    "translatedAt": "2026-07-06T05:01:44.851Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "a5df2c730892a487",
+    "chineseDescription": "一份分三个等级的 Claude Code 指南。入门（Beginner）路径包含实操课程，配有带答案的练习题和引用来源；中级（Intermediate）和高级（Advanced）部分正在重做中。这是一个独立的社区指南。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 claude-code-everything-you-need-to-know。\n\n请你自己去 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载这个仓库的所有文件，然后保存到本地目录 .claude/skills/claude-code-everything-you-need-to-know/ 下面，完成安装。\n\n注意：不要假设我已经提前下载好了，你需要自己从 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 获取文件。安装完成后告诉我装好了，以及这个 skill 怎么用。",
+    "translatedAt": "2026-10-06T06:50:51.148Z",
+    "backTranslationDiff": 0.9047619047619048
   },
   "ksimback/looper": {
     "sourceHash": "ff8c6b59e1ad3da3",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "7c0f74ef6b490354",
-    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的版本，包括 Claude Code、Codex、Pi、OpenCode、Gemini 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（workflow）原语（primitive）翻译适配到了其他 harness 上，让你在别的工具里也能用上同一套流程。",
-    "prompt": "请帮我安装 pstack-claude 这个 Skill。请从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载相关文件，并保存到 .claude/skills/pstack-claude/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我装好了哪些文件。",
-    "translatedAt": "2026-10-03T05:42:35.315Z",
-    "backTranslationDiff": 0.7777777777777778
+    "sourceHash": "8b711ad4a98a2766",
+    "chineseDescription": "这是 Poteto 的 pstack 工具在多个 AI 编程助手上的移植版本，支持 Claude Code、Codex、Copilot、Pi、OpenCode、Gemini 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（agent workflow）原语（primitive）翻译适配到其他平台上，让你在不同工具里都能用上同一套规范化的智能体工作流程。",
+    "prompt": "请帮我安装 pstack-claude 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件；2) 在当前项目的 .claude/skills/pstack-claude/ 目录下创建文件夹（如果不存在的话）；3) 把下载的文件保存到该目录中，保持原有的目录结构；4) 安装完成后告诉我这个 Skill 提供了哪些功能，以及怎么使用。",
+    "translatedAt": "2026-10-06T06:50:38.339Z",
+    "backTranslationDiff": 0.3157894736842105
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "6cac47c094053c9b",
@@ -8456,11 +8456,11 @@
     "backTranslationDiff": 1
   },
   "sebastianhaba/book-to-course-skill": {
-    "sourceHash": "91307c12eb070824",
-    "chineseDescription": "这个 Claude skill（技能）能把一本书（支持 EPUB、PDF、HTML、DOCX、Markdown 格式）变成一门适合新手入门的互动课程：包含分步骤讲解、动画、随堂测验、章节测试、记忆卡片（flashcards），还有用单元测试（unit tests）自动批改的编程练习，学习进度会保存到文件里。",
-    "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 book-to-course-skill。\n\n请你自己去这个 GitHub 仓库下载：https://github.com/sebastianhaba/book-to-course-skill\n\n下载后把相关文件保存到 .claude/skills/book-to-course-skill/ 目录下，完成安装。\n\n注意：不要假设我已经提前下载好了，你需要自己去获取仓库内容并放到正确的位置。安装完成后告诉我怎么用。",
-    "translatedAt": "2026-10-05T05:58:58.828Z",
-    "backTranslationDiff": 0.9655172413793104
+    "sourceHash": "d45dc66f5d53887d",
+    "chineseDescription": "这个 Claude 技能（skill）能把一本书（支持 EPUB、PDF、HTML、DOCX、Markdown 格式）变成一门适合初学者的互动课程：包含分步骤讲解、动画、随堂测验、章节测试、记忆卡片（flashcards），还有用单元测试（unit tests）自动检查的编程练习，学习进度会保存到文件里。它可以在浏览器里跑，也能打包成 Android APK 或 Linux AppImage。",
+    "prompt": "请帮我安装 book-to-course-skill 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/sebastianhaba/book-to-course-skill 下载所需的文件，然后保存到 .claude/skills/book-to-course-skill/ 目录下完成安装。如果该目录不存在，请先创建。安装完成后，告诉我这个技能怎么用。",
+    "translatedAt": "2026-10-06T06:51:03.125Z",
+    "backTranslationDiff": 0.9142857142857143
   },
   "xianyu110/ecommerce-image-skills": {
     "sourceHash": "8d0696ab0e236985",
@@ -8475,5 +8475,19 @@
     "prompt": "请帮我安装 ai-iso-skill 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/mrbongoc/ai-iso-skill 下载所有文件，并保存到 .claude/skills/ai-iso-skill/ 目录下完成安装。安装完成后告诉我怎么使用它。",
     "translatedAt": "2026-10-05T05:59:06.092Z",
     "backTranslationDiff": 0.7
+  },
+  "fadewalk/serenity-stock-choke": {
+    "sourceHash": "2d32bc8827ac0f25",
+    "chineseDescription": "A股/港股/美股「卡脖子」选股 Skill（技能），基于 Serenity 供应链瓶颈理论（Supply Chain Bottleneck Theory）。Claude Code / Codex 通用智能体（Agent）都能用，零依赖（zero dependencies），开箱即用。",
+    "prompt": "请帮我安装一个 Claude Code Skill（技能），名字叫 serenity-stock-choke。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/fadewalk/serenity-stock-choke 下载全部文件（可以直接 git clone，或者用 curl 下载仓库的 zip 包再解压）。\n2. 在项目根目录下创建 .claude/skills/serenity-stock-choke/ 目录（如果已存在就覆盖更新）。\n3. 把下载到的文件全部放进 .claude/skills/serenity-stock-choke/ 里，确保 SKILL.md 等文件在正确位置。\n4. 安装完成后，列出该目录下的文件，确认安装成功。\n\n这个 Skill 是用来做 A股/港股/美股「卡脖子」选股的，基于 Serenity 供应链瓶颈理论，零依赖。",
+    "translatedAt": "2026-10-06T06:51:07.768Z",
+    "backTranslationDiff": 0.5555555555555556
+  },
+  "thevseprod/humanizer-ru": {
+    "sourceHash": "d0411990e07e8701",
+    "chineseDescription": "让 AI（人工智能）生成的文本更像人写的：去掉长破折号、官腔套话和 ChatGPT 的固定套路，同时不改动事实内容。适用于任何 AI 的规则集，外加一个 Claude Code、Cursor、Codex 都能用的 skill（技能）。 · 让 AI 文本听起来像人话：俄语 + 英语规则，以及一个 Claude Code skill。",
+    "prompt": "请帮我安装 humanizer-ru 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/thevseprod/humanizer-ru 下载全部文件；2) 在项目根目录创建 .claude/skills/humanizer-ru/ 目录；3) 把下载的文件保存到该目录下（保留原有的目录结构，比如 SKILL.md 等文件）；4) 安装完成后告诉我这个 skill 怎么用。如果目录已存在，先确认再覆盖。",
+    "translatedAt": "2026-10-06T06:51:11.909Z",
+    "backTranslationDiff": 0.9285714285714286
   }
 }

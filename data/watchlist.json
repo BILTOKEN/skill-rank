@@ -748,6 +748,40 @@
     "checkedAt": "2026-08-01T03:53:34.715Z"
   },
   {
+    "repo": "thevseprod/humanizer-ru",
+    "name": "humanizer-ru",
+    "description": "Очеловечить текст нейросети: убирает длинное тире, канцелярит и штампы ChatGPT, не трогая факты. Правила для любой нейросети + скилл для Claude Code, Cursor, Codex. · Make AI text sound human: Russian + English rules and a Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "ai-humanizer",
+      "ai-writing",
+      "chatgpt",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "copywriting",
+      "cursor",
+      "gemini",
+      "humanize-ai",
+      "humanizer",
+      "humanizer-ru",
+      "llm",
+      "prompt-engineering",
+      "russian",
+      "russian-language",
+      "skill-md",
+      "text-humanization",
+      "writing-assistant"
+    ],
+    "stars": 42,
+    "lastPush": "2026-10-05T18:38:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-06T06:28:00.472Z"
+  },
+  {
     "repo": "thatrebeccarae/claude-marketing",
     "name": "claude-marketing",
     "description": "A full marketing department for Claude Code. Skill packs for Klaviyo, Shopify, GA4, Looker Studio, paid media, and more. Audit, optimize, and report using natural language.",
@@ -3277,6 +3311,25 @@
     "checkedAt": "2026-09-09T04:48:41.865Z"
   },
   {
+    "repo": "robonuggets/skill-creator-plus",
+    "name": "skill-creator-plus",
+    "description": "Free Claude skill that audits, builds and improves other skills against Anthropic's skill-writing rules, including what changed for Opus 5.5, Sonnet 5.5 and Fable 5.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills"
+    ],
+    "stars": 28,
+    "lastPush": "2026-10-05T04:15:54Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-06T06:28:00.472Z"
+  },
+  {
     "repo": "bridge-mind/bridgeward",
     "name": "BridgeWard",
     "description": "Trust nothing. Ship safely. — Skeptical-reading and prompt-injection defense skill for AI agents. Provenance tagging, red-flag patterns, refusal templates, and a read-only injection auditor. MIT.",
@@ -5776,6 +5829,33 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-04T05:59:55.501Z"
+  },
+  {
+    "repo": "xianyu110/ecommerce-video-skills",
+    "name": "ecommerce-video-skills",
+    "description": "12 个电商短视频 Agent Skills：3秒钩子、卖点分镜、图生视频提示词、edge-tts 配音、字幕花字、ffmpeg 自动成片、抖音/TikTok Shop/视频号导出、直播切片、多语言配音、封面A/B · Claude Code / Codex / Cursor",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "chinese",
+      "claude-skills",
+      "codex-skills",
+      "cursor",
+      "douyin",
+      "ecommerce",
+      "edge-tts",
+      "ffmpeg",
+      "short-video",
+      "tiktok-shop",
+      "video-generation"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-05T14:13:51Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-06T06:28:00.472Z"
   },
   {
     "repo": "bjwanneng/veriflow-cc",
