@@ -14140,6 +14140,64 @@
     }
   },
   {
+    "repo": "qingyuna/answer-me-with-html",
+    "name": "answer-me-with-html",
+    "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+    "description_zh": "用 HTML 回答我 —— 一个 Agent Skill（智能体技能），能把复杂难懂的问题，用一页你真正看得进去的 HTML 页面讲清楚。让 AI Agent 用一页 HTML 来回答复杂问题。",
+    "description_en": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+    "prompt": "请帮我安装一个 Claude Code Skill（技能），名字叫 answer-me-with-html。\n\n安装步骤：\n1. 从 GitHub 仓库 https://github.com/qingyuna/answer-me-with-html 下载该技能的所有文件（如果 git 可用就直接 git clone，否则用 curl 或 wget 拉取仓库内容）。\n2. 在项目根目录下创建目录 .claude/skills/answer-me-with-html/，把下载到的文件放进去（注意保留原有的目录结构，比如 SKILL.md 等文件要放在正确位置）。\n3. 安装完成后，列出 .claude/skills/answer-me-with-html/ 目录下的文件，确认安装成功。\n\n这个技能的作用是：让 AI Agent 用一页 HTML 来回答复杂问题，比纯文字更好读。装好后我就能用它了。",
+    "tags": [
+      "agent-skill",
+      "ai-agent",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
+      "cli",
+      "diagram",
+      "explainer",
+      "html",
+      "llm",
+      "ste100"
+    ],
+    "metrics": {
+      "stars_total": 1846,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 9,
+      "issues_closed_7d": 3,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "oil-oil/oil-ui",
+    "name": "oil-ui",
+    "description": "Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。",
+    "description_zh": "把 AI 的 UI 设计能力推到极限：探索不同的设计方向，并排对比它们，再根据真实截图（screenshot）反复打磨优化。",
+    "description_en": "Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。",
+    "prompt": "请帮我安装 oil-ui 这个 Skill。去 GitHub 仓库 https://github.com/oil-oil/oil-ui 下载它的文件，保存到 .claude/skills/oil-ui/ 目录下，完成安装。",
+    "tags": [
+      "agent-skills",
+      "ai-design",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "前端",
+      "ui-design",
+      "ux-design"
+    ],
+    "metrics": {
+      "stars_total": 908,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "xr843/master-skill",
     "name": "Master-skill",
     "description": "FoJin-powered Buddhist AI persona framework — source-grounded, boundary-aware, fidelity-tested, runtime-ready.",
@@ -14398,6 +14456,35 @@
       "issues_closed": 0,
       "issue_comments": 0,
       "commits_this_week": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "cth9191/animate",
+    "name": "animate",
+    "description": "Procedural animation in any style for Claude Code: short single-file canvas videos with story, look and storyboard check-ins. 7 built-in styles or one matched from your references, your own music (beat-mapped), real product screenshots, every format from one piece.",
+    "description_zh": "为 Claude Code 提供任意风格的程序化动画（procedural animation）：生成短小的单文件 canvas 视频，带剧情、视觉风格和分镜确认（storyboard check-in）。内置 7 种风格，也可以根据你的参考素材匹配一种风格；支持你自己的音乐（做节拍映射 beat-mapped）、真实产品截图，一份作品可导出所有格式。",
+    "description_en": "Procedural animation in any style for Claude Code: short single-file canvas videos with story, look and storyboard check-ins. 7 built-in styles or one matched from your references, your own music (beat-mapped), real product screenshots, every format from one piece.",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 animate。\n\n请执行以下操作：\n1. 从 GitHub 仓库 https://github.com/cth9191/animate 下载该 Skill 的所有文件。\n2. 在项目根目录下创建目录 .claude/skills/animate/（如果不存在的话）。\n3. 把下载的文件保存到 .claude/skills/animate/ 目录中，保持原有的文件结构。\n4. 安装完成后，告诉我这个 Skill 提供了哪些功能，以及怎么使用它。\n\n注意：不要假设我已经安装过任何依赖，如果需要额外的依赖或环境配置，请一并告诉我。",
+    "tags": [
+      "animation",
+      "canvas",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "explainer-video",
+      "generative-art",
+      "motion-graphics",
+      "procedural-animation",
+      "storyboard"
+    ],
+    "metrics": {
+      "stars_total": 69,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 10,
       "last_push": ""
     }
   },
