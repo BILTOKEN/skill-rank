@@ -5911,6 +5911,28 @@
     "checkedAt": "2026-10-07T06:06:49.568Z"
   },
   {
+    "repo": "victorrentea/human-review",
+    "name": "human-review",
+    "description": "A /human-review skill for Claude Code: assembles one page that lets a human review a change set fast — diagram deltas, Code City, a feature video, complexity delta, and deep-linked snippets.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "plantuml",
+      "pull-requests"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-08T06:17:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -6523,6 +6545,22 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-05T05:48:37.328Z"
+  },
+  {
+    "repo": "jakeschincariol/promptmaster-skill",
+    "name": "promptmaster-skill",
+    "description": "Get it right the first prompt. A free Claude skill that rewrites your prompt into an optimized format, audits 35 credit-waste patterns, and locks your decisions so you never re-explain.",
+    "tags": [
+      "claude-skills",
+      "prompt-engineering"
+    ],
+    "stars": 18,
+    "lastPush": "2026-08-29T02:44:31Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
   },
   {
     "repo": "helius-labs/core-ai",
@@ -20655,6 +20693,25 @@
     "checkedAt": "2026-09-14T05:02:25.829Z"
   },
   {
+    "repo": "devkkxingh/kam-bachodi",
+    "name": "kam-bachodi",
+    "description": "Claude Code skill: less questions, more work — Claude decides smartly, finishes and verifies tasks end-to-end, and reports its decisions.",
+    "tags": [
+      "ai-agents",
+      "autonomy",
+      "claude-code",
+      "claude-code-skill",
+      "productivity"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-07T17:50:48Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -26910,6 +26967,34 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-05T05:48:37.328Z"
+  },
+  {
+    "repo": "oyekamal/harness-evolve",
+    "name": "harness-evolve",
+    "description": "Self-evolving, eval-gated harness skill for Claude Code agents: learn from traces, detect CLAUDE.md drift, and update rules/skills only when a held-out eval gate proves it. Stdlib Python, drop into any repo.",
+    "tags": [
+      "agent-harness",
+      "agentic-context-engineering",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "continual-learning",
+      "harness-engineering",
+      "llm-as-a-judge",
+      "llm-evals",
+      "prompt-engineering",
+      "self-improving-agents"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-08T05:10:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

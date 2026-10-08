@@ -3052,11 +3052,11 @@
     "backTranslationDiff": 0.23529411764705888
   },
   "conorluddy/ios-simulator-skill": {
-    "sourceHash": "e40f91833859eb54",
-    "chineseDescription": "一个用于 Claude Code 的 iOS 模拟器技能（Skill）。用它来优化 Claude 构建、运行和与你的应用交互的能力，并代理 xcodebuild 以节省 token 和上下文浪费。【使用场景】当你在 Claude Code 中开发 iOS 应用，需要高效管理模拟器、减少 token 消耗时使用。",
-    "prompt": "请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载 ios-simulator-skill 技能文件，并将其保存到 .claude/skills/ios-simulator-skill/ 目录中，以完成安装。安装后，该技能将帮助我优化 iOS 模拟器的构建、运行和交互，并通过代理 xcodebuild 来节省 token 和上下文资源。",
-    "translatedAt": "2026-08-23T02:22:55.251Z",
-    "backTranslationDiff": 0.3529411764705882
+    "sourceHash": "3ad84b09090f2971",
+    "chineseDescription": "这是一个给 Agent（智能体）用的 iOS Simulator（iOS 模拟器）技能。用它来提升 Agent 构建、运行 iOS 应用并与之交互的能力，同时把 xcodebuild 命令代理转发出去，省下 token 和上下文（context）的浪费。",
+    "prompt": "请帮我安装 ios-simulator-skill 这个技能。请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载所有文件，保存到 .claude/skills/ios-simulator-skill/ 目录下，完成安装。",
+    "translatedAt": "2026-10-08T06:34:49.603Z",
+    "backTranslationDiff": 0.8235294117647058
   },
   "prompt-security/clawsec": {
     "sourceHash": "6517a361e328b215",
@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 1
   },
   "borghei/claude-skills": {
-    "sourceHash": "ef6eb78815bfc49b",
-    "chineseDescription": "这个 Skill 集合包含 372 个 AI 技能（skills）、76 个专家级智能体（agents），以及 867 个基于 Python 标准库（stdlib）的工具，覆盖各类团队场景：工程、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营和研究。支持在 Claude Code、Cursor、Codex、Gemini、Copilot 以及其他 6 种 AI 助手上安装使用。",
-    "prompt": "请帮我安装 Claude-Skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/borghei/claude-skills 下载所有文件；2) 在当前项目的 .claude/skills/claude-skills/ 目录下创建文件夹（如果不存在的话）；3) 把下载的文件保存到该目录中；4) 确认安装完成后告诉我这个技能包包含哪些内容。",
-    "translatedAt": "2026-09-23T05:08:09.906Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "b9d5fcee1ce911e9",
+    "chineseDescription": "385 个 AI 技能（skills）、77 个专家智能体（expert agents）和 900 个标准库 Python 工具，覆盖各类团队：工程、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营、研究，还有一套 LinkedIn 工具包。可安装在 Claude Code、Cursor、Codex、Gemini、Copilot 以及其他 6 种 AI 助手上。",
+    "prompt": "请帮我安装 Claude-Skills 技能包。请从 GitHub 仓库 https://github.com/borghei/claude-skills 下载所有文件，并保存到 .claude/skills/claude-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我安装了什么内容。",
+    "translatedAt": "2026-10-08T06:34:41.958Z",
+    "backTranslationDiff": 0.8846153846153846
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "4570a7e0938691ce",
@@ -5488,11 +5488,11 @@
     "backTranslationDiff": 0.23333333333333328
   },
   "roman-rr/trading-skills": {
-    "sourceHash": "47d8bf88cd660dd5",
-    "chineseDescription": "17个触发器 × 44种算法 × 3个AI专家——为Claude Code、Codex、Cursor及30多个Agent提供实时加密货币交易信号。测试期间免费。【使用场景】加密货币交易策略开发与自动化交易信号获取。",
-    "prompt": "请从 https://github.com/roman-rr/trading-skills 下载 trading-skills 技能文件，并将其保存到 .claude/skills/trading-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T07:27:30.240Z",
-    "backTranslationDiff": 0.2666666666666667
+    "sourceHash": "2b0399fc653c1769",
+    "chineseDescription": "17 个触发器（trigger）× 44 种算法 × 3 个 AI 专家——为 Claude Code、Codex、Cursor 及 30 多个 agent 提供带推理过程的实时加密货币交易信号。免费 key 可用；Pro 版额外提供入场点（entry）、止损（SL）和止盈（TP）。",
+    "prompt": "请帮我安装 trading-skills 这个 Skill。请从 GitHub 仓库 https://github.com/roman-rr/trading-skills 下载全部文件，并保存到 .claude/skills/trading-skills/ 目录下完成安装。安装完成后告诉我这个 Skill 提供了哪些功能，以及如何配置使用。",
+    "translatedAt": "2026-10-08T06:34:52.782Z",
+    "backTranslationDiff": 0.16666666666666663
   },
   "thepushkarp/cc-gemini-plugin": {
     "sourceHash": "7fa10386f24d82f0",
@@ -7476,11 +7476,11 @@
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
-    "sourceHash": "94d520a54dbc4fcd",
-    "chineseDescription": "把 Claude 变成一位资深设计架构师：支持 DTCG（Design Tokens Community Group）设计令牌、50 个组件、WCAG 2.2 AA-AAA 无障碍标准、138 套设计系统、适配任意框架的代码，还有 48 道客观检查关卡——不达标就直接让构建失败，而不是假装成功。",
-    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。请从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件，并保存到 .claude/skills/ux-ui-agent-skills/ 目录下完成安装。安装完成后，告诉我这个 Skill 提供了哪些能力，以及怎么使用它。",
-    "translatedAt": "2026-10-06T06:50:47.360Z",
-    "backTranslationDiff": 0.9545454545454546
+    "sourceHash": "d48dd62f4b86687b",
+    "chineseDescription": "把 Claude 变成一个资深设计架构师（design architect）：支持 DTCG tokens、52 个组件（components）、符合 WCAG 2.2 AA-AAA 无障碍标准、内置 138 套设计系统（design systems）、可生成任意框架（any-framework）的代码，还有 50 道客观检查关卡（objective gates）——不达标就直接让构建失败，而不是假装成功。",
+    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。步骤：\n1. 从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件（可以用 git clone 或直接下载压缩包）。\n2. 在项目根目录创建 .claude/skills/ux-ui-agent-skills/ 目录。\n3. 把下载到的文件全部放进 .claude/skills/ux-ui-agent-skills/ 目录里（注意保持原有的目录结构，比如 SKILL.md 等文件要放在正确位置）。\n4. 安装完成后，告诉我这个 Skill 提供了哪些能力，以及怎么使用它。\n如果目录已存在，请先确认是否已经装过，避免重复覆盖。",
+    "translatedAt": "2026-10-08T06:34:37.781Z",
+    "backTranslationDiff": 0.31818181818181823
   },
   "mworldorg/markdown-memory": {
     "sourceHash": "5f936ca1e57d1450",
@@ -7679,10 +7679,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "wesammustafa/claude-code-everything-you-need-to-know": {
-    "sourceHash": "a5df2c730892a487",
-    "chineseDescription": "一份分三个等级的 Claude Code 指南。入门（Beginner）路径包含实操课程，配有带答案的练习题和引用来源；中级（Intermediate）和高级（Advanced）部分正在重做中。这是一个独立的社区指南。",
-    "prompt": "请帮我安装一个 Claude Code Skill，名称是 claude-code-everything-you-need-to-know。\n\n请你自己去 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载这个仓库的所有文件，然后保存到本地目录 .claude/skills/claude-code-everything-you-need-to-know/ 下面，完成安装。\n\n注意：不要假设我已经提前下载好了，你需要自己从 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 获取文件。安装完成后告诉我装好了，以及这个 skill 怎么用。",
-    "translatedAt": "2026-10-06T06:50:51.148Z",
+    "sourceHash": "d62c8bfe10f0fdcd",
+    "chineseDescription": "一份分三个等级的 Claude Code 指南。初级和中级部分包含实操课程，配有带答案的练习题和引用来源；高级部分正在重做中。这是一个独立的社区指南。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 claude-code-everything-you-need-to-know。\n\n请执行以下操作：\n1. 从 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载所有文件\n2. 在项目根目录创建 .claude/skills/claude-code-everything-you-need-to-know/ 目录\n3. 把下载的文件保存到该目录中\n4. 确认安装完成，并告诉我这个 skill 包含哪些内容\n\n注意：如果 .claude/skills/ 目录不存在，请先创建它。",
+    "translatedAt": "2026-10-08T06:34:45.657Z",
     "backTranslationDiff": 0.9047619047619048
   },
   "ksimback/looper": {
@@ -8510,5 +8510,26 @@
     "prompt": "请帮我安装一个 Claude Code Skill，名称是 animate。\n\n请执行以下操作：\n1. 从 GitHub 仓库 https://github.com/cth9191/animate 下载该 Skill 的所有文件。\n2. 在项目根目录下创建目录 .claude/skills/animate/（如果不存在的话）。\n3. 把下载的文件保存到 .claude/skills/animate/ 目录中，保持原有的文件结构。\n4. 安装完成后，告诉我这个 Skill 提供了哪些功能，以及怎么使用它。\n\n注意：不要假设我已经安装过任何依赖，如果需要额外的依赖或环境配置，请一并告诉我。",
     "translatedAt": "2026-10-07T06:19:01.245Z",
     "backTranslationDiff": 0.9285714285714286
+  },
+  "jimmysadek/video-fetcher-to-markdown": {
+    "sourceHash": "4512e0d542dfaeec",
+    "chineseDescription": "便携式 AI-agent（智能体）技能：把 YouTube、Instagram、TikTok、X 等平台的视频链接，转成可直接放进 Obsidian 的 Markdown 笔记——包含字幕或本地 Whisper 转录、视频帧、元数据和时间戳。",
+    "prompt": "请帮我安装 video-fetcher-to-markdown 这个 Claude Code Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/jimmysadek/video-fetcher-to-markdown 下载该技能的全部文件（可以直接 git clone，或者用 curl 下载仓库压缩包并解压）。\n2. 在项目里创建目录 .claude/skills/video-fetcher-to-markdown/，把下载到的技能文件全部放进去。\n3. 确认目录结构正确（比如 SKILL.md 等文件都在 .claude/skills/video-fetcher-to-markdown/ 下）。\n4. 安装完成后告诉我这个技能怎么用。\n\n仓库地址：https://github.com/jimmysadek/video-fetcher-to-markdown",
+    "translatedAt": "2026-10-08T06:34:56.971Z",
+    "backTranslationDiff": 0.9047619047619048
+  },
+  "atmirrr/persian-motion-director": {
+    "sourceHash": "d5c8e66d4e879932",
+    "chineseDescription": "一个用于专业动效设计（motion design）的 Claude 技能（skill），能正确处理波斯语（Persian/Farsi）排版（typography）：不做幻灯片式展示，也不会出现断字乱码。包含 8 种技术手法、HarfBuzz 工具链（tooling），以及 Remotion 示例。",
+    "prompt": "请帮我安装 persian-motion-director 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/atmirrr/persian-motion-director 下载所有文件，并保存到 .claude/skills/persian-motion-director/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-10-08T06:35:00.530Z",
+    "backTranslationDiff": 0.4117647058823529
+  },
+  "jakeschincariol/founder-skill": {
+    "sourceHash": "688c60d6d4343cd4",
+    "chineseDescription": "十一个免费的 Claude 技能（skills），帮你在正式创业前先验证生意靠不靠谱：一个用 Hormozi、Thiel 和乔布斯（Jobs）的思路训练出来的董事会，一个营销总监，一个 CFO（首席财务官），还有一个由 100 个买家智能体（buyer agents）组成的消费者小组。免费，MIT 协议。",
+    "prompt": "请帮我安装 founder-skill 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/jakeschincariol/founder-skill 下载全部文件，并保存到 .claude/skills/founder-skill/ 目录下完成安装。如果该目录不存在就先创建。安装完成后告诉我这个技能包含哪些功能、怎么用。",
+    "translatedAt": "2026-10-08T06:35:04.679Z",
+    "backTranslationDiff": 0.9565217391304348
   }
 }

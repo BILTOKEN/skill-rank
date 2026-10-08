@@ -5909,6 +5909,35 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "jimmysadek/video-fetcher-to-markdown",
+    "name": "video-fetcher-to-markdown",
+    "description": "Portable AI-agent skill: turn YouTube, Instagram, TikTok, X and other video links into Obsidian-ready Markdown notes: captions or local Whisper transcripts, frames, metadata and timestamps",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "instagram",
+      "knowledge-base",
+      "markdown",
+      "obsidian",
+      "subtitles",
+      "tiktok",
+      "transcript",
+      "video-transcription",
+      "whisper",
+      "youtube",
+      "yt-dlp"
+    ],
+    "stars": 485,
+    "lastPush": "2026-10-07T09:25:15Z",
+    "pool": "ranked",
+    "readmeLength": 2794,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
     "repo": "levnikolaevich/claude-code-skills",
     "name": "claude-code-skills",
     "description": "Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.",
@@ -10292,6 +10321,30 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "atmirrr/persian-motion-director",
+    "name": "persian-motion-director",
+    "description": "A Claude skill for pro motion design with correct Persian (Farsi) typography: no slideshows, no broken letters. 8 techniques, HarfBuzz tooling, Remotion examples.",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-skills",
+      "farsi",
+      "kinetic-typography",
+      "motion-design",
+      "persian",
+      "remotion",
+      "rtl",
+      "typography"
+    ],
+    "stars": 121,
+    "lastPush": "2026-10-06T13:27:09Z",
+    "pool": "ranked",
+    "readmeLength": 1027,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
     "repo": "spontaneousai/job-hunt-copilot",
     "name": "job-hunt-copilot",
     "description": "建立个人项目素材库，针对每个投递岗位自动生成定制简历、面试讲稿和模拟面试。Stop rewriting your resume from scratch. This Claude Skill builds a personal project library and generates tailored resumes, pitch scripts, and mock interviews for every role you apply to.",
@@ -11208,6 +11261,26 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-07T04:48:46.566Z"
+  },
+  {
+    "repo": "jakeschincariol/founder-skill",
+    "name": "founder-skill",
+    "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+    "tags": [
+      "business-plan",
+      "claude-code",
+      "claude-skills",
+      "startup",
+      "subagents",
+      "unit-economics"
+    ],
+    "stars": 86,
+    "lastPush": "2026-10-07T01:07:17Z",
+    "pool": "ranked",
+    "readmeLength": 1465,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-08T06:12:25.132Z"
   },
   {
     "repo": "hqhq1025/skill-optimizer",

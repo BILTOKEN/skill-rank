@@ -4639,6 +4639,30 @@
     "lastPush": "2026-05-03T10:14:16Z"
   },
   {
+    "repo": "jimmysadek/video-fetcher-to-markdown",
+    "name": "video-fetcher-to-markdown",
+    "description": "Portable AI-agent skill: turn YouTube, Instagram, TikTok, X and other video links into Obsidian-ready Markdown notes: captions or local Whisper transcripts, frames, metadata and timestamps",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "instagram",
+      "knowledge-base",
+      "markdown",
+      "obsidian",
+      "subtitles",
+      "tiktok",
+      "transcript",
+      "video-transcription",
+      "whisper",
+      "youtube",
+      "yt-dlp"
+    ],
+    "stars": 485,
+    "lastPush": "2026-10-07T09:25:15Z"
+  },
+  {
     "repo": "levnikolaevich/claude-code-skills",
     "name": "claude-code-skills",
     "description": "Plugin suite + bundled MCP servers for Claude Code. Full delivery lifecycle: Agile pipeline with multi-model AI review, project bootstrap, documentation generation, codebase audits, performance optimization, community workflows. Includes hex-line (hash-verified editing), hex-graph (code knowledge graph), and hex-ssh (remote SSH) MCP servers.",
@@ -8022,6 +8046,25 @@
     "lastPush": "2026-05-07T23:01:16Z"
   },
   {
+    "repo": "atmirrr/persian-motion-director",
+    "name": "persian-motion-director",
+    "description": "A Claude skill for pro motion design with correct Persian (Farsi) typography: no slideshows, no broken letters. 8 techniques, HarfBuzz tooling, Remotion examples.",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-skills",
+      "farsi",
+      "kinetic-typography",
+      "motion-design",
+      "persian",
+      "remotion",
+      "rtl",
+      "typography"
+    ],
+    "stars": 121,
+    "lastPush": "2026-10-06T13:27:09Z"
+  },
+  {
     "repo": "spontaneousai/job-hunt-copilot",
     "name": "job-hunt-copilot",
     "description": "建立个人项目素材库，针对每个投递岗位自动生成定制简历、面试讲稿和模拟面试。Stop rewriting your resume from scratch. This Claude Skill builds a personal project library and generates tailored resumes, pitch scripts, and mock interviews for every role you apply to.",
@@ -8753,6 +8796,21 @@
     ],
     "stars": 86,
     "lastPush": "2026-09-06T12:53:53Z"
+  },
+  {
+    "repo": "jakeschincariol/founder-skill",
+    "name": "founder-skill",
+    "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+    "tags": [
+      "business-plan",
+      "claude-code",
+      "claude-skills",
+      "startup",
+      "subagents",
+      "unit-economics"
+    ],
+    "stars": 86,
+    "lastPush": "2026-10-07T01:07:17Z"
   },
   {
     "repo": "hqhq1025/skill-optimizer",
@@ -15396,6 +15454,23 @@
     "lastPush": "2026-10-06T20:55:17Z"
   },
   {
+    "repo": "victorrentea/human-review",
+    "name": "human-review",
+    "description": "A /human-review skill for Claude Code: assembles one page that lets a human review a change set fast — diagram deltas, Code City, a feature video, complexity delta, and deep-linked snippets.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "plantuml",
+      "pull-requests"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-08T06:17:21Z"
+  },
+  {
     "repo": "bjwanneng/veriflow-cc",
     "name": "veriflow-cc",
     "description": "VeriFlow-CC: A Claude Code-driven RTL design pipeline. Automates Chip-on-Chat from architecture to synthesis (iVerilog/Yosys) using a stateful, zero-dependency LLM orchestration skill. Features sub-agent nesting for code gen and behavioral-driven verification.",
@@ -15888,6 +15963,17 @@
     ],
     "stars": 18,
     "lastPush": "2026-10-02T21:04:45Z"
+  },
+  {
+    "repo": "jakeschincariol/promptmaster-skill",
+    "name": "promptmaster-skill",
+    "description": "Get it right the first prompt. A free Claude skill that rewrites your prompt into an optimized format, audits 35 credit-waste patterns, and locks your decisions so you never re-explain.",
+    "tags": [
+      "claude-skills",
+      "prompt-engineering"
+    ],
+    "stars": 18,
+    "lastPush": "2026-08-29T02:44:31Z"
   },
   {
     "repo": "helius-labs/core-ai",
@@ -27187,6 +27273,20 @@
     "lastPush": "2026-09-06T18:51:25Z"
   },
   {
+    "repo": "devkkxingh/kam-bachodi",
+    "name": "kam-bachodi",
+    "description": "Claude Code skill: less questions, more work — Claude decides smartly, finishes and verifies tasks end-to-end, and reports its decisions.",
+    "tags": [
+      "ai-agents",
+      "autonomy",
+      "claude-code",
+      "claude-code-skill",
+      "productivity"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-07T17:50:48Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -32217,6 +32317,29 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-04T08:39:26Z"
+  },
+  {
+    "repo": "oyekamal/harness-evolve",
+    "name": "harness-evolve",
+    "description": "Self-evolving, eval-gated harness skill for Claude Code agents: learn from traces, detect CLAUDE.md drift, and update rules/skills only when a held-out eval gate proves it. Stdlib Python, drop into any repo.",
+    "tags": [
+      "agent-harness",
+      "agentic-context-engineering",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "continual-learning",
+      "harness-engineering",
+      "llm-as-a-judge",
+      "llm-evals",
+      "prompt-engineering",
+      "self-improving-agents"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-08T05:10:03Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
