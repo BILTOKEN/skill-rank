@@ -1356,6 +1356,25 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "ishuagrawal/skills",
+    "name": "skills",
+    "description": "Agent skills for engineering and design",
+    "tags": [
+      "agent-skills",
+      "animation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills"
+    ],
+    "stars": 38,
+    "lastPush": "2026-10-08T16:56:29Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
     "repo": "aboudjem/humanizer-skill",
     "name": "humanizer-skill",
     "description": "Claude Code skill: 43 AI writing patterns detected and rewritten with human rhythm. 5 voice profiles, burstiness + perplexity science, 8 editor integrations, zero dependencies. Successor to @blader/humanizer.",
@@ -4997,6 +5016,25 @@
     "checkedAt": "2026-09-18T04:49:54.983Z"
   },
   {
+    "repo": "spacezephyr/map-motion",
+    "name": "map-motion",
+    "description": "地图动效视频 Claude Code skill：基于高德地图真实路线/边界/卫星底图，做地球俯冲、vlog 我在这里、徒步海拔、骑行旅程、航线、行政区高亮等地图动画，12 种风格",
+    "tags": [
+      "amap",
+      "claude-code",
+      "claude-skills",
+      "map-animation",
+      "travel-video"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-09T04:22:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
     "repo": "metcalfsolutions/satori",
     "name": "Satori",
     "description": "A Claude skill blending psychology, philosophy, and wisdom traditions into a conversation partner with actual depth. Free, open-source, not a therapist.",
@@ -5475,6 +5513,30 @@
     "checkedAt": "2026-10-04T05:59:55.501Z"
   },
   {
+    "repo": "jakeschincariol/master-skills",
+    "name": "master-skills",
+    "description": "Three Claude master skills: edit your videos, make them go viral, and build anything. Free, MIT.",
+    "tags": [
+      "agent-skills",
+      "captions",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "content-creation",
+      "stop-motion",
+      "video-editing",
+      "virality",
+      "web-design"
+    ],
+    "stars": 20,
+    "lastPush": "2026-10-04T15:24:36Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
     "repo": "eniktab/scientific-paper-writer",
     "name": "scientific-paper-writer",
     "description": "Skill for writing scientific papers : fetches live journal guidelines, AI policy & LaTeX template before writing",
@@ -5931,6 +5993,31 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
+    "repo": "grit-77/done-is-a-claim",
+    "name": "done-is-a-claim",
+    "description": "18 rules and 3 skills for coding agents, each one paid for by a real failure. Drop-in AGENTS.md / CLAUDE.md.",
+    "tags": [
+      "agent-skills",
+      "agents-md",
+      "ai-agents",
+      "claude-code",
+      "claude-md",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "llm",
+      "测试",
+      "verification"
+    ],
+    "stars": 19,
+    "lastPush": "2026-10-06T07:01:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
   },
   {
     "repo": "bjwanneng/veriflow-cc",
@@ -6561,6 +6648,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
+    "repo": "changwenc/understanding-ladder",
+    "name": "understanding-ladder",
+    "description": "Karpathy's understanding ladder as agent skills: auto-pick text, diagram, interactive HTML, or video storyboard for any explanation. Nothing cut. English + 中文.",
+    "tags": [
+      "agent-skills",
+      "asd-ste100",
+      "chinese",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "explainer",
+      "karpathy",
+      "llm",
+      "plain-language",
+      "understanding-ladder"
+    ],
+    "stars": 18,
+    "lastPush": "2026-10-06T10:32:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
   },
   {
     "repo": "helius-labs/core-ai",
@@ -18758,6 +18871,40 @@
     "checkedAt": "2026-09-26T05:05:43.552Z"
   },
   {
+    "repo": "rajdeepratan/slashforge",
+    "name": "SlashForge",
+    "description": "Workflow slash commands for AI coding agents. Spec-driven. Guardrails, not autocomplete.",
+    "tags": [
+      "agent-framework",
+      "agent-memory",
+      "agent-orchestration",
+      "agent-skill",
+      "agentic-ai",
+      "agentic-workflow",
+      "ai-coding-assistant",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "code-review-assistant-active",
+      "codex",
+      "codex-skill",
+      "cursor",
+      "developer-tools",
+      "devtools",
+      "sdd",
+      "workflow"
+    ],
+    "stars": 5,
+    "lastPush": "2026-10-09T03:15:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -22428,6 +22575,62 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-05T05:48:37.328Z"
+  },
+  {
+    "repo": "tong666-bit/song-hao-math",
+    "name": "song-hao-math",
+    "description": "大学数学/考研数学 AI 陪练：微积分、线代、概率统计、复变；分步板书、15个例题、反例与定理条件。宋浩风格，非官方。Chinese mathematics tutoring Agent Skill.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-tutor",
+      "calculus",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "complex-analysis",
+      "education",
+      "exam-prep",
+      "grok",
+      "kaoyan",
+      "linear-algebra",
+      "math",
+      "math-tutor",
+      "probability",
+      "skill"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-09T02:08:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
+    "repo": "rolling-codes/better-skill-creator",
+    "name": "better-skill-creator",
+    "description": "Build Claude Code skills that trigger correctly — multi-angle design analysis, adversarial review, six quality gates, and a measured description optimizer.",
+    "tags": [
+      "ai-tools",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "llm",
+      "meta-skill",
+      "prompt-engineering",
+      "quality-assurance",
+      "skill-builder",
+      "skills"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-08T22:24:34Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -26995,6 +27198,32 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-08T06:12:25.132Z"
+  },
+  {
+    "repo": "jimmysadek/repo-fit",
+    "name": "repo-fit",
+    "description": "A small foundation for any repo: rules, a board, a session brief and safe autosave. It looks at what you have first, and adapts.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "developer-tools",
+      "knowledge-base",
+      "markdown",
+      "nodejs",
+      "obsidian",
+      "productivity",
+      "repository-setup"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-06T01:17:28Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-09T06:15:51.133Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

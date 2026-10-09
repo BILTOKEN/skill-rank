@@ -8531,5 +8531,26 @@
     "prompt": "请帮我安装 founder-skill 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/jakeschincariol/founder-skill 下载全部文件，并保存到 .claude/skills/founder-skill/ 目录下完成安装。如果该目录不存在就先创建。安装完成后告诉我这个技能包含哪些功能、怎么用。",
     "translatedAt": "2026-10-08T06:35:04.679Z",
     "backTranslationDiff": 0.9565217391304348
+  },
+  "miftahul-islam-efaz/motion-graphics-skill": {
+    "sourceHash": "3019bb66a99a998f",
+    "chineseDescription": "这是给 Claude Code、Codex 和 Cursor 用的最佳动态图形（Motion Graphics）和视频剪辑技能。它能帮你规划、做动画、剪辑、加字幕、做音效设计，完成整条视频制作流程，而且全部在本地渲染，不需要 After Effects。",
+    "prompt": "请帮我安装 motion-graphics-skill 这个技能。请从 GitHub 仓库 https://github.com/miftahul-islam-efaz/motion-graphics-skill 下载所有文件，并保存到 .claude/skills/motion-graphics-skill/ 目录下完成安装。安装完成后告诉我这个技能能做什么。",
+    "translatedAt": "2026-10-09T06:33:30.007Z",
+    "backTranslationDiff": 0.9090909090909091
+  },
+  "ishuagrawal/skills": {
+    "sourceHash": "b78bae78ca2cce44",
+    "chineseDescription": "面向工程和设计（engineering and design）的 Agent 技能（skills）集合。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/ishuagrawal/skills 下载所有文件，并保存到 .claude/skills/skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我安装了什么。",
+    "translatedAt": "2026-10-09T06:33:33.544Z",
+    "backTranslationDiff": 0.75
+  },
+  "mindrally/skills": {
+    "sourceHash": "f367b0bc7304086b",
+    "chineseDescription": "这个仓库（repository）提供了 265 个以上的 Claude Code 技能（skills），覆盖了几乎所有主流框架（framework）和编程语言。安装命令是：npx skills add Mindrally/skills。",
+    "prompt": "请帮我安装一个 Claude Code 技能包（skills）。请从 GitHub 仓库 https://github.com/mindrally/skills 下载所有文件，并保存到 .claude/skills/skills/ 目录下完成安装。这个仓库包含了 265 个以上的技能，覆盖各种主流框架和编程语言。",
+    "translatedAt": "2026-10-09T06:33:37.367Z",
+    "backTranslationDiff": 0.6363636363636364
   }
 }
