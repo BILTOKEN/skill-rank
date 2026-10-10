@@ -1121,6 +1121,25 @@
     "checkedAt": "2026-10-05T05:48:37.328Z"
   },
   {
+    "repo": "tigerless-labs/autoharness",
+    "name": "autoharness",
+    "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "llm-agents",
+      "python"
+    ],
+    "stars": 10924,
+    "lastPush": "2026-10-09T09:19:20Z",
+    "pool": "ranked",
+    "readmeLength": 3469,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-10-10T05:59:33.654Z"
+  },
+  {
     "repo": "wanshuiyin/auto-claude-code-research-in-sleep",
     "name": "Auto-claude-code-research-in-sleep",
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
@@ -10231,6 +10250,40 @@
     "checkedAt": "2026-06-21T11:34:38.691Z"
   },
   {
+    "repo": "aryanutkarsh/seecode",
+    "name": "SeeCode",
+    "description": "Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "architecture-diagram",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "data-visualization",
+      "developer-tools",
+      "diagrams",
+      "diagrams-as-code",
+      "drawio",
+      "flowchart",
+      "isometric",
+      "mermaid",
+      "sequence-diagram",
+      "software-architecture",
+      "svg",
+      "system-design",
+      "visualization"
+    ],
+    "stars": 123,
+    "lastPush": "2026-10-09T16:50:55Z",
+    "pool": "ranked",
+    "readmeLength": 3178,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-10T05:59:33.654Z"
+  },
+  {
     "repo": "jtrackingai/analytics-tracking-automation",
     "name": "analytics-tracking-automation",
     "description": "AI-powered GA4 + GTM event tracking — automates site analysis, event schema, GTM sync, preview verification, and publishing. Works with Cursor, Codex, and any AI agent.",
@@ -11411,6 +11464,36 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "tubeagentkit/youtube-transcript-skills",
+    "name": "youtube-transcript-skills",
+    "description": "YouTube transcript Agent Skill for Claude Code, Cursor, Codex and OpenClaw: fetch YouTube video transcripts, search videos, browse channels and playlists.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-tools",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "llm",
+      "openclaw",
+      "skills",
+      "transcript",
+      "video-summarization",
+      "youtube",
+      "youtube-api",
+      "youtube-search",
+      "youtube-transcript"
+    ],
+    "stars": 80,
+    "lastPush": "2026-10-09T04:34:15Z",
+    "pool": "ranked",
+    "readmeLength": 1435,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-10T05:59:33.654Z"
   },
   {
     "repo": "weaverse/.agents",
@@ -12896,6 +12979,28 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-27T05:23:37.495Z"
+  },
+  {
+    "repo": "phuryn/work-humanizer",
+    "name": "work-humanizer",
+    "description": "A humanizer for work writing: takes the AI tone out without changing what your text says or commits to. Agent Skill + evidence: blind judges, hand-checked meaning changes, Pangram.",
+    "tags": [
+      "agent-skills",
+      "ai-detection",
+      "ai-writing",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "humanizer",
+      "写作"
+    ],
+    "stars": 58,
+    "lastPush": "2026-10-09T10:33:43Z",
+    "pool": "ranked",
+    "readmeLength": 1360,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-10T05:59:33.654Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",

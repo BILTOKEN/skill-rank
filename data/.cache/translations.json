@@ -8552,5 +8552,33 @@
     "prompt": "请帮我安装一个 Claude Code 技能包（skills）。请从 GitHub 仓库 https://github.com/mindrally/skills 下载所有文件，并保存到 .claude/skills/skills/ 目录下完成安装。这个仓库包含了 265 个以上的技能，覆盖各种主流框架和编程语言。",
     "translatedAt": "2026-10-09T06:33:37.367Z",
     "backTranslationDiff": 0.6363636363636364
+  },
+  "tigerless-labs/autoharness": {
+    "sourceHash": "3bb4574edb925f23",
+    "chineseDescription": "Autoharness —— 一个给 Claude Code 用的自学习技能层（self-learning skill layer）。它会从你真实的会话（session）里提炼技能，随着你干活儿不断更新这些技能，还会把那些没人再用的技能自动清理掉。不需要常驻进程（daemon），也不用跑基准测试（benchmark）。",
+    "prompt": "请帮我安装 autoharness 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/tigerless-labs/autoharness 下载全部文件；2) 在项目根目录创建 .claude/skills/autoharness/ 目录；3) 把下载的文件保存到该目录下（保持原有目录结构）；4) 确认安装完成并告诉我怎么用。仓库地址：https://github.com/tigerless-labs/autoharness",
+    "translatedAt": "2026-10-10T06:18:37.616Z",
+    "backTranslationDiff": 0.8260869565217391
+  },
+  "aryanutkarsh/seecode": {
+    "sourceHash": "11070aa1b0584777",
+    "chineseDescription": "SeeCode 是一个给 Claude 和其他编程 agent（智能体）用的工具，只要写一段简短的 JSON 配置，就能生成带动画、可交互探索的图表。",
+    "prompt": "请帮我安装 SeeCode 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/aryanutkarsh/seecode 下载所有文件；2) 在项目根目录创建 .claude/skills/seecode/ 目录；3) 把下载的文件保存到该目录下；4) 确认安装完成并告诉我怎么用。",
+    "translatedAt": "2026-10-10T06:18:41.017Z",
+    "backTranslationDiff": 0.8181818181818181
+  },
+  "tubeagentkit/youtube-transcript-skills": {
+    "sourceHash": "91ad8c33f505e7b7",
+    "chineseDescription": "这是一个 YouTube 字幕（transcript）Agent Skill（智能体技能），适用于 Claude Code、Cursor、Codex 和 OpenClaw：可以抓取 YouTube 视频字幕、搜索视频、浏览频道和播放列表。",
+    "prompt": "请帮我安装 youtube-transcript-skills 这个 Skill。请从 GitHub 仓库 https://github.com/tubeagentkit/youtube-transcript-skills 下载所需文件，并保存到 .claude/skills/youtube-transcript-skills/ 目录下完成安装。安装完成后请告诉我如何使用它。",
+    "translatedAt": "2026-10-10T06:18:44.798Z",
+    "backTranslationDiff": 0.8823529411764706
+  },
+  "phuryn/work-humanizer": {
+    "sourceHash": "abef836e27e1b55b",
+    "chineseDescription": "一个用于工作写作的「去 AI 味」工具（humanizer）：在不改变你文本原意、也不改变你所作承诺的前提下，去掉那股 AI 腔调。这是一个 Agent Skill（智能体技能），并附有证据支撑：盲测评审（blind judges）、人工逐条核对语义变化、以及 Pangram 检测。",
+    "prompt": "请帮我安装 work-humanizer 这个 Skill。请从 GitHub 仓库 https://github.com/phuryn/work-humanizer 下载相关文件，并保存到 .claude/skills/work-humanizer/ 目录下完成安装。如果该目录不存在，请先创建。安装完成后，请告诉我安装结果和如何使用。",
+    "translatedAt": "2026-10-10T06:18:48.437Z",
+    "backTranslationDiff": 0.33333333333333337
   }
 }

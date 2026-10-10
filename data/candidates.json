@@ -911,6 +911,20 @@
     "lastPush": "2026-10-05T05:31:02Z"
   },
   {
+    "repo": "tigerless-labs/autoharness",
+    "name": "autoharness",
+    "description": "Autoharness — a self-learning skill layer for Claude Code — distills skills from your real sessions, updates them as you work, and prunes the ones that stop getting used. No daemon, no benchmark.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "llm-agents",
+      "python"
+    ],
+    "stars": 10924,
+    "lastPush": "2026-10-09T09:19:20Z"
+  },
+  {
     "repo": "wanshuiyin/auto-claude-code-research-in-sleep",
     "name": "Auto-claude-code-research-in-sleep",
     "description": "ARIS ⚔️ (Auto-Research-In-Sleep) — Lightweight Markdown-only skills for autonomous ML research: cross-model review loops, idea discovery, and experiment automation. No framework, no lock-in — works with Claude Code, Codex, OpenClaw, or any LLM agent.",
@@ -7971,6 +7985,35 @@
     "lastPush": "2026-06-20T13:32:56Z"
   },
   {
+    "repo": "aryanutkarsh/seecode",
+    "name": "SeeCode",
+    "description": "Animated, explorable diagrams for Claude and other coding agents, from a short JSON spec.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "architecture-diagram",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "data-visualization",
+      "developer-tools",
+      "diagrams",
+      "diagrams-as-code",
+      "drawio",
+      "flowchart",
+      "isometric",
+      "mermaid",
+      "sequence-diagram",
+      "software-architecture",
+      "svg",
+      "system-design",
+      "visualization"
+    ],
+    "stars": 123,
+    "lastPush": "2026-10-09T16:50:55Z"
+  },
+  {
     "repo": "jtrackingai/analytics-tracking-automation",
     "name": "analytics-tracking-automation",
     "description": "AI-powered GA4 + GTM event tracking — automates site analysis, event schema, GTM sync, preview verification, and publishing. Works with Cursor, Codex, and any AI agent.",
@@ -8916,6 +8959,31 @@
     ],
     "stars": 80,
     "lastPush": "2026-05-26T20:19:10Z"
+  },
+  {
+    "repo": "tubeagentkit/youtube-transcript-skills",
+    "name": "youtube-transcript-skills",
+    "description": "YouTube transcript Agent Skill for Claude Code, Cursor, Codex and OpenClaw: fetch YouTube video transcripts, search videos, browse channels and playlists.",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-tools",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "llm",
+      "openclaw",
+      "skills",
+      "transcript",
+      "video-summarization",
+      "youtube",
+      "youtube-api",
+      "youtube-search",
+      "youtube-transcript"
+    ],
+    "stars": 80,
+    "lastPush": "2026-10-09T04:34:15Z"
   },
   {
     "repo": "weaverse/.agents",
@@ -10096,6 +10164,23 @@
     ],
     "stars": 58,
     "lastPush": "2026-09-26T06:40:21Z"
+  },
+  {
+    "repo": "phuryn/work-humanizer",
+    "name": "work-humanizer",
+    "description": "A humanizer for work writing: takes the AI tone out without changing what your text says or commits to. Agent Skill + evidence: blind judges, hand-checked meaning changes, Pangram.",
+    "tags": [
+      "agent-skills",
+      "ai-detection",
+      "ai-writing",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "humanizer",
+      "写作"
+    ],
+    "stars": 58,
+    "lastPush": "2026-10-09T10:33:43Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",
@@ -12870,6 +12955,24 @@
     "lastPush": "2026-09-26T12:23:33Z"
   },
   {
+    "repo": "nasqret/labyrinth-exploration",
+    "name": "labyrinth-exploration",
+    "description": "An agent skill for Codex, Claude Code and other clients: open-ended research as the exploration of a labyrinth, with a map of what is proved, refuted, conjectured and still dark, proof tiers, independent referees and campaigns of agents.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "knowledge-graph",
+      "mathematics",
+      "openai-codex",
+      "research",
+      "research-tools"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-09T00:23:23Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -14586,6 +14689,22 @@
     "lastPush": "2026-10-04T23:28:45Z"
   },
   {
+    "repo": "grenbel/autodl-autogpu",
+    "name": "autodl-autogpu",
+    "description": "由 AI 自动完成 AutoDL 实例开关机的 Claude Code skill，含空闲自动关机、预算核对与用量记账",
+    "tags": [
+      "agent-skills",
+      "autodl",
+      "automation",
+      "claude-code",
+      "claude-skills",
+      "deep-learning",
+      "gpu"
+    ],
+    "stars": 23,
+    "lastPush": "2026-10-07T18:39:35Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -14790,6 +14909,20 @@
     ],
     "stars": 22,
     "lastPush": "2026-10-09T04:22:12Z"
+  },
+  {
+    "repo": "avi691/linkedin-agent-skill",
+    "name": "linkedin-agent-skill",
+    "description": "Eleven free Claude skills that run a LinkedIn account: posts off 21 hook formulas, comments, replies, profile score, weekly plan, and a humanizer that strips the AI fingerprint.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "linkedin"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-06T22:06:59Z"
   },
   {
     "repo": "metcalfsolutions/satori",
@@ -27449,6 +27582,34 @@
     ],
     "stars": 4,
     "lastPush": "2026-10-07T17:50:48Z"
+  },
+  {
+    "repo": "micaelcf/ef-harness",
+    "name": "ef-harness",
+    "description": "Spec-driven development harness for AI coding agents. Grill the decisions, write the RFC/PRD, check every spec claim against the real code, build against named proofs, then pass one adversarial audit. Specs stay up to date with what shipped. Claude Code & omp plugin, any language.",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "agents",
+      "ai-workflows",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "code-quality",
+      "coding-agent",
+      "context-engineering",
+      "omp",
+      "prd",
+      "prompt-engineering",
+      "rfc",
+      "sdd",
+      "skills",
+      "spec-driven-development",
+      "tdd",
+      "vibe-coding"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-02T14:27:46Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
