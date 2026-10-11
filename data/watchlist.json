@@ -5098,6 +5098,35 @@
     "checkedAt": "2026-10-10T05:59:33.654Z"
   },
   {
+    "repo": "onepathtofreedom/smart-notes-skill",
+    "name": "smart-notes-skill",
+    "description": "Claude Skill that turns lecture transcripts and readings into linked Obsidian notes, adaptive flashcards, and a gap tracker.",
+    "tags": [
+      "claude-skills",
+      "flashcards",
+      "flashcards-generator",
+      "flashcards-obsidian",
+      "obsidian",
+      "obsidian-md",
+      "obsidian-notes",
+      "obsidian-plugin",
+      "obsidian-plugins",
+      "obsidian-vault",
+      "spaced-repetition",
+      "spaced-repetition-flashcards",
+      "spaced-repetition-learning",
+      "study-notes",
+      "study-notes-generator"
+    ],
+    "stars": 22,
+    "lastPush": "2026-09-28T22:58:24Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-11T05:54:39.873Z"
+  },
+  {
     "repo": "metcalfsolutions/satori",
     "name": "Satori",
     "description": "A Claude skill blending psychology, philosophy, and wisdom traditions into a conversation partner with actual depth. Free, open-source, not a therapist.",
@@ -5598,6 +5627,24 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
+    "repo": "full-stack-skills/tauri-skills",
+    "name": "tauri-skills",
+    "description": "Tauri v2 skills - 52 desktop/mobile app development skills",
+    "tags": [
+      "claude-skills",
+      "codex-skills",
+      "skills",
+      "tauri"
+    ],
+    "stars": 20,
+    "lastPush": "2026-10-03T17:04:18Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-11T05:54:39.873Z"
   },
   {
     "repo": "eniktab/scientific-paper-writer",
@@ -18968,6 +19015,32 @@
     "checkedAt": "2026-10-09T06:15:51.133Z"
   },
   {
+    "repo": "noderaven/parallel-lanes",
+    "name": "parallel-lanes",
+    "description": "Claude Code skill: run an approved implementation plan as parallel lanes of reviewed tasks",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "git-worktree",
+      "multi-agent",
+      "parallel-execution",
+      "subagents",
+      "superpowers"
+    ],
+    "stars": 5,
+    "lastPush": "2026-10-11T01:57:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-11T05:54:39.873Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -27320,6 +27393,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-09T06:15:51.133Z"
+  },
+  {
+    "repo": "equalang/equalang-skill",
+    "name": "equalang-skill",
+    "description": "Agent Skill for Equalang: translate PDF, DOCX, PPTX, XLSX, EPUB, subtitles, pictures, audio and video with the layout kept; transcribe recordings. For Claude Code, Codex, Cursor and more.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "document-translation",
+      "image-translation",
+      "pdf-translation",
+      "speech-to-text",
+      "subtitle-translation",
+      "transcription",
+      "translation"
+    ],
+    "stars": 2,
+    "lastPush": "2026-09-22T09:05:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-11T05:54:39.873Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

@@ -5985,10 +5985,10 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "hesreallyhim/awesome-claude-code": {
-    "sourceHash": "2a9220311522c2e0",
-    "chineseDescription": "一份精心挑选的 Claude Code 资源合集，汇集了最棒的技能、多面手代理、炫酷的状态行、顶级开发者工具，还有插件。来自 Anthropic PBC 团队打造的编程伴侣之王——Claude Code。",
-    "prompt": "请从 https://github.com/hesreallyhim/awesome-claude-code 下载仓库内容，保存到 .claude/skills/awesome-claude-code/ 目录，完成安装。",
-    "translatedAt": "2026-07-03T04:29:04.280Z",
+    "sourceHash": "a6173e3b024c9d5a",
+    "chineseDescription": "这是一个精选资源合集，专门收集 Claude Code（Anthropic 出品的编程助手）最优质的资源。内容涵盖顶级技能（skills）、全能型智能体（agents）、炫酷的状态栏（status lines）、一流的开发者工具，还有插件（plugins）。简单说，就是给 Claude Code 用户准备的一份宝藏清单，帮你发现各种好用的扩展和工具。",
+    "prompt": "请帮我安装 awesome-claude-code 这个技能。具体步骤：\n1. 从 GitHub 仓库 https://github.com/hesreallyhim/awesome-claude-code 下载所有文件\n2. 在项目根目录创建 .claude/skills/awesome-claude-code/ 目录\n3. 把下载的文件保存到该目录下\n4. 完成后告诉我安装成功，并简单介绍这个技能能做什么\n\n如果目录已存在，请先确认是否已安装，避免重复下载。",
+    "translatedAt": "2026-10-11T06:10:08.016Z",
     "backTranslationDiff": 0.71875
   },
   "donchitos/claude-code-game-studios": {
@@ -7679,11 +7679,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "wesammustafa/claude-code-everything-you-need-to-know": {
-    "sourceHash": "d62c8bfe10f0fdcd",
-    "chineseDescription": "一份分三个等级的 Claude Code 指南。初级和中级部分包含实操课程，配有带答案的练习题和引用来源；高级部分正在重做中。这是一个独立的社区指南。",
-    "prompt": "请帮我安装一个 Claude Code Skill，名称是 claude-code-everything-you-need-to-know。\n\n请执行以下操作：\n1. 从 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载所有文件\n2. 在项目根目录创建 .claude/skills/claude-code-everything-you-need-to-know/ 目录\n3. 把下载的文件保存到该目录中\n4. 确认安装完成，并告诉我这个 skill 包含哪些内容\n\n注意：如果 .claude/skills/ 目录不存在，请先创建它。",
-    "translatedAt": "2026-10-08T06:34:45.657Z",
-    "backTranslationDiff": 0.9047619047619048
+    "sourceHash": "5ea05384d71b3841",
+    "chineseDescription": "这份 Claude Code 指南分三个难度等级，配有实操课程、带答案的练习题，以及有据可查的事实引用。是一个独立的社区指南。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载所有文件，并保存到 .claude/skills/claude-code-everything-you-need-to-know/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 Skill 是做什么的、怎么用。",
+    "translatedAt": "2026-10-11T06:10:11.671Z",
+    "backTranslationDiff": 0.8666666666666667
   },
   "ksimback/looper": {
     "sourceHash": "ff8c6b59e1ad3da3",
@@ -8580,5 +8580,19 @@
     "prompt": "请帮我安装 work-humanizer 这个 Skill。请从 GitHub 仓库 https://github.com/phuryn/work-humanizer 下载相关文件，并保存到 .claude/skills/work-humanizer/ 目录下完成安装。如果该目录不存在，请先创建。安装完成后，请告诉我安装结果和如何使用。",
     "translatedAt": "2026-10-10T06:18:48.437Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "haiderfarooq3/khan-explainer": {
+    "sourceHash": "131f640816e61d56",
+    "chineseDescription": "Claude Code 技能（Skill）：可生成可汗学院（Khan Academy）风格的教学讲解视频。一支笔边画边讲，配上旁白解说。完全免费、本地运行，不需要任何 API 密钥（API key）。",
+    "prompt": "请帮我安装 khan-explainer 这个 Claude Code 技能（Skill）。请从 GitHub 仓库 https://github.com/haiderfarooq3/khan-explainer 下载全部文件，并保存到 .claude/skills/khan-explainer/ 目录下完成安装。安装完成后，请告诉我这个技能怎么用。",
+    "translatedAt": "2026-10-11T06:10:15.262Z",
+    "backTranslationDiff": 0.8666666666666667
+  },
+  "liyupi/ai-promo-video-maker": {
+    "sourceHash": "5eb769a75dcee243",
+    "chineseDescription": "一句话让 AI 帮你做产品宣传片！把产品名或网址告诉 Cursor、Claude Code、Codex 等 AI 编程工具，它会自己调研产品、画出多种风格样图让你挑选、截取 4K 真实页面、按音乐节拍卡点剪辑、生成 AI 旁白（voiceover）并逐句转写校验、自动审图，最后交付一支 4K 商业宣传视频和可在线播放的网页版。App、网站、SaaS、开源项目、课程、AI 模型都能做，你只需确认需求、试听配乐。不用学剪辑软件，也不用花钱找外包。基于 Remotion + ElevenLabs，可直接克隆使用，也能一键安装为 Agent Skill（智能体技能）。",
+    "prompt": "请帮我安装 ai-promo-video-maker 这个 Skill。请从 GitHub 仓库 https://github.com/liyupi/ai-promo-video-maker 下载所有文件，并保存到 .claude/skills/ai-promo-video-maker/ 目录下完成安装。安装完成后，请告诉我如何使用它。",
+    "translatedAt": "2026-10-11T06:10:19.314Z",
+    "backTranslationDiff": 0.8461538461538461
   }
 }
