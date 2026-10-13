@@ -6118,11 +6118,11 @@
     "backTranslationDiff": 0.1875
   },
   "huangkiki/dailypaper-skills": {
-    "sourceHash": "2e2b07fceccba94d",
-    "chineseDescription": "用 Agent skills 打造我的论文流水线",
-    "prompt": "请从 https://github.com/huangkiki/dailypaper-skills 下载 dailypaper-skills 技能文件，保存到 .claude/skills/dailypaper-skills/ 目录，完成安装。",
-    "translatedAt": "2026-05-31T17:00:30.031Z",
-    "backTranslationDiff": 1
+    "sourceHash": "dda87e12682eb83c",
+    "chineseDescription": "用于每日论文发现、批判性评审（critical reviews）和关联研究笔记（connected research notes）的 Agent 技能（Agent skills）。支持中英文。",
+    "prompt": "请帮我安装 dailypaper-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/huangkiki/dailypaper-skills 下载所有文件，并保存到 .claude/skills/dailypaper-skills/ 目录下完成安装。安装完成后告诉我这个技能能做什么、怎么用。",
+    "translatedAt": "2026-10-13T07:16:42.501Z",
+    "backTranslationDiff": 0.8461538461538461
   },
   "fireact-dev/main": {
     "sourceHash": "12b7e901a23cc496",
@@ -6181,10 +6181,10 @@
     "backTranslationDiff": 0.9375
   },
   "levnikolaevich/claude-code-skills": {
-    "sourceHash": "2c036cbda5a3ce38",
-    "chineseDescription": "帮你的 AI agent（智能体）真正把活干完：解决对的问题、让改动保持聚焦、并展示验证过的东西。适用于 Claude Code 和 Codex。",
-    "prompt": "请帮我安装一个 Claude Code Skill（技能），名称是 claude-code-skills。\n\n请执行以下步骤：\n1. 从 GitHub 仓库 https://github.com/levnikolaevich/claude-code-skills 下载该 Skill 的所有文件（如果仓库有子目录结构，请保持原有结构）。\n2. 在本地创建目录 .claude/skills/claude-code-skills/（如果不存在的话）。\n3. 把下载的文件保存到 .claude/skills/claude-code-skills/ 目录下。\n4. 确认安装完成，并告诉我这个 Skill 提供了哪些功能。\n\n仓库地址：https://github.com/levnikolaevich/claude-code-skills",
-    "translatedAt": "2026-09-18T05:08:47.653Z",
+    "sourceHash": "694311d19658a744",
+    "chineseDescription": "这是一个面向 Claude Code 和 Codex 的独立技能（Skill）集合，覆盖产品探索（product discovery）、架构设计（architecture）、实现（implementation）、技术基础（technical foundations）、代码审查（reviews）和交付（delivery），每个技能都有明确的范围界定和验证机制。",
+    "prompt": "请帮我安装 claude-code-skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/levnikolaevich/claude-code-skills 下载所有文件；2) 在项目根目录创建 .claude/skills/claude-code-skills/ 目录；3) 把下载的文件保存到该目录下，保持原有的目录结构；4) 完成后告诉我安装了哪些技能。",
+    "translatedAt": "2026-10-13T07:16:47.017Z",
     "backTranslationDiff": 0.8823529411764706
   },
   "vila-lab/figmirror": {
@@ -7462,11 +7462,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "wquguru/skills": {
-    "sourceHash": "6b3cfc266026e3a6",
-    "chineseDescription": "实用Agent技能——包括英语工程师辅导、Pi Agent设置等。通过 npx skills add 安装。",
-    "prompt": "请从 https://github.com/wquguru/skills 下载技能文件，保存到 .claude/skills/skills/ 目录完成安装。",
-    "translatedAt": "2026-07-12T04:33:37.784Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "8b10cf7544de93b4",
+    "chineseDescription": "实用的 Agent Skills（智能体技能）合集。用 npx skills add 命令即可安装。",
+    "prompt": "请帮我安装这个 Claude Code Skill。\n\n1. 从 GitHub 仓库 https://github.com/wquguru/skills 下载所有文件\n2. 在项目根目录创建 .claude/skills/skills/ 目录（如果不存在的话）\n3. 把下载的文件保存到 .claude/skills/skills/ 目录下\n4. 确认安装完成，告诉我装好了哪些文件\n\n仓库地址：https://github.com/wquguru/skills",
+    "translatedAt": "2026-10-13T07:16:50.711Z",
+    "backTranslationDiff": 0.7142857142857143
   },
   "anbeime/skill": {
     "sourceHash": "5e69d3f97f29aa58",
@@ -8498,11 +8498,11 @@
     "backTranslationDiff": 0.8461538461538461
   },
   "oil-oil/oil-ui": {
-    "sourceHash": "5b7e7e4c1cb2f15e",
-    "chineseDescription": "把 AI 的 UI 设计能力推到极限：探索不同的设计方向，并排对比它们，再根据真实截图（screenshot）反复打磨优化。",
-    "prompt": "请帮我安装 oil-ui 这个 Skill。去 GitHub 仓库 https://github.com/oil-oil/oil-ui 下载它的文件，保存到 .claude/skills/oil-ui/ 目录下，完成安装。",
-    "translatedAt": "2026-10-07T06:18:56.795Z",
-    "backTranslationDiff": 1
+    "sourceHash": "2ced285ffd94507c",
+    "chineseDescription": "给 AI Agent（智能体）用的 UI 设计 Skill（技能）：帮你探索不同的设计方向，把它们并排对比，再根据真实截图反复打磨。支持 Claude Code、Codex 等 AI Agent。",
+    "prompt": "请帮我安装 oil-ui 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/oil-oil/oil-ui 下载全部文件；2) 在项目里创建目录 .claude/skills/oil-ui/；3) 把下载的文件放到这个目录下，保持原有的目录结构；4) 确认 SKILL.md（技能说明文件）等文件都已就位，然后告诉我安装完成。",
+    "translatedAt": "2026-10-13T07:17:02.756Z",
+    "backTranslationDiff": 0.8
   },
   "cth9191/animate": {
     "sourceHash": "0840b20626ae3c38",
@@ -8594,5 +8594,82 @@
     "prompt": "请帮我安装 ai-promo-video-maker 这个 Skill。请从 GitHub 仓库 https://github.com/liyupi/ai-promo-video-maker 下载所有文件，并保存到 .claude/skills/ai-promo-video-maker/ 目录下完成安装。安装完成后，请告诉我如何使用它。",
     "translatedAt": "2026-10-11T06:10:19.314Z",
     "backTranslationDiff": 0.8461538461538461
+  },
+  "paperclipai/paperclip": {
+    "sourceHash": "e091e6c4017040c7",
+    "chineseDescription": "paperclip 是一个开源应用（open-source app），大家用它来管理工作中的各类 agent（智能体）。",
+    "prompt": "请帮我安装 paperclip 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/paperclipai/paperclip 下载所需文件，并保存到 .claude/skills/paperclip/ 目录下完成安装。如果目录不存在，请先创建。安装完成后告诉我怎么使用。",
+    "translatedAt": "2026-10-13T07:16:54.033Z",
+    "backTranslationDiff": 1
+  },
+  "the911fund/skill-of-skills": {
+    "sourceHash": "b6470177ef52b12c",
+    "chineseDescription": "AI 编程工具的自动发现引擎。为 Claude Code、Codex、Gemini CLI 等工具建立索引，收录 skills（技能）、plugins（插件）、MCP servers（MCP 服务器）、agents（智能体）以及各类集成。",
+    "prompt": "请帮我安装 skill-of-skills 这个技能。步骤：1) 从 GitHub 仓库 https://github.com/the911fund/skill-of-skills 下载全部文件；2) 在项目根目录创建 .claude/skills/skill-of-skills/ 目录；3) 把下载的文件保存到该目录下。完成后告诉我安装结果。",
+    "translatedAt": "2026-10-13T07:16:58.241Z",
+    "backTranslationDiff": 0.9444444444444444
+  },
+  "juliobsz/skills": {
+    "sourceHash": "8339afcdcea503d2",
+    "chineseDescription": "一个 agent skill（智能体技能），只需一行指令就能生成达到获奖水准的网站。",
+    "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/juliobsz/skills 下载相关文件，并保存到 .claude/skills/skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我怎么使用它。",
+    "translatedAt": "2026-10-13T07:17:06.083Z",
+    "backTranslationDiff": 0.875
+  },
+  "mahanaicoach/google-maps-scraper-kit": {
+    "sourceHash": "370d134c070e7e27",
+    "chineseDescription": "Google Maps 抓取工具（scraper），也是一个用于线索生成（lead generation）的 Claude Code 技能（skill）。可以导出干净的 CSV 文件，包含电话、邮箱、网站和社交媒体信息。本地运行、免费、无需 API 密钥（API keys）。",
+    "prompt": "请帮我安装 google-maps-scraper-kit 这个 Claude Code 技能（skill）。请从 GitHub 仓库 https://github.com/mahanaicoach/google-maps-scraper-kit 下载所有文件，并保存到 .claude/skills/google-maps-scraper-kit/ 目录下完成安装。安装完成后请告诉我如何使用它。",
+    "translatedAt": "2026-10-13T07:17:10.031Z",
+    "backTranslationDiff": 0.8421052631578947
+  },
+  "o11y-dev/opentelemetry-skill": {
+    "sourceHash": "92f2ab98ae093fbd",
+    "chineseDescription": "面向 AI 辅助可观测性工程（Observability Engineering）的认知架构（Cognitive Architecture）。简单说，就是让 Claude Code 在帮你搞 OpenTelemetry（开放遥测）相关工作时，有一套结构化的思路和方法，而不是瞎猜。",
+    "prompt": "请帮我安装 opentelemetry-skill 这个 Skill。步骤：1）从 https://github.com/o11y-dev/opentelemetry-skill 下载仓库全部文件；2）在项目根目录创建 .claude/skills/opentelemetry-skill/ 目录；3）把下载的文件放到该目录下；4）确认 SKILL.md 等文件已就位。安装完成后告诉我这个 Skill 能做什么。",
+    "translatedAt": "2026-10-13T07:17:14.393Z",
+    "backTranslationDiff": 0.4
+  },
+  "artemchuikin/youtube-skills": {
+    "sourceHash": "d2dd9b7184db565e",
+    "chineseDescription": "这是一个给 Claude Code、Cursor 和 Codex 用的 YouTube 字幕（transcript）技能包。通过 Agent Skills（智能体技能）实现：获取视频字幕、搜索 YouTube、读取频道和播放列表，以及批量导出。",
+    "prompt": "请帮我安装 youtube-skills 技能。请从 GitHub 仓库 https://github.com/artemchuikin/youtube-skills 下载所有文件，并保存到 .claude/skills/youtube-skills/ 目录下完成安装。安装完成后告诉我这个技能能做什么。",
+    "translatedAt": "2026-10-13T07:17:17.984Z",
+    "backTranslationDiff": 0.75
+  },
+  "oil-oil/oil-motion": {
+    "sourceHash": "92f72ac15957997d",
+    "chineseDescription": "这是一个给 Claude Code 和 Codex 用的网页动画技能（skill），能帮你做跟着页面滚动和鼠标移动的网页动画效果。",
+    "prompt": "帮我安装 oil-motion 这个 skill。请从 GitHub 仓库 https://github.com/oil-oil/oil-motion 下载所有文件，保存到 .claude/skills/oil-motion/ 目录下，完成安装。",
+    "translatedAt": "2026-10-13T07:17:21.400Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "oil-oil/draw-ui": {
+    "sourceHash": "0c26fcd1b29116f2",
+    "chineseDescription": "draw-ui 是一个面向 Claude Code 和 Codex 的 UI 设计与原型（mockup）技能，支持从截图直接生成代码。帮你产出 UI 设计稿，并把它还原成页面。",
+    "prompt": "请帮我安装 draw-ui 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/oil-oil/draw-ui 下载全部文件（可以用 git clone https://github.com/oil-oil/draw-ui 或直接下载压缩包）；2) 在当前项目的 .claude/skills/draw-ui/ 目录下创建文件夹（如果不存在就新建）；3) 把下载到的文件全部放进 .claude/skills/draw-ui/ 目录；4) 确认目录里有 SKILL.md 等技能文件，安装完成后告诉我怎么用。",
+    "translatedAt": "2026-10-13T07:17:25.397Z",
+    "backTranslationDiff": 0.8
+  },
+  "oil-oil/oil-icon": {
+    "sourceHash": "732cf2e8c86fcdfe",
+    "chineseDescription": "这是一个给 Claude Code 和 Codex 用的 AI 图标集生成技能（Skill），能帮你一次性生成一整套风格统一的图标。",
+    "prompt": "请帮我安装 oil-icon 这个 Skill。步骤：1) 访问 GitHub 仓库 https://github.com/oil-oil/oil-icon ，把仓库里的文件下载下来；2) 在当前项目的 .claude/skills/oil-icon/ 目录下创建文件夹（如果不存在就新建）；3) 把下载的文件保存到 .claude/skills/oil-icon/ 目录中，保持原有的目录结构；4) 安装完成后告诉我这个 Skill 怎么用。",
+    "translatedAt": "2026-10-13T07:17:29.239Z",
+    "backTranslationDiff": 0.7142857142857143
+  },
+  "oil-oil/oil-cover": {
+    "sourceHash": "f32c44a998c393d7",
+    "chineseDescription": "视频封面和缩略图（thumbnail）技能，适用于 Claude Code 和 Codex。帮你从视频画面里截取素材，制作小红书和 B 站的封面图。",
+    "prompt": "请帮我安装 oil-cover 这个 Claude Code 技能。步骤：1）从 GitHub 仓库 https://github.com/oil-oil/oil-cover 下载全部文件；2）在当前项目的 .claude/skills/oil-cover/ 目录下保存（如果目录不存在就创建）；3）确认 SKILL.md 等文件都已就位，完成后告诉我怎么用。",
+    "translatedAt": "2026-10-13T07:17:32.951Z",
+    "backTranslationDiff": 0.7777777777777778
+  },
+  "oil-oil/oil-subtitle": {
+    "sourceHash": "fe79e46fb0392aaf",
+    "chineseDescription": "这是一个给 Claude Code 和 Codex 用的字幕技能（Skill）：能把视频里的语音转成文字（transcribe）、校对字幕内容（proofread），还能把字幕直接烧录（burn）到视频画面上。简单说，就是帮你给视频加中文字幕的一整套工具。",
+    "prompt": "请帮我安装 oil-subtitle 这个 Skill。请从 GitHub 仓库 https://github.com/oil-oil/oil-subtitle 下载相关文件，并保存到 .claude/skills/oil-subtitle/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-10-13T07:17:36.818Z",
+    "backTranslationDiff": 0.8
   }
 }

@@ -213,6 +213,33 @@
     "checkedAt": "2026-10-05T05:48:37.328Z"
   },
   {
+    "repo": "o11y-dev/opentelemetry-skill",
+    "name": "opentelemetry-skill",
+    "description": "A Cognitive Architecture for AI-Assisted Observability Engineering",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "context-engineering",
+      "cursor",
+      "github-copilot",
+      "instrumentation",
+      "kubernetes",
+      "observability",
+      "opentelemetry",
+      "opentelemetry-collector",
+      "tessl"
+    ],
+    "stars": 48,
+    "lastPush": "2026-10-12T11:51:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-13T06:51:19.321Z"
+  },
+  {
     "repo": "belumume/claude-skills",
     "name": "claude-skills",
     "description": "Personal collection of Claude skills - growing as I discover patterns and solve real-world problems",
@@ -2642,6 +2669,30 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-10T05:59:33.654Z"
+  },
+  {
+    "repo": "revfactory/showreel",
+    "name": "showreel",
+    "description": "Claude Code skill that produces Korean motion-graphics videos end to end: brief, research, script, ElevenLabs narration, music, images, deterministic HTML render, mix and automated QA.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "elevenlabs",
+      "ffmpeg",
+      "korean",
+      "motion-graphics",
+      "playwright",
+      "showreel",
+      "video-generation"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-11T19:53:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-13T06:51:19.321Z"
   },
   {
     "repo": "spillwavesolutions/jira",
@@ -5668,6 +5719,38 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-11T05:54:39.873Z"
+  },
+  {
+    "repo": "xcl2005/academic-paper-writing-skill",
+    "name": "academic-paper-writing-skill",
+    "description": "科研全流程，只需这一个 Skill 入口。从选题、文献检索、创新点验证、实验统计，到论文写作、审稿回复与毕设答辩，按需推进。内置基础流程，可选接入 18 个专业 Skill，无需全部安装。关键论点关联证据，先核验再写作。支持 Codex / Claude Code。",
+    "tags": [
+      "academic-search",
+      "academic-writing",
+      "agent-skills",
+      "claude-skills",
+      "codex-skills",
+      "literature-review",
+      "paper-to-ppt",
+      "paper-writing",
+      "peer-review",
+      "rebuttal",
+      "research-integrity",
+      "research-paper",
+      "research-workflow",
+      "scientific-visualization",
+      "scientific-writing",
+      "skills",
+      "statistical-analysis",
+      "systematic-review"
+    ],
+    "stars": 20,
+    "lastPush": "2026-09-02T22:01:53Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-13T06:51:19.321Z"
   },
   {
     "repo": "eniktab/scientific-paper-writer",
@@ -19062,6 +19145,23 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-11T05:54:39.873Z"
+  },
+  {
+    "repo": "alexyc9381/hiring-panel-skill",
+    "name": "hiring-panel-skill",
+    "description": "Seven Claudes try to reject your resume, then it rebuilds it with every mistake fixed. Free Claude Code skill, MIT.",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "resume"
+    ],
+    "stars": 5,
+    "lastPush": "2026-10-11T18:59:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-13T06:51:19.321Z"
   },
   {
     "repo": "rivia7/cc-audit",
