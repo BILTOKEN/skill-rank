@@ -15645,6 +15645,37 @@
     }
   },
   {
+    "repo": "talsiach/take-one",
+    "name": "take-one",
+    "description": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
+    "description_zh": "一个 Claude Code skill（技能），只需一句话就能生成发布视频、广告和音乐视频：从创意、脚本、视觉、配音、音乐、剪辑到审阅，最后还有一个审阅室（review room），你在里面写的意见会直接变成下一版（take）。",
+    "description_en": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
+    "prompt": "请帮我安装 take-one 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/talsiach/take-one 下载所有文件，并保存到 .claude/skills/take-one/ 目录下完成安装。安装完成后告诉我这个 skill 怎么用。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-skill",
+      "ai-video",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "launch-video",
+      "motion-design",
+      "motion-graphics",
+      "music-video",
+      "video-generation"
+    ],
+    "metrics": {
+      "stars_total": 49,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "kerberosclaw/kc_ai_skills",
     "name": "kc_ai_skills",
     "description": "AI Skills That Actually Do Things — 中文優先的 Claude Code / Codex agent skills 合集 · Reusable bilingual skills for any LLM workflow",
