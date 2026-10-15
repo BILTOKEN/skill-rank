@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "17db800bb5600707",
-    "chineseDescription": "X (Twitter) 数据抓取 API，以及 X API 的替代方案，支持 REST、MCP（模型上下文协议）、SDK 和 webhooks。与 X Corp. 无关联。",
-    "prompt": "请安装 x-twitter-scraper 技能。从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载文件，并保存到 .claude/skills/x-twitter-scraper/ 目录。完成后确认安装成功。",
-    "translatedAt": "2026-09-04T05:01:27.777Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "de228f900c58a26e",
+    "chineseDescription": "X（Twitter）数据抓取 API（scraper API）和 Twitter MCP 服务器（MCP server），用于抓取推文（tweets）、用户资料（profiles）和粉丝（followers）。与 X Corp. 无关联。",
+    "prompt": "请帮我安装 x-twitter-scraper 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载所有文件，并保存到 .claude/skills/x-twitter-scraper/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么、怎么用。",
+    "translatedAt": "2026-10-15T05:10:40.408Z",
+    "backTranslationDiff": 0.8181818181818181
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -4417,11 +4417,11 @@
     "backTranslationDiff": 0.2727272727272727
   },
   "teng-lin/notebooklm-py": {
-    "sourceHash": "792bc3842d0e448b",
-    "chineseDescription": "非官方的 Google Gemini Notebook Python API 和 agentic skill。通过 Python、CLI 以及 Claude Code、Codex、OpenClaw 等 AI 代理，提供对 NotebookLM 功能的完整编程访问——包括 Web 界面未暴露的能力。",
-    "prompt": "请从 https://github.com/teng-lin/notebooklm-py 下载 notebooklm-py skill 的所有文件，并保存到 .claude/skills/notebooklm-py/ 目录中，完成安装。",
-    "translatedAt": "2026-08-02T04:12:37.058Z",
-    "backTranslationDiff": 0.26086956521739135
+    "sourceHash": "3d37f2c46cfa17a5",
+    "chineseDescription": "Google Gemini Notebook 的非官方 Python API（应用程序接口）和智能体技能（agentic skill）。通过 Python、命令行工具（CLI）以及 Claude Code、Codex、OpenClaw 等 AI 智能体，你可以用编程方式完整访问 Gemini Notebook 的各项功能——包括网页界面（web UI）没有开放的那些能力。",
+    "prompt": "请帮我安装 notebooklm-py 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/teng-lin/notebooklm-py 下载全部文件；2) 在项目根目录创建 .claude/skills/notebooklm-py/ 目录；3) 把下载的文件保存到该目录下，保持原有的目录结构；4) 如果仓库里有 SKILL.md 或类似的技能说明文件，请读取并确认安装完成。安装好后告诉我这个技能能做什么。",
+    "translatedAt": "2026-10-15T05:10:30.843Z",
+    "backTranslationDiff": 0.8695652173913043
   },
   "maxritter/pilot-shell": {
     "sourceHash": "722c4a7daa7183a3",
@@ -5201,11 +5201,11 @@
     "backTranslationDiff": 0.4
   },
   "sergebulaev/linkedin-skills": {
-    "sourceHash": "6ef00a9fa1f240f2",
-    "chineseDescription": "LinkedIn 技能集。包含 11 个 Claude Code 和 Codex 技能，用于撰写听起来像真人写的 LinkedIn 帖子、编写能引起注意的评论、分析你的信息流，并建立发布节奏，全部在终端中完成。内容工程由 Creative Content Crafts 提供。MIT 许可证。",
-    "prompt": "请从 https://github.com/sergebulaev/linkedin-skills 下载该技能仓库，并将文件保存到 .claude/skills/linkedin-skills/ 目录中，完成安装。安装后请确认技能文件已正确放置，并简要说明该技能集包含哪些功能。",
-    "translatedAt": "2026-08-11T02:44:23.716Z",
-    "backTranslationDiff": 0.7692307692307692
+    "sourceHash": "3f91201faa49fe21",
+    "chineseDescription": "LinkedIn 的 Claude 技能包。包含 12 个 Claude Code 和 Codex 技能，可以在终端里写出像真人写的 LinkedIn 帖子、写出容易被注意到的评论、分析你的信息流，并帮你建立发布节奏。内容工程由 Creative Content Crafts 出品。MIT 许可证。",
+    "prompt": "请帮我安装 linkedin-skills 技能包。请从 GitHub 仓库 https://github.com/sergebulaev/linkedin-skills 下载所有文件，并保存到 .claude/skills/linkedin-skills/ 目录下完成安装。安装完成后告诉我这个技能包包含哪些功能。",
+    "translatedAt": "2026-10-15T05:10:17.428Z",
+    "backTranslationDiff": 0.7307692307692308
   },
   "helloruru/claude-memory-engine": {
     "sourceHash": "89d211dda2c33ee2",
@@ -5278,11 +5278,11 @@
     "backTranslationDiff": 0.5
   },
   "lingxling/awesome-skills-cn": {
-    "sourceHash": "8e7dfb1f61af1b3c",
-    "chineseDescription": "热门Skills中文学习版+教程，提供7000+个Skills，集成了claude skills（11万+Star）、awesome-openclaw-skills（4万+Star）、ui-ux-pro-max-skill（4万+Star）等10余个热门Skill项目。【使用场景】适用于想学习或使用大量Claude Skills中文教程的用户。",
-    "prompt": "请从 https://github.com/lingxling/awesome-skills-cn 下载该仓库的所有文件，并保存到 .claude/skills/awesome-skills-cn/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T13:48:29.741Z",
-    "backTranslationDiff": 0.5714285714285714
+    "sourceHash": "29930a3b98198cfa",
+    "chineseDescription": "热门 Skills 中文学习版加教程，提供 7000+ 个 Skills（技能），集成了 claude skills（18 万+ Star）、ui-ux-pro-max-skill（13 万+ Star）等 10 余个热门 Skill 项目。",
+    "prompt": "请帮我安装 awesome-skills-cn 这个 Skill。请从 GitHub 仓库 https://github.com/lingxling/awesome-skills-cn 下载相关文件，并保存到 .claude/skills/awesome-skills-cn/ 目录下完成安装。安装完成后告诉我这个 Skill 提供了哪些功能。",
+    "translatedAt": "2026-10-15T05:10:37.149Z",
+    "backTranslationDiff": 0.8
   },
   "altimateai/data-engineering-skills": {
     "sourceHash": "2a700e441352ec1e",
@@ -5677,17 +5677,17 @@
     "backTranslationDiff": 0.24137931034482762
   },
   "nexu-io/open-design": {
-    "sourceHash": "1adda5a9d94c05dd",
-    "chineseDescription": "🎨 最佳 DeepSeek Harness 设计插件。开源的 Claude Design 替代方案。🖥️ 本地优先的桌面应用。🖼️ 你的编码代理变成设计引擎：原型、落地页、仪表盘、幻灯片、图片和视频——真实文件，支持 HTML/PDF/PPTX/MP4 导出。🤖 通过 BYOK 支持 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode 及 20+ CLI。",
-    "prompt": "请从 https://github.com/nexu-io/open-design 下载该 Skill 的所有文件，保存到 .claude/skills/open-design/ 目录下，完成安装。安装后请确认文件结构完整，并告知我如何使用。",
-    "translatedAt": "2026-08-16T02:14:02.420Z",
-    "backTranslationDiff": 0.7272727272727273
+    "sourceHash": "9fe75429b2010d94",
+    "chineseDescription": "第一个协作式 AI 设计智能体工作空间。本地优先（local-first）且开源。你可以和团队、AI 智能体（AI agents）一起创建原型（prototypes）、网站、应用、仪表盘（dashboards）、演示文稿、图片和视频。在同一个工作空间里分享作品、交换反馈、一起迭代。",
+    "prompt": "请帮我安装 open-design 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/nexu-io/open-design 下载该 Skill 的所有文件，并保存到 .claude/skills/open-design/ 目录下完成安装。安装完成后，请告诉我如何使用它。",
+    "translatedAt": "2026-10-15T05:10:13.790Z",
+    "backTranslationDiff": 1
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "46856a5a4550034e",
-    "chineseDescription": "AAS Core 是一个本地优先、面向 agent（智能体）的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）和 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载该 Skill 的全部文件（如果 git 可用，直接 git clone https://github.com/sickn33/antigravity-awesome-skills；否则用 curl 或 wget 下载仓库的 zip 包并解压）。\n2. 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录（如果不存在的话）。\n3. 把下载到的所有文件放到 .claude/skills/antigravity-awesome-skills/ 目录下，确保 SKILL.md 等文件位于该目录根部。\n4. 安装完成后，列出 .claude/skills/antigravity-awesome-skills/ 下的文件，确认安装成功。\n\n仓库地址：https://github.com/sickn33/antigravity-awesome-skills",
-    "translatedAt": "2026-09-28T05:50:37.906Z",
+    "sourceHash": "d06a67ef6d8441b8",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2600+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
+    "translatedAt": "2026-10-15T05:10:23.955Z",
     "backTranslationDiff": 0.16666666666666663
   },
   "iofficeai/aionui": {
@@ -7854,10 +7854,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "46856a5a4550034e",
-    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2,400+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录中完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
-    "translatedAt": "2026-09-28T05:50:33.618Z",
+    "sourceHash": "d06a67ef6d8441b8",
+    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,600+ 个 agentic skills（智能体技能）支撑。它包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）以及 Workbench（工作台）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所有需要的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
+    "translatedAt": "2026-10-15T05:10:20.759Z",
     "backTranslationDiff": 0.16666666666666663
   },
   "nulightjens/humanizer-stack": {
@@ -7959,10 +7959,10 @@
     "backTranslationDiff": 1
   },
   "zenbu-labs/terminal-browser": {
-    "sourceHash": "87db46334c37ffc4",
-    "chineseDescription": "在终端（terminal）里运行的浏览器（browser）",
-    "prompt": "请帮我安装一个名为 terminal-browser 的 Claude Code Skill。\n\n1. 访问 GitHub 仓库 https://github.com/zenbu-labs/terminal-browser 下载该 Skill 的所有文件\n2. 将文件保存到 .claude/skills/terminal-browser/ 目录下\n3. 确保 Skill 配置正确，安装完成后告诉我如何使用\n\n【使用场景】当你想在终端里直接浏览网页、查看页面内容而不需要打开图形浏览器时使用。",
-    "translatedAt": "2026-08-23T02:22:29.155Z",
+    "sourceHash": "039af05889a4ec34",
+    "chineseDescription": "在你的终端（terminal）里跑一个真正的浏览器（browser）。不用切窗口，直接在命令行里浏览网页。",
+    "prompt": "请帮我安装 terminal-browser 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/zenbu-labs/terminal-browser 下载所有文件；2) 在项目根目录创建 .claude/skills/terminal-browser/ 目录；3) 把下载的文件保存到该目录下；4) 确认 SKILL.md 等文件已就位，安装完成。",
+    "translatedAt": "2026-10-15T05:10:27.207Z",
     "backTranslationDiff": 1
   },
   "avgvstvs96/better-github-skill": {
@@ -8050,11 +8050,11 @@
     "backTranslationDiff": 0.13793103448275867
   },
   "miaoqichuan/new-litigation-visualization": {
-    "sourceHash": "8e2bc7d5e207346e",
-    "chineseDescription": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集：把凌乱的诉讼图重画成能进材料的图，直接读案件材料画准一张时间轴，并提供庭前三大法宝（大事记表、庭审对抗图、法律关系图）。Claude Skill / DeepSeek Harness 通用。",
-    "prompt": "请帮我安装一个 Claude Code Skill，名称是 new-litigation-visualization。\n\n请你自己去 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 下载这个 Skill 的所有文件，然后保存到本地的 .claude/skills/new-litigation-visualization/ 目录下，完成安装。\n\n具体步骤：\n1. 访问 https://github.com/miaoqichuan/new-litigation-visualization\n2. 下载仓库中的全部文件（包括 SKILL.md 等）\n3. 在本地创建目录 .claude/skills/new-litigation-visualization/\n4. 把下载的文件放到该目录下\n5. 确认安装完成后告诉我这个 Skill 怎么用\n\n注意：不要假设我已经装过这个 Skill，请完整地从 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 拉取并安装。",
-    "translatedAt": "2026-09-17T05:11:56.990Z",
-    "backTranslationDiff": 0.4285714285714286
+    "sourceHash": "3d2dd8ef07773161",
+    "chineseDescription": "把法律画出来 · 给法律人的诉讼可视化工具集：重画诉讼图、读材料画时间轴、庭前三大法宝（大事记表、庭审对抗图、法律关系图），以及法律图表大师与法律课件大师。七个模块，Claude Code、Codex、DeepSeek Harness 等通用。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 new-litigation-visualization。\n\n请你自己去这个 GitHub 仓库下载文件：https://github.com/miaoqichuan/new-litigation-visualization\n\n下载后把文件保存到 .claude/skills/new-litigation-visualization/ 目录下，完成安装。\n\n这个 Skill 是给法律人用的诉讼可视化工具集，包含七个模块：重画诉讼图、读材料画时间轴、庭前三大法宝（大事记表、庭审对抗图、法律关系图），以及法律图表大师和法律课件大师。Claude Code、Codex、DeepSeek Harness 等都能用。\n\n如果目录不存在请先创建，安装完成后告诉我装好了。",
+    "translatedAt": "2026-10-15T05:10:34.173Z",
+    "backTranslationDiff": 1
   },
   "thrixel/build-world": {
     "sourceHash": "5e0b0c461b00dfee",
@@ -8603,11 +8603,11 @@
     "backTranslationDiff": 1
   },
   "the911fund/skill-of-skills": {
-    "sourceHash": "b6470177ef52b12c",
-    "chineseDescription": "AI 编程工具的自动发现引擎。为 Claude Code、Codex、Gemini CLI 等工具建立索引，收录 skills（技能）、plugins（插件）、MCP servers（MCP 服务器）、agents（智能体）以及各类集成。",
-    "prompt": "请帮我安装 skill-of-skills 这个技能。步骤：1) 从 GitHub 仓库 https://github.com/the911fund/skill-of-skills 下载全部文件；2) 在项目根目录创建 .claude/skills/skill-of-skills/ 目录；3) 把下载的文件保存到该目录下。完成后告诉我安装结果。",
-    "translatedAt": "2026-10-13T07:16:58.241Z",
-    "backTranslationDiff": 0.9444444444444444
+    "sourceHash": "f1e3ff43b449d852",
+    "chineseDescription": "这是一个按质量排名的发现引擎（discovery engine），帮你找到适用于 Claude Code、Codex、Cursor、Windsurf、Cline 等平台的优质 AI 编程技能（skills）、插件（plugins）和 MCP 服务器（MCP servers）。简单说，就是帮你从一堆技能里挑出真正好用的那些。\n\n【使用场景】当你想给 Claude Code 或其他 AI 编程工具扩展能力，但不知道有哪些好用的技能、插件或 MCP 服务器时，用它来按质量排名快速发现和筛选。",
+    "prompt": "请帮我安装 skill-of-skills 这个技能。请从 GitHub 仓库 https://github.com/the911fund/skill-of-skills 下载相关文件，并保存到 .claude/skills/skill-of-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个技能能做什么。",
+    "translatedAt": "2026-10-15T05:10:44.003Z",
+    "backTranslationDiff": 0.9333333333333333
   },
   "juliobsz/skills": {
     "sourceHash": "8339afcdcea503d2",
@@ -8617,11 +8617,11 @@
     "backTranslationDiff": 0.875
   },
   "mahanaicoach/google-maps-scraper-kit": {
-    "sourceHash": "370d134c070e7e27",
-    "chineseDescription": "Google Maps 抓取工具（scraper），也是一个用于线索生成（lead generation）的 Claude Code 技能（skill）。可以导出干净的 CSV 文件，包含电话、邮箱、网站和社交媒体信息。本地运行、免费、无需 API 密钥（API keys）。",
-    "prompt": "请帮我安装 google-maps-scraper-kit 这个 Claude Code 技能（skill）。请从 GitHub 仓库 https://github.com/mahanaicoach/google-maps-scraper-kit 下载所有文件，并保存到 .claude/skills/google-maps-scraper-kit/ 目录下完成安装。安装完成后请告诉我如何使用它。",
-    "translatedAt": "2026-10-13T07:17:10.031Z",
-    "backTranslationDiff": 0.8421052631578947
+    "sourceHash": "a19f6b8ebe0ad04d",
+    "chineseDescription": "免费的 Google Maps 爬虫工具，用于挖掘潜在客户（lead generation）。可以把电话、邮箱、网站和社交媒体账号导出成 CSV 文件。在本地 Docker 里运行，不需要 API key。自带 Claude Code skill。",
+    "prompt": "请帮我安装 google-maps-scraper-kit 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/mahanaicoach/google-maps-scraper-kit 下载所有文件，并保存到 .claude/skills/google-maps-scraper-kit/ 目录下完成安装。",
+    "translatedAt": "2026-10-15T05:10:54.055Z",
+    "backTranslationDiff": 0.75
   },
   "o11y-dev/opentelemetry-skill": {
     "sourceHash": "92f2ab98ae093fbd",
@@ -8678,5 +8678,26 @@
     "prompt": "请帮我安装 take-one 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/talsiach/take-one 下载所有文件，并保存到 .claude/skills/take-one/ 目录下完成安装。安装完成后告诉我这个 skill 怎么用。",
     "translatedAt": "2026-10-14T05:10:42.766Z",
     "backTranslationDiff": 0.9259259259259259
+  },
+  "apenasdouglas/ai-motion-library": {
+    "sourceHash": "70088f370af9f9e8",
+    "chineseDescription": "这是一个 Motion 动效库（Motion Library），由 apenasdouglas 制作：包含 24 个动画效果（animation effects），每个效果都配有葡萄牙语名称和用来向 AI 提问的术语。里面还有针对暗黑频道（dark channel）、深色主题和浅色主题的现成配方（recipes），以及给 Claude Code 用的 skill。简单说，就是一套葡萄牙语的 Motion Graphics 提示词合集。",
+    "prompt": "请帮我安装 ai-motion-library 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/apenasdouglas/ai-motion-library 下载全部文件；2) 在当前项目的 .claude/skills/ai-motion-library/ 目录下创建文件夹（如果不存在就新建）；3) 把下载的文件保存到该目录中；4) 确认目录结构正确后告诉我安装完成。仓库地址是 https://github.com/apenasdouglas/ai-motion-library",
+    "translatedAt": "2026-10-15T05:10:47.852Z",
+    "backTranslationDiff": 0.8095238095238095
+  },
+  "assafkip/claudemy": {
+    "sourceHash": "5cb9427072581b19",
+    "chineseDescription": "Claudemy：Udemy 和 Coursera 的开源替代方案。给 Claude 一个主题，它会自动搜索网络，生成一套由 2 分钟音频课程组成的课程，并附带引用来源。一个免费的 Claude Code skill（技能）。",
+    "prompt": "请帮我安装 claudemy 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/assafkip/claudemy 下载所有文件；2) 在项目根目录创建 .claude/skills/claudemy/ 目录；3) 把下载的文件保存到该目录下（保持原有目录结构）；4) 确认安装完成，并告诉我如何使用。仓库地址：https://github.com/assafkip/claudemy",
+    "translatedAt": "2026-10-15T05:10:51.016Z",
+    "backTranslationDiff": 0.9
+  },
+  "matteotitta/repo-structure-in-house": {
+    "sourceHash": "99624aa934081e6e",
+    "chineseDescription": "给企业内部营销人员（in-house marketer）用的仓库结构方案：让 Claude Code 在动笔之前先了解你公司的背景信息。包含文件夹布局、11 个上下文技能（context skills），以及一个填好内容的完整示例。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 repo-structure-in-house。\n\n请从 GitHub 仓库 https://github.com/matteotitta/repo-structure-in-house 下载该 Skill 的所有文件，并保存到 .claude/skills/repo-structure-in-house/ 目录下完成安装。\n\n具体步骤：\n1. 克隆或下载 https://github.com/matteotitta/repo-structure-in-house 仓库内容\n2. 在项目根目录创建 .claude/skills/repo-structure-in-house/ 目录\n3. 把仓库里的 Skill 文件（包括 SKILL.md 及相关资源）放到该目录下\n4. 确认安装完成后告诉我这个 Skill 怎么用\n\n如果目录已存在，请先备份或提示我。",
+    "translatedAt": "2026-10-15T05:10:57.620Z",
+    "backTranslationDiff": 0.8823529411764706
   }
 }
