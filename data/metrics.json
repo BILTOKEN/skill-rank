@@ -9780,6 +9780,22 @@
     "fetchedAt": "2026-10-15T05:03:49.275Z"
   },
   {
+    "repo": "briiirussell/cybersecurity-skills",
+    "name": "cybersecurity-skills",
+    "description": "Cybersecurity skills for AI coding agents (Claude Code, Cursor, Codex)",
+    "tags": [],
+    "stars_total": 423,
+    "stars_added_7d": 10,
+    "issues_opened_7d": 0,
+    "issues_closed_7d": 0,
+    "issue_comments": 0,
+    "commits_7d": 0,
+    "commits_capped": false,
+    "last_push": "2026-05-27T06:32:24Z",
+    "pool": "ranked",
+    "fetchedAt": "2026-10-16T04:50:54.104Z"
+  },
+  {
     "repo": "aspegio/nelson",
     "name": "nelson",
     "description": "Organisation for Claude Code inspired by time-tested Royal Navy operating procedures.",
@@ -10493,6 +10509,22 @@
     "last_push": "2026-09-03T17:08:05Z",
     "pool": "ranked",
     "fetchedAt": "2026-10-15T05:05:54.230Z"
+  },
+  {
+    "repo": "harries/skills-desktop",
+    "name": "skills-desktop",
+    "description": "this is a desktop client for skills.lc",
+    "tags": [],
+    "stars_total": 354,
+    "stars_added_7d": 2,
+    "issues_opened_7d": 0,
+    "issues_closed_7d": 0,
+    "issue_comments": 0,
+    "commits_7d": 0,
+    "commits_capped": false,
+    "last_push": "2026-05-10T05:43:57Z",
+    "pool": "ranked",
+    "fetchedAt": "2026-10-16T04:50:52.469Z"
   },
   {
     "repo": "axtonliu/ai-pair",
@@ -12313,6 +12345,22 @@
     "fetchedAt": "2026-10-15T05:07:01.102Z"
   },
   {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "name": "seo-geo-claude-skills",
+    "description": "Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this repo's standalone 20-skill line is preserved at tag v9.9.12. Install: npx skills add aaron-he-zhu/aaron-marketing-skills",
+    "tags": [],
+    "stars_total": 221,
+    "stars_added_7d": 6,
+    "issues_opened_7d": 0,
+    "issues_closed_7d": 0,
+    "issue_comments": 0,
+    "commits_7d": 0,
+    "commits_capped": false,
+    "last_push": "2026-09-04T04:50:54Z",
+    "pool": "ranked",
+    "fetchedAt": "2026-10-16T04:50:49.575Z"
+  },
+  {
     "repo": "activeing123/mcptoon",
     "name": "mcptoon",
     "description": "One zero-dependency CLI for every MCP server and agent skill. Token optimization, tool discovery and context compression: 71,929 -> 581 tokens (-99.2%, measured), schemas stay out of context. One config for Claude Code, Codex, Cursor, every agent. 341KB, pure Python. | 零依赖 CLI：管所有 MCP 工具与技能，工具发现省 99.2% token。",
@@ -12364,6 +12412,27 @@
     "last_push": "2026-01-13T20:08:58Z",
     "pool": "ranked",
     "fetchedAt": "2026-10-15T05:05:53.437Z"
+  },
+  {
+    "repo": "yian6557/eian-riso-broll",
+    "name": "eian-riso-broll",
+    "description": "孔版双色风格的口播信息动画 Skill：逐字稿 → 1080×1920 竖屏 mp4 · Risograph-style info animations for talking-head videos",
+    "tags": [
+      "b-roll",
+      "claude-code-skill",
+      "codex-skill",
+      "motion-graphics"
+    ],
+    "stars_total": 215,
+    "stars_added_7d": 0,
+    "issues_opened_7d": 0,
+    "issues_closed_7d": 0,
+    "issue_comments": 0,
+    "commits_7d": 5,
+    "commits_capped": false,
+    "last_push": "2026-10-13T06:43:59Z",
+    "pool": "ranked",
+    "fetchedAt": "2026-10-16T04:50:55.152Z"
   },
   {
     "repo": "evol-ai/skillcompass",
@@ -17243,6 +17312,35 @@
     "fetchedAt": "2026-10-15T05:08:50.027Z"
   },
   {
+    "repo": "talsiach/take-one",
+    "name": "take-one",
+    "description": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-skill",
+      "ai-video",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "launch-video",
+      "motion-design",
+      "motion-graphics",
+      "music-video",
+      "video-generation"
+    ],
+    "stars_total": 55,
+    "stars_added_7d": 0,
+    "issues_opened_7d": 0,
+    "issues_closed_7d": 0,
+    "issue_comments": 0,
+    "commits_7d": 7,
+    "commits_capped": false,
+    "last_push": "2026-10-14T14:21:26Z",
+    "pool": "watchlist",
+    "fetchedAt": "2026-10-16T04:50:59.296Z"
+  },
+  {
     "repo": "delphicleancode/delphi-spec-kit",
     "name": "delphi-spec-kit",
     "description": "An opinionated ecosystem of rules, skills, and steerings to elevate Delphi development to a state-of-the-art level with Artificial Intelligence.",
@@ -17728,35 +17826,6 @@
     "fetchedAt": "2026-10-15T05:10:03.163Z"
   },
   {
-    "repo": "talsiach/take-one",
-    "name": "take-one",
-    "description": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
-    "tags": [
-      "agent-skills",
-      "ai-agents",
-      "ai-skill",
-      "ai-video",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "launch-video",
-      "motion-design",
-      "motion-graphics",
-      "music-video",
-      "video-generation"
-    ],
-    "stars_total": 49,
-    "stars_added_7d": 0,
-    "issues_opened_7d": 0,
-    "issues_closed_7d": 0,
-    "issue_comments": 0,
-    "commits_7d": 5,
-    "commits_capped": false,
-    "last_push": "2026-10-13T22:24:38Z",
-    "pool": "watchlist",
-    "fetchedAt": "2026-10-14T05:10:37.011Z"
-  },
-  {
     "repo": "6eanut/llm-wiki",
     "name": "llm-wiki",
     "description": "Claude Code skill for building persistent, interlinked knowledge bases from source documents. Knowledge is compiled once and kept current — never re-derived per query. Based on Karpathy's LLM Wiki pattern.",
@@ -17902,6 +17971,43 @@
     "last_push": "2026-03-20T11:25:13Z",
     "pool": "watchlist",
     "fetchedAt": "2026-10-15T05:09:55.802Z"
+  },
+  {
+    "repo": "shadowswaps/rea-reconstruction-companion",
+    "name": "REA-Reconstruction-Companion",
+    "description": "Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integration, portable installer, and validation workflows.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-agent-framework",
+      "ai-agents",
+      "ai-agents-framework",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "developer-tool",
+      "developer-tools",
+      "development",
+      "development-environment",
+      "readme",
+      "reverse-engineering"
+    ],
+    "stars_total": 43,
+    "stars_added_7d": 0,
+    "issues_opened_7d": 2,
+    "issues_closed_7d": 1,
+    "issue_comments": 0,
+    "commits_7d": 30,
+    "commits_capped": true,
+    "last_push": "2026-10-16T01:49:42Z",
+    "pool": "watchlist",
+    "fetchedAt": "2026-10-16T04:51:00.569Z"
   },
   {
     "repo": "foyzulkarim/skills",

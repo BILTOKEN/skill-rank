@@ -6946,6 +6946,19 @@
     "lastPush": "2026-03-14T08:05:45Z"
   },
   {
+    "repo": "yian6557/eian-riso-broll",
+    "name": "eian-riso-broll",
+    "description": "孔版双色风格的口播信息动画 Skill：逐字稿 → 1080×1920 竖屏 mp4 · Risograph-style info animations for talking-head videos",
+    "tags": [
+      "b-roll",
+      "claude-code-skill",
+      "codex-skill",
+      "motion-graphics"
+    ],
+    "stars": 214,
+    "lastPush": "2026-10-13T06:43:59Z"
+  },
+  {
     "repo": "scarletkc/vexor",
     "name": "vexor",
     "description": "A semantic search engine for files and code.",
@@ -11858,6 +11871,35 @@
     "lastPush": "2026-06-22T06:18:22Z"
   },
   {
+    "repo": "shadowswaps/rea-reconstruction-companion",
+    "name": "REA-Reconstruction-Companion",
+    "description": "Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integration, portable installer, and validation workflows.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-agent-framework",
+      "ai-agents",
+      "ai-agents-framework",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "developer-tool",
+      "developer-tools",
+      "development",
+      "development-environment",
+      "readme",
+      "reverse-engineering"
+    ],
+    "stars": 43,
+    "lastPush": "2026-10-16T01:49:42Z"
+  },
+  {
     "repo": "rootly-ai-labs/rootly-mcp-server",
     "name": "rootly-mcp-server",
     "description": "Rootly MCP server",
@@ -13733,6 +13775,20 @@
     "lastPush": "2026-07-22T13:39:31Z"
   },
   {
+    "repo": "jakeschincariol/trader-skill",
+    "name": "trader-skill",
+    "description": "11 Claude skills that copy the investors you trust, watch the news and Congress, size every trade to your budget, and never place an order without your yes.",
+    "tags": [
+      "13f",
+      "claude",
+      "claude-skills",
+      "investing",
+      "stock-market"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-14T21:13:22Z"
+  },
+  {
     "repo": "frmoretto/clarity-gate",
     "name": "clarity-gate",
     "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -13997,6 +14053,19 @@
     "lastPush": "2026-10-05T04:15:54Z"
   },
   {
+    "repo": "yian6557/eian-collage-broll",
+    "name": "eian-collage-broll",
+    "description": "网点纸张拼贴风 B-roll 工作流：配音 → 视觉隐喻 → 动画素材包 · Editorial paper-collage B-roll workflow for AI agents",
+    "tags": [
+      "b-roll",
+      "claude-code-skill",
+      "codex-skill",
+      "motion-graphics"
+    ],
+    "stars": 28,
+    "lastPush": "2026-10-11T17:25:34Z"
+  },
+  {
     "repo": "bridge-mind/bridgeward",
     "name": "BridgeWard",
     "description": "Trust nothing. Ship safely. — Skeptical-reading and prompt-injection defense skill for AI agents. Provenance tagging, red-flag patterns, refusal templates, and a read-only injection auditor. MIT.",
@@ -14198,6 +14267,33 @@
     ],
     "stars": 27,
     "lastPush": "2026-08-31T17:32:55Z"
+  },
+  {
+    "repo": "el4cteo/blender-skills",
+    "name": "blender-skills",
+    "description": "Professional Blender 5.2 workflows as Agent Skills for Claude Code, Codex, Gemini CLI, Copilot and Cursor: modeling, UVs, PBR, baking, rigging, animation, export and QA.",
+    "tags": [
+      "3d",
+      "agent-skills",
+      "ai-agents",
+      "blender",
+      "blender-python",
+      "bpy",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "game-assets",
+      "gemini-cli",
+      "godot",
+      "mcp",
+      "pbr",
+      "rigging",
+      "roblox",
+      "unity",
+      "unreal-engine"
+    ],
+    "stars": 27,
+    "lastPush": "2026-10-15T20:07:09Z"
   },
   {
     "repo": "hainrixz/claude-ads",
@@ -15432,6 +15528,24 @@
     "lastPush": "2026-09-28T22:58:24Z"
   },
   {
+    "repo": "jakeschincariol/x-agent-skill",
+    "name": "x-agent-skill",
+    "description": "Eleven free Claude skills that run an X account, with a virality engine behind every idea: posts off 21 hook formulas, threads, replies, profile score, weekly plan, analytics audit and a humanizer. Free, MIT.",
+    "tags": [
+      "agent",
+      "agent-skills",
+      "ai-humanizer",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "content-marketing",
+      "twitter",
+      "x"
+    ],
+    "stars": 22,
+    "lastPush": "2026-09-29T04:26:23Z"
+  },
+  {
     "repo": "metcalfsolutions/satori",
     "name": "Satori",
     "description": "A Claude skill blending psychology, philosophy, and wisdom traditions into a conversation partner with actual depth. Free, open-source, not a therapist.",
@@ -15972,6 +16086,25 @@
     ],
     "stars": 20,
     "lastPush": "2026-10-10T12:20:53Z"
+  },
+  {
+    "repo": "mhmtsrfglu/superwiki",
+    "name": "superwiki",
+    "description": "Agent skills that turn docs/ into an LLM-maintained wiki and task tracker. Obsidian-friendly. Works with Claude Code, Codex and Copilot CLI.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "github-copilot",
+      "knowledge-base",
+      "llm-wiki",
+      "obsidian",
+      "task-management"
+    ],
+    "stars": 20,
+    "lastPush": "2026-10-15T22:00:57Z"
   },
   {
     "repo": "eniktab/scientific-paper-writer",
@@ -29916,6 +30049,23 @@
     "lastPush": "2026-10-15T03:33:21Z"
   },
   {
+    "repo": "muratcakmak/tenx-mess",
+    "name": "tenx-mess",
+    "description": "Your agents ship at 10x speed and leave a 10x mess. A Claude Code skill that finds leftover worktrees, node_modules, DerivedData and caches on macOS, and deletes them only after you approve twice.",
+    "tags": [
+      "agent-skill",
+      "claude-code",
+      "claude-code-skill",
+      "coding-agents",
+      "disk-cleanup",
+      "git-worktree",
+      "macos",
+      "xcode"
+    ],
+    "stars": 3,
+    "lastPush": "2026-09-28T08:56:28Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -33733,6 +33883,41 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-04T11:58:22Z"
+  },
+  {
+    "repo": "alexyc9381/hunter-skill",
+    "name": "hunter-skill",
+    "description": "A headhunter of 5 Claudes for Claude Code: finds jobs that fit you, scores each out of 100, tailors your resume and cover letter, prepares the application for your yes. Never submits.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "job-search"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-15T23:30:18Z"
+  },
+  {
+    "repo": "vribeirocmp/recording-demo-videos",
+    "name": "recording-demo-videos",
+    "description": "Claude Code skill: scripted, captioned demo videos of any web app with Playwright — with optional offline AI voice-over (English, Portuguese). mp4 out.",
+    "tags": [
+      "agent-skills",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "demo-video",
+      "ffmpeg",
+      "kokoro",
+      "playwright",
+      "screen-recording",
+      "text-to-speech",
+      "tts",
+      "voice-over"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-15T17:43:01Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

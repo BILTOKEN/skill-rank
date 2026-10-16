@@ -6924,6 +6924,24 @@
     }
   },
   {
+    "repo": "briiirussell/cybersecurity-skills",
+    "name": "cybersecurity-skills",
+    "description": "Cybersecurity skills for AI coding agents (Claude Code, Cursor, Codex)",
+    "description_zh": "为AI编程助手（Claude Code、Cursor、Codex）提供的网络安全技能包。",
+    "description_en": "Cybersecurity skills for AI coding agents (Claude Code, Cursor, Codex)",
+    "prompt": "请从 https://github.com/briiirussell/cybersecurity-skills 下载 cybersecurity-skills 项目，并将所有文件保存到 .claude/skills/cybersecurity-skills/ 目录下，完成安装。",
+    "tags": [],
+    "metrics": {
+      "stars_total": 423,
+      "stars_added_7d": 10,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "asklokesh/claudeskill-loki-mode",
     "name": "loki-mode",
     "description": "Autonomous software factory. Give it a GitHub issue, a spec or a one-line task; get back a pull request with a signed receipt anyone can re-check offline. Runs on your machine with your own keys: Claude, Codex, OpenCode.",
@@ -8917,6 +8935,24 @@
     "metrics": {
       "stars_total": 124,
       "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "aaron-he-zhu/seo-geo-claude-skills",
+    "name": "seo-geo-claude-skills",
+    "description": "Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this repo's standalone 20-skill line is preserved at tag v9.9.12. Install: npx skills add aaron-he-zhu/aaron-marketing-skills",
+    "description_zh": "Signpost → 16个SEO/GEO agent技能位于 aaron-marketing-skills 仓库；本仓库独立的20技能分支保存在标签 v9.9.12。安装命令：npx skills add aaron-he-zhu/aaron-marketing-skills",
+    "description_en": "Signpost → the 16 SEO/GEO agent skills live in aaron-marketing-skills; this repo's standalone 20-skill line is preserved at tag v9.9.12. Install: npx skills add aaron-he-zhu/aaron-marketing-skills",
+    "prompt": "请从 https://github.com/aaron-he-zhu/seo-geo-claude-skills 下载文件，保存到 .claude/skills/seo-geo-claude-skills/ 目录完成安装。",
+    "tags": [],
+    "metrics": {
+      "stars_total": 221,
+      "stars_added_7d": 6,
       "issues_opened_7d": 0,
       "issues_closed_7d": 0,
       "issue_comments": 0,
@@ -12577,6 +12613,24 @@
     }
   },
   {
+    "repo": "harries/skills-desktop",
+    "name": "skills-desktop",
+    "description": "this is a desktop client for skills.lc",
+    "description_zh": "这是一个 skills.lc 的桌面客户端。",
+    "description_en": "this is a desktop client for skills.lc",
+    "prompt": "请从 GitHub 仓库 https://github.com/harries/skills-desktop 下载文件，并保存到 .claude/skills/skills-desktop/ 目录，完成安装。",
+    "tags": [],
+    "metrics": {
+      "stars_total": 354,
+      "stars_added_7d": 2,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 0,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "robonuggets/marp-slides",
     "name": "marp-slides",
     "description": "MARP presentation skill for Claude Code — 22 curated example decks, SVG charts, dark/light themes, dashboard components",
@@ -15250,6 +15304,45 @@
     }
   },
   {
+    "repo": "shadowswaps/rea-reconstruction-companion",
+    "name": "REA-Reconstruction-Companion",
+    "description": "Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integration, portable installer, and validation workflows.",
+    "description_zh": "这是一个开源、不依赖特定模型的 Agent Skill（智能体技能），用于基于证据的软件重构，配合 REA 使用。支持可选集成、便携式安装器（portable installer）以及验证工作流（validation workflows）。",
+    "description_en": "Open-source, model-independent Agent Skill for evidence-based software reconstruction with REA. Optional integration, portable installer, and validation workflows.",
+    "prompt": "请帮我安装 REA-Reconstruction-Companion 这个 Skill。请从 GitHub 仓库 https://github.com/shadowswaps/rea-reconstruction-companion 下载全部文件，并保存到 .claude/skills/rea-reconstruction-companion/ 目录下，完成安装。如果该目录不存在，请先创建。安装完成后告诉我装好了没有，以及怎么用。",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-agent-framework",
+      "ai-agents",
+      "ai-agents-framework",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "codex-skills",
+      "developer-tool",
+      "developer-tools",
+      "development",
+      "development-environment",
+      "readme",
+      "reverse-engineering"
+    ],
+    "metrics": {
+      "stars_total": 43,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 2,
+      "issues_closed_7d": 1,
+      "issue_comments": 0,
+      "commits_7d": 30,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "ethanhq/cc-fleet",
     "name": "cc-fleet",
     "description": "🚢 Run Claude Code's ⚙️ Dynamic Workflows, 👥 Agent Teams & ⚡ Subagents on any third-party model — DeepSeek · GLM · Kimi · Qwen … or your Codex subscription. No Anthropic subscription needed. ｜ 🚢 让 Claude Code 的 ⚙️ Dynamic Workflow、👥 Agent Team、⚡ Subagent 用上任意第三方模型 — DeepSeek · GLM · Kimi · Qwen…… 或你的 Codex 订阅,无需 Claude 订阅",
@@ -15524,6 +15617,37 @@
     }
   },
   {
+    "repo": "talsiach/take-one",
+    "name": "take-one",
+    "description": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
+    "description_zh": "一个 Claude Code skill（技能），只需一句话就能生成发布视频、广告和音乐视频：从创意、脚本、视觉、配音、音乐、剪辑到审阅，最后还有一个审阅室（review room），你在里面写的意见会直接变成下一版（take）。",
+    "description_en": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
+    "prompt": "请帮我安装 take-one 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/talsiach/take-one 下载所有文件，并保存到 .claude/skills/take-one/ 目录下完成安装。安装完成后告诉我这个 skill 怎么用。",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-skill",
+      "ai-video",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "launch-video",
+      "motion-design",
+      "motion-graphics",
+      "music-video",
+      "video-generation"
+    ],
+    "metrics": {
+      "stars_total": 49,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
+      "last_push": ""
+    }
+  },
+  {
     "repo": "haiderfarooq3/khan-explainer",
     "name": "khan-explainer",
     "description": "Claude Code skill: Khan Academy style explainer videos. A pen draws while a voice explains. Free, local, no API keys.",
@@ -15551,6 +15675,29 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 6,
+      "last_push": ""
+    }
+  },
+  {
+    "repo": "yian6557/eian-riso-broll",
+    "name": "eian-riso-broll",
+    "description": "孔版双色风格的口播信息动画 Skill：逐字稿 → 1080×1920 竖屏 mp4 · Risograph-style info animations for talking-head videos",
+    "description_zh": "孔版双色风格的口播信息动画 Skill：把逐字稿变成 1080×1920 竖屏 mp4，用 Risograph（孔版印刷）风格做信息动画，适合口播视频。",
+    "description_en": "孔版双色风格的口播信息动画 Skill：逐字稿 → 1080×1920 竖屏 mp4 · Risograph-style info animations for talking-head videos",
+    "prompt": "请帮我安装 eian-riso-broll 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/yian6557/eian-riso-broll 下载全部文件；2) 在项目里创建目录 .claude/skills/eian-riso-broll/；3) 把下载的文件放进该目录（保留原有的目录结构，比如 SKILL.md 等文件）；4) 安装完成后告诉我这个 Skill 怎么用。仓库地址是 https://github.com/yian6557/eian-riso-broll",
+    "tags": [
+      "b-roll",
+      "claude-code-skill",
+      "codex-skill",
+      "motion-graphics"
+    ],
+    "metrics": {
+      "stars_total": 215,
+      "stars_added_7d": 0,
+      "issues_opened_7d": 0,
+      "issues_closed_7d": 0,
+      "issue_comments": 0,
+      "commits_7d": 5,
       "last_push": ""
     }
   },
@@ -15615,37 +15762,6 @@
       "issues_closed_7d": 0,
       "issue_comments": 0,
       "commits_7d": 2,
-      "last_push": ""
-    }
-  },
-  {
-    "repo": "talsiach/take-one",
-    "name": "take-one",
-    "description": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
-    "description_zh": "一个 Claude Code skill（技能），只需一句话就能生成发布视频、广告和音乐视频：从创意、脚本、视觉、配音、音乐、剪辑到审阅，最后还有一个审阅室（review room），你在里面写的意见会直接变成下一版（take）。",
-    "description_en": "Claude Code skill that makes launch videos, ads and music videos from one line: idea, script, visuals, voice, music, edit and review, then a review room where your notes make the next take",
-    "prompt": "请帮我安装 take-one 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/talsiach/take-one 下载所有文件，并保存到 .claude/skills/take-one/ 目录下完成安装。安装完成后告诉我这个 skill 怎么用。",
-    "tags": [
-      "agent-skills",
-      "ai-agents",
-      "ai-skill",
-      "ai-video",
-      "claude",
-      "claude-code",
-      "claude-skills",
-      "launch-video",
-      "motion-design",
-      "motion-graphics",
-      "music-video",
-      "video-generation"
-    ],
-    "metrics": {
-      "stars_total": 49,
-      "stars_added_7d": 0,
-      "issues_opened_7d": 0,
-      "issues_closed_7d": 0,
-      "issue_comments": 0,
-      "commits_7d": 5,
       "last_push": ""
     }
   },
