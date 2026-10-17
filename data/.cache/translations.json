@@ -49,11 +49,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "eugeniughelbur/obsidian-second-brain": {
-    "sourceHash": "9ba21eeda6bb0871",
-    "chineseDescription": "为 Claude Code 和其他 6 个 CLI 代理提供持久记忆，以纯 Markdown 格式存储在你的 Obsidian 仓库中。别再每次会话都重新解释你的项目、决策和人员了。包含 45 个命令：混合语义搜索、自改写笔记、无密钥网络研究，以及在你睡觉时维护仓库的定时代理。【使用场景】适合需要长期维护项目上下文、减少重复沟通的 Obsidian 用户。",
-    "prompt": "请从 https://github.com/eugeniughelbur/obsidian-second-brain 下载文件，并将其保存到 .claude/skills/obsidian-second-brain/ 目录中，完成安装。",
-    "translatedAt": "2026-07-27T04:30:40.614Z",
-    "backTranslationDiff": 0.08823529411764708
+    "sourceHash": "b732087565f49b02",
+    "chineseDescription": "给 Claude Code、Codex 以及其他 6 种 AI agent 提供持久化记忆（persistent memory），以纯 markdown 形式存放在你的 Obsidian vault（笔记库）里。新增功能 Crew：一个共享日志本，让 Claude Code、Codex、Cursor 和 Grok Bot 互相知道对方干了什么。共 48 个命令：语义搜索（semantic search）、自我改写笔记（self-rewriting notes）、免密钥研究（key-less research）、定时 agent（scheduled agents）。",
+    "prompt": "请帮我安装 obsidian-second-brain 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/eugeniughelbur/obsidian-second-brain 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/obsidian-second-brain/ 目录下创建好目录结构，把下载的文件放进去；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、怎么用。",
+    "translatedAt": "2026-10-17T04:56:54.266Z",
+    "backTranslationDiff": 0.18181818181818177
   },
   "oh-my-mermaid/oh-my-mermaid": {
     "sourceHash": "fa138449e304f216",
@@ -3836,11 +3836,11 @@
     "backTranslationDiff": 0.2142857142857143
   },
   "agricidaniel/claude-ads": {
-    "sourceHash": "c3b8ed37ae6d28dc",
-    "chineseDescription": "Claude-first 付费媒体运营技能，支持 12 个广告平台（Google、Meta、YouTube、LinkedIn、TikTok、Microsoft、Apple、Amazon、Reddit、Pinterest、Snapchat、X）：基于来源的审计、确定性评分、版本化 JSON 报告，以及按能力分级的账户变更。",
-    "prompt": "请从 https://github.com/agricidaniel/claude-ads 下载 claude-ads 技能文件，并将其保存到 .claude/skills/claude-ads/ 目录下，完成安装。",
-    "translatedAt": "2026-07-15T03:55:26.808Z",
-    "backTranslationDiff": 0.3448275862068966
+    "sourceHash": "4db074f805250840",
+    "chineseDescription": "这是一个给 Claude Code 用的付费媒体（paid-media）运营技能，覆盖 12 个广告平台（Google、Meta、YouTube、LinkedIn、TikTok、Microsoft、Apple、Amazon、Reddit、Pinterest、Snapchat、X）。主要干三件事：一是做有来源依据的审计（audit），给出确定性的结论和证据覆盖情况；二是输出带版本号的 JSON 报告；三是支持在能力允许的范围内（capability-gated）修改账户。",
+    "prompt": "请帮我安装 claude-ads 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/agricidaniel/claude-ads 下载全部文件（可以用 git clone https://github.com/agricidaniel/claude-ads 或直接下载压缩包）；2) 在项目根目录下创建 .claude/skills/claude-ads/ 目录；3) 把仓库里的技能文件（包括 SKILL.md 及相关脚本、资源文件）复制到 .claude/skills/claude-ads/ 下；4) 确认目录结构正确后告诉我安装完成，并简单说明这个技能怎么用。",
+    "translatedAt": "2026-10-17T04:56:50.336Z",
+    "backTranslationDiff": 0.25806451612903225
   },
   "wuyoscar/gpt-image2-skill": {
     "sourceHash": "67f338b783529e21",
@@ -5313,11 +5313,11 @@
     "backTranslationDiff": 0.8461538461538461
   },
   "masriyan/claude-code-cybersecurity-skill": {
-    "sourceHash": "a6a0320927b66aaf",
-    "chineseDescription": "22个生产级质量的 Claude Code 技能（Skills），专为网络安全专业人士打造——覆盖攻击性安全（Offensive Security）、防御性运营（Defensive Operations）、逆向工程（Reverse Engineering）、威胁狩猎（Threat Hunting）、威胁情报（Threat Intelligence）、紫队/对手模拟（Purple Team / Adversary Emulation）、CSOC 自动化、AI/LLM 安全、移动端、OT/ICS、GRC、软件供应链安全等方向。",
-    "prompt": "请从 GitHub 仓库 https://github.com/masriyan/claude-code-cybersecurity-skill 下载该技能包，并将所有文件保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装。该技能包含22个面向网络安全场景的 Claude Code 技能，覆盖攻防、逆向、威胁狩猎、威胁情报、紫队模拟、CSOC 自动化、AI 安全、移动端、OT/ICS、GRC 及软件供应链安全等方向。安装完成后，请确认目录结构正确，并告知用户如何调用这些技能。",
-    "translatedAt": "2026-09-08T05:01:27.738Z",
-    "backTranslationDiff": 0.1333333333333333
+    "sourceHash": "4e9d9771b5d6254c",
+    "chineseDescription": "这个 Skill 包给网络安全从业者准备了 22 个生产级 Claude Code Skill（技能），覆盖范围挺广：攻击性安全（offensive security）、防御运营（defensive operations）、逆向工程（reverse engineering）、威胁狩猎（threat hunting）、威胁情报（threat intelligence）、紫队/对手模拟（purple team / adversary emulation）、CSOC 自动化、AI/LLM 安全、移动安全、OT/ICS（工控安全）、GRC（治理、风险与合规）、软件供应链安全等。基本上从红队到蓝队再到合规，常见的安全工作场景都能用上。",
+    "prompt": "帮我安装 Claude-Code-CyberSecurity-Skill 这个技能包。请你自己去 GitHub 仓库 https://github.com/masriyan/claude-code-cybersecurity-skill 下载全部文件，保存到 .claude/skills/claude-code-cybersecurity-skill/ 目录下，完成安装。不要假设我已经提前下载好了，你需要自己克隆或下载仓库内容并放到正确位置，装完后告诉我包含哪些 Skill。",
+    "translatedAt": "2026-10-17T04:56:57.799Z",
+    "backTranslationDiff": 0.19999999999999996
   },
   "arabelatso/skills-4-se": {
     "sourceHash": "cccd915f4b1827ab",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "e4c3bc3d44c930e8",
-    "chineseDescription": "检查俄语文本中从聊天插入的内容是否卫生（即检查文本是否带有聊天痕迹，如格式混乱、非自然表达等）",
-    "prompt": "请安装 humanizer-ru skill。该 skill 用于检查俄语文本中从聊天插入的内容是否卫生。请从 https://github.com/vladimir-human/humanizer-ru 下载文件，并保存到 .claude/skills/humanizer-ru/ 目录中，完成安装。",
-    "translatedAt": "2026-09-06T05:07:11.703Z",
-    "backTranslationDiff": 1
+    "sourceHash": "6feae142e87e9a20",
+    "chineseDescription": "这个技能用来润色神经网络（AI）生成的俄语文本，并核对里面的数字、日期和人名。适用于 Claude Code、Codex、Cursor 和 Claude.ai。",
+    "prompt": "请帮我安装 humanizer-ru 这个技能。请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载所有文件，保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装完成后告诉我这个技能怎么用。",
+    "translatedAt": "2026-10-17T04:57:12.101Z",
+    "backTranslationDiff": 0.8
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -7679,11 +7679,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "wesammustafa/claude-code-everything-you-need-to-know": {
-    "sourceHash": "5ea05384d71b3841",
-    "chineseDescription": "这份 Claude Code 指南分三个难度等级，配有实操课程、带答案的练习题，以及有据可查的事实引用。是一个独立的社区指南。",
-    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载所有文件，并保存到 .claude/skills/claude-code-everything-you-need-to-know/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 Skill 是做什么的、怎么用。",
-    "translatedAt": "2026-10-11T06:10:11.671Z",
-    "backTranslationDiff": 0.8666666666666667
+    "sourceHash": "1126da60ad6bb830",
+    "chineseDescription": "这是一份 Claude Code 的社区独立指南，分三个难度等级，从入门到进阶。每节课都配了带检查的练习题，而且所有容易过时的信息都标注了来源出处，方便你核实。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/wesammustafa/claude-code-everything-you-need-to-know 下载全部文件，保存到 .claude/skills/claude-code-everything-you-need-to-know/ 目录下，完成安装。如果目录不存在就先创建，安装完成后告诉我装好了以及怎么用。\n\n【使用场景】适合想系统学习 Claude Code 的人，从零基础到进阶都能按等级跟着练，练习题带检查、知识点有出处，学起来心里有底。",
+    "translatedAt": "2026-10-17T04:56:46.330Z",
+    "backTranslationDiff": 0.6
   },
   "ksimback/looper": {
     "sourceHash": "ff8c6b59e1ad3da3",
@@ -7749,11 +7749,11 @@
     "backTranslationDiff": 0.25
   },
   "covagashi/eplan_2026_ia_mcp_scripts": {
-    "sourceHash": "2417932f03526c0e",
-    "chineseDescription": "EPLAN Electric P8 2026/2027 + AI：MCP 服务器（Model Context Protocol servers）、文档 RAG（检索增强生成）以及一个用于 EPLAN 脚本/API 开发的 Claude Code 技能。EEC PRO RAG。",
-    "prompt": "请从 https://github.com/covagashi/eplan_2026_ia_mcp_scripts 下载该仓库的全部文件，并将其保存到 .claude/skills/eplan_2026_ia_mcp_scripts/ 目录下，完成安装。安装后，该技能将用于 EPLAN Electric P8 2026/2027 的脚本和 API 开发，支持 MCP 服务器和文档 RAG 功能。",
-    "translatedAt": "2026-09-04T05:01:15.403Z",
-    "backTranslationDiff": 0.41666666666666663
+    "sourceHash": "e1d05596a2a1415c",
+    "chineseDescription": "EPLAN Electric P8 的 MCP server（模型上下文协议服务器）：提供约 200 个工具，让你能从 Claude Code、Codex、Cursor 或任何 MCP 客户端（MCP client）驱动 EPLAN，功能包括动作（actions）、脚本（scripts）、实时 DataModel（数据模型）和导出（exports）。还附带 eplan-tools 插件市场（plugin marketplace）。",
+    "prompt": "请帮我安装 eplan-mcp 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/covagashi/eplan_2026_ia_mcp_scripts 下载全部文件（可用 git clone 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/eplan_2026_ia_mcp_scripts/ 目录；3) 把下载的文件放到该目录下，确保 SKILL.md 等文件位于 .claude/skills/eplan_2026_ia_mcp_scripts/ 根层；4) 检查目录结构并告诉我安装结果。仓库地址：https://github.com/covagashi/eplan_2026_ia_mcp_scripts",
+    "translatedAt": "2026-10-17T04:57:01.500Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "smixs/humanizer-ru": {
     "sourceHash": "c0306944cbf43d53",
@@ -7784,11 +7784,11 @@
     "backTranslationDiff": 0
   },
   "covagashi/eplan-rag-mcp": {
-    "sourceHash": "2417932f03526c0e",
-    "chineseDescription": "EPLAN Electric P8 2026/2027 + AI：MCP 服务器（Model Context Protocol 服务器）、文档 RAG（检索增强生成）系统，以及一个用于 EPLAN 脚本/API 开发的 Claude Code Skill。包含 EEC PRO RAG 支持。",
-    "prompt": "请从 GitHub 仓库 https://github.com/covagashi/eplan-rag-mcp 下载 eplan-rag-mcp Skill 文件，并将其保存到 .claude/skills/eplan-rag-mcp/ 目录中，完成安装。安装完成后，请确认 Skill 已就绪，并简要说明其功能。",
-    "translatedAt": "2026-09-04T05:01:20.362Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "e1d05596a2a1415c",
+    "chineseDescription": "这是给 EPLAN Electric P8 用的 MCP server（模型上下文协议服务器），提供约 200 个工具，让你能从 Claude Code、Codex、Cursor 或任何 MCP 客户端直接操控 EPLAN，包括执行动作（actions）、跑脚本（scripts）、实时操作 DataModel（数据模型）以及导出（exports）。另外还带了 eplan-tools 插件市场（plugin marketplace）。",
+    "prompt": "请帮我把 eplan-mcp 这个 Skill 安装到当前项目。步骤：1) 从 GitHub 仓库 https://github.com/covagashi/eplan-rag-mcp 下载全部文件（可以用 git clone https://github.com/covagashi/eplan-rag-mcp 或直接下载 zip 包）；2) 在项目里创建目录 .claude/skills/eplan-rag-mcp/，把仓库内容放进去；3) 检查目录里是否有 SKILL.md 或 README，确认安装完整；4) 告诉我安装结果和后续怎么用。",
+    "translatedAt": "2026-10-17T04:57:05.236Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "kerberosclaw/kc_ai_skills": {
     "sourceHash": "12f511c358054304",
@@ -8713,5 +8713,33 @@
     "prompt": "请帮我安装 eian-riso-broll 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/yian6557/eian-riso-broll 下载全部文件；2) 在项目里创建目录 .claude/skills/eian-riso-broll/；3) 把下载的文件放进该目录（保留原有的目录结构，比如 SKILL.md 等文件）；4) 安装完成后告诉我这个 Skill 怎么用。仓库地址是 https://github.com/yian6557/eian-riso-broll",
     "translatedAt": "2026-10-16T04:51:10.264Z",
     "backTranslationDiff": 0.875
+  },
+  "dagoste/squadra": {
+    "sourceHash": "25aaefc51f012489",
+    "chineseDescription": "让 Claude、Codex 和 Cursor 的窗口协同工作，支持共享任务（shared tasks）、确认回执（acknowledgements）、预检查（prechecks）、并行测试（parallel tests）、源码绑定证明（source-bound proofs）和独立评审（independent review）。内置技能（skills）可以复盘经验教训、简化代码、预测工作量。通过双语本地仪表盘（dashboard）跟踪进度、决策和证据，并支持 MCP 插件（MCP plugins）。可浏览技能列表和经过验证的安全审计（security audits）。",
+    "prompt": "请帮我安装 squadra 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/dagoste/squadra 下载该技能的全部文件，保存到 .claude/skills/squadra/ 目录下（如果目录不存在就创建）。安装完成后，请检查目录结构是否完整，并告诉我安装结果以及这个技能的主要功能。",
+    "translatedAt": "2026-10-17T04:57:08.771Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "sfrangulov/claude-code-handbook-ru": {
+    "sourceHash": "b4090632509b0bbe",
+    "chineseDescription": "俄语版 Claude Code 手册：涵盖 skills（技能）、hooks（钩子）、subagents（子代理）、plugins（插件）、MCP servers（MCP 服务器）、CLAUDE.md 模板、速查表，以及收录 1400+ 工具的目录。",
+    "prompt": "请帮我安装 claude-code-handbook-ru 这个 skill。操作步骤：1) 从 GitHub 仓库 https://github.com/sfrangulov/claude-code-handbook-ru 下载全部文件（可以直接 git clone 或下载 zip 压缩包）；2) 在当前项目的 .claude/skills/claude-code-handbook-ru/ 目录下创建 skill 目录（如果目录不存在就新建）；3) 把下载的文件放到该目录中，确保 SKILL.md 位于 .claude/skills/claude-code-handbook-ru/SKILL.md；4) 安装完成后检查文件是否完整，并告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-10-17T04:57:15.513Z",
+    "backTranslationDiff": 0.8
+  },
+  "canary-ecad/eplan-mcp": {
+    "sourceHash": "e1d05596a2a1415c",
+    "chineseDescription": "EPLAN Electric P8 的 MCP server（模型上下文协议服务器）：提供约 200 个工具，让你能从 Claude Code、Codex、Cursor 或任何 MCP client（客户端）里驱动 EPLAN，功能包括 actions（操作）、scripts（脚本）、实时 DataModel（数据模型）和 exports（导出）。还附带 eplan-tools 插件市场。",
+    "prompt": "请帮我安装 eplan-mcp 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/canary-ecad/eplan-mcp 下载全部文件（可以用 git clone https://github.com/canary-ecad/eplan-mcp 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/eplan-mcp/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载的文件复制到 .claude/skills/eplan-mcp/ 里，确保 SKILL.md 或主入口文件在目录根部；4) 检查一下有没有依赖需要安装（比如 package.json 就执行 npm install，requirements.txt 就执行 pip install -r）；5) 安装完成后告诉我怎么配置 MCP server 连接到 EPLAN Electric P8。",
+    "translatedAt": "2026-10-17T04:57:19.669Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "aurite-ai/agent-verifier": {
+    "sourceHash": "064250260fb24ff6",
+    "chineseDescription": "🔍 Agent Verifier 是一个编码 agent 技能（skill），能在代码上线前，按照组织策略、代码质量模式、安全要求和框架最佳实践来检查代码。支持 Claude Code、Cursor、Windsurf 等 30 多个 agent。",
+    "prompt": "请帮我安装 agent-verifier 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/aurite-ai/agent-verifier 下载全部文件（可以用 git clone https://github.com/aurite-ai/agent-verifier 或直接下载仓库压缩包）；2) 在当前项目的 .claude/skills/agent-verifier/ 目录下创建 skill 文件夹（如果目录不存在就先创建）；3) 把下载到的 skill 文件（包括 SKILL.md 等）放到 .claude/skills/agent-verifier/ 里；4) 确认文件结构正确后告诉我安装完成，并简单说明怎么使用。",
+    "translatedAt": "2026-10-17T04:57:23.517Z",
+    "backTranslationDiff": 0.1923076923076923
   }
 }

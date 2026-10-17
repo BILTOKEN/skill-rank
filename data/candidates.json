@@ -6584,6 +6584,35 @@
     "lastPush": "2026-05-24T04:10:08Z"
   },
   {
+    "repo": "dagoste/squadra",
+    "name": "squadra",
+    "description": "Coordinate Claude, Codex and Cursor windows with shared tasks, acknowledgements, prechecks, parallel tests, source-bound proofs and independent review. Built-in skills recall lessons, simplify code and forecast work. Track progress, decisions and evidence in a bilingual local dashboard, with MCP plugins. Browse skills and verified security audits.",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "cursor",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "model-context-protocol",
+      "multi-agent",
+      "multi-agent-systems",
+      "python",
+      "token-usage",
+      "vibe-coding"
+    ],
+    "stars": 239,
+    "lastPush": "2026-10-16T13:10:22Z"
+  },
+  {
     "repo": "arpitg1304/robotics-agent-skills",
     "name": "robotics-agent-skills",
     "description": "Agent skills that make AI coding assistants write production-grade robotics software. ROS1, ROS2, design patterns, SOLID principles, and testing — for Claude Code, Cursor, Copilot, and any SKILL.md-compatible agent.",
@@ -8545,6 +8574,35 @@
     "lastPush": "2026-04-21T22:26:06Z"
   },
   {
+    "repo": "canary-ecad/eplan-mcp",
+    "name": "eplan-mcp",
+    "description": "MCP server for EPLAN Electric P8: ~200 tools to drive EPLAN from Claude Code, Codex, Cursor or any MCP client (actions, scripts, live DataModel, exports). Includes the eplan-tools plugin marketplace.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "eec",
+      "eec-pro",
+      "electrical-engineering",
+      "engineering",
+      "eplan",
+      "eplan-api",
+      "eplan-electric-p8",
+      "eplan-mcp",
+      "mcp",
+      "mcp-server",
+      "mcp-tools",
+      "model-context-protocol",
+      "ot",
+      "plugin-marketplace"
+    ],
+    "stars": 116,
+    "lastPush": "2026-10-16T13:38:19Z"
+  },
+  {
     "repo": "getbindu/awesome-claude-code-and-skills",
     "name": "awesome-claude-code-and-skills",
     "description": "A collection of Claude Skills",
@@ -10139,6 +10197,35 @@
     "lastPush": "2026-10-14T08:49:25Z"
   },
   {
+    "repo": "sfrangulov/claude-code-handbook-ru",
+    "name": "claude-code-handbook-ru",
+    "description": "Руководство по Claude Code на русском: скиллы, хуки, субагенты, плагины, MCP-серверы, шаблоны CLAUDE.md, шпаргалка и каталог из 1400+ инструментов.",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "anthropic",
+      "awesome",
+      "awesome-list",
+      "cheatsheet",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-hooks",
+      "claude-code-plugins",
+      "claude-md",
+      "claude-skills",
+      "coding-agent",
+      "handbook",
+      "mcp",
+      "mcp-server",
+      "russian",
+      "russian-language",
+      "subagents"
+    ],
+    "stars": 63,
+    "lastPush": "2026-10-16T05:49:42Z"
+  },
+  {
     "repo": "geekjourneyx/travel-guidebook",
     "name": "travel-guidebook",
     "description": "AI agent skill that generates beautifully typeset travel guidebook PDFs —  from research to print, powered by parallel agents and Amap MCP.",
@@ -11667,6 +11754,35 @@
     ],
     "stars": 45,
     "lastPush": "2026-08-30T04:27:12Z"
+  },
+  {
+    "repo": "aurite-ai/agent-verifier",
+    "name": "agent-verifier",
+    "description": "🔍 Agent Verifier is a coding agent skill that verifies code against organizational policies, code quality patterns, security requirements, and framework best practices — before code ships. Works with Claude Code, Cursor, Windsurf, and 30+ agents.",
+    "tags": [
+      "agent-skills",
+      "agent-testing",
+      "agent-verification",
+      "ai-agent",
+      "ai-safety",
+      "autogen",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "code-quality",
+      "code-review",
+      "coding-agent",
+      "crewai",
+      "cursor",
+      "developer-tools",
+      "langgraph",
+      "llm-security",
+      "owasp",
+      "安全",
+      "static-analysis"
+    ],
+    "stars": 45,
+    "lastPush": "2026-10-13T05:15:52Z"
   },
   {
     "repo": "softcane/human-state-skills",
@@ -13789,6 +13905,31 @@
     "lastPush": "2026-10-14T21:13:22Z"
   },
   {
+    "repo": "jiujiastudy/jiujiastudy",
+    "name": "jiujiastudy",
+    "description": "救驾（救驾study / jiujia study）：给留学生的 Canvas / Moodle 学习手帐——盯 deadline、排本周该学什么、按状态给建议。Agent Skill，在 Claude Code、Codex 里说「帮我从 GitHub 安装救驾」就能装。",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "canvas",
+      "canvas-lms",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "international-students",
+      "jiujia",
+      "jiujiastudy",
+      "moodle",
+      "skill",
+      "skills",
+      "study",
+      "study-tools"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-16T08:44:09Z"
+  },
+  {
     "repo": "frmoretto/clarity-gate",
     "name": "clarity-gate",
     "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -14294,6 +14435,21 @@
     ],
     "stars": 27,
     "lastPush": "2026-10-15T20:07:09Z"
+  },
+  {
+    "repo": "mistok-wiki/chytalnia",
+    "name": "chytalnia",
+    "description": "Скіли, методики й сирі матеріали архівного пошуку по українських селах. Напрацьовано для «Містка», викладено для всіх / Claude Code skills and methods for archival research on Ukrainian villages",
+    "tags": [
+      "archival-research",
+      "claude-code",
+      "claude-skills",
+      "digital-humanities",
+      "genealogy",
+      "ukraine"
+    ],
+    "stars": 27,
+    "lastPush": "2026-10-16T15:32:49Z"
   },
   {
     "repo": "hainrixz/claude-ads",
@@ -15546,6 +15702,27 @@
     "lastPush": "2026-09-29T04:26:23Z"
   },
   {
+    "repo": "ayejk/phase-runner",
+    "name": "phase-runner",
+    "description": "Your whole product team, not just a coding agent. Plan → design → build → QA, with you as the PM who signs off.",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "developer-tools",
+      "orchestration",
+      "orchestrator",
+      "skills",
+      "spec-driven-development",
+      "sub-agents"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-16T02:17:10Z"
+  },
+  {
     "repo": "metcalfsolutions/satori",
     "name": "Satori",
     "description": "A Claude skill blending psychology, philosophy, and wisdom traditions into a conversation partner with actual depth. Free, open-source, not a therapist.",
@@ -15749,6 +15926,58 @@
     ],
     "stars": 21,
     "lastPush": "2026-10-13T13:14:46Z"
+  },
+  {
+    "repo": "ashexplained/roblox-skills",
+    "name": "roblox-skills",
+    "description": "34 Claude Code AI skills for Roblox game development: ideas, Luau architecture, gameplay systems, UX, economy, monetization, security, QA, publishing, and live ops.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "game-development",
+      "gamedev",
+      "luau",
+      "mcp",
+      "roblox",
+      "roblox-game",
+      "roblox-scripting",
+      "roblox-studio",
+      "skills"
+    ],
+    "stars": 21,
+    "lastPush": "2026-07-01T17:13:11Z"
+  },
+  {
+    "repo": "polar-bear-org/claude-skills",
+    "name": "claude-skills",
+    "description": "Claude Skills Marketplace: 51 free skill packs, 1178 Claude Skills (Agent Skills) for Claude Code and Claude.ai. HR, management, recruiting, customer service, product and project management, L&D, design thinking and more. Install: /plugin marketplace add polar-bear-org/claude-skills",
+    "tags": [
+      "agent-skills",
+      "ai-in-hr",
+      "anthropic-claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugins",
+      "claude-marketplace",
+      "claude-skills",
+      "customer-service",
+      "design-sprint",
+      "design-thinking",
+      "designops",
+      "facilitation",
+      "human-resources",
+      "learning-and-development",
+      "management",
+      "people-ops",
+      "product-management",
+      "project-management",
+      "recruiting"
+    ],
+    "stars": 21,
+    "lastPush": "2026-10-11T18:47:41Z"
   },
   {
     "repo": "more-io/claude-apple-bridges",
@@ -28520,6 +28749,32 @@
     ],
     "stars": 4,
     "lastPush": "2026-10-02T14:27:46Z"
+  },
+  {
+    "repo": "canary-ecad/eplan-scripting-skill",
+    "name": "eplan-scripting-skill",
+    "description": "Agent skills for EPLAN Electric P8 and EEC Pro development: C# scripting, the EPLAN API and Remote Client automation. Works with Claude Code, Codex, Cursor and 60+ agents.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "automation",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "csharp",
+      "eec-pro",
+      "electrical-engineering",
+      "eplan",
+      "eplan-api",
+      "eplan-electric",
+      "eplan-p8",
+      "eplan-scripting",
+      "eplan-skill",
+      "plugin-marketplace",
+      "scripting"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-16T10:42:09Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
