@@ -14449,5 +14449,31 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-04T04:40:17.922Z"
+  },
+  {
+    "repo": "webkubor/deadcode-reaper-skill",
+    "name": "deadcode-reaper-skill",
+    "description": "Dead code reaper — 扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片、死代码与临时垃圾，统计释放的 Token 与磁盘。减法优先，无用即删除。Agent skill for Claude Code / Codex.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-skills",
+      "code-cleanup",
+      "context-management",
+      "dead-code",
+      "developer-tools",
+      "llm",
+      "refactoring",
+      "subtractive-programming"
+    ],
+    "stars": 50,
+    "lastPush": "2026-10-19T03:59:00Z",
+    "pool": "ranked",
+    "readmeLength": 331,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-19T04:48:57.313Z"
   }
 ]

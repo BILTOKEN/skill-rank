@@ -5677,11 +5677,11 @@
     "backTranslationDiff": 0.24137931034482762
   },
   "nexu-io/open-design": {
-    "sourceHash": "9fe75429b2010d94",
-    "chineseDescription": "第一个协作式 AI 设计智能体工作空间。本地优先（local-first）且开源。你可以和团队、AI 智能体（AI agents）一起创建原型（prototypes）、网站、应用、仪表盘（dashboards）、演示文稿、图片和视频。在同一个工作空间里分享作品、交换反馈、一起迭代。",
-    "prompt": "请帮我安装 open-design 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/nexu-io/open-design 下载该 Skill 的所有文件，并保存到 .claude/skills/open-design/ 目录下完成安装。安装完成后，请告诉我如何使用它。",
-    "translatedAt": "2026-10-15T05:10:13.790Z",
-    "backTranslationDiff": 1
+    "sourceHash": "de2db6f97456148c",
+    "chineseDescription": "首个协作式 AI 设计智能体工作空间（Collaborative AI Design Agent Workspace）。本地优先（local-first）且开源。你可以和团队、AI 智能体一起制作动效（motion）、原型（prototype）、网站、应用、仪表盘（dashboard）、演示文稿、图片和视频。在同一个工作空间里分享作品、交换反馈、一起迭代。",
+    "prompt": "请帮我安装 open-design 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/nexu-io/open-design 下载该 Skill 的全部文件（如果仓库根目录有 SKILL.md 或 skill 定义文件，以它为准；也可以先克隆仓库到临时目录再复制）；2) 在项目里创建目录 .claude/skills/open-design/，把下载的文件放进去，保持原有目录结构；3) 确认 SKILL.md 等文件已就位，然后告诉我安装完成，并简要说明这个 Skill 能做什么、怎么触发使用。注意：不要假设我本地已经有这个仓库，请你自己去 https://github.com/nexu-io/open-design 获取。",
+    "translatedAt": "2026-10-19T05:10:47.252Z",
+    "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
     "sourceHash": "d06a67ef6d8441b8",
@@ -8036,11 +8036,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "untrivial-ai/agent-orchestrator": {
-    "sourceHash": "f7641f663ecc7bf4",
-    "chineseDescription": "从规划到合并（merge），全程运行并监管多支编码 agent（智能体）团队。支持任意 harness（执行框架，包括 Claude Code、Codex 以及另外 25 种以上）。覆盖桌面端、网页端、移动端和云端 agent。",
-    "prompt": "请帮我安装 agent-orchestrator 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/untrivial-ai/agent-orchestrator 下载所需文件，并保存到 .claude/skills/agent-orchestrator/ 目录下完成安装。安装完成后告诉我怎么使用它。",
-    "translatedAt": "2026-09-10T05:04:26.500Z",
-    "backTranslationDiff": 1
+    "sourceHash": "6b28c9025613cb41",
+    "chineseDescription": "开源（Apache-2.0 许可证）的编排器（orchestrator），支持 Claude Code、Codex 以及 30 多种编程 agent。可以从任务创建开始，规划、运行并监督 agent 团队，一路推进到 PR 合并完成。提供桌面端（macOS、Windows、Linux）以及 iPhone 和 Android 应用。",
+    "prompt": "请帮我安装 agent-orchestrator 这个 skill。请从 GitHub 仓库 https://github.com/untrivial-ai/agent-orchestrator 下载该 skill 的全部文件，并保存到 .claude/skills/agent-orchestrator/ 目录下，完成安装。安装完成后告诉我它支持哪些功能。",
+    "translatedAt": "2026-10-19T05:10:54.923Z",
+    "backTranslationDiff": 0.2272727272727273
   },
   "simota/agent-skills": {
     "sourceHash": "47388ec7940ed41d",
@@ -8442,11 +8442,11 @@
     "backTranslationDiff": 0.8571428571428572
   },
   "orchestratorinc/agent-orchestrator": {
-    "sourceHash": "f7641f663ecc7bf4",
-    "chineseDescription": "从规划到合并（merge），运行并监督编码代理（coding agents）团队。支持任意执行框架（harness），包括 Claude Code、Codex 以及另外 25 种以上。支持桌面端、网页端、移动端和云端代理（cloud agents）。",
-    "prompt": "请帮我安装 agent-orchestrator 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/orchestratorinc/agent-orchestrator 下载所需的文件，并保存到 .claude/skills/agent-orchestrator/ 目录下完成安装。安装完成后请告诉我如何使用它。",
-    "translatedAt": "2026-10-05T05:58:51.408Z",
-    "backTranslationDiff": 1
+    "sourceHash": "6b28c9025613cb41",
+    "chineseDescription": "这是一个开源（Apache-2.0 协议）的编排器（orchestrator），支持 Claude Code、Codex 以及 30 多种编程 agent。你可以用它来规划、运行和监管 agent 团队，从分配任务一路跟到 PR 合并。有桌面版（macOS、Windows、Linux），还有 iPhone 和 Android 应用。",
+    "prompt": "请帮我安装 agent-orchestrator 这个 skill。步骤：1) 访问 GitHub 仓库 https://github.com/orchestratorinc/agent-orchestrator ，下载它的全部文件；2) 在项目里创建目录 .claude/skills/agent-orchestrator/ ；3) 把下载的文件保存到该目录下，保持原有目录结构；4) 安装完成后告诉我怎么用。仓库地址是 https://github.com/orchestratorinc/agent-orchestrator ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-10-19T05:10:51.241Z",
+    "backTranslationDiff": 0.2272727272727273
   },
   "leonxlnx/cinetic": {
     "sourceHash": "f39b61fb1273abea",
@@ -8748,5 +8748,12 @@
     "prompt": "请帮我安装 universal-modder 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/rehan-remade/universal-modder 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/universal-modder/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 安装完成后检查目录结构，告诉我装了哪些文件，以及是否需要额外配置 fal MCP。",
     "translatedAt": "2026-10-18T04:55:25.046Z",
     "backTranslationDiff": 0.3157894736842105
+  },
+  "webkubor/deadcode-reaper-skill": {
+    "sourceHash": "0ec9773dafa98066",
+    "chineseDescription": "死代码清理器（Dead code reaper）——扫描并清除那些「自称已废弃」的墓碑 skill（tombstone skill）、AI 幽灵碎片、死代码和临时垃圾，同时统计释放的 Token 与磁盘空间。减法优先，无用即删除。适用于 Claude Code / Codex 的 Agent skill（智能体技能）。",
+    "prompt": "请帮我安装 deadcode-reaper-skill 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/webkubor/deadcode-reaper-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/deadcode-reaper-skill/ 目录；3) 把仓库里的文件全部放进该目录（确保 SKILL.md 位于 .claude/skills/deadcode-reaper-skill/SKILL.md）；4) 安装完成后告诉我目录结构和如何使用。仓库地址：https://github.com/webkubor/deadcode-reaper-skill",
+    "translatedAt": "2026-10-19T05:10:59.120Z",
+    "backTranslationDiff": 0.4545454545454546
   }
 }

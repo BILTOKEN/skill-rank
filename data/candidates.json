@@ -11366,6 +11366,27 @@
     "lastPush": "2026-09-03T18:01:23Z"
   },
   {
+    "repo": "webkubor/deadcode-reaper-skill",
+    "name": "deadcode-reaper-skill",
+    "description": "Dead code reaper — 扫出并清除「自称已废」的墓碑 skill、AI 幽灵碎片、死代码与临时垃圾，统计释放的 Token 与磁盘。减法优先，无用即删除。Agent skill for Claude Code / Codex.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-skills",
+      "code-cleanup",
+      "context-management",
+      "dead-code",
+      "developer-tools",
+      "llm",
+      "refactoring",
+      "subtractive-programming"
+    ],
+    "stars": 50,
+    "lastPush": "2026-10-19T03:59:00Z"
+  },
+  {
     "repo": "k-kolomeitsev/data-structure-protocol",
     "name": "data-structure-protocol",
     "description": "Graph-based long-term memory skill for AI (LLM) coding agents — faster context, fewer tokens, safer refactors",
@@ -13604,6 +13625,24 @@
     "lastPush": "2026-10-11T19:53:59Z"
   },
   {
+    "repo": "krishp147/skills",
+    "name": "skills",
+    "description": "29 Claude Code skills, 4 subagents and 3 hooks: grilling, handoffs, a kanban workflow, an unattended orchestrator with a merge gate, multi-account /switch and reminders. Install one skill or a whole workflow. MIT.",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "developer-tools",
+      "llm",
+      "orchestration",
+      "subagents",
+      "workflows"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-17T07:18:47Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -15457,6 +15496,26 @@
     ],
     "stars": 23,
     "lastPush": "2026-10-14T14:31:17Z"
+  },
+  {
+    "repo": "webkubor/charmoji-sticker-skill",
+    "name": "charmoji-sticker-skill",
+    "description": "Sticker skill — 一张 IP 正面照 → 整套可提交的微信表情素材：出图、切图、透明背景机检、含义词校验、提交清单全脚本化。Claude Code skill (skill name: charmoji)。emoji / sticker pack / wechat sticker",
+    "tags": [
+      "agent-skills",
+      "character-design",
+      "claude-code",
+      "claude-skills",
+      "设计",
+      "emoji",
+      "illustration",
+      "image-generation",
+      "sticker",
+      "sticker-pack",
+      "wechat-sticker"
+    ],
+    "stars": 23,
+    "lastPush": "2026-10-19T03:59:04Z"
   },
   {
     "repo": "jimmysadek/strategic-partner",
@@ -34261,6 +34320,40 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-09T04:49:05Z"
+  },
+  {
+    "repo": "joaquinjacu/transcribe-midi",
+    "name": "transcribe-midi",
+    "description": "Link or audio file to MIDI: stem separation plus Transkun or muscriptor per part, with tuning and tempo correction.",
+    "tags": [
+      "audio-to-midi",
+      "claude-code-skill",
+      "demucs",
+      "midi",
+      "music-transcription",
+      "source-separation",
+      "transkun"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-08T20:17:03Z"
+  },
+  {
+    "repo": "checkout-page/ecommerce-skills",
+    "name": "ecommerce-skills",
+    "description": "19 agent skills for pricing, discounts, promotions, checkout UX, and conversion in online stores.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "conversion-rate-optimization",
+      "ecommerce",
+      "pricing",
+      "skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-09T09:36:54Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
