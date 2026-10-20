@@ -5868,6 +5868,40 @@
     "checkedAt": "2026-10-17T04:35:26.892Z"
   },
   {
+    "repo": "harshdhamaniya/mobile-security-skill",
+    "name": "mobile-security-skill",
+    "description": "Claude Code skill + 18 AI agents for Android & iOS mobile app security audits. OWASP MASVS/MASTG-aligned, with adversarial exploitation confirmation.",
+    "tags": [
+      "ai-agents",
+      "android-security",
+      "anthropic",
+      "appsec",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "frida",
+      "ios-security",
+      "llm-agents",
+      "mobile-app-security",
+      "mobile-pentest",
+      "mobile-security",
+      "owasp-mastg",
+      "owasp-masvs",
+      "pentest",
+      "red-team",
+      "security-audit",
+      "security-automation",
+      "vulnerability-assessment"
+    ],
+    "stars": 21,
+    "lastPush": "2026-10-08T19:54:18Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
+  },
+  {
     "repo": "more-io/claude-apple-bridges",
     "name": "claude-apple-bridges",
     "description": "Swift CLI bridges giving Claude Code native access to Apple Reminders, Calendar, Contacts, Notes, Mail and tmux — includes Claude Code skill with full command reference",
@@ -19843,6 +19877,28 @@
     "checkedAt": "2026-10-13T06:51:19.321Z"
   },
   {
+    "repo": "madrobotnet/3dprint-scout",
+    "name": "3dprint-scout",
+    "description": "Agent skill that designs 3D-printable parts reference-first: finds existing models, builds in Fusion, OpenSCAD or Python, verifies the mesh, and delivers STL/3MF (Bambu Studio projects included).",
+    "tags": [
+      "3d-printing",
+      "agent-skills",
+      "bambu-lab",
+      "bambu-studio",
+      "claude-code-skill",
+      "claude-skills",
+      "fusion360",
+      "openscad"
+    ],
+    "stars": 5,
+    "lastPush": "2026-10-20T04:46:37Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -21882,6 +21938,34 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-18T04:41:03.330Z"
+  },
+  {
+    "repo": "lamxy/agent-prompt-rules-system",
+    "name": "agent-prompt-rules-system",
+    "description": "面向个人开发者的 Claude Code 配置与技能管理工具：精简的用户级配置，PRD / 前端 / 后端 / DevOps 四个场景的开箱即用场景包（settings、CLAUDE.md、MCP、agents），开源工具的幂等安装支持包，并可同步到 Codex。",
+    "tags": [
+      "agent-skill",
+      "agent-skill-platform",
+      "claude",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "codex-cli",
+      "codex-skill",
+      "coding",
+      "config-management",
+      "enterprise-skill-management",
+      "mcp-tools",
+      "personal-skills",
+      "skill-management",
+      "subagent"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-20T04:33:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -28660,6 +28744,74 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-19T04:48:57.313Z"
+  },
+  {
+    "repo": "afeezadebayo/technical-seo-skills",
+    "name": "technical-seo-skills",
+    "description": "16 free Agent Skills (SKILL.md) for technical SEO: site audits, crawling and indexing, robots.txt, XML sitemaps, canonicals, redirects, JavaScript SEO, Core Web Vitals, schema, log files and migrations. For Claude, Claude Code, Codex and AI agents.",
+    "tags": [
+      "agent-skills",
+      "ai-agent-skill",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "claude-skills-for-marketing",
+      "codex",
+      "core-web-vitals",
+      "javascript-seo",
+      "log-file-analysis",
+      "robots-txt",
+      "schema-markup",
+      "seo-audit",
+      "seo-audit-skill",
+      "skill-md",
+      "technical-seo",
+      "technical-seo-agent",
+      "technical-seo-automation",
+      "xml-sitemap"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-18T19:45:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
+  },
+  {
+    "repo": "alexyc9381/mock-interview-skill",
+    "name": "mock-interview-skill",
+    "description": "Five Claudes interview you for any job from the real job post, then grade every answer and rewrite your weakest ones. Free Claude Code skill, MIT.",
+    "tags": [
+      "claude-code-skill",
+      "claude-skills",
+      "interview"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-17T08:11:57Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
+  },
+  {
+    "repo": "alexyc9381/agency-skill",
+    "name": "agency-skill",
+    "description": "An AI automation agency inside Claude Code: outbound, sales calls, proposals and builds, support, and a night shift. Free, MIT.",
+    "tags": [
+      "ai-agency",
+      "claude-code-skill",
+      "claude-skills"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-11T06:33:32Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-20T04:57:23.781Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

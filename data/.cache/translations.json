@@ -6818,11 +6818,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "artemxtech/personal-os-skills": {
-    "sourceHash": "9fdce70d7292bf6e",
-    "chineseDescription": "面向 Obsidian 的 Claude Code 技能（skills）｜Point B，为期 14 天的个人 AI 智能体（personal AI agents）冲刺，11 月 3 日开营。",
-    "prompt": "请帮我安装 personal-os-skills 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/artemxtech/personal-os-skills 下载全部文件，并保存到 .claude/skills/personal-os-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，告诉我这个技能包含哪些内容以及如何使用。",
-    "translatedAt": "2026-10-06T06:51:15.201Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "7fa754c458d9f483",
+    "chineseDescription": "这是给 Obsidian 用的 Claude Code 技能（skills）。配套一个叫 Claude Code x Obsidian Lab 的 5 周直播课程，11 月 10 日开课。简单说，就是让 Claude Code 能直接操作你的 Obsidian 笔记库。",
+    "prompt": "帮我安装 personal-os-skills 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/artemxtech/personal-os-skills 下载全部文件，保存到 .claude/skills/personal-os-skills/ 目录下，装好后告诉我装了什么、怎么用。",
+    "translatedAt": "2026-10-20T05:18:04.133Z",
+    "backTranslationDiff": 0.5
   },
   "aldefy/compose-skill": {
     "sourceHash": "65fedfd9ab685e10",
@@ -8755,5 +8755,19 @@
     "prompt": "请帮我安装 deadcode-reaper-skill 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/webkubor/deadcode-reaper-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/deadcode-reaper-skill/ 目录；3) 把仓库里的文件全部放进该目录（确保 SKILL.md 位于 .claude/skills/deadcode-reaper-skill/SKILL.md）；4) 安装完成后告诉我目录结构和如何使用。仓库地址：https://github.com/webkubor/deadcode-reaper-skill",
     "translatedAt": "2026-10-19T05:10:59.120Z",
     "backTranslationDiff": 0.4545454545454546
+  },
+  "arifszn/slide-wright": {
+    "sourceHash": "eda3a0a7f0f199c1",
+    "chineseDescription": "用你的编程 agent（coding agent）来做演示文稿。先预览两页幻灯片，确认后再生成并导出为 PowerPoint 或 PDF。支持 Claude Code、Codex、Gemini CLI、OpenCode、Cursor 以及其他兼容 SKILL.md 的 agent。",
+    "prompt": "请帮我安装 slide-wright 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/arifszn/slide-wright 下载全部文件（可以用 git clone https://github.com/arifszn/slide-wright 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/slide-wright/ 目录下创建 skill 文件夹（如果目录不存在就先创建）；3) 把仓库里的 SKILL.md 及相关文件复制到 .claude/skills/slide-wright/ 中；4) 安装完成后告诉我怎么用，比如怎么触发它做幻灯片预览和导出。",
+    "translatedAt": "2026-10-20T05:17:55.983Z",
+    "backTranslationDiff": 0.31999999999999995
+  },
+  "zhuyansen/wx-favorites-report": {
+    "sourceHash": "a6ff5ca2653ec4ca",
+    "chineseDescription": "微信收藏可视化 Claude Code Skill（技能）——从加密数据库（DB）到交互式 HTML 报告的端到端管线（pipeline）。这个技能能帮你把微信收藏里的内容整理成可视化报告，整个流程全自动：先解密数据库，再生成可交互的 HTML 报告。",
+    "prompt": "请帮我安装 wx-favorites-report 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/zhuyansen/wx-favorites-report 下载全部文件（可以用 git clone https://github.com/zhuyansen/wx-favorites-report 或直接下载 zip 包）；2) 在项目根目录创建 .claude/skills/wx-favorites-report/ 目录；3) 把仓库里的所有文件复制到该目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我这个 Skill 怎么用。仓库地址是 https://github.com/zhuyansen/wx-favorites-report ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-10-20T05:18:00.326Z",
+    "backTranslationDiff": 0.4285714285714286
   }
 }
