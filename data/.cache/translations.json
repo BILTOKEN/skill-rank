@@ -8750,11 +8750,11 @@
     "backTranslationDiff": 0.3157894736842105
   },
   "webkubor/deadcode-reaper-skill": {
-    "sourceHash": "0ec9773dafa98066",
-    "chineseDescription": "死代码清理器（Dead code reaper）——扫描并清除那些「自称已废弃」的墓碑 skill（tombstone skill）、AI 幽灵碎片、死代码和临时垃圾，同时统计释放的 Token 与磁盘空间。减法优先，无用即删除。适用于 Claude Code / Codex 的 Agent skill（智能体技能）。",
-    "prompt": "请帮我安装 deadcode-reaper-skill 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/webkubor/deadcode-reaper-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/deadcode-reaper-skill/ 目录；3) 把仓库里的文件全部放进该目录（确保 SKILL.md 位于 .claude/skills/deadcode-reaper-skill/SKILL.md）；4) 安装完成后告诉我目录结构和如何使用。仓库地址：https://github.com/webkubor/deadcode-reaper-skill",
-    "translatedAt": "2026-10-19T05:10:59.120Z",
-    "backTranslationDiff": 0.4545454545454546
+    "sourceHash": "5854a582bbae857c",
+    "chineseDescription": "这个 skill 专门帮你清理那些「名义上已经废弃、实际还占着地方」的墓碑 skill（tombstoned skill）、AI 留下的幽灵碎片和死代码，清完还会告诉你释放了多少 Token 和磁盘空间。",
+    "prompt": "请帮我安装 deadcode-reaper-skill 这个 skill。步骤：1. 从 GitHub 仓库 https://github.com/webkubor/deadcode-reaper-skill 下载全部文件（可以用 git clone https://github.com/webkubor/deadcode-reaper-skill 或直接抓取仓库内容）；2. 在项目里创建目录 .claude/skills/deadcode-reaper-skill/，把下载到的文件全部放进去，保持原有目录结构；3. 确认 SKILL.md 等文件已就位，然后告诉我安装完成，并简单说明这个 skill 怎么用。注意：不要假设我本地已经有这个仓库，请自己去下载。",
+    "translatedAt": "2026-10-21T05:09:41.026Z",
+    "backTranslationDiff": 0.5882352941176471
   },
   "arifszn/slide-wright": {
     "sourceHash": "eda3a0a7f0f199c1",
@@ -8769,5 +8769,12 @@
     "prompt": "请帮我安装 wx-favorites-report 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/zhuyansen/wx-favorites-report 下载全部文件（可以用 git clone https://github.com/zhuyansen/wx-favorites-report 或直接下载 zip 包）；2) 在项目根目录创建 .claude/skills/wx-favorites-report/ 目录；3) 把仓库里的所有文件复制到该目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我这个 Skill 怎么用。仓库地址是 https://github.com/zhuyansen/wx-favorites-report ，请自己去下载，不要假设我已经装好了。",
     "translatedAt": "2026-10-20T05:18:00.326Z",
     "backTranslationDiff": 0.4285714285714286
+  },
+  "jakeschincariol/day-trader-skill": {
+    "sourceHash": "139db64bf1e3f638",
+    "chineseDescription": "day-trader-skill 提供 11 个 Claude 技能（skills），专为日内交易（day trading）设计：可以扫描成千上万张图表（charts）、追踪突发新闻（breaking news）、精准把握每一次进场和出场（entry and exit）的时机，还能在真正投入资金之前回放（replay）每一个交易结果。",
+    "prompt": "请帮我安装 day-trader-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/jakeschincariol/day-trader-skill 下载全部文件，并保存到 .claude/skills/day-trader-skill/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整，并告诉我如何使用这 11 个日内交易技能。",
+    "translatedAt": "2026-10-21T05:09:44.877Z",
+    "backTranslationDiff": 0.11111111111111116
   }
 }
