@@ -4424,11 +4424,11 @@
     "backTranslationDiff": 0.8695652173913043
   },
   "maxritter/pilot-shell": {
-    "sourceHash": "722c4a7daa7183a3",
-    "chineseDescription": "为 Claude Code 和 OpenAI Codex 提供专业的上下文与工具链工程（harness engineering）。通过规格驱动开发（spec-driven development）、测试驱动开发（TDD）、持久化记忆（persistent memory）、质量门禁（quality gates）、代码智能（code intelligence）、人工监督（human oversight）和端到端验证（end-to-end verification），构建生产级软件。【使用场景】当你想用 Claude Code 或 Codex 开发严肃的生产级项目，需要一套完整的工程化流程和规范时使用。",
-    "prompt": "请从 GitHub 仓库 https://github.com/maxritter/pilot-shell 下载 pilot-shell 技能文件，并将其保存到 .claude/skills/pilot-shell/ 目录下，完成安装。安装后，该技能将提供专业的上下文与工具链工程能力，支持规格驱动开发、测试驱动开发、持久化记忆、质量门禁、代码智能、人工监督和端到端验证，帮助你构建生产级软件。",
-    "translatedAt": "2026-08-31T06:05:27.578Z",
-    "backTranslationDiff": 0.875
+    "sourceHash": "178690ffafcfa846",
+    "chineseDescription": "用你的编码 agent（coding agent）来规划、构建和审查软件。可以在 App 或浏览器里并肩协作，也可以用你顺手的终端或 IDE。",
+    "prompt": "请帮我安装 pilot-shell 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/maxritter/pilot-shell 下载全部文件（可用 git clone https://github.com/maxritter/pilot-shell 或直接下载仓库压缩包）；2) 在项目根目录创建 .claude/skills/pilot-shell/ 目录；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件位于 .claude/skills/pilot-shell/ 根目录；4) 安装完成后列出目录内容确认安装成功。",
+    "translatedAt": "2026-10-22T05:19:40.031Z",
+    "backTranslationDiff": 0.5
   },
   "elementalsouls/claude-bughunter": {
     "sourceHash": "3174c7ebe5d65dd7",
@@ -8155,11 +8155,11 @@
     "backTranslationDiff": 0.8095238095238095
   },
   "chen3tu/interview-master-skill": {
-    "sourceHash": "bbe65f51d2d5df00",
-    "chineseDescription": "Claude Skill - 全流程面试准备与求职决策系统",
-    "prompt": "请从 https://github.com/chen3tu/interview-master-skill 下载 interview-master-skill 技能文件，并将其保存到 .claude/skills/interview-master-skill/ 目录下，完成安装。安装完成后，请确认技能可用。",
-    "translatedAt": "2026-08-31T06:05:41.869Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "7e5b7ce044ce8815",
+    "chineseDescription": "跨 Agent（智能体）、多语言的面试准备 Skill（技能）| 支持 Codex、WorkBuddy、Claude | 提供 JD（职位描述）分析、定制化回答、岗位练习和自适应模拟面试",
+    "prompt": "请帮我安装 interview-master-skill 这个 Skill。请从 GitHub 仓库 https://github.com/chen3tu/interview-master-skill 下载全部文件，并保存到 .claude/skills/interview-master-skill/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整，并告诉我如何使用这个 Skill。",
+    "translatedAt": "2026-10-22T05:19:47.258Z",
+    "backTranslationDiff": 0.46153846153846156
   },
   "foyzulkarim/skills": {
     "sourceHash": "6bdd1102546fbdea",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "8b711ad4a98a2766",
-    "chineseDescription": "这是 Poteto 的 pstack 工具在多个 AI 编程助手上的移植版本，支持 Claude Code、Codex、Copilot、Pi、OpenCode、Gemini 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（agent workflow）原语（primitive）翻译适配到其他平台上，让你在不同工具里都能用上同一套规范化的智能体工作流程。",
-    "prompt": "请帮我安装 pstack-claude 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件；2) 在当前项目的 .claude/skills/pstack-claude/ 目录下创建文件夹（如果不存在的话）；3) 把下载的文件保存到该目录中，保持原有的目录结构；4) 安装完成后告诉我这个 Skill 提供了哪些功能，以及怎么使用。",
-    "translatedAt": "2026-10-06T06:50:38.339Z",
-    "backTranslationDiff": 0.3157894736842105
+    "sourceHash": "35fadb1c63f35dce",
+    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的移植版本，支持 Claude Code、Codex、Copilot、Pi、OpenCode、Muse、Gemini 和 Prime Agent。它提供一套严谨的 agent 工作流（workflow），把原本为 Cursor 设计的原语（primitives）翻译适配到其他 harness 上使用。",
+    "prompt": "请帮我安装 pstack-claude 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/pstack-claude/ 目录；3) 把仓库里的文件放到该目录下，确保 SKILL.md 位于 .claude/skills/pstack-claude/SKILL.md；4) 安装完成后告诉我目录结构和怎么用。仓库地址：https://github.com/michael-denyer/pstack-claude",
+    "translatedAt": "2026-10-22T05:19:36.497Z",
+    "backTranslationDiff": 0.25
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "6cac47c094053c9b",
@@ -8776,5 +8776,12 @@
     "prompt": "请帮我安装 day-trader-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/jakeschincariol/day-trader-skill 下载全部文件，并保存到 .claude/skills/day-trader-skill/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整，并告诉我如何使用这 11 个日内交易技能。",
     "translatedAt": "2026-10-21T05:09:44.877Z",
     "backTranslationDiff": 0.11111111111111116
+  },
+  "ericjujianzou/rederive": {
+    "sourceHash": "0d9b6815aa4ae5ca",
+    "chineseDescription": "通过自己重新推导设计决策来学习代码库。一个 Claude Code skill（技能）。",
+    "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 rederive。请从 GitHub 仓库 https://github.com/ericjujianzou/rederive 下载该 skill 的文件，并保存到项目的 .claude/skills/rederive/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 skill 是干什么用的、怎么触发使用。",
+    "translatedAt": "2026-10-22T05:19:43.581Z",
+    "backTranslationDiff": 0
   }
 }

@@ -12430,6 +12430,22 @@
     "lastPush": "2026-02-23T03:44:38Z"
   },
   {
+    "repo": "ericjujianzou/rederive",
+    "name": "rederive",
+    "description": "Learn a codebase by re-deriving its design decisions yourself. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "learning",
+      "socratic-method",
+      "system-design"
+    ],
+    "stars": 40,
+    "lastPush": "2026-10-19T22:43:27Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -14979,6 +14995,34 @@
     "lastPush": "2026-09-23T23:22:22Z"
   },
   {
+    "repo": "zichenwang114514/chemdraw-skill",
+    "name": "chemdraw-skill",
+    "description": "ChemDraw Skill · AI 绘制可编辑化学结构式 — Editable ChemDraw structures for Claude Code, Codex & any AI agent: draw molecules, rebuild paper figures (DECIMER OCSR), SAR & substrate-scope tables, ACS 1996 exam drawings, live ChemDraw in Word/PPT.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "cdxml",
+      "chemdraw",
+      "chemical-drawing",
+      "chemical-structure",
+      "cheminformatics",
+      "chemistry",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "decimer",
+      "mcp",
+      "model-context-protocol",
+      "ocsr",
+      "rdkit",
+      "scientific-figures",
+      "structure-activity-relationship",
+      "substrate-scope"
+    ],
+    "stars": 25,
+    "lastPush": "2026-10-21T15:23:50Z"
+  },
+  {
     "repo": "tanis90/pdf-converter-mineru",
     "name": "pdf-converter-mineru",
     "description": "a pdf converter skill base on mineru ecosystem",
@@ -15914,6 +15958,30 @@
     ],
     "stars": 22,
     "lastPush": "2026-10-12T23:12:47Z"
+  },
+  {
+    "repo": "alexpiar/be-ambitious-harness",
+    "name": "be-ambitious-harness",
+    "description": "Make AI agents aim higher without losing control: a Claude Code skill with two bars per task, a cheap gate check before expensive work, and an independent verifier that never sees the worker's reasoning. Plain markdown, EN + RU.",
+    "tags": [
+      "agent-harness",
+      "agent-skills",
+      "agentic-workflows",
+      "ai-agents",
+      "ai-workflow",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "evals",
+      "llm",
+      "llm-as-a-judge",
+      "llm-evaluation",
+      "multi-agent-systems",
+      "prompt-engineering",
+      "prompt-templates"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-21T01:17:01Z"
   },
   {
     "repo": "metcalfsolutions/satori",
@@ -26523,6 +26591,33 @@
     "lastPush": "2026-10-15T03:15:03Z"
   },
   {
+    "repo": "precious112/code-slowmo",
+    "name": "code-slowmo",
+    "description": "Understand code by watching it run in slow motion. An agent skill that builds interactive, plain-language explainers: system maps, step-by-step timelines and line-by-line code runs.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "code-explainer",
+      "code-visualization",
+      "codex",
+      "codex-cli",
+      "codex-skill",
+      "codex-skills",
+      "developer-tools",
+      "learning",
+      "open-source",
+      "opencode",
+      "opencode-ai",
+      "opencode-plugins",
+      "opencode-skill",
+      "opencode-skills"
+    ],
+    "stars": 6,
+    "lastPush": "2026-10-20T03:27:08Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -30601,6 +30696,52 @@
     "lastPush": "2026-09-28T08:56:28Z"
   },
   {
+    "repo": "h0ffmann/ptbr-writer",
+    "name": "ptbr-writer",
+    "description": "portuguese (BR) on rails",
+    "tags": [
+      "asd",
+      "asd-ste100",
+      "browser-extension",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "controlled-language",
+      "controlled-natural-language",
+      "extension-chrome",
+      "grammar",
+      "grammar-checker",
+      "machado-de-assis",
+      "portuguese",
+      "ptbr",
+      "rails",
+      "saramago",
+      "写作",
+      "writing-assistant",
+      "writing-software",
+      "writing-systems",
+      "writing-tool"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-22T04:55:22Z"
+  },
+  {
+    "repo": "ali-expandings/wise-men-flash",
+    "name": "wise-men-flash",
+    "description": "The fast tier of the wise-men council as its own skill: three Claude subagents down three reasoning paths, one checked decision memo in a third of the full council's time. Ships its own blind eval.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "deliberation",
+      "devils-advocate",
+      "fast",
+      "llm-council",
+      "multi-agent"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-21T11:50:06Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -34595,6 +34736,33 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-18T13:47:37Z"
+  },
+  {
+    "repo": "bubblegunn/product-engineer",
+    "name": "product-engineer",
+    "description": "product-engineer is an agent skill and command-line checker that makes AI coding agents explain each commit and pull request in plain language, and warns when the message contradicts the diff.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding-agent",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "commit-message",
+      "commit-messages",
+      "commitlint",
+      "cursor",
+      "diff-check",
+      "github-action",
+      "github-copilot",
+      "plain-language",
+      "pre-commit",
+      "product-engineering",
+      "pull-request",
+      "pull-requests"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-21T08:41:05Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
