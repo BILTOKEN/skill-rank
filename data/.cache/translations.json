@@ -5901,11 +5901,11 @@
     "backTranslationDiff": 0.47058823529411764
   },
   "trailofbits/skills": {
-    "sourceHash": "41ac4243f6ec1f3a",
-    "chineseDescription": "Trail of Bits 的 Claude Code 技能，用于安全研究、漏洞检测和审计工作流。【使用场景】适用于安全研究人员进行代码审计和漏洞挖掘。",
-    "prompt": "请从 GitHub 仓库 https://github.com/trailofbits/skills 下载 skills 技能文件，并将其安装到 .claude/skills/skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:28:05.800Z",
-    "backTranslationDiff": 0.18181818181818177
+    "sourceHash": "67b02424a5a98e09",
+    "chineseDescription": "Trail of Bits 出品的技能集，用于安全研究、漏洞检测和审计工作流。",
+    "prompt": "请帮我安装 skills 技能：从 https://github.com/trailofbits/skills 下载该仓库的文件，保存到 .claude/skills/skills/ 目录下完成安装。如果目录不存在就先创建，安装完成后告诉我装好了哪些内容。",
+    "translatedAt": "2026-10-23T05:15:45.555Z",
+    "backTranslationDiff": 0.8888888888888888
   },
   "browserbase/skills": {
     "sourceHash": "c169e924bc0ad875",
@@ -8783,5 +8783,19 @@
     "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 rederive。请从 GitHub 仓库 https://github.com/ericjujianzou/rederive 下载该 skill 的文件，并保存到项目的 .claude/skills/rederive/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 skill 是干什么用的、怎么触发使用。",
     "translatedAt": "2026-10-22T05:19:43.581Z",
     "backTranslationDiff": 0
+  },
+  "appleweiping/agent_resource": {
+    "sourceHash": "f03c6941ea3d6853",
+    "chineseDescription": "这是我自己给 Claude Code 和 Codex 写的 agent skills（智能体技能），另外还整理了我常用的第三方 skills 的链接。",
+    "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/appleweiping/agent_resource 下载全部文件，保存到当前项目的 .claude/skills/agent_resource/ 目录下（如果目录不存在就先创建）。下载完成后，确认目录里有 SKILL.md 等必要文件，并告诉我安装结果。",
+    "translatedAt": "2026-10-23T05:15:49.199Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "yzddmr6/android-mainline-port": {
+    "sourceHash": "a7d43b4c91bd1db4",
+    "chineseDescription": "这个 Skill 帮你把主线 Linux（mainline Linux）移植到安卓手机和平板上，里面整理了完整的移植流程、决策规则和踩坑经验，相当于一个懂行的助手在旁边指导你操作。",
+    "prompt": "请帮我安装 android-mainline-port 这个 Skill：先从 https://github.com/yzddmr6/android-mainline-port 下载仓库里的所有文件，然后保存到 .claude/skills/android-mainline-port/ 目录下（如果目录不存在就自己创建）。装好后确认一下 SKILL.md 之类的文件都在位，告诉我安装完成。\n\n【使用场景】当你想给安卓手机或平板刷上主线 Linux 内核、需要移植指导时使用。",
+    "translatedAt": "2026-10-23T05:15:53.692Z",
+    "backTranslationDiff": 0.4
   }
 }
