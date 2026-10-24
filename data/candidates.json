@@ -523,6 +523,25 @@
     "lastPush": "2026-05-22T15:14:46Z"
   },
   {
+    "repo": "alchaincyf/huashu-design",
+    "name": "huashu-design",
+    "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+    "tags": [
+      "agent-skills",
+      "ai-design",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "设计",
+      "html",
+      "pptx",
+      "prototype"
+    ],
+    "stars": 25988,
+    "lastPush": "2026-10-23T15:32:08Z"
+  },
+  {
     "repo": "imbad0202/academic-research-skills",
     "name": "academic-research-skills",
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
@@ -3490,6 +3509,26 @@
     ],
     "stars": 868,
     "lastPush": "2026-05-19T01:51:24Z"
+  },
+  {
+    "repo": "dozentwelve/papermorph",
+    "name": "Papermorph",
+    "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+    "tags": [
+      "ai-agents",
+      "ai-education",
+      "animation",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "edtech",
+      "education",
+      "interactive-textbook",
+      "scorm",
+      "text-to-video"
+    ],
+    "stars": 850,
+    "lastPush": "2026-10-23T23:35:49Z"
   },
   {
     "repo": "behisecc/vibesec-skill",
@@ -7296,6 +7335,21 @@
     "lastPush": "2026-04-06T02:12:49Z"
   },
   {
+    "repo": "appariciojunior/video-editor-skills",
+    "name": "video-editor-skills",
+    "description": "Skills that teach Claude Code to be a first-pass video editor in DaVinci Resolve: transcript cuts, vlog pacing, B-roll, music & SFX, clean captions, motion graphics, YouTube export. CC BY-NC 4.0 (no commercial use).",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "davinci-resolve",
+      "remotion",
+      "video-editing",
+      "youtube"
+    ],
+    "stars": 196,
+    "lastPush": "2026-10-23T07:51:07Z"
+  },
+  {
     "repo": "helloianneo/awesome-claude-code-skills",
     "name": "awesome-claude-code-skills",
     "description": "Claude Code 最实用的 Skills / Agents / Plugins 精选合集 | 50+ 精选 | 按场景分类 | 带推荐等级 | 复制即装",
@@ -9944,6 +9998,23 @@
     "lastPush": "2026-09-19T04:31:25Z"
   },
   {
+    "repo": "taxueseek/plainspoken-writing",
+    "name": "plainspoken-writing",
+    "description": "白描写作：专业消除AI味的skill",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "chinese",
+      "claude-skills",
+      "content-quality",
+      "humanize-ai",
+      "python",
+      "writing-tool"
+    ],
+    "stars": 68,
+    "lastPush": "2026-10-23T13:56:39Z"
+  },
+  {
     "repo": "free-revalution/aigc-detector-pro",
     "name": "AIGC-Detector-Pro",
     "description": "AIGC 检测论文 AI 降率工具 - Claude Code Skill for academic paper AI detection and rewriting",
@@ -9977,6 +10048,25 @@
     ],
     "stars": 67,
     "lastPush": "2026-09-26T20:44:29Z"
+  },
+  {
+    "repo": "actionow-ai/c2c_img",
+    "name": "c2c_img",
+    "description": "Native-feeling image generation for Claude Code, powered by your local Codex (ChatGPT) image_gen. No API key needed.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "gpt-image",
+      "image-generation",
+      "skills",
+      "text-to-image"
+    ],
+    "stars": 67,
+    "lastPush": "2026-09-30T17:30:09Z"
   },
   {
     "repo": "bevibing/socrates-skill",
@@ -11074,6 +11164,23 @@
     "lastPush": "2026-09-28T11:18:19Z"
   },
   {
+    "repo": "jakeschincariol/console-skill",
+    "name": "console-skill",
+    "description": "11 Claude skills that port PlayStation 2 games you own to PC: reverse engineer the code, rebuild the graphics and backend, any controller, play it anywhere, then mod it however you want.",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "game-dev",
+      "gamepad",
+      "modding",
+      "ps2",
+      "reverse-engineering",
+      "static-recompilation"
+    ],
+    "stars": 54,
+    "lastPush": "2026-10-22T14:14:45Z"
+  },
+  {
     "repo": "raintree-technology/apple-hig-skills",
     "name": "hig-doctor",
     "description": "Apple HIG audit CLI + 14 agent skills for AI coding assistants — score any project for HIG compliance across 12 frameworks",
@@ -11818,6 +11925,34 @@
     ],
     "stars": 46,
     "lastPush": "2026-05-21T14:10:22Z"
+  },
+  {
+    "repo": "nyxandro/t-invest-skill",
+    "name": "t-invest-skill",
+    "description": "Скилл Т-Инвестиций для ИИ-агентов: портфель, доходность, аналитика и сделки по брокерскому счёту через T-Invest API, по вашей команде",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "broker",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "investing",
+      "investment",
+      "portfolio",
+      "skill",
+      "skills",
+      "stock-market",
+      "t-invest",
+      "tbank",
+      "tinkoff",
+      "tinkoff-invest",
+      "tinkoff-invest-api",
+      "trading"
+    ],
+    "stars": 46,
+    "lastPush": "2026-10-23T23:18:10Z"
   },
   {
     "repo": "eth0izzle/security-skills",
@@ -16015,6 +16150,26 @@
     ],
     "stars": 22,
     "lastPush": "2026-10-21T01:17:01Z"
+  },
+  {
+    "repo": "kimeur/duology",
+    "name": "duology",
+    "description": "Claude Code skills for designing, building, testing and shipping apps on iPhone Duo and iOS 27. Layout patterns, app recipes, a fold linter and pose checks.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "foldable",
+      "ios",
+      "ios27",
+      "iphone-duo",
+      "swift",
+      "swiftui",
+      "xcode"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-23T22:42:06Z"
   },
   {
     "repo": "metcalfsolutions/satori",
@@ -23243,6 +23398,30 @@
     "lastPush": "2026-09-12T11:05:22Z"
   },
   {
+    "repo": "mimmo-the-root/uefn-dream-bot-team",
+    "name": "UEFN-dream-bot-team",
+    "description": "Free open-source Claude Code kit: 22 AI agents (17 + 5 UEFN MCP sub-agents), 34 skills and 387 proven UEFN MCP recipes to build, test and improve Fortnite maps (Verse, Niagara, UI)",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "fortnite",
+      "fortnite-creative",
+      "fortnite-github",
+      "game-development",
+      "mcp",
+      "mcp-tools",
+      "model-context-protocol",
+      "uefn",
+      "unreal-editor-for-fortnite",
+      "unreal-engine",
+      "verse"
+    ],
+    "stars": 10,
+    "lastPush": "2026-10-23T19:47:04Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -29185,6 +29364,29 @@
     "lastPush": "2026-10-20T04:33:22Z"
   },
   {
+    "repo": "arcadiastra/ieee-transactions-writing-zh",
+    "name": "ieee-transactions-writing-zh",
+    "description": "使用简体中文规划、撰写、修改和审查 IEEE Transactions 学术论文写作的模块化 Agent Skill，涵盖章节写作、贡献论证、引用核验与投稿规范检查。",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "ieee",
+      "ieee-transactions",
+      "paper-writing",
+      "scientific-writing",
+      "写作",
+      "writing-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-23T08:32:31Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -30892,6 +31094,19 @@
     ],
     "stars": 3,
     "lastPush": "2026-10-22T05:55:38Z"
+  },
+  {
+    "repo": "matteoikarieth96/claude-time-is-relative",
+    "name": "claude-time-is-relative",
+    "description": "Time estimates for Claude Code, learned from your own past sessions, on your own machine. Not affiliated with Anthropic.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "time-estimation"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-22T10:39:15Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -34941,6 +35156,23 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-22T18:00:11Z"
+  },
+  {
+    "repo": "raihan-009/prettier-excalidraw",
+    "name": "prettier-excalidraw",
+    "description": "Claude Code skill that draws, restyles and lints Excalidraw architecture diagrams in a clean, consistent house style: one font, elbow arrows, colour-coded boxes, tinted regions, real logos, PNG export.",
+    "tags": [
+      "architecture-diagrams",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "diagram-as-code",
+      "diagrams",
+      "excalidraw",
+      "python"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-23T21:20:23Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

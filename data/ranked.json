@@ -638,6 +638,30 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "alchaincyf/huashu-design",
+    "name": "huashu-design",
+    "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+    "tags": [
+      "agent-skills",
+      "ai-design",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "设计",
+      "html",
+      "pptx",
+      "prototype"
+    ],
+    "stars": 25988,
+    "lastPush": "2026-10-23T15:32:08Z",
+    "pool": "ranked",
+    "readmeLength": 1780,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "imbad0202/academic-research-skills",
     "name": "academic-research-skills",
     "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
@@ -4415,6 +4439,31 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "dozentwelve/papermorph",
+    "name": "Papermorph",
+    "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+    "tags": [
+      "ai-agents",
+      "ai-education",
+      "animation",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "edtech",
+      "education",
+      "interactive-textbook",
+      "scorm",
+      "text-to-video"
+    ],
+    "stars": 850,
+    "lastPush": "2026-10-23T23:35:49Z",
+    "pool": "ranked",
+    "readmeLength": 1118,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "behisecc/vibesec-skill",
@@ -9376,6 +9425,26 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "appariciojunior/video-editor-skills",
+    "name": "video-editor-skills",
+    "description": "Skills that teach Claude Code to be a first-pass video editor in DaVinci Resolve: transcript cuts, vlog pacing, B-roll, music & SFX, clean captions, motion graphics, YouTube export. CC BY-NC 4.0 (no commercial use).",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "davinci-resolve",
+      "remotion",
+      "video-editing",
+      "youtube"
+    ],
+    "stars": 196,
+    "lastPush": "2026-10-23T07:51:07Z",
+    "pool": "ranked",
+    "readmeLength": 532,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "helloianneo/awesome-claude-code-skills",
     "name": "awesome-claude-code-skills",
     "description": "Claude Code 最实用的 Skills / Agents / Plugins 精选合集 | 50+ 精选 | 按场景分类 | 带推荐等级 | 复制即装",
@@ -12679,6 +12748,28 @@
     "checkedAt": "2026-09-19T04:42:38.021Z"
   },
   {
+    "repo": "taxueseek/plainspoken-writing",
+    "name": "plainspoken-writing",
+    "description": "白描写作：专业消除AI味的skill",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "chinese",
+      "claude-skills",
+      "content-quality",
+      "humanize-ai",
+      "python",
+      "writing-tool"
+    ],
+    "stars": 68,
+    "lastPush": "2026-10-23T13:56:39Z",
+    "pool": "ranked",
+    "readmeLength": 1280,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "free-revalution/aigc-detector-pro",
     "name": "AIGC-Detector-Pro",
     "description": "AIGC 检测论文 AI 降率工具 - Claude Code Skill for academic paper AI detection and rewriting",
@@ -12722,6 +12813,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-27T05:23:37.495Z"
+  },
+  {
+    "repo": "actionow-ai/c2c_img",
+    "name": "c2c_img",
+    "description": "Native-feeling image generation for Claude Code, powered by your local Codex (ChatGPT) image_gen. No API key needed.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "gpt-image",
+      "image-generation",
+      "skills",
+      "text-to-image"
+    ],
+    "stars": 67,
+    "lastPush": "2026-09-30T17:30:09Z",
+    "pool": "ranked",
+    "readmeLength": 760,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "bevibing/socrates-skill",
@@ -14092,6 +14207,28 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
+    "repo": "jakeschincariol/console-skill",
+    "name": "console-skill",
+    "description": "11 Claude skills that port PlayStation 2 games you own to PC: reverse engineer the code, rebuild the graphics and backend, any controller, play it anywhere, then mod it however you want.",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "game-dev",
+      "gamepad",
+      "modding",
+      "ps2",
+      "reverse-engineering",
+      "static-recompilation"
+    ],
+    "stars": 54,
+    "lastPush": "2026-10-22T14:14:45Z",
+    "pool": "ranked",
+    "readmeLength": 2020,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "raintree-technology/apple-hig-skills",

@@ -455,6 +455,39 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "nyxandro/t-invest-skill",
+    "name": "t-invest-skill",
+    "description": "Скилл Т-Инвестиций для ИИ-агентов: портфель, доходность, аналитика и сделки по брокерскому счёту через T-Invest API, по вашей команде",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "broker",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "investing",
+      "investment",
+      "portfolio",
+      "skill",
+      "skills",
+      "stock-market",
+      "t-invest",
+      "tbank",
+      "tinkoff",
+      "tinkoff-invest",
+      "tinkoff-invest-api",
+      "trading"
+    ],
+    "stars": 46,
+    "lastPush": "2026-10-23T23:18:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "eth0izzle/security-skills",
     "name": "security-skills",
     "description": "A collection of Claude Code skills that help security teams stay secure",
@@ -5700,6 +5733,31 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-22T04:56:57.823Z"
+  },
+  {
+    "repo": "kimeur/duology",
+    "name": "duology",
+    "description": "Claude Code skills for designing, building, testing and shipping apps on iPhone Duo and iOS 27. Layout patterns, app recipes, a fold linter and pose checks.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "foldable",
+      "ios",
+      "ios27",
+      "iphone-duo",
+      "swift",
+      "swiftui",
+      "xcode"
+    ],
+    "stars": 22,
+    "lastPush": "2026-10-23T22:42:06Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "metcalfsolutions/satori",
@@ -14723,6 +14781,35 @@
     "checkedAt": "2026-09-13T04:53:52.374Z"
   },
   {
+    "repo": "mimmo-the-root/uefn-dream-bot-team",
+    "name": "UEFN-dream-bot-team",
+    "description": "Free open-source Claude Code kit: 22 AI agents (17 + 5 UEFN MCP sub-agents), 34 skills and 387 proven UEFN MCP recipes to build, test and improve Fortnite maps (Verse, Niagara, UI)",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "fortnite",
+      "fortnite-creative",
+      "fortnite-github",
+      "game-development",
+      "mcp",
+      "mcp-tools",
+      "model-context-protocol",
+      "uefn",
+      "unreal-editor-for-fortnite",
+      "unreal-engine",
+      "verse"
+    ],
+    "stars": 10,
+    "lastPush": "2026-10-23T19:47:04Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -22150,6 +22237,34 @@
     "checkedAt": "2026-10-20T04:57:23.781Z"
   },
   {
+    "repo": "arcadiastra/ieee-transactions-writing-zh",
+    "name": "ieee-transactions-writing-zh",
+    "description": "使用简体中文规划、撰写、修改和审查 IEEE Transactions 学术论文写作的模块化 Agent Skill，涵盖章节写作、贡献论证、引用核验与投稿规范检查。",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "ieee",
+      "ieee-transactions",
+      "paper-writing",
+      "scientific-writing",
+      "写作",
+      "writing-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-23T08:32:31Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -24267,6 +24382,24 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-23T04:58:44.978Z"
+  },
+  {
+    "repo": "matteoikarieth96/claude-time-is-relative",
+    "name": "claude-time-is-relative",
+    "description": "Time estimates for Claude Code, learned from your own past sessions, on your own machine. Not affiliated with Anthropic.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "developer-tools",
+      "time-estimation"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-22T10:39:15Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -29301,6 +29434,28 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-23T04:58:44.978Z"
+  },
+  {
+    "repo": "raihan-009/prettier-excalidraw",
+    "name": "prettier-excalidraw",
+    "description": "Claude Code skill that draws, restyles and lints Excalidraw architecture diagrams in a clean, consistent house style: one font, elbow arrows, colour-coded boxes, tinted regions, real logos, PNG export.",
+    "tags": [
+      "architecture-diagrams",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "diagram-as-code",
+      "diagrams",
+      "excalidraw",
+      "python"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-23T21:20:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

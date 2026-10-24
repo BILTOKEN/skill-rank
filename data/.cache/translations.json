@@ -3941,11 +3941,11 @@
     "backTranslationDiff": 0.0714285714285714
   },
   "agricidaniel/claude-cybersecurity": {
-    "sourceHash": "241f263e7bd8b06b",
-    "chineseDescription": "AI驱动的网络安全代码审查技能，适用于Claude Code。8个专业代理，支持OWASP 2025、CWE Top 25、MITRE ATT&CK，覆盖11种编程语言，零配置。【使用场景】用于在Claude Code中进行自动化安全代码审查，识别漏洞和威胁。",
-    "prompt": "请从 https://github.com/agricidaniel/claude-cybersecurity 下载该技能的所有文件，并保存到 .claude/skills/claude-cybersecurity/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T17:49:14.604Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "c6e216c2b77430e5",
+    "chineseDescription": "PYA（Protect Your Ass，保护你的屁股）：Claude Code 的安全审计插件（security audit plugin）。内置 9 个专家 agent（specialist agents）、带日期的威胁情报源（dated threat feed）、经过验证的漏洞发现（verified findings），默认离线运行（offline by default）。",
+    "prompt": "请帮我安装 PYA 安全审计插件。请从 GitHub 仓库 https://github.com/agricidaniel/claude-cybersecurity 下载全部文件，并保存到 .claude/skills/claude-cybersecurity/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-10-24T05:03:44.223Z",
+    "backTranslationDiff": 0
   },
   "agricidaniel/claude-youtube": {
     "sourceHash": "459e42c2b94cd38c",
@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 1
   },
   "borghei/claude-skills": {
-    "sourceHash": "b9d5fcee1ce911e9",
-    "chineseDescription": "385 个 AI 技能（skills）、77 个专家智能体（expert agents）和 900 个标准库 Python 工具，覆盖各类团队：工程、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营、研究，还有一套 LinkedIn 工具包。可安装在 Claude Code、Cursor、Codex、Gemini、Copilot 以及其他 6 种 AI 助手上。",
-    "prompt": "请帮我安装 Claude-Skills 技能包。请从 GitHub 仓库 https://github.com/borghei/claude-skills 下载所有文件，并保存到 .claude/skills/claude-skills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我安装了什么内容。",
-    "translatedAt": "2026-10-08T06:34:41.958Z",
-    "backTranslationDiff": 0.8846153846153846
+    "sourceHash": "bf5d9d126beca6e6",
+    "chineseDescription": "这个仓库提供 385 个 AI 技能（skills）、76 个专家级 agent（智能体），以及 906 个基于 Python 标准库（stdlib）的工具，覆盖各类团队场景：工程研发、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营、研究，还有一套 LinkedIn 工具包。支持安装在 Claude Code、Cursor、Codex、Gemini、Copilot 等 10 多个 AI 助手上。",
+    "prompt": "请帮我安装 Claude-Skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/borghei/claude-skills 下载全部文件（可以用 git clone https://github.com/borghei/claude-skills 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/claude-skills/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的文件复制到 .claude/skills/claude-skills/ 目录中；4) 安装完成后列出该目录下的文件，确认安装成功，并告诉我这个技能包包含哪些主要功能（385 个 AI 技能、76 个专家 agent、906 个 Python 工具）。",
+    "translatedAt": "2026-10-24T05:03:41.144Z",
+    "backTranslationDiff": 0.3846153846153846
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "4570a7e0938691ce",
@@ -8078,10 +8078,10 @@
     "backTranslationDiff": 0.1428571428571429
   },
   "taxueseek/say-it-human": {
-    "sourceHash": "a9004dbedb181493",
-    "chineseDescription": "专业消除AI味的skill，让AI输出更自然、更像人类写的。",
-    "prompt": "请从 https://github.com/taxueseek/say-it-human 下载这个skill，保存到 .claude/skills/say-it-human/ 目录下，然后告诉我安装完成。",
-    "translatedAt": "2026-08-24T02:10:07.389Z",
+    "sourceHash": "2fa6e4b9e849da35",
+    "chineseDescription": "白描写作：专门用来消除 AI 味的 skill（技能）。说白了就是让 AI 写出来的东西别那么像 AI 写的，去掉那些一眼假的腔调，写得像人话。",
+    "prompt": "帮我安装一个 Claude Code skill（技能），名字叫 plainspoken-writing，作用是消除 AI 味、让文字更像人写的。请你去 GitHub 仓库 https://github.com/taxueseek/say-it-human 下载这个 skill 的文件，保存到 .claude/skills/say-it-human/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-10-24T05:03:56.172Z",
     "backTranslationDiff": 1
   },
   "zenstory-ai/oh-story-claudecode": {
@@ -8797,5 +8797,54 @@
     "prompt": "请帮我安装 android-mainline-port 这个 Skill：先从 https://github.com/yzddmr6/android-mainline-port 下载仓库里的所有文件，然后保存到 .claude/skills/android-mainline-port/ 目录下（如果目录不存在就自己创建）。装好后确认一下 SKILL.md 之类的文件都在位，告诉我安装完成。\n\n【使用场景】当你想给安卓手机或平板刷上主线 Linux 内核、需要移植指导时使用。",
     "translatedAt": "2026-10-23T05:15:53.692Z",
     "backTranslationDiff": 0.4
+  },
+  "dozentwelve/papermorph": {
+    "sourceHash": "c8ae2c7b1da4c347",
+    "chineseDescription": "一个 AI 技能（Skill），能把书籍变成带动画、带旁白、可交互的网页体验。",
+    "prompt": "请帮我安装 Papermorph 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/dozentwelve/papermorph 下载全部文件；2) 在项目里创建 .claude/skills/papermorph/ 目录；3) 把下载的文件保存到该目录下，保持原有目录结构；4) 确认 SKILL.md 等文件已就位，并告诉我安装完成。如果本机没有 git，就用 curl 或你手头可用的方式下载。",
+    "translatedAt": "2026-10-24T05:03:48.197Z",
+    "backTranslationDiff": 1
+  },
+  "taxueseek/plainspoken-writing": {
+    "sourceHash": "2fa6e4b9e849da35",
+    "chineseDescription": "白描写作（plainspoken-writing）：一个专门用来消除文章里“AI味”的 skill（技能），让文字更直白、更像人写的。",
+    "prompt": "请帮我安装 plainspoken-writing 这个 skill。步骤：1. 从 GitHub 仓库 https://github.com/taxueseek/plainspoken-writing 下载全部文件（可以用 git clone https://github.com/taxueseek/plainspoken-writing 或直接下载压缩包）；2. 在项目根目录创建 .claude/skills/plainspoken-writing/ 目录；3. 把仓库里的文件复制到该目录下，确保 SKILL.md 位于 .claude/skills/plainspoken-writing/SKILL.md；4. 安装完成后告诉我目录结构和如何使用。",
+    "translatedAt": "2026-10-24T05:03:52.029Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/huashu-design": {
+    "sourceHash": "f8dab7d1c29f8cce",
+    "chineseDescription": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · 面向 Claude Code、Codex、Cursor 及任意 agent 的 HTML-native 设计 skill（技能）。",
+    "prompt": "请帮我安装 huashu-design 这个 Claude Code skill（技能）。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-design 下载全部文件（可用 git clone https://github.com/alchaincyf/huashu-design.git 或直接下载压缩包）；2) 在当前项目的 .claude/skills/huashu-design/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、怎么触发使用。",
+    "translatedAt": "2026-10-24T05:03:59.972Z",
+    "backTranslationDiff": 0.3571428571428571
+  },
+  "appariciojunior/video-editor-skills": {
+    "sourceHash": "cb76025d053a936d",
+    "chineseDescription": "这套 Skill 让 Claude Code 能在 DaVinci Resolve 里当第一遍粗剪的剪辑师：按转录文本剪口播、把控 vlog 节奏、加 B-roll（补充画面）、配音乐和音效（SFX）、做干净的字幕、加动态图形（motion graphics），以及导出 YouTube 版本。许可证 CC BY-NC 4.0，不能商用。",
+    "prompt": "请帮我安装 video-editor-skills 这个 Skill：从 https://github.com/appariciojunior/video-editor-skills 下载仓库里的所有文件，保存到 .claude/skills/video-editor-skills/ 目录下（没有这个目录就自己创建）。装完后列出安装好的文件，确认一下能正常使用。",
+    "translatedAt": "2026-10-24T05:04:03.792Z",
+    "backTranslationDiff": 0.42307692307692313
+  },
+  "jakeschincariol/console-skill": {
+    "sourceHash": "d61943c356fac0c9",
+    "chineseDescription": "11 个 Claude skill（技能），能把你手上拥有的 PlayStation 2 游戏移植到 PC：逆向工程（reverse engineer）代码、重建图形和后端（backend）、支持任意手柄、随时随地玩，之后还能按你的想法随意 mod（改造）。",
+    "prompt": "请帮我安装 console-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/jakeschincariol/console-skill 下载全部文件，并保存到 .claude/skills/console-skill/ 目录下完成安装。安装前请先确认该目录是否已存在，如果存在就先备份或提示我；安装完成后列出已下载的文件清单，并简单说明这 11 个 skill 各自的用途。",
+    "translatedAt": "2026-10-24T05:04:07.347Z",
+    "backTranslationDiff": 0.11111111111111116
+  },
+  "nyxandro/t-invest-skill": {
+    "sourceHash": "47ce128f41e66062",
+    "chineseDescription": "T-Invest 投资技能（Skill），专为 AI 智能体（AI Agent）打造：通过 T-Invest API（T-Invest 接口），按你的指令查询券商账户的持仓组合（portfolio）、收益率（доходность）、行情分析（аналитика）并执行交易（сделки）。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名称是 t-invest-skill。请你自己去 GitHub 仓库 https://github.com/nyxandro/t-invest-skill 下载该仓库的全部文件，并保存到项目的 .claude/skills/t-invest-skill/ 目录下（如果目录不存在就创建）。下载完成后，检查目录里是否有 SKILL.md 或类似的说明文件，确认安装成功，并简要告诉我这个 Skill 是做什么的、怎么用。注意：不要假设我已经提前下载或安装过任何东西，一切由你从 https://github.com/nyxandro/t-invest-skill 自行获取。",
+    "translatedAt": "2026-10-24T05:04:11.556Z",
+    "backTranslationDiff": 0.9285714285714286
+  },
+  "actionow-ai/c2c_img": {
+    "sourceHash": "ea534b46da842199",
+    "chineseDescription": "为 Claude Code 提供原生体验的图片生成功能，由你本地的 Codex（ChatGPT）image_gen 驱动，无需 API key（密钥）。",
+    "prompt": "请帮我安装 c2c_img 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/actionow-ai/c2c_img 下载该 Skill 的全部文件（可直接 git clone 或下载仓库压缩包）；2) 在项目根目录下创建 .claude/skills/c2c_img/ 目录；3) 把下载到的 Skill 文件（如 SKILL.md 及相关脚本/资源）放入 .claude/skills/c2c_img/ 中；4) 确认目录结构正确后告诉我安装完成，并简要说明如何使用。仓库地址是 https://github.com/actionow-ai/c2c_img ，请自行下载，不要假设我本地已有该仓库。",
+    "translatedAt": "2026-10-24T05:04:15.408Z",
+    "backTranslationDiff": 0.33333333333333337
   }
 }
