@@ -5684,10 +5684,10 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "d06a67ef6d8441b8",
-    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证以及规划，背后有 2600+ 个 agentic skills（智能体技能）支撑。包含 CLI（命令行工具）、本地 MCP、目录、插件以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载相关文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
-    "translatedAt": "2026-10-15T05:10:23.955Z",
+    "sourceHash": "50490019817c2b6c",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,750+ 个 agentic skills 支撑。包含 CLI、本地 MCP、目录（catalog）、插件（plugins）和 Workbench。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载该仓库的全部文件（可用 git clone 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录；3) 将下载的文件放入该目录，确保 SKILL.md 位于 .claude/skills/antigravity-awesome-skills/SKILL.md；4) 安装完成后告诉我该 Skill 的用途和基本用法。仓库地址：https://github.com/sickn33/antigravity-awesome-skills",
+    "translatedAt": "2026-10-25T05:08:11.619Z",
     "backTranslationDiff": 0.16666666666666663
   },
   "iofficeai/aionui": {
@@ -7854,10 +7854,10 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "d06a67ef6d8441b8",
-    "chineseDescription": "AAS Core 是一个本地运行、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,600+ 个 agentic skills（智能体技能）支撑。它包含 CLI（命令行工具）、本地 MCP、目录（catalog）、插件（plugins）以及 Workbench（工作台）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所有需要的文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。如果该目录不存在，请先创建它。安装完成后，请告诉我安装结果以及如何使用这个 Skill。",
-    "translatedAt": "2026-10-15T05:10:20.759Z",
+    "sourceHash": "50490019817c2b6c",
+    "chineseDescription": "AAS Core 是一个本地优先、以 agent 为核心的控制平面（control plane），用于完整的目录发现（catalog discovery）、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,750+ 个 agentic skills 支撑。包含 CLI、本地 MCP、目录（catalog）、插件（plugins）和 Workbench。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载全部文件（可以用 git clone https://github.com/sickn33/agentic-awesome-skills 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/ 目录下创建 agentic-awesome-skills 文件夹（即 .claude/skills/agentic-awesome-skills/）；3) 把下载到的仓库内容放到该目录中；4) 检查目录里是否有 SKILL.md 等说明文件，确认安装完成并告诉我怎么用。",
+    "translatedAt": "2026-10-25T05:08:07.594Z",
     "backTranslationDiff": 0.16666666666666663
   },
   "nulightjens/humanizer-stack": {
@@ -8785,11 +8785,11 @@
     "backTranslationDiff": 0
   },
   "appleweiping/agent_resource": {
-    "sourceHash": "f03c6941ea3d6853",
-    "chineseDescription": "这是我自己给 Claude Code 和 Codex 写的 agent skills（智能体技能），另外还整理了我常用的第三方 skills 的链接。",
-    "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/appleweiping/agent_resource 下载全部文件，保存到当前项目的 .claude/skills/agent_resource/ 目录下（如果目录不存在就先创建）。下载完成后，确认目录里有 SKILL.md 等必要文件，并告诉我安装结果。",
-    "translatedAt": "2026-10-23T05:15:49.199Z",
-    "backTranslationDiff": 0.2222222222222222
+    "sourceHash": "1de2fd53fa2374aa",
+    "chineseDescription": "这是我自己编写或改编的 Agent Skills（智能体技能），适用于 Claude Code 和 Codex，另外还附上了我在用的第三方技能链接。",
+    "prompt": "请帮我把这个 Skill 安装到本地：从 GitHub 仓库 https://github.com/appleweiping/agent_resource 下载全部文件，保存到 .claude/skills/agent_resource/ 目录下，完成安装。如果目录不存在就先创建，下载完成后告诉我装了哪些文件。",
+    "translatedAt": "2026-10-25T05:08:15.232Z",
+    "backTranslationDiff": 0.36363636363636365
   },
   "yzddmr6/android-mainline-port": {
     "sourceHash": "a7d43b4c91bd1db4",
@@ -8846,5 +8846,12 @@
     "prompt": "请帮我安装 c2c_img 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/actionow-ai/c2c_img 下载该 Skill 的全部文件（可直接 git clone 或下载仓库压缩包）；2) 在项目根目录下创建 .claude/skills/c2c_img/ 目录；3) 把下载到的 Skill 文件（如 SKILL.md 及相关脚本/资源）放入 .claude/skills/c2c_img/ 中；4) 确认目录结构正确后告诉我安装完成，并简要说明如何使用。仓库地址是 https://github.com/actionow-ai/c2c_img ，请自行下载，不要假设我本地已有该仓库。",
     "translatedAt": "2026-10-24T05:04:15.408Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "morganlinton/beautifulrust": {
+    "sourceHash": "c8e3346dccc2bf10",
+    "chineseDescription": "一个 Claude Code 插件（plugin），教 Claude 写出符合 Rust 惯用法（idiomatic）、健壮（robust）的 Rust 代码。",
+    "prompt": "帮我安装 BeautifulRust 这个 Claude Code 技能。请你自己去 https://github.com/morganlinton/beautifulrust 下载仓库里的技能文件，保存到 .claude/skills/beautifulrust/ 目录下，完成安装后告诉我装好了没有、装了哪些文件。不要让我手动下载，你直接去 GitHub 拉取即可。",
+    "translatedAt": "2026-10-25T05:08:18.184Z",
+    "backTranslationDiff": 0
   }
 }

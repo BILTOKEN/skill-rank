@@ -4534,6 +4534,26 @@
     "checkedAt": "2026-10-22T04:56:57.823Z"
   },
   {
+    "repo": "ythx-101/old-phone-tailnet",
+    "name": "old-phone-tailnet",
+    "description": "把没有 root 的旧安卓手机接进 Tailscale 私网：Termux + 用户态 Tailscale + 只认公钥的 SSH + 本机无线 ADB + Chrome 调试口。附提示词和 Claude Code skill。",
+    "tags": [
+      "adb",
+      "android",
+      "cdp",
+      "claude-code-skill",
+      "tailscale",
+      "termux"
+    ],
+    "stars": 25,
+    "lastPush": "2026-10-24T14:29:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
+  },
+  {
     "repo": "tanis90/pdf-converter-mineru",
     "name": "pdf-converter-mineru",
     "description": "a pdf converter skill base on mineru ecosystem",
@@ -4808,6 +4828,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-09-29T05:49:07.810Z"
+  },
+  {
+    "repo": "krutikkkkkkkkk/creative-ui",
+    "name": "creative-ui",
+    "description": "React components and Claude skills with a designer's eye, installable with the shadcn CLI: npx shadcn add @creative-ui/<name>",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "image-effects",
+      "nextjs",
+      "react",
+      "shadcn",
+      "shadcn-registry",
+      "shadcn-ui",
+      "tailwind",
+      "tailwindcss",
+      "typescript",
+      "ui-components"
+    ],
+    "stars": 24,
+    "lastPush": "2026-10-24T13:44:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
   },
   {
     "repo": "lee-fuhr/claude-session-index",
@@ -5297,6 +5343,39 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-21T04:56:34.267Z"
+  },
+  {
+    "repo": "ormeilu/avoid-ai-writing-russian",
+    "name": "avoid-ai-writing-russian",
+    "description": "Скилл для ИИ-агентов и CLI на Python/uv: находит и убирает ИИ-стиль в русских текстах (канцелярит, кальки, штампы), проверяет сохранность правки и оценивает текст по фрагментам в духе «Антиплагиата» с калибровкой по вашим отчётам. Русская адаптация avoid-ai-writing.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "ai-detection",
+      "ai-writing",
+      "antiplagiat",
+      "bun",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "codex",
+      "dissertation",
+      "editing",
+      "humanizer",
+      "russian",
+      "russian-language",
+      "stylometry",
+      "text-analysis",
+      "typescript",
+      "写作"
+    ],
+    "stars": 23,
+    "lastPush": "2026-10-19T19:14:05Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
   },
   {
     "repo": "jimmysadek/strategic-partner",
@@ -24402,6 +24481,51 @@
     "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
+    "repo": "hsheimbuch/understandable",
+    "name": "understandable",
+    "description": "Stops Claude from writing dense, hard-to-follow prose. A Claude Code skill based on research into why AI-generated text is hard to read.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skills",
+      "plain-language",
+      "psycholinguistics",
+      "readability",
+      "写作"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-24T08:22:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
+  },
+  {
+    "repo": "dfadify-web/eyes-on-claude",
+    "name": "eyes-on-claude",
+    "description": "👁️ Watch Claude Code work live in your browser: every message, tool call, browser click and design preview, one screen per agent. One-command install.",
+    "tags": [
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "dashboard",
+      "developer-tools",
+      "hooks"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-24T07:29:41Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -29456,6 +29580,29 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-24T04:43:40.693Z"
+  },
+  {
+    "repo": "ashlixy17/stm32-skills",
+    "name": "stm32-skills",
+    "description": "适用于 STM32 电赛/嵌入式开发的技能库。A skill for STM32-based electronic design competitions and embedded development.",
+    "tags": [
+      "agent-skills",
+      "agentic-workflow",
+      "claude-code-skill",
+      "codex-skill",
+      "keil",
+      "skills",
+      "stm32",
+      "stm32cubemx",
+      "stm32programmer"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-24T08:53:16Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-25T04:50:00.413Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
