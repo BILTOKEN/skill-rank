@@ -8853,5 +8853,12 @@
     "prompt": "帮我安装 BeautifulRust 这个 Claude Code 技能。请你自己去 https://github.com/morganlinton/beautifulrust 下载仓库里的技能文件，保存到 .claude/skills/beautifulrust/ 目录下，完成安装后告诉我装好了没有、装了哪些文件。不要让我手动下载，你直接去 GitHub 拉取即可。",
     "translatedAt": "2026-10-25T05:08:18.184Z",
     "backTranslationDiff": 0
+  },
+  "gitruck/cli": {
+    "sourceHash": "6ee7b2557d26b89e",
+    "chineseDescription": "一条命令，把口播毛片变成可二次精修的剪辑工程。",
+    "prompt": "请帮我安装 cli 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/gitruck/cli 下载该 Skill 的全部文件；2) 在项目根目录创建 .claude/skills/cli/ 目录；3) 把下载的文件保存到该目录中（确保 SKILL.md 等文件结构完整）；4) 安装完成后告诉我如何使用。如果目录已存在，请先确认再覆盖。",
+    "translatedAt": "2026-10-26T05:18:49.852Z",
+    "backTranslationDiff": 1
   }
 }

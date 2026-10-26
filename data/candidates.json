@@ -3322,6 +3322,31 @@
     "lastPush": "2026-04-25T14:23:25Z"
   },
   {
+    "repo": "gitruck/cli",
+    "name": "cli",
+    "description": "一条命令，把口播毛片变成可二次精修的剪辑工程。",
+    "tags": [
+      "agent-skills",
+      "agentic-ai",
+      "AI",
+      "ai-agents",
+      "ai-video",
+      "ai-video-editing",
+      "ai-video-editor",
+      "claude-code",
+      "claude-skills",
+      "codex-skills",
+      "oral-cut",
+      "transcript",
+      "video-animation",
+      "video-editing",
+      "video-editing-tools",
+      "video-editing-workflow"
+    ],
+    "stars": 943,
+    "lastPush": "2026-10-25T16:00:58Z"
+  },
+  {
     "repo": "asklokesh/claudeskill-loki-mode",
     "name": "loki-mode",
     "description": "Multi-agent autonomous SDLC framework. Spec to deployed app. PRD, GitHub issue, OpenAPI/JSON/YAML, or one-line brief. 5 AI providers, 11 quality gates.",
@@ -15880,6 +15905,39 @@
     "lastPush": "2026-10-19T19:14:05Z"
   },
   {
+    "repo": "nalaj/session-story",
+    "name": "session-story",
+    "description": "Generate a self-contained HTML \"session story\" that links each prompt in a vibe coding session to the file edits it caused, with a review timeline, a GitHub-style diff view, and a plain-language narrative.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "developer-tools",
+      "session-replay",
+      "skills"
+    ],
+    "stars": 23,
+    "lastPush": "2026-10-21T13:25:38Z"
+  },
+  {
+    "repo": "speedrunlab/reverse-engineer-anything-self-learning-loop",
+    "name": "reverse-engineer-anything-self-learning-loop",
+    "description": "Agent skill: examine a product you're authorised to rebuild, build your own, then test against the original and fix gaps until every must-have on a written checklist passes. Inspired by REA (@morluto), not affiliated. MIT.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "openclaw",
+      "reverse-engineering",
+      "self-improving-agents"
+    ],
+    "stars": 23,
+    "lastPush": "2026-10-25T23:55:53Z"
+  },
+  {
     "repo": "jimmysadek/strategic-partner",
     "name": "strategic-partner",
     "description": "Every other tool executes. This one decides what to execute. Chief of Staff skill for Claude Code.",
@@ -16535,6 +16593,21 @@
     ],
     "stars": 21,
     "lastPush": "2026-10-08T19:54:18Z"
+  },
+  {
+    "repo": "smashburger-dev/socratic-workshop",
+    "name": "socratic-workshop",
+    "description": "Socratic tutor skill for Claude Code & Codex. Learn by explaining: Socratic hints, source-grounded project learning, and standalone HTML visuals.",
+    "tags": [
+      "agent-skills",
+      "ai-tutor",
+      "claude-code-skill",
+      "codex",
+      "socratic-method",
+      "socratic-tutor"
+    ],
+    "stars": 21,
+    "lastPush": "2026-10-20T15:03:41Z"
   },
   {
     "repo": "more-io/claude-apple-bridges",
@@ -31221,6 +31294,35 @@
     ],
     "stars": 3,
     "lastPush": "2026-10-24T07:29:41Z"
+  },
+  {
+    "repo": "shubharya-os/duet",
+    "name": "duet",
+    "description": "Two AI models build it; the harness checks the rules. fix/add/refactor/build/plan where tests are replayed against the original code — for Claude Code, Codex, Gemini CLI, Antigravity, OpenCode and Cursor. No API keys.",
+    "tags": [
+      "agent-orchestration",
+      "ai-agents",
+      "ai-code-review",
+      "anthropic",
+      "chatgpt",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "code-review",
+      "codex",
+      "codex-cli",
+      "cursor",
+      "developer-tools",
+      "gemini-cli",
+      "llm-agents",
+      "multi-agent",
+      "openai",
+      "opencode",
+      "pair-programming",
+      "tdd"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-14T17:30:52Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
