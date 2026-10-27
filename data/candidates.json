@@ -7856,6 +7856,20 @@
     "lastPush": "2026-03-20T18:11:09Z"
   },
   {
+    "repo": "maplibre/maplibre-agent-skills",
+    "name": "maplibre-agent-skills",
+    "description": "Community-maintained agent skills for MapLibre GL JS — helping AI coding assistants write better mapping code",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "maplibre",
+      "maplibre-gl-js",
+      "pmtiles"
+    ],
+    "stars": 155,
+    "lastPush": "2026-10-26T23:12:55Z"
+  },
+  {
     "repo": "karanjot786/agent-skills-cli",
     "name": "agent-skills-cli",
     "description": "Universal CLI for Agent Skills. Access 40,000+ skills from SkillsMP and sync them to Cursor, Claude Code, GitHub Copilot, OpenAI Codex, and Antigravity.",
@@ -12548,6 +12562,33 @@
     "lastPush": "2026-10-04T12:40:18Z"
   },
   {
+    "repo": "jgsystemsconsulting/jgs-se-knowledge-packs",
+    "name": "jgs-se-knowledge-packs",
+    "description": "71 open systems-engineering knowledge packs (+8 signposts) for coding agents: licence-vetted NASA, DoD, UK MoD, FAA, EASA, NIST, FDA, NRC, GAO, SEBoK and more, as on-demand Agent Skills.",
+    "tags": [
+      "aerospace",
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "defense",
+      "dod",
+      "faa",
+      "gao",
+      "knowledge-packs",
+      "mbse",
+      "nasa",
+      "nist",
+      "open-source",
+      "requirements-engineering",
+      "risk-management",
+      "skill-md",
+      "systems-engineering"
+    ],
+    "stars": 41,
+    "lastPush": "2026-10-26T11:47:36Z"
+  },
+  {
     "repo": "heshamfs/materials-simulation-skills",
     "name": "materials-simulation-skills",
     "description": "Agent Skills for computational materials science -- numerical stability, solvers, meshing,   convergence, and simulation workflows.",
@@ -13924,6 +13965,24 @@
     "lastPush": "2026-10-17T07:18:47Z"
   },
   {
+    "repo": "zhuyansen/backlink-guard",
+    "name": "backlink-guard",
+    "description": "Check a link source before you submit to it, verify the listing, and audit your own backlinks for link-spam patterns. A CLI and an agent skill.",
+    "tags": [
+      "agent-skills",
+      "backlinks",
+      "claude-code",
+      "claude-skills",
+      "deepseek-harness",
+      "directory-submission",
+      "link-building",
+      "link-spam",
+      "seo"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-27T04:35:21Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -14963,6 +15022,86 @@
     "lastPush": "2026-08-18T08:41:20Z"
   },
   {
+    "repo": "pvjbuilds/delegate-router",
+    "name": "delegate-router",
+    "description": "Claude Code and Codex CLI skill: an LLM router that delegates bulk, already-decided coding tasks to another model you already pay for (GPT via Codex, Gemini via agy, a Claude Opus subagent). Task-based model routing, cross-model code review, new-model alerts. Saves tokens and quota; the host verifies every diff.",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-cli",
+      "codex-skills",
+      "coding-agent",
+      "developer-tools",
+      "llm-router",
+      "llm-routing",
+      "model-routing",
+      "multi-llm",
+      "multi-model",
+      "subagents",
+      "task-delegation",
+      "token-optimization"
+    ],
+    "stars": 26,
+    "lastPush": "2026-09-30T15:03:50Z"
+  },
+  {
+    "repo": "gaia-harness/gaia",
+    "name": "gaia",
+    "description": "A serious harness for Claude Code. Specs before code, gates on every commit, the Code Audit Team on every merge. Ships as a monorepo with a React frontend. Bring your backend.",
+    "tags": [
+      "agentic-engineering",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-hooks",
+      "claude-skills",
+      "eslint",
+      "gaia",
+      "msw",
+      "obsidian",
+      "playwright",
+      "prettier",
+      "react",
+      "react-router",
+      "storybook",
+      "stylelint",
+      "tailwindcss",
+      "typescript",
+      "vitest"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-27T05:18:27Z"
+  },
+  {
+    "repo": "k8s-servant/k8s-skills",
+    "name": "k8s-skills",
+    "description": "Read-only Kubernetes troubleshooting skills for Claude Code, Codex, Gemini CLI and Copilot. Each one tested by an agent on a real kind cluster.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "copilot",
+      "DevOps",
+      "gemini-cli",
+      "gemini-cli-extension",
+      "k8s",
+      "kubectl",
+      "kubernetes",
+      "sre",
+      "troubleshooting"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-26T18:15:48Z"
+  },
+  {
     "repo": "wrsmith108/varlock-claude-skill",
     "name": "varlock-claude-skill",
     "description": "Claude Code skill for secure environment variable management with Varlock. Never expose secrets in Claude sessions.",
@@ -15481,6 +15620,50 @@
     ],
     "stars": 24,
     "lastPush": "2026-10-24T13:44:09Z"
+  },
+  {
+    "repo": "cdmx-in/security-review",
+    "name": "security-review",
+    "description": "Claude Code skill that runs real security scanners (Semgrep, gitleaks, TruffleHog, Trivy, osv-scanner, ZAP) then verifies every finding against source. SAST, secrets across full git history, SCA, IaC, Supabase/Firebase RLS. One report tagged to OWASP Top 10 2025.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skills",
+      "claude-skills",
+      "安全",
+      "security-review"
+    ],
+    "stars": 24,
+    "lastPush": "2026-08-07T19:12:14Z"
+  },
+  {
+    "repo": "kcy4334-lgtm/translate-book-arxiv",
+    "name": "translate-book-arxiv",
+    "description": "Translate arXiv papers into book-quality PDFs with parallel sub-agents. Reads the LaTeX source, so equations and the paper's own numbering survive.",
+    "tags": [
+      "academic",
+      "agent-skill",
+      "ai-agents",
+      "anthropic",
+      "arxiv",
+      "claude-code",
+      "claude-skills",
+      "ebook",
+      "epub",
+      "korean",
+      "latex",
+      "llm",
+      "machine-translation",
+      "pandoc",
+      "paper",
+      "pdf",
+      "python",
+      "research-tools",
+      "translation",
+      "typesetting"
+    ],
+    "stars": 24,
+    "lastPush": "2026-10-23T08:55:27Z"
   },
   {
     "repo": "lee-fuhr/claude-session-index",
@@ -19430,6 +19613,33 @@
     ],
     "stars": 15,
     "lastPush": "2026-09-03T02:06:22Z"
+  },
+  {
+    "repo": "haiderfarooq3/paper-reel",
+    "name": "paper-reel",
+    "description": "Claude Code skill: faceless 9:16 explainer reels in a cut-paper style. Voice-timed scenes, word-by-word captions. Free, local, no API keys.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "canvas-animation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "explainer-video",
+      "faceless-video",
+      "ffmpeg",
+      "kokoro-tts",
+      "macos",
+      "playwright",
+      "reels",
+      "short-form-video",
+      "text-to-speech",
+      "tiktok",
+      "video-generation",
+      "whisper-cpp"
+    ],
+    "stars": 15,
+    "lastPush": "2026-10-23T15:47:10Z"
   },
   {
     "repo": "adelaidasofia/ai-brain-starter",
@@ -26203,6 +26413,52 @@
     "lastPush": "2026-10-13T06:23:01Z"
   },
   {
+    "repo": "johnwayneeee/cleantv",
+    "name": "cleantv",
+    "description": "Remove ads from the Google TV / Android TV home screen and speed the TV up over ADB, no root. Claude Code skill: debloat, clean launcher, picture and sound calibration, YouTube throttling bypass. One command undoes every change.",
+    "tags": [
+      "adb",
+      "android-tv",
+      "android-tv-launcher",
+      "androidtv",
+      "bloatware",
+      "byedpi",
+      "calibration",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "debloat",
+      "dpi-bypass",
+      "google-tv",
+      "google-tv-launcher",
+      "launcher",
+      "remove-ads",
+      "smart-tv",
+      "tv-optimization",
+      "youtube"
+    ],
+    "stars": 7,
+    "lastPush": "2026-10-26T13:22:17Z"
+  },
+  {
+    "repo": "gokayfem/video-to-physics",
+    "name": "video-to-physics",
+    "description": "Turn a reference video, image or idea into a verified physics reconstruction in Blender: measure the clip, solve and benchmark the real physics, verify it independently, render it in the same scene.",
+    "tags": [
+      "ai-video",
+      "blender",
+      "cfd",
+      "claude-code-skill",
+      "fea",
+      "physics",
+      "simulation",
+      "verification"
+    ],
+    "stars": 7,
+    "lastPush": "2026-10-26T20:02:21Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -31325,6 +31581,23 @@
     "lastPush": "2026-10-14T17:30:52Z"
   },
   {
+    "repo": "runtianlee/agent-session-renamer",
+    "name": "agent-session-renamer",
+    "description": "Repair Codex and Claude Code session titles with dated, semantic topics, newest first, stopping at the first compliant batch.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "developer-tools",
+      "openai-codex",
+      "session-management"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-26T11:45:43Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -35407,6 +35680,20 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-24T08:53:16Z"
+  },
+  {
+    "repo": "sousekil/vox-style-video",
+    "name": "vox-style-video",
+    "description": "Vox-style paper-collage motion graphics in Remotion: a measured style system, primitive library, photo cut-out asset pipeline and Claude Code skill",
+    "tags": [
+      "claude-code-skill",
+      "collage",
+      "explainer-video",
+      "motion-graphics",
+      "remotion"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-23T05:15:29Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

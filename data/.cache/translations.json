@@ -4459,11 +4459,11 @@
     "backTranslationDiff": 0.375
   },
   "mohitagw15856/pm-claude-skills": {
-    "sourceHash": "ad3a8fa4058f55c3",
-    "chineseDescription": "为 Claude、ChatGPT、Gemini、Cursor 和 Codex 提供的 1255 个专业 Agent Skills（智能体技能）——涵盖 PRD（产品需求文档）、复盘报告（postmortem）、租约、医疗账单、裁员、应急包（go-bag）、移居新国家等场景。纯 markdown 格式，MIT 许可，已收录在 Anthropic 的插件目录中。另外还有一层带类型的决策层（decision layer）：该用哪个 skill、是否安全、是发布还是跳过。可在浏览器中免费使用，或通过 npx pm-claude-skills add 安装。",
-    "prompt": "请帮我安装 pm-claude-skills 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载所有文件，并保存到 .claude/skills/pm-claude-skills/ 目录下完成安装。安装完成后，请告诉我这个 skill 包含哪些功能，以及如何使用它。",
-    "translatedAt": "2026-10-06T06:50:55.934Z",
-    "backTranslationDiff": 0.8888888888888888
+    "sourceHash": "a8f16bd9662dbb4b",
+    "chineseDescription": "这个仓库提供 1,310 个专业 Agent Skills（智能体技能），适用于 Claude、Claude Duet、ChatGPT、Gemini、Cursor 和 Codex。技能覆盖 PRD（产品需求文档）、事故复盘（postmortem）、租约、医疗账单、工资单、晨间简报等场景。其中 21 个技能专为 Claude Duet 这类常驻型 Agent 打造。全部是纯 Markdown 文件，采用 MIT 协议，已收录进 Anthropic 的插件目录。可以在浏览器里免费用，也可以运行 npx pm-claude-skills add 安装。",
+    "prompt": "请帮我安装 pm-claude-skills 这个 Claude Code 技能包。步骤：1. 从 GitHub 仓库 https://github.com/mohitagw15856/pm-claude-skills 下载全部文件（可用 git clone https://github.com/mohitagw15856/pm-claude-skills.git 或直接下载 zip 解压）；2. 在当前项目的 .claude/skills/pm-claude-skills/ 目录下创建安装位置（如果目录不存在就新建）；3. 把仓库里的技能文件（Markdown 格式的 SKILL.md 及相关内容）复制到 .claude/skills/pm-claude-skills/ 下，保持原有目录结构；4. 安装完成后列出已安装的技能清单，确认安装成功。",
+    "translatedAt": "2026-10-27T05:37:43.630Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "davepoon/buildwithclaude": {
     "sourceHash": "cf042ed730735c50",
@@ -8008,11 +8008,11 @@
     "backTranslationDiff": 0.11764705882352944
   },
   "desko77/claude-code-skills-1c": {
-    "sourceHash": "cd555e950e7b8a84",
-    "chineseDescription": "为 Claude Code 提供 121 个技能（Skill）和 40 条规则：这个 agent（智能体）能从紧凑的 JSON 中组装出 1C 的源代码（元数据、表单、扩展、角色、数据组合系统（СКД）、处理程序），也能反向拆解回去。基础操作无需使用 Конфигуратор（1C 配置器）。",
-    "prompt": "请帮我安装一个 Claude Code 技能包。请执行以下操作：\n\n1. 从 GitHub 仓库 https://github.com/desko77/claude-code-skills-1c 下载所有文件\n2. 将下载的文件保存到 .claude/skills/claude-code-skills-1c/ 目录下\n3. 确保目录结构完整，包括所有技能（skills）和规则（rules）文件\n\n如果 .claude/skills/ 目录不存在，请先创建它。安装完成后，请确认已成功安装的文件数量和目录结构。",
-    "translatedAt": "2026-10-01T06:23:25.841Z",
-    "backTranslationDiff": 0.9
+    "sourceHash": "ffb49a2bdeb35600",
+    "chineseDescription": "这个 Skill 给 Claude Code 提供了 122 个技能和 49 条规则，专门用来处理 1C（俄罗斯的 ERP/企业软件开发平台）的源码：AI 能把 1C 的源码（元数据、表单、扩展、角色、СКД 报表、处理程序）从紧凑的 JSON 格式组装出来，也能反过来把源码拆解成 JSON。基础的增删改查操作不需要打开 Конфигуратор（1C 的官方配置器）。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/desko77/claude-code-skills-1c 下载全部文件，保存到 .claude/skills/claude-code-skills-1c/ 目录下完成安装。如果该目录不存在请先创建，如果已存在请先确认是否为同一仓库再覆盖更新。安装完成后告诉我装了哪些内容、怎么用。",
+    "translatedAt": "2026-10-27T05:37:48.396Z",
+    "backTranslationDiff": 0.85
   },
   "hidorakai002/ai-workspace-archive": {
     "sourceHash": "9e4c3e498e0bc441",
@@ -8848,11 +8848,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "morganlinton/beautifulrust": {
-    "sourceHash": "c8e3346dccc2bf10",
-    "chineseDescription": "一个 Claude Code 插件（plugin），教 Claude 写出符合 Rust 惯用法（idiomatic）、健壮（robust）的 Rust 代码。",
-    "prompt": "帮我安装 BeautifulRust 这个 Claude Code 技能。请你自己去 https://github.com/morganlinton/beautifulrust 下载仓库里的技能文件，保存到 .claude/skills/beautifulrust/ 目录下，完成安装后告诉我装好了没有、装了哪些文件。不要让我手动下载，你直接去 GitHub 拉取即可。",
-    "translatedAt": "2026-10-25T05:08:18.184Z",
-    "backTranslationDiff": 0
+    "sourceHash": "e719c09bd786082b",
+    "chineseDescription": "这套 Agent Skills（智能体技能）能教编程智能体写出、审查和移植地道的 Rust 代码，还附带一份经过测试的 clippy 配置。支持 Claude Code、Codex、Copilot、Cursor 和 Gemini CLI。",
+    "prompt": "请帮我安装 BeautifulRust 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/morganlinton/beautifulrust 下载全部文件（可以用 git clone https://github.com/morganlinton/beautifulrust 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/beautifulrust/；3) 把仓库里的 Skill 文件（包括 SKILL.md、clippy 配置等）复制到该目录下；4) 确认目录结构正确后告诉我安装完成，并简单说明怎么用。",
+    "translatedAt": "2026-10-27T05:37:57.663Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "gitruck/cli": {
     "sourceHash": "6ee7b2557d26b89e",
@@ -8860,5 +8860,19 @@
     "prompt": "请帮我安装 cli 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/gitruck/cli 下载该 Skill 的全部文件；2) 在项目根目录创建 .claude/skills/cli/ 目录；3) 把下载的文件保存到该目录中（确保 SKILL.md 等文件结构完整）；4) 安装完成后告诉我如何使用。如果目录已存在，请先确认再覆盖。",
     "translatedAt": "2026-10-26T05:18:49.852Z",
     "backTranslationDiff": 1
+  },
+  "maplibre/maplibre-agent-skills": {
+    "sourceHash": "6df9c3b183115317",
+    "chineseDescription": "这是社区维护的 MapLibre GL JS 智能体技能包（agent skills），专门帮 AI 编程助手写出更好的地图代码。简单说，就是给 Claude Code 这类 AI 工具装上一套「地图开发经验包」，让它在写 MapLibre GL JS 相关代码时更靠谱。",
+    "prompt": "请帮我安装 maplibre-agent-skills 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/maplibre/maplibre-agent-skills 下载全部文件（可以用 git clone https://github.com/maplibre/maplibre-agent-skills.git 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/maplibre-agent-skills/ 目录（如果不存在的话）；3) 把下载的文件全部放到该目录下；4) 确认目录结构正确后告诉我安装完成。如果遇到权限或路径问题，先检查当前目录再处理。",
+    "translatedAt": "2026-10-27T05:37:53.184Z",
+    "backTranslationDiff": 0.18181818181818177
+  },
+  "jgsystemsconsulting/jgs-se-knowledge-packs": {
+    "sourceHash": "f28d8cc6dca07ee0",
+    "chineseDescription": "为编码 agent（智能体）准备的 71 个开放系统工程知识包（外加 8 个路标/指引），全部经过许可证审核，来源包括 NASA、DoD（美国国防部）、UK MoD（英国国防部）、FAA、EASA、NIST、FDA、NRC、GAO、SEBoK 等，以按需加载的 Agent Skills（智能体技能）形式提供。",
+    "prompt": "请帮我安装 jgs-se-knowledge-packs 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs 下载全部文件，保存到 .claude/skills/jgs-se-knowledge-packs/ 目录下，完成安装。安装完成后请确认目录结构和文件是否完整。",
+    "translatedAt": "2026-10-27T05:38:01.836Z",
+    "backTranslationDiff": 0.2727272727272727
   }
 }
