@@ -4357,6 +4357,37 @@
     "checkedAt": "2026-10-27T05:12:47.688Z"
   },
   {
+    "repo": "underleveledbuilder/awesome-novel-skills",
+    "name": "awesome-novel-skills",
+    "description": "AI 写小说 · 网文 Skill 精选：扫榜拆书、长篇连载、去 AI 味、短剧剧本、翻译出海、发布、下载书源 | Curated agent skills for novels & web fiction",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "creative-writing",
+      "fiction-writing",
+      "humanizer",
+      "novel",
+      "novel-downloader",
+      "novel-writing",
+      "short-drama",
+      "translation",
+      "web-novel",
+      "webnovel"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-26T05:59:33Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
+  },
+  {
     "repo": "wrsmith108/varlock-claude-skill",
     "name": "varlock-claude-skill",
     "description": "Claude Code skill for secure environment variable management with Varlock. Never expose secrets in Claude sessions.",
@@ -4702,6 +4733,28 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-25T04:50:00.413Z"
+  },
+  {
+    "repo": "bubblebrainbb/bb-video",
+    "name": "BB-Video",
+    "description": "An agent skill that makes videos in pure code — narrated explainers and product promos in 22 visual styles (whiteboard, ink-wash, shadow puppets, pixel art, isometric worlds, movie trailers, manga, animated maps…), 16:9 and 9:16.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "explainer-video",
+      "ffmpeg",
+      "headless-chrome",
+      "motion-graphics",
+      "video-generation"
+    ],
+    "stars": 25,
+    "lastPush": "2026-10-27T11:56:45Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
   },
   {
     "repo": "tanis90/pdf-converter-mineru",
@@ -22699,6 +22752,36 @@
     "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
+    "repo": "arcadiastra/ieee-transactions-paper-writing-zh",
+    "name": "ieee-transactions-paper-writing-zh",
+    "description": "使用简体中文规划、撰写、修改和审查 IEEE Transactions 学术论文写作的模块化 Agent Skill，涵盖章节写作、贡献论证、引用核验与投稿规范检查。",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "ieee",
+      "ieee-transactions",
+      "paper",
+      "paper-writing",
+      "paper-writing-agent",
+      "scientific-writing",
+      "写作",
+      "writing-skills"
+    ],
+    "stars": 4,
+    "lastPush": "2026-10-27T08:57:28Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -24935,6 +25018,45 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-27T05:12:47.688Z"
+  },
+  {
+    "repo": "garycaogan/mv-swap",
+    "name": "mv-swap",
+    "description": "给一条高清原片和几张角色图，在 RunningHub 上用 MiniMax H3 自动做整条 MV、舞蹈的换人翻拍",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-28T03:03:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
+  },
+  {
+    "repo": "ali-expandings/wise-men",
+    "name": "wise-men",
+    "description": "A council of Claude subagents that argue, grade each other, and hand you a synthesized answer with the dissent preserved — ships its own blind eval.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "deliberation",
+      "devils-advocate",
+      "llm-council",
+      "multi-agent"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-22T11:36:43Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -30033,6 +30155,47 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-27T05:12:47.688Z"
+  },
+  {
+    "repo": "garycaogan/h3-ref-video",
+    "name": "h3-ref-video",
+    "description": "像给 Seedance 写提示词那样，在 RunningHub 上用 MiniMax H3 按参考图和每镜分镜图出视频",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-28T03:03:14Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
+  },
+  {
+    "repo": "xuzi-06/report-3d-showcase",
+    "name": "report-3d-showcase",
+    "description": "Claude Code skill: turn a report script into a local 3D interactive presentation (Blender GLB + three.js main.html + one-click server.bat)",
+    "tags": [
+      "3d-presentation",
+      "blender",
+      "blender-mcp",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "glb",
+      "interactive-presentation",
+      "threejs"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-28T05:37:57Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-10-28T05:50:24.513Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

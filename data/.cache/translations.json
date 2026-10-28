@@ -3213,11 +3213,11 @@
     "backTranslationDiff": 0.10526315789473684
   },
   "bitjaru/styleseed": {
-    "sourceHash": "50ce1e1e7a4b331b",
-    "chineseDescription": "开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor。包含 23 个代理技能，用于固定设计判断、多种语法、语义调色板、参考汇编和证据验证的 UI。MIT 许可证。",
-    "prompt": "请帮我安装 styleseed 技能。这是一个开源设计方法引擎，适用于 Claude Code、Codex 和 Cursor，包含 23 个代理技能，用于固定设计判断、多种语法、语义调色板、参考汇编和证据验证的 UI。请从 GitHub 仓库 https://github.com/bitjaru/styleseed 下载文件，并保存到 .claude/skills/styleseed/ 目录中，完成安装。安装完成后，请确认技能已正确配置。",
-    "translatedAt": "2026-08-23T02:22:38.935Z",
-    "backTranslationDiff": 0.95
+    "sourceHash": "f308175e2833597a",
+    "chineseDescription": "styleseed 是一个开源的设计方法引擎（design-method engine），支持 Claude Code、Codex 和 Cursor。它把 22 个内部工作流（workflow）打包成一个 agent skill，用来做固定的设计判断（design judgment）、多种语法（grammar）、语义化调色板（semantic palette）、参考编译（reference compilation），以及经过证据验证的 UI（evidence-verified UI）。采用 MIT 许可证。",
+    "prompt": "请帮我安装 styleseed 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/bitjaru/styleseed 下载全部文件（可以用 git clone https://github.com/bitjaru/styleseed 或直接下载仓库压缩包）；2) 在项目根目录创建 .claude/skills/styleseed/ 目录；3) 把仓库里的 skill 文件（包括 SKILL.md 和相关的 workflows 等资源文件）复制到 .claude/skills/styleseed/ 下，保持原有目录结构；4) 安装完成后列出 .claude/skills/styleseed/ 的文件结构，确认安装成功。",
+    "translatedAt": "2026-10-28T06:12:29.946Z",
+    "backTranslationDiff": 0.13043478260869568
   },
   "obra/superpowers-lab": {
     "sourceHash": "31c6b8692e947fa5",
@@ -6048,11 +6048,11 @@
     "backTranslationDiff": 0.5714285714285714
   },
   "waybarrios/opencode-power-pack": {
-    "sourceHash": "20386a53daab66d0",
-    "chineseDescription": "opencode-power-pack 是一个包含54个严谨技能的工具包，适用于 Codex、OpenCode 和 Pi，涵盖代码审查、安全审计、功能开发、前端设计、MCP 工具、Hugging Face 机器学习/训练等场景。",
-    "prompt": "请从 https://github.com/waybarrios/opencode-power-pack 下载该仓库的全部内容，并将其保存到 .claude/skills/opencode-power-pack/ 目录下，完成安装。安装后，请确认技能文件已正确放置，并简要说明其中包含的技能类型。",
-    "translatedAt": "2026-08-15T02:10:41.866Z",
-    "backTranslationDiff": 0.9411764705882353
+    "sourceHash": "97d2eafdc4b9878b",
+    "chineseDescription": "这套包给 Claude Code、Codex、OpenCode 1 和 2、Pi 提供了 55 个严谨的技能（skill），涵盖代码审查（code review）、安全审计（security audit）、功能开发（feature development）、前端设计（frontend design）、MCP 工具（MCP tools）、Hugging Face 机器学习与训练（ML/training）等等。",
+    "prompt": "请帮我安装 opencode-power-pack 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/waybarrios/opencode-power-pack 下载全部文件（可以用 git clone https://github.com/waybarrios/opencode-power-pack.git 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/ 目录下创建 opencode-power-pack 文件夹（即 .claude/skills/opencode-power-pack/），把下载到的技能文件放进去；3) 确认目录结构正确后告诉我安装完成，并列出安装好的技能清单。",
+    "translatedAt": "2026-10-28T06:12:34.136Z",
+    "backTranslationDiff": 0.052631578947368474
   },
   "marianfoo/sap-ai-mcp-servers": {
     "sourceHash": "695088e569d7d410",
@@ -7826,11 +7826,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "vincentwei1021/video-shotcraft": {
-    "sourceHash": "efa4cfe60757fc4d",
-    "chineseDescription": "面向 Claude Code 和 Codex 的 AI 视频技能——用 Remotion 制作电影感产品视频：包含 152 个镜头配方卡片、209 个运动预览，以及一个可直接上手的生产级模板。",
-    "prompt": "请从 https://github.com/vincentwei1021/video-shotcraft 下载该技能文件，并将其保存到 .claude/skills/video-shotcraft/ 目录下，完成安装。",
-    "translatedAt": "2026-08-11T02:44:19.672Z",
-    "backTranslationDiff": 0
+    "sourceHash": "2e9758321ce57821",
+    "chineseDescription": "这是一个给 Claude Code 和 Codex 用的 AI 视频技能（skill），基于 Remotion 做电影感、可编辑的产品宣传片：内置 124 张镜头配方卡（shot recipe cards）、150 个动效预览（motion preview）、节拍同步（beat sync）、音效设计（sound design）、Motion Workbench 工作台，还能导出到剪映（JianYing / CapCut 国内版）。",
+    "prompt": "请帮我安装 video-shotcraft 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/vincentwei1021/video-shotcraft 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 把内容保存到 .claude/skills/video-shotcraft/ 目录下（如果目录不存在就创建）；3) 确认 SKILL.md 等文件已就位，然后告诉我安装完成、这个技能能做什么。仓库地址是 https://github.com/vincentwei1021/video-shotcraft ，不要假设我已经装过，请自己去下载。",
+    "translatedAt": "2026-10-28T06:12:26.026Z",
+    "backTranslationDiff": 0.25
   },
   "codeswithroh/tastemaker": {
     "sourceHash": "fb6085c9bfb3a25d",
@@ -8874,5 +8874,33 @@
     "prompt": "请帮我安装 jgs-se-knowledge-packs 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs 下载全部文件，保存到 .claude/skills/jgs-se-knowledge-packs/ 目录下，完成安装。安装完成后请确认目录结构和文件是否完整。",
     "translatedAt": "2026-10-27T05:38:01.836Z",
     "backTranslationDiff": 0.2727272727272727
+  },
+  "wpgaurav/generateblocks-skills": {
+    "sourceHash": "75e4ff20da9f1922",
+    "chineseDescription": "这是给 GenerateBlocks V2 和 Pro 用的 Agent Skill（智能体技能）：能生成合法的区块标记（block markup），用来做布局（layouts）、查询循环（query loops）、转化（conversions），还能通过 MCP 直接实时发布（live publishing）。支持 Claude Code、Codex、Cursor 和 Gemini。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 generateblocks-skills。请你自己去 GitHub 仓库 https://github.com/wpgaurav/generateblocks-skills 下载这个仓库的文件，然后保存到 .claude/skills/generateblocks-skills/ 目录下完成安装。装好后确认一下目录结构和 SKILL.md 是否就位，并告诉我怎么用。",
+    "translatedAt": "2026-10-28T06:12:37.632Z",
+    "backTranslationDiff": 0.31818181818181823
+  },
+  "heychengc/wallstreet-explainer": {
+    "sourceHash": "40675b6387087e6a",
+    "chineseDescription": "华尔街式财经/科技解读短片 skill：包含设计思路、风格语言，以及找片、截图、配音、渲染和混音等工具。",
+    "prompt": "请帮我安装 wallstreet-explainer 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/heychengc/wallstreet-explainer 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在当前项目的 .claude/skills/wallstreet-explainer/ 目录下创建文件夹并放入下载的文件；3) 确认目录结构正确（SKILL.md 等文件到位）；4) 告诉我安装完成并简要说明这个 skill 能做什么。如果目录已存在，先备份再覆盖。",
+    "translatedAt": "2026-10-28T06:12:41.239Z",
+    "backTranslationDiff": 1
+  },
+  "wpgaurav/bricks-skills": {
+    "sourceHash": "11efef652d5272cf",
+    "chineseDescription": "Bricks Builder 的 Agent skill（智能体技能）：提供可直接粘贴的 JSON，用于布局、模板、查询循环（query loop）、弹窗（popup）、ACF 和 WooCommerce，并已对照 Bricks 源码验证过。支持 Claude Code、Codex、Cursor 和 Copilot。",
+    "prompt": "请帮我安装一个 Claude Code skill，名字叫 bricks-skills。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/wpgaurav/bricks-skills 下载这个 skill 的全部文件（可以直接 git clone 或者用 curl 下载仓库压缩包再解压）。\n2. 在项目根目录下创建目录 .claude/skills/bricks-skills/（如果已存在就覆盖更新）。\n3. 把下载到的 skill 文件（包括 SKILL.md 以及相关的脚本、参考文件等）放到 .claude/skills/bricks-skills/ 目录里，确保 SKILL.md 位于该目录的根层级。\n4. 安装完成后，列出 .claude/skills/bricks-skills/ 下的文件结构，确认安装成功。\n\n注意：不要假设我已经装过这个 skill，请完整地从 https://github.com/wpgaurav/bricks-skills 下载并安装。",
+    "translatedAt": "2026-10-28T06:12:45.069Z",
+    "backTranslationDiff": 0.2272727272727273
+  },
+  "heychengc/vibe-knowledge-film": {
+    "sourceHash": "b62ae83ee4e44916",
+    "chineseDescription": "抖音爆款「Vibe知识大赏」知识短片skill（技能）：深度拆解爆款视频，复刻其画风，生成导演分镜表（storyboard），自动配上音效，一键出片。",
+    "prompt": "帮我安装 vibe-knowledge-film 这个 skill（技能）。请你自己去 GitHub 仓库 https://github.com/heychengc/vibe-knowledge-film 下载全部文件，保存到 .claude/skills/vibe-knowledge-film/ 目录下，完成安装后告诉我怎么用。不要假设我已经装过，直接去下载就行。",
+    "translatedAt": "2026-10-28T06:12:48.680Z",
+    "backTranslationDiff": 1
   }
 }
