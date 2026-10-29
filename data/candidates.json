@@ -6084,6 +6084,21 @@
     "lastPush": "2026-05-28T18:11:20Z"
   },
   {
+    "repo": "minimax-ai/mcode-stack",
+    "name": "mcode-stack",
+    "description": "The workflows and skills the MiniMax Code team uses to build MiniMax Code. Open source, install and use.",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "claude-skills",
+      "coding-agent",
+      "harness-engineering",
+      "minimax-code"
+    ],
+    "stars": 303,
+    "lastPush": "2026-10-29T02:07:08Z"
+  },
+  {
     "repo": "brianrwagner/ai-marketing-skills",
     "name": "ai-marketing-claude-code-skills",
     "description": "Marketing frameworks that AI actually executes. Designed for Claude Code, but could be used for OpenClaw, etc. ",
@@ -9108,6 +9123,22 @@
     "lastPush": "2026-07-27T08:02:11Z"
   },
   {
+    "repo": "andyhuo520/vibe-knowledge",
+    "name": "vibe-knowledge",
+    "description": "Vibe 知识大赏：一个知识点 → 一条有旁白、每句有出处的精品知识短片（Claude Code skill · 44 套风格 · 代码逐帧成片）",
+    "tags": [
+      "chinese",
+      "claude-code",
+      "claude-skills",
+      "explainer-video",
+      "text-to-video",
+      "threejs",
+      "video-generation"
+    ],
+    "stars": 101,
+    "lastPush": "2026-10-28T15:30:54Z"
+  },
+  {
     "repo": "agricidaniel/claude-shorts",
     "name": "claude-shorts",
     "description": "Interactive longform-to-shortform video creator — Claude Code skill with Remotion-rendered animated captions, AI segment scoring, cursor tracking, and audio-aware boundary snapping",
@@ -10049,6 +10080,35 @@
     ],
     "stars": 69,
     "lastPush": "2026-10-05T20:31:48Z"
+  },
+  {
+    "repo": "sirioberati/youtube-ai-motion-graphics",
+    "name": "YouTube-AI-Motion-Graphics",
+    "description": "AI motion graphics for YouTube explainer videos: 74 animated HTML explainer boards (charts, diagrams, Venn, timeline, heatmap) synced to your voice with Whisper, exported frame by frame with Chrome + FFmpeg. Every prompt + Claude skills. By TEIN AI.",
+    "tags": [
+      "ai-agents",
+      "ai-video",
+      "animation",
+      "claude",
+      "claude-code",
+      "claude-design",
+      "claude-skills",
+      "content-creation",
+      "data-visualization",
+      "explainer-boards",
+      "explainer-video",
+      "ffmpeg",
+      "gsap",
+      "html-animation",
+      "motion-graphics",
+      "open-source",
+      "video-automation",
+      "whisper",
+      "workflow",
+      "youtube"
+    ],
+    "stars": 69,
+    "lastPush": "2026-10-27T17:38:03Z"
   },
   {
     "repo": "agents365-ai/excalidraw-skill",
@@ -12780,6 +12840,35 @@
     "lastPush": "2026-10-19T22:43:27Z"
   },
   {
+    "repo": "underleveledbuilder/awesome-social-media-skills",
+    "name": "awesome-social-media-skills",
+    "description": "自媒体运营 Skill（技能包）精选：小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 的选题、写稿、配图、发布和数据，千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体可用 | Curated agent skills for social media: Xiaohongshu (RedNote), Douyin, WeChat, X, YouTube, TikTok and LinkedIn",
+    "tags": [
+      "agent-skills",
+      "awesome",
+      "awesome-list",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-creator",
+      "douyin",
+      "linkedin",
+      "mcp",
+      "openclaw",
+      "rednote",
+      "social-media",
+      "social-media-marketing",
+      "tiktok",
+      "twitter",
+      "wechat",
+      "workbuddy",
+      "xiaohongshu",
+      "youtube"
+    ],
+    "stars": 40,
+    "lastPush": "2026-10-27T16:23:00Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -13832,6 +13921,35 @@
     "lastPush": "2026-07-21T02:22:15Z"
   },
   {
+    "repo": "geekfamilycorp/tricorderkit",
+    "name": "TricorderKit",
+    "description": "The local-first second brain for your AI agents - measured, self-improving, and gated so it can't leak what you keep private. 13 Claude Code plugins, 21 skills, Ollama, Neo4j, Qdrant.",
+    "tags": [
+      "agent-framework",
+      "agent-skills",
+      "agentic",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cli",
+      "context-engineering",
+      "graphrag",
+      "guardrails",
+      "knowledge-graph",
+      "knowledge-management",
+      "llm",
+      "local-first",
+      "mcp",
+      "ollama",
+      "rag",
+      "second-brain",
+      "self-improving"
+    ],
+    "stars": 32,
+    "lastPush": "2026-10-28T11:06:58Z"
+  },
+  {
     "repo": "sstklen/infinite-gratitude",
     "name": "infinite-gratitude",
     "description": "🥋 Multi-agent research skill for Claude Code | 10 個 AI Agent 協作研究 | 10 AIエージェント協調リサーチ — AI Dojo series",
@@ -14430,6 +14548,48 @@
     ],
     "stars": 29,
     "lastPush": "2026-10-16T08:44:09Z"
+  },
+  {
+    "repo": "cynthia-wlan9509/offline-game-revival",
+    "name": "offline-game-revival",
+    "description": "🎮 AI agent skill that revives shut-down mobile games as fully offline memorial builds — plus a zero-token pipeline that rescues lost game data from screenshots & screen recordings. 停服手游离线化 · 录屏抽帧OCR",
+    "tags": [
+      "agent-skills",
+      "android",
+      "apk",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "emulation-alternative",
+      "game-preservation",
+      "keyframe-extraction",
+      "layaair",
+      "lua",
+      "mobile-games",
+      "ocr",
+      "offline-mode",
+      "screen-recording",
+      "unity"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-29T03:41:11Z"
+  },
+  {
+    "repo": "wdcjx/embedded-programming",
+    "name": "Embedded-programming",
+    "description": "面向 AI Agent 的 STM32 开发技能：SPL/HAL × 裸机/FreeRTOS 四轨代码生成，带引脚分配表、接线表与静态纪律检查器，沉淀 48 条实测坑。",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "deepseek-harness",
+      "embedded",
+      "freertos",
+      "hal",
+      "keil",
+      "stm32"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-29T05:43:21Z"
   },
   {
     "repo": "frmoretto/clarity-gate",
@@ -15230,6 +15390,21 @@
     ],
     "stars": 26,
     "lastPush": "2026-10-26T05:59:33Z"
+  },
+  {
+    "repo": "yulmucoffee/artiboard",
+    "name": "artiboard",
+    "description": "A shared task board for people and their Claude agents, built as one claude.ai artifact. Views drawn by code, not tokens.",
+    "tags": [
+      "artifacts",
+      "claude-code",
+      "claude-skills",
+      "kanban",
+      "multi-agent",
+      "task-board"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-28T07:22:56Z"
   },
   {
     "repo": "wrsmith108/varlock-claude-skill",
@@ -28260,6 +28435,24 @@
     "lastPush": "2026-10-20T04:46:37Z"
   },
   {
+    "repo": "yahyalendani/opus-tuner-claude-skill",
+    "name": "opus-tuner-claude-skill",
+    "description": "Cost control for long Claude Code sessions on Windows, macOS and Linux: tiered context ceilings, a blocking handoff gate, and effort gears.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "context-window",
+      "cost-optimization",
+      "hooks",
+      "powershell",
+      "token-optimization"
+    ],
+    "stars": 5,
+    "lastPush": "2026-10-28T12:56:37Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -31797,6 +31990,49 @@
     ],
     "stars": 3,
     "lastPush": "2026-10-22T11:36:43Z"
+  },
+  {
+    "repo": "ephemerallycaden/write-readme",
+    "name": "write-readme",
+    "description": "README generator skill for Claude Code. Reads your codebase and writes a project README.md that doesn't read as AI-generated, with run commands checked against build files and screenshots from the project. Supports 20 project types.",
+    "tags": [
+      "agent-skills",
+      "AI",
+      "ai-writing",
+      "anthropic",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "developer-tools",
+      "documentation",
+      "documentation-tool",
+      "markdown",
+      "playwright",
+      "readme",
+      "readme-generator",
+      "readme-template",
+      "screenshots",
+      "vhs"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-28T23:52:11Z"
+  },
+  {
+    "repo": "jdebdesign/ds-drift",
+    "name": "ds-drift",
+    "description": "Claude Code skill: /ds-drift reports how far your codebase has drifted from its design system. Static checks, no model calls.",
+    "tags": [
+      "accessibility",
+      "ai-coding-agents",
+      "claude-code",
+      "claude-code-skill",
+      "design-system",
+      "design-tokens",
+      "react",
+      "typescript"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-28T20:58:15Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -35926,6 +36162,24 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-28T05:37:57Z"
+  },
+  {
+    "repo": "jinhuang712/fanqie-cli",
+    "name": "fanqie-cli",
+    "description": "番茄小说命令行：搜索、榜单、分类库、书籍详情、目录、正文，给 Agent 和脚本用",
+    "tags": [
+      "ai-agent",
+      "bun",
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "fanqie",
+      "fanqie-novel",
+      "typescript",
+      "web-novel"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-25T16:26:00Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

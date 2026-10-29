@@ -8036,11 +8036,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "untrivial-ai/agent-orchestrator": {
-    "sourceHash": "6b28c9025613cb41",
-    "chineseDescription": "开源（Apache-2.0 许可证）的编排器（orchestrator），支持 Claude Code、Codex 以及 30 多种编程 agent。可以从任务创建开始，规划、运行并监督 agent 团队，一路推进到 PR 合并完成。提供桌面端（macOS、Windows、Linux）以及 iPhone 和 Android 应用。",
-    "prompt": "请帮我安装 agent-orchestrator 这个 skill。请从 GitHub 仓库 https://github.com/untrivial-ai/agent-orchestrator 下载该 skill 的全部文件，并保存到 .claude/skills/agent-orchestrator/ 目录下，完成安装。安装完成后告诉我它支持哪些功能。",
-    "translatedAt": "2026-10-19T05:10:54.923Z",
-    "backTranslationDiff": 0.2272727272727273
+    "sourceHash": "e2f1ec2e1bfab376",
+    "chineseDescription": "这个 skill（技能）叫 agent-orchestrator，用来规划、运行和监管一整批 agent（智能体），从分配任务一直盯到 PR 合并。它提供桌面端（macOS、Windows、Linux）以及 iPhone 和 Android 应用，支持 Claude Code、Codex 和 35 种以上的编码 agent。",
+    "prompt": "请帮我安装 agent-orchestrator 这个 skill。步骤：1）从 GitHub 仓库 https://github.com/untrivial-ai/agent-orchestrator 下载全部文件（可以用 git clone https://github.com/untrivial-ai/agent-orchestrator 或直接下载 zip 包）；2）在当前项目的 .claude/skills/agent-orchestrator/ 目录下创建 skill 目录（如果目录不存在就先创建）；3）把下载到的文件复制到 .claude/skills/agent-orchestrator/ 里，确保 SKILL.md 等文件放在该目录根下；4）安装完成后告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-10-29T06:13:35.333Z",
+    "backTranslationDiff": 0.30000000000000004
   },
   "simota/agent-skills": {
     "sourceHash": "47388ec7940ed41d",
@@ -8442,11 +8442,11 @@
     "backTranslationDiff": 0.8571428571428572
   },
   "orchestratorinc/agent-orchestrator": {
-    "sourceHash": "6b28c9025613cb41",
-    "chineseDescription": "这是一个开源（Apache-2.0 协议）的编排器（orchestrator），支持 Claude Code、Codex 以及 30 多种编程 agent。你可以用它来规划、运行和监管 agent 团队，从分配任务一路跟到 PR 合并。有桌面版（macOS、Windows、Linux），还有 iPhone 和 Android 应用。",
-    "prompt": "请帮我安装 agent-orchestrator 这个 skill。步骤：1) 访问 GitHub 仓库 https://github.com/orchestratorinc/agent-orchestrator ，下载它的全部文件；2) 在项目里创建目录 .claude/skills/agent-orchestrator/ ；3) 把下载的文件保存到该目录下，保持原有目录结构；4) 安装完成后告诉我怎么用。仓库地址是 https://github.com/orchestratorinc/agent-orchestrator ，请自己去下载，不要假设我已经装好了。",
-    "translatedAt": "2026-10-19T05:10:51.241Z",
-    "backTranslationDiff": 0.2272727272727273
+    "sourceHash": "e2f1ec2e1bfab376",
+    "chineseDescription": "这个 skill 能帮你规划、运行和监管一整批 agent（智能体），从分配任务一直盯到 PR 合并。有桌面端（macOS、Windows、Linux），也有 iPhone 和 Android 应用。支持 Claude Code、Codex 以及 35 种以上的编程 agent。",
+    "prompt": "请帮我安装 agent-orchestrator 这个 skill。步骤：1. 从 GitHub 仓库 https://github.com/orchestratorinc/agent-orchestrator 下载全部文件（可以用 git clone 或直接下载压缩包）；2. 在项目里创建目录 .claude/skills/agent-orchestrator/；3. 把下载到的文件放进这个目录，确保 SKILL.md 在 .claude/skills/agent-orchestrator/ 根目录下；4. 检查文件是否完整，然后告诉我安装好了、怎么用。如果目录已存在，先备份再覆盖。",
+    "translatedAt": "2026-10-29T06:13:30.965Z",
+    "backTranslationDiff": 0.30000000000000004
   },
   "leonxlnx/cinetic": {
     "sourceHash": "f39b61fb1273abea",
@@ -8902,5 +8902,33 @@
     "prompt": "帮我安装 vibe-knowledge-film 这个 skill（技能）。请你自己去 GitHub 仓库 https://github.com/heychengc/vibe-knowledge-film 下载全部文件，保存到 .claude/skills/vibe-knowledge-film/ 目录下，完成安装后告诉我怎么用。不要假设我已经装过，直接去下载就行。",
     "translatedAt": "2026-10-28T06:12:48.680Z",
     "backTranslationDiff": 1
+  },
+  "minimax-ai/mcode-stack": {
+    "sourceHash": "f06ec0f214f8ebdf",
+    "chineseDescription": "这是 MiniMax Code 团队用来开发 MiniMax Code 的工作流和技能集合（skills）。开源，装上就能用。",
+    "prompt": "帮我安装 mcode-stack 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/minimax-ai/mcode-stack 下载全部文件，保存到 .claude/skills/mcode-stack/ 目录下完成安装。如果目录不存在就先创建，装完后告诉我装了哪些技能、怎么用。",
+    "translatedAt": "2026-10-29T06:13:39.020Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "underleveledbuilder/awesome-social-media-skills": {
+    "sourceHash": "1ad6b88fca3887eb",
+    "chineseDescription": "自媒体运营 Skill（技能包）精选合集：覆盖小红书、抖音、公众号、视频号、B 站、X、YouTube、TikTok、LinkedIn 等平台，包含选题、写稿、配图、发布和数据这几块。千问、豆包、龙虾 OpenClaw、WorkBuddy、Claude Code、Codex 等智能体都能用。",
+    "prompt": "帮我安装一个 Claude Code Skill（技能包），名字叫 awesome-social-media-skills。请你自己去 GitHub 仓库 https://github.com/underleveledbuilder/awesome-social-media-skills 下载这个仓库的文件，保存到 .claude/skills/awesome-social-media-skills/ 目录下，完成安装。装好后告诉我这个 Skill 包含哪些能力、怎么用。",
+    "translatedAt": "2026-10-29T06:13:43.118Z",
+    "backTranslationDiff": 0.7894736842105263
+  },
+  "andyhuo520/vibe-knowledge": {
+    "sourceHash": "09f577c63726cc94",
+    "chineseDescription": "Vibe 知识大赏：把一个知识点做成一条精品知识短片，带旁白，每句话都有出处（Claude Code skill · 44 套风格 · 代码逐帧生成成片）",
+    "prompt": "帮我安装一个 Claude Code skill，叫 vibe-knowledge。请你自己去 GitHub 仓库 https://github.com/andyhuo520/vibe-knowledge 把需要的文件下载下来，保存到 .claude/skills/vibe-knowledge/ 目录里，装好后告诉我怎么用。",
+    "translatedAt": "2026-10-29T06:13:47.156Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "sirioberati/youtube-ai-motion-graphics": {
+    "sourceHash": "4d56838f4c314635",
+    "chineseDescription": "给 YouTube 讲解视频做 AI 动态图形（motion graphics）：内置 74 个动画 HTML 讲解板（图表、示意图、韦恩图、时间轴、热力图），用 Whisper 跟你的配音自动对齐，再用 Chrome + FFmpeg 逐帧导出。每个提示词和 Claude skill 都打包好了。由 TEIN AI 出品。",
+    "prompt": "请帮我安装一个 Claude Code skill：YouTube-AI-Motion-Graphics。请你自己去 GitHub 仓库 https://github.com/sirioberati/youtube-ai-motion-graphics 下载全部文件（如果仓库里有 SKILL.md 或安装说明，按说明来），然后保存到当前项目的 .claude/skills/youtube-ai-motion-graphics/ 目录下，确保目录结构和文件完整。安装完成后告诉我装了哪些文件、怎么用。不要假设我已经提前下载过任何东西，全部由你从 https://github.com/sirioberati/youtube-ai-motion-graphics 获取。",
+    "translatedAt": "2026-10-29T06:13:51.514Z",
+    "backTranslationDiff": 0.2222222222222222
   }
 }
