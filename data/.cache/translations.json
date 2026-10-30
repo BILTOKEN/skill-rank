@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "50490019817c2b6c",
-    "chineseDescription": "AAS Core 是一个本地优先、以 agent（智能体）为核心的控制平面（control plane），用于完整的目录发现、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,750+ 个 agentic skills 支撑。包含 CLI、本地 MCP、目录（catalog）、插件（plugins）和 Workbench。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载该仓库的全部文件（可用 git clone 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录；3) 将下载的文件放入该目录，确保 SKILL.md 位于 .claude/skills/antigravity-awesome-skills/SKILL.md；4) 安装完成后告诉我该 Skill 的用途和基本用法。仓库地址：https://github.com/sickn33/antigravity-awesome-skills",
-    "translatedAt": "2026-10-25T05:08:11.619Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "008e8d22722dbe56",
+    "chineseDescription": "这是一个包含 2,877+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 额外提供本地目录发现、由 agent 自主选择技能以及计划预览功能。支持 CLI、MCP 和插件三种接入方式。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 将下载的内容保存到 .claude/skills/antigravity-awesome-skills/ 目录下（如果目录不存在就创建）；3) 确认文件结构完整，比如 SKILL.md 等关键文件都在；4) 安装完成后告诉我这个技能包包含哪些内容、怎么使用。注意：不要假设我已经装过，请自己完成下载和安装。",
+    "translatedAt": "2026-10-30T06:15:47.663Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -6027,11 +6027,11 @@
     "backTranslationDiff": 0.625
   },
   "glebis/claude-skills": {
-    "sourceHash": "0c6d2ab2de19c3f6",
-    "chineseDescription": "这是一个 Claude Code Skill 的合集，用来增强 AI 工作流。",
-    "prompt": "请从 https://github.com/glebis/claude-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:59:37.031Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "50e1fd4e2b41e87d",
+    "chineseDescription": "这是一个 Agent skills（智能体技能）合集，用来增强 AI 工作流。技术术语保留英文：Agent skills、AI workflows。",
+    "prompt": "请帮我安装 claude-skills 这个技能：先从 https://github.com/glebis/claude-skills 下载仓库里的文件，然后保存到 .claude/skills/claude-skills/ 目录下，完成安装。如果目录不存在就先创建。安装完成后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-10-30T06:15:56.307Z",
+    "backTranslationDiff": 0.4
   },
   "hashgraph-online/awesome-codex-plugins": {
     "sourceHash": "93b0db3c2c4a22be",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "50490019817c2b6c",
-    "chineseDescription": "AAS Core 是一个本地优先、以 agent 为核心的控制平面（control plane），用于完整的目录发现（catalog discovery）、由 agent 自主完成的选择、技术栈验证（stack validation）以及规划（planning），背后有 2,750+ 个 agentic skills 支撑。包含 CLI、本地 MCP、目录（catalog）、插件（plugins）和 Workbench。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载全部文件（可以用 git clone https://github.com/sickn33/agentic-awesome-skills 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/ 目录下创建 agentic-awesome-skills 文件夹（即 .claude/skills/agentic-awesome-skills/）；3) 把下载到的仓库内容放到该目录中；4) 检查目录里是否有 SKILL.md 等说明文件，确认安装完成并告诉我怎么用。",
-    "translatedAt": "2026-10-25T05:08:07.594Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "008e8d22722dbe56",
+    "chineseDescription": "这是一个包含 2,877+ 个可复用 AI agent skill（智能体技能）的集合，支持 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core（核心模块）新增了本地目录发现、由 agent 自主选择技能以及计划预览功能。提供 CLI（命令行工具）、MCP（模型上下文协议）和插件三种接入方式。",
+    "prompt": "帮我安装 agentic-awesome-skills 这个 skill 集合。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我装了哪些内容、怎么用。",
+    "translatedAt": "2026-10-30T06:15:43.423Z",
+    "backTranslationDiff": 0.38095238095238093
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8309,11 +8309,11 @@
     "backTranslationDiff": 0.9047619047619048
   },
   "activeing123/mcptoon": {
-    "sourceHash": "9b9298c8356c9585",
-    "chineseDescription": "一个零依赖（zero-dependency）的 CLI（命令行工具），统一管理所有 MCP server 和 agent skill。核心功能：token 优化（token optimization）、工具发现（tool discovery）和上下文压缩（context compression）——实测从 71,929 个 token 降到 581 个（减少 99.2%），schema 不再占用上下文。一份配置就能同时用于 Claude Code、Codex、Cursor 以及各种 agent。体积仅 341KB，纯 Python 编写。",
-    "prompt": "请帮我安装 mcptoon 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/activeing123/mcptoon 下载全部文件；2) 在项目根目录创建 .claude/skills/mcptoon/ 目录；3) 把下载的文件放到该目录下；4) 确认目录结构正确后告诉我安装完成。仓库地址是 https://github.com/activeing123/mcptoon",
-    "translatedAt": "2026-10-04T06:20:30.602Z",
-    "backTranslationDiff": 0.8387096774193549
+    "sourceHash": "38b7c8a7401ecd1c",
+    "chineseDescription": "一个零依赖的 MCP gateway（网关）CLI，统一管理所有 MCP server 和 agent skill。支持 token 优化、工具发现和上下文压缩：实测从 71,929 个 token 降到 581 个（-99.2%），schema 不再占用上下文。一份配置搞定 Claude Code、Codex、Cursor 以及各种 agent。体积仅 561KB，纯 Python 实现。",
+    "prompt": "请帮我安装 mcptoon 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/activeing123/mcptoon 下载全部文件（可以直接 git clone https://github.com/activeing123/mcptoon.git 到临时目录，或用 curl 拉取仓库内容）；2) 在项目根目录创建 .claude/skills/mcptoon/ 目录；3) 把下载到的文件复制到 .claude/skills/mcptoon/ 下，确保 SKILL.md 等文件位于该目录根部；4) 安装完成后列出 .claude/skills/mcptoon/ 的文件结构，确认安装成功。",
+    "translatedAt": "2026-10-30T06:15:52.280Z",
+    "backTranslationDiff": 0.4375
   },
   "heyixuan2/bambu-studio-ai": {
     "sourceHash": "f1f3ffac76786199",
@@ -8930,5 +8930,40 @@
     "prompt": "请帮我安装一个 Claude Code skill：YouTube-AI-Motion-Graphics。请你自己去 GitHub 仓库 https://github.com/sirioberati/youtube-ai-motion-graphics 下载全部文件（如果仓库里有 SKILL.md 或安装说明，按说明来），然后保存到当前项目的 .claude/skills/youtube-ai-motion-graphics/ 目录下，确保目录结构和文件完整。安装完成后告诉我装了哪些文件、怎么用。不要假设我已经提前下载过任何东西，全部由你从 https://github.com/sirioberati/youtube-ai-motion-graphics 获取。",
     "translatedAt": "2026-10-29T06:13:51.514Z",
     "backTranslationDiff": 0.2222222222222222
+  },
+  "drix10/ai-resources": {
+    "sourceHash": "5255ddbf2bf53f99",
+    "chineseDescription": "这个 Skill 提供 10 万多条 AI 简报（briefing），覆盖 41 个分类：模型、开发工具、智能体（agent）、研究、融资等。每条新简报都会对照原始来源帖子做事实核查（fact-check），并附上原文链接。内容为纯 Markdown 格式，采用 CC BY 4.0 许可。它同时提供 MCP server 和 Agent Skill，让 Claude、Cursor 或 VS Code 能直接查询最新简报。也可以到 blogs.drix10.com 阅读。",
+    "prompt": "请帮我安装 ai-resources 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/drix10/ai-resources 下载全部文件（可以用 git clone https://github.com/drix10/ai-resources 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/ai-resources/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、怎么用。",
+    "translatedAt": "2026-10-30T06:16:01.109Z",
+    "backTranslationDiff": 0.34615384615384615
+  },
+  "ssinder/bioinformatics-agent-skills": {
+    "sourceHash": "384c947f44905992",
+    "chineseDescription": "面向计算生物学的 Agent Skills（智能体技能包）——涵盖 RNA-seq（转录组测序）、single-cell（单细胞分析）、protein structure（蛋白质结构）、molecular dynamics（分子动力学）、peptide design（多肽设计）、literature mining（文献挖掘）和 publication figures（论文配图）。能把任何 AI 编程助手变成计算生物学助手。",
+    "prompt": "请帮我安装 bioinformatics-agent-skills 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/ssinder/bioinformatics-agent-skills 下载全部文件（可以用 git clone https://github.com/ssinder/bioinformatics-agent-skills.git 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/bioinformatics-agent-skills/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 安装完成后列出已安装的技能文件清单，确认安装成功。",
+    "translatedAt": "2026-10-30T06:16:05.044Z",
+    "backTranslationDiff": 0.09999999999999998
+  },
+  "pedrojaques99/visant-skills-public": {
+    "sourceHash": "7656938e685d9ea6",
+    "chineseDescription": "Visant 出品的 Claude Code 技能集（Skills）：包含反套路 UI 审计（anti-slop）、动效（motion）、前端（frontend）、文案（copy）等技能，并附带可执行的检测器（detectors）。【使用场景】当你需要检查前端界面是否千篇一律、缺乏设计感，或想给项目加上动效、文案和 UI 质量审查时，装上这套技能让 Claude Code 自动帮你把关。",
+    "prompt": "请帮我安装 Visant 的 Claude Code 技能集。请从 GitHub 仓库 https://github.com/pedrojaques99/visant-skills-public 下载全部文件，保存到当前项目的 .claude/skills/visant-skills-public/ 目录下（如果目录不存在就创建）。安装完成后，列出已安装的技能文件，并简要说明每个技能（UI 反套路审计、动效、前端、文案）的用途和可执行检测器怎么用。",
+    "translatedAt": "2026-10-30T06:16:09.334Z",
+    "backTranslationDiff": 0.5454545454545454
+  },
+  "gulucaptain/best-paper-writing-skill": {
+    "sourceHash": "6c3ac1ef66bae598",
+    "chineseDescription": "这是一个给 Claude / Codex 用的技能（skill），专门帮你写论文的摘要（abstract）、引言（introduction）、方法（methods）和实验（experiments）部分，风格照着 CVPR/ICCV/NeurIPS 的最佳论文来。这些写作套路是从 60 篇获奖论文里提炼出来的。",
+    "prompt": "请帮我安装一个 Claude Code 技能（skill）。请你自己去 GitHub 仓库 https://github.com/gulucaptain/best-paper-writing-skill 下载这个仓库的文件，然后保存到 .claude/skills/best-paper-writing-skill/ 目录下，完成安装。安装好后告诉我装了什么、怎么用。注意：不要假设我已经提前下载好了，你需要自己从 https://github.com/gulucaptain/best-paper-writing-skill 获取文件。",
+    "translatedAt": "2026-10-30T06:16:13.308Z",
+    "backTranslationDiff": 0.4375
+  },
+  "kurbaitaev/ghost-editor": {
+    "sourceHash": "dd2c155844cb2383",
+    "chineseDescription": "把原始的口播素材（talking-head take）直接剪成成品短视频（reel）。这是一个开源的 AI 视频编辑器（AI video editor），专为 Claude Code 打造。",
+    "prompt": "请帮我安装 ghost-editor 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/kurbaitaev/ghost-editor 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目里创建目录 .claude/skills/ghost-editor/，把仓库里的文件放进去；3) 确认 SKILL.md 等文件都在位，告诉我安装完成以及怎么用。不要假设我已经装过，请自己去下载。",
+    "translatedAt": "2026-10-30T06:16:16.956Z",
+    "backTranslationDiff": 0.30000000000000004
   }
 }
