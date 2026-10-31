@@ -1357,6 +1357,31 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "mvschwarz/openrig",
+    "name": "openrig",
+    "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+    "tags": [
+      "agent-harness",
+      "agent-orchestration",
+      "agent-skills",
+      "ai-coding",
+      "claude-code",
+      "cli",
+      "codex-cli",
+      "multi-agent",
+      "multi-agent-systems",
+      "tmux",
+      "typescript"
+    ],
+    "stars": 8402,
+    "lastPush": "2026-10-30T17:54:46Z",
+    "pool": "ranked",
+    "readmeLength": 5896,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-10-31T05:52:23.507Z"
+  },
+  {
     "repo": "rehan-remade/universal-modder",
     "name": "universal-modder",
     "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
@@ -7230,6 +7255,34 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "modulestf/modulestf",
+    "name": "modulestf",
+    "description": "Agent skills for Claude Code and Codex that review, change and create reusable Terraform modules by the rules of terraform-aws-modules.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "aws",
+      "claude-code",
+      "claude-skills",
+      "code-quality",
+      "code-review",
+      "codex",
+      "DevOps",
+      "infrastructure-as-code",
+      "pull-request-review",
+      "terraform",
+      "terraform-aws-modules",
+      "terraform-modules"
+    ],
+    "stars": 357,
+    "lastPush": "2026-10-31T00:07:42Z",
+    "pool": "ranked",
+    "readmeLength": 2590,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-31T05:52:23.507Z"
+  },
+  {
     "repo": "mathiaschu/meta-ads-analyzer",
     "name": "meta-ads-analyzer",
     "description": "Meta Ads Analyzer skill + MCP server for Claude Code. Breakdown Effect, Learning Phase, and expert-level campaign diagnosis.",
@@ -9629,6 +9682,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "niazmorshed2007/reanimate",
+    "name": "reanimate",
+    "description": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+    "tags": [
+      "agent-skills",
+      "animation",
+      "claude-code",
+      "claude-skills",
+      "前端",
+      "motion",
+      "playwright"
+    ],
+    "stars": 192,
+    "lastPush": "2026-10-30T16:42:33Z",
+    "pool": "ranked",
+    "readmeLength": 1662,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-10-31T05:52:23.507Z"
   },
   {
     "repo": "inhouseseo/superseo-skills",

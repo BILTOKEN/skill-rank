@@ -8965,5 +8965,26 @@
     "prompt": "请帮我安装 ghost-editor 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/kurbaitaev/ghost-editor 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目里创建目录 .claude/skills/ghost-editor/，把仓库里的文件放进去；3) 确认 SKILL.md 等文件都在位，告诉我安装完成以及怎么用。不要假设我已经装过，请自己去下载。",
     "translatedAt": "2026-10-30T06:16:16.956Z",
     "backTranslationDiff": 0.30000000000000004
+  },
+  "mvschwarz/openrig": {
+    "sourceHash": "30f7b25efffde6b8",
+    "chineseDescription": "用 Claude Code、Codex 和 Pi 搭建你自己的 agent（智能体）网络：持久化的团队，带角色分工、共享上下文，各自负责自己的活儿。",
+    "prompt": "帮我安装 openrig 这个 skill。请从 GitHub 仓库 https://github.com/mvschwarz/openrig 下载它的全部文件，保存到 .claude/skills/openrig/ 目录下（如果目录不存在就先创建）。下载完成后检查一下目录结构是否完整，告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-10-31T06:06:13.995Z",
+    "backTranslationDiff": 0.4375
+  },
+  "niazmorshed2007/reanimate": {
+    "sourceHash": "52b096492bb28ba1",
+    "chineseDescription": "一个 Claude Code skill（技能），能逐帧逆向拆解任意动画，然后验证复刻出来的版本动效是否一致。",
+    "prompt": "帮我安装一个 Claude Code skill，名字叫 reanimate。请从 GitHub 仓库 https://github.com/niazmorshed2007/reanimate 下载它的文件，保存到 .claude/skills/reanimate/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-10-31T06:06:18.071Z",
+    "backTranslationDiff": 0.8461538461538461
+  },
+  "modulestf/modulestf": {
+    "sourceHash": "6b434247719dfbb1",
+    "chineseDescription": "这是给 Claude Code 和 Codex 用的 Agent Skill（智能体技能），按照 terraform-aws-modules 的规范来审查、修改和创建可复用的 Terraform 模块（module）。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 modulestf。请你自己去 GitHub 仓库 https://github.com/modulestf/modulestf 下载它的文件，保存到 .claude/skills/modulestf/ 目录里，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-10-31T06:06:21.805Z",
+    "backTranslationDiff": 0.4285714285714286
   }
 }
