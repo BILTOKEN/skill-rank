@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "008e8d22722dbe56",
-    "chineseDescription": "这是一个包含 2,877+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 额外提供本地目录发现、由 agent 自主选择技能以及计划预览功能。支持 CLI、MCP 和插件三种接入方式。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 将下载的内容保存到 .claude/skills/antigravity-awesome-skills/ 目录下（如果目录不存在就创建）；3) 确认文件结构完整，比如 SKILL.md 等关键文件都在；4) 安装完成后告诉我这个技能包包含哪些内容、怎么使用。注意：不要假设我已经装过，请自己完成下载和安装。",
-    "translatedAt": "2026-10-30T06:15:47.663Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "c3e53461f5299d4f",
+    "chineseDescription": "这是一个包含 2,884+ 个可复用 AI agent skill（技能）的合集，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还提供本地目录发现、由 agent 自主选择技能以及计划预览功能。支持 CLI、MCP 和插件三种接入方式。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在请先创建，安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-01T06:36:01.451Z",
+    "backTranslationDiff": 0.38095238095238093
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -5894,11 +5894,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "santifer/career-ops": {
-    "sourceHash": "632d7477dee8e771",
-    "chineseDescription": "开源 AI 求职助手（job search agent）和职位搜索工具：扫描招聘网站（job boards），在你投递前先根据你的简历（CV）给每个职位打 1-5 分，帮你定制符合 ATS（申请人跟踪系统）要求的简历和求职信，还提供面试准备和求职申请追踪器（job application tracker）。它帮你把每份申请都填好，你只需要点提交。完全在你本地的 AI 编程命令行工具（CLI）里运行，支持 Claude Code、Codex、OpenCode 等。",
-    "prompt": "请帮我安装 career-ops 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/santifer/career-ops 下载相关文件，并保存到 .claude/skills/career-ops/ 目录下完成安装。安装完成后告诉我怎么使用它。",
-    "translatedAt": "2026-10-03T05:42:31.309Z",
-    "backTranslationDiff": 0.47058823529411764
+    "sourceHash": "01ea1f973b92d079",
+    "chineseDescription": "开源的 AI 求职搜索助手（job search agent）和职位查找工具：扫描招聘网站（job boards），在你投递之前，先拿你的简历（CV）给每个职位打 1-5 分，再帮你定制一份对 ATS（求职者追踪系统）友好的简历和求职信（cover letter），还提供面试准备和投递记录表（application tracker）。它帮你把每份申请都填好，最后你自己点提交。可以在 Codex、OpenCode 等 AI 命令行工具（CLI）里本地运行，也能作为 Claude Code 插件（plugin）使用。",
+    "prompt": "请帮我安装 career-ops 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/santifer/career-ops 下载该 Skill 的全部文件，保存到 .claude/skills/career-ops/ 目录下（如果目录不存在就创建）。安装完成后，确认 SKILL.md 等必要文件已就位，并简要告诉我这个 Skill 能做什么、怎么用。",
+    "translatedAt": "2026-11-01T06:35:53.933Z",
+    "backTranslationDiff": 0.9142857142857143
   },
   "trailofbits/skills": {
     "sourceHash": "67b02424a5a98e09",
@@ -6818,10 +6818,10 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "artemxtech/personal-os-skills": {
-    "sourceHash": "7fa754c458d9f483",
-    "chineseDescription": "这是给 Obsidian 用的 Claude Code 技能（skills）。配套一个叫 Claude Code x Obsidian Lab 的 5 周直播课程，11 月 10 日开课。简单说，就是让 Claude Code 能直接操作你的 Obsidian 笔记库。",
-    "prompt": "帮我安装 personal-os-skills 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/artemxtech/personal-os-skills 下载全部文件，保存到 .claude/skills/personal-os-skills/ 目录下，装好后告诉我装了什么、怎么用。",
-    "translatedAt": "2026-10-20T05:18:04.133Z",
+    "sourceHash": "4bed974d16c9241a",
+    "chineseDescription": "这是给 Obsidian 用的 Claude Code 技能（skills）。配套的 Claude Code x Obsidian Lab 是一个为期 4 周的直播课程，11 月 10 日开课。",
+    "prompt": "请帮我安装 personal-os-skills 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/artemxtech/personal-os-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/personal-os-skills/ 目录下创建好文件夹（如果不存在就新建）；3) 把下载的文件放进这个目录，确保 SKILL.md 等技能文件在 .claude/skills/personal-os-skills/ 根目录下；4) 安装完成后列出目录内容，确认安装成功。",
+    "translatedAt": "2026-11-01T06:36:14.230Z",
     "backTranslationDiff": 0.5
   },
   "aldefy/compose-skill": {
@@ -7266,11 +7266,11 @@
     "backTranslationDiff": 0.25
   },
   "akseolabs-seo/cinematic-ui": {
-    "sourceHash": "3fd9b53e04e505b0",
-    "chineseDescription": "一个以推理为先的电影化网页设计 Skill。让 AI 像电影导演一样思考——研究一部真实电影，提取其视觉语言，转化为页面叙事和构图。这不是一个风格选择器，而是一个导演工作流。",
-    "prompt": "请安装 cinematic-ui Skill。从 GitHub 仓库 https://github.com/akseolabs-seo/cinematic-ui 下载文件，保存到 .claude/skills/cinematic-ui/ 目录。",
-    "translatedAt": "2026-06-03T18:38:29.810Z",
-    "backTranslationDiff": 0.2692307692307693
+    "sourceHash": "38fc893f6b550f75",
+    "chineseDescription": "这是一个 agent skill（智能体技能），把网站和 App 的开发当成拍电影来导演：先选定导演（director），再写分镜清单（shot list），然后开拍，最后审片（screen the rendered frames）。适用于 Claude Code、Codex 以及任何 agent。让 AI 像导演一样拍网站与后台。在线演示：cinematicskill.com",
+    "prompt": "请帮我安装 cinematic-ui 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/akseolabs-seo/cinematic-ui 下载全部文件（可以用 git clone https://github.com/akseolabs-seo/cinematic-ui 或直接下载压缩包）；2) 把下载的内容保存到 .claude/skills/cinematic-ui/ 目录下（确保 SKILL.md 等文件放在该目录根部）；3) 安装完成后告诉我这个 skill 怎么用。【使用场景】当你想让 AI 以电影导演的流程来设计和开发网站或后台界面时使用。",
+    "translatedAt": "2026-11-01T06:36:10.454Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "thestack-ai/swing-skills": {
     "sourceHash": "fd64d7bc9a4d8cff",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "008e8d22722dbe56",
-    "chineseDescription": "这是一个包含 2,877+ 个可复用 AI agent skill（智能体技能）的集合，支持 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core（核心模块）新增了本地目录发现、由 agent 自主选择技能以及计划预览功能。提供 CLI（命令行工具）、MCP（模型上下文协议）和插件三种接入方式。",
-    "prompt": "帮我安装 agentic-awesome-skills 这个 skill 集合。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载所需文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我装了哪些内容、怎么用。",
-    "translatedAt": "2026-10-30T06:15:43.423Z",
-    "backTranslationDiff": 0.38095238095238093
+    "sourceHash": "c3e53461f5299d4f",
+    "chineseDescription": "为 Claude Code、Codex、Cursor 和 Gemini CLI 提供 2,884+ 个可复用的 AI agent 技能（skills）。AAS Core 增加了本地目录发现（local catalog discovery）、agent 自主选择（agent-owned selection）和计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载全部文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我安装结果和可用的技能列表。",
+    "translatedAt": "2026-11-01T06:35:57.494Z",
+    "backTranslationDiff": 0.19047619047619047
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8085,11 +8085,11 @@
     "backTranslationDiff": 1
   },
   "zenstory-ai/oh-story-claudecode": {
-    "sourceHash": "cfa36513bf6e2ddf",
-    "chineseDescription": "这是一套给 Claude Code、Codex、OpenCode 用的 agent skill（智能体技能），专门写中文网文：从扫榜、拆文、写作、去 AI 味到做封面，全流程都能搞定，长篇短篇都支持。一共 13 个 skill，覆盖小说创作和长篇连载，用文件来记录剧情连贯性（continuity tracking）。MIT 协议开源。",
-    "prompt": "请帮我安装 oh-story-claudecode 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件；2) 在项目里创建目录 .claude/skills/oh-story-claudecode/；3) 把下载的文件放到这个目录下（保持原有的目录结构，比如 SKILL.md 和各子 skill 文件夹）；4) 完成后告诉我装了哪些 skill、怎么用。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，请自己去下载，不要假设我已经装好了。",
-    "translatedAt": "2026-09-14T05:19:59.630Z",
-    "backTranslationDiff": 0.8421052631578947
+    "sourceHash": "749483c5fbe96bad",
+    "chineseDescription": "这是一套给 Claude Code / Codex / OpenCode 用的 agent skills（智能体技能包），专门写中文网文。从扫榜、拆文、写作、去 AI 味到做封面，全流程都覆盖，长篇短篇都能用。一共 14 个 skill，写小说和长篇连载时靠文件记录来保持剧情连贯（file-based continuity tracking）。MIT 协议开源。",
+    "prompt": "请帮我安装 oh-story-claudecode 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 把内容保存到当前项目的 .claude/skills/oh-story-claudecode/ 目录下（目录不存在就新建）；3) 确认 SKILL.md 等文件都在位，然后告诉我安装完成、有哪些 skill 可用。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，请自行下载，不要让我手动操作。",
+    "translatedAt": "2026-11-01T06:36:06.136Z",
+    "backTranslationDiff": 0.42105263157894735
   },
   "adscanpro/claude-ad": {
     "sourceHash": "b7b339d79d154f3a",
@@ -8554,11 +8554,11 @@
     "backTranslationDiff": 0.6363636363636364
   },
   "tigerless-labs/autoharness": {
-    "sourceHash": "3bb4574edb925f23",
-    "chineseDescription": "Autoharness —— 一个给 Claude Code 用的自学习技能层（self-learning skill layer）。它会从你真实的会话（session）里提炼技能，随着你干活儿不断更新这些技能，还会把那些没人再用的技能自动清理掉。不需要常驻进程（daemon），也不用跑基准测试（benchmark）。",
-    "prompt": "请帮我安装 autoharness 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/tigerless-labs/autoharness 下载全部文件；2) 在项目根目录创建 .claude/skills/autoharness/ 目录；3) 把下载的文件保存到该目录下（保持原有目录结构）；4) 确认安装完成并告诉我怎么用。仓库地址：https://github.com/tigerless-labs/autoharness",
-    "translatedAt": "2026-10-10T06:18:37.616Z",
-    "backTranslationDiff": 0.8260869565217391
+    "sourceHash": "a44f02e9d7607b79",
+    "chineseDescription": "打造下一代智能体（agent）出厂自带的自学习层（self-learning layer），从真实工作中学习技能（skill）。",
+    "prompt": "请帮我安装 autoharness 这个 Claude Code Skill。步骤：1）从 GitHub 仓库 https://github.com/tigerless-labs/autoharness 下载全部文件（可以用 git clone https://github.com/tigerless-labs/autoharness 或直接下载压缩包）；2）在当前项目的 .claude/skills/autoharness/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3）确认 SKILL.md 等文件已就位，然后告诉我安装完成以及怎么用。",
+    "translatedAt": "2026-11-01T06:36:23.234Z",
+    "backTranslationDiff": 0.46153846153846156
   },
   "aryanutkarsh/seecode": {
     "sourceHash": "11070aa1b0584777",
@@ -8869,11 +8869,11 @@
     "backTranslationDiff": 0.18181818181818177
   },
   "jgsystemsconsulting/jgs-se-knowledge-packs": {
-    "sourceHash": "f28d8cc6dca07ee0",
-    "chineseDescription": "为编码 agent（智能体）准备的 71 个开放系统工程知识包（外加 8 个路标/指引），全部经过许可证审核，来源包括 NASA、DoD（美国国防部）、UK MoD（英国国防部）、FAA、EASA、NIST、FDA、NRC、GAO、SEBoK 等，以按需加载的 Agent Skills（智能体技能）形式提供。",
-    "prompt": "请帮我安装 jgs-se-knowledge-packs 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs 下载全部文件，保存到 .claude/skills/jgs-se-knowledge-packs/ 目录下，完成安装。安装完成后请确认目录结构和文件是否完整。",
-    "translatedAt": "2026-10-27T05:38:01.836Z",
-    "backTranslationDiff": 0.2727272727272727
+    "sourceHash": "772e41027091634f",
+    "chineseDescription": "这个技能包给编码 agent 提供了 74 个开放的系统工程知识包（knowledge pack）、8 个路标（signpost），外加一个 /se 编排器（orchestrator），总共 83 个技能（skill）。内容都经过许可证审核，来源包括 NASA、DoD（美国国防部）、UK MoD（英国国防部）、FAA、EASA、NIST、FDA、NRC、GAO、SEBoK 等，全部做成按需加载的 Agent Skills。",
+    "prompt": "请帮我安装 jgs-se-knowledge-packs 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/jgsystemsconsulting/jgs-se-knowledge-packs 下载全部文件（可以直接 git clone 或下载 zip 包）；2) 在项目根目录创建 .claude/skills/jgs-se-knowledge-packs/ 目录；3) 把仓库里的技能文件（包括 SKILL.md 以及相关的知识包、signpost、/se orchestrator 等全部内容）完整复制到 .claude/skills/jgs-se-knowledge-packs/ 下，保持原有目录结构；4) 复制完成后检查目录结构，确认 SKILL.md 存在，并告诉我安装结果和可用的技能数量。",
+    "translatedAt": "2026-11-01T06:36:19.042Z",
+    "backTranslationDiff": 0.45833333333333337
   },
   "wpgaurav/generateblocks-skills": {
     "sourceHash": "75e4ff20da9f1922",
@@ -8986,5 +8986,12 @@
     "prompt": "帮我安装一个 Claude Code Skill，名字叫 modulestf。请你自己去 GitHub 仓库 https://github.com/modulestf/modulestf 下载它的文件，保存到 .claude/skills/modulestf/ 目录里，完成安装。装好后告诉我怎么用。",
     "translatedAt": "2026-10-31T06:06:21.805Z",
     "backTranslationDiff": 0.4285714285714286
+  },
+  "internet-court/internet-court-skill": {
+    "sourceHash": "cd7f624cc60728bb",
+    "chineseDescription": "给 agent 之间的商业往来加一层信任保障——用自然语言写授权指令（mandate），通过 ERC-7710 做委托权限（delegated permissions），支持 x402 支付、托管（escrow）和争议解决（dispute resolution），全部打包成一个开放的、啥都能接的 Agent Skill / Claude Code 插件。",
+    "prompt": "请帮我安装 internet-court-skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/internet-court/internet-court-skill 下载全部文件（可以用 git clone https://github.com/internet-court/internet-court-skill 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/internet-court-skill/；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件位于 .claude/skills/internet-court-skill/ 根目录；4) 安装完成后告诉我目录结构和如何使用。仓库地址是 https://github.com/internet-court/internet-court-skill ，请自行下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-01T06:36:27.170Z",
+    "backTranslationDiff": 0.2857142857142857
   }
 }

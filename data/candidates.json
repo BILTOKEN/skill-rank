@@ -1243,6 +1243,35 @@
     "lastPush": "2026-03-25T14:51:18Z"
   },
   {
+    "repo": "internet-court/internet-court-skill",
+    "name": "internet-court-skill",
+    "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
+    "tags": [
+      "a2a",
+      "adjudication",
+      "agent-payments",
+      "agent-skills",
+      "agentic-commerce",
+      "ai-agents",
+      "claude-code",
+      "claude-plugin",
+      "claude-skill",
+      "codex",
+      "dispute-resolution",
+      "erc-7710",
+      "erc-8004",
+      "escrow",
+      "genlayer",
+      "hermes-agent",
+      "openclaw",
+      "opencode",
+      "web3",
+      "x402"
+    ],
+    "stars": 7047,
+    "lastPush": "2026-10-26T12:55:11Z"
+  },
+  {
     "repo": "agricidaniel/claude-seo",
     "name": "claude-seo",
     "description": "Universal SEO skill for Claude Code. 25 sub-skills + 18 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, backlinks, local SEO, maps intelligence, semantic clustering, e-commerce SEO, international SEO, Google APIs, and PDF/Excel reporting. Optional DataForSEO, Firecrawl, and Banana extensions.",
@@ -14402,6 +14431,23 @@
     "lastPush": "2026-10-27T04:35:21Z"
   },
   {
+    "repo": "dustinliang666-blip/lava-mcp",
+    "name": "lava-mcp",
+    "description": "熔岩 Lava：A 股股票与概念板块的消息面热度监测（结构化只读 MCP/REST，支持量化交易工具与 AI Agent 股市研究接入）",
+    "tags": [
+      "a-share",
+      "agent-skills",
+      "claude-skills",
+      "dsh-plugin",
+      "gemini-cli-extension",
+      "mcp",
+      "mcp-server",
+      "quant"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-30T09:24:02Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -14787,6 +14833,22 @@
     ],
     "stars": 29,
     "lastPush": "2026-10-29T05:43:21Z"
+  },
+  {
+    "repo": "crt106/c3rb3r-btrfs-recovery",
+    "name": "c3rb3r-btrfs-recovery",
+    "description": "Keyless recovery of C3RB3R (.L0CK3D) ransomware-encrypted Synology/Btrfs files from surviving CoW extents — agent skill (npx skills add). 群晖勒索无密钥恢复 skill",
+    "tags": [
+      "agent-skills",
+      "btrfs",
+      "c3rb3r",
+      "claude-skills",
+      "data-recovery",
+      "ransomware-recovery",
+      "synology"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-30T06:09:32Z"
   },
   {
     "repo": "frmoretto/clarity-gate",
@@ -32411,6 +32473,40 @@
     "lastPush": "2026-10-30T18:23:32Z"
   },
   {
+    "repo": "bsrikumar855-dot/claudecode-autonomous-skills",
+    "name": "ClaudeCODE-Autonomous-skills",
+    "description": "An autonomous AI development skill for Claude Code. Turn project goals into planned, implemented, tested, and reviewed software using specialist AI subagents.",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "ai-development",
+      "autonomous-coding",
+      "autonomous-coding-agent",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-skill",
+      "claude-code-skills",
+      "developer-tools",
+      "multi-agent-systems",
+      "vibe-coding"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-31T10:24:13Z"
+  },
+  {
+    "repo": "lippinc/save-before-compact",
+    "name": "save-before-compact",
+    "description": "Claude Code skill: save what the compaction is about to eat. Sweeps the chat for unsaved decisions, facts and open questions before you compact, writes RESUME.md first, reports last.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "compaction",
+      "context-management"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-17T16:21:48Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -36556,6 +36652,27 @@
     ],
     "stars": 2,
     "lastPush": "2026-10-25T16:26:00Z"
+  },
+  {
+    "repo": "cheswickdev/claude-opus-5.5-prompt-optimizer",
+    "name": "claude-opus-5.5-prompt-optimizer",
+    "description": "Prompt optimizer for Claude Opus 5.5, built on Anthropic's official docs and validated on held-out prompts",
+    "tags": [
+      "AI",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code-skill",
+      "claude-opus-5-5",
+      "claude-project",
+      "llm",
+      "prompt-engineering",
+      "prompt-optimization",
+      "prompt-optimizer",
+      "prompts"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-20T15:17:06Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

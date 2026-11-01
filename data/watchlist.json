@@ -3070,6 +3070,28 @@
     "checkedAt": "2026-10-27T05:12:47.688Z"
   },
   {
+    "repo": "dustinliang666-blip/lava-mcp",
+    "name": "lava-mcp",
+    "description": "熔岩 Lava：A 股股票与概念板块的消息面热度监测（结构化只读 MCP/REST，支持量化交易工具与 AI Agent 股市研究接入）",
+    "tags": [
+      "a-share",
+      "agent-skills",
+      "claude-skills",
+      "dsh-plugin",
+      "gemini-cli-extension",
+      "mcp",
+      "mcp-server",
+      "quant"
+    ],
+    "stars": 31,
+    "lastPush": "2026-10-30T09:24:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-01T06:16:01.181Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -3560,6 +3582,27 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-29T05:54:37.259Z"
+  },
+  {
+    "repo": "crt106/c3rb3r-btrfs-recovery",
+    "name": "c3rb3r-btrfs-recovery",
+    "description": "Keyless recovery of C3RB3R (.L0CK3D) ransomware-encrypted Synology/Btrfs files from surviving CoW extents — agent skill (npx skills add). 群晖勒索无密钥恢复 skill",
+    "tags": [
+      "agent-skills",
+      "btrfs",
+      "c3rb3r",
+      "claude-skills",
+      "data-recovery",
+      "ransomware-recovery",
+      "synology"
+    ],
+    "stars": 29,
+    "lastPush": "2026-10-30T06:09:32Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-01T06:16:01.181Z"
   },
   {
     "repo": "frmoretto/clarity-gate",
@@ -25546,6 +25589,50 @@
     "checkedAt": "2026-10-31T05:52:23.507Z"
   },
   {
+    "repo": "bsrikumar855-dot/claudecode-autonomous-skills",
+    "name": "ClaudeCODE-Autonomous-skills",
+    "description": "An autonomous AI development skill for Claude Code. Turn project goals into planned, implemented, tested, and reviewed software using specialist AI subagents.",
+    "tags": [
+      "agentic-coding",
+      "ai-agents",
+      "ai-development",
+      "autonomous-coding",
+      "autonomous-coding-agent",
+      "claude-code",
+      "claude-code-agents",
+      "claude-code-skill",
+      "claude-code-skills",
+      "developer-tools",
+      "multi-agent-systems",
+      "vibe-coding"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-31T10:24:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-01T06:16:01.181Z"
+  },
+  {
+    "repo": "lippinc/save-before-compact",
+    "name": "save-before-compact",
+    "description": "Claude Code skill: save what the compaction is about to eat. Sweeps the chat for unsaved decisions, facts and open questions before you compact, writes RESUME.md first, reports last.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "compaction",
+      "context-management"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-17T16:21:48Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-01T06:16:01.181Z"
+  },
+  {
     "repo": "teemoweng/lark-video2note",
     "name": "lark-video2note",
     "description": "把抖音 / 哔哩哔哩 / 小红书 / YouTube 视频链接转成飞书结构化笔记的 Claude Code skill",
@@ -30706,6 +30793,32 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-10-29T05:54:37.259Z"
+  },
+  {
+    "repo": "cheswickdev/claude-opus-5.5-prompt-optimizer",
+    "name": "claude-opus-5.5-prompt-optimizer",
+    "description": "Prompt optimizer for Claude Opus 5.5, built on Anthropic's official docs and validated on held-out prompts",
+    "tags": [
+      "AI",
+      "anthropic",
+      "claude",
+      "claude-ai",
+      "claude-code-skill",
+      "claude-opus-5-5",
+      "claude-project",
+      "llm",
+      "prompt-engineering",
+      "prompt-optimization",
+      "prompt-optimizer",
+      "prompts"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-20T15:17:06Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-01T06:16:01.181Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
