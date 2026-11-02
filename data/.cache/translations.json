@@ -8993,5 +8993,19 @@
     "prompt": "请帮我安装 internet-court-skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/internet-court/internet-court-skill 下载全部文件（可以用 git clone https://github.com/internet-court/internet-court-skill 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/internet-court-skill/；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件位于 .claude/skills/internet-court-skill/ 根目录；4) 安装完成后告诉我目录结构和如何使用。仓库地址是 https://github.com/internet-court/internet-court-skill ，请自行下载，不要假设我已经装好了。",
     "translatedAt": "2026-11-01T06:36:27.170Z",
     "backTranslationDiff": 0.2857142857142857
+  },
+  "notivn/aievv2": {
+    "sourceHash": "0b9f912e62eee116",
+    "chineseDescription": "自动 AI 视频剪辑：由 Claude 指挥 HyperFrames（HTML + GSAP 动态图形）和 Remotion（时间线组装）。支持卡拉 OK 字幕、动态排版、音效、时间线编辑器、文字转视频、视频翻译和配音——自托管的 Web 控制台，专为越南语打造。",
+    "prompt": "帮我安装 AIEVv2 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/notivn/aievv2 下载全部文件，保存到 .claude/skills/aievv2/ 目录下完成安装（如果目录不存在就先创建）。安装完成后，简单告诉我这个 skill 能做什么、怎么用。",
+    "translatedAt": "2026-11-02T06:29:53.808Z",
+    "backTranslationDiff": 0.1071428571428571
+  },
+  "artemnovitckii/claude-animation-skills": {
+    "sourceHash": "0527d3c38ef5c40e",
+    "chineseDescription": "六个 Claude Code skill（技能），不用任何实拍素材就能做短视频（reels）动画：3D 卡通讲解、火柴人、极简线条画、3D 地图路线、爆炸图（exploded view）、折线图。",
+    "prompt": "帮我安装 claude-animation-skills 这个 skill 包。请你自己去 GitHub 仓库 https://github.com/artemnovitckii/claude-animation-skills 下载全部文件，保存到 .claude/skills/claude-animation-skills/ 目录下，完成后告诉我装了哪些 skill。",
+    "translatedAt": "2026-11-02T06:29:57.714Z",
+    "backTranslationDiff": 0.6
   }
 }
