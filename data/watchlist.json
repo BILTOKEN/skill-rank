@@ -681,6 +681,26 @@
     "checkedAt": "2026-05-27T01:05:21.101Z"
   },
   {
+    "repo": "brewed-ops/talking-explainer",
+    "name": "talking-explainer",
+    "description": "A Claude Code skill that turns a topic into a narrated motion-design explainer, presented by a cartoon that lip-syncs to your voice.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "explainer-video",
+      "hyperframes",
+      "lip-sync",
+      "motion-design"
+    ],
+    "stars": 44,
+    "lastPush": "2026-11-02T07:20:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
     "repo": "radekamirko/c.r.i.s.p",
     "name": "C.R.I.S.P",
     "description": " CRISP — The missing layer between vibe coding and building something people actually want. ",
@@ -4380,6 +4400,39 @@
     "checkedAt": "2026-11-02T06:17:02.261Z"
   },
   {
+    "repo": "everyinfra/seo-skills",
+    "name": "seo-skills",
+    "description": "Free global SEO/GEO skill for Claude Code, Codex & 10 agent hosts — 18 market portals, 56 stdlib scripts, 672 golden tests, self-update intel loop, monitoring daemon, CI gates. Multilingual GEO, pSEO, CWV, penalty recovery.",
+    "tags": [
+      "agent-skills",
+      "ai-seo",
+      "answer-engine-optimization",
+      "backlinks",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "everyinfra",
+      "generative-engine-optimization",
+      "geo",
+      "international-seo",
+      "keyword-research",
+      "llms-txt",
+      "naver",
+      "schema-markup",
+      "seo",
+      "skill-md",
+      "technical-seo",
+      "yandex"
+    ],
+    "stars": 27,
+    "lastPush": "2026-11-02T12:38:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
     "repo": "hainrixz/claude-ads",
     "name": "claude-ads",
     "description": "Self-updating multi-platform paid advertising audit & optimization skill for Claude Code — Google, Meta, TikTok, LinkedIn, Microsoft, Apple, YouTube. Now with /ads update for last-30-days platform refresh. Maintained by tododeia.com.",
@@ -4802,6 +4855,47 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-02T06:17:02.261Z"
+  },
+  {
+    "repo": "jimmyraouf/academic-revision-checklist",
+    "name": "academic-revision-checklist",
+    "description": "   66 reader-first rules for revising academic English, drawn from 60+ revision rounds of a PhD dissertation, with a 16-item quick list, a script that flags places to reread, and a Claude skill.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "claude-skills",
+      "dissertation",
+      "proofreading",
+      "thesis"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-29T04:03:50Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "mromidev/claude-blender-skills",
+    "name": "claude-blender-skills",
+    "description": "Free Claude skills for realistic Blender animations: full workflows + the real scripts behind my YouTube videos",
+    "tags": [
+      "3d-animation",
+      "blender",
+      "blender-python",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cycles"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-25T15:20:35Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
   },
   {
     "repo": "wrsmith108/varlock-claude-skill",
@@ -23335,6 +23429,32 @@
     "checkedAt": "2026-10-30T05:56:02.802Z"
   },
   {
+    "repo": "quinnod345/ponder",
+    "name": "ponder",
+    "description": "Convergent deliberation loop for coding agents: multi-pass, coverage-gated, append-only ledger review and planning. Claude Code, Codex, OpenClaw.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-mod",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "developer-tools",
+      "gemini-cli-extension",
+      "llm-agents",
+      "openclaw"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-03T06:57:02Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -25787,6 +25907,29 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-02T06:17:02.261Z"
+  },
+  {
+    "repo": "jjietay/kaleidoscope",
+    "name": "kaleidoscope",
+    "description": "Claude Code skill that makes narrated teaching videos: a different animation style for each part, checked by six reviewer agents before render.",
+    "tags": [
+      "ai-agents",
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "education",
+      "explainer-video",
+      "manim",
+      "text-to-speech",
+      "threejs"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-03T06:02:57Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

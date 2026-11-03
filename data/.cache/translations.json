@@ -1,10 +1,10 @@
 {
   "mksglu/context-mode": {
-    "sourceHash": "fbd1fd46cc96fd6c",
-    "chineseDescription": "针对 AI 编码代理的上下文窗口优化。沙箱化工具输出（减少 98%），持久化会话记忆，并通过 MCP + hooks 在 17 个平台间强制执行路由。",
-    "prompt": "请从 https://github.com/mksglu/context-mode 下载 context-mode skill 文件，并保存到 .claude/skills/context-mode/ 目录，完成安装。",
-    "translatedAt": "2026-06-22T18:27:51.068Z",
-    "backTranslationDiff": 0.16666666666666663
+    "sourceHash": "91e5f11e4110ec45",
+    "chineseDescription": "一个免费、本地运行的插件，能把工具输出挡在你的编码 agent（智能体）的上下文窗口（context window）之外。它用沙箱（sandbox）加 SQLite FTS5 搜索，让上下文里的字节数减少 99%。支持 Claude Code、Codex、Pi、OpenCode、Gemini CLI、Copilot CLI 等 9 种以上 agent，零遥测（telemetry）。",
+    "prompt": "帮我安装 context-mode 这个 skill。请从 GitHub 仓库 https://github.com/mksglu/context-mode 下载它的文件，保存到 .claude/skills/context-mode/ 目录下，完成安装。如果目录不存在就先创建。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-03T07:21:23.298Z",
+    "backTranslationDiff": 0.21875
   },
   "AgriciDaniel/claude-seo": {
     "sourceHash": "f6adc69c6bdeab68",
@@ -3864,11 +3864,11 @@
     "backTranslationDiff": 0.26315789473684215
   },
   "agricidaniel/claude-blog": {
-    "sourceHash": "2533e6a8437a9ed3",
-    "chineseDescription": "Claude Code 博客技能套件：包含30个子技能、5个代理(agents)、5门 v1.9.0 博客交付合约(5-gate v1.9.0 Blog Delivery Contract)，针对 Google 排名和 AI 引用进行了双重优化。活跃开发于 AI-Marketing-Hub/claude-blog（AI Marketing Hub Pro 社区）；公开发布版本在此发布。【使用场景】用于博客内容创作与优化，提升搜索引擎排名和 AI 引用率。",
-    "prompt": "请安装 claude-blog 技能。从 GitHub 仓库 https://github.com/agricidaniel/claude-blog 下载所有文件，并保存到 .claude/skills/claude-blog/ 目录下。完成后请确认安装成功。",
-    "translatedAt": "2026-05-24T17:45:09.763Z",
-    "backTranslationDiff": 0.20833333333333337
+    "sourceHash": "7b28519fa7430750",
+    "chineseDescription": "免费的 Claude Code 开源博客写作工具（blog writer）。它会先调研最新的资料来源，写出「答案优先」（answer-first）的文章，兼顾 Google 搜索和 AI 问答场景；每篇文章由一位独立评审员（reviewer）打分（满分 100），并且只有通过五道交付关卡（delivery gates）后才会发布。包含 32 个技能（skills）、30 个 /blog 命令、5 个智能体（agents）。项目在 AI-Marketing-Hub/claude-blog 上活跃开发，公开发布版本会同步到这里。",
+    "prompt": "请帮我安装 claude-blog 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/agricidaniel/claude-blog 下载全部文件，保存到 .claude/skills/claude-blog/ 目录下完成安装。如果该目录不存在请先创建；如果已存在请先确认是否为同一仓库，避免覆盖我本地的修改。安装完成后告诉我包含哪些技能（skills）、/blog 命令和智能体（agents），以及如何开始使用。",
+    "translatedAt": "2026-11-03T07:21:32.803Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "narratorai-studio/narrator-ai-cli-skill": {
     "sourceHash": "cba4df9a7a7eec5f",
@@ -8617,11 +8617,11 @@
     "backTranslationDiff": 0.875
   },
   "mahanaicoach/google-maps-scraper-kit": {
-    "sourceHash": "a19f6b8ebe0ad04d",
-    "chineseDescription": "免费的 Google Maps 爬虫工具，用于挖掘潜在客户（lead generation）。可以把电话、邮箱、网站和社交媒体账号导出成 CSV 文件。在本地 Docker 里运行，不需要 API key。自带 Claude Code skill。",
-    "prompt": "请帮我安装 google-maps-scraper-kit 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/mahanaicoach/google-maps-scraper-kit 下载所有文件，并保存到 .claude/skills/google-maps-scraper-kit/ 目录下完成安装。",
-    "translatedAt": "2026-10-15T05:10:54.055Z",
-    "backTranslationDiff": 0.75
+    "sourceHash": "82f4449371f20d65",
+    "chineseDescription": "免费开源的 Google Maps 抓取工具，用于线索生成（lead generation）。用 Python 写的，不需要 API key，也不需要 Docker。能把商家名称、电话、邮箱、网站、评分，以及 Instagram/Facebook/LinkedIn/TikTok/YouTube/X 链接导出成 CSV。44 秒就能抓 100 个带邮箱的地点；用 --grid 参数可以突破 Google 的 120 条上限。支持 MX 邮箱校验和广告像素（ad-pixel）检测。这是给 Claude Code、Codex 和 Cursor 用的 Skill。",
+    "prompt": "请帮我安装一个 Claude Code Skill，名字叫 google-maps-scraper-kit。请你自己去这个 GitHub 仓库下载：https://github.com/mahanaicoach/google-maps-scraper-kit 。把仓库里的文件保存到 .claude/skills/google-maps-scraper-kit/ 目录下，完成安装。不要假设我已经装好了，直接去下载就行。",
+    "translatedAt": "2026-11-03T07:21:27.870Z",
+    "backTranslationDiff": 0.4571428571428572
   },
   "o11y-dev/opentelemetry-skill": {
     "sourceHash": "92f2ab98ae093fbd",
@@ -8953,11 +8953,11 @@
     "backTranslationDiff": 0.5454545454545454
   },
   "gulucaptain/best-paper-writing-skill": {
-    "sourceHash": "6c3ac1ef66bae598",
-    "chineseDescription": "这是一个给 Claude / Codex 用的技能（skill），专门帮你写论文的摘要（abstract）、引言（introduction）、方法（methods）和实验（experiments）部分，风格照着 CVPR/ICCV/NeurIPS 的最佳论文来。这些写作套路是从 60 篇获奖论文里提炼出来的。",
-    "prompt": "请帮我安装一个 Claude Code 技能（skill）。请你自己去 GitHub 仓库 https://github.com/gulucaptain/best-paper-writing-skill 下载这个仓库的文件，然后保存到 .claude/skills/best-paper-writing-skill/ 目录下，完成安装。安装好后告诉我装了什么、怎么用。注意：不要假设我已经提前下载好了，你需要自己从 https://github.com/gulucaptain/best-paper-writing-skill 获取文件。",
-    "translatedAt": "2026-10-30T06:16:13.308Z",
-    "backTranslationDiff": 0.4375
+    "sourceHash": "1988eaea1dea6135",
+    "chineseDescription": "【写作】这是一个 Claude / Codex 技能（skill），用来按 CVPR/ICCV/NeurIPS 最佳论文的风格，帮你起草摘要（abstract）、引言（introduction）、方法（methods）和实验（experiments）部分。它的写法是从 60 篇获奖论文里提炼出来的。",
+    "prompt": "请帮我安装一个 Claude Code 技能（skill）：best-paper-writing-skill。请你自己去 GitHub 仓库 https://github.com/gulucaptain/best-paper-writing-skill 下载这个仓库的文件，然后把它们保存到 .claude/skills/best-paper-writing-skill/ 目录下，完成安装。安装好后告诉我这个技能怎么用。",
+    "translatedAt": "2026-11-03T07:21:45.912Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "kurbaitaev/ghost-editor": {
     "sourceHash": "dd2c155844cb2383",
@@ -9007,5 +9007,33 @@
     "prompt": "帮我安装 claude-animation-skills 这个 skill 包。请你自己去 GitHub 仓库 https://github.com/artemnovitckii/claude-animation-skills 下载全部文件，保存到 .claude/skills/claude-animation-skills/ 目录下，完成后告诉我装了哪些 skill。",
     "translatedAt": "2026-11-02T06:29:57.714Z",
     "backTranslationDiff": 0.6
+  },
+  "yanstd888/humanizer-lint": {
+    "sourceHash": "f3a976395f67da55",
+    "chineseDescription": "一个本地运行、零依赖（zero-dependency）的文案、UI 文本和代码注释检查工具（linter），专门挑出那种生硬、像 AI 写出来的文字——比如套话（stock phrases）、句子节奏平淡、用词重复——并告诉你该怎么改。内置 8 种语言包。它是风格检查器（style checker），不是 AI 检测器（AI detector）。",
+    "prompt": "请帮我安装 humanizer-lint 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/yanstd888/humanizer-lint 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/humanizer-lint/ 目录；3) 把仓库里的文件放到该目录下，确保 SKILL.md 位于 .claude/skills/humanizer-lint/SKILL.md；4) 安装完成后告诉我目录结构和怎么使用。仓库地址是 https://github.com/yanstd888/humanizer-lint ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-03T07:21:37.147Z",
+    "backTranslationDiff": 0.4285714285714286
+  },
+  "mhfed/vn-law-check": {
+    "sourceHash": "c9d130b52aa03356",
+    "chineseDescription": "这个 Skill 用来按越南法律对网站做合规审计，覆盖四部法规：BVDLCN 91/2025（网络安全法）、TMĐT 122/2025（电子商务法）、ANM 116/2025（网络信息安全法）、AI 134/2025（人工智能法）。支持 Claude Code、Cursor、Copilot、Windsurf、Cline 等工具。",
+    "prompt": "请帮我安装 vn-law-check 这个 Skill：从 GitHub 仓库 https://github.com/mhfed/vn-law-check 下载全部文件，保存到 .claude/skills/vn-law-check/ 目录下，保持原有目录结构。安装完成后告诉我这个 Skill 怎么用，以及它支持哪些越南法规的合规检查。",
+    "translatedAt": "2026-11-03T07:21:41.489Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "heychengc/bighead-collage": {
+    "sourceHash": "fe19cc73fe69c417",
+    "chineseDescription": "大头拼贴人物短片 Skill（技能）：你只要给出选题和文案，AI 就能一键生成 9:16 竖屏人物故事视频（适用于 Claude Code / Codex）。",
+    "prompt": "请帮我安装 bighead-collage 这个 Skill。步骤：1. 从 GitHub 仓库 https://github.com/heychengc/bighead-collage 下载全部文件（可以用 git clone https://github.com/heychengc/bighead-collage 或直接下载 zip 包）；2. 在当前项目的 .claude/skills/bighead-collage/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3. 安装完成后，检查一下 SKILL.md 等文件是否齐全，并告诉我怎么用。注意：不要假设我已经装过，请自己去下载。",
+    "translatedAt": "2026-11-03T07:21:50.186Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "brewed-ops/talking-explainer": {
+    "sourceHash": "fa6beb8b5c36230f",
+    "chineseDescription": "这是一个 Claude Code 技能（skill），能把一个主题做成带旁白的动态设计讲解视频，由卡通形象出镜，并对你的配音做口型同步（lip-sync）。",
+    "prompt": "请帮我安装 talking-explainer 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/brewed-ops/talking-explainer 下载全部文件（可以用 git clone https://github.com/brewed-ops/talking-explainer 或直接下载仓库压缩包）；2) 在当前项目的 .claude/skills/talking-explainer/ 目录下创建技能目录（如果目录不存在就新建）；3) 把下载到的技能文件放到 .claude/skills/talking-explainer/ 里，确保 SKILL.md 等文件位于该目录根部；4) 安装完成后列出该目录内容，确认安装成功，并告诉我怎么使用这个技能。",
+    "translatedAt": "2026-11-03T07:21:54.614Z",
+    "backTranslationDiff": 0.33333333333333337
   }
 }

@@ -6693,6 +6693,29 @@
     "lastPush": "2026-05-07T15:13:39Z"
   },
   {
+    "repo": "mhfed/vn-law-check",
+    "name": "vn-law-check",
+    "description": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline",
+    "tags": [
+      "agent-md",
+      "agent-skills",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "compliance",
+      "copilot-instructions",
+      "cursor-rules",
+      "data-protection",
+      "ecomerce",
+      "legal-tech",
+      "privacy",
+      "skills",
+      "vietnam"
+    ],
+    "stars": 248,
+    "lastPush": "2026-11-03T06:55:49Z"
+  },
+  {
     "repo": "eriemon/verilog-generator",
     "name": "verilog-generator",
     "description": "Agent skill for Verilog-2001 RTL generation and FPGA design workflows.",
@@ -10848,6 +10871,35 @@
     "lastPush": "2026-10-20T14:18:00Z"
   },
   {
+    "repo": "yanstd888/humanizer-lint",
+    "name": "humanizer-lint",
+    "description": "A local, zero-dependency prose, copywriting, UI-text, and code-comment linter that flags stiff, AI-sounding writing (stock phrases, flat sentence rhythm, repeated wording) and tells you what to revise. Includes 8 language packs. A style checker, not an AI detector.",
+    "tags": [
+      "agent-skill",
+      "agent-skills-tools",
+      "ai-humanizer-free",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex",
+      "codex-skill",
+      "copywriting-ai",
+      "cursor",
+      "gemini-cli",
+      "hermes-skill",
+      "markdown-linter",
+      "multilingual",
+      "prose-linter",
+      "skills-sh",
+      "stylometry",
+      "text-analysis",
+      "windsurf",
+      "writing-assistant",
+      "zero-dependency"
+    ],
+    "stars": 62,
+    "lastPush": "2026-11-02T17:39:09Z"
+  },
+  {
     "repo": "jordanrubin/future_tokens",
     "name": "FUTURE_TOKENS",
     "description": "Composable reasoning skills for Claude - antithesize, excavate, metaphorize, synthesize, and more",
@@ -11236,6 +11288,26 @@
     ],
     "stars": 58,
     "lastPush": "2026-10-09T10:33:43Z"
+  },
+  {
+    "repo": "heychengc/bighead-collage",
+    "name": "bighead-collage",
+    "description": "大头拼贴人物短片 Skill：给选题和文案，AI 一键出 9:16 竖屏人物故事视频（Claude Code / Codex）",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "collage",
+      "douyin",
+      "short-video",
+      "skill",
+      "text-to-video",
+      "video-generation"
+    ],
+    "stars": 58,
+    "lastPush": "2026-10-28T14:46:25Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",
@@ -12523,6 +12595,21 @@
     ],
     "stars": 44,
     "lastPush": "2026-03-16T09:24:07Z"
+  },
+  {
+    "repo": "brewed-ops/talking-explainer",
+    "name": "talking-explainer",
+    "description": "A Claude Code skill that turns a topic into a narrated motion-design explainer, presented by a cartoon that lip-syncs to your voice.",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "explainer-video",
+      "hyperframes",
+      "lip-sync",
+      "motion-design"
+    ],
+    "stars": 44,
+    "lastPush": "2026-11-02T07:20:50Z"
   },
   {
     "repo": "radekamirko/c.r.i.s.p",
@@ -15483,6 +15570,34 @@
     "lastPush": "2026-10-30T10:22:46Z"
   },
   {
+    "repo": "everyinfra/seo-skills",
+    "name": "seo-skills",
+    "description": "Free global SEO/GEO skill for Claude Code, Codex & 10 agent hosts — 18 market portals, 56 stdlib scripts, 672 golden tests, self-update intel loop, monitoring daemon, CI gates. Multilingual GEO, pSEO, CWV, penalty recovery.",
+    "tags": [
+      "agent-skills",
+      "ai-seo",
+      "answer-engine-optimization",
+      "backlinks",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "everyinfra",
+      "generative-engine-optimization",
+      "geo",
+      "international-seo",
+      "keyword-research",
+      "llms-txt",
+      "naver",
+      "schema-markup",
+      "seo",
+      "skill-md",
+      "technical-seo",
+      "yandex"
+    ],
+    "stars": 27,
+    "lastPush": "2026-11-02T12:38:11Z"
+  },
+  {
     "repo": "hainrixz/claude-ads",
     "name": "claude-ads",
     "description": "Self-updating multi-platform paid advertising audit & optimization skill for Claude Code — Google, Meta, TikTok, LinkedIn, Microsoft, Apple, YouTube. Now with /ads update for last-30-days platform refresh. Maintained by tododeia.com.",
@@ -15825,6 +15940,37 @@
     ],
     "stars": 26,
     "lastPush": "2026-10-31T06:11:52Z"
+  },
+  {
+    "repo": "jimmyraouf/academic-revision-checklist",
+    "name": "academic-revision-checklist",
+    "description": "   66 reader-first rules for revising academic English, drawn from 60+ revision rounds of a PhD dissertation, with a 16-item quick list, a script that flags places to reread, and a Claude skill.",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "claude-skills",
+      "dissertation",
+      "proofreading",
+      "thesis"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-29T04:03:50Z"
+  },
+  {
+    "repo": "mromidev/claude-blender-skills",
+    "name": "claude-blender-skills",
+    "description": "Free Claude skills for realistic Blender animations: full workflows + the real scripts behind my YouTube videos",
+    "tags": [
+      "3d-animation",
+      "blender",
+      "blender-python",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "cycles"
+    ],
+    "stars": 26,
+    "lastPush": "2026-10-25T15:20:35Z"
   },
   {
     "repo": "wrsmith108/varlock-claude-skill",
@@ -30674,6 +30820,27 @@
     "lastPush": "2026-10-29T08:14:39Z"
   },
   {
+    "repo": "quinnod345/ponder",
+    "name": "ponder",
+    "description": "Convergent deliberation loop for coding agents: multi-pass, coverage-gated, append-only ledger review and planning. Claude Code, Codex, OpenClaw.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-mod",
+      "claude-code-skill",
+      "claude-skills",
+      "code-review",
+      "codex",
+      "developer-tools",
+      "gemini-cli-extension",
+      "llm-agents",
+      "openclaw"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-03T06:57:02Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -32646,6 +32813,24 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-01T18:06:38Z"
+  },
+  {
+    "repo": "jjietay/kaleidoscope",
+    "name": "kaleidoscope",
+    "description": "Claude Code skill that makes narrated teaching videos: a different animation style for each part, checked by six reviewer agents before render.",
+    "tags": [
+      "ai-agents",
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "education",
+      "explainer-video",
+      "manim",
+      "text-to-speech",
+      "threejs"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-03T06:02:57Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

@@ -8538,6 +8538,34 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "mhfed/vn-law-check",
+    "name": "vn-law-check",
+    "description": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline",
+    "tags": [
+      "agent-md",
+      "agent-skills",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "compliance",
+      "copilot-instructions",
+      "cursor-rules",
+      "data-protection",
+      "ecomerce",
+      "legal-tech",
+      "privacy",
+      "skills",
+      "vietnam"
+    ],
+    "stars": 248,
+    "lastPush": "2026-11-03T06:55:49Z",
+    "pool": "ranked",
+    "readmeLength": 1325,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
     "repo": "eriemon/verilog-generator",
     "name": "verilog-generator",
     "description": "Agent skill for Verilog-2001 RTL generation and FPGA design workflows.",
@@ -13808,6 +13836,40 @@
     "checkedAt": "2026-10-21T04:56:34.267Z"
   },
   {
+    "repo": "yanstd888/humanizer-lint",
+    "name": "humanizer-lint",
+    "description": "A local, zero-dependency prose, copywriting, UI-text, and code-comment linter that flags stiff, AI-sounding writing (stock phrases, flat sentence rhythm, repeated wording) and tells you what to revise. Includes 8 language packs. A style checker, not an AI detector.",
+    "tags": [
+      "agent-skill",
+      "agent-skills-tools",
+      "ai-humanizer-free",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex",
+      "codex-skill",
+      "copywriting-ai",
+      "cursor",
+      "gemini-cli",
+      "hermes-skill",
+      "markdown-linter",
+      "multilingual",
+      "prose-linter",
+      "skills-sh",
+      "stylometry",
+      "text-analysis",
+      "windsurf",
+      "writing-assistant",
+      "zero-dependency"
+    ],
+    "stars": 62,
+    "lastPush": "2026-11-02T17:39:09Z",
+    "pool": "ranked",
+    "readmeLength": 4595,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
     "repo": "jordanrubin/future_tokens",
     "name": "FUTURE_TOKENS",
     "description": "Composable reasoning skills for Claude - antithesize, excavate, metaphorize, synthesize, and more",
@@ -14291,6 +14353,31 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-10-10T05:59:33.654Z"
+  },
+  {
+    "repo": "heychengc/bighead-collage",
+    "name": "bighead-collage",
+    "description": "大头拼贴人物短片 Skill：给选题和文案，AI 一键出 9:16 竖屏人物故事视频（Claude Code / Codex）",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "collage",
+      "douyin",
+      "short-video",
+      "skill",
+      "text-to-video",
+      "video-generation"
+    ],
+    "stars": 58,
+    "lastPush": "2026-10-28T14:46:25Z",
+    "pool": "ranked",
+    "readmeLength": 370,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-03T06:55:06.588Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",
