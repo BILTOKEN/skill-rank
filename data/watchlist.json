@@ -3687,6 +3687,52 @@
     "checkedAt": "2026-11-01T06:16:01.181Z"
   },
   {
+    "repo": "cavaleiro-ai/android-optimizer",
+    "name": "android-optimizer",
+    "description": "Claude Code skill that optimizes Android phones over ADB and Fastboot. It asks how far to go first, from reversible tweaks to custom ROMs, root and overclocking. It can also set up a PS1 emulator.",
+    "tags": [
+      "adb",
+      "android",
+      "claude-code",
+      "claude-skills",
+      "custom-rom",
+      "debloat",
+      "emulator",
+      "fastboot",
+      "lineageos",
+      "ps1",
+      "retroarch"
+    ],
+    "stars": 29,
+    "lastPush": "2026-11-01T16:55:12Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
+    "repo": "melvynx/ai-maxxing-skills",
+    "name": "ai-maxxing-skills",
+    "description": "Skills Claude Code pour créer ton SaaS personnel (Cloudflare, Convex, Lumail, Stripe) : grill-me, audit-safety et plus. Ressource : codelynx.dev/fx",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "cloudflare",
+      "convex",
+      "saas",
+      "stripe"
+    ],
+    "stars": 29,
+    "lastPush": "2026-11-04T04:32:45Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
     "repo": "frmoretto/clarity-gate",
     "name": "clarity-gate",
     "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -4431,6 +4477,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "celiktech24-cell/smart-task-router",
+    "name": "smart-task-router",
+    "description": "Claude skill + plugin that picks the right model and effort for every task: Opus plans, Haiku/Sonnet build, every step is verified, and it escalates only on failure. Save tokens without losing quality.",
+    "tags": [
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "llm",
+      "model-routing",
+      "subagents",
+      "token-optimization"
+    ],
+    "stars": 27,
+    "lastPush": "2026-10-05T09:07:21Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
   },
   {
     "repo": "hainrixz/claude-ads",
@@ -17744,6 +17814,28 @@
     "checkedAt": "2026-09-15T04:59:22.170Z"
   },
   {
+    "repo": "getcheapapi/getcheapapi",
+    "name": "getcheapapi",
+    "description": "Open-source price router for paid data and media APIs: pick the cheapest provider per call, with budget guards for AI agents.",
+    "tags": [
+      "ai-agents",
+      "api",
+      "claude-code-skill",
+      "cost-optimization",
+      "dataforseo",
+      "price-comparison",
+      "serp-api",
+      "web-scraping"
+    ],
+    "stars": 8,
+    "lastPush": "2026-11-04T06:02:19Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
     "repo": "afeifun/aso-pro-max",
     "name": "aso-pro-max",
     "description": "End-to-end ASO toolkit for App Store Optimization — 6-stage pipeline (industry refresh → app analysis → locale research → draft → audit → write+verify), Snowball stem + CJK substring detection, free iTunes Search API + Google Suggest validation. Claude Code skill + standalone Python scripts.",
@@ -23455,6 +23547,26 @@
     "checkedAt": "2026-11-03T06:55:06.588Z"
   },
   {
+    "repo": "bitnormie01/build-system",
+    "name": "build-system",
+    "description": "Claude Code skill kit: hackathon link in → idea, spec, build, demo video and submission draft out. Won 1st at a BNB Chain hackathon",
+    "tags": [
+      "ai-agents",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "hackathon",
+      "web3"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-03T13:13:03Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -25930,6 +26042,40 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "novin3dp/claude-kicad-pcb-designer-skill",
+    "name": "claude-KiCad-pcb-designer-skill",
+    "description": "AI-agent-powered KiCad PCB design automation: Python schematics, intelligent placement, negotiated-congestion autorouting, routing repair, DDR/differential-pair tuning, DRC/ERC verification, interactive review, and manufacturing-ready outputs. Works with Claude Code, Codex, Copilot, Gemini, Cursor, and more.",
+    "tags": [
+      "agent-skills",
+      "anthropic",
+      "anthropic-claude",
+      "autorouter",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "eda",
+      "gerber",
+      "hardware-design",
+      "kicad",
+      "kicad-10",
+      "kicad-9",
+      "kicad-schematics",
+      "pcb-design",
+      "pcb-designer",
+      "pcb-routing",
+      "python",
+      "schematic-design"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-02T15:16:59Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -31171,6 +31317,24 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-02T06:17:02.261Z"
+  },
+  {
+    "repo": "gostak-dd/second-look-code-review",
+    "name": "second-look-code-review",
+    "description": "Second Look Code Review: an Agent Skill that turns a branch or PR into an interactive, risk-ranked code review guide. Works with Claude Code, Codex, Cursor, Copilot and more.",
+    "tags": [
+      "AI",
+      "claude-code",
+      "claude-code-skill",
+      "code-review"
+    ],
+    "stars": 2,
+    "lastPush": "2026-11-01T22:38:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-04T06:34:14.600Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",
