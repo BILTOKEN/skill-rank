@@ -1367,6 +1367,33 @@
     "checkedAt": "2026-10-29T05:54:37.259Z"
   },
   {
+    "repo": "artemisln/edit-reel",
+    "name": "edit-reel",
+    "description": "Claude skills that edit your reels for you: karaoke subtitles in any language, retakes and silence cut, zooms, SFX. I haven't edited a video by hand in 8 months.",
+    "tags": [
+      "ai-video",
+      "claude-code",
+      "claude-plugin",
+      "claude-skills",
+      "content-creation",
+      "ffmpeg",
+      "greek",
+      "reels",
+      "subtitles",
+      "tiktok",
+      "video-editing",
+      "whisper",
+      "youtube-shorts"
+    ],
+    "stars": 40,
+    "lastPush": "2026-11-04T10:55:20Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -3733,6 +3760,26 @@
     "checkedAt": "2026-11-04T06:34:14.600Z"
   },
   {
+    "repo": "jakeschincariol/seed-skill",
+    "name": "seed-skill",
+    "description": "11 Claude skills that take your startup from idea to funded: competitor research, investor matching, a business plan, a pitch deck and a closer that books your investor calls.",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "fundraising",
+      "pitch-deck",
+      "startups",
+      "venture-capital"
+    ],
+    "stars": 29,
+    "lastPush": "2026-11-01T19:51:51Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
+  },
+  {
     "repo": "frmoretto/clarity-gate",
     "name": "clarity-gate",
     "description": "Stop LLMs from hallucinating your guesses as facts. Clarity Gate is a verification protocol for your documents that are going to be provided to LLMs or RAG systems. Place automatically the missing uncertainty markers to avoid confident hallucinations. HITL for non-directly verifiable claims.",
@@ -4501,6 +4548,40 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
+    "repo": "encidxvii/claude-reverse-engineering-skill",
+    "name": "claude-reverse-engineering-skill",
+    "description": "Reverse engineering skill for Claude Code and other AI coding agents.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "android-reverse-engineering",
+      "apk",
+      "binary-analysis",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "ctf",
+      "decompiler",
+      "firmware-analysis",
+      "frida",
+      "ghidra",
+      "ios",
+      "malware-analysis",
+      "mcp",
+      "radare2",
+      "reverse-engineering",
+      "security-tools"
+    ],
+    "stars": 27,
+    "lastPush": "2026-10-19T15:54:00Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
   },
   {
     "repo": "hainrixz/claude-ads",
@@ -21362,6 +21443,38 @@
     "checkedAt": "2026-10-29T05:54:37.259Z"
   },
   {
+    "repo": "wrg32786/aigent-design-system",
+    "name": "aigent-design-system",
+    "description": "a design skill for claude code, cursor and codex: art direction, reference analysis and browser QA for your frontend",
+    "tags": [
+      "agent-skills",
+      "agents-md",
+      "ai-design",
+      "browser-qa",
+      "chromium",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "cursor-rules",
+      "design-review",
+      "design-system",
+      "design-tokens",
+      "developer-tools",
+      "frontend-design",
+      "ui-design",
+      "web-design"
+    ],
+    "stars": 5,
+    "lastPush": "2026-11-04T17:50:38Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -23565,6 +23678,33 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
+    "repo": "havascxistanbul/ste-prompt-fixer",
+    "name": "ste-prompt-fixer",
+    "description": "Agent skill that rewrites sloppy prompts in ASD-STE100 style (~80%) and picks the right output format (text / diagram / HTML). Inspired by Andrej Karpathy's Oct 2026 post.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "asd-ste100",
+      "claude",
+      "claude-api",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-skills",
+      "lllm",
+      "mcp",
+      "mcp-tools",
+      "prompt-engineering"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-04T14:54:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -26076,6 +26216,55 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
+    "repo": "mindsmaster/godot-claude-code-skills",
+    "name": "godot-claude-code-skills",
+    "description": "Godot 4 skills for Claude Code. Directs it to built-in nodes, resources and project settings across 2D, 3D, UI, audio, shaders, editor tooling and headless testing, in GDScript and C#. Every example is run or compiled against Godot in CI.",
+    "tags": [
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-plugin",
+      "claude-skills",
+      "gdscript",
+      "godot",
+      "godot-4",
+      "godot-engine",
+      "godot4",
+      "godotengine"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-03T05:37:40Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
+  },
+  {
+    "repo": "tomeraitz/cv-assistant",
+    "name": "cv-assistant",
+    "description": "Claude Code skill that keeps your master resume up to date and tailors it to job postings using a team of worker subagents.",
+    "tags": [
+      "ats",
+      "claude-code",
+      "claude-code-skill",
+      "claude-plugin",
+      "cv",
+      "job-search",
+      "resume"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-26T19:27:42Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
@@ -31335,6 +31524,23 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-04T06:34:14.600Z"
+  },
+  {
+    "repo": "sidsvictus/1v1",
+    "name": "1v1",
+    "description": "Claude Code skill for increasing efficiency and reliability of claude models at high stake and near impossible tasks. ",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills-creator"
+    ],
+    "stars": 2,
+    "lastPush": "2026-10-21T06:44:24Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-05T06:56:25.199Z"
   },
   {
     "repo": "dgrauet/claude-skill-mlx-porting",

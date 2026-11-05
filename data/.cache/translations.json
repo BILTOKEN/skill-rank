@@ -2835,11 +2835,11 @@
     "backTranslationDiff": 0.25
   },
   "alirezarezvani/claude-skills": {
-    "sourceHash": "02d0971c141acfae",
-    "chineseDescription": "380 个 Claude Code 技能、代理技能和插件（30+ 代理、70+ 自定义命令、380+ 技能、可自定义引用和脚本），适用于 Claude Code、Codex、Gemini CLI、Cursor 等 8 种以上编码代理——涵盖工程、营销、产品、合规、C 级顾问、研究、业务运营、商业与财务，以及日常生产力技能。",
-    "prompt": "请从 https://github.com/alirezarezvani/claude-skills 下载整个仓库，并将所有文件保存到 .claude/skills/claude-skills/ 目录中，完成安装。安装后请简要列出可用的技能类别和几个示例技能名称。",
-    "translatedAt": "2026-08-26T02:16:27.333Z",
-    "backTranslationDiff": 0.16216216216216217
+    "sourceHash": "5486fa7c38478f36",
+    "chineseDescription": "这是一个包含 410 个 Claude Code skill（技能）、agent skill（智能体技能）和 plugin（插件）的合集，里面有 120 多个 agent（智能体）、自定义命令、410 多个 skill、可定制的 reference（参考资料）和 script（脚本）。它适用于 Claude Code、Codex、Gemini CLI、Cursor 等 11 种编码 agent，覆盖工程、营销、产品、合规、C-level 顾问、研究、业务运营、商业与财务，以及日常效率等场景。",
+    "prompt": "请帮我安装 claude-skills 技能包：从 GitHub 仓库 https://github.com/alirezarezvani/claude-skills 下载全部文件，保存到当前项目的 .claude/skills/claude-skills/ 目录下（没有该目录就创建）。下载完成后，检查目录结构是否完整，并告诉我安装了哪些 skill 和 agent。",
+    "translatedAt": "2026-11-05T07:19:33.229Z",
+    "backTranslationDiff": 0.2702702702702703
   },
   "muratcankoylan/agent-skills-for-context-engineering": {
     "sourceHash": "d7019e6678a41c6a",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "35fadb1c63f35dce",
-    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的移植版本，支持 Claude Code、Codex、Copilot、Pi、OpenCode、Muse、Gemini 和 Prime Agent。它提供一套严谨的 agent 工作流（workflow），把原本为 Cursor 设计的原语（primitives）翻译适配到其他 harness 上使用。",
-    "prompt": "请帮我安装 pstack-claude 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/pstack-claude/ 目录；3) 把仓库里的文件放到该目录下，确保 SKILL.md 位于 .claude/skills/pstack-claude/SKILL.md；4) 安装完成后告诉我目录结构和怎么用。仓库地址：https://github.com/michael-denyer/pstack-claude",
-    "translatedAt": "2026-10-22T05:19:36.497Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "44a8c4c72bac66ae",
+    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的移植版本，支持 Antigravity、Claude Code、Codex、Copilot、Gemini、Muse、OpenCode、Pi 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（agent workflow）翻译成其他 harness 能用的形式，让不同工具都能跑同一套流程。",
+    "prompt": "请帮我安装 pstack-claude 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件（可以用 git clone https://github.com/michael-denyer/pstack-claude 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/pstack-claude/ 目录下创建文件夹（如果不存在就先建好）；3) 把下载到的文件全部复制到 .claude/skills/pstack-claude/ 里，确保 SKILL.md 等文件在正确位置；4) 完成后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-05T07:19:28.767Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "6cac47c094053c9b",
@@ -9035,5 +9035,19 @@
     "prompt": "请帮我安装 talking-explainer 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/brewed-ops/talking-explainer 下载全部文件（可以用 git clone https://github.com/brewed-ops/talking-explainer 或直接下载仓库压缩包）；2) 在当前项目的 .claude/skills/talking-explainer/ 目录下创建技能目录（如果目录不存在就新建）；3) 把下载到的技能文件放到 .claude/skills/talking-explainer/ 里，确保 SKILL.md 等文件位于该目录根部；4) 安装完成后列出该目录内容，确认安装成功，并告诉我怎么使用这个技能。",
     "translatedAt": "2026-11-03T07:21:54.614Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "beyondtahir/beyondseo": {
+    "sourceHash": "3f5b00e65a5f3271",
+    "chineseDescription": "你的 AI SEO 大本营。在 AI 助手里就能审计网站、写有用的内容、对比竞争对手、规划外链（backlink）。免费开源。",
+    "prompt": "请帮我安装 beyondseo 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/beyondtahir/beyondseo 下载全部文件（可以直接 git clone 或下载压缩包）；2) 在当前项目的 .claude/skills/beyondseo/ 目录下创建好文件夹（如果不存在就新建）；3) 把仓库里的文件复制到该目录，确保 SKILL.md 等文件都在 .claude/skills/beyondseo/ 下；4) 安装完成后列出目录内容确认一下。仓库地址是 https://github.com/beyondtahir/beyondseo ，不要假设我已经下载过，请自己去获取。",
+    "translatedAt": "2026-11-05T07:19:37.668Z",
+    "backTranslationDiff": 0.3125
+  },
+  "artemisln/edit-reel": {
+    "sourceHash": "42747d24ceb6e3b7",
+    "chineseDescription": "这个 Claude skill 能帮你自动剪辑短视频（reel）：自动生成任意语言的卡拉 OK 风格字幕（karaoke subtitles）、剪掉重拍和静音片段（retakes and silence cut）、加缩放效果（zooms）和音效（SFX）。作者说自己已经 8 个月没手动剪过视频了。",
+    "prompt": "请帮我安装 edit-reel 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/artemisln/edit-reel 下载全部文件（可以用 git clone https://github.com/artemisln/edit-reel 或直接下载压缩包）；2) 在当前项目的 .claude/skills/edit-reel/ 目录下创建该 skill（如果目录不存在就先创建）；3) 把仓库里的文件放到这个目录中，确保 SKILL.md 位于 .claude/skills/edit-reel/SKILL.md；4) 安装完成后告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-11-05T07:19:41.804Z",
+    "backTranslationDiff": 0.55
   }
 }
