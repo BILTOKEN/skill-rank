@@ -14653,6 +14653,41 @@
     "lastPush": "2026-10-30T09:24:02Z"
   },
   {
+    "repo": "omergocmen/ai-video-edit-workflow",
+    "name": "ai-video-edit-workflow",
+    "description": "Yapay zeka ile video edit: formu doldur, brif otomatik hazırlansın. Claude Code, Codex veya Gemini CLI videoyu analiz edip Remotion şeffaf katmanı ve ffmpeg ile birleştirir. 25 efekt, kamera tespiti, müzik, Windows tek tık kurulum.",
+    "tags": [
+      "ai-motion-graphics",
+      "ai-tools",
+      "ai-video-editing",
+      "ai-video-editor",
+      "ai-video-workflow",
+      "claude-code",
+      "claude-skills",
+      "claude-video-editing",
+      "claude-video-effects",
+      "motion-graphics",
+      "video-effects"
+    ],
+    "stars": 31,
+    "lastPush": "2026-11-04T13:39:22Z"
+  },
+  {
+    "repo": "jakeschincariol/closer-skill",
+    "name": "closer-skill",
+    "description": "11 Claude skills that run your whole sales team: find leads, cold outreach, follow-ups, call coaching and contracts. Free.",
+    "tags": [
+      "claude",
+      "claude-skills",
+      "cold-email",
+      "crm",
+      "sales",
+      "sales-coaching"
+    ],
+    "stars": 31,
+    "lastPush": "2026-11-01T14:15:16Z"
+  },
+  {
     "repo": "spillwavesolutions/jira",
     "name": "jira",
     "description": "Claude Skill For JIRA",
@@ -14805,6 +14840,28 @@
     ],
     "stars": 30,
     "lastPush": "2026-09-15T03:08:17Z"
+  },
+  {
+    "repo": "fantuan-lab/animated-sticker-studio",
+    "name": "animated-sticker-studio",
+    "description": "One character image → a full pack of animated chat stickers (WeChat / Telegram / LINE / Discord). Claude Code & Codex skill · 给 AI 一张图，做一整套会动的表情包",
+    "tags": [
+      "agent-skills",
+      "ai-art",
+      "animated-stickers",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "gif",
+      "image-generation",
+      "line-stickers",
+      "sticker",
+      "stickers",
+      "telegram-stickers",
+      "wechat"
+    ],
+    "stars": 30,
+    "lastPush": "2026-11-06T05:26:11Z"
   },
   {
     "repo": "brettdavies/crawl4ai-skill",
@@ -24841,6 +24898,22 @@
     "lastPush": "2026-10-23T19:47:04Z"
   },
   {
+    "repo": "johntony1/site-prompt",
+    "name": "site-prompt",
+    "description": "Point at any part of a website and get a prompt that rebuilds it 1:1, or break it down layer by layer to learn how it is made. A Claude Code skill.",
+    "tags": [
+      "ai-prompts",
+      "claude-code",
+      "claude-code-skill",
+      "css",
+      "design-to-code",
+      "mcp",
+      "web-design"
+    ],
+    "stars": 10,
+    "lastPush": "2026-11-06T06:54:53Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -33130,6 +33203,35 @@
     ],
     "stars": 3,
     "lastPush": "2026-10-26T19:27:42Z"
+  },
+  {
+    "repo": "nyxandro/feature-blueprint-skill",
+    "name": "feature-blueprint-skill",
+    "description": "Claude Code skill for spec-driven development: turns a feature idea into a research-backed spec (PRD-style product part and technical design) and a step-by-step implementation plan with tests, sized to your project. Agent Skills format: also works in Codex, OpenCode and Cursor.",
+    "tags": [
+      "agent-skills",
+      "agentic-coding",
+      "ai-agent",
+      "ai-agents",
+      "ai-coding",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "opencode",
+      "prd",
+      "product-management",
+      "requirements-engineering",
+      "skills",
+      "software-design",
+      "spec-driven-development",
+      "ux-design"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-05T21:55:47Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

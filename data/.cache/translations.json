@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "c3e53461f5299d4f",
-    "chineseDescription": "这是一个包含 2,884+ 个可复用 AI agent skill（技能）的合集，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还提供本地目录发现、由 agent 自主选择技能以及计划预览功能。支持 CLI、MCP 和插件三种接入方式。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。请从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件，并保存到 .claude/skills/antigravity-awesome-skills/ 目录下完成安装。如果该目录不存在请先创建，安装完成后告诉我怎么用。",
-    "translatedAt": "2026-11-01T06:36:01.451Z",
-    "backTranslationDiff": 0.38095238095238093
+    "sourceHash": "1ed423027f9d000e",
+    "chineseDescription": "这是一个包含 2,926+ 个可复用 AI agent skill（技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 额外提供本地目录发现（local catalog discovery）、由 agent 自主选择技能以及计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）三种接入方式。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone https://github.com/sickn33/antigravity-awesome-skills 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录；3) 把下载到的文件全部放进这个目录；4) 确认目录结构正确后告诉我安装完成，并简单说明有哪些技能可用。",
+    "translatedAt": "2026-11-06T07:12:19.770Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -5796,11 +5796,11 @@
     "backTranslationDiff": 0.1578947368421053
   },
   "davila7/claude-code-templates": {
-    "sourceHash": "119134eb7ed861ca",
-    "chineseDescription": "配置和监控 Claude Code 的 CLI（命令行界面）工具",
-    "prompt": "请从 https://github.com/davila7/claude-code-templates 下载该仓库的全部文件，并将它们保存到 .claude/skills/claude-code-templates/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:24:53.954Z",
-    "backTranslationDiff": 0.6
+    "sourceHash": "a9e8da8061b4ddf9",
+    "chineseDescription": "一个开源注册中心和 CLI（命令行工具），用于管理 Claude Code 的各种组件：agents（智能体）、commands（命令）、skills（技能）、hooks（钩子）、MCPs（模型上下文协议）、settings（配置）和 mods（模组）。",
+    "prompt": "请帮我安装 claude-code-templates 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/davila7/claude-code-templates 下载该项目的文件（可以用 git clone 或直接下载压缩包）；2) 在项目目录下找到 Skill 相关文件（如 SKILL.md 及配套脚本/资源）；3) 将文件保存到 .claude/skills/claude-code-templates/ 目录下（如果目录不存在就创建）；4) 确认 SKILL.md 已就位，并简要告诉我安装结果和这个 Skill 的用途。",
+    "translatedAt": "2026-11-06T07:12:24.428Z",
+    "backTranslationDiff": 0.41666666666666663
   },
   "revfactory/harness": {
     "sourceHash": "636a2e6cb89cfdce",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "c3e53461f5299d4f",
-    "chineseDescription": "为 Claude Code、Codex、Cursor 和 Gemini CLI 提供 2,884+ 个可复用的 AI agent 技能（skills）。AAS Core 增加了本地目录发现（local catalog discovery）、agent 自主选择（agent-owned selection）和计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载全部文件，并保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我安装结果和可用的技能列表。",
-    "translatedAt": "2026-11-01T06:35:57.494Z",
-    "backTranslationDiff": 0.19047619047619047
+    "sourceHash": "1ed423027f9d000e",
+    "chineseDescription": "这是一个包含 2,926+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还提供本地目录发现（local catalog discovery）、由 agent 自主选择技能（agent-owned selection）以及计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）三种使用方式。",
+    "prompt": "帮我安装 agentic-awesome-skills 这个 skill 集合。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载文件，保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我怎么用，比如怎么浏览技能目录、怎么让 agent 自己选技能、怎么预览执行计划。",
+    "translatedAt": "2026-11-06T07:12:15.355Z",
+    "backTranslationDiff": 0.23809523809523814
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
