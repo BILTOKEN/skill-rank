@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "de228f900c58a26e",
-    "chineseDescription": "X（Twitter）数据抓取 API（scraper API）和 Twitter MCP 服务器（MCP server），用于抓取推文（tweets）、用户资料（profiles）和粉丝（followers）。与 X Corp. 无关联。",
-    "prompt": "请帮我安装 x-twitter-scraper 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载所有文件，并保存到 .claude/skills/x-twitter-scraper/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么、怎么用。",
-    "translatedAt": "2026-10-15T05:10:40.408Z",
-    "backTranslationDiff": 0.8181818181818181
+    "sourceHash": "008165872472622c",
+    "chineseDescription": "X（Twitter）爬虫 API（scraper API）、Twitter MCP 服务器（MCP server），以及用于抓取推文（tweets）和粉丝（followers）的 Claude 技能（skill）。与 X Corp. 无关联。",
+    "prompt": "请帮我安装 x-twitter-scraper 这个 Claude 技能。请从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载该技能的所有文件，并保存到 .claude/skills/x-twitter-scraper/ 目录下完成安装。安装完成后告诉我它提供了哪些功能（比如抓取推文、抓取粉丝、MCP 服务器等），以及如何开始使用。",
+    "translatedAt": "2026-11-07T06:27:01.804Z",
+    "backTranslationDiff": 0.07692307692307687
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "8fe2f98bf84c7abd",
-    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级的合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、欧盟 AI 法案（EU AI Act）、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI 风险（NIST AI Risk）、SWIFT、CCPA/CPRA 等。基准测试成绩：使用 Skills 时 89%，不使用 Skills 时 55%。每月更新。",
-    "prompt": "请帮我安装 Claude-Skills-Governance-Risk-and-Compliance 这个 Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件（如果 git 可用就用 git clone，否则用 curl 或 wget 下载压缩包并解压）。\n2. 在项目根目录创建 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录。\n3. 把下载到的所有文件放到该目录下（保持原有的目录结构，确保 SKILL.md 等文件位于 .claude/skills/claude-skills-governance-risk-and-compliance/ 内）。\n4. 安装完成后，列出该目录下的文件，确认安装成功。\n\n仓库地址：https://github.com/sushegaad/claude-skills-governance-risk-and-compliance",
-    "translatedAt": "2026-10-04T06:20:26.700Z",
-    "backTranslationDiff": 0.9411764705882353
+    "sourceHash": "4381d45228637bbc",
+    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、CCPA/CPRA 等框架。基准测试成绩：使用 Skills 时 90%，不使用时为 49%。每月更新。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件，保存到当前项目的 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下（如果目录不存在就创建）。下载完成后，确认 SKILL.md 等文件已就位，并告诉我安装结果。",
+    "translatedAt": "2026-11-07T06:26:52.933Z",
+    "backTranslationDiff": 0.20588235294117652
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -8246,11 +8246,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "zenstory-ai/drama-skills": {
-    "sourceHash": "a818d5abdaf61df8",
-    "chineseDescription": "开源 AI 短剧/漫剧创作 skill（技能）合集：涵盖剧本、角色资产、分镜 storyboard（故事板）、图片/视频提示词（prompt）、审查，适配 Claude Code 与 Codex。采用 MIT 许可证。",
-    "prompt": "请帮我安装 drama-skills 这个 skill（技能）。请从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载全部文件，并保存到 .claude/skills/drama-skills/ 目录下完成安装。安装完成后告诉我这个 skill 包含哪些功能。",
-    "translatedAt": "2026-09-14T05:20:08.036Z",
-    "backTranslationDiff": 0.8095238095238095
+    "sourceHash": "7fd6b0ca420233ee",
+    "chineseDescription": "这是一个 AI 短剧和漫剧制作的 skill 合集，包含小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词、成片审片等一整套流程，适配 Claude Code、Codex 等工具。简单说，就是从小说到成片的全流程助手，开源可免费用。",
+    "prompt": "请帮我安装 drama-skills 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/drama-skills/；3) 把下载的文件放到这个目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我装了哪些 skill、怎么用。仓库地址是 https://github.com/zenstory-ai/drama-skills ，如果下载失败请提示我检查网络或手动下载。",
+    "translatedAt": "2026-11-07T06:26:47.833Z",
+    "backTranslationDiff": 0.6923076923076923
   },
   "eternityspring/reelbench-skills": {
     "sourceHash": "70ea79dd6a253f19",
@@ -8834,11 +8834,11 @@
     "backTranslationDiff": 0.11111111111111116
   },
   "nyxandro/t-invest-skill": {
-    "sourceHash": "47ce128f41e66062",
-    "chineseDescription": "T-Invest 投资技能（Skill），专为 AI 智能体（AI Agent）打造：通过 T-Invest API（T-Invest 接口），按你的指令查询券商账户的持仓组合（portfolio）、收益率（доходность）、行情分析（аналитика）并执行交易（сделки）。",
-    "prompt": "请帮我安装一个 Claude Code Skill，名称是 t-invest-skill。请你自己去 GitHub 仓库 https://github.com/nyxandro/t-invest-skill 下载该仓库的全部文件，并保存到项目的 .claude/skills/t-invest-skill/ 目录下（如果目录不存在就创建）。下载完成后，检查目录里是否有 SKILL.md 或类似的说明文件，确认安装成功，并简要告诉我这个 Skill 是做什么的、怎么用。注意：不要假设我已经提前下载或安装过任何东西，一切由你从 https://github.com/nyxandro/t-invest-skill 自行获取。",
-    "translatedAt": "2026-10-24T05:04:11.556Z",
-    "backTranslationDiff": 0.9285714285714286
+    "sourceHash": "e15e106111bd8fa3",
+    "chineseDescription": "这是一个给 AI 代理（Claude Code、Codex、OpenCode、Cursor）用的 T-Invest（Tinkoff Invest）券商技能，通过 T-Invest API 查询经纪账户的持仓、收益率、分析数据，还能下单交易。简单说就是让 AI 能直接操作你的 Tinkoff 投资账户。",
+    "prompt": "请帮我安装 t-invest-skill 技能：从 GitHub 仓库 https://github.com/nyxandro/t-invest-skill 下载全部文件，保存到 .claude/skills/t-invest-skill/ 目录下（如果目录不存在就创建），完成后告诉我安装了哪些文件、这个技能怎么用。注意：不要假设我本地已经有这个仓库，请直接用 git clone 或下载方式获取。",
+    "translatedAt": "2026-11-07T06:27:06.278Z",
+    "backTranslationDiff": 0.5909090909090908
   },
   "actionow-ai/c2c_img": {
     "sourceHash": "ea534b46da842199",
@@ -8932,11 +8932,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "drix10/ai-resources": {
-    "sourceHash": "5255ddbf2bf53f99",
-    "chineseDescription": "这个 Skill 提供 10 万多条 AI 简报（briefing），覆盖 41 个分类：模型、开发工具、智能体（agent）、研究、融资等。每条新简报都会对照原始来源帖子做事实核查（fact-check），并附上原文链接。内容为纯 Markdown 格式，采用 CC BY 4.0 许可。它同时提供 MCP server 和 Agent Skill，让 Claude、Cursor 或 VS Code 能直接查询最新简报。也可以到 blogs.drix10.com 阅读。",
-    "prompt": "请帮我安装 ai-resources 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/drix10/ai-resources 下载全部文件（可以用 git clone https://github.com/drix10/ai-resources 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/ai-resources/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、怎么用。",
-    "translatedAt": "2026-10-30T06:16:01.109Z",
-    "backTranslationDiff": 0.34615384615384615
+    "sourceHash": "b0fa8f6e766bf544",
+    "chineseDescription": "10 万+ 条 AI 简报（briefing），覆盖 41 个分类：模型、开发工具、智能体（agent）、研究、融资。每条新简报都会对照原始来源帖子做事实核查（fact-check），并附上原文链接。纯 Markdown 格式，采用 CC BY 4.0 协议。提供 MCP server 和 Agent Skill，让 Claude、Cursor 或 VS Code 能直接查询最新内容。Signals 功能追踪哪些方向正在加速。可在 blogs.drix10.com 阅读。",
+    "prompt": "请帮我安装 ai-resources 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/drix10/ai-resources 下载全部文件（可用 git clone https://github.com/drix10/ai-resources.git 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/ai-resources/ 目录；3) 把仓库里的 Skill 相关文件（如 SKILL.md 及其引用的资源文件）复制到 .claude/skills/ai-resources/ 下；4) 检查 SKILL.md 里的 frontmatter（name、description）是否完整，如有 MCP server 配置说明也一并按文档配置好；5) 完成后告诉我安装结果和如何使用。",
+    "translatedAt": "2026-11-07T06:26:57.683Z",
+    "backTranslationDiff": 0.3666666666666667
   },
   "ssinder/bioinformatics-agent-skills": {
     "sourceHash": "384c947f44905992",
@@ -9049,5 +9049,19 @@
     "prompt": "请帮我安装 edit-reel 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/artemisln/edit-reel 下载全部文件（可以用 git clone https://github.com/artemisln/edit-reel 或直接下载压缩包）；2) 在当前项目的 .claude/skills/edit-reel/ 目录下创建该 skill（如果目录不存在就先创建）；3) 把仓库里的文件放到这个目录中，确保 SKILL.md 位于 .claude/skills/edit-reel/SKILL.md；4) 安装完成后告诉我这个 skill 怎么用。",
     "translatedAt": "2026-11-05T07:19:41.804Z",
     "backTranslationDiff": 0.55
+  },
+  "gamedev-skills/awesome-gamedev-agent-skills": {
+    "sourceHash": "3cb1bd13c69178aa",
+    "chineseDescription": "给 AI 编程助手用的 77 个游戏开发技能（skill），覆盖 Godot、Unity、Unreal、Phaser、PixiJS、three.js、Bevy、pygame、LÖVE、Roblox。用的是可移植的 SKILL.md Agent Skills 格式（也就是 Anthropic 推出 Claude Skills 时用的那套格式），还带一个路由器（router），能根据你用的引擎和任务自动加载对应的技能。Claude Code、Cursor、Kiro、Codex、Copilot、Gemini CLI 等都能跑。",
+    "prompt": "请帮我安装 awesome-gamedev-agent-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/gamedev-skills/awesome-gamedev-agent-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/awesome-gamedev-agent-skills/ 目录下创建安装位置（如果目录不存在就新建）；3) 把下载到的内容放进这个目录，确保 SKILL.md 等文件都在里面；4) 安装完成后列出目录结构，确认安装成功。仓库地址是 https://github.com/gamedev-skills/awesome-gamedev-agent-skills ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-07T06:27:11.233Z",
+    "backTranslationDiff": 0.22499999999999998
+  },
+  "scottcjn/grazer-skill": {
+    "sourceHash": "605192ba349ca2e2",
+    "chineseDescription": "🐄 一个 Claude Code skill（技能），用来在 BoTTube、Moltbook、ClawCities、Clawsta 和 ClawHub 上「放牧」——也就是搜集值得一看的内容。【使用场景】当你想让 Claude Code 自动去这几个平台捞取有价值的内容时使用。",
+    "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 grazer-skill。请你自己去 GitHub 仓库 https://github.com/scottcjn/grazer-skill 下载这个仓库的文件，保存到 .claude/skills/grazer-skill/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-11-07T06:27:15.251Z",
+    "backTranslationDiff": 0.33333333333333337
   }
 }

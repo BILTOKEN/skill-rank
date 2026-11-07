@@ -1543,6 +1543,40 @@
     "checkedAt": "2026-05-31T15:26:11.340Z"
   },
   {
+    "repo": "gamedev-skills/awesome-gamedev-agent-skills",
+    "name": "awesome-gamedev-agent-skills",
+    "description": "77 game-dev skills for AI coding agents — Godot, Unity, Unreal, Phaser, PixiJS, three.js, Bevy, pygame, LÖVE, Roblox. Portable SKILL.md Agent Skills (the format Anthropic launched as Claude Skills), with a router that loads the right skill for your engine and task. Runs in Claude Code, Cursor, Kiro, Codex, Copilot, Gemini CLI and more.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "antigravity",
+      "awesome-list",
+      "claude-code",
+      "cline",
+      "codex",
+      "cursor",
+      "game-dev",
+      "game-development",
+      "gamedev",
+      "gemini-cli",
+      "github-copilot",
+      "godot",
+      "kiro",
+      "oh-my-pi",
+      "skills",
+      "unity",
+      "unreal",
+      "windsurf"
+    ],
+    "stars": 7338,
+    "lastPush": "2026-10-28T03:10:14Z",
+    "pool": "ranked",
+    "readmeLength": 2242,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-07T06:06:24.856Z"
+  },
+  {
     "repo": "internet-court/internet-court-skill",
     "name": "internet-court-skill",
     "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
@@ -9685,6 +9719,29 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "scottcjn/grazer-skill",
+    "name": "grazer-skill",
+    "description": "🐄 Claude Code skill for grazing worthy content across BoTTube, Moltbook, ClawCities, Clawsta, and ClawHub",
+    "tags": [
+      "ai-agents",
+      "bottube",
+      "claude-code",
+      "claude-code-skill",
+      "content-discovery",
+      "mcp",
+      "moltbook",
+      "nodejs",
+      "python"
+    ],
+    "stars": 197,
+    "lastPush": "2026-10-04T18:12:51Z",
+    "pool": "ranked",
+    "readmeLength": 1991,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-07T06:06:24.856Z"
   },
   {
     "repo": "will2025btc/buffett-perspective",
