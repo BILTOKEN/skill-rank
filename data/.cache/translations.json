@@ -4452,11 +4452,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "ikaijua/awesome-aitools": {
-    "sourceHash": "0a5fc7911afb541a",
-    "chineseDescription": "这是一个 AI 相关实用工具的合集，欢迎提交 pull requests 来贡献更多工具。",
-    "prompt": "请从 https://github.com/ikaijua/awesome-aitools 下载该项目，并将文件保存到 .claude/skills/awesome-aitools/ 目录下，完成安装。",
-    "translatedAt": "2026-05-26T14:32:30.382Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "4b6ca381cbb05c63",
+    "chineseDescription": "这个 skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音、开放权重模型（open-weight model）等。中英双语，人工逐条核对，每周更新。",
+    "prompt": "帮我安装 awesome-ai-tools 这个 skill。请从 GitHub 仓库 https://github.com/ikaijua/awesome-aitools 下载全部文件，保存到 .claude/skills/awesome-aitools/ 目录下，完成后告诉我装好了没有、都装了哪些文件。",
+    "translatedAt": "2026-11-08T06:31:37.867Z",
+    "backTranslationDiff": 0.5882352941176471
   },
   "mohitagw15856/pm-claude-skills": {
     "sourceHash": "a8f16bd9662dbb4b",
@@ -8085,11 +8085,11 @@
     "backTranslationDiff": 1
   },
   "zenstory-ai/oh-story-claudecode": {
-    "sourceHash": "749483c5fbe96bad",
-    "chineseDescription": "这是一套给 Claude Code / Codex / OpenCode 用的 agent skills（智能体技能包），专门写中文网文。从扫榜、拆文、写作、去 AI 味到做封面，全流程都覆盖，长篇短篇都能用。一共 14 个 skill，写小说和长篇连载时靠文件记录来保持剧情连贯（file-based continuity tracking）。MIT 协议开源。",
-    "prompt": "请帮我安装 oh-story-claudecode 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 把内容保存到当前项目的 .claude/skills/oh-story-claudecode/ 目录下（目录不存在就新建）；3) 确认 SKILL.md 等文件都在位，然后告诉我安装完成、有哪些 skill 可用。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，请自行下载，不要让我手动操作。",
-    "translatedAt": "2026-11-01T06:36:06.136Z",
-    "backTranslationDiff": 0.42105263157894735
+    "sourceHash": "d6a09742eea26ad9",
+    "chineseDescription": "这是一个 AI 写网文的全流程 skill 包（技能包），覆盖从扫榜选材、拆解爆款、大纲细纲，到长篇设定与伏笔追踪、短篇反转、去 AI 味和封面生成。适配 Claude Code、Codex、Antigravity、OpenCode 等工具，是一个专门用来写中文网文的 Agent skill pack（智能体技能包）。",
+    "prompt": "请帮我安装 oh-story-claudecode 这个 skill（技能包）。步骤：1. 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件（可以直接 git clone，或者用 curl 拉取仓库压缩包再解压）；2. 把内容保存到 .claude/skills/oh-story-claudecode/ 目录下（如果目录不存在就创建）；3. 确认 SKILL.md 等文件已就位，告诉我安装完成，并简单说明这个 skill 能干什么。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，不要假设我已经装过，请自己去下载。",
+    "translatedAt": "2026-11-08T06:31:29.370Z",
+    "backTranslationDiff": 0.5384615384615384
   },
   "adscanpro/claude-ad": {
     "sourceHash": "b7b339d79d154f3a",
@@ -8414,10 +8414,10 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "rebelytics/one-skill-to-rule-them-all": {
-    "sourceHash": "10d8edcdb9c26aee",
-    "chineseDescription": "这个 Skill 是个「元技能」（meta-skill），专门用来构建和改进你所有的技能，包括它自己。它会盯着你的工作过程（不管是自动跑的还是人工操作的），把里面的模式、纠正和判断决策都记下来，然后转化成技能改进方案和新的技能候选，交给你审核。这是「增强专业能力」（Augmented Expertise）方法论的实际落地。开源协议：CC BY 4.0。",
-    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/rebelytics/one-skill-to-rule-them-all 下载所有文件，保存到 .claude/skills/one-skill-to-rule-them-all/ 目录下，完成安装。如果目录不存在请先创建。安装完成后告诉我这个 Skill 是干什么用的。",
-    "translatedAt": "2026-10-03T05:42:46.823Z",
+    "sourceHash": "3aa98f29bbedcb24",
+    "chineseDescription": "这是一个元技能（meta-skill），专门用来改进你其他的技能，连它自己也能改。它会把你在会话中（不管是 AI 自主跑的还是人工带着做的）做出的纠正、临场判断和重复性工作流程，转化成小的技能更新和新的技能候选，每一条都附带证据和理由。在你批准之前，它不会动任何技能。说白了就是把「增强专业能力（Augmented Expertise）」落到实处。协议为 CC BY 4.0。",
+    "prompt": "请帮我安装一个 Claude Code 技能：one-skill-to-rule-them-all。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/rebelytics/one-skill-to-rule-them-all 下载该技能的全部文件（如果仓库里有 SKILL.md 或类似说明文件，也一并下载）。\n2. 在项目根目录下创建目录 .claude/skills/one-skill-to-rule-them-all/，把下载的文件放进去。\n3. 确认目录结构正确后，告诉我安装完成，并简要说明这个技能是干什么用的、怎么触发。\n\n注意：不要假设我已经提前下载或克隆了仓库，请你自己去 https://github.com/rebelytics/one-skill-to-rule-them-all 获取文件。",
+    "translatedAt": "2026-11-08T06:31:34.370Z",
     "backTranslationDiff": 0.48484848484848486
   },
   "autodesk-platform-services/skills": {
@@ -9063,5 +9063,215 @@
     "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 grazer-skill。请你自己去 GitHub 仓库 https://github.com/scottcjn/grazer-skill 下载这个仓库的文件，保存到 .claude/skills/grazer-skill/ 目录下，完成安装。安装好后告诉我怎么用。",
     "translatedAt": "2026-11-07T06:27:15.251Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "aws-samples/sample-apex-skills": {
+    "sourceHash": "d08bffdf770d595c",
+    "chineseDescription": "这是一套精选的 agentic AI skill（智能体 AI 技能），面向 AWS 平台工程（platform engineering），先从 Amazon EKS 和 Amazon ECS 入手，可以通过任意 coding agent（编码智能体）来使用。",
+    "prompt": "请帮我安装 sample-apex-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/aws-samples/sample-apex-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/sample-apex-skills/ 目录；3) 把仓库里的 skill 文件（包括 SKILL.md 及相关资源）复制到该目录下；4) 确认目录结构正确后告诉我安装完成，并简要说明这个 skill 的用途（面向 AWS 平台工程的 agentic AI 技能，涵盖 Amazon EKS 和 Amazon ECS）。",
+    "translatedAt": "2026-11-08T06:31:41.590Z",
+    "backTranslationDiff": 0.23076923076923073
+  },
+  "ikaijua/awesome-ai-tools": {
+    "sourceHash": "4b6ca381cbb05c63",
+    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音、开放权重模型（open-weight model）等。中英双语，人工逐条核对，每周更新。",
+    "prompt": "请帮我安装 awesome-ai-tools 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ikaijua/awesome-ai-tools 下载全部文件（可用 git clone https://github.com/ikaijua/awesome-ai-tools.git 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/awesome-ai-tools/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的文件复制到该目录中，确保 SKILL.md 等文件位于 .claude/skills/awesome-ai-tools/ 根目录下；4) 安装完成后列出目录内容，确认安装成功。",
+    "translatedAt": "2026-11-08T06:31:45.550Z",
+    "backTranslationDiff": 0.5882352941176471
+  },
+  "alchaincyf/huashu-excel": {
+    "sourceHash": "18fce51a1aec2f2b",
+    "chineseDescription": "数据分析与 Excel 全流程 skill（技能）：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent（智能体）通用，依赖仅 openpyxl。",
+    "prompt": "请帮我安装 huashu-excel 这个 skill（技能）。请从 GitHub 仓库 https://github.com/alchaincyf/huashu-excel 下载全部文件，保存到 .claude/skills/huashu-excel/ 目录下完成安装。安装前请先确认该目录是否已存在，若已存在请先告知我。安装完成后，请检查 SKILL.md 是否存在并简要说明这个 skill 的用途和依赖（openpyxl）。",
+    "translatedAt": "2026-11-08T06:31:49.675Z",
+    "backTranslationDiff": 0.8571428571428572
+  },
+  "alchaincyf/nuwa-skill": {
+    "sourceHash": "e2628c7e36d60fc5",
+    "chineseDescription": "你想蒸馏（distill）的下一个员工，何必是同事。可以蒸馏任何人的思维方式——心智模型（mental model）、决策启发式（decision heuristic）、表达 DNA。Distill how anyone thinks. 【使用场景】当你想把某个人的思考方式、决策逻辑和表达风格提炼成可复用的 AI 技能时使用，比如模仿某位专家的分析框架，或复刻某个角色的说话风格。",
+    "prompt": "请帮我安装 nuwa-skill 这个 Claude Code 技能。步骤：1）从 GitHub 仓库 https://github.com/alchaincyf/nuwa-skill 下载全部文件（可以用 git clone https://github.com/alchaincyf/nuwa-skill.git 或直接抓取仓库内容）；2）在当前项目的 .claude/skills/nuwa-skill/ 目录下创建并保存这些文件，保持原有目录结构；3）安装完成后告诉我这个技能怎么用。如果 .claude/skills/ 目录不存在就先创建。",
+    "translatedAt": "2026-11-08T06:31:54.224Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "alchaincyf/huashu-mac-use": {
+    "sourceHash": "6c43ece98e0a3763",
+    "chineseDescription": "让任何 agent（智能体）都能操控 Mac 上没有 API 的原生 app，能读取后台数据、写入时不打扰用户、每一步都留下取证记录 · 面向 macOS 电脑操作（computer use）的 Agent Skill",
+    "prompt": "请帮我安装 huashu-mac-use 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-mac-use 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/huashu-mac-use/ 目录；3) 把仓库里的文件全部放到该目录下，确保 SKILL.md 位于 .claude/skills/huashu-mac-use/SKILL.md；4) 安装完成后告诉我这个 Skill 怎么用。",
+    "translatedAt": "2026-11-08T06:31:58.467Z",
+    "backTranslationDiff": 0.19999999999999996
+  },
+  "alchaincyf/zhangxuefeng-skill": {
+    "sourceHash": "fbc299cac2ceffcd",
+    "chineseDescription": "张雪峰.skill — 张雪峰的认知操作系统。这是一套用于高考志愿填报、考研和职业规划的实战思维框架（thinking framework），由女娲.skill 生成。",
+    "prompt": "请帮我安装 zhangxuefeng-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/zhangxuefeng-skill 下载全部文件，并保存到 .claude/skills/zhangxuefeng-skill/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整，并告诉我如何使用。",
+    "translatedAt": "2026-11-08T06:32:02.129Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/darwin-skill": {
+    "sourceHash": "51420b57a08ca052",
+    "chineseDescription": "达尔文.skill —— 一个让你的 Skill 无限进化的系统：评估→改进→测试→保留或回滚。受 Autoresearch 启发的 Claude Code 自主技能优化方案，能自动评估、改进、测试技能，然后决定保留还是回滚。",
+    "prompt": "请帮我安装 darwin-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/alchaincyf/darwin-skill 下载全部文件，并保存到 .claude/skills/darwin-skill/ 目录下（如果目录不存在就创建）。下载完成后，确认 SKILL.md 等文件已就位，并告诉我安装结果。",
+    "translatedAt": "2026-11-08T06:32:05.855Z",
+    "backTranslationDiff": 0.6153846153846154
+  },
+  "alchaincyf/huashu-art-motion": {
+    "sourceHash": "3c55887e08ae1aee",
+    "chineseDescription": "艺术动画 skill（技能）：内置 35 种艺术风格、9 种解说语法（narrative grammar），用代码让画动起来。",
+    "prompt": "请帮我安装 huashu-art-motion 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/alchaincyf/huashu-art-motion 下载全部文件，保存到 .claude/skills/huashu-art-motion/ 目录下（如果目录不存在就先创建），完成后告诉我安装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-08T06:32:09.818Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/huashu-motion": {
+    "sourceHash": "cce51b2e37527b85",
+    "chineseDescription": "让你的 agent（智能体）一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+    "prompt": "请帮我安装 huashu-motion 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-motion 下载全部文件（可以直接 git clone https://github.com/alchaincyf/huashu-motion.git，或下载仓库 zip 包解压）；2) 在当前项目的 .claude/skills/huashu-motion/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、这个 Skill 能做什么。",
+    "translatedAt": "2026-11-08T06:32:13.748Z",
+    "backTranslationDiff": 0.11111111111111116
+  },
+  "alchaincyf/x-mentor-skill": {
+    "sourceHash": "9cbd8f3de45e811d",
+    "chineseDescription": "X导师.skill（X Mentor Skill）——女娲（Nuwa）的第一个「非人类」作品。它蒸馏（distill）了 6 位顶级 X 创作者的方法论，加上开源算法数据，提炼出一套完整的选题-写作-增长操作手册（playbook）。用女娲.skill 打造。",
+    "prompt": "帮我安装一个 Claude Code Skill，叫 x-mentor-skill。请你自己去 GitHub 仓库 https://github.com/alchaincyf/x-mentor-skill 下载这个仓库的文件，保存到 .claude/skills/x-mentor-skill/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-08T06:32:17.512Z",
+    "backTranslationDiff": 0.8
+  },
+  "alchaincyf/steve-jobs-skill": {
+    "sourceHash": "5f24238b6bb2a6a2",
+    "chineseDescription": "乔布斯.skill（Steve Jobs Skill）——把 Steve Jobs 的认知操作系统（cognitive operating system）打包成一个技能。里面包含 6 个心智模型（mental models）、8 条决策启发式（decision heuristics），还有完整的表达 DNA（表达风格与语言习惯）。这个技能由女娲.skill（Nuwa Skill）生成。",
+    "prompt": "请帮我安装 steve-jobs-skill 技能。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/steve-jobs-skill 下载全部文件（可以直接 git clone https://github.com/alchaincyf/steve-jobs-skill.git，或者用 curl 下载仓库压缩包并解压）；2) 在当前项目的 .claude/skills/ 目录下创建 steve-jobs-skill 文件夹（即 .claude/skills/steve-jobs-skill/）；3) 把下载到的文件全部放进这个目录，确保 SKILL.md 位于 .claude/skills/steve-jobs-skill/SKILL.md；4) 安装完成后告诉我目录结构和 SKILL.md 的内容摘要，确认技能可以被加载。",
+    "translatedAt": "2026-11-08T06:32:21.796Z",
+    "backTranslationDiff": 0.8
+  },
+  "alchaincyf/huashu-md-html": {
+    "sourceHash": "dbad08c5e513a8a8",
+    "chineseDescription": "md/html 双向流水线（bidirectional pipeline），三个能力一站式搞定：万物转 md（anything→md）、md 转精美 html（md→beautiful html）、html 转 md（html→md）。封装了 markitdown、Pandoc、html-to-markdown、trafilatura 这几个工具。内置 4 套反 AI slop（去 AI 味）主题。这是一个 Claude Code skill。",
+    "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/alchaincyf/huashu-md-html 下载该 skill 的全部文件，并保存到 .claude/skills/huashu-md-html/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 skill 能做什么、怎么用。",
+    "translatedAt": "2026-11-08T06:32:26.105Z",
+    "backTranslationDiff": 0.7692307692307692
+  },
+  "alchaincyf/elon-musk-skill": {
+    "sourceHash": "cf93c4d4b5273a21",
+    "chineseDescription": "马斯克.skill — 把 Elon Musk 的认知操作系统（cognitive operating system）打包成一个 Claude Code 技能（skill）。由女娲.skill 生成。",
+    "prompt": "帮我安装一个 Claude Code 技能（skill），名字叫 elon-musk-skill。请你自己去这个 GitHub 仓库下载：https://github.com/alchaincyf/elon-musk-skill ，把仓库里的文件保存到 .claude/skills/elon-musk-skill/ 目录下，装好后确认一下文件都在，并告诉我怎么用。",
+    "translatedAt": "2026-11-08T06:32:30.085Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "alchaincyf/huashu-report": {
+    "sourceHash": "6dc02594e8ed4896",
+    "chineseDescription": "机构级研究报告 Agent Skill（智能体技能）。规范是从 2026 年顶级机构的真实报告中反向提炼出来的，采集了 42 份、其中 41 份纳入量化基线（包括 Stanford、McKinsey、BCG、OpenAI、PwC、World Bank 等）。包含六种报告原型、8 种图表模式，以及可复用的生产流水线，跨 agent（智能体）通用。",
+    "prompt": "请帮我安装 huashu-report 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-report 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/huashu-report/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等核心文件已就位，并告诉我安装结果和怎么使用。",
+    "translatedAt": "2026-11-08T06:32:34.545Z",
+    "backTranslationDiff": 0.9090909090909091
+  },
+  "alchaincyf/munger-skill": {
+    "sourceHash": "1b3de4af4f6a8b27",
+    "chineseDescription": "芒格.skill（munger-skill）——把查理·芒格（Charlie Munger）的认知操作系统（cognitive operating system）打包成一个 Claude Code Skill。这个 Skill 由女娲.skill（Nuwa.skill）生成，核心是把芒格那套多元思维模型（mental models）、逆向思考（inversion）和决策检查清单变成 AI 可以直接调用的能力。",
+    "prompt": "请帮我安装 munger-skill 这个 Claude Code Skill。步骤：1）从 GitHub 仓库 https://github.com/alchaincyf/munger-skill 下载全部文件（可以用 git clone https://github.com/alchaincyf/munger-skill 或直接下载 zip 解压）；2）在项目根目录创建 .claude/skills/munger-skill/ 目录；3）把仓库里的文件全部复制到该目录下，确保 SKILL.md 位于 .claude/skills/munger-skill/SKILL.md；4）安装完成后列出目录内容确认安装成功，并告诉我怎么触发这个 Skill。",
+    "translatedAt": "2026-11-08T06:32:38.918Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/karpathy-skill": {
+    "sourceHash": "db6c9578fe6a4bdc",
+    "chineseDescription": "Andrej Karpathy 的认知操作系统（cognitive OS）。这不是语录合集，而是一套可运行的思维框架（thinking framework）。由 女娲.skill 制作。",
+    "prompt": "请帮我安装 karpathy-skill 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/karpathy-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/karpathy-skill/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 安装完成后列出该目录下的文件，确认安装成功。仓库地址是 https://github.com/alchaincyf/karpathy-skill ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-08T06:32:42.780Z",
+    "backTranslationDiff": 0.75
+  },
+  "alchaincyf/feynman-skill": {
+    "sourceHash": "3a104ee17e86cd39",
+    "chineseDescription": "费曼.skill — 理查德·费曼的认知操作系统（cognitive operating system）。由女娲.skill 生成。",
+    "prompt": "请帮我安装 feynman-skill：从 GitHub 仓库 https://github.com/alchaincyf/feynman-skill 下载全部文件，保存到 .claude/skills/feynman-skill/ 目录下，完成后告诉我安装结果。",
+    "translatedAt": "2026-11-08T06:32:46.498Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/trump-skill": {
+    "sourceHash": "f14bda25a717ef6d",
+    "chineseDescription": "特朗普的思维操作系统。不是模仿秀，而是一套可运行的谈判与权力分析框架（negotiation & power analysis framework）。用 女娲.skill 打造。",
+    "prompt": "请帮我安装 trump-skill 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/trump-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录下创建 .claude/skills/trump-skill/ 目录；3) 把仓库里的文件全部放到这个目录下，确保 SKILL.md 位于 .claude/skills/trump-skill/SKILL.md；4) 安装完成后告诉我目录结构和 SKILL.md 的内容摘要，确认安装成功。",
+    "translatedAt": "2026-11-08T06:32:50.272Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "alchaincyf/naval-skill": {
+    "sourceHash": "41373848d19e9530",
+    "chineseDescription": "纳瓦尔.skill（Naval Skill）——Naval Ravikant 的认知操作系统（cognitive operating system）。由女娲.skill（Nuwa Skill）生成。",
+    "prompt": "帮我安装 naval-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/alchaincyf/naval-skill 下载全部文件，保存到 .claude/skills/naval-skill/ 目录下，完成后告诉我装好了没有、怎么用。",
+    "translatedAt": "2026-11-08T06:32:53.211Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "alchaincyf/sun-yuchen-perspective": {
+    "sourceHash": "b7ad64b25ff44b4b",
+    "chineseDescription": "孙宇晨视角 Skill（sun-yuchen-perspective）——一套「注意力收割操作系统」，让 Claude Code 用孙宇晨的思维方式分析问题。由女娲.skill 蒸馏而来。",
+    "prompt": "请帮我安装 sun-yuchen-perspective 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/sun-yuchen-perspective 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/sun-yuchen-perspective/ 目录；3) 把仓库里的文件全部放进这个目录，确保 SKILL.md 位于 .claude/skills/sun-yuchen-perspective/SKILL.md；4) 安装完成后告诉我目录结构和 SKILL.md 的内容摘要，确认 Skill 已可用。",
+    "translatedAt": "2026-11-08T06:32:57.890Z",
+    "backTranslationDiff": 0.5
+  },
+  "alchaincyf/zhang-yiming-skill": {
+    "sourceHash": "efae861b9a8a0966",
+    "chineseDescription": "张一鸣的认知操作系统（cognitive operating system）。这不是语录合集，而是一套可运行的思维框架（thinking framework）。由女娲.skill 打造。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/zhang-yiming-skill 下载该 Skill 的全部文件，并保存到 .claude/skills/zhang-yiming-skill/ 目录下完成安装。安装完成后告诉我这个 Skill 的用途和如何触发使用。",
+    "translatedAt": "2026-11-08T06:33:01.603Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "alchaincyf/huashu-weread": {
+    "sourceHash": "5dc1189283f17c10",
+    "chineseDescription": "微信读书高阶顾问（WeRead Advisor）· 在官方 weread skill 之上加一层「读书顾问的工作流」· 书架+笔记交叉分析 · 4 个 workflow（advisor/path/alchemy/review）· 花叔出品",
+    "prompt": "请帮我安装 huashu-weread 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-weread 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/huashu-weread/ 目录下创建该 skill 的文件夹（如果目录不存在就新建）；3) 把下载到的文件放到 .claude/skills/huashu-weread/ 里，确保 SKILL.md 等文件位于该目录下；4) 安装完成后告诉我这个 skill 包含哪些 workflow、怎么用。",
+    "translatedAt": "2026-11-08T06:33:05.929Z",
+    "backTranslationDiff": 0.625
+  },
+  "alchaincyf/taleb-skill": {
+    "sourceHash": "2e4b33fbddb2ae8c",
+    "chineseDescription": "塔勒布.skill（taleb-skill）—— 把纳西姆·塔勒布（Nassim Taleb）的认知操作系统（cognitive operating system）打包成一个 Claude Code 技能（Skill）。由女娲.skill（Nüwa Skill）生成。",
+    "prompt": "帮我安装 taleb-skill 这个 Claude Code 技能（Skill）。请你自己去 GitHub 仓库 https://github.com/alchaincyf/taleb-skill 下载全部文件，保存到当前项目的 .claude/skills/taleb-skill/ 目录下（如果没有这个目录就新建），保持仓库原有的目录结构。装好后告诉我怎么用，以及这个技能是干什么的。",
+    "translatedAt": "2026-11-08T06:33:09.754Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "alchaincyf/mrbeast-skill": {
+    "sourceHash": "30b33a99661ee8ee",
+    "chineseDescription": "MrBeast 的内容创作操作系统（content creation OS）。这不是语录合集，而是一套可运行的内容方法论（content methodology）。由 女娲.skill 打造。",
+    "prompt": "请帮我安装 mrbeast-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/mrbeast-skill 下载全部文件，并保存到 .claude/skills/mrbeast-skill/ 目录下完成安装。安装完成后告诉我这个 skill 的用途和怎么触发使用。",
+    "translatedAt": "2026-11-08T06:33:13.299Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/huashu-flash": {
+    "sourceHash": "a9a55a9cd5fc7278",
+    "chineseDescription": "闪电.skill：照着 Anthropic 两周把 claude.ai 提速 3 倍的那套方法，给你的网站提速。先量（measure）、再证（prove）、后爬（climb），用棘轮（ratchet）锁住，只许变好不许变差。",
+    "prompt": "请帮我安装 huashu-flash 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-flash 下载全部文件（可以用 git clone https://github.com/alchaincyf/huashu-flash 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/huashu-flash/；3) 把下载到的文件复制到该目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-11-08T06:33:17.656Z",
+    "backTranslationDiff": 0.5
+  },
+  "alchaincyf/paul-graham-skill": {
+    "sourceHash": "f02511004d1b6916",
+    "chineseDescription": "Paul Graham 的认知操作系统（cognitive operating system）。这不是语录合集，而是一套可运行的思维框架（thinking framework）。由 女娲.skill 打造。",
+    "prompt": "帮我安装 paul-graham-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/paul-graham-skill 下载全部文件，保存到 .claude/skills/paul-graham-skill/ 目录下（如果目录不存在就创建）。安装完成后，确认 SKILL.md 等文件已就位，并告诉我怎么使用它。",
+    "translatedAt": "2026-11-08T06:33:21.301Z",
+    "backTranslationDiff": 1
+  },
+  "alchaincyf/seedance-skill": {
+    "sourceHash": "bcd71bc38c76f156",
+    "chineseDescription": "Seedance.skill 是一个白模（clay render）驱动的 AI 视频工作台。白模参考视频和提示词都来自同一份 scene.json，保证两者不会跑偏；渲染前会先做几何体检（geometry check），还能从一张照片反推出白模。简单说：用白模来掌控 AI 视频，提示词和画面始终对得上。",
+    "prompt": "请帮我安装 seedance-skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/seedance-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录下创建 .claude/skills/seedance-skill/ 目录（如果不存在的话）；3) 把下载到的文件放到该目录中，确保 SKILL.md 位于 .claude/skills/seedance-skill/SKILL.md；4) 安装完成后告诉我这个技能怎么用。",
+    "translatedAt": "2026-11-08T06:33:25.619Z",
+    "backTranslationDiff": 0.5
+  },
+  "alchaincyf/freud-skill": {
+    "sourceHash": "717dd37dbb301d52",
+    "chineseDescription": "弗洛伊德.skill（freud-skill）——一个给 AI 做心理分析的认知调优系统。它基于 Anthropic 的可解释性研究（interpretability research），把人格空间（personality space）、情绪向量（emotion vectors）、内省能力（introspection）这些概念，转化成能直接上手的 prompt 工程（prompt engineering）方法。说白了就是：给你的 AI 配个心理医生。用女娲.skill 做的。",
+    "prompt": "请帮我安装 freud-skill 这个 Claude Code Skill。步骤：1）从 GitHub 仓库 https://github.com/alchaincyf/freud-skill 下载全部文件（可以用 git clone https://github.com/alchaincyf/freud-skill.git 或直接下载压缩包）；2）在当前项目的 .claude/skills/freud-skill/ 目录下创建好文件夹（如果不存在就新建）；3）把仓库里的文件复制到该目录中，确保 SKILL.md 等文件都在 .claude/skills/freud-skill/ 下；4）安装完成后告诉我目录结构和怎么使用。仓库地址是 https://github.com/alchaincyf/freud-skill ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-08T06:33:30.355Z",
+    "backTranslationDiff": 0.7272727272727273
+  },
+  "alchaincyf/tramstop-skill": {
+    "sourceHash": "3fbe5893fa413dc3",
+    "chineseDescription": "电车站.skill（tramstop-skill）——人味不是删出来的。这是一个基于证据的去AI味（de-slop）技能：用四层AI味模型加上真实素材注入，帮你把文字改得像人写的。方法来自四版本盲测实验。",
+    "prompt": "请帮我安装 tramstop-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/alchaincyf/tramstop-skill 下载全部文件，保存到 .claude/skills/tramstop-skill/ 目录下（如果目录不存在就先创建）。安装完成后，请确认 SKILL.md 等文件都已就位，并告诉我怎么使用。",
+    "translatedAt": "2026-11-08T06:33:34.202Z",
+    "backTranslationDiff": 0.6
+  },
+  "alchaincyf/ilya-sutskever-skill": {
+    "sourceHash": "ca7b6eb6e94a35fd",
+    "chineseDescription": "Ilya Sutskever 的认知操作系统（cognitive operating system）。这不是语录合集，而是一套可运行的思维框架（thinking framework）。由 女娲.skill 打造。",
+    "prompt": "请帮我安装 ilya-sutskever-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/ilya-sutskever-skill 下载全部文件，并保存到 .claude/skills/ilya-sutskever-skill/ 目录下完成安装。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-08T06:33:37.771Z",
+    "backTranslationDiff": 1
   }
 }
