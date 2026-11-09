@@ -3052,10 +3052,10 @@
     "backTranslationDiff": 0.23529411764705888
   },
   "conorluddy/ios-simulator-skill": {
-    "sourceHash": "6e6fb821717fb6d6",
-    "chineseDescription": "这是一个给 Agent 用的 iOS 模拟器技能（Skill）。它能帮 Agent 更好地构建、运行 App 并与之交互，还能代理 xcodebuild（把构建命令包一层）来省 token。Claude、Codex 等都能用。",
-    "prompt": "请帮我安装 ios-simulator-skill 这个技能：从 https://github.com/conorluddy/ios-simulator-skill 下载仓库文件，保存到 .claude/skills/ios-simulator-skill/ 目录下，完成后告诉我装好了没、怎么用。",
-    "translatedAt": "2026-10-18T04:55:20.885Z",
+    "sourceHash": "7fb321e8f50e495c",
+    "chineseDescription": "XCode CLI 和模拟器（Simulator）技能。输出采用渐进式披露（progressive disclosure），尽量减少上下文和 token 消耗。让 AI agent 能构建、运行模拟器并驱动 iOS 应用，而不会被 Xcode 的大量输出淹没。现已支持 Duo。",
+    "prompt": "请帮我安装 ios-simulator-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/conorluddy/ios-simulator-skill 下载技能文件，并保存到 .claude/skills/ios-simulator-skill/ 目录下完成安装。安装完成后告诉我怎么使用。",
+    "translatedAt": "2026-11-09T07:07:28.334Z",
     "backTranslationDiff": 0.368421052631579
   },
   "prompt-security/clawsec": {
@@ -4452,11 +4452,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "ikaijua/awesome-aitools": {
-    "sourceHash": "4b6ca381cbb05c63",
-    "chineseDescription": "这个 skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音、开放权重模型（open-weight model）等。中英双语，人工逐条核对，每周更新。",
-    "prompt": "帮我安装 awesome-ai-tools 这个 skill。请从 GitHub 仓库 https://github.com/ikaijua/awesome-aitools 下载全部文件，保存到 .claude/skills/awesome-aitools/ 目录下，完成后告诉我装好了没有、都装了哪些文件。",
-    "translatedAt": "2026-11-08T06:31:37.867Z",
-    "backTranslationDiff": 0.5882352941176471
+    "sourceHash": "72b7e60b6cfdeb98",
+    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音工具，以及开放权重模型（open-weight model）。所有条目都由 AI 加人工筛选过，省得你自己一个个扒。",
+    "prompt": "请帮我安装 Awesome-AITools 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ikaijua/awesome-aitools 下载该仓库的文件（可以直接 git clone 或下载压缩包）；2) 在项目里创建目录 .claude/skills/awesome-aitools/；3) 把下载到的 Skill 文件（如 SKILL.md 及相关资源）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简单说明这个 Skill 怎么用。仓库地址是 https://github.com/ikaijua/awesome-aitools ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-09T07:07:23.905Z",
+    "backTranslationDiff": 0.5454545454545454
   },
   "mohitagw15856/pm-claude-skills": {
     "sourceHash": "a8f16bd9662dbb4b",
@@ -4802,11 +4802,11 @@
     "backTranslationDiff": 1
   },
   "borghei/claude-skills": {
-    "sourceHash": "bf5d9d126beca6e6",
-    "chineseDescription": "这个仓库提供 385 个 AI 技能（skills）、76 个专家级 agent（智能体），以及 906 个基于 Python 标准库（stdlib）的工具，覆盖各类团队场景：工程研发、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营、研究，还有一套 LinkedIn 工具包。支持安装在 Claude Code、Cursor、Codex、Gemini、Copilot 等 10 多个 AI 助手上。",
-    "prompt": "请帮我安装 Claude-Skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/borghei/claude-skills 下载全部文件（可以用 git clone https://github.com/borghei/claude-skills 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/claude-skills/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的文件复制到 .claude/skills/claude-skills/ 目录中；4) 安装完成后列出该目录下的文件，确认安装成功，并告诉我这个技能包包含哪些主要功能（385 个 AI 技能、76 个专家 agent、906 个 Python 工具）。",
-    "translatedAt": "2026-10-24T05:03:41.144Z",
-    "backTranslationDiff": 0.3846153846153846
+    "sourceHash": "64dc82d46384bf81",
+    "chineseDescription": "这个技能包里有 403 个 AI 技能（skills）、76 个专家级 agent（智能体），还有 973 个基于 Python 标准库（stdlib）的工具，基本覆盖各类团队的需求：工程研发、UI/UX 设计、产品管理（PM）、市场营销、高管层（C-level）、合规、业务运营、研究、创业者，另外还带一套 LinkedIn 工具包。支持装在 Claude Code、Cursor、Codex、Gemini、Copilot 等 10 多个 AI 助手上。",
+    "prompt": "帮我安装 Claude-Skills 技能包。请从 GitHub 仓库 https://github.com/borghei/claude-skills 下载全部文件，保存到 .claude/skills/claude-skills/ 目录下，完成后告诉我装了哪些内容。",
+    "translatedAt": "2026-11-09T07:07:19.404Z",
+    "backTranslationDiff": 0.3793103448275862
   },
   "jnmetacode/ai-shortfilm-prompts": {
     "sourceHash": "4570a7e0938691ce",
@@ -9072,11 +9072,11 @@
     "backTranslationDiff": 0.23076923076923073
   },
   "ikaijua/awesome-ai-tools": {
-    "sourceHash": "4b6ca381cbb05c63",
-    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音、开放权重模型（open-weight model）等。中英双语，人工逐条核对，每周更新。",
-    "prompt": "请帮我安装 awesome-ai-tools 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ikaijua/awesome-ai-tools 下载全部文件（可用 git clone https://github.com/ikaijua/awesome-ai-tools.git 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/awesome-ai-tools/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的文件复制到该目录中，确保 SKILL.md 等文件位于 .claude/skills/awesome-ai-tools/ 根目录下；4) 安装完成后列出目录内容，确认安装成功。",
-    "translatedAt": "2026-11-08T06:31:45.550Z",
-    "backTranslationDiff": 0.5882352941176471
+    "sourceHash": "72b7e60b6cfdeb98",
+    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbots）、编程智能体（coding agents）、AI 视频/图像/语音工具，以及开放权重模型（open-weight models）。所有条目都经过 AI + 人工筛选，省得你自己一个个去踩坑。",
+    "prompt": "帮我安装 Awesome-AITools 这个 Skill。请从 GitHub 仓库 https://github.com/ikaijua/awesome-ai-tools 下载全部文件，保存到 .claude/skills/awesome-ai-tools/ 目录下，完成后告诉我安装结果和这个 Skill 的用途。",
+    "translatedAt": "2026-11-09T07:07:41.888Z",
+    "backTranslationDiff": 0.5454545454545454
   },
   "alchaincyf/huashu-excel": {
     "sourceHash": "18fce51a1aec2f2b",
@@ -9273,5 +9273,26 @@
     "prompt": "请帮我安装 ilya-sutskever-skill 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alchaincyf/ilya-sutskever-skill 下载全部文件，并保存到 .claude/skills/ilya-sutskever-skill/ 目录下完成安装。安装完成后告诉我怎么用。",
     "translatedAt": "2026-11-08T06:33:37.771Z",
     "backTranslationDiff": 1
+  },
+  "jaredchu/context-docs": {
+    "sourceHash": "81977e107e19a102",
+    "chineseDescription": "这是一个给 Codex 和 Claude Code 用的 Agent Skill（智能体技能），用纯 Markdown 文件把项目背景、做过的决策和下一步计划记录下来，这样换个 AI 会话也不会断片，上下文能一直延续下去。",
+    "prompt": "帮我安装 context-docs 这个 Skill。请从 GitHub 仓库 https://github.com/jaredchu/context-docs 下载全部文件，保存到 .claude/skills/context-docs/ 目录下，完成后告诉我装了哪些文件、怎么用。如果目录不存在就先创建。",
+    "translatedAt": "2026-11-09T07:07:32.787Z",
+    "backTranslationDiff": 0.5
+  },
+  "whobot-com/openclaw-whobot-skill": {
+    "sourceHash": "0cabf9f2c97e1482",
+    "chineseDescription": "呼波特 WhoBot 官方 AI 电话数字员工 Skill（技能）：在 WorkBuddy / Claude Code / Codex / OpenClaw / Cursor 里挑选、体验、创建和调优会打真实电话的 AI 员工，还能上传线索做外呼。简单说，就是让 AI 帮你打电话干活。",
+    "prompt": "请帮我安装 openclaw-whobot-skill 这个 Skill（技能）。步骤：1. 从 GitHub 仓库 https://github.com/whobot-com/openclaw-whobot-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2. 把文件保存到当前项目的 .claude/skills/openclaw-whobot-skill/ 目录下（如果目录不存在就创建）；3. 确认 SKILL.md 等文件都在该目录里，然后告诉我安装完成、这个 Skill 能干什么。",
+    "translatedAt": "2026-11-09T07:07:37.520Z",
+    "backTranslationDiff": 0.5555555555555556
+  },
+  "qbeka/jev-job-search": {
+    "sourceHash": "3240c8bd22265104",
+    "chineseDescription": "帮你找软件方向的实习和应届生岗位，自动填写申请表，逐项核对页面上每个答案，你确认后再提交。JEV 负责决策，代码负责执行，Claude 负责写内容。在你自己机器上通过 Claude Code 运行。",
+    "prompt": "请帮我安装 jev-job-search 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/qbeka/jev-job-search 下载全部文件（可用 git clone https://github.com/qbeka/jev-job-search 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/jev-job-search/ 目录；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 位于 .claude/skills/jev-job-search/SKILL.md；4) 安装完成后列出目录内容确认文件齐全，并告诉我怎么触发这个 skill。",
+    "translatedAt": "2026-11-09T07:07:45.974Z",
+    "backTranslationDiff": 0.48
   }
 }
