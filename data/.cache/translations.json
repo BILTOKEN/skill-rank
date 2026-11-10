@@ -5012,11 +5012,11 @@
     "backTranslationDiff": 0.2727272727272727
   },
   "waynesutton/convexskills": {
-    "sourceHash": "5b911e52e98a9acb",
-    "chineseDescription": "为 Convex 应用打造的构建者技能（Builder Skills）。包含 Convex 开发模式（patterns），以及一套面向 Claude Code、Codex、Cursor 和 OpenCode 的工作流，涵盖 PRD、task.md、changelog 和 files.md。",
-    "prompt": "请帮我安装 builder-skills 技能。请从 GitHub 仓库 https://github.com/waynesutton/convexskills 下载所有文件，并保存到 .claude/skills/convexskills/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我安装了哪些文件。",
-    "translatedAt": "2026-09-29T06:10:02.515Z",
-    "backTranslationDiff": 0.8125
+    "sourceHash": "d6d24f61bbc64dc8",
+    "chineseDescription": "这是给用 Convex 开发应用的开发者准备的一套技能包，涵盖工作流（workflow）、安全（security）和写作（writing）三方面。用 npx builder-skills 就能跑起来。",
+    "prompt": "帮我安装 builder-skills 技能包。请你自己去 GitHub 仓库 https://github.com/waynesutton/convexskills 下载全部文件，保存到当前项目的 .claude/skills/convexskills/ 目录下，完成安装。不要假设我已经装过任何东西，直接从这个地址拉取就行。装好后告诉我装了哪些技能、怎么用。",
+    "translatedAt": "2026-11-10T07:49:33.564Z",
+    "backTranslationDiff": 0.5555555555555556
   },
   "ancoleman/ai-design-components": {
     "sourceHash": "163be08e339d44e6",
@@ -5684,11 +5684,11 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "1ed423027f9d000e",
-    "chineseDescription": "这是一个包含 2,926+ 个可复用 AI agent skill（技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 额外提供本地目录发现（local catalog discovery）、由 agent 自主选择技能以及计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）三种接入方式。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone https://github.com/sickn33/antigravity-awesome-skills 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/antigravity-awesome-skills/ 目录；3) 把下载到的文件全部放进这个目录；4) 确认目录结构正确后告诉我安装完成，并简单说明有哪些技能可用。",
-    "translatedAt": "2026-11-06T07:12:19.770Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "6b1bc5ff7c586645",
+    "chineseDescription": "这是一个包含 2,955+ 个可复用 AI agent skill（技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 提供本地目录发现、由 agent 自主选择以及计划预览功能。支持 CLI、MCP 和插件三种使用方式。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 skill 集合。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 将下载的内容保存到 .claude/skills/antigravity-awesome-skills/ 目录下（如果目录不存在就先创建）；3) 确认文件结构完整后告诉我安装完成，并简要说明有哪些主要 skill 可用。",
+    "translatedAt": "2026-11-10T07:49:24.557Z",
+    "backTranslationDiff": 0.38095238095238093
   },
   "iofficeai/aionui": {
     "sourceHash": "ad22f3d935f09b0d",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "1ed423027f9d000e",
-    "chineseDescription": "这是一个包含 2,926+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还提供本地目录发现（local catalog discovery）、由 agent 自主选择技能（agent-owned selection）以及计划预览（plan preview）功能。支持 CLI、MCP 和插件（plugins）三种使用方式。",
-    "prompt": "帮我安装 agentic-awesome-skills 这个 skill 集合。请从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载文件，保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装完成后告诉我怎么用，比如怎么浏览技能目录、怎么让 agent 自己选技能、怎么预览执行计划。",
-    "translatedAt": "2026-11-06T07:12:15.355Z",
-    "backTranslationDiff": 0.23809523809523814
+    "sourceHash": "6b1bc5ff7c586645",
+    "chineseDescription": "这是一个包含 2,955+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还额外提供了本地目录发现（local catalog discovery）、由 agent 自主选择技能以及计划预览（plan preview）功能。支持 CLI、MCP 和插件三种使用方式。",
+    "prompt": "帮我安装 agentic-awesome-skills 这个技能包。请你自己去 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载相关文件，保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装前先看一下仓库的 README，确认正确的文件结构和安装方式，装好后告诉我怎么用。",
+    "translatedAt": "2026-11-10T07:49:20.542Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8379,11 +8379,11 @@
     "backTranslationDiff": 0.6875
   },
   "waynesutton/builder-skills": {
-    "sourceHash": "5b911e52e98a9acb",
-    "chineseDescription": "面向 Convex 应用的构建器技能（Builder Skills）。包含 Convex 开发模式（patterns），以及一套 PRD、task.md、changelog 和 files.md 工作流，适用于 Claude Code、Codex、Cursor 和 OpenCode。",
-    "prompt": "请帮我安装 builder-skills 技能。请从 GitHub 仓库 https://github.com/waynesutton/builder-skills 下载所有文件，并保存到 .claude/skills/builder-skills/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我安装了哪些文件。",
-    "translatedAt": "2026-09-29T06:10:13.613Z",
-    "backTranslationDiff": 0.8125
+    "sourceHash": "d6d24f61bbc64dc8",
+    "chineseDescription": "这是一套给用 Convex 开发应用的开发者准备的工具集，包含工作流（workflow）、安全（security）和写作（writing）三类技能（skills）。用 npx builder-skills 就能跑起来。",
+    "prompt": "请帮我安装 builder-skills 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/waynesutton/builder-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/builder-skills/ 目录；3) 把仓库里的技能文件（包括 SKILL.md 及相关资源）复制到该目录下；4) 确认目录结构正确后告诉我安装完成，并列出已安装的技能。仓库地址是 https://github.com/waynesutton/builder-skills ，请自行下载，不要假设我本地已经有了。",
+    "translatedAt": "2026-11-10T07:49:29.423Z",
+    "backTranslationDiff": 0.7777777777777778
   },
   "jakeschincariol/arena-skill": {
     "sourceHash": "7c8c1d0313c74f05",
@@ -9294,5 +9294,26 @@
     "prompt": "请帮我安装 jev-job-search 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/qbeka/jev-job-search 下载全部文件（可用 git clone https://github.com/qbeka/jev-job-search 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/jev-job-search/ 目录；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 位于 .claude/skills/jev-job-search/SKILL.md；4) 安装完成后列出目录内容确认文件齐全，并告诉我怎么触发这个 skill。",
     "translatedAt": "2026-11-09T07:07:45.974Z",
     "backTranslationDiff": 0.48
+  },
+  "dodaios/ste80-humanizer": {
+    "sourceHash": "b4a84ef22555a765",
+    "chineseDescription": "STE80 Humanizer：一个 agent skill（智能体技能），用来去掉文本里的 AI 味（AI tells），并把文字改写到 80% 符合 ASD-STE100（简化技术英语）的程度——这套方法由 Andrej Karpathy 分享。",
+    "prompt": "请帮我安装 ste80-humanizer 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/dodaios/ste80-humanizer 下载全部文件（可以用 git clone https://github.com/dodaios/ste80-humanizer 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/ste80-humanizer/ 目录；3) 把下载到的 skill 文件（包括 SKILL.md 等）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简单说明这个 skill 怎么用。",
+    "translatedAt": "2026-11-10T07:49:37.542Z",
+    "backTranslationDiff": 0.3529411764705882
+  },
+  "threerocks/article2media": {
+    "sourceHash": "52a6b22543f9d9c5",
+    "chineseDescription": "这个开源 Skill（技能）能把一篇文章或一条视频（抖音、B 站、YouTube，先把视频转成逐字稿）一键做成小红书图文、杂志长图、公众号排版和 AI 配音口播短视频。支持 21 套主题，自带自动验收，零 npm 依赖，适用于 Claude Code / Codex。",
+    "prompt": "请帮我安装 article2media 这个 Skill。请你自己去 GitHub 仓库 https://github.com/threerocks/article2media 下载全部文件，保存到当前项目的 .claude/skills/article2media/ 目录下（如果目录不存在就创建）。安装完成后，检查一下 SKILL.md 等文件是否齐全，然后告诉我怎么用。注意：不要假设我已经提前下载好了，所有文件都请你从 https://github.com/threerocks/article2media 获取。",
+    "translatedAt": "2026-11-10T07:49:42.211Z",
+    "backTranslationDiff": 0.75
+  },
+  "vibha-ramprakash/claude-video-effects": {
+    "sourceHash": "c65369904e55f272",
+    "chineseDescription": "给 Claude Code 用的 51 个免费视频特效（video effects）：丢一段口播视频（talking-head clip）进去，输入 /effects orbit 就能用。支持人脸追踪（face tracking）、头部后方图层（behind-your-head layers）。出自 @vibha.in.progress 的 Hop Studio。",
+    "prompt": "帮我安装 claude-video-effects 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/vibha-ramprakash/claude-video-effects 下载全部文件，保存到 .claude/skills/claude-video-effects/ 目录下（没有这个目录就自己创建），完成后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-10T07:49:45.725Z",
+    "backTranslationDiff": 0.16666666666666663
   }
 }
