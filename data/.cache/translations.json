@@ -8050,11 +8050,11 @@
     "backTranslationDiff": 0.13793103448275867
   },
   "miaoqichuan/new-litigation-visualization": {
-    "sourceHash": "3d2dd8ef07773161",
-    "chineseDescription": "把法律画出来 · 给法律人的诉讼可视化工具集：重画诉讼图、读材料画时间轴、庭前三大法宝（大事记表、庭审对抗图、法律关系图），以及法律图表大师与法律课件大师。七个模块，Claude Code、Codex、DeepSeek Harness 等通用。",
-    "prompt": "请帮我安装一个 Claude Code Skill，名称是 new-litigation-visualization。\n\n请你自己去这个 GitHub 仓库下载文件：https://github.com/miaoqichuan/new-litigation-visualization\n\n下载后把文件保存到 .claude/skills/new-litigation-visualization/ 目录下，完成安装。\n\n这个 Skill 是给法律人用的诉讼可视化工具集，包含七个模块：重画诉讼图、读材料画时间轴、庭前三大法宝（大事记表、庭审对抗图、法律关系图），以及法律图表大师和法律课件大师。Claude Code、Codex、DeepSeek Harness 等都能用。\n\n如果目录不存在请先创建，安装完成后告诉我装好了。",
-    "translatedAt": "2026-10-15T05:10:34.173Z",
-    "backTranslationDiff": 1
+    "sourceHash": "41e2cf300fef8c74",
+    "chineseDescription": "把法律画出来 · Make the Law Visible —— 给法律人的诉讼可视化工具集，八个模块：重画、时间轴、关系图、大事记、对抗图、图表、课件、案件看板。照录原文、每项可追溯、脚本算图、不联网。Litigation visualization skills for lawyers · Claude Code / DeepSeek Harness",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/miaoqichuan/new-litigation-visualization 下载全部文件，保存到 .claude/skills/new-litigation-visualization/ 目录下（如果目录不存在就创建）。安装完成后，确认 SKILL.md 等文件已就位，并简要告诉我这个 skill 包含哪些模块、怎么用。",
+    "translatedAt": "2026-11-11T06:50:55.342Z",
+    "backTranslationDiff": 0.18181818181818177
   },
   "thrixel/build-world": {
     "sourceHash": "5e0b0c461b00dfee",
@@ -9315,5 +9315,54 @@
     "prompt": "帮我安装 claude-video-effects 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/vibha-ramprakash/claude-video-effects 下载全部文件，保存到 .claude/skills/claude-video-effects/ 目录下（没有这个目录就自己创建），完成后告诉我装了哪些文件、怎么用。",
     "translatedAt": "2026-11-10T07:49:45.725Z",
     "backTranslationDiff": 0.16666666666666663
+  },
+  "pqthangv/autointernshipclaude": {
+    "sourceHash": "df4dee981e1c7de6",
+    "chineseDescription": "一套 Claude Skill（技能），能帮你找实习、定制简历、填写申请表格，并跟踪申请进度。",
+    "prompt": "请帮我安装 AutoInternshipClaude 这个 Claude Skill。请从 GitHub 仓库 https://github.com/pqthangv/autointernshipclaude 下载全部文件，保存到 .claude/skills/autointernshipclaude/ 目录下，完成后告诉我安装结果和怎么使用。",
+    "translatedAt": "2026-11-11T06:50:59.968Z",
+    "backTranslationDiff": 0.9166666666666666
+  },
+  "betahope/cofounder-team": {
+    "sourceHash": "2269d0b67568eea6",
+    "chineseDescription": "给创业者的 AI 联合创始人团队：涵盖销售（sales）、产品（product）、创意（creative）、融资（fundraising）和技术（tech），还有路演 PPT（pitch deck）和申请材料教练。可在 Claude 和 ChatGPT 中使用。",
+    "prompt": "帮我安装 cofounder-team 这个 Skill。请从 GitHub 仓库 https://github.com/betahope/cofounder-team 下载全部文件，保存到 .claude/skills/cofounder-team/ 目录下（如果没有该目录就自己创建），完成后告诉我安装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-11T06:51:03.948Z",
+    "backTranslationDiff": 0.3529411764705882
+  },
+  "oldcircle/geo-sleuth": {
+    "sourceHash": "51419265fe2c7bc5",
+    "chineseDescription": "一个 agent skill（智能体技能），能找出照片是在哪里拍的——用 OpenStreetMap 几何数据、海拔天际线、卫星影像和街景来定位，并且会把推理过程展示出来。支持 Claude Code、Codex、Cursor、Gemini CLI、OpenCode 和 GitHub Copilot。",
+    "prompt": "请帮我安装 geo-sleuth 这个 skill。去 GitHub 仓库 https://github.com/oldcircle/geo-sleuth 下载它的文件，保存到 .claude/skills/geo-sleuth/ 目录下完成安装。如果该目录不存在就先创建，装好后告诉我装了什么、怎么用。",
+    "translatedAt": "2026-11-11T06:51:07.708Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "leanos-technologies/strategy": {
+    "sourceHash": "9c3e40194c03a3dc",
+    "chineseDescription": "LeanOS 出品的 Strategy 技能组：4 位专家通过你自己的 AI，根据你的回答帮你梳理出清晰的业务定义（business definition）。哪些才是真正重要的，由你来定。MIT 协议下完整且免费。",
+    "prompt": "请帮我安装 strategy 技能：从 https://github.com/leanos-technologies/strategy 下载该仓库的全部文件，保存到 .claude/skills/strategy/ 目录下（如果目录不存在就先创建）。安装完成后，列出该目录下的文件，确认安装成功。",
+    "translatedAt": "2026-11-11T06:51:11.423Z",
+    "backTranslationDiff": 0.44999999999999996
+  },
+  "aaaronmiller/create-viral-content": {
+    "sourceHash": "83ecffe25e11d965",
+    "chineseDescription": "这是一个 Agent Skill（智能体技能），专门用来做能火的社交媒体内容，而且读起来像真人写的：包括钩子（hook）、标题、缩略图、各平台规则，还有 2026 年去除 AI 味（AI-tell removal）的处理，覆盖 Reddit、X、LinkedIn、YouTube、TikTok。支持 Claude（claude.ai 和 Claude Code）、Codex、Gemini CLI 以及 opencode。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/aaaronmiller/create-viral-content 下载该技能的全部文件，并保存到 .claude/skills/create-viral-content/ 目录下，完成安装。安装完成后告诉我装好了，并简单说明这个技能是干什么的、怎么用。",
+    "translatedAt": "2026-11-11T06:51:15.785Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "scottduncanai/pid-to-knowledge-graph": {
+    "sourceHash": "d1c6b1fbba265c63",
+    "chineseDescription": "P&ID 转知识图谱（Knowledge Graph）：一个 Claude 技能（Skill），能把 P&ID PDF（无论是电子版还是扫描件）转换成包含流程、仪表（instruments）和控制回路（control loops）的工艺知识图谱。",
+    "prompt": "请帮我安装一个 Claude Code 技能（Skill），名字叫 pid-to-knowledge-graph。请你自己去 GitHub 仓库 https://github.com/scottduncanai/pid-to-knowledge-graph 下载该技能的全部文件，并保存到项目的 .claude/skills/pid-to-knowledge-graph/ 目录下（如果目录不存在就创建）。安装完成后，请检查目录里的文件是否完整（比如 SKILL.md 等），然后告诉我安装结果和这个技能的用途：它能把 P&ID PDF（电子版或扫描件）转换成包含流程、仪表和控制回路的工艺知识图谱。",
+    "translatedAt": "2026-11-11T06:51:19.883Z",
+    "backTranslationDiff": 0.8823529411764706
+  },
+  "larashero3-dotcom/lieflat-charts": {
+    "sourceHash": "375ffdc1ae351bc6",
+    "chineseDescription": "这是一个给 AI Agents 用的数据可视化 Skill（技能），能把数据快速变成精致、可交互的 HTML 图表。",
+    "prompt": "帮我安装 lieflat-charts 这个 Skill。请从 GitHub 仓库 https://github.com/larashero3-dotcom/lieflat-charts 下载全部文件，保存到 .claude/skills/lieflat-charts/ 目录下，完成后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-11T06:51:23.712Z",
+    "backTranslationDiff": 0.3846153846153846
   }
 }

@@ -1728,6 +1728,60 @@
     "checkedAt": "2026-11-08T06:10:51.274Z"
   },
   {
+    "repo": "oldcircle/geo-sleuth",
+    "name": "geo-sleuth",
+    "description": "An agent skill that finds where a photo was taken — OpenStreetMap geometry, elevation skylines, satellite imagery and street view — and shows its work. Works with Claude Code, Codex, Cursor, Gemini CLI, OpenCode and GitHub Copilot.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "codex",
+      "computer-vision",
+      "cursor",
+      "gemini-cli",
+      "geoguessr",
+      "geoint",
+      "geolocation",
+      "github-copilot",
+      "image-geolocation",
+      "opencode",
+      "openstreetmap",
+      "osint",
+      "photo-geolocation",
+      "reverse-image-search",
+      "satellite-imagery"
+    ],
+    "stars": 6833,
+    "lastPush": "2026-11-09T13:31:34Z",
+    "pool": "ranked",
+    "readmeLength": 5199,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-11T06:35:50.643Z"
+  },
+  {
+    "repo": "larashero3-dotcom/lieflat-charts",
+    "name": "lieflat-charts",
+    "description": "Data visualization Skill for AI Agents, turning data into polished, interactive HTML charts. 面向 AI Agents 的数据可视化 Skill，将数据快速生成精致、可交互的 HTML 图表。",
+    "tags": [
+      "agent-skills",
+      "charts",
+      "claude-code",
+      "codex",
+      "data-visualization",
+      "html",
+      "moxt",
+      "svg"
+    ],
+    "stars": 6808,
+    "lastPush": "2026-11-03T03:38:34Z",
+    "pool": "ranked",
+    "readmeLength": 820,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-11T06:35:50.643Z"
+  },
+  {
     "repo": "alchaincyf/huashu-art-motion",
     "name": "huashu-art-motion",
     "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
@@ -11221,6 +11275,27 @@
     "checkedAt": "2026-08-10T02:36:35.128Z"
   },
   {
+    "repo": "pqthangv/autointernshipclaude",
+    "name": "AutoInternshipClaude",
+    "description": "Claude skills that find internships, tailor your resume, fill applications and track them",
+    "tags": [
+      "automation",
+      "chrome-extension",
+      "claude",
+      "claude-skills",
+      "internships",
+      "job-search",
+      "resume"
+    ],
+    "stars": 149,
+    "lastPush": "2026-11-11T06:35:13Z",
+    "pool": "ranked",
+    "readmeLength": 754,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-11T06:35:50.643Z"
+  },
+  {
     "repo": "greekr4/playwright-bot-bypass",
     "name": "playwright-bot-bypass",
     "description": "Claude Code skill to bypass bot detection (Google CAPTCHA, etc.)",
@@ -11239,6 +11314,26 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-05-25T13:59:48.785Z"
+  },
+  {
+    "repo": "scottduncanai/pid-to-knowledge-graph",
+    "name": "PID-to-Knowledge-Graph",
+    "description": "P&ID to Knowledge Graph: a Claude skill that turns P&ID PDFs (digital or scanned) into a process knowledge graph of flow, instruments and control loops.",
+    "tags": [
+      "chemical-engineering",
+      "claude-skills",
+      "isa-5-1",
+      "knowledge-graph",
+      "pid",
+      "process-engineering"
+    ],
+    "stars": 147,
+    "lastPush": "2026-11-08T20:33:02Z",
+    "pool": "ranked",
+    "readmeLength": 1511,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-11T06:35:50.643Z"
   },
   {
     "repo": "artokun/comfyui-mcp",
@@ -13426,6 +13521,40 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "aaaronmiller/create-viral-content",
+    "name": "create-viral-content",
+    "description": "Agent Skill for viral social content that reads as human: hooks, titles, thumbnails, platform rules and 2026 AI-tell removal for Reddit, X, LinkedIn, YouTube, TikTok. Works in Claude (claude.ai and Claude Code), Codex, Gemini CLI and opencode.",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "claude-ai",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-marketing",
+      "copywriting",
+      "gemini-cli",
+      "humanize-ai-text",
+      "linkedin",
+      "opencode",
+      "prompt-engineering",
+      "reddit",
+      "skill-md",
+      "social-media",
+      "tiktok",
+      "twitter",
+      "viral-content",
+      "youtube-thumbnails"
+    ],
+    "stars": 82,
+    "lastPush": "2026-11-11T04:59:10Z",
+    "pool": "ranked",
+    "readmeLength": 531,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-11T06:35:50.643Z"
   },
   {
     "repo": "liwala/sheal",
