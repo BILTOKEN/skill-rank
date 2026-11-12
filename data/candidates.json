@@ -5011,6 +5011,25 @@
     "lastPush": "2026-07-01T06:37:05Z"
   },
   {
+    "repo": "phuryn/product-engineering",
+    "name": "product-engineering",
+    "description": "44 agent skills from shipping three live products: decide what to build, build it with Claude Code or Codex, have a second model review it, release it.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-marketplace",
+      "claude-code-plugins",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "product-engineering",
+      "product-management"
+    ],
+    "stars": 537,
+    "lastPush": "2026-11-11T11:58:46Z"
+  },
+  {
     "repo": "nashsu/viral_writer_skill",
     "name": "Viral_Writer_Skill",
     "description": " 基于 11 个内容洞见维度的自媒体创作 Skill，适用于各种智能体  给它一个主题，它给你一篇完整的文章、5 个备选标题、以及每张配图的生成 prompt。",
@@ -5841,6 +5860,35 @@
     ],
     "stars": 400,
     "lastPush": "2026-02-06T01:49:59Z"
+  },
+  {
+    "repo": "innei/ryugi",
+    "name": "ryugi",
+    "description": "Ryugi (ryoo-ghee) — artifacts for coding agents: artboards of mockups, design docs, whiteboards, HTML benches and verify reports you comment on, with every comment sent back to the agent. Install artifacts only, or the full brainstorm → spec → TDD workflow. Claude Code, Codex and more.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "artboard",
+      "artifacts",
+      "brainstorming",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "design-docs",
+      "design-review",
+      "developer-tools",
+      "mockups",
+      "superpowers",
+      "tdd",
+      "ui-design",
+      "visual-review",
+      "whiteboard"
+    ],
+    "stars": 400,
+    "lastPush": "2026-11-12T06:27:56Z"
   },
   {
     "repo": "louisedesadeleer/clipify",
@@ -9788,6 +9836,32 @@
     "lastPush": "2026-10-09T08:44:49Z"
   },
   {
+    "repo": "op7418/guizang-game-skill",
+    "name": "guizang-game-skill",
+    "description": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
+    "tags": [
+      "3d-game",
+      "action-game",
+      "agent-skills",
+      "ai-agents",
+      "ai-generated",
+      "browser-game",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "game-development",
+      "gamedev",
+      "html5-game",
+      "threejs",
+      "tripo",
+      "vibe-coding",
+      "webgl",
+      "wuxia"
+    ],
+    "stars": 117,
+    "lastPush": "2026-11-11T18:22:31Z"
+  },
+  {
     "repo": "prefecthq/colin",
     "name": "colin",
     "description": "A context engine that treats skills as software.",
@@ -10042,6 +10116,31 @@
     ],
     "stars": 106,
     "lastPush": "2026-10-13T06:54:41Z"
+  },
+  {
+    "repo": "devsemih/appstore-review-skill",
+    "name": "appstore-review-skill",
+    "description": "Claude Code plugin that checks iOS and Android apps against Apple's App Review Guidelines and Google Play policies before you submit. Inspects .ipa and .aab builds, applies safe fixes and drafts replies to rejections.",
+    "tags": [
+      "agent-skills",
+      "android",
+      "app-review-guidelines",
+      "app-store",
+      "app-store-review",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "expo",
+      "flutter",
+      "google-play",
+      "ios",
+      "play-store",
+      "privacy-manifest",
+      "react-native",
+      "swift"
+    ],
+    "stars": 106,
+    "lastPush": "2026-11-11T09:44:31Z"
   },
   {
     "repo": "ovid/paad",
@@ -11287,6 +11386,33 @@
     ],
     "stars": 69,
     "lastPush": "2026-10-27T17:38:03Z"
+  },
+  {
+    "repo": "bil0000/hill-climb",
+    "name": "Hill-Climb",
+    "description": "Make your coding agent prove \"done\". Each change is kept only if a locked test or benchmark scores it better. Claude Code and Codex skill.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "autonomous-agents",
+      "benchmarking",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "cli",
+      "codex",
+      "coding-agent",
+      "developer-tools",
+      "hill-climbing",
+      "llm",
+      "performance",
+      "python",
+      "test-automation",
+      "测试"
+    ],
+    "stars": 69,
+    "lastPush": "2026-11-04T09:06:47Z"
   },
   {
     "repo": "agents365-ai/excalidraw-skill",
@@ -14299,6 +14425,35 @@
     "lastPush": "2026-11-04T10:55:20Z"
   },
   {
+    "repo": "anhnx000/viet-nhu-nguoi",
+    "name": "viet-nhu-nguoi",
+    "description": "Viết như người: chống giọng văn AI cho tiếng Việt (human voice, Vietnamese humanizer). Skill Claude Code sửa bài ChatGPT/Claude viết cho tự nhiên như người viết: bỏ văn dịch, giọng công văn, lời chatbot. Kèm máy quét 0-100 và công cụ kiểm số liệu.",
+    "tags": [
+      "agent-skills",
+      "ai-humanizer",
+      "ai-writing",
+      "anti-slop",
+      "chatgpt",
+      "chong-giong-van-ai",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "copywriting",
+      "human-voice",
+      "humanize-ai-text",
+      "humanizer",
+      "llm",
+      "nlp",
+      "tieng-viet",
+      "viet-nhu-nguoi",
+      "vietnamese",
+      "vietnamese-nlp",
+      "writing-assistant"
+    ],
+    "stars": 40,
+    "lastPush": "2026-11-11T16:44:32Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -14557,6 +14712,22 @@
     ],
     "stars": 38,
     "lastPush": "2026-10-20T15:57:59Z"
+  },
+  {
+    "repo": "lowdevco/claude-seo",
+    "name": "claude-seo",
+    "description": "This is a Claude Code skill for comprehensive website analysis, audits, technical SEO, and AI search optimization. It analyzes your target site, evaluates search signals, and produces an actionable, prioritized roadmap directly inside Claude.",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skill",
+      "claude-skills",
+      "seo",
+      "seo-optimization"
+    ],
+    "stars": 38,
+    "lastPush": "2026-11-09T12:31:40Z"
   },
   {
     "repo": "aboudjem/humanizer-skill",
@@ -14952,6 +15123,23 @@
     "lastPush": "2026-07-13T15:02:53Z"
   },
   {
+    "repo": "editatlas/skills",
+    "name": "skills",
+    "description": "Agent skills for video editing with EditAtlas: transcribe with Whisper, sound-design a video, break down a reference edit, and hand over an editable copy for EditAtlas Studio. For Claude Code, Claude apps and other agents.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "ffmpeg",
+      "mcp",
+      "sound-design",
+      "video-editing",
+      "whisper"
+    ],
+    "stars": 35,
+    "lastPush": "2026-11-12T02:18:39Z"
+  },
+  {
     "repo": "muthuishere/hand-drawn-diagrams",
     "name": "hand-drawn-diagrams",
     "description": "Hand-drawn diagram skill for Claude Code and Codex. Generates monochrome architecture, workflow, and UX blueprint diagrams as PNGs.",
@@ -15186,6 +15374,24 @@
     ],
     "stars": 34,
     "lastPush": "2026-11-10T20:04:07Z"
+  },
+  {
+    "repo": "alanbacker/audio-flyover-geolocation",
+    "name": "audio-flyover-geolocation",
+    "description": "Locate where a recording was made from the Doppler curves of aircraft in its background, matched against ADS-B history. Agent skill + tested Python pipeline, English / 简体中文.",
+    "tags": [
+      "acoustics",
+      "ads-b",
+      "agent-skills",
+      "audio-forensics",
+      "claude-skills",
+      "doppler",
+      "geolocation",
+      "osint",
+      "privacy"
+    ],
+    "stars": 34,
+    "lastPush": "2026-11-04T04:00:11Z"
   },
   {
     "repo": "kdnsna/ultimate-ppt-master-skill",
@@ -28906,6 +29112,31 @@
     "lastPush": "2026-11-10T03:24:43Z"
   },
   {
+    "repo": "arcadiastra/ieee-paper-writing-zh",
+    "name": "ieee-paper-writing-zh",
+    "description": "使用简体中文规划、撰写、修改和审查 IEEE 学术论文写作的模块化 Agent Skill，涵盖章节写作、贡献论证、引用核验与投稿规范检查。",
+    "tags": [
+      "academic-writing",
+      "agent-skills",
+      "ai-agents",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "codex-skill",
+      "ieee",
+      "ieee-transactions",
+      "paper",
+      "paper-writing",
+      "paper-writing-agent",
+      "scientific-writing",
+      "写作",
+      "writing-skills"
+    ],
+    "stars": 7,
+    "lastPush": "2026-11-11T12:15:08Z"
+  },
+  {
     "repo": "leolin990405/grimoire-skill",
     "name": "grimoire-skill",
     "description": "Claude Code skill for MinerU document parsing API - convert PDF/DOC/PPT/images to Markdown/JSON",
@@ -30648,6 +30879,30 @@
     ],
     "stars": 5,
     "lastPush": "2026-11-07T08:15:53Z"
+  },
+  {
+    "repo": "tammo1007/alyn",
+    "name": "alyn",
+    "description": "The best AI skills for Claude Code, Cursor and Codex, ranked every week. CLI, Alyn MCP and skills.",
+    "tags": [
+      "ai-skill",
+      "ai-skills",
+      "best-skill-md",
+      "builder-skills",
+      "claude-cli",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
+      "codex-cli",
+      "codex-skill",
+      "design-skills",
+      "find-skill",
+      "find-skills",
+      "founder-skill"
+    ],
+    "stars": 5,
+    "lastPush": "2026-11-11T21:38:36Z"
   },
   {
     "repo": "rivia7/cc-audit",
@@ -32459,6 +32714,26 @@
     ],
     "stars": 4,
     "lastPush": "2026-11-05T08:25:27Z"
+  },
+  {
+    "repo": "panusbodee-owen/power-ai-ranger-skill",
+    "name": "Power-Ai-Ranger-Skill",
+    "description": "Claude Code skill: make Claude the Head of a multi-AI team (DeepSeek, Nemotron, Qwen, any OpenAI-compatible API) with maker/reviewer flow, safety boundary and live dashboard. 中文 · ไทย · English",
+    "tags": [
+      "ai-agents",
+      "ai-dashboard",
+      "claude-code",
+      "claude-code-skill",
+      "deepseek",
+      "llm-orchestration",
+      "multi-agent",
+      "nvidia-nemotron",
+      "openai-compatible",
+      "python",
+      "thailand"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-12T06:15:05Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -34640,6 +34915,24 @@
     ],
     "stars": 3,
     "lastPush": "2026-10-22T14:47:05Z"
+  },
+  {
+    "repo": "xycu/agent-smith",
+    "name": "agent-smith",
+    "description": "Agent orchestrating AI SDLC workflows (10xDevs + OpenSpec)",
+    "tags": [
+      "10xdevs",
+      "ai-agent",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "llm-routing",
+      "openspec",
+      "sdlc",
+      "sdlc-tools"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-12T06:38:03Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

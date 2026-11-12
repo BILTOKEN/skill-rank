@@ -3381,11 +3381,11 @@
     "backTranslationDiff": 0.09090909090909094
   },
   "xquik-dev/x-twitter-scraper": {
-    "sourceHash": "008165872472622c",
-    "chineseDescription": "X（Twitter）爬虫 API（scraper API）、Twitter MCP 服务器（MCP server），以及用于抓取推文（tweets）和粉丝（followers）的 Claude 技能（skill）。与 X Corp. 无关联。",
-    "prompt": "请帮我安装 x-twitter-scraper 这个 Claude 技能。请从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载该技能的所有文件，并保存到 .claude/skills/x-twitter-scraper/ 目录下完成安装。安装完成后告诉我它提供了哪些功能（比如抓取推文、抓取粉丝、MCP 服务器等），以及如何开始使用。",
-    "translatedAt": "2026-11-07T06:27:01.804Z",
-    "backTranslationDiff": 0.07692307692307687
+    "sourceHash": "98f222ff39dc0ee7",
+    "chineseDescription": "X（Twitter）数据抓取工具，提供 API、MCP server（模型上下文协议服务器）和 Claude skill（技能），可以抓取推文和粉丝数据。与 X Corp. 无关联。",
+    "prompt": "帮我安装 x-twitter-scraper 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/xquik-dev/x-twitter-scraper 下载全部文件，保存到 .claude/skills/x-twitter-scraper/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-11-12T07:44:16.033Z",
+    "backTranslationDiff": 0.5
   },
   "talkstream/ru-text": {
     "sourceHash": "7e2fccd6e99cec28",
@@ -3507,11 +3507,11 @@
     "backTranslationDiff": 0.21052631578947367
   },
   "zw008/vmware-aiops": {
-    "sourceHash": "9261827493de9d72",
-    "chineseDescription": "VMware vCenter/ESXi 的 AI 驱动监控与运维。包含两个技能：vmware-monitor（只读，安全）和 vmware-aiops（完整运维）| Claude Code Skill【使用场景】用于监控和管理 VMware 虚拟化环境，通过 AI 辅助进行故障排查和运维操作。",
-    "prompt": "请从 https://github.com/zw008/vmware-aiops 下载 VMware-AIops 技能文件，并保存到 .claude/skills/vmware-aiops/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:23:31.928Z",
-    "backTranslationDiff": 0.1333333333333333
+    "sourceHash": "f122085f56a4a29c",
+    "chineseDescription": "用于 VMware vCenter/ESXi 的 MCP server（模型上下文协议服务器）和 CLI（命令行工具），支持虚拟机生命周期管理、部署以及 guest 操作。属于 VMware Skills 系列，带策略检查和审计日志功能。",
+    "prompt": "请帮我安装 VMware-AIops 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/zw008/vmware-aiops 下载全部文件，保存到 .claude/skills/vmware-aiops/ 目录下，完成安装。安装好后告诉我它支持哪些功能，以及怎么配置使用。",
+    "translatedAt": "2026-11-12T07:44:32.912Z",
+    "backTranslationDiff": 0.2857142857142857
   },
   "mohamedabdallah-14/unslop": {
     "sourceHash": "66f8e60559ce5417",
@@ -4452,11 +4452,11 @@
     "backTranslationDiff": 0.16666666666666663
   },
   "ikaijua/awesome-aitools": {
-    "sourceHash": "72b7e60b6cfdeb98",
-    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbot）、编程智能体（coding agent）、AI 视频/图像/语音工具，以及开放权重模型（open-weight model）。所有条目都由 AI 加人工筛选过，省得你自己一个个扒。",
-    "prompt": "请帮我安装 Awesome-AITools 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ikaijua/awesome-aitools 下载该仓库的文件（可以直接 git clone 或下载压缩包）；2) 在项目里创建目录 .claude/skills/awesome-aitools/；3) 把下载到的 Skill 文件（如 SKILL.md 及相关资源）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简单说明这个 Skill 怎么用。仓库地址是 https://github.com/ikaijua/awesome-aitools ，请自己去下载，不要假设我已经装好了。",
-    "translatedAt": "2026-11-09T07:07:23.905Z",
-    "backTranslationDiff": 0.5454545454545454
+    "sourceHash": "d94f8dffc82e2905",
+    "chineseDescription": "这个仓库收集了各种好用的 AI 工具（AI tools），欢迎大家一起来推荐更多好用的 AI 工具。",
+    "prompt": "帮我安装 Awesome-AITools 这个 skill。请从 GitHub 仓库 https://github.com/ikaijua/awesome-aitools 下载文件，保存到 .claude/skills/awesome-aitools/ 目录，完成安装。如果目录不存在就先创建，装好后告诉我装了什么。",
+    "translatedAt": "2026-11-12T07:44:08.365Z",
+    "backTranslationDiff": 0.36363636363636365
   },
   "mohitagw15856/pm-claude-skills": {
     "sourceHash": "a8f16bd9662dbb4b",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "6feae142e87e9a20",
-    "chineseDescription": "这个技能用来润色神经网络（AI）生成的俄语文本，并核对里面的数字、日期和人名。适用于 Claude Code、Codex、Cursor 和 Claude.ai。",
-    "prompt": "请帮我安装 humanizer-ru 这个技能。请从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载所有文件，保存到 .claude/skills/humanizer-ru/ 目录下，完成安装。安装完成后告诉我这个技能怎么用。",
-    "translatedAt": "2026-10-17T04:57:12.101Z",
-    "backTranslationDiff": 0.8
+    "sourceHash": "a82ad956e087e75a",
+    "chineseDescription": "这个技能专门用来润色俄语文本——把 AI（神经网络）生成的那种生硬、机器味儿的俄语改得像人写的，同时还会核对文中的数字、日期和人名，确保没被改错。适用于 Claude Code 和 Codex。",
+    "prompt": "请帮我安装 humanizer-ru 技能：从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载全部文件，保存到 .claude/skills/humanizer-ru/ 目录下（如果目录不存在就创建），完成后告诉我安装结果和这个技能的用法。",
+    "translatedAt": "2026-11-12T07:44:12.236Z",
+    "backTranslationDiff": 0.7692307692307692
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -9051,11 +9051,11 @@
     "backTranslationDiff": 0.55
   },
   "gamedev-skills/awesome-gamedev-agent-skills": {
-    "sourceHash": "3cb1bd13c69178aa",
-    "chineseDescription": "给 AI 编程助手用的 77 个游戏开发技能（skill），覆盖 Godot、Unity、Unreal、Phaser、PixiJS、three.js、Bevy、pygame、LÖVE、Roblox。用的是可移植的 SKILL.md Agent Skills 格式（也就是 Anthropic 推出 Claude Skills 时用的那套格式），还带一个路由器（router），能根据你用的引擎和任务自动加载对应的技能。Claude Code、Cursor、Kiro、Codex、Copilot、Gemini CLI 等都能跑。",
-    "prompt": "请帮我安装 awesome-gamedev-agent-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/gamedev-skills/awesome-gamedev-agent-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/awesome-gamedev-agent-skills/ 目录下创建安装位置（如果目录不存在就新建）；3) 把下载到的内容放进这个目录，确保 SKILL.md 等文件都在里面；4) 安装完成后列出目录结构，确认安装成功。仓库地址是 https://github.com/gamedev-skills/awesome-gamedev-agent-skills ，请自己去下载，不要假设我已经装好了。",
-    "translatedAt": "2026-11-07T06:27:11.233Z",
-    "backTranslationDiff": 0.22499999999999998
+    "sourceHash": "f337b9ea04859861",
+    "chineseDescription": "用你的 AI 编程助手（coding agent）做游戏：包含 79 个游戏开发技能（skill），外加一个路由（router），覆盖 Godot、Unity、Unreal、Roblox、three.js、Phaser 等 12 个引擎，而且都在真实引擎上验证过。",
+    "prompt": "请帮我安装 awesome-gamedev-agent-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/gamedev-skills/awesome-gamedev-agent-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/awesome-gamedev-agent-skills/ 目录；3) 把下载到的文件（包括 SKILL.md、各个技能子目录和 router 配置）完整复制到该目录下；4) 确认目录结构正确后告诉我安装完成，并列出已安装的技能数量。如果目录已存在，先备份再覆盖。",
+    "translatedAt": "2026-11-12T07:44:20.562Z",
+    "backTranslationDiff": 0.368421052631579
   },
   "scottcjn/grazer-skill": {
     "sourceHash": "605192ba349ca2e2",
@@ -9072,11 +9072,11 @@
     "backTranslationDiff": 0.23076923076923073
   },
   "ikaijua/awesome-ai-tools": {
-    "sourceHash": "72b7e60b6cfdeb98",
-    "chineseDescription": "这个 Skill 收录了 220 多个 AI 工具，覆盖 37 个以上分类——包括聊天机器人（chatbots）、编程智能体（coding agents）、AI 视频/图像/语音工具，以及开放权重模型（open-weight models）。所有条目都经过 AI + 人工筛选，省得你自己一个个去踩坑。",
-    "prompt": "帮我安装 Awesome-AITools 这个 Skill。请从 GitHub 仓库 https://github.com/ikaijua/awesome-ai-tools 下载全部文件，保存到 .claude/skills/awesome-ai-tools/ 目录下，完成后告诉我安装结果和这个 Skill 的用途。",
-    "translatedAt": "2026-11-09T07:07:41.888Z",
-    "backTranslationDiff": 0.5454545454545454
+    "sourceHash": "d94f8dffc82e2905",
+    "chineseDescription": "这个仓库收集了各种好用的 AI 工具（AI tools），欢迎大家一起来推荐更多优秀的 AI 工具！",
+    "prompt": "请帮我安装 Awesome-AITools 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/ikaijua/awesome-ai-tools 下载仓库文件（可用 git clone https://github.com/ikaijua/awesome-ai-tools 或直接下载 ZIP 解压）；2) 在项目根目录创建 .claude/skills/awesome-ai-tools/ 目录；3) 把下载的文件复制到该目录下；4) 确认目录结构正确后告诉我安装完成。如果目录已存在，先备份再覆盖。",
+    "translatedAt": "2026-11-12T07:44:41.323Z",
+    "backTranslationDiff": 0.2727272727272727
   },
   "alchaincyf/huashu-excel": {
     "sourceHash": "18fce51a1aec2f2b",
@@ -9364,5 +9364,40 @@
     "prompt": "帮我安装 lieflat-charts 这个 Skill。请从 GitHub 仓库 https://github.com/larashero3-dotcom/lieflat-charts 下载全部文件，保存到 .claude/skills/lieflat-charts/ 目录下，完成后告诉我装了哪些文件、怎么用。",
     "translatedAt": "2026-11-11T06:51:23.712Z",
     "backTranslationDiff": 0.3846153846153846
+  },
+  "phuryn/product-engineering": {
+    "sourceHash": "d82fd84aef99429e",
+    "chineseDescription": "这套 Skill 包含 44 个 agent skills（智能体技能），来自三个已上线产品的实战经验：帮你决定做什么、用 Claude Code 或 Codex 把它做出来、再让第二个模型来 review（审查）、最后发布上线。",
+    "prompt": "请帮我安装 product-engineering 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建安装位置（如果目录不存在就新建）；3) 把仓库里的 skill 文件复制到该目录，确保每个 skill 的 SKILL.md 都在正确位置；4) 安装完成后列出已安装的 skill 清单，确认安装成功。",
+    "translatedAt": "2026-11-12T07:44:24.535Z",
+    "backTranslationDiff": 0.25
+  },
+  "innei/ryugi": {
+    "sourceHash": "6e9cabe6e13aef8e",
+    "chineseDescription": "Ryugi（读作 ryoo-ghee）——给编码 agent 用的产物工具：mockup 画板、设计文档、白板、HTML 工作台，以及你可以直接在上面评论的验证报告，每条评论都会回传给 agent。可以只装产物部分，也可以装完整的 brainstorm → spec → TDD 工作流。支持 Claude Code、Codex 等。",
+    "prompt": "请帮我安装 ryugi 这个 skill：从 https://github.com/innei/ryugi 下载仓库文件，保存到 .claude/skills/ryugi/ 目录下完成安装。安装前先看一下仓库的 README，确认目录结构和安装方式；如果仓库里有 SKILL.md 或安装说明，按说明来。装完后告诉我装了什么、怎么用。",
+    "translatedAt": "2026-11-12T07:44:28.895Z",
+    "backTranslationDiff": 0.30000000000000004
+  },
+  "devsemih/appstore-review-skill": {
+    "sourceHash": "1963f775963cdff3",
+    "chineseDescription": "这是一个 Claude Code 插件（plugin），在你提交应用之前，帮你对照 Apple 的 App Review Guidelines（应用审核指南）和 Google Play 政策检查 iOS 和 Android 应用。它会检查 .ipa 和 .aab 构建包，自动应用安全的修复（safe fixes），并帮你起草针对拒审（rejection）的回复。",
+    "prompt": "请帮我安装 appstore-review-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/devsemih/appstore-review-skill 下载该技能的所有文件，并保存到 .claude/skills/appstore-review-skill/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整，并告诉我如何使用它。",
+    "translatedAt": "2026-11-12T07:44:37.251Z",
+    "backTranslationDiff": 0.1923076923076923
+  },
+  "op7418/guizang-game-skill": {
+    "sourceHash": "b5b3e38b47c34cfc",
+    "chineseDescription": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附带可玩演示《雾锁山门》。这是一个给 Claude Code / Codex 用的 Agent Skill（智能体技能），能用 AI 生成的素材（three.js、单 HTML 文件）搭出一个可直接在浏览器里玩的 3D 动作游戏，并自带可玩 demo。",
+    "prompt": "请帮我安装一个 Claude Code Skill（智能体技能），名字叫 guizang-game-skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/op7418/guizang-game-skill 下载该仓库的全部文件（可以直接 git clone https://github.com/op7418/guizang-game-skill，或者用 curl 下载 zip 包再解压）。\n2. 把下载到的内容保存到当前项目的 .claude/skills/guizang-game-skill/ 目录下（如果目录不存在就创建）。确保 SKILL.md 等文件位于 .claude/skills/guizang-game-skill/ 根目录下。\n3. 安装完成后，列出该目录下的文件，确认安装成功，并简要告诉我这个 skill 是干什么的、怎么触发使用。\n\n注意：不要假设我已经装过任何东西，请你自己去 https://github.com/op7418/guizang-game-skill 下载并完成安装。",
+    "translatedAt": "2026-11-12T07:44:46.345Z",
+    "backTranslationDiff": 0.35
+  },
+  "bil0000/hill-climb": {
+    "sourceHash": "20cb8e3a2d3ed623",
+    "chineseDescription": "让你的编码 agent（智能体）必须证明任务真的「完成了」。每次改动只有在锁定的测试或 benchmark（基准测试）得分更高时才会被保留。适用于 Claude Code 和 Codex 的 skill。",
+    "prompt": "请帮我安装 Hill-Climb 这个 skill。请从 GitHub 仓库 https://github.com/bil0000/hill-climb 下载所有文件，并保存到 .claude/skills/hill-climb/ 目录下完成安装。安装完成后，请确认目录结构和文件是否完整。",
+    "translatedAt": "2026-11-12T07:44:50.407Z",
+    "backTranslationDiff": 0.42105263157894735
   }
 }
