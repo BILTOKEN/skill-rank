@@ -1442,6 +1442,27 @@
     "lastPush": "2026-11-03T03:38:34Z"
   },
   {
+    "repo": "epoko77-ai/im-not-ai",
+    "name": "im-not-ai",
+    "description": "AI가 쓴 한글을 사람 글처럼 윤문하는 Claude 스킬 — Korean AI-text humanizer: detects and rewrites translationese, mechanical parallelism, and 71 other AI tells",
+    "tags": [
+      "agent-skills",
+      "ai-detection",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "humanizer",
+      "korean",
+      "korean-nlp",
+      "llm",
+      "nlp",
+      "translationese",
+      "写作"
+    ],
+    "stars": 6521,
+    "lastPush": "2026-10-12T09:57:11Z"
+  },
+  {
     "repo": "alchaincyf/huashu-art-motion",
     "name": "huashu-art-motion",
     "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
@@ -1461,6 +1482,56 @@
     ],
     "stars": 6481,
     "lastPush": "2026-10-16T17:03:31Z"
+  },
+  {
+    "repo": "jimliu/baoyu-design",
+    "name": "baoyu-design",
+    "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
+    "tags": [
+      "agent-skills",
+      "claude-artifacts",
+      "claude-code",
+      "claude-dashboard",
+      "claude-data",
+      "claude-design",
+      "claude-docs",
+      "claude-motion",
+      "claude-slides",
+      "claude-whiteboard",
+      "dsh-plugin",
+      "dsh-plugins",
+      "open-artifacts"
+    ],
+    "stars": 6412,
+    "lastPush": "2026-11-12T09:19:13Z"
+  },
+  {
+    "repo": "q00/ouroboros",
+    "name": "ouroboros",
+    "description": "Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.",
+    "tags": [
+      "agent-os",
+      "agentic-ai",
+      "ai-agent",
+      "ai-coding-agent",
+      "claude-code",
+      "cli",
+      "codex",
+      "coding-agent",
+      "deepseek",
+      "developer-tools",
+      "dsh",
+      "dsh-plugin",
+      "llm-evaluation",
+      "llm-orchestration",
+      "loop-engineering",
+      "mcp",
+      "opencode",
+      "skill",
+      "skills"
+    ],
+    "stars": 6357,
+    "lastPush": "2026-11-13T06:20:21Z"
   },
   {
     "repo": "ikaijua/awesome-ai-tools",
@@ -11703,6 +11774,27 @@
     "lastPush": "2026-06-08T20:22:24Z"
   },
   {
+    "repo": "globalmpc/vibe-preflight",
+    "name": "vibe-preflight",
+    "description": "Claude Code skill: pre-flight check for vibe-coded apps before launch — leaked secrets, access control, bad dependencies, runaway costs, unfinished code, Docker/hosting readiness. Plain-language report.",
+    "tags": [
+      "agent-skills",
+      "ai-coding",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "docker",
+      "mpc",
+      "opencode",
+      "pre-deploy-checklist",
+      "secrets-detection",
+      "security-audit",
+      "vibe-coding"
+    ],
+    "stars": 65,
+    "lastPush": "2026-11-09T09:39:10Z"
+  },
+  {
     "repo": "testdouble/han",
     "name": "han",
     "description": "Han: AI skills and agents for \"Solo\" product engineers and small teams",
@@ -14808,6 +14900,34 @@
     ],
     "stars": 37,
     "lastPush": "2026-10-04T17:53:51Z"
+  },
+  {
+    "repo": "serejaris/telegram-skills",
+    "name": "telegram-skills",
+    "description": "Telegram skills for AI agents (Claude Code, Codex, Cursor): Agent Skills that teach your agent the Telegram Bot API. Rich Messages, streaming AI replies, HTML widgets, polls, sticker packs, Mini Apps and Stars payments. Raw HTTP, no bot framework.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "codex-skills",
+      "cursor",
+      "rich-messages",
+      "skills",
+      "telegram",
+      "telegram-bot",
+      "telegram-bot-api",
+      "telegram-mini-apps",
+      "telegram-polls",
+      "telegram-skill",
+      "telegram-skills",
+      "telegram-stickers",
+      "telegram-widgets"
+    ],
+    "stars": 37,
+    "lastPush": "2026-11-13T00:25:44Z"
   },
   {
     "repo": "lsnackerman/raw-clauding-skills",
@@ -24485,6 +24605,35 @@
     ],
     "stars": 12,
     "lastPush": "2026-09-22T07:58:37Z"
+  },
+  {
+    "repo": "realadii/clipper-skill",
+    "name": "clipper-skill",
+    "description": "Claude Code skill that turns podcasts, interviews and X broadcasts into post-ready short clips. Local MLX Whisper transcription, ffmpeg cuts on word boundaries, QA-checked, Google Drive + Doc hand-off. Open-source Opus Clip alternative.",
+    "tags": [
+      "agent-skills",
+      "ai-video-editor",
+      "anthropic",
+      "apple-silicon",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "content-repurposing",
+      "ffmpeg",
+      "mlx",
+      "mlx-whisper",
+      "opus-clip",
+      "podcast",
+      "podcast-clips",
+      "short-form-video",
+      "shorts",
+      "transcription",
+      "video-clipping",
+      "whisper",
+      "yt-dlp"
+    ],
+    "stars": 12,
+    "lastPush": "2026-11-12T17:12:43Z"
   },
   {
     "repo": "gabelul/slopbuster",
@@ -34933,6 +35082,76 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-12T06:38:03Z"
+  },
+  {
+    "repo": "joseomagodoads-bot/ultra-skills",
+    "name": "ultra-skills",
+    "description": "Ultra Skills: 6 skills gratuitas de IA para auditoria de sites, marketing, copywriting, SaaS, funis de vendas e planos de ação. Compatível com Claude Code e Codex.",
+    "tags": [
+      "agent-skills",
+      "agent-skills-",
+      "ai-agents",
+      "ai-skills",
+      "ai-skills-analysis",
+      "ai-skills-and-prompts",
+      "ai-skills-vault-plugin",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-code-skills",
+      "codex",
+      "codex-skill",
+      "copywriting",
+      "copywriting-skills",
+      "marketing",
+      "saas",
+      "seo",
+      "website-audit"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-12T15:00:41Z"
+  },
+  {
+    "repo": "ezpeezee/beta-version-blox-studio",
+    "name": "beta-version-blox-studio",
+    "description": "Turn an idea or your own script into a 9:16 blocky 3D animated short with Claude Code and Blender.",
+    "tags": [
+      "animation",
+      "animation-pipeline",
+      "blender",
+      "blender-python",
+      "blocky",
+      "claude-code",
+      "claude-code-skill",
+      "ffmpeg",
+      "python",
+      "reels",
+      "roblox-style",
+      "shorts",
+      "text-to-speech",
+      "video-generation",
+      "youtube-shorts"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-13T04:53:03Z"
+  },
+  {
+    "repo": "globalmpc/vibe-bill",
+    "name": "vibe-bill",
+    "description": "Claude Code skill that estimates what your vibe-coded app will cost to run at 100 / 1k / 10k / 100k users, flags code patterns that inflate the bill, and renders a shareable receipt.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "cost-estimation",
+      "developer-tools",
+      "llm",
+      "mpc",
+      "typescript",
+      "vibe-coding"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-12T06:07:05Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
