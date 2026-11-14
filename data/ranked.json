@@ -1834,6 +1834,33 @@
     "checkedAt": "2026-11-08T06:10:51.274Z"
   },
   {
+    "repo": "jimliu/open-artifacts",
+    "name": "open-artifacts",
+    "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
+    "tags": [
+      "agent-skills",
+      "claude-artifacts",
+      "claude-code",
+      "claude-dashboard",
+      "claude-data",
+      "claude-design",
+      "claude-docs",
+      "claude-motion",
+      "claude-slides",
+      "claude-whiteboard",
+      "dsh-plugin",
+      "dsh-plugins",
+      "open-artifacts"
+    ],
+    "stars": 6425,
+    "lastPush": "2026-11-13T22:18:42Z",
+    "pool": "ranked",
+    "readmeLength": 4089,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-14T06:34:57.404Z"
+  },
+  {
     "repo": "jimliu/baoyu-design",
     "name": "baoyu-design",
     "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
@@ -4981,6 +5008,40 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "ythx-101/live-panel-skill",
+    "name": "live-panel-skill",
+    "description": "Agent skill + renderer: turn one JSON config (or an Excalidraw file) into an animated architecture diagram — terminal-style live panel or pastel infographic — as mp4 or a looping web page. 动态架构图 / agent 架构动图，适配 X 与小红书。",
+    "tags": [
+      "agent-skill",
+      "ai-agents",
+      "animated-diagram",
+      "architecture-diagram",
+      "chinese",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "data-visualization",
+      "diagram-as-code",
+      "excalidraw",
+      "ffmpeg",
+      "headless-chrome",
+      "infographic",
+      "json-to-video",
+      "motion-graphics",
+      "mp4",
+      "multi-agent",
+      "python",
+      "xiaohongshu"
+    ],
+    "stars": 857,
+    "lastPush": "2026-11-12T18:52:35Z",
+    "pool": "ranked",
+    "readmeLength": 3691,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-14T06:34:57.404Z"
   },
   {
     "repo": "dozentwelve/papermorph",
@@ -14147,6 +14208,37 @@
     "checkedAt": "2026-07-08T03:47:54.363Z"
   },
   {
+    "repo": "ythx-101/agent-sop",
+    "name": "agent-sop",
+    "description": "Human-gated SOP skill for multi-agent coding: discovers installed agent CLIs (Claude Code, Codex, Gemini CLI…), assigns writer/reviewer/scout slots by capability, enforces cross-vendor review, evidence-based verification and human signoff before deploy. 人类守门的多 Agent 协作 SOP。",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "agent-workflow",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex-cli",
+      "coding-agents",
+      "developer-workflow",
+      "gemini-cli",
+      "human-in-the-loop",
+      "llm",
+      "multi-agent",
+      "multi-agent-systems",
+      "sop"
+    ],
+    "stars": 74,
+    "lastPush": "2026-11-12T19:15:03Z",
+    "pool": "ranked",
+    "readmeLength": 1184,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-14T06:34:57.404Z"
+  },
+  {
     "repo": "vasilyu1983/ai-agents-public",
     "name": "AI-Agents-public",
     "description": "Production-grade agent skills and Custom GPT prompts for Claude Code, Codex, and Gemini CLI. 65 skills, 28 agents, Agent Skills spec compliant.",
@@ -16676,6 +16768,28 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "masterball-w/a-writer-should-do",
+    "name": "A-writer-should-do",
+    "description": "一个框架化蒸馏作家的skill",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "skill",
+      "写作",
+      "writing-assistant"
+    ],
+    "stars": 51,
+    "lastPush": "2026-11-10T02:18:39Z",
+    "pool": "ranked",
+    "readmeLength": 2320,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-14T06:34:57.404Z"
   },
   {
     "repo": "smixs/creative-director-skill",

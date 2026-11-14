@@ -3304,11 +3304,11 @@
     "backTranslationDiff": 0.125
   },
   "cosmoblk/email-marketing-bible": {
-    "sourceHash": "63ef997629e9645f",
-    "chineseDescription": "这是一个给 Claude Code 用的邮件营销（Email Marketing）技能包。包含 8.8 万字内容、908 个信息来源、19 个行业实战手册（playbook）。装上这个技能后，Claude 就能变成你的邮件营销专家。",
-    "prompt": "请帮我安装 email-marketing-bible 技能：从 GitHub 仓库 https://github.com/cosmoblk/email-marketing-bible 下载所有文件，保存到 .claude/skills/email-marketing-bible/ 目录下，完成安装。",
-    "translatedAt": "2026-10-06T06:50:59.253Z",
-    "backTranslationDiff": 0.9230769230769231
+    "sourceHash": "3fa0c1e6ce4e062a",
+    "chineseDescription": "这是一个给 AI agent（智能体）用的邮件营销技能，作者 George Hartley（SmartrMail 创始人）。它能规划、撰写、审查和发送邮件，并且带有严格的发送安全闸门（send-safety gates），防止误发。支持 Claude、ChatGPT、Codex 和 Cursor，免费、MIT 协议、厂商中立（vendor-neutral）。",
+    "prompt": "请帮我安装 email-marketing-bible 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/cosmoblk/email-marketing-bible 下载全部文件（可以用 git clone https://github.com/cosmoblk/email-marketing-bible 或直接下载 zip 解压）；2) 在项目里创建目录 .claude/skills/email-marketing-bible/；3) 把仓库里的技能文件（包括 SKILL.md 及所有相关文件）复制到该目录下；4) 确认目录结构正确后告诉我安装完成，并简单说明这个技能怎么用。如果目录已存在，先备份再覆盖。",
+    "translatedAt": "2026-11-14T06:58:12.268Z",
+    "backTranslationDiff": 0.45833333333333337
   },
   "chrisvoncsefalvay/claude-d3js-skill": {
     "sourceHash": "014458f81cb3b1a7",
@@ -4424,11 +4424,11 @@
     "backTranslationDiff": 0.8695652173913043
   },
   "maxritter/pilot-shell": {
-    "sourceHash": "178690ffafcfa846",
-    "chineseDescription": "用你的编码 agent（coding agent）来规划、构建和审查软件。可以在 App 或浏览器里并肩协作，也可以用你顺手的终端或 IDE。",
-    "prompt": "请帮我安装 pilot-shell 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/maxritter/pilot-shell 下载全部文件（可用 git clone https://github.com/maxritter/pilot-shell 或直接下载仓库压缩包）；2) 在项目根目录创建 .claude/skills/pilot-shell/ 目录；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件位于 .claude/skills/pilot-shell/ 根目录；4) 安装完成后列出目录内容确认安装成功。",
-    "translatedAt": "2026-10-22T05:19:40.031Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "7bbd6ebef16e5dfc",
+    "chineseDescription": "用你喜欢的编码智能体（coding agent）来规划、实现和验证软件。可以在 App 或浏览器里干活，也可以在你自己的终端（terminal）、IDE 或智能体应用（agent app）里操作。",
+    "prompt": "请帮我安装 pilot-shell 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/maxritter/pilot-shell 下载全部文件（可以用 git clone https://github.com/maxritter/pilot-shell 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/pilot-shell/；3) 把下载到的文件复制到该目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我文件清单和怎么用。",
+    "translatedAt": "2026-11-14T06:58:00.225Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "elementalsouls/claude-bughunter": {
     "sourceHash": "3174c7ebe5d65dd7",
@@ -7651,11 +7651,11 @@
     "backTranslationDiff": 0.31034482758620685
   },
   "ratel-ai/ratel": {
-    "sourceHash": "caa408599e913b85",
-    "chineseDescription": "为 AI 代理进行上下文工程（Context Engineering）。减少约80%的 token 消耗。解决工具过载问题。通过进程内 BM25 和语义检索实现技能与记忆。渐进式信息展示（Progressive Disclosure）。无需向量数据库（Vector DB）。",
-    "prompt": "请从 https://github.com/ratel-ai/ratel 下载 ratel skill 文件，并保存到 .claude/skills/ratel/ 目录中，完成安装。",
-    "translatedAt": "2026-07-15T03:55:52.126Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "dcf593939d80c846",
+    "chineseDescription": "给 AI agent（智能体）用的自我改进层。Ratel 会读取你 agent 的运行轨迹（traces），找出哪里出错，给出修复建议，并在你上线前用真实会话跑评测（evals）。支持自托管（self-hosted）：一个应用，一个 Postgres 就够。自带 TypeScript 和 Python SDK。",
+    "prompt": "请帮我安装 ratel 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/ratel-ai/ratel 下载该 Skill 的全部文件（如果仓库根目录没有现成的 SKILL.md，请查看仓库结构找到 skill 定义文件，必要时克隆整个仓库 https://github.com/ratel-ai/ratel 再筛选）；2) 在项目里创建目录 .claude/skills/ratel/，把下载到的 Skill 文件保存进去；3) 确认目录下有 SKILL.md（或等价的主定义文件）以及相关的脚本/资源文件；4) 安装完成后告诉我文件清单和怎么用。注意：不要假设我已经装过任何东西，所有内容都从 https://github.com/ratel-ai/ratel 现拉。",
+    "translatedAt": "2026-11-14T06:58:04.620Z",
+    "backTranslationDiff": 0.24
   },
   "pcliangx/appgenesisforge": {
     "sourceHash": "63a62af436f46bee",
@@ -8757,11 +8757,11 @@
     "backTranslationDiff": 0.5882352941176471
   },
   "arifszn/slide-wright": {
-    "sourceHash": "eda3a0a7f0f199c1",
-    "chineseDescription": "用你的编程 agent（coding agent）来做演示文稿。先预览两页幻灯片，确认后再生成并导出为 PowerPoint 或 PDF。支持 Claude Code、Codex、Gemini CLI、OpenCode、Cursor 以及其他兼容 SKILL.md 的 agent。",
-    "prompt": "请帮我安装 slide-wright 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/arifszn/slide-wright 下载全部文件（可以用 git clone https://github.com/arifszn/slide-wright 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/slide-wright/ 目录下创建 skill 文件夹（如果目录不存在就先创建）；3) 把仓库里的 SKILL.md 及相关文件复制到 .claude/skills/slide-wright/ 中；4) 安装完成后告诉我怎么用，比如怎么触发它做幻灯片预览和导出。",
-    "translatedAt": "2026-10-20T05:17:55.983Z",
-    "backTranslationDiff": 0.31999999999999995
+    "sourceHash": "990e3c4bdbc1be2f",
+    "chineseDescription": "用你的 coding agent（编码智能体）来做演示文稿。先在短预览里对比几个设计方向，挑一个，然后生成并导出成 PowerPoint 或 PDF。",
+    "prompt": "帮我安装 slide-wright 这个 skill。请从 GitHub 仓库 https://github.com/arifszn/slide-wright 下载它的文件，保存到 .claude/skills/slide-wright/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-14T06:58:08.137Z",
+    "backTranslationDiff": 0.2777777777777778
   },
   "zhuyansen/wx-favorites-report": {
     "sourceHash": "a6ff5ca2653ec4ca",
@@ -9455,5 +9455,33 @@
     "prompt": "请帮我安装 im-not-ai 这个 Claude 技能。请从 GitHub 仓库 https://github.com/epoko77-ai/im-not-ai 下载该技能的所有文件，并保存到 .claude/skills/im-not-ai/ 目录下，完成安装。安装完成后告诉我这个技能是做什么用的、怎么触发使用。",
     "translatedAt": "2026-11-13T07:06:31.488Z",
     "backTranslationDiff": 0.5
+  },
+  "jimliu/open-artifacts": {
+    "sourceHash": "652ad74b0770312b",
+    "chineseDescription": "把 Claude Design 当成本地 Agent Skill（智能体技能）来跑——支持 Cursor、Codex、DeepSeek Harness 等工具。不用上 claude.ai/design，就能生成精致的 UI 效果图、原型、演示文稿和线框图，输出是自包含的 HTML（self-contained HTML）。搭配 Opus 或 Claude 效果最好。",
+    "prompt": "帮我安装 open-artifacts 这个 Skill。请你自己去 GitHub 仓库 https://github.com/jimliu/open-artifacts 下载它的文件，保存到 .claude/skills/open-artifacts/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-14T06:58:15.922Z",
+    "backTranslationDiff": 0.375
+  },
+  "ythx-101/live-panel-skill": {
+    "sourceHash": "73a0380f2c7ba79b",
+    "chineseDescription": "Agent skill + 渲染器（renderer）：把一份 JSON 配置（或一个 Excalidraw 文件）变成动态架构图（animated architecture diagram）——可以是终端风格的实时面板（terminal-style live panel），也可以是柔和配色的信息图（pastel infographic），输出 mp4 或循环播放的网页。动态架构图 / agent 架构动图，适配 X 与小红书。",
+    "prompt": "请帮我安装 live-panel-skill 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/ythx-101/live-panel-skill 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/live-panel-skill/ 目录（如果已存在就覆盖更新）；3) 把下载到的文件全部放进该目录，确保 SKILL.md 位于 .claude/skills/live-panel-skill/SKILL.md；4) 安装完成后列出目录内容确认，并告诉我这个 skill 怎么用。仓库地址：https://github.com/ythx-101/live-panel-skill",
+    "translatedAt": "2026-11-14T06:58:19.968Z",
+    "backTranslationDiff": 0.18181818181818177
+  },
+  "ythx-101/agent-sop": {
+    "sourceHash": "aab85fb50cb17b27",
+    "chineseDescription": "这是一个带人工把关的 SOP（标准作业流程）技能，用于多 Agent 协作写代码：它会自动发现你机器上装了哪些 Agent CLI（命令行工具），比如 Claude Code、Codex、Gemini CLI 等，然后按各自能力分配「写手 / 审查者 / 侦察兵」角色，强制跨厂商交叉审查，要求基于证据做验证，并且在部署前必须由人来签字确认。简单说，就是让多个 AI 分工干活、互相挑刺，最后人拍板。",
+    "prompt": "请帮我安装 agent-sop 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/ythx-101/agent-sop 下载全部文件（可以用 git clone https://github.com/ythx-101/agent-sop 或直接抓取仓库内容）；2) 在项目里创建目录 .claude/skills/agent-sop/；3) 把仓库里的技能文件（包括 SKILL.md 及配套文件）放到该目录下；4) 安装完成后告诉我这个技能怎么用、需要哪些前置条件（比如本机装了哪些 Agent CLI）。",
+    "translatedAt": "2026-11-14T06:58:24.859Z",
+    "backTranslationDiff": 0.4285714285714286
+  },
+  "masterball-w/a-writer-should-do": {
+    "sourceHash": "49ff2ba7d8f641ae",
+    "chineseDescription": "这是一个把作家写作方法框架化蒸馏出来的 skill（技能），帮你按结构化流程模仿作家风格来写作。",
+    "prompt": "请帮我安装一个 Claude Code skill（技能）：A-writer-should-do。请你自己去 GitHub 仓库 https://github.com/masterball-w/a-writer-should-do 下载这个仓库的文件，保存到 .claude/skills/a-writer-should-do/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-11-14T06:58:28.507Z",
+    "backTranslationDiff": 1
   }
 }

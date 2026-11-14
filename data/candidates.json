@@ -1484,6 +1484,28 @@
     "lastPush": "2026-10-16T17:03:31Z"
   },
   {
+    "repo": "jimliu/open-artifacts",
+    "name": "open-artifacts",
+    "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
+    "tags": [
+      "agent-skills",
+      "claude-artifacts",
+      "claude-code",
+      "claude-dashboard",
+      "claude-data",
+      "claude-design",
+      "claude-docs",
+      "claude-motion",
+      "claude-slides",
+      "claude-whiteboard",
+      "dsh-plugin",
+      "dsh-plugins",
+      "open-artifacts"
+    ],
+    "stars": 6425,
+    "lastPush": "2026-11-13T22:18:42Z"
+  },
+  {
     "repo": "jimliu/baoyu-design",
     "name": "baoyu-design",
     "description": "Run Claude Design locally as an Agent Skill — Cursor, Codex, DeepSeek Harness & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus or Claude.",
@@ -3961,6 +3983,35 @@
     ],
     "stars": 868,
     "lastPush": "2026-05-19T01:51:24Z"
+  },
+  {
+    "repo": "ythx-101/live-panel-skill",
+    "name": "live-panel-skill",
+    "description": "Agent skill + renderer: turn one JSON config (or an Excalidraw file) into an animated architecture diagram — terminal-style live panel or pastel infographic — as mp4 or a looping web page. 动态架构图 / agent 架构动图，适配 X 与小红书。",
+    "tags": [
+      "agent-skill",
+      "ai-agents",
+      "animated-diagram",
+      "architecture-diagram",
+      "chinese",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "data-visualization",
+      "diagram-as-code",
+      "excalidraw",
+      "ffmpeg",
+      "headless-chrome",
+      "infographic",
+      "json-to-video",
+      "motion-graphics",
+      "mp4",
+      "multi-agent",
+      "python",
+      "xiaohongshu"
+    ],
+    "stars": 857,
+    "lastPush": "2026-11-12T18:52:35Z"
   },
   {
     "repo": "dozentwelve/papermorph",
@@ -11162,6 +11213,32 @@
     "lastPush": "2026-07-02T06:06:45Z"
   },
   {
+    "repo": "ythx-101/agent-sop",
+    "name": "agent-sop",
+    "description": "Human-gated SOP skill for multi-agent coding: discovers installed agent CLIs (Claude Code, Codex, Gemini CLI…), assigns writer/reviewer/scout slots by capability, enforces cross-vendor review, evidence-based verification and human signoff before deploy. 人类守门的多 Agent 协作 SOP。",
+    "tags": [
+      "agent-orchestration",
+      "agent-skills",
+      "agent-workflow",
+      "ai-agents",
+      "ai-coding",
+      "claude-code",
+      "claude-skills",
+      "code-review",
+      "codex-cli",
+      "coding-agents",
+      "developer-workflow",
+      "gemini-cli",
+      "human-in-the-loop",
+      "llm",
+      "multi-agent",
+      "multi-agent-systems",
+      "sop"
+    ],
+    "stars": 74,
+    "lastPush": "2026-11-12T19:15:03Z"
+  },
+  {
     "repo": "vasilyu1983/ai-agents-public",
     "name": "AI-Agents-public",
     "description": "Production-grade agent skills and Custom GPT prompts for Claude Code, Codex, and Gemini CLI. 65 skills, 28 agents, Agent Skills spec compliant.",
@@ -13193,6 +13270,23 @@
     "lastPush": "2026-05-08T16:03:25Z"
   },
   {
+    "repo": "masterball-w/a-writer-should-do",
+    "name": "A-writer-should-do",
+    "description": "一个框架化蒸馏作家的skill",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "skill",
+      "写作",
+      "writing-assistant"
+    ],
+    "stars": 51,
+    "lastPush": "2026-11-10T02:18:39Z"
+  },
+  {
     "repo": "smixs/creative-director-skill",
     "name": "creative-director-skill",
     "description": "AI Creative Director skill for Claude, GPT, Gemini — 20+ methodologies (SIT, TRIZ, Bisociation, SCAMPER), Cannes-calibrated scoring, recursive refinement. Insight → Ideation → Evaluation → Presentation.",
@@ -14136,6 +14230,25 @@
     ],
     "stars": 42,
     "lastPush": "2026-10-26T10:17:09Z"
+  },
+  {
+    "repo": "cavaleiro-ai/projetor-hy320-mini-otimizador",
+    "name": "projetor-hy320-mini-otimizador",
+    "description": "Deixa o projetor HY320 Mini (Android 11, Allwinner H713) mais rapido pela rede Wi-Fi com ADB: scripts reversiveis, tutorial para iniciantes e skills do Claude Code.",
+    "tags": [
+      "adb",
+      "allwinner-h713",
+      "android-tv",
+      "claude-code",
+      "claude-skills",
+      "debloat",
+      "hy320-mini",
+      "otimizacao",
+      "powershell",
+      "projetor"
+    ],
+    "stars": 42,
+    "lastPush": "2026-11-12T21:17:11Z"
   },
   {
     "repo": "thatrebeccarae/claude-marketing",
@@ -15258,6 +15371,25 @@
     ],
     "stars": 35,
     "lastPush": "2026-11-12T02:18:39Z"
+  },
+  {
+    "repo": "masonmosen/muse-video-prompt-skill",
+    "name": "muse-video-prompt-skill",
+    "description": "Prompt engineering workflow skill for Muse built-in video generation (Muse Video): six-part prompt templates → generation → multi-segment stitching → frame verification. Muse 内置视频提示词实战：写提示词 → 生成 → 拼长片 → 抽帧验证。",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "character-consistency",
+      "claude",
+      "claude-skills",
+      "muse",
+      "prompt-engineering",
+      "prompts",
+      "short-video",
+      "video-generation"
+    ],
+    "stars": 35,
+    "lastPush": "2026-11-05T08:30:27Z"
   },
   {
     "repo": "muthuishere/hand-drawn-diagrams",
@@ -18790,6 +18922,29 @@
     ],
     "stars": 23,
     "lastPush": "2026-10-25T23:55:53Z"
+  },
+  {
+    "repo": "whystrohm/digital-twin-of-yourself",
+    "name": "digital-twin-of-yourself",
+    "description": "Work out how you think, talk and decide, and turn it into a tested system prompt of you. Works on any model. Full pipeline in Claude Code.",
+    "tags": [
+      "ai-tools",
+      "brand-voice",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "digital-twin",
+      "founder",
+      "llm",
+      "persona",
+      "prompt-engineering",
+      "psycholinguistics",
+      "system-prompt",
+      "voice-extraction",
+      "writing-style"
+    ],
+    "stars": 23,
+    "lastPush": "2026-11-14T03:31:51Z"
   },
   {
     "repo": "jimmysadek/strategic-partner",
@@ -30094,6 +30249,33 @@
     "lastPush": "2026-10-30T01:06:41Z"
   },
   {
+    "repo": "andykear/peer",
+    "name": "Peer",
+    "description": "Peer makes Claude act like an experienced colleague you can use as a sounding board, so you can work through ideas and problems without the frustrating AI habits of echoing you back, flattering you, agreeing too easily and shotgunning lists at you. It holds its view when you push back without a reason, and changes it when you give one.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agents",
+      "ai-tools",
+      "claude",
+      "claude-ai",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills",
+      "critical-thinking",
+      "decision-making",
+      "llm",
+      "prompt-engineering",
+      "reasoning",
+      "rubber-duck",
+      "sycophancy",
+      "sycophancy-prevention"
+    ],
+    "stars": 6,
+    "lastPush": "2026-11-13T11:23:00Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -32885,6 +33067,48 @@
     "lastPush": "2026-11-12T06:15:05Z"
   },
   {
+    "repo": "ythx-101/san-ban-fu",
+    "name": "san-ban-fu",
+    "description": "三板斧 San Ban Fu：Claude 写、Codex 审、循环改。Python 脚本 + Claude Code Skill，调用 claude 与 codex CLI 让两家模型交叉审查代码，多轮修复 bug/安全/边界问题并输出 REVIEW_REPORT.md。Cross-model AI code review loop: Claude Code writes, OpenAI Codex CLI reviews, Claude fixes.",
+    "tags": [
+      "ai-agents",
+      "ai-code-review",
+      "ai-coding",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "cli",
+      "code-generation",
+      "code-review",
+      "codex",
+      "codex-cli",
+      "developer-tools",
+      "llm",
+      "multi-agent",
+      "openai-codex",
+      "python"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-12T23:11:18Z"
+  },
+  {
+    "repo": "raffaeleciccone-analyst/claude-limiti",
+    "name": "claude-limiti",
+    "description": "Live Claude Code usage limits (5-hour and weekly) in your status line: pace, forecast, notifications and a /limiti skill. English + Italian.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "cli",
+      "rate-limits",
+      "statusline",
+      "usage-limits"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-11T09:28:53Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -35152,6 +35376,50 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-12T06:07:05Z"
+  },
+  {
+    "repo": "ivdezine/edits-video-skill",
+    "name": "edits-video-skill",
+    "description": "Claude Code skill for driving the Edits video editor on macOS through its local MCP server",
+    "tags": [
+      "ai-agents",
+      "automation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "edits",
+      "macos",
+      "mcp",
+      "model-context-protocol",
+      "video-editing",
+      "video-editor"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-09T13:26:25Z"
+  },
+  {
+    "repo": "jindraregal/analyse-bottleneck",
+    "name": "analyse-bottleneck",
+    "description": "Where did your Claude Code agent's time go? Reads local transcripts, shows tests, builds, deploys, polling, model time and waiting for you in an HTML report, and suggests fixes.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-plugin",
+      "claude-skill",
+      "claude-skills",
+      "developer-productivity",
+      "observability",
+      "performance-analysis",
+      "python",
+      "skill-md"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-13T16:57:26Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
