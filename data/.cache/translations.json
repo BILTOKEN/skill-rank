@@ -1,10 +1,10 @@
 {
   "mksglu/context-mode": {
-    "sourceHash": "91e5f11e4110ec45",
-    "chineseDescription": "一个免费、本地运行的插件，能把工具输出挡在你的编码 agent（智能体）的上下文窗口（context window）之外。它用沙箱（sandbox）加 SQLite FTS5 搜索，让上下文里的字节数减少 99%。支持 Claude Code、Codex、Pi、OpenCode、Gemini CLI、Copilot CLI 等 9 种以上 agent，零遥测（telemetry）。",
-    "prompt": "帮我安装 context-mode 这个 skill。请从 GitHub 仓库 https://github.com/mksglu/context-mode 下载它的文件，保存到 .claude/skills/context-mode/ 目录下，完成安装。如果目录不存在就先创建。装好后告诉我怎么用。",
-    "translatedAt": "2026-11-03T07:21:23.298Z",
-    "backTranslationDiff": 0.21875
+    "sourceHash": "751bffc9aa2bf467",
+    "chineseDescription": "一个免费、本地运行的插件（plugin），能把工具输出挡在你的编码 agent 的上下文窗口（context window）之外。它用沙箱（sandbox）和 SQLite FTS5 搜索，让上下文里的字节数减少 99%。支持 Claude Code、Codex、Pi、OMP、OpenCode、Gemini CLI、Copilot CLI 等 13 种 agent。零遥测（telemetry）。",
+    "prompt": "帮我安装 context-mode 这个 skill。请从 GitHub 仓库 https://github.com/mksglu/context-mode 下载所有需要的文件，保存到 .claude/skills/context-mode/ 目录下，完成安装。安装前先看一下仓库的 README，按里面的说明把文件放对位置、配好依赖。装完告诉我怎么用。",
+    "translatedAt": "2026-11-15T07:05:30.228Z",
+    "backTranslationDiff": 0.24242424242424243
   },
   "AgriciDaniel/claude-seo": {
     "sourceHash": "f6adc69c6bdeab68",
@@ -3234,11 +3234,11 @@
     "backTranslationDiff": 0.125
   },
   "brianrwagner/ai-marketing-skills": {
-    "sourceHash": "f3a4778660e92d78",
-    "chineseDescription": "营销框架，AI真正执行。专为Claude Code设计，但也可用于OpenClaw等。【使用场景】适用于需要AI自动执行营销策略、框架和流程的场景。",
-    "prompt": "请从 https://github.com/brianrwagner/ai-marketing-skills 下载文件，并保存到 .claude/skills/ai-marketing-skills/ 目录，完成安装。",
-    "translatedAt": "2026-05-24T13:12:41.417Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "1244e6ececffdf7e",
+    "chineseDescription": "20 个免费的营销技能（marketing skills），AI 能真正执行。专为 Claude Code 打造，同时也兼容 Codex、ChatGPT、Cursor 和 Grok。MIT 许可证。",
+    "prompt": "帮我安装 ai-marketing-claude-code-skills 这个技能包。请从 GitHub 仓库 https://github.com/brianrwagner/ai-marketing-skills 下载全部文件，保存到 .claude/skills/ai-marketing-skills/ 目录下，完成安装。如果目录不存在就先创建，装好后告诉我包含哪些技能。",
+    "translatedAt": "2026-11-15T07:05:37.444Z",
+    "backTranslationDiff": 0.2941176470588235
   },
   "charlie85270/dorothy": {
     "sourceHash": "cd7601bde72bdcc4",
@@ -5040,11 +5040,11 @@
     "backTranslationDiff": 0.045454545454545414
   },
   "brianrwagner/ai-marketing-claude-code-skills": {
-    "sourceHash": "f3a4778660e92d78",
-    "chineseDescription": "营销框架，AI 真正执行。专为 Claude Code 设计，但也可用于 OpenClaw 等。【使用场景】适用于需要 AI 辅助执行营销策略的开发者或营销人员。",
-    "prompt": "请从 https://github.com/brianrwagner/ai-marketing-claude-code-skills 下载该 skill 的所有文件，并将它们保存到当前项目的 .claude/skills/ai-marketing-claude-code-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T13:39:47.423Z",
-    "backTranslationDiff": 0.41666666666666663
+    "sourceHash": "1244e6ececffdf7e",
+    "chineseDescription": "20 个免费的营销技能（marketing skills），AI 能真正执行的那种。专为 Claude Code 打造，同时兼容 Codex、ChatGPT、Cursor 和 Grok。MIT 协议开源。",
+    "prompt": "帮我安装一个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/brianrwagner/ai-marketing-claude-code-skills 下载所有文件，保存到 .claude/skills/ai-marketing-claude-code-skills/ 目录下，完成安装。如果目录不存在就先创建，装好后告诉我装了哪些技能。",
+    "translatedAt": "2026-11-15T07:05:34.122Z",
+    "backTranslationDiff": 0.3529411764705882
   },
   "evolsb/claude-legal-skill": {
     "sourceHash": "646da257b31536be",
@@ -9366,11 +9366,11 @@
     "backTranslationDiff": 0.3846153846153846
   },
   "phuryn/product-engineering": {
-    "sourceHash": "d82fd84aef99429e",
-    "chineseDescription": "这套 Skill 包含 44 个 agent skills（智能体技能），来自三个已上线产品的实战经验：帮你决定做什么、用 Claude Code 或 Codex 把它做出来、再让第二个模型来 review（审查）、最后发布上线。",
-    "prompt": "请帮我安装 product-engineering 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建安装位置（如果目录不存在就新建）；3) 把仓库里的 skill 文件复制到该目录，确保每个 skill 的 SKILL.md 都在正确位置；4) 安装完成后列出已安装的 skill 清单，确认安装成功。",
-    "translatedAt": "2026-11-12T07:44:24.535Z",
-    "backTranslationDiff": 0.25
+    "sourceHash": "e6db9ff4ca6c9b2b",
+    "chineseDescription": "来自三个已上线产品的 45 个 agent skill（智能体技能）：帮你决定做什么、用 Claude Code 或 Codex 把它做出来、让第二个模型来审查、最后发布上线。",
+    "prompt": "请帮我安装 product-engineering 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载仓库压缩包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的所有文件复制到 .claude/skills/product-engineering/ 中，保持原有目录结构；4) 安装完成后列出该目录下的文件清单，确认安装成功。",
+    "translatedAt": "2026-11-15T07:05:41.284Z",
+    "backTranslationDiff": 0.85
   },
   "innei/ryugi": {
     "sourceHash": "6e9cabe6e13aef8e",
@@ -9483,5 +9483,47 @@
     "prompt": "请帮我安装一个 Claude Code skill（技能）：A-writer-should-do。请你自己去 GitHub 仓库 https://github.com/masterball-w/a-writer-should-do 下载这个仓库的文件，保存到 .claude/skills/a-writer-should-do/ 目录下，完成安装。安装好后告诉我怎么用。",
     "translatedAt": "2026-11-14T06:58:28.507Z",
     "backTranslationDiff": 1
+  },
+  "obsidianmd/obsidian-skills": {
+    "sourceHash": "0e1fbd750a8529f4",
+    "chineseDescription": "这是给 Obsidian 用的 Agent 技能（skills）。它能让你的 AI 助手学会用 Obsidian CLI（命令行工具），以及处理 Markdown、Bases、JSON Canvas 这些开放格式。",
+    "prompt": "请帮我安装 obsidian-skills 技能：从 https://github.com/obsidianmd/obsidian-skills 下载仓库文件，保存到 .claude/skills/obsidian-skills/ 目录下，完成后告诉我安装结果。",
+    "translatedAt": "2026-11-15T07:05:45.263Z",
+    "backTranslationDiff": 0.6923076923076923
+  },
+  "avivgerz-hue/vibe-shield": {
+    "sourceHash": "e627a7f5792a784c",
+    "chineseDescription": "vibe-shield 是一个包含 92 条规则的静态安全扫描器（static security scanner），同时提供 Agent Skill 和 MCP server（模型上下文协议服务器），专门针对 AI 生成的 Next.js、Supabase 和 TypeScript 应用做安全检查，覆盖 OWASP Top 10:2025 以及 MCP/Skill 投毒（poisoning）风险。",
+    "prompt": "请帮我安装 vibe-shield 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/avivgerz-hue/vibe-shield 下载该仓库的全部文件（可以用 git clone https://github.com/avivgerz-hue/vibe-shield 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/vibe-shield/ 目录下创建安装位置（如果目录不存在就新建）；3) 把仓库里的 Skill 相关文件（包括 SKILL.md、规则文件、脚本等）复制到 .claude/skills/vibe-shield/ 下；4) 安装完成后告诉我它包含哪些规则、怎么触发使用，以及是否需要额外配置 MCP server。",
+    "translatedAt": "2026-11-15T07:05:49.275Z",
+    "backTranslationDiff": 0.375
+  },
+  "lowdevco/clip-forge": {
+    "sourceHash": "c25bd03a29142696",
+    "chineseDescription": "ClipForge 是一个给 Claude 用的 skill（技能）。你丢给它一个 YouTube 链接或者视频文件，它会自动找出最精彩的片段，给你一份带评分的候选清单，然后把你挑中的片段做成成品竖屏短视频，直接能发 YouTube Shorts、Instagram Reels 和 TikTok。",
+    "prompt": "请帮我安装 ClipForge 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/lowdevco/clip-forge 下载全部文件（可以用 git clone https://github.com/lowdevco/clip-forge 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/clip-forge/；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-11-15T07:05:53.028Z",
+    "backTranslationDiff": 0.36
+  },
+  "cavaleiro-ai/projetor-hy320-mini-otimizador": {
+    "sourceHash": "a39fd6f44e4c4701",
+    "chineseDescription": "通过 Wi-Fi 用 ADB（Android 调试桥）让 HY320 Mini 投影仪（Android 11 系统，Allwinner H713 芯片）跑得更快：提供可回滚的脚本、新手教程，以及 Claude Code 的 skill。",
+    "prompt": "请帮我安装 projetor-hy320-mini-otimizador 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/cavaleiro-ai/projetor-hy320-mini-otimizador 下载全部文件（可用 git clone 或直接下载 zip 解压）；2) 在项目里创建目录 .claude/skills/projetor-hy320-mini-otimizador/，把仓库内容放进去；3) 确认 SKILL.md 等文件已就位，告诉我安装完成并简单说明怎么用。",
+    "translatedAt": "2026-11-15T07:05:57.132Z",
+    "backTranslationDiff": 0.7142857142857143
+  },
+  "hengtaowu/benchmark-research-skill": {
+    "sourceHash": "6a818675e58de861",
+    "chineseDescription": "这是一个用于基准研究（benchmark research）的 Claude Code skill。它会帮你梳理相关论文，找出某个研究方向里常用的数据集（datasets）、评估指标（metrics）和评测协议（evaluation protocols）。简单说，就是让你快速搞清楚「这个方向大家都在用什么数据、怎么评测」。",
+    "prompt": "请帮我安装 benchmark-research-skill 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/hengtaowu/benchmark-research-skill 下载全部文件（可以直接 git clone 或下载压缩包）；2) 在项目根目录下创建 .claude/skills/benchmark-research-skill/ 目录；3) 把下载的文件放到该目录中，确保 SKILL.md 位于 .claude/skills/benchmark-research-skill/SKILL.md；4) 安装完成后告诉我文件结构，确认安装成功。",
+    "translatedAt": "2026-11-15T07:06:01.687Z",
+    "backTranslationDiff": 0.1333333333333333
+  },
+  "masonmosen/muse-video-prompt-skill": {
+    "sourceHash": "21cb61c30607095e",
+    "chineseDescription": "这是一个给 Muse 内置视频生成功能（Muse Video）用的提示词工程（prompt engineering）工作流技能：先用六段式提示词模板写提示词，再生成视频，然后做多段拼接（multi-segment stitching）拼成长片，最后抽帧验证（frame verification）效果。说白了就是一套从写词到出片的完整实操流程。",
+    "prompt": "请帮我安装一个 Claude Code 技能：muse-video-prompt-skill。请你自己去 GitHub 仓库 https://github.com/masonmosen/muse-video-prompt-skill 下载这个仓库的文件，保存到 .claude/skills/muse-video-prompt-skill/ 目录下完成安装（如果目录不存在就创建）。安装完成后告诉我装好了，并简单说明这个技能是干什么用的。",
+    "translatedAt": "2026-11-15T07:06:05.630Z",
+    "backTranslationDiff": 0.2777777777777778
   }
 }

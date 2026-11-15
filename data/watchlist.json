@@ -919,6 +919,51 @@
     "checkedAt": "2026-10-16T04:38:09.573Z"
   },
   {
+    "repo": "lowdevco/clip-forge",
+    "name": "Clip-Forge",
+    "description": "ClipForge is a skill for Claude. You give it a YouTube link or a video file. It finds the best moments, shows you a scored shortlist, and turns the ones you choose into finished vertical clips for YouTube Shorts, Instagram Reels and TikTok",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "editor",
+      "tiktok",
+      "youtube-shorts"
+    ],
+    "stars": 43,
+    "lastPush": "2026-11-13T11:15:55Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-15T06:42:29.994Z"
+  },
+  {
+    "repo": "avivgerz-hue/vibe-shield",
+    "name": "vibe-shield",
+    "description": "92-rule static security scanner, Agent Skill & MCP server for AI-generated Next.js, Supabase & TypeScript apps (OWASP Top 10:2025 + MCP/Skill poisoning).",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "cursor",
+      "设计",
+      "design-systems",
+      "mcp"
+    ],
+    "stars": 43,
+    "lastPush": "2026-11-14T22:38:47Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-15T06:42:29.994Z"
+  },
+  {
     "repo": "rootly-ai-labs/rootly-mcp-server",
     "name": "rootly-mcp-server",
     "description": "Rootly MCP server",
@@ -1728,6 +1773,23 @@
     "skillEvidence": "存在 .claude/skills/**/SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-02T06:17:02.261Z"
+  },
+  {
+    "repo": "hengtaowu/benchmark-research-skill",
+    "name": "benchmark-research-skill",
+    "description": "Claude Code skill for benchmark research. Survey papers to find datasets, metrics, and evaluation protocols used in a research  direction.",
+    "tags": [
+      "claude-code",
+      "claude-code-skill",
+      "skills"
+    ],
+    "stars": 39,
+    "lastPush": "2026-04-24T10:24:44Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-15T06:42:29.994Z"
   },
   {
     "repo": "rafsilva85/credit-optimizer-v5",
@@ -24574,6 +24636,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-14T06:34:57.404Z"
+  },
+  {
+    "repo": "janwilmake/customer-watch",
+    "name": "customer-watch",
+    "description": "Give every customer their own Claude Code session: it watches every channel, tells you what is late, drafts replies with the next best step, and proposes calls with notes. For product engineers and FDEs. Drafts, never sends.",
+    "tags": [
+      "ai-agents",
+      "claude-code",
+      "claude-code-skill",
+      "crm",
+      "customer-success",
+      "forward-deployed-engineer",
+      "hubspot",
+      "imap",
+      "mcp",
+      "product-engineering"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-14T13:49:23Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-15T06:42:29.994Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
