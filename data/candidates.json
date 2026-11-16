@@ -1626,6 +1626,35 @@
     "lastPush": "2026-04-09T21:18:44Z"
   },
   {
+    "repo": "kajisho5/ffmpeg-skill",
+    "name": "ffmpeg-skill",
+    "description": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "audio-processing",
+      "captions",
+      "claude-code",
+      "codex",
+      "coding-agent",
+      "cursor",
+      "ffmpeg",
+      "gemini-cli-extension",
+      "loudness-normalization",
+      "mcp",
+      "mcp-server",
+      "model-context-protocol",
+      "python",
+      "subtitles",
+      "transcoding",
+      "video",
+      "video-editing",
+      "whisper"
+    ],
+    "stars": 6060,
+    "lastPush": "2026-11-16T01:08:43Z"
+  },
+  {
     "repo": "zenstory-ai/oh-story-claudecode",
     "name": "oh-story-claudecode",
     "description": "网文/小说写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味、封面图全流程 | An all-in-one skill pack for long- and short-form web fiction.",
@@ -9156,6 +9185,35 @@
     "lastPush": "2026-10-28T04:59:10Z"
   },
   {
+    "repo": "erkamyaman/unslopovich",
+    "name": "unslopovich",
+    "description": "Your app looks AI-generated. Dr. Unslopovich noticed. An agent skill that finds and fixes AI-looking UI and UX in mobile apps, web apps, and websites.",
+    "tags": [
+      "accessibility",
+      "agent-skills",
+      "agent-skills-tools",
+      "agents",
+      "agentskills",
+      "ai-slop",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "expo",
+      "flutter",
+      "前端",
+      "ionic",
+      "jetpack-compose",
+      "mobile",
+      "react-native",
+      "swiftui",
+      "ui",
+      "ux",
+      "vibe-coding"
+    ],
+    "stars": 142,
+    "lastPush": "2026-11-16T06:42:36Z"
+  },
+  {
     "repo": "gapmiss/obsidian-plugin-skill",
     "name": "obsidian-plugin-skill",
     "description": "Agent SKILL for Obsidian.md plugin development",
@@ -9341,6 +9399,33 @@
     ],
     "stars": 135,
     "lastPush": "2026-10-12T09:49:38Z"
+  },
+  {
+    "repo": "weijt606/anti-vibe-writing",
+    "name": "anti-vibe-writing",
+    "description": "Make AI writing sound human, in English and 中文. A Claude Code / Codex / any-agent skill that strips templated phrasing, consultant-speak, markdown clutter, em-dashes, and copy-paste model residue while keeping the meaning.",
+    "tags": [
+      "agent-skills",
+      "ai-content",
+      "ai-writing",
+      "chinese",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "copywriting",
+      "cursor",
+      "de-ai",
+      "editing",
+      "human-in-the-loop",
+      "humanizer",
+      "llm",
+      "prompt-engineering",
+      "skills",
+      "写作"
+    ],
+    "stars": 135,
+    "lastPush": "2026-11-15T16:29:47Z"
   },
   {
     "repo": "techygarg/lattice",
@@ -12084,6 +12169,34 @@
     "lastPush": "2026-10-16T05:49:42Z"
   },
   {
+    "repo": "krisyangdev/motionboard",
+    "name": "motionboard",
+    "description": "Make launch videos and motion graphics with Claude Code or Codex: free HyperFrames skill + 38 shot recipes (match cut, logo reveal, kinetic typography, liquid glass effect).",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-video",
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "gsap",
+      "hyperframes",
+      "launch-video",
+      "logo-animation",
+      "match-cut",
+      "motion-design",
+      "motion-graphics",
+      "product-video",
+      "remotion-alternative",
+      "text-animation",
+      "video-generation"
+    ],
+    "stars": 63,
+    "lastPush": "2026-11-15T17:39:52Z"
+  },
+  {
     "repo": "geekjourneyx/travel-guidebook",
     "name": "travel-guidebook",
     "description": "AI agent skill that generates beautifully typeset travel guidebook PDFs —  from research to print, powered by parallel agents and Amap MCP.",
@@ -14723,6 +14836,27 @@
     "lastPush": "2026-11-11T16:44:32Z"
   },
   {
+    "repo": "next-token-tv/next-token-skill",
+    "name": "next-token-skill",
+    "description": "让 AI Agent 检索 Next Token｜词元之外 播客的 Skill：回答 AI 问题时引用主理人观点，并附 B 站 / YouTube 时间戳直跳链接",
+    "tags": [
+      "agent-skills",
+      "ai-agent",
+      "ai-news",
+      "ai-podcast",
+      "chinese",
+      "claude-code",
+      "claude-skills",
+      "llm",
+      "next-token",
+      "podcast",
+      "skill",
+      "transcript-search"
+    ],
+    "stars": 40,
+    "lastPush": "2026-11-12T13:02:22Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -15468,6 +15602,19 @@
     "lastPush": "2026-11-05T08:30:27Z"
   },
   {
+    "repo": "garycaogan/gary-mv-swap",
+    "name": "gary-mv-swap",
+    "description": "给一条高清原片和几张角色图，在 RunningHub 上用 MiniMax H3 自动做整条 MV、舞蹈的换人翻拍",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub"
+    ],
+    "stars": 35,
+    "lastPush": "2026-11-16T03:14:28Z"
+  },
+  {
     "repo": "muthuishere/hand-drawn-diagrams",
     "name": "hand-drawn-diagrams",
     "description": "Hand-drawn diagram skill for Claude Code and Codex. Generates monochrome architecture, workflow, and UX blueprint diagrams as PNGs.",
@@ -15720,6 +15867,35 @@
     ],
     "stars": 34,
     "lastPush": "2026-11-04T04:00:11Z"
+  },
+  {
+    "repo": "varghq/skills",
+    "name": "skills",
+    "description": "Video skills for Claude Code, Codex, Grok, Cursor and Gemini CLI: 83 AI video skills for UGC ads, product videos, music videos, consistent characters, captions, motion graphics and FFmpeg edits. Seedance 2.5, Kling 4, Veo 3.1, GPT Image 2.6 and ElevenLabs on one key, or free and local.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "captions",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "ffmpeg",
+      "gemini-cli-extension",
+      "hyperframes",
+      "image-to-video",
+      "motion-graphics",
+      "music-video",
+      "remotion",
+      "text-to-video",
+      "ugc-ads",
+      "video-editing",
+      "video-generation",
+      "video-skill",
+      "video-skills"
+    ],
+    "stars": 34,
+    "lastPush": "2026-11-15T08:18:49Z"
   },
   {
     "repo": "kdnsna/ultimate-ppt-master-skill",
@@ -16457,6 +16633,19 @@
     ],
     "stars": 31,
     "lastPush": "2026-11-06T01:43:24Z"
+  },
+  {
+    "repo": "garycaogan/gary-h3-ref-video",
+    "name": "gary-h3-ref-video",
+    "description": "像给 Seedance 写提示词那样，在 RunningHub 上用 MiniMax H3 按参考图和每镜分镜图出视频",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub"
+    ],
+    "stars": 31,
+    "lastPush": "2026-11-16T03:14:23Z"
   },
   {
     "repo": "spillwavesolutions/jira",
@@ -24867,6 +25056,29 @@
     "lastPush": "2026-11-12T17:12:43Z"
   },
   {
+    "repo": "betaversionhq/beta-version-toon-studio",
+    "name": "beta-version-toon-studio",
+    "description": "Turn an idea or your own script into a 9:16 animated cartoon short with Claude Code and Blender.",
+    "tags": [
+      "animation",
+      "animation-pipeline",
+      "blender",
+      "blender-python",
+      "cartoon",
+      "claude-code",
+      "claude-code-skill",
+      "ffmpeg",
+      "python",
+      "reels",
+      "shorts",
+      "text-to-speech",
+      "video-generation",
+      "youtube-shorts"
+    ],
+    "stars": 12,
+    "lastPush": "2026-11-13T01:39:47Z"
+  },
+  {
     "repo": "gabelul/slopbuster",
     "name": "slopbuster",
     "description": "AI text humanizer for prose, code & academic writing. 100+ patterns, two-pass audit, three-tier scoring, voice injection. Claude Code skill. No API calls — pure local pattern matching. The humanizer that studies how AI actually writes instead of swapping synonyms.",
@@ -27409,6 +27621,18 @@
     "lastPush": "2026-09-21T06:53:33Z"
   },
   {
+    "repo": "kele-dev/claude-orchestrator-skill",
+    "name": "Claude-Orchestrator-Skill",
+    "description": "Claude Code plugin for token-saving multi-agent orchestration: Opus plans and verifies, Haiku executes, Sonnet escalates. Includes parallel team mode, autopilot, checkpoints, and self-maintained project lessons.",
+    "tags": [
+      "claude-code-skill",
+      "claude-skill",
+      "claude-skills"
+    ],
+    "stars": 9,
+    "lastPush": "2026-11-15T16:44:28Z"
+  },
+  {
     "repo": "agents365-ai/imagen-qwen",
     "name": "imagen-qwen",
     "description": "Claude Code skill for AI image generation using Alibaba Cloud Bailian API (通义千问/通义万相)",
@@ -28357,6 +28581,30 @@
     ],
     "stars": 8,
     "lastPush": "2026-11-04T06:02:19Z"
+  },
+  {
+    "repo": "betaversionhq/beta-version-blox-studio",
+    "name": "beta-version-blox-studio",
+    "description": "Turn an idea or your own script into a 9:16 blocky 3D animated short with Claude Code and Blender.",
+    "tags": [
+      "animation",
+      "animation-pipeline",
+      "blender",
+      "blender-python",
+      "blocky",
+      "claude-code",
+      "claude-code-skill",
+      "ffmpeg",
+      "python",
+      "reels",
+      "roblox-style",
+      "shorts",
+      "text-to-speech",
+      "video-generation",
+      "youtube-shorts"
+    ],
+    "stars": 8,
+    "lastPush": "2026-11-13T04:53:03Z"
   },
   {
     "repo": "afeifun/aso-pro-max",
@@ -35515,6 +35763,43 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-13T16:57:26Z"
+  },
+  {
+    "repo": "carlzxc71/shipit",
+    "name": "shipit",
+    "description": "Claude Code skill: one command from a feature description to a reviewed PR, with optional merge and release. Built on GitHub Spec Kit.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "spec-driven-development",
+      "spec-kit"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-01T09:12:53Z"
+  },
+  {
+    "repo": "starrybodies/reword",
+    "name": "reword",
+    "description": "Reword is a Claude Code and Codex skill that learns your writing voice from your own samples and corrections, keeps a private voice profile, and drafts and edits in your writing style for email, LinkedIn, texts and more.",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "codex-skill",
+      "humanizer",
+      "personalization",
+      "voice-matching",
+      "voice-profile",
+      "writing-assistant",
+      "writing-style",
+      "writing-voice"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-14T19:24:16Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

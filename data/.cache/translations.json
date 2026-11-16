@@ -9525,5 +9525,33 @@
     "prompt": "请帮我安装一个 Claude Code 技能：muse-video-prompt-skill。请你自己去 GitHub 仓库 https://github.com/masonmosen/muse-video-prompt-skill 下载这个仓库的文件，保存到 .claude/skills/muse-video-prompt-skill/ 目录下完成安装（如果目录不存在就创建）。安装完成后告诉我装好了，并简单说明这个技能是干什么用的。",
     "translatedAt": "2026-11-15T07:06:05.630Z",
     "backTranslationDiff": 0.2777777777777778
+  },
+  "kajisho5/ffmpeg-skill": {
+    "sourceHash": "3ce765b8b5e8c543",
+    "chineseDescription": "给编码 agent（coding agent）用的本地视频编辑器：42 个 FFmpeg 工具，带机器可读的契约（machine-readable contract）和 MCP 服务器（MCP server），支持 Claude Code、Cursor 和 Codex。能剪切、加字幕、改画幅（reframe）、调响度（loudness）、按平台导出。全程本地跑，不上云，不需要 API key。",
+    "prompt": "帮我安装 ffmpeg-skill 这个 Claude Code 技能。请从 GitHub 仓库 https://github.com/kajisho5/ffmpeg-skill 下载全部文件，保存到 .claude/skills/ffmpeg-skill/ 目录下（如果目录不存在就创建）。安装完成后，检查一下目录结构，告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-16T06:55:42.957Z",
+    "backTranslationDiff": 0.21739130434782605
+  },
+  "erkamyaman/unslopovich": {
+    "sourceHash": "e7912f198a1eaa29",
+    "chineseDescription": "你的应用看起来像是 AI 生成的。Unslopovich 博士注意到了。这是一个 agent skill（智能体技能），专门找出并修复移动应用、Web 应用和网站里那些「一眼 AI」的 UI 和 UX 问题。",
+    "prompt": "请帮我安装 unslopovich 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/erkamyaman/unslopovich 下载全部文件（可以用 git clone https://github.com/erkamyaman/unslopovich 或直接抓取仓库内容）；2) 在项目里创建目录 .claude/skills/unslopovich/；3) 把下载到的 skill 文件（包括 SKILL.md 及相关资源）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简要说明这个 skill 怎么用。",
+    "translatedAt": "2026-11-16T06:55:47.449Z",
+    "backTranslationDiff": 0.2142857142857143
+  },
+  "krisyangdev/motionboard": {
+    "sourceHash": "1ee1bd3553c32f94",
+    "chineseDescription": "用 Claude Code 或 Codex 制作发布视频和动态图形（motion graphics）：免费的 HyperFrames 技能（skill），外加 38 个镜头配方（shot recipes），包括匹配剪辑（match cut）、logo 揭晓（logo reveal）、动态字体（kinetic typography）、液态玻璃效果（liquid glass effect）。",
+    "prompt": "帮我安装 motionboard 这个 skill。请从 GitHub 仓库 https://github.com/krisyangdev/motionboard 下载全部文件，保存到 .claude/skills/motionboard/ 目录下（如果目录不存在就创建）。安装完成后告诉我装了哪些文件，以及怎么用。",
+    "translatedAt": "2026-11-16T06:55:51.423Z",
+    "backTranslationDiff": 0.26086956521739135
+  },
+  "next-token-tv/next-token-skill": {
+    "sourceHash": "46b53af431aa07c4",
+    "chineseDescription": "这个 Skill 让 AI Agent 能检索播客《Next Token｜词元之外》的内容：回答 AI 相关问题时，可以引用主理人的观点，并附上 B 站 / YouTube 的时间戳直跳链接，方便直接跳到原声片段。",
+    "prompt": "请帮我安装 next-token-skill 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/next-token-tv/next-token-skill 下载全部文件（可以用 git clone https://github.com/next-token-tv/next-token-skill 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/next-token-skill/；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件都在正确位置；4) 安装完成后告诉我目录结构和怎么用。",
+    "translatedAt": "2026-11-16T06:55:58.074Z",
+    "backTranslationDiff": 0.7142857142857143
   }
 }
