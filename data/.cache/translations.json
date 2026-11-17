@@ -4991,11 +4991,11 @@
     "backTranslationDiff": 0.06666666666666665
   },
   "sushegaad/claude-skills-governance-risk-and-compliance": {
-    "sourceHash": "4381d45228637bbc",
-    "chineseDescription": "面向治理、风险与合规（GRC）的 Claude Skills：提供专家级合规指导，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、CCPA/CPRA 等框架。基准测试成绩：使用 Skills 时 90%，不使用时为 49%。每月更新。",
-    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件，保存到当前项目的 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下（如果目录不存在就创建）。下载完成后，确认 SKILL.md 等文件已就位，并告诉我安装结果。",
-    "translatedAt": "2026-11-07T06:26:52.933Z",
-    "backTranslationDiff": 0.20588235294117652
+    "sourceHash": "0afd0975af2456e5",
+    "chineseDescription": "这个 Skill 是给治理、风险与合规（GRC）工作用的专家级合规指导工具，覆盖 ISO 27001、SOC 2、FedRAMP、GDPR、HIPAA、NIST CSF、PCI DSS、EU AI Act、ISO 42001、ISO 27701、DORA、CSRD、印度 DPDPA、CMMC 2.0、NIST AI Risk、SWIFT、CCPA/CPRA 等一大堆框架和法规。官方基准测试显示，装了 Skill 得分 92%，不装只有 53%。每月更新。",
+    "prompt": "请帮我安装 Claude-Skills-Governance-Risk-and-Compliance 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/sushegaad/claude-skills-governance-risk-and-compliance 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在当前项目的 .claude/skills/claude-skills-governance-risk-and-compliance/ 目录下创建好目录结构；3) 把下载的文件放到该目录中，确保 SKILL.md 等文件在正确位置；4) 安装完成后告诉我目录里有哪些文件，确认安装成功。",
+    "translatedAt": "2026-11-17T08:25:35.890Z",
+    "backTranslationDiff": 0.32352941176470584
   },
   "anombyte93/prd-taskmaster": {
     "sourceHash": "aa9cd4dd57df5342",
@@ -5992,10 +5992,10 @@
     "backTranslationDiff": 0.71875
   },
   "donchitos/claude-code-game-studios": {
-    "sourceHash": "15c7ef15a766da2c",
-    "chineseDescription": "将 Claude Code 变成一个完整的游戏开发工作室——49 个 AI 代理（agents）、72 个工作流技能（workflow skills），以及一套完整的协调系统，模拟真实工作室的层级结构。【使用场景】适合游戏开发者或团队，希望用 AI 辅助游戏开发全流程。",
-    "prompt": "请从 https://github.com/donchitos/claude-code-game-studios 下载该项目，并将所有文件保存到 .claude/skills/claude-code-game-studios/ 目录下，完成安装。",
-    "translatedAt": "2026-05-31T16:31:48.481Z",
+    "sourceHash": "f6161f1f47298d4e",
+    "chineseDescription": "把 Claude Code 变成一个完整的游戏开发工作室——包含 49 个 AI agent（智能体）、75 个 workflow skill（工作流技能），以及一套完整的 coordination system（协作系统），模拟真实工作室的层级架构。",
+    "prompt": "请帮我安装 Claude-Code-Game-Studios 这个 skill。请从 GitHub 仓库 https://github.com/donchitos/claude-code-game-studios 下载全部文件，保存到 .claude/skills/claude-code-game-studios/ 目录下，完成后确认文件结构是否完整。",
+    "translatedAt": "2026-11-17T08:25:31.250Z",
     "backTranslationDiff": 0.25
   },
   "clawbio/clawbio": {
@@ -9553,5 +9553,12 @@
     "prompt": "请帮我安装 next-token-skill 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/next-token-tv/next-token-skill 下载全部文件（可以用 git clone https://github.com/next-token-tv/next-token-skill 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/next-token-skill/；3) 把仓库里的文件复制到该目录下，确保 SKILL.md 等文件都在正确位置；4) 安装完成后告诉我目录结构和怎么用。",
     "translatedAt": "2026-11-16T06:55:58.074Z",
     "backTranslationDiff": 0.7142857142857143
+  },
+  "weijt606/anti-vibe-writing": {
+    "sourceHash": "743815c368a6b432",
+    "chineseDescription": "让 AI 写出来的东西像人写的，中英文都适用。这是一个 Claude Code / Codex / 任意 agent 都能用的 skill（技能），专门去掉那些模板化的套话、顾问腔、markdown 堆砌、破折号（em-dashes）和复制粘贴留下的模型痕迹，同时保留原意。",
+    "prompt": "帮我安装一个 Claude Code skill，名字叫 anti-vibe-writing。请你自己去 GitHub 仓库 https://github.com/weijt606/anti-vibe-writing 把需要的文件下载下来，保存到 .claude/skills/anti-vibe-writing/ 目录里，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-17T08:25:39.527Z",
+    "backTranslationDiff": 0.41666666666666663
   }
 }

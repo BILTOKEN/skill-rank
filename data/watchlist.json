@@ -964,6 +964,27 @@
     "checkedAt": "2026-11-15T06:42:29.994Z"
   },
   {
+    "repo": "petekp/coordinator",
+    "name": "coordinator",
+    "description": "Turn one Claude Code session into a coordinator that runs, watches and cleans up a fleet of agent sessions in Herdr.",
+    "tags": [
+      "agent-orchestration",
+      "agentic-workflow",
+      "claude-code",
+      "claude-skills",
+      "herdr",
+      "herdr-layout",
+      "skills"
+    ],
+    "stars": 43,
+    "lastPush": "2026-11-17T03:50:32Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-17T08:00:57.034Z"
+  },
+  {
     "repo": "rootly-ai-labs/rootly-mcp-server",
     "name": "rootly-mcp-server",
     "description": "Rootly MCP server",
@@ -2559,6 +2580,40 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-16T06:40:17.431Z"
+  },
+  {
+    "repo": "null200ok/null200ok-bug-bounty-skill",
+    "name": "null200ok-bug-bounty-skill",
+    "description": "One word — NULL200OK — turns any AI agent (Claude Code, Cursor, Codex) into a disciplined bug-bounty hunter. A single SKILL.md condensing 6 offensive-security repos: recon, 12+ vuln playbooks, exploit chains, Web3/Immunefi, WAF bypass, triage & HackerOne/Bugcrowd reporting.",
+    "tags": [
+      "ai-agents",
+      "bug-bounty-automation",
+      "bug-bounty-tools",
+      "bugcrowd",
+      "bugcrowd-security",
+      "claude",
+      "claude-skill",
+      "claude-skills",
+      "hackerone",
+      "immunefi",
+      "offensive-security",
+      "offensive-security-ai",
+      "offensive-security-ai-agents",
+      "offensive-security-tooling",
+      "owasp",
+      "owasp-top-10",
+      "pentesting-tools",
+      "vulnerability-research",
+      "vulnerability-researcher",
+      "yeswehack"
+    ],
+    "stars": 35,
+    "lastPush": "2026-11-08T14:17:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-17T08:00:57.034Z"
   },
   {
     "repo": "muthuishere/hand-drawn-diagrams",
@@ -27745,6 +27800,28 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-16T06:40:17.431Z"
+  },
+  {
+    "repo": "eliptikwu/next-task",
+    "name": "next-task",
+    "description": "Agent skill (Claude Code, Codex, Gemini CLI, Copilot, Cursor): one task per session, about 60% fewer tokens per PR, measured on 561 real PRs",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "codex",
+      "cursor",
+      "gemini-cli",
+      "github-copilot"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-16T19:21:16Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-17T08:00:57.034Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
