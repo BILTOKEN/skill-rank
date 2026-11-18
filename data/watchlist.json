@@ -2291,6 +2291,48 @@
     "checkedAt": "2026-07-11T03:45:10.978Z"
   },
   {
+    "repo": "lonely-dance-lab/self-media-guide",
+    "name": "self-media-guide",
+    "description": "自媒体创作不完全指南：起号方法论、对标拆解模板和 Agent Skill。核心是二创，不是搬运。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-creator",
+      "short-video",
+      "video-analysis"
+    ],
+    "stars": 36,
+    "lastPush": "2026-11-16T10:22:22Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-18T07:37:52.877Z"
+  },
+  {
+    "repo": "carolinacherry/claude-first-customer-finder-skill",
+    "name": "claude-first-customer-finder-skill",
+    "description": "Claude skill that finds evidence-backed potential first customers for your startup from public signals — ICP analysis, verified pain/buying signals, scored shortlist, outreach drafts, HTML report",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "customer-discovery",
+      "prospecting",
+      "startup"
+    ],
+    "stars": 36,
+    "lastPush": "2026-07-13T17:40:55Z",
+    "pool": "watchlist",
+    "recentActivity": false,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-18T07:37:52.877Z"
+  },
+  {
     "repo": "massimodeluisa/recursive-decomposition-skill",
     "name": "recursive-decomposition-skill",
     "description": "Claude Code skill for handling long-context tasks through recursive decomposition",
@@ -21325,6 +21367,40 @@
     "checkedAt": "2026-11-14T06:34:57.404Z"
   },
   {
+    "repo": "ilien-dev/jano",
+    "name": "jano",
+    "description": "Animated GitHub README banner generator: draws your repo an SVG header that shows what it does, in dark and light mode. A skill for Claude Code, Codex and other AI agents.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "animated-svg",
+      "banner-generator",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "dark-mode",
+      "github-banner",
+      "github-readme",
+      "github-readme-banner",
+      "github-repo-banner",
+      "readme",
+      "readme-animation",
+      "readme-banner",
+      "readme-banner-generator",
+      "readme-header",
+      "readme-header-generator",
+      "svg-animation",
+      "svg-banner"
+    ],
+    "stars": 6,
+    "lastPush": "2026-11-18T02:33:55Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-18T07:37:52.877Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -27822,6 +27898,57 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-17T08:00:57.034Z"
+  },
+  {
+    "repo": "jagubuilds/dating-profile-optimizer",
+    "name": "dating-profile-optimizer",
+    "description": "Claude skill that turns Claude into a dating-profile coach for Hinge, Bumble and Tinder: photo audit and ordering, prompt answers within each app's character limit, and help taking a match to a date.",
+    "tags": [
+      "anthropic",
+      "bumble",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "dating",
+      "hinge",
+      "tinder"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-16T22:22:26Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-18T07:37:52.877Z"
+  },
+  {
+    "repo": "mun1to/siteindex",
+    "name": "SiteIndex",
+    "description": "Leaves a website ready to be found: robots.txt, sitemap, canonical, Open Graph, JSON-LD and the AI-crawler decision. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "geo",
+      "indexnow",
+      "json-ld",
+      "robots-txt",
+      "seo",
+      "sitemap",
+      "structured-data",
+      "technical-seo"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-18T06:55:09Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-18T07:37:52.877Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

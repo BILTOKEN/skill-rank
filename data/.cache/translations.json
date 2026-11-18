@@ -3535,11 +3535,11 @@
     "backTranslationDiff": 0
   },
   "heshamfs/materials-simulation-skills": {
-    "sourceHash": "6c487ec58d34bcef",
-    "chineseDescription": "计算材料科学的Agent技能——数值稳定性（numerical stability）、求解器（solvers）、网格划分（meshing）、收敛性（convergence）和仿真工作流（simulation workflows）。【使用场景】适用于计算材料科学领域的仿真工作流自动化，帮助Claude Code处理数值计算、网格划分、收敛控制等任务。",
-    "prompt": "请从 https://github.com/heshamfs/materials-simulation-skills 下载该技能的所有文件，并将它们保存到 .claude/skills/materials-simulation-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-05-24T13:24:18.020Z",
-    "backTranslationDiff": 0
+    "sourceHash": "92b653bd1cb4f645",
+    "chineseDescription": "面向计算材料科学的 Agent Skills（智能体技能）：涵盖数值稳定性（numerical stability）、求解器（solvers）、网格划分（meshing）、收敛性（convergence）、验证与确认（V&V）、高性能计算（HPC）以及仿真工作流（simulation workflows）。",
+    "prompt": "请帮我安装 materials-simulation-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/heshamfs/materials-simulation-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/materials-simulation-skills/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、这个 skill 能做什么。仓库地址是 https://github.com/heshamfs/materials-simulation-skills ，请自行下载安装，不要假设我已经提前装好了。",
+    "translatedAt": "2026-11-18T07:51:20.220Z",
+    "backTranslationDiff": 0.07692307692307687
   },
   "rafsilva85/credit-optimizer-v5": {
     "sourceHash": "4764b0634066c668",
@@ -4158,11 +4158,11 @@
     "backTranslationDiff": 0.7916666666666666
   },
   "aboudjem/humanizer-skill": {
-    "sourceHash": "b7dc3f53de0e44df",
-    "chineseDescription": "免费、开源的 AI 写作人性化工具和检测器。包含 55 种模式、5 种语气、0-100 的 AI 痕迹评分，且所有处理都在本地完成，数据不会离开你的设备。【使用场景】当你需要将 AI 生成的文本改写得更像人类写作，或检测一段文字是否由 AI 生成时使用。",
-    "prompt": "请帮我安装 humanizer-skill 技能。请从 GitHub 仓库 https://github.com/aboudjem/humanizer-skill 下载该技能的全部文件，并保存到 .claude/skills/humanizer-skill/ 目录下。安装完成后，请确认技能可用，并告诉我如何使用它来人性化 AI 文本或检测 AI 痕迹。",
-    "translatedAt": "2026-09-04T05:01:06.225Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "0796aaa50c7f46da",
+    "chineseDescription": "这个 skill 能帮你分析一段草稿为什么读起来像 AI 写的，然后把它改写成五种语气中的一种。它内置了 55 种有名字的写作模式（named patterns），会给原文打一个 0 到 100 的分数，还会做事实核查（fact check）。",
+    "prompt": "请帮我安装 humanizer-skill 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/aboudjem/humanizer-skill 下载全部文件（可以用 git clone https://github.com/aboudjem/humanizer-skill 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/humanizer-skill/ 目录下创建文件夹（如果目录不存在就先创建）；3) 把仓库里的所有文件复制到 .claude/skills/humanizer-skill/ 中；4) 确认 SKILL.md 等文件已就位，然后告诉我安装完成，并简单说明怎么使用。",
+    "translatedAt": "2026-11-18T07:51:16.009Z",
+    "backTranslationDiff": 0.36363636363636365
   },
   "spillwavesolutions/mastering-langgraph-agent-skill": {
     "sourceHash": "58d69b85d07e19ed",
@@ -8778,11 +8778,11 @@
     "backTranslationDiff": 0.11111111111111116
   },
   "ericjujianzou/rederive": {
-    "sourceHash": "0d9b6815aa4ae5ca",
-    "chineseDescription": "通过自己重新推导设计决策来学习代码库。一个 Claude Code skill（技能）。",
-    "prompt": "请帮我安装一个 Claude Code skill（技能），名字叫 rederive。请从 GitHub 仓库 https://github.com/ericjujianzou/rederive 下载该 skill 的文件，并保存到项目的 .claude/skills/rederive/ 目录下完成安装。如果目录不存在请先创建。安装完成后告诉我这个 skill 是干什么用的、怎么触发使用。",
-    "translatedAt": "2026-10-22T05:19:43.581Z",
-    "backTranslationDiff": 0
+    "sourceHash": "66ca5436aef973bc",
+    "chineseDescription": "帮你搞懂 AI 给你写的代码——面试或工作中都能用。这是一个开源的 Claude Code skill（技能），它会针对你仓库里的每个部分问你「你会怎么实现」，让你自己重新推导出这些设计决策。想学习开源仓库的代码时也能用。",
+    "prompt": "请帮我安装 rederive 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/ericjujianzou/rederive 下载全部文件（可以用 git clone https://github.com/ericjujianzou/rederive 或直接抓取仓库内容）；2) 在项目根目录创建 .claude/skills/rederive/ 目录；3) 把下载到的 skill 文件（包括 SKILL.md 及所有相关文件）放到 .claude/skills/rederive/ 下；4) 确认目录结构正确后告诉我安装完成，并简单说明怎么触发这个 skill。",
+    "translatedAt": "2026-11-18T07:51:11.747Z",
+    "backTranslationDiff": 0.40740740740740744
   },
   "appleweiping/agent_resource": {
     "sourceHash": "1de2fd53fa2374aa",
@@ -9401,11 +9401,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "jimliu/baoyu-design": {
-    "sourceHash": "652ad74b0770312b",
-    "chineseDescription": "把 Claude Design 当作 Agent Skill（智能体技能）在本地跑起来——支持 Cursor、Codex、DeepSeek Harness 等。不用 claude.ai/design，就能生成精致的 UI 效果图（mockup）、原型、演示文稿（deck）和线框图（wireframe），产物是自包含的 HTML。搭配 Opus 或 Claude 效果最好。",
-    "prompt": "请帮我安装 baoyu-design 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/jimliu/baoyu-design 下载全部文件（可以用 git clone https://github.com/jimliu/baoyu-design.git 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/baoyu-design/ 目录；3) 把仓库里的 Skill 文件（包括 SKILL.md 及相关资源）复制到 .claude/skills/baoyu-design/ 下；4) 确认目录结构正确后告诉我安装完成，并简单说明怎么用。如果本地没有 git，就用 curl 下载压缩包再解压。",
-    "translatedAt": "2026-11-13T07:06:02.384Z",
-    "backTranslationDiff": 0.29166666666666663
+    "sourceHash": "62bfdf0b726cbcc5",
+    "chineseDescription": "这个 Skill 叫 open-artifact，对应的 GitHub 仓库是 https://github.com/jimliu/baoyu-design 。目前英文介绍只写了「coming soon」，也就是作者还没放出正式说明，具体功能暂时不清楚，得等仓库更新后才能确认。",
+    "prompt": "请帮我安装 open-artifact 这个 Skill。步骤：1）从 GitHub 仓库 https://github.com/jimliu/baoyu-design 下载全部文件；2）在项目里创建 .claude/skills/baoyu-design/ 目录；3）把下载的文件放进去。装好后告诉我这个 Skill 是干什么用的。",
+    "translatedAt": "2026-11-18T07:51:32.826Z",
+    "backTranslationDiff": 1
   },
   "q00/ouroboros": {
     "sourceHash": "6cb80d31650201fe",
@@ -9415,11 +9415,11 @@
     "backTranslationDiff": 0.25
   },
   "anhnx000/viet-nhu-nguoi": {
-    "sourceHash": "d307af77845a1a87",
-    "chineseDescription": "像真人一样写作：消除越南语文本里的 AI 腔（human voice，越南语 humanizer）。这个 Claude Code skill 能把 ChatGPT/Claude 写出来的文章改得像真人写的：去掉翻译腔、公文腔、聊天机器人腔。附带 0-100 分的扫描器和数据核对工具。",
-    "prompt": "请帮我安装 viet-nhu-nguoi 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载全部文件（可以用 git clone https://github.com/anhnx000/viet-nhu-nguoi 或直接抓取仓库内容）；2) 在当前项目的 .claude/skills/viet-nhu-nguoi/ 目录下保存这些文件（目录不存在就创建）；3) 确认 SKILL.md 等文件都已就位，然后告诉我安装完成、怎么用。",
-    "translatedAt": "2026-11-13T07:06:11.503Z",
-    "backTranslationDiff": 0.64
+    "sourceHash": "41478174c36f306a",
+    "chineseDescription": "像人一样写（越南语 humanizer 工具）。这是一个给 Claude Code、Codex、Cursor 用的 skill（技能包）：让 AI 写出来的越南语读起来还是人话。去掉翻译腔、公文腔、聊天机器人腔，数字数据保持原样。附带一套检测工具，能数出文中的 AI 写作痕迹，并按 0-100 分打分。",
+    "prompt": "请帮我安装一个 Claude Code skill（技能包），名字叫 viet-nhu-nguoi。请你自己去 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载这个仓库的文件，保存到 .claude/skills/viet-nhu-nguoi/ 目录下，完成安装。安装好后告诉我装了什么、怎么用。",
+    "translatedAt": "2026-11-18T07:51:45.047Z",
+    "backTranslationDiff": 0.7857142857142857
   },
   "editatlas/skills": {
     "sourceHash": "efbb44e4b423a7de",
@@ -9492,10 +9492,10 @@
     "backTranslationDiff": 0.6923076923076923
   },
   "avivgerz-hue/vibe-shield": {
-    "sourceHash": "e627a7f5792a784c",
-    "chineseDescription": "vibe-shield 是一个包含 92 条规则的静态安全扫描器（static security scanner），同时提供 Agent Skill 和 MCP server（模型上下文协议服务器），专门针对 AI 生成的 Next.js、Supabase 和 TypeScript 应用做安全检查，覆盖 OWASP Top 10:2025 以及 MCP/Skill 投毒（poisoning）风险。",
-    "prompt": "请帮我安装 vibe-shield 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/avivgerz-hue/vibe-shield 下载该仓库的全部文件（可以用 git clone https://github.com/avivgerz-hue/vibe-shield 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/vibe-shield/ 目录下创建安装位置（如果目录不存在就新建）；3) 把仓库里的 Skill 相关文件（包括 SKILL.md、规则文件、脚本等）复制到 .claude/skills/vibe-shield/ 下；4) 安装完成后告诉我它包含哪些规则、怎么触发使用，以及是否需要额外配置 MCP server。",
-    "translatedAt": "2026-11-15T07:05:49.275Z",
+    "sourceHash": "cdac2cb4e1ecde8f",
+    "chineseDescription": "vibe-shield 是一个面向 AI 生成的 Next.js/TypeScript 应用的安全扫描工具，包含：92 条规则的静态安全扫描器（SAST）、密钥检测器、Supabase RLS（行级安全）审计器，以及针对 SKILL.md 的提示词注入（prompt-injection）防护。提供 CLI 和 MCP server 两种使用方式。",
+    "prompt": "请帮我安装 vibe-shield 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/avivgerz-hue/vibe-shield 下载全部文件（可以用 git clone https://github.com/avivgerz-hue/vibe-shield 或直接下载压缩包）；2) 在当前项目的 .claude/skills/vibe-shield/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等关键文件已就位，并告诉我安装完成以及如何调用这个 skill。",
+    "translatedAt": "2026-11-18T07:51:41.039Z",
     "backTranslationDiff": 0.375
   },
   "lowdevco/clip-forge": {
@@ -9560,5 +9560,47 @@
     "prompt": "帮我安装一个 Claude Code skill，名字叫 anti-vibe-writing。请你自己去 GitHub 仓库 https://github.com/weijt606/anti-vibe-writing 把需要的文件下载下来，保存到 .claude/skills/anti-vibe-writing/ 目录里，完成安装。装好后告诉我怎么用。",
     "translatedAt": "2026-11-17T08:25:39.527Z",
     "backTranslationDiff": 0.41666666666666663
+  },
+  "lemonface0309/charles-skills": {
+    "sourceHash": "319dd3253fa17dec",
+    "chineseDescription": "适用于 Claude Code 和 Codex 的技能集合：设计工艺（design craft）、短视频剪辑（reel editing）、提升效率的小工具（quality-of-life helpers），以及我所有短视频里用到的全部技能。",
+    "prompt": "请帮我安装 charles-skills 技能包。请从 GitHub 仓库 https://github.com/lemonface0309/charles-skills 下载全部文件，并保存到 .claude/skills/charles-skills/ 目录下完成安装。安装完成后，请列出已安装的技能清单，方便我确认。",
+    "translatedAt": "2026-11-18T07:51:24.206Z",
+    "backTranslationDiff": 0.8571428571428572
+  },
+  "petekp/coordinator": {
+    "sourceHash": "bd37848d24f01b2d",
+    "chineseDescription": "把一个 Claude Code 会话变成协调器（coordinator），在 Herdr 里负责启动、监控和清理一整批 agent 会话。简单说，就是让一个会话当包工头，管着一群干活的 agent。",
+    "prompt": "请帮我安装 coordinator 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/petekp/coordinator 下载该 Skill 的全部文件（如果仓库里有 SKILL.md 或类似说明文件，一并下载）；2) 在当前项目的 .claude/skills/coordinator/ 目录下创建并保存这些文件（目录不存在就先创建）；3) 安装完成后，读取并简要告诉我这个 Skill 是干什么的、怎么用。仓库地址是 https://github.com/petekp/coordinator ，请直接去下载，不要假设我本地已经有了。",
+    "translatedAt": "2026-11-18T07:51:28.678Z",
+    "backTranslationDiff": 0.5714285714285714
+  },
+  "goul4rt/lgpd-skills": {
+    "sourceHash": "ebdb47a94c5f2c3b",
+    "chineseDescription": "这是一个 LGPD（巴西通用数据保护法，Lei 13.709/2018）合规技能包，涵盖 ANPD（巴西国家数据保护局）相关决议以及 ECA Digital（数字儿童青少年保护法，Lei 15.211/2025）。可安装到 Claude Code、Codex、Gemini CLI、Cursor 和 OpenCode 中使用。包含 1 个总控技能（lgpd-audit）加 18 个子技能。",
+    "prompt": "帮我安装 lgpd-skills 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/goul4rt/lgpd-skills 下载全部文件，保存到 .claude/skills/lgpd-skills/ 目录下，完成后告诉我安装了哪些技能。",
+    "translatedAt": "2026-11-18T07:51:36.723Z",
+    "backTranslationDiff": 0.47619047619047616
+  },
+  "lonely-dance-lab/self-media-guide": {
+    "sourceHash": "3e8d7f082ebd019d",
+    "chineseDescription": "自媒体创作不完全指南：起号方法论、对标拆解模板和 Agent Skill（智能体技能）。核心是二创（二次创作），不是搬运。",
+    "prompt": "请帮我安装 self-media-guide 这个 Skill。请从 GitHub 仓库 https://github.com/lonely-dance-lab/self-media-guide 下载所有文件，保存到 .claude/skills/self-media-guide/ 目录下，完成安装。安装好后告诉我这个 Skill 能做什么、怎么用。",
+    "translatedAt": "2026-11-18T07:51:48.653Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "kjagsadvisors/keeran.ai": {
+    "sourceHash": "7f05d2f6296e6127",
+    "chineseDescription": "Keeran（Keeran Jagadesan，@keeran.ai）提供的免费 Claude Code 技能（skills），能直接产出成品素材：视频销售信（video sales letters）、引流磁铁（lead magnets）、短视频（reels）和发布视频（launch videos）。",
+    "prompt": "请帮我安装 keeran.ai 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/kjagsadvisors/keeran.ai 下载全部文件（可以用 git clone https://github.com/kjagsadvisors/keeran.ai 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/keeran.ai/ 目录下创建文件夹（如果目录不存在就先创建）；3) 把下载到的技能文件全部复制到 .claude/skills/keeran.ai/ 里，确保 SKILL.md 等文件位于该目录下；4) 安装完成后列出该目录的文件清单，确认安装成功。",
+    "translatedAt": "2026-11-18T07:51:52.461Z",
+    "backTranslationDiff": 0.09999999999999998
+  },
+  "carolinacherry/claude-first-customer-finder-skill": {
+    "sourceHash": "92ec734a253bcf7b",
+    "chineseDescription": "这个 Claude skill（技能）能从公开信息里帮你找到有证据支撑的潜在首批客户——做 ICP（理想客户画像）分析、核实痛点与购买信号、给出打分排序的候选名单、起草外联话术，最后生成 HTML 报告。说白了就是：别拍脑袋猜谁是你的客户，让 AI 去公开数据里找线索、摆证据、排优先级，再帮你把第一封邮件写出来。",
+    "prompt": "请帮我安装一个 Claude Code skill（技能）。请你自己去这个 GitHub 仓库下载文件：https://github.com/carolinacherry/claude-first-customer-finder-skill ，把仓库里的所有文件保存到 .claude/skills/claude-first-customer-finder-skill/ 目录下（如果目录不存在就创建）。安装完成后，确认一下文件是否都到位，并告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-11-18T07:51:57.003Z",
+    "backTranslationDiff": 0.34782608695652173
   }
 }

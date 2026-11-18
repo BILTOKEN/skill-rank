@@ -7119,6 +7119,34 @@
     "lastPush": "2026-03-05T21:00:58Z"
   },
   {
+    "repo": "goul4rt/lgpd-skills",
+    "name": "lgpd-skills",
+    "description": "Agent Skills de conformidade LGPD (Lei 13.709/2018), resoluções ANPD e ECA Digital (Lei 15.211/2025) — instaláveis em Claude Code, Codex, Gemini CLI, Cursor e OpenCode. 1 maestro (lgpd-audit) + 18 sub-skills.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "anpd",
+      "brasil",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "compliance",
+      "cursor",
+      "data-protection",
+      "eca-digital",
+      "gemini-cli-extension",
+      "lgpd",
+      "lgpd-claude",
+      "lgpd-skill",
+      "opencode",
+      "privacy",
+      "privacy-engineering"
+    ],
+    "stars": 275,
+    "lastPush": "2026-11-18T04:49:56Z"
+  },
+  {
     "repo": "lingyichen-ai/comfyui-workflow-skill",
     "name": "comfyui-workflow-skill",
     "description": "Natural language → ComfyUI workflow JSON. 34 built-in templates, 360+ node definitions, auto model download. Supports txt2img,       img2img, txt2vid, img2vid, audio, 3D generation across SD1.5/SDXL/SD3/FLUX/Wan2.2/HunyuanVideo/LTXV/Mochi/Cosmos + LLM integration.    Works as a skill for Claude Code, Cursor, and other AI coding agents.  ",
@@ -8594,6 +8622,23 @@
     ],
     "stars": 188,
     "lastPush": "2026-11-09T03:58:29Z"
+  },
+  {
+    "repo": "lemonface0309/charles-skills",
+    "name": "charles-skills",
+    "description": "Skills for Claude Code and Codex: design craft, reel editing, quality-of-life helpers, and every skill from my reels",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "design-engineering",
+      "motion-design",
+      "ui-design",
+      "video-editing"
+    ],
+    "stars": 183,
+    "lastPush": "2026-11-18T07:04:20Z"
   },
   {
     "repo": "aelfproject/aelf-skills",
@@ -12630,6 +12675,21 @@
     "lastPush": "2026-10-13T06:51:12Z"
   },
   {
+    "repo": "kjagsadvisors/keeran.ai",
+    "name": "keeran.ai",
+    "description": "Free Claude Code skills by Keeran (Keeran Jagadesan, @keeran.ai) that make finished assets: video sales letters, lead magnets, reels and launch videos.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "remotion",
+      "video"
+    ],
+    "stars": 59,
+    "lastPush": "2026-11-18T01:13:30Z"
+  },
+  {
     "repo": "agricidaniel/skill-forge",
     "name": "skill-forge",
     "description": "Ultimate Claude Code skill creator — design, scaffold, build, review, evolve, and publish production-grade AI agent skills",
@@ -15397,6 +15457,38 @@
     ],
     "stars": 36,
     "lastPush": "2026-07-10T11:16:13Z"
+  },
+  {
+    "repo": "lonely-dance-lab/self-media-guide",
+    "name": "self-media-guide",
+    "description": "自媒体创作不完全指南：起号方法论、对标拆解模板和 Agent Skill。核心是二创，不是搬运。",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "content-creator",
+      "short-video",
+      "video-analysis"
+    ],
+    "stars": 36,
+    "lastPush": "2026-11-16T10:22:22Z"
+  },
+  {
+    "repo": "carolinacherry/claude-first-customer-finder-skill",
+    "name": "claude-first-customer-finder-skill",
+    "description": "Claude skill that finds evidence-backed potential first customers for your startup from public signals — ICP analysis, verified pain/buying signals, scored shortlist, outreach drafts, HTML report",
+    "tags": [
+      "agent-skills",
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "customer-discovery",
+      "prospecting",
+      "startup"
+    ],
+    "stars": 36,
+    "lastPush": "2026-07-13T17:40:55Z"
   },
   {
     "repo": "massimodeluisa/recursive-decomposition-skill",
@@ -30645,6 +30737,35 @@
     "lastPush": "2026-11-13T11:23:00Z"
   },
   {
+    "repo": "ilien-dev/jano",
+    "name": "jano",
+    "description": "Animated GitHub README banner generator: draws your repo an SVG header that shows what it does, in dark and light mode. A skill for Claude Code, Codex and other AI agents.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "animated-svg",
+      "banner-generator",
+      "claude-code",
+      "claude-code-skill",
+      "codex",
+      "dark-mode",
+      "github-banner",
+      "github-readme",
+      "github-readme-banner",
+      "github-repo-banner",
+      "readme",
+      "readme-animation",
+      "readme-banner",
+      "readme-banner-generator",
+      "readme-header",
+      "readme-header-generator",
+      "svg-animation",
+      "svg-banner"
+    ],
+    "stars": 6,
+    "lastPush": "2026-11-18T02:33:55Z"
+  },
+  {
     "repo": "googlarz/health-skill",
     "name": "health-skill",
     "description": "A health workspace and longevity companion for Claude — connects your labs, training, sleep, and family history so every conversation builds on the last.",
@@ -35862,6 +35983,47 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-16T19:21:16Z"
+  },
+  {
+    "repo": "jagubuilds/dating-profile-optimizer",
+    "name": "dating-profile-optimizer",
+    "description": "Claude skill that turns Claude into a dating-profile coach for Hinge, Bumble and Tinder: photo audit and ordering, prompt answers within each app's character limit, and help taking a match to a date.",
+    "tags": [
+      "anthropic",
+      "bumble",
+      "claude",
+      "claude-code",
+      "claude-code-skill",
+      "claude-skills",
+      "dating",
+      "hinge",
+      "tinder"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-16T22:22:26Z"
+  },
+  {
+    "repo": "mun1to/siteindex",
+    "name": "SiteIndex",
+    "description": "Leaves a website ready to be found: robots.txt, sitemap, canonical, Open Graph, JSON-LD and the AI-crawler decision. A Claude Code skill.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "geo",
+      "indexnow",
+      "json-ld",
+      "robots-txt",
+      "seo",
+      "sitemap",
+      "structured-data",
+      "technical-seo"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-18T06:55:09Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
