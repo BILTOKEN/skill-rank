@@ -4060,11 +4060,11 @@
     "backTranslationDiff": 0.36363636363636365
   },
   "akxan/ppt-agent-skill": {
-    "sourceHash": "91c3e66497914897",
-    "chineseDescription": "🎨 世界级 AI 演示文稿生成器 · 26 种风格 · 18 种图表 · 对标 Linear/Anthropic/Stripe/Apple/NYT —— 这是一个 Claude Code Skill，能把一句话变成设计机构级别的幻灯片（HTML + 可编辑的 PPTX）【使用场景】快速生成专业级演示文稿，适用于产品发布、商业计划、学术汇报等。",
-    "prompt": "请安装 ppt-agent-skill 这个 Claude Code Skill。GitHub 仓库地址是 https://github.com/akxan/ppt-agent-skill。请将该仓库的内容下载到 .claude/skills/ppt-agent-skill/ 目录中。",
-    "translatedAt": "2026-05-24T17:55:59.661Z",
-    "backTranslationDiff": 0.19999999999999996
+    "sourceHash": "c5abb9c378354969",
+    "chineseDescription": "🎨 世界级 AI 演示文稿生成器 · 26 种风格 · 18 种图表 · 对标 Linear/Anthropic/Stripe/Apple/NYT 的设计水准 —— 这是一个 Claude Code Skill（技能），一句话就能生成设计公司级别的演示文稿（HTML + 可编辑的 PPTX，带转场和动画）。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/akxan/ppt-agent-skill 下载该 Skill 的全部文件，并保存到项目的 .claude/skills/ppt-agent-skill/ 目录下（如果目录不存在就创建）。安装完成后，请检查目录结构，确认 SKILL.md 等核心文件已就位，然后告诉我安装成功，并简单说明这个 Skill 怎么用。",
+    "translatedAt": "2026-11-19T07:57:50.574Z",
+    "backTranslationDiff": 0.30434782608695654
   },
   "bambushu/crucible": {
     "sourceHash": "72302eab5b9e5662",
@@ -4410,11 +4410,11 @@
     "backTranslationDiff": 0.23809523809523814
   },
   "nanocoai/nanoclaw": {
-    "sourceHash": "d11befacfb377d7d",
-    "chineseDescription": "一个轻量级的 OpenClaw 替代品，运行在容器中以确保安全。可连接 WhatsApp、Telegram、Slack、Discord、Gmail 等消息应用，具备记忆功能、定时任务，并直接运行在 Anthropic 的 Agents SDK 上。【使用场景】适合需要安全隔离的多平台消息机器人，比如自动回复、消息转发或定时提醒。",
-    "prompt": "请从 https://github.com/nanocoai/nanoclaw 下载所有文件，并将其保存到 .claude/skills/nanoclaw/ 目录中，完成安装。",
-    "translatedAt": "2026-05-26T14:32:02.879Z",
-    "backTranslationDiff": 0.2727272727272727
+    "sourceHash": "12e6a8ac0d21280f",
+    "chineseDescription": "你自己的常驻 AI 助手（always-on AI assistant）：自托管（self-hosted）、开源、轻量。每个 agent 都跑在你机器上独立的容器（container）里，运行框架（harness）随你选（Claude Code、Codex、Cursor、OpenCode）。可以从 Slack、WhatsApp、Telegram、Discord 等渠道跟它对话。",
+    "prompt": "请帮我安装 nanoclaw 这个 skill。去 GitHub 仓库 https://github.com/nanocoai/nanoclaw 下载它的文件，保存到 .claude/skills/nanoclaw/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-19T07:57:41.391Z",
+    "backTranslationDiff": 0.11538461538461542
   },
   "teng-lin/notebooklm-py": {
     "sourceHash": "3d37f2c46cfa17a5",
@@ -7476,11 +7476,11 @@
     "backTranslationDiff": 1
   },
   "plugin87/ux-ui-agent-skills": {
-    "sourceHash": "d48dd62f4b86687b",
-    "chineseDescription": "把 Claude 变成一个资深设计架构师（design architect）：支持 DTCG tokens、52 个组件（components）、符合 WCAG 2.2 AA-AAA 无障碍标准、内置 138 套设计系统（design systems）、可生成任意框架（any-framework）的代码，还有 50 道客观检查关卡（objective gates）——不达标就直接让构建失败，而不是假装成功。",
-    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Skill。步骤：\n1. 从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件（可以用 git clone 或直接下载压缩包）。\n2. 在项目根目录创建 .claude/skills/ux-ui-agent-skills/ 目录。\n3. 把下载到的文件全部放进 .claude/skills/ux-ui-agent-skills/ 目录里（注意保持原有的目录结构，比如 SKILL.md 等文件要放在正确位置）。\n4. 安装完成后，告诉我这个 Skill 提供了哪些能力，以及怎么使用它。\n如果目录已存在，请先确认是否已经装过，避免重复覆盖。",
-    "translatedAt": "2026-10-08T06:34:37.781Z",
-    "backTranslationDiff": 0.31818181818181823
+    "sourceHash": "15d77569df4e3d71",
+    "chineseDescription": "给 Claude Code、Codex、Cursor、Copilot 和 Gemini CLI 用的设计系统技能包（skills）：支持 DTCG tokens（设计令牌）、WCAG 2.2 AA 到 AAA 无障碍标准、2,144 套设计系统、26 个技能（skills）、任意框架的代码，还有 52 道校验关卡（gates）——不通过就直接让构建失败，而不是听 agent 自己说没问题。",
+    "prompt": "请帮我安装 ux-ui-agent-skills 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/plugin87/ux-ui-agent-skills 下载全部文件（可以直接 git clone https://github.com/plugin87/ux-ui-agent-skills.git 到临时目录，或用 curl 拉取仓库压缩包）；2) 在项目根目录创建 .claude/skills/ux-ui-agent-skills/ 目录；3) 把仓库里的技能文件（SKILL.md、skills/、tokens/、gates/ 等所有内容）复制到 .claude/skills/ux-ui-agent-skills/ 下，保持原有目录结构；4) 安装完成后列出该目录下的文件清单，确认 SKILL.md 存在并简要说明有哪些技能可用。如果本机没有 git，就用 curl 下载 https://github.com/plugin87/ux-ui-agent-skills/archive/refs/heads/main.zip 再解压。",
+    "translatedAt": "2026-11-19T07:57:37.900Z",
+    "backTranslationDiff": 0.15384615384615385
   },
   "mworldorg/markdown-memory": {
     "sourceHash": "5f936ca1e57d1450",
@@ -7665,11 +7665,11 @@
     "backTranslationDiff": 0.9142857142857143
   },
   "vladimir-human/humanizer-ru": {
-    "sourceHash": "a82ad956e087e75a",
-    "chineseDescription": "这个技能专门用来润色俄语文本——把 AI（神经网络）生成的那种生硬、机器味儿的俄语改得像人写的，同时还会核对文中的数字、日期和人名，确保没被改错。适用于 Claude Code 和 Codex。",
-    "prompt": "请帮我安装 humanizer-ru 技能：从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载全部文件，保存到 .claude/skills/humanizer-ru/ 目录下（如果目录不存在就创建），完成后告诉我安装结果和这个技能的用法。",
-    "translatedAt": "2026-11-12T07:44:12.236Z",
-    "backTranslationDiff": 0.7692307692307692
+    "sourceHash": "d132136c05b6862d",
+    "chineseDescription": "把经过 AI 生成的俄语文本改得像人写的，核对数字、日期和引文，清除隐藏字符，降低被「反抄袭」（Антиплагиат）和 AI 检测器识别的风险。支持浏览器、普通聊天，以及 Claude Code、Codex、Cursor、Gemini CLI。",
+    "prompt": "请帮我安装 humanizer-ru 这个 skill。操作步骤：1) 从 GitHub 仓库 https://github.com/vladimir-human/humanizer-ru 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/ 目录下创建 humanizer-ru 文件夹，把下载的文件放进去，确保目录结构是 .claude/skills/humanizer-ru/；3) 检查是否有 SKILL.md 或类似说明文件，确认安装完整；4) 安装完成后告诉我怎么用。如果 .claude/skills/ 目录不存在就先创建。",
+    "translatedAt": "2026-11-19T07:57:46.438Z",
+    "backTranslationDiff": 0.8148148148148149
   },
   "kimsh-1/deck-factory": {
     "sourceHash": "834994bff8b52848",
@@ -8960,11 +8960,11 @@
     "backTranslationDiff": 0.2941176470588235
   },
   "kurbaitaev/ghost-editor": {
-    "sourceHash": "dd2c155844cb2383",
-    "chineseDescription": "把原始的口播素材（talking-head take）直接剪成成品短视频（reel）。这是一个开源的 AI 视频编辑器（AI video editor），专为 Claude Code 打造。",
-    "prompt": "请帮我安装 ghost-editor 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/kurbaitaev/ghost-editor 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目里创建目录 .claude/skills/ghost-editor/，把仓库里的文件放进去；3) 确认 SKILL.md 等文件都在位，告诉我安装完成以及怎么用。不要假设我已经装过，请自己去下载。",
-    "translatedAt": "2026-10-30T06:16:16.956Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "c906609ea7f88629",
+    "chineseDescription": "开源的 AI 视频编辑器（video editor），专为 Claude Code 打造。输入原始的口播素材（talking-head take），直接输出成片（reel），内置 19 种风格。",
+    "prompt": "帮我安装 ghost-editor 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/kurbaitaev/ghost-editor 下载全部文件，保存到 .claude/skills/ghost-editor/ 目录下，并确认 SKILL.md 等文件已就位、目录结构正确，安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-19T07:57:32.601Z",
+    "backTranslationDiff": 0.36363636363636365
   },
   "mvschwarz/openrig": {
     "sourceHash": "30f7b25efffde6b8",
@@ -9002,11 +9002,11 @@
     "backTranslationDiff": 0.1071428571428571
   },
   "artemnovitckii/claude-animation-skills": {
-    "sourceHash": "0527d3c38ef5c40e",
-    "chineseDescription": "六个 Claude Code skill（技能），不用任何实拍素材就能做短视频（reels）动画：3D 卡通讲解、火柴人、极简线条画、3D 地图路线、爆炸图（exploded view）、折线图。",
-    "prompt": "帮我安装 claude-animation-skills 这个 skill 包。请你自己去 GitHub 仓库 https://github.com/artemnovitckii/claude-animation-skills 下载全部文件，保存到 .claude/skills/claude-animation-skills/ 目录下，完成后告诉我装了哪些 skill。",
-    "translatedAt": "2026-11-02T06:29:57.714Z",
-    "backTranslationDiff": 0.6
+    "sourceHash": "b5dbabe92f91cb0f",
+    "chineseDescription": "这个 Skill 包含 11 个 Claude Code 技能，专门用来做短视频（reels）动画，不需要任何实拍素材。风格包括：低多边形（low-poly）、Minecraft 风格体素（voxel）、3D 卡通讲解、Kurzgesagt 风格太空、Dan Koe 线条画、火柴人、极简线条画、3D 地图路线、爆炸视图（exploded view）、折线图。",
+    "prompt": "帮我安装 claude-animation-skills 这个技能包。请从 GitHub 仓库 https://github.com/artemnovitckii/claude-animation-skills 下载全部文件，保存到 .claude/skills/claude-animation-skills/ 目录下，完成安装。安装好后告诉我包含哪些技能、怎么用。",
+    "translatedAt": "2026-11-19T07:57:28.498Z",
+    "backTranslationDiff": 0.42307692307692313
   },
   "yanstd888/humanizer-lint": {
     "sourceHash": "f3a976395f67da55",
@@ -9602,5 +9602,12 @@
     "prompt": "请帮我安装一个 Claude Code skill（技能）。请你自己去这个 GitHub 仓库下载文件：https://github.com/carolinacherry/claude-first-customer-finder-skill ，把仓库里的所有文件保存到 .claude/skills/claude-first-customer-finder-skill/ 目录下（如果目录不存在就创建）。安装完成后，确认一下文件是否都到位，并告诉我这个 skill 怎么用。",
     "translatedAt": "2026-11-18T07:51:57.003Z",
     "backTranslationDiff": 0.34782608695652173
+  },
+  "felipebasurto/unslop-ui": {
+    "sourceHash": "cc06470aa4e45d4d",
+    "chineseDescription": "这个 Agent Skill（智能体技能）专门用来去掉 UI 文案、图表和仪表盘里的「AI 味」：比如小标题眉标（eyebrow）、多余编号、机器人式解释（botsplaining）、装饰性图标、徽章（badge）和状态圆点（status dot）。这些表面规则（surface rules）是可选的，按需开启。",
+    "prompt": "请帮我安装一个 Claude Code Skill（智能体技能），名字叫 unslop-ui。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/felipebasurto/unslop-ui 下载该技能的全部文件。\n2. 在项目里创建目录 .claude/skills/unslop-ui/，把下载的文件放进去（保留原有的目录结构，比如 SKILL.md 等）。\n3. 如果 .claude/skills/ 目录不存在就先创建。\n4. 安装完成后，告诉我文件都放到了哪里，并简单说明这个技能怎么用。\n\n仓库地址：https://github.com/felipebasurto/unslop-ui",
+    "translatedAt": "2026-11-19T07:57:54.983Z",
+    "backTranslationDiff": 0.44999999999999996
   }
 }
