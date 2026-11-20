@@ -9609,5 +9609,47 @@
     "prompt": "请帮我安装一个 Claude Code Skill（智能体技能），名字叫 unslop-ui。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/felipebasurto/unslop-ui 下载该技能的全部文件。\n2. 在项目里创建目录 .claude/skills/unslop-ui/，把下载的文件放进去（保留原有的目录结构，比如 SKILL.md 等）。\n3. 如果 .claude/skills/ 目录不存在就先创建。\n4. 安装完成后，告诉我文件都放到了哪里，并简单说明这个技能怎么用。\n\n仓库地址：https://github.com/felipebasurto/unslop-ui",
     "translatedAt": "2026-11-19T07:57:54.983Z",
     "backTranslationDiff": 0.44999999999999996
+  },
+  "fblgit/artifacts-done-properly": {
+    "sourceHash": "f03c75f5e3e31a88",
+    "chineseDescription": "好活儿不该只用一次。把它带进来，让它能复用，把收益留住。迭代会结束，价值留下来。下一个项目从更靠前的位置起步，由 ArtifactDataProtocol 驱动。",
+    "prompt": "请帮我安装 artifacts-done-properly 这个 Skill：从 GitHub 仓库 https://github.com/fblgit/artifacts-done-properly 下载全部文件，保存到 .claude/skills/artifacts-done-properly/ 目录下，完成后告诉我装好了没、装了哪些文件。",
+    "translatedAt": "2026-11-20T07:40:46.418Z",
+    "backTranslationDiff": 0.5909090909090908
+  },
+  "yoshitakagiii/natural-slides": {
+    "sourceHash": "342c61ac18005b97",
+    "chineseDescription": "这个 Skill 专门用来做日文幻灯片（slides），核心目标是去掉那种「一眼就是 AI 做的」味道，让成品看起来像真人手工做的。适合需要交付给日本客户或同事、又不想被看出是 AI 生成的场合。",
+    "prompt": "请帮我安装 natural-slides 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/yoshitakagiii/natural-slides 下载全部文件（可以用 git clone https://github.com/yoshitakagiii/natural-slides 或直接抓取仓库内容）；2) 在项目里创建目录 .claude/skills/natural-slides/；3) 把下载到的文件全部放进这个目录，保持原有目录结构；4) 确认 SKILL.md 等文件已就位，然后告诉我安装完成。",
+    "translatedAt": "2026-11-20T07:40:50.868Z",
+    "backTranslationDiff": 1
+  },
+  "taxueseek/plugin-fast-adapt": {
+    "sourceHash": "c692f9ffe39fa9f9",
+    "chineseDescription": "让 DSH 插件（plugin）在宿主升级（host upgrade）后还能正常跑：直接读官方升级指南，扫描插件代码找出破坏性变更（breaking changes），在内存里做冒烟测试（smoke test），还能搭出五种插件形态的脚手架。这是个 agent-native 的 skill，零依赖（zero dependencies）。",
+    "prompt": "请帮我安装 plugin-fast-adapt 这个 skill。步骤：1) 从 https://github.com/taxueseek/plugin-fast-adapt 下载仓库文件（可以用 git clone 或直接抓取仓库内容）；2) 在项目里创建 .claude/skills/plugin-fast-adapt/ 目录；3) 把下载到的 skill 文件（比如 SKILL.md 及相关文件）放到该目录下；4) 确认目录结构正确后告诉我装好了。仓库地址：https://github.com/taxueseek/plugin-fast-adapt",
+    "translatedAt": "2026-11-20T07:40:54.586Z",
+    "backTranslationDiff": 0.4
+  },
+  "luccacerfz/character-factory-skills": {
+    "sourceHash": "78b8631d45f1ccea",
+    "chineseDescription": "这套 Skill 包含 7 个 Claude Code 技能（skill），能把游戏角色从一页纸的需求简报，一路做到带骨骼动画、尺寸可量测的 Unity prefab（预制体）。流程里用到了 Tripo、Blender（Rigify）、评审 agent（critic agents）和 Unity。",
+    "prompt": "请帮我安装 character-factory-skills 这个 Claude Code 技能包。步骤：1) 从 GitHub 仓库 https://github.com/luccacerfz/character-factory-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/character-factory-skills/ 目录；3) 把仓库里的技能文件放到该目录下，保持原有目录结构；4) 安装完成后列出已安装的技能清单，确认 7 个 skill 都在。仓库地址：https://github.com/luccacerfz/character-factory-skills",
+    "translatedAt": "2026-11-20T07:40:59.004Z",
+    "backTranslationDiff": 0.15000000000000002
+  },
+  "viprasol-tech/claude-video-editing-skills": {
+    "sourceHash": "337045e2a58ad5b2",
+    "chineseDescription": "40 个免费的 Claude Code skill（技能），能把一段原始素材直接剪成成片：自动字幕（auto captions）、跳剪（jump cuts）、人物背后的文字（text behind the speaker）、以及给 reels、shorts、YouTube 和播客用的动态图形（motion graphics）。",
+    "prompt": "帮我安装 claude-video-editing-skills 这个 skill 包。请你自己去 GitHub 仓库 https://github.com/viprasol-tech/claude-video-editing-skills 下载全部文件，保存到 .claude/skills/claude-video-editing-skills/ 目录下（如果目录不存在就创建）。下载完成后确认文件结构完整，并告诉我安装成功、包含哪些 skill。",
+    "translatedAt": "2026-11-20T07:41:02.700Z",
+    "backTranslationDiff": 0.125
+  },
+  "ilan-uzan/app-store-preflight": {
+    "sourceHash": "010c16230b17da9c",
+    "chineseDescription": "在 Apple 拒绝你之前先揪出 App Store 审核问题：这是一个 Claude Code skill（技能）+ 多 agent（智能体）工作流，拿你的 App 逐条对照所有 App Review Guideline（应用审核指南）和 App Store Connect 要求（1,772 项检查，全部逐字引用自 Apple 原文），验证每一处不通过的地方，并尽可能自动修复。",
+    "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/ilan-uzan/app-store-preflight 下载全部文件，保存到 .claude/skills/app-store-preflight/ 目录下（如果目录不存在就创建）。安装完成后告诉我这个 skill 怎么用。",
+    "translatedAt": "2026-11-20T07:41:06.660Z",
+    "backTranslationDiff": 0.29032258064516125
   }
 }

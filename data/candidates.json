@@ -14987,6 +14987,24 @@
     "lastPush": "2026-10-30T18:20:39Z"
   },
   {
+    "repo": "viprasol-tech/claude-video-editing-skills",
+    "name": "claude-video-editing-skills",
+    "description": "40 free Claude Code skills that turn a raw clip into a finished video edit: auto captions, jump cuts, text behind the speaker, motion graphics for reels, shorts, YouTube and podcasts.",
+    "tags": [
+      "ai-video",
+      "captions",
+      "claude-code",
+      "claude-skills",
+      "ffmpeg",
+      "motion-graphics",
+      "reels",
+      "video-editing",
+      "youtube-shorts"
+    ],
+    "stars": 40,
+    "lastPush": "2026-11-17T00:23:30Z"
+  },
+  {
     "repo": "agents365-ai/tldraw-skill",
     "name": "tldraw-skill",
     "description": "Whiteboard tldraw diagrams (.tldr) from natural language with 6 presets and vision-based self-check. PNG/SVG export, multi-agent.",
@@ -15275,6 +15293,21 @@
     "lastPush": "2026-11-09T12:31:40Z"
   },
   {
+    "repo": "yoshitakagiii/natural-slides",
+    "name": "natural-slides",
+    "description": "AIっぽさを消して人が作ったように見える日本語スライドを作る Claude 向けスキル",
+    "tags": [
+      "claude",
+      "claude-code",
+      "claude-skills",
+      "japanese",
+      "presentation",
+      "slides"
+    ],
+    "stars": 38,
+    "lastPush": "2026-11-17T11:48:50Z"
+  },
+  {
     "repo": "aboudjem/humanizer-skill",
     "name": "humanizer-skill",
     "description": "Claude Code skill: 43 AI writing patterns detected and rewritten with human rhythm. 5 voice profiles, burstiness + perplexity science, 8 editor integrations, zero dependencies. Successor to @blader/humanizer.",
@@ -15403,6 +15436,21 @@
     ],
     "stars": 37,
     "lastPush": "2026-11-19T04:32:45Z"
+  },
+  {
+    "repo": "luccacerfz/character-factory-skills",
+    "name": "character-factory-skills",
+    "description": "7 Claude Code skills that take a game character from a one-page brief to an animated, measured Unity prefab: Tripo, Blender (Rigify), critic agents, Unity.",
+    "tags": [
+      "blender",
+      "claude-code",
+      "claude-skills",
+      "game-art",
+      "tech-art",
+      "unity"
+    ],
+    "stars": 37,
+    "lastPush": "2026-11-17T23:08:59Z"
   },
   {
     "repo": "lsnackerman/raw-clauding-skills",
@@ -36116,6 +36164,65 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-18T06:55:09Z"
+  },
+  {
+    "repo": "jorgut/skill-atlas",
+    "name": "skill-atlas",
+    "description": "Local-first agent environment atlas: scan agent tools and copies, audit project roots, measure disk usage, and install optional push reminders — with a guided first-run tour.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-skill",
+      "disk-usage",
+      "git-sync",
+      "macos",
+      "onboarding",
+      "opencode",
+      "opencode-skill",
+      "push-reminders",
+      "skill-manager"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-19T16:50:04Z"
+  },
+  {
+    "repo": "bartek-filipiuk/security-audit-skill",
+    "name": "security-audit-skill",
+    "description": "Claude Code skill: evidence-based security audit of your own code, with a verified-safe list, regression tests and a seeded-bug benchmark",
+    "tags": [
+      "appsec",
+      "claude-code",
+      "claude-code-skill",
+      "security-audit"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-11T19:45:10Z"
+  },
+  {
+    "repo": "splashxmoon/clipmimic",
+    "name": "clipmimic",
+    "description": "Claude Code skill that studies a TikTok, Reel or Short (shots, hook, pacing, captions) and writes new shot prompts for your topic. Optional Replicate generation.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "ffmpeg",
+      "instagram-reels",
+      "javascript",
+      "replicate",
+      "short-form-video",
+      "text-to-video",
+      "tiktok",
+      "ugc-ads",
+      "video-analysis",
+      "video-generation",
+      "youtube-shorts",
+      "yt-dlp"
+    ],
+    "stars": 3,
+    "lastPush": "2026-10-25T17:33:14Z"
   },
   {
     "repo": "teemoweng/lark-video2note",
