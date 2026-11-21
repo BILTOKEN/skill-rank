@@ -1734,6 +1734,40 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "erkamyaman/rust-anything",
+    "name": "rust-anything",
+    "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "cli",
+      "code-migration",
+      "codex",
+      "ffi",
+      "golang",
+      "java",
+      "javascript",
+      "mcp",
+      "migration",
+      "napi",
+      "performance",
+      "porting",
+      "pyo3",
+      "python",
+      "rewrite",
+      "ruby",
+      "rust",
+      "typescript"
+    ],
+    "stars": 6866,
+    "lastPush": "2026-11-21T03:19:03Z",
+    "pool": "ranked",
+    "readmeLength": 2598,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-21T07:18:19.855Z"
+  },
+  {
     "repo": "alchaincyf/darwin-skill",
     "name": "darwin-skill",
     "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
@@ -6253,6 +6287,32 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-26T14:13:16.996Z"
+  },
+  {
+    "repo": "mankidev/antialgorithm",
+    "name": "antialgorithm",
+    "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "creative-writing",
+      "creativity",
+      "设计",
+      "llm",
+      "naming",
+      "svg",
+      "ui-design"
+    ],
+    "stars": 577,
+    "lastPush": "2026-11-20T17:08:35Z",
+    "pool": "ranked",
+    "readmeLength": 596,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-21T07:18:19.855Z"
   },
   {
     "repo": "aiworkskills/wechat-article-skills",

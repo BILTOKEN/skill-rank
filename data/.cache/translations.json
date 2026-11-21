@@ -2100,11 +2100,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "htdt/godogen": {
-    "sourceHash": "5e9647555d34d72a",
-    "chineseDescription": "用 Claude Code 和 Codex 进行自主游戏开发（autonomous game development）。说白了就是让 AI 自己帮你把游戏从零做出来。",
-    "prompt": "请帮我安装 godogen 这个 skill：从 https://github.com/htdt/godogen 下载仓库文件，保存到 .claude/skills/godogen/ 目录下，完成安装。安装好后告诉我怎么用。【使用场景】当你想让 Claude Code 自主完成游戏开发任务（比如生成游戏原型、写游戏逻辑）时使用。",
-    "translatedAt": "2026-10-18T04:55:17.526Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "0c8992b42a5848b1",
+    "chineseDescription": "godogen 是一套给 Claude Code、Codex 和 Antigravity 用的技能（Skills），用来做游戏，以及任何游戏引擎能渲染得好的东西。",
+    "prompt": "请帮我安装 godogen 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/htdt/godogen 下载全部文件（可以直接 git clone https://github.com/htdt/godogen 到临时目录，或用 curl 拉取仓库压缩包）；2) 在当前项目的 .claude/skills/godogen/ 目录下创建好目录结构（如果目录不存在就新建）；3) 把下载到的文件复制到 .claude/skills/godogen/ 里，确保 SKILL.md 等技能文件放在该目录根下；4) 安装完成后列出 .claude/skills/godogen/ 下的文件，确认安装成功。注意不要假设我本地已经有这个仓库，请你自己去 https://github.com/htdt/godogen 下载。",
+    "translatedAt": "2026-11-21T07:39:21.353Z",
+    "backTranslationDiff": 0.7692307692307692
   },
   "Agents365-ai/drawio-skill": {
     "sourceHash": "2330c226ec959dbb",
@@ -2765,11 +2765,11 @@
     "backTranslationDiff": 0.25
   },
   "kepano/obsidian-skills": {
-    "sourceHash": "0e1fbd750a8529f4",
-    "chineseDescription": "为 Obsidian 设计的 Agent 技能。教你的 Agent 使用 Obsidian CLI 和开放格式，包括 Markdown、Bases、JSON Canvas。",
-    "prompt": "请从 https://github.com/kepano/obsidian-skills 下载该仓库的所有文件，并将其保存到 .claude/skills/obsidian-skills/ 目录下，完成安装。",
-    "translatedAt": "2026-06-09T12:05:24.384Z",
-    "backTranslationDiff": 0.23076923076923073
+    "sourceHash": "933af2d7d15b0219",
+    "chineseDescription": "教你的 agent（智能体）使用 Obsidian 以及 Markdown、Bases、JSON Canvas 这些开放格式。",
+    "prompt": "请帮我安装 obsidian-skills 这个 skill：从 https://github.com/kepano/obsidian-skills 下载仓库文件，保存到 .claude/skills/obsidian-skills/ 目录下，完成后告诉我装好了没有。【使用场景】当你想让 Claude Code 读写 Obsidian 笔记、处理 Markdown 文档、Bases 数据库或 JSON Canvas 画布文件时使用。",
+    "translatedAt": "2026-11-21T07:38:52.226Z",
+    "backTranslationDiff": 0.09090909090909094
   },
   "coreyhaines31/marketingskills": {
     "sourceHash": "e52a02d4c2ca8865",
@@ -4851,11 +4851,11 @@
     "backTranslationDiff": 0.8076923076923077
   },
   "matlab/agent-skills-playground": {
-    "sourceHash": "3ed2d3ec89317623",
-    "chineseDescription": "一个用于原型设计和演示 MATLAB 与 Simulink 工作的 Agent Skills（智能体技能）的沙盒环境。",
-    "prompt": "请从 https://github.com/matlab/agent-skills-playground 下载文件，并保存到 .claude/skills/agent-skills-playground/ 目录，完成安装。",
-    "translatedAt": "2026-05-30T11:04:01.150Z",
-    "backTranslationDiff": 0
+    "sourceHash": "dc01f313d929e541",
+    "chineseDescription": "这是一个用来快速搭建和演示 Agent Skills（智能体技能）的试验场，专门面向 MATLAB 和 Simulink 相关工作。你可以在这里试做、跑通并展示各种技能原型。",
+    "prompt": "请帮我安装 agent-skills-playground 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/matlab/agent-skills-playground 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/agent-skills-playground/ 目录；3) 把下载到的文件放进该目录，确保 SKILL.md 位于 .claude/skills/agent-skills-playground/SKILL.md；4) 完成后告诉我目录结构和 SKILL.md 的内容摘要。",
+    "translatedAt": "2026-11-21T07:39:25.529Z",
+    "backTranslationDiff": 0.5
   },
   "aperivue/medsci-skills": {
     "sourceHash": "d0fc73d2f887b16d",
@@ -5684,10 +5684,10 @@
     "backTranslationDiff": 0
   },
   "sickn33/antigravity-awesome-skills": {
-    "sourceHash": "6b1bc5ff7c586645",
-    "chineseDescription": "这是一个包含 2,955+ 个可复用 AI agent skill（技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 提供本地目录发现、由 agent 自主选择以及计划预览功能。支持 CLI、MCP 和插件三种使用方式。",
-    "prompt": "请帮我安装 agentic-awesome-skills 这个 skill 集合。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 将下载的内容保存到 .claude/skills/antigravity-awesome-skills/ 目录下（如果目录不存在就先创建）；3) 确认文件结构完整后告诉我安装完成，并简要说明有哪些主要 skill 可用。",
-    "translatedAt": "2026-11-10T07:49:24.557Z",
+    "sourceHash": "408703fb1d2e9743",
+    "chineseDescription": "这个项目提供 3000 多个可复用的 AI agent skill（技能），支持 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还加了本地目录发现、由 agent 自己挑选技能、以及计划预览（plan preview）功能。提供 CLI、MCP 和插件三种用法。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/antigravity-awesome-skills 下载项目文件（可以用 git clone https://github.com/sickn33/antigravity-awesome-skills 或直接下载 zip 包）；2) 把下载的内容保存到 .claude/skills/antigravity-awesome-skills/ 目录下（如果目录不存在就先创建）；3) 确认目录里有 SKILL.md 等核心文件，安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-21T07:39:03.162Z",
     "backTranslationDiff": 0.38095238095238093
   },
   "iofficeai/aionui": {
@@ -6174,11 +6174,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "alphagbm/skills": {
-    "sourceHash": "d6dd6f878ce7b54c",
-    "chineseDescription": "把实时市场数据和研究工作流带进 Claude Code、Cursor 等工具——包含 29 个开源 Skill（技能），覆盖股票、期权（options）和大宗商品（commodities）。",
-    "prompt": "请帮我安装 skills 这个 Skill。步骤：1) 从 https://github.com/alphagbm/skills 下载仓库文件（可以用 git clone 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/skills/ 目录（如果不存在的话）；3) 把下载到的所有 Skill 文件复制到 .claude/skills/skills/ 目录下；4) 确认目录结构正确，告诉我安装完成，并列出安装好的 Skill 清单。仓库地址：https://github.com/alphagbm/skills",
-    "translatedAt": "2026-09-14T05:20:03.630Z",
-    "backTranslationDiff": 0.9375
+    "sourceHash": "d99ca2f53fba0334",
+    "chineseDescription": "把实时行情数据和研究工作流带进 Claude Code、Cursor 等工具——这是一套开源的 Skill（技能），覆盖股票、期权和大宗商品。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alphagbm/skills 下载该 Skill 的文件，并保存到 .claude/skills/skills/ 目录下完成安装。这个 Skill 的作用是把实时行情数据和研究工作流带进 Claude Code，支持股票、期权和大宗商品。请先克隆或下载仓库 https://github.com/alphagbm/skills 的内容，然后把 Skill 相关文件放到 .claude/skills/skills/ 目录，安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-21T07:39:17.855Z",
+    "backTranslationDiff": 0.5
   },
   "levnikolaevich/claude-code-skills": {
     "sourceHash": "694311d19658a744",
@@ -7854,11 +7854,11 @@
     "backTranslationDiff": 0.2222222222222222
   },
   "sickn33/agentic-awesome-skills": {
-    "sourceHash": "6b1bc5ff7c586645",
-    "chineseDescription": "这是一个包含 2,955+ 个可复用 AI agent skill（智能体技能）的集合，适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 还额外提供了本地目录发现（local catalog discovery）、由 agent 自主选择技能以及计划预览（plan preview）功能。支持 CLI、MCP 和插件三种使用方式。",
-    "prompt": "帮我安装 agentic-awesome-skills 这个技能包。请你自己去 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载相关文件，保存到 .claude/skills/agentic-awesome-skills/ 目录下完成安装。安装前先看一下仓库的 README，确认正确的文件结构和安装方式，装好后告诉我怎么用。",
-    "translatedAt": "2026-11-10T07:49:20.542Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "408703fb1d2e9743",
+    "chineseDescription": "3000 多个可复用的 AI agent 技能（skills），适用于 Claude Code、Codex、Cursor 和 Gemini CLI。AAS Core 提供本地目录发现、由 agent 自主选择以及计划预览功能。支持 CLI、MCP 和插件三种方式。",
+    "prompt": "请帮我安装 agentic-awesome-skills 这个技能包。步骤：1) 从 GitHub 仓库 https://github.com/sickn33/agentic-awesome-skills 下载全部文件（可以用 git clone https://github.com/sickn33/agentic-awesome-skills 或直接下载 zip 包）；2) 把下载的内容保存到 .claude/skills/agentic-awesome-skills/ 目录下（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、包含哪些技能。仓库地址是 https://github.com/sickn33/agentic-awesome-skills ，请自行下载安装，不要假设我已经装好了。",
+    "translatedAt": "2026-11-21T07:38:59.927Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "nulightjens/humanizer-stack": {
     "sourceHash": "05a40445473d274a",
@@ -8085,11 +8085,11 @@
     "backTranslationDiff": 1
   },
   "zenstory-ai/oh-story-claudecode": {
-    "sourceHash": "d6a09742eea26ad9",
-    "chineseDescription": "这是一个 AI 写网文的全流程 skill 包（技能包），覆盖从扫榜选材、拆解爆款、大纲细纲，到长篇设定与伏笔追踪、短篇反转、去 AI 味和封面生成。适配 Claude Code、Codex、Antigravity、OpenCode 等工具，是一个专门用来写中文网文的 Agent skill pack（智能体技能包）。",
-    "prompt": "请帮我安装 oh-story-claudecode 这个 skill（技能包）。步骤：1. 从 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件（可以直接 git clone，或者用 curl 拉取仓库压缩包再解压）；2. 把内容保存到 .claude/skills/oh-story-claudecode/ 目录下（如果目录不存在就创建）；3. 确认 SKILL.md 等文件已就位，告诉我安装完成，并简单说明这个 skill 能干什么。仓库地址是 https://github.com/zenstory-ai/oh-story-claudecode ，不要假设我已经装过，请自己去下载。",
-    "translatedAt": "2026-11-08T06:31:29.370Z",
-    "backTranslationDiff": 0.5384615384615384
+    "sourceHash": "6968de9ebdeab0f3",
+    "chineseDescription": "网文写作 Agent 技能包：扫榜、拆文、大纲细纲、长短篇连载、伏笔追踪、去AI味与封面生成，适配 Claude Code / Codex 等 ｜ Agent skills for writing web novels",
+    "prompt": "请帮我安装 oh-story-claudecode 这个 Claude Code 技能包。请你自己去 GitHub 仓库 https://github.com/zenstory-ai/oh-story-claudecode 下载全部文件，保存到 .claude/skills/oh-story-claudecode/ 目录下完成安装，不要假设我已经提前下载好了。安装完成后告诉我怎么用。",
+    "translatedAt": "2026-11-21T07:39:14.501Z",
+    "backTranslationDiff": 0.4444444444444444
   },
   "adscanpro/claude-ad": {
     "sourceHash": "b7b339d79d154f3a",
@@ -8197,11 +8197,11 @@
     "backTranslationDiff": 0.7692307692307692
   },
   "michael-denyer/pstack-claude": {
-    "sourceHash": "44a8c4c72bac66ae",
-    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的移植版本，支持 Antigravity、Claude Code、Codex、Copilot、Gemini、Muse、OpenCode、Pi 和 Prime Agent。它把原本为 Cursor 设计的严谨 agent 工作流（agent workflow）翻译成其他 harness 能用的形式，让不同工具都能跑同一套流程。",
-    "prompt": "请帮我安装 pstack-claude 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件（可以用 git clone https://github.com/michael-denyer/pstack-claude 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/pstack-claude/ 目录下创建文件夹（如果不存在就先建好）；3) 把下载到的文件全部复制到 .claude/skills/pstack-claude/ 里，确保 SKILL.md 等文件在正确位置；4) 完成后告诉我装了哪些文件、怎么用。",
-    "translatedAt": "2026-11-05T07:19:28.767Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "d9f06095ee8c59f1",
+    "chineseDescription": "这是 Poteto 的 pstack 在多个 AI 编程工具上的移植版本，支持 Antigravity、Claude Code、Codex、Copilot、DeepSeek Harness、Gemini、Grok Build、Kimi Code、MiniMax Code、Muse、OMP、OpenCode、Pi、Prime Agent 等。它把原本为 Cursor 设计的严格 agent 工作流（workflow）原语（primitives）翻译成适配其他 harness 的版本，让这些工具也能跑同一套严谨的 agent 流程。",
+    "prompt": "请帮我安装 pstack-claude 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/michael-denyer/pstack-claude 下载全部文件（可以用 git clone https://github.com/michael-denyer/pstack-claude.git 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/pstack-claude/ 目录下创建安装位置（如果目录不存在就新建）；3) 把仓库里的 skill 文件（包括 SKILL.md 及相关资源）复制到 .claude/skills/pstack-claude/ 目录中；4) 确认 SKILL.md 已就位，并告诉我安装完成以及如何使用。仓库地址是 https://github.com/michael-denyer/pstack-claude ，请自行下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-21T07:39:10.782Z",
+    "backTranslationDiff": 0.1724137931034483
   },
   "irinabuht12-oss/marketing-skills": {
     "sourceHash": "6cac47c094053c9b",
@@ -8246,11 +8246,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "zenstory-ai/drama-skills": {
-    "sourceHash": "7fd6b0ca420233ee",
-    "chineseDescription": "这是一个 AI 短剧和漫剧制作的 skill 合集，包含小说改剧本、角色设定三视图、分镜脚本、生图/生视频提示词、成片审片等一整套流程，适配 Claude Code、Codex 等工具。简单说，就是从小说到成片的全流程助手，开源可免费用。",
-    "prompt": "请帮我安装 drama-skills 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/drama-skills/；3) 把下载的文件放到这个目录下，确保 SKILL.md 等文件结构完整；4) 安装完成后告诉我装了哪些 skill、怎么用。仓库地址是 https://github.com/zenstory-ai/drama-skills ，如果下载失败请提示我检查网络或手动下载。",
-    "translatedAt": "2026-11-07T06:26:47.833Z",
-    "backTranslationDiff": 0.6923076923076923
+    "sourceHash": "e452723a0a40815b",
+    "chineseDescription": "这是一个 AI 短剧和漫剧制作的 Agent 技能包（skills），能帮你把小说改成剧本、做视觉设定、拆分镜、写生图和生视频的提示词，最后剪辑成片。适配 Claude Code、Codex 等工具。",
+    "prompt": "请帮我安装 drama-skills 技能包。步骤：1. 从 GitHub 仓库 https://github.com/zenstory-ai/drama-skills 下载全部文件（可以用 git clone https://github.com/zenstory-ai/drama-skills 或直接下载压缩包）；2. 在当前项目的 .claude/skills/ 目录下创建 drama-skills 文件夹（如果目录不存在就新建）；3. 把下载到的文件全部放进 .claude/skills/drama-skills/ 里；4. 安装完成后列出该目录下的文件，确认安装成功。",
+    "translatedAt": "2026-11-21T07:39:06.811Z",
+    "backTranslationDiff": 0.5454545454545454
   },
   "eternityspring/reelbench-skills": {
     "sourceHash": "70ea79dd6a253f19",
@@ -8757,10 +8757,10 @@
     "backTranslationDiff": 0.5882352941176471
   },
   "arifszn/slide-wright": {
-    "sourceHash": "990e3c4bdbc1be2f",
-    "chineseDescription": "用你的 coding agent（编码智能体）来做演示文稿。先在短预览里对比几个设计方向，挑一个，然后生成并导出成 PowerPoint 或 PDF。",
-    "prompt": "帮我安装 slide-wright 这个 skill。请从 GitHub 仓库 https://github.com/arifszn/slide-wright 下载它的文件，保存到 .claude/skills/slide-wright/ 目录下，完成安装。装好后告诉我怎么用。",
-    "translatedAt": "2026-11-14T06:58:08.137Z",
+    "sourceHash": "8c5a53c72994f9c2",
+    "chineseDescription": "用你的编程 agent（coding agent）做演示文稿。先在短预览里对比几个设计方向，挑一个，然后生成并导出成 PowerPoint 或 PDF。",
+    "prompt": "请帮我安装 slide-wright 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/arifszn/slide-wright 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/slide-wright/ 目录下创建 skill 文件夹（如果目录不存在就先创建）；3) 把下载到的文件放进 .claude/skills/slide-wright/ 里，确保 SKILL.md 位于该目录根下；4) 安装完成后告诉我文件结构，并说明怎么用这个 skill 做演示文稿。",
+    "translatedAt": "2026-11-21T07:39:32.154Z",
     "backTranslationDiff": 0.2777777777777778
   },
   "zhuyansen/wx-favorites-report": {
@@ -8813,11 +8813,11 @@
     "backTranslationDiff": 1
   },
   "alchaincyf/huashu-design": {
-    "sourceHash": "f8dab7d1c29f8cce",
-    "chineseDescription": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · 面向 Claude Code、Codex、Cursor 及任意 agent 的 HTML-native 设计 skill（技能）。",
-    "prompt": "请帮我安装 huashu-design 这个 Claude Code skill（技能）。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-design 下载全部文件（可用 git clone https://github.com/alchaincyf/huashu-design.git 或直接下载压缩包）；2) 在当前项目的 .claude/skills/huashu-design/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件已就位，并告诉我安装完成、怎么触发使用。",
-    "translatedAt": "2026-10-24T05:03:59.972Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "76f9033052ccea45",
+    "chineseDescription": "Huashu Design 3.4 · 在 agent 里说一句话，就能拿回可直接交付的设计稿：网页 / App 原型 / App Store 宣传图 / 小红书图文 / 可编辑 PPTX / 动画 / 信息图 · 从六个候选里挑三个方向 · 92 种带样张的风格库 · 该放图的地方就放真图 · 这是一个 HTML-native（原生 HTML）设计 skill，适用于 Claude Code、Codex、Cursor 以及任何 agent",
+    "prompt": "请帮我安装 huashu-design 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/alchaincyf/huashu-design 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/huashu-design/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 安装完成后确认目录结构和 SKILL.md 是否就位，并告诉我怎么用。仓库地址是 https://github.com/alchaincyf/huashu-design ，请自己去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-21T07:38:56.384Z",
+    "backTranslationDiff": 0.4375
   },
   "appariciojunior/video-editor-skills": {
     "sourceHash": "cb76025d053a936d",
@@ -9485,11 +9485,11 @@
     "backTranslationDiff": 1
   },
   "obsidianmd/obsidian-skills": {
-    "sourceHash": "0e1fbd750a8529f4",
-    "chineseDescription": "这是给 Obsidian 用的 Agent 技能（skills）。它能让你的 AI 助手学会用 Obsidian CLI（命令行工具），以及处理 Markdown、Bases、JSON Canvas 这些开放格式。",
-    "prompt": "请帮我安装 obsidian-skills 技能：从 https://github.com/obsidianmd/obsidian-skills 下载仓库文件，保存到 .claude/skills/obsidian-skills/ 目录下，完成后告诉我安装结果。",
-    "translatedAt": "2026-11-15T07:05:45.263Z",
-    "backTranslationDiff": 0.6923076923076923
+    "sourceHash": "933af2d7d15b0219",
+    "chineseDescription": "教你的 AI 助手（agent）使用 Obsidian 以及 Markdown、Bases、JSON Canvas 这些开放格式。",
+    "prompt": "请帮我安装 obsidian-skills 这个 Claude Code Skill。步骤：1. 从 GitHub 仓库 https://github.com/obsidianmd/obsidian-skills 下载该 Skill 的全部文件（可以直接 git clone 或下载仓库压缩包）；2. 在当前项目的 .claude/skills/obsidian-skills/ 目录下创建文件夹（如果目录不存在就一并创建）；3. 把下载到的 Skill 文件放到 .claude/skills/obsidian-skills/ 里，确保 SKILL.md 等文件位于该目录下；4. 安装完成后告诉我文件结构，并确认这个 Skill 已经可以被使用。",
+    "translatedAt": "2026-11-21T07:39:40.109Z",
+    "backTranslationDiff": 0.09090909090909094
   },
   "avivgerz-hue/vibe-shield": {
     "sourceHash": "cdac2cb4e1ecde8f",
@@ -9651,5 +9651,19 @@
     "prompt": "请帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/ilan-uzan/app-store-preflight 下载全部文件，保存到 .claude/skills/app-store-preflight/ 目录下（如果目录不存在就创建）。安装完成后告诉我这个 skill 怎么用。",
     "translatedAt": "2026-11-20T07:41:06.660Z",
     "backTranslationDiff": 0.29032258064516125
+  },
+  "erkamyaman/rust-anything": {
+    "sourceHash": "c7cef7e97c54480f",
+    "chineseDescription": "把整个应用一块一块地用 Rust 重写，每一步都拿原版录下来的行为做对照校验。支持 TypeScript、Python、C、Go、Ruby 和 Java 写的 CLI、HTTP 服务器和库。",
+    "prompt": "帮我安装 rust-anything 这个 Skill。请你去 GitHub 仓库 https://github.com/erkamyaman/rust-anything 下载它的文件，保存到 .claude/skills/rust-anything/ 目录下，完成安装。装好后告诉我怎么用。",
+    "translatedAt": "2026-11-21T07:39:28.935Z",
+    "backTranslationDiff": 0.4285714285714286
+  },
+  "mankidev/antialgorithm": {
+    "sourceHash": "ba196a5c24abeabe",
+    "chineseDescription": "这个 Agent skill（技能）的作用是：在创意类工作里，把模型从它第一反应、最平庸的那个选项上拽回来。适用场景包括起名字、想点子、设计 logo（标志）、做海报、做 UI（界面）。简单说，就是防止 AI 一上来就给你最套路、最没劲的答案。",
+    "prompt": "请帮我安装 antialgorithm 这个 skill。步骤：1）从 GitHub 仓库 https://github.com/mankidev/antialgorithm 下载全部文件（可以用 git clone https://github.com/mankidev/antialgorithm 或直接下载 zip 解压）；2）在项目里创建目录 .claude/skills/antialgorithm/；3）把下载到的文件放进这个目录，确保 SKILL.md 等文件位于 .claude/skills/antialgorithm/ 下；4）完成后告诉我安装了哪些文件，并确认 skill 可以被识别。",
+    "translatedAt": "2026-11-21T07:39:36.062Z",
+    "backTranslationDiff": 0.5294117647058824
   }
 }
