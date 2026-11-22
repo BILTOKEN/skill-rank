@@ -7863,6 +7863,27 @@
     "checkedAt": "2026-06-05T12:19:50.440Z"
   },
   {
+    "repo": "jensheitmann/humanizer-stack",
+    "name": "humanizer-stack",
+    "description": "Two-pass pipeline for removing AI writing tells from outward-facing text: a surface pass plus a structural pass grounded in the StoryScope study. Packaged as Claude Code Skills.      Free community: skool.com/jens-ai-community-1306",
+    "tags": [
+      "ai-detection",
+      "ai-writing",
+      "anthropic",
+      "claude-code",
+      "claude-skills",
+      "humanizer",
+      "writing-tools"
+    ],
+    "stars": 386,
+    "lastPush": "2026-07-24T16:33:23Z",
+    "pool": "ranked",
+    "readmeLength": 885,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-22T06:58:47.998Z"
+  },
+  {
     "repo": "kaopu-xiaopu/web-design",
     "name": "web-design",
     "description": "A Claude Code SKILL for designing beautiful, consistent web pages — spec first, code second. ",
@@ -9680,6 +9701,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "theplannerivan/planners-ppt-hell",
+    "name": "planners-ppt-hell",
+    "description": "SVG 视觉工作台与可编辑 PPTX 交付：用设计系统与版式原语做高密咨询页，支持直改、多模态自检与按需导出 PPTX",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "codex-skills",
+      "planners-desk",
+      "pptx",
+      "production-line"
+    ],
+    "stars": 248,
+    "lastPush": "2026-11-21T06:44:37Z",
+    "pool": "ranked",
+    "readmeLength": 497,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-22T06:58:47.998Z"
   },
   {
     "repo": "eriemon/verilog-generator",
@@ -15683,6 +15724,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "theplannerivan/sparkling",
+    "name": "sparkling",
+    "description": "高摩擦业务研讨 Skill：用证据对撞与异质解释打破旧判断，收敛一页纸战略结论",
+    "tags": [
+      "agent-skills",
+      "claude-skills",
+      "codex-skills",
+      "craft-tool",
+      "planners-desk",
+      "strategy"
+    ],
+    "stars": 62,
+    "lastPush": "2026-11-21T07:07:32Z",
+    "pool": "ranked",
+    "readmeLength": 209,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-22T06:58:47.998Z"
   },
   {
     "repo": "jordanrubin/future_tokens",

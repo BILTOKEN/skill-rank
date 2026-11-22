@@ -9401,11 +9401,11 @@
     "backTranslationDiff": 0.42105263157894735
   },
   "jimliu/baoyu-design": {
-    "sourceHash": "62bfdf0b726cbcc5",
-    "chineseDescription": "这个 Skill 叫 open-artifact，对应的 GitHub 仓库是 https://github.com/jimliu/baoyu-design 。目前英文介绍只写了「coming soon」，也就是作者还没放出正式说明，具体功能暂时不清楚，得等仓库更新后才能确认。",
-    "prompt": "请帮我安装 open-artifact 这个 Skill。步骤：1）从 GitHub 仓库 https://github.com/jimliu/baoyu-design 下载全部文件；2）在项目里创建 .claude/skills/baoyu-design/ 目录；3）把下载的文件放进去。装好后告诉我这个 Skill 是干什么用的。",
-    "translatedAt": "2026-11-18T07:51:32.826Z",
-    "backTranslationDiff": 1
+    "sourceHash": "713b1f7a19f4d0f0",
+    "chineseDescription": "开放式的 artifact（产物）工具，不绑定特定 agent 或模型，所有内容都以纯文件形式保存在本地——可以编辑、评论、导出幻灯片、UI 设计、设计系统（design system）、白板、表格、仪表盘、文档和动效。",
+    "prompt": "请帮我安装 open-artifact 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/jimliu/baoyu-design 下载全部文件（可以用 git clone https://github.com/jimliu/baoyu-design 或直接下载 zip 解压）；2) 在项目根目录创建 .claude/skills/baoyu-design/ 目录（如果不存在的话）；3) 把下载到的文件全部复制到 .claude/skills/baoyu-design/ 目录下；4) 确认目录里有 SKILL.md 等必要文件，然后告诉我安装完成，并简单说明怎么用。",
+    "translatedAt": "2026-11-22T07:12:55.679Z",
+    "backTranslationDiff": 0.44999999999999996
   },
   "q00/ouroboros": {
     "sourceHash": "6cb80d31650201fe",
@@ -9415,11 +9415,11 @@
     "backTranslationDiff": 0.25
   },
   "anhnx000/viet-nhu-nguoi": {
-    "sourceHash": "41478174c36f306a",
-    "chineseDescription": "像人一样写（越南语 humanizer 工具）。这是一个给 Claude Code、Codex、Cursor 用的 skill（技能包）：让 AI 写出来的越南语读起来还是人话。去掉翻译腔、公文腔、聊天机器人腔，数字数据保持原样。附带一套检测工具，能数出文中的 AI 写作痕迹，并按 0-100 分打分。",
-    "prompt": "请帮我安装一个 Claude Code skill（技能包），名字叫 viet-nhu-nguoi。请你自己去 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载这个仓库的文件，保存到 .claude/skills/viet-nhu-nguoi/ 目录下，完成安装。安装好后告诉我装了什么、怎么用。",
-    "translatedAt": "2026-11-18T07:51:45.047Z",
-    "backTranslationDiff": 0.7857142857142857
+    "sourceHash": "07d5e513fa22cf5b",
+    "chineseDescription": "这是一个越南语「去 AI 味」的 skill（技能），适用于 Claude Code、Codex 和 Cursor。它能把读起来像 AI 写的越南语改写成真人写作的感觉，同时保留人名、数字、日期和否定表达不变。自带 76 个评测用例，在 Claude 和 GPT 上都跑过；检查器只用标准库（stdlib-only），不玩 AI 检测器那套花招。MIT 协议。一句话：让越南语少点 AI 腔。",
+    "prompt": "请帮我安装 viet-nhu-nguoi 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/viet-nhu-nguoi/；3) 把仓库里的 skill 文件（包括 SKILL.md 及相关脚本、资源）放到该目录下，保持原有目录结构；4) 安装完成后告诉我文件清单和怎么用。仓库地址是 https://github.com/anhnx000/viet-nhu-nguoi ，请直接去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-22T07:12:51.534Z",
+    "backTranslationDiff": 0.6333333333333333
   },
   "editatlas/skills": {
     "sourceHash": "efbb44e4b423a7de",
@@ -9639,11 +9639,11 @@
     "backTranslationDiff": 0.15000000000000002
   },
   "viprasol-tech/claude-video-editing-skills": {
-    "sourceHash": "337045e2a58ad5b2",
-    "chineseDescription": "40 个免费的 Claude Code skill（技能），能把一段原始素材直接剪成成片：自动字幕（auto captions）、跳剪（jump cuts）、人物背后的文字（text behind the speaker）、以及给 reels、shorts、YouTube 和播客用的动态图形（motion graphics）。",
-    "prompt": "帮我安装 claude-video-editing-skills 这个 skill 包。请你自己去 GitHub 仓库 https://github.com/viprasol-tech/claude-video-editing-skills 下载全部文件，保存到 .claude/skills/claude-video-editing-skills/ 目录下（如果目录不存在就创建）。下载完成后确认文件结构完整，并告诉我安装成功、包含哪些 skill。",
-    "translatedAt": "2026-11-20T07:41:02.700Z",
-    "backTranslationDiff": 0.125
+    "sourceHash": "7f7c3b3a7c9b15a0",
+    "chineseDescription": "这是一个给 Claude Code 用的免费本地 AI 视频剪辑工具包，包含 95 个 skill（技能），能把原始素材直接剪成成品级的 Reels、Shorts 和 YouTube 视频。功能包括自动剪辑、字幕（连印地语/天城文都支持）、动态图形（motion graphics）、场景序列、调色、混音和质检（QC）。全部在本地跑，不花钱。",
+    "prompt": "请帮我安装 claude-video-editing-skills 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/viprasol-tech/claude-video-editing-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在当前项目的 .claude/skills/claude-video-editing-skills/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载的文件放到该目录中，确保 SKILL.md 等 skill 文件位于 .claude/skills/claude-video-editing-skills/ 下；4) 安装完成后列出目录内容确认安装成功，并告诉我怎么开始使用。仓库地址是 https://github.com/viprasol-tech/claude-video-editing-skills ，请自行下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-22T07:12:59.524Z",
+    "backTranslationDiff": 0.6296296296296297
   },
   "ilan-uzan/app-store-preflight": {
     "sourceHash": "010c16230b17da9c",
@@ -9665,5 +9665,33 @@
     "prompt": "请帮我安装 antialgorithm 这个 skill。步骤：1）从 GitHub 仓库 https://github.com/mankidev/antialgorithm 下载全部文件（可以用 git clone https://github.com/mankidev/antialgorithm 或直接下载 zip 解压）；2）在项目里创建目录 .claude/skills/antialgorithm/；3）把下载到的文件放进这个目录，确保 SKILL.md 等文件位于 .claude/skills/antialgorithm/ 下；4）完成后告诉我安装了哪些文件，并确认 skill 可以被识别。",
     "translatedAt": "2026-11-21T07:39:36.062Z",
     "backTranslationDiff": 0.5294117647058824
+  },
+  "iamshakibali/editorial-taste": {
+    "sourceHash": "75216ff086360d36",
+    "chineseDescription": "Claude Code 插件（plugin），用于以单色、杂志编辑风、摄影主导的风格来搭建和重设计网站：Geist 字体、5px 节奏、用玻璃质感（glass）代替阴影、丝滑的动效（motion），以及等距细线插画（isometric hairline illustration）。",
+    "prompt": "请帮我安装 editorial-taste 这个 Claude Code skill。请从 GitHub 仓库 https://github.com/iamshakibali/editorial-taste 下载全部文件，保存到 .claude/skills/editorial-taste/ 目录下（如果目录不存在就创建）。安装完成后告诉我安装了哪些文件，以及这个 skill 的用途：它用于以单色、杂志编辑风、摄影主导的风格搭建和重设计网站，特点是 Geist 字体、5px 节奏、用玻璃质感代替阴影、丝滑动效和等距细线插画。",
+    "translatedAt": "2026-11-22T07:13:03.592Z",
+    "backTranslationDiff": 0.23809523809523814
+  },
+  "theplannerivan/planners-ppt-hell": {
+    "sourceHash": "53f5ba96a8186fca",
+    "chineseDescription": "SVG 视觉工作台加可编辑 PPTX 交付：用设计系统（design system）和版式原语（layout primitives）做高密度咨询风格页面，支持直接修改、多模态自检（multimodal self-check），并按需导出 PPTX。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 planners-ppt-hell。请你自己去 GitHub 仓库 https://github.com/theplannerivan/planners-ppt-hell 把仓库里的文件下载下来，保存到当前项目的 .claude/skills/planners-ppt-hell/ 目录下（目录不存在就新建）。装好后确认一下 SKILL.md 之类的入口文件都在位，然后告诉我怎么用。",
+    "translatedAt": "2026-11-22T07:13:07.536Z",
+    "backTranslationDiff": 0.6666666666666667
+  },
+  "theplannerivan/sparkling": {
+    "sourceHash": "ed0999390bd9157c",
+    "chineseDescription": "高摩擦业务研讨 Skill（技能）：通过证据对撞（evidence collision）和异质解释（heterogeneous interpretation）来打破旧判断，最终收敛成一页纸的战略结论。",
+    "prompt": "请帮我安装 sparkling 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/theplannerivan/sparkling 下载全部文件（可用 git clone https://github.com/theplannerivan/sparkling 或直接下载压缩包）；2) 在当前项目的 .claude/skills/sparkling/ 目录下创建文件夹（如果不存在就新建）；3) 把仓库里的 Skill 文件（如 SKILL.md 及相关资源）复制到 .claude/skills/sparkling/ 中；4) 确认目录结构正确后告诉我安装完成，并简要说明这个 Skill 的用途。",
+    "translatedAt": "2026-11-22T07:13:11.413Z",
+    "backTranslationDiff": 1
+  },
+  "jensheitmann/humanizer-stack": {
+    "sourceHash": "05a40445473d274a",
+    "chineseDescription": "这是一个两遍处理的流水线（two-pass pipeline），用来去掉对外文案里的 AI 写作痕迹：一遍做表层处理（surface pass），一遍做结构处理（structural pass），结构部分基于 StoryScope 研究。打包成了 Claude Code Skills。免费社区：skool.com/jens-ai-community-1306",
+    "prompt": "帮我安装 humanizer-stack 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/jensheitmann/humanizer-stack 下载所有文件，保存到 .claude/skills/humanizer-stack/ 目录下，保持原有的目录结构。下载完成后确认 SKILL.md 等文件都在位，然后告诉我安装好了。",
+    "translatedAt": "2026-11-22T07:13:15.290Z",
+    "backTranslationDiff": 0.36363636363636365
   }
 }
