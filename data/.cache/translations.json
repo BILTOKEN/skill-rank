@@ -3136,11 +3136,11 @@
     "backTranslationDiff": 0
   },
   "deusyu/translate-book": {
-    "sourceHash": "ad0f5d43b0e1b2a3",
-    "chineseDescription": "这是一个用于 Codex、Claude Code 和 OpenClaw 的 Agent skill，能用并行子代理把整本书（PDF/DOCX/EPUB）翻译成任何语言。",
-    "prompt": "请从 https://github.com/deusyu/translate-book 下载 translate-book skill 的所有文件，并保存到 .claude/skills/translate-book/ 目录下，完成安装。",
-    "translatedAt": "2026-07-22T04:07:39.555Z",
-    "backTranslationDiff": 0.1875
+    "sourceHash": "6f4f132be4bec06e",
+    "chineseDescription": "这是一个给 Claude Code、Codex、Cursor、OpenClaw 以及其他兼容 Agent Skills 的智能体用的技能（Skill），能整本翻译书（支持 PDF/DOCX/EPUB 格式），翻成任意语言，靠多个子智能体（subagent）并行干活来提速。",
+    "prompt": "帮我安装一个 Claude Code 技能（Skill），名字叫 translate-book。请你自己去 GitHub 仓库 https://github.com/deusyu/translate-book 把仓库里的文件下载下来，保存到 .claude/skills/translate-book/ 目录里，完成安装。装好后告诉我这个技能怎么用。注意：不要假设我本地已经有这个仓库，直接去 https://github.com/deusyu/translate-book 拉取就行。",
+    "translatedAt": "2026-11-23T08:12:15.376Z",
+    "backTranslationDiff": 0.44999999999999996
   },
   "obra/superpowers-skills": {
     "sourceHash": "4f948861ae4b5639",
@@ -3472,11 +3472,11 @@
     "backTranslationDiff": 0.4
   },
   "uucz/moyu": {
-    "sourceHash": "ec5e5f27fedce855",
-    "chineseDescription": "🐟 狠狠 PUA 你的 AI，然后自己准时下班。让你的 AI 拼命干活，这样你就不用干了。基准测试：代码量减少 66%。【使用场景】让 AI 自动完成重复性编码任务，减少手动编写代码，实现摸鱼。",
-    "prompt": "请从 https://github.com/uucz/moyu 下载仓库内容，并保存到 .claude/skills/moyu/ 目录完成安装。",
-    "translatedAt": "2026-05-24T13:22:32.920Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "482f9487b31161e2",
+    "chineseDescription": "🐟 狠狠 PUA 你的 AI，然后自己准时下班。给 AI 编程助手用的反过度设计规则（Anti-over-engineering rules）、Agent Hooks 和 PR Linter（PR 检查工具）。",
+    "prompt": "请帮我安装 moyu 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/uucz/moyu 下载全部文件（可以用 git clone https://github.com/uucz/moyu 或直接下载仓库压缩包）；2) 在项目根目录创建 .claude/skills/moyu/ 目录；3) 把仓库里的 Skill 文件（包括 SKILL.md 及相关规则、hooks、linter 配置）复制到 .claude/skills/moyu/ 下；4) 确认目录结构正确后告诉我安装完成，并简单说明怎么用。",
+    "translatedAt": "2026-11-23T08:12:23.736Z",
+    "backTranslationDiff": 0.4285714285714286
   },
   "raintree-technology/apple-hig-skills": {
     "sourceHash": "76f1a7ba588bc6cd",
@@ -4858,11 +4858,11 @@
     "backTranslationDiff": 0.5
   },
   "aperivue/medsci-skills": {
-    "sourceHash": "d0fc73d2f887b16d",
-    "chineseDescription": "这是一个面向医学研究的 Agent 技能包，涵盖文献检索、报告指南与引用检查、统计、发表图表、投稿等环节。兼容 Claude Code、Codex、Cursor 和 GitHub Copilot。由一位医生兼研究者开发，已在真实发表物上测试过。MIT 许可。",
-    "prompt": "请从 https://github.com/aperivue/medsci-skills 下载文件，并保存到 .claude/skills/medsci-skills/ 目录，完成安装。",
-    "translatedAt": "2026-07-05T04:48:59.406Z",
-    "backTranslationDiff": 0.37037037037037035
+    "sourceHash": "cad099d4b107b379",
+    "chineseDescription": "面向医学科研的 Agent Skills（智能体技能）：可以在 PubMed、CrossRef 和 OpenAlex 里查文献；能拿 49 种报告规范（reporting guidelines）和偏倚风险工具（risk-of-bias tools）来审查稿件；还管统计、图表和投稿。支持 Claude Code、Codex、Cursor 和 GitHub Copilot。作者是医生出身的研究者，MIT 许可。",
+    "prompt": "请帮我安装 medsci-skills 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/aperivue/medsci-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目里创建目录 .claude/skills/medsci-skills/，把仓库里的技能文件（包括 SKILL.md 及相关脚本、资源）放到该目录下；3) 确认目录结构正确后告诉我装好了，并简要说明有哪些技能可用。如果本地已有同名目录，先备份再覆盖。",
+    "translatedAt": "2026-11-23T08:12:19.746Z",
+    "backTranslationDiff": 0.4482758620689655
   },
   "ypares/rigup.nix": {
     "sourceHash": "ff7f7e6cf3cc729a",
@@ -9373,11 +9373,11 @@
     "backTranslationDiff": 0.85
   },
   "innei/ryugi": {
-    "sourceHash": "6e9cabe6e13aef8e",
-    "chineseDescription": "Ryugi（读作 ryoo-ghee）——给编码 agent 用的产物工具：mockup 画板、设计文档、白板、HTML 工作台，以及你可以直接在上面评论的验证报告，每条评论都会回传给 agent。可以只装产物部分，也可以装完整的 brainstorm → spec → TDD 工作流。支持 Claude Code、Codex 等。",
-    "prompt": "请帮我安装 ryugi 这个 skill：从 https://github.com/innei/ryugi 下载仓库文件，保存到 .claude/skills/ryugi/ 目录下完成安装。安装前先看一下仓库的 README，确认目录结构和安装方式；如果仓库里有 SKILL.md 或安装说明，按说明来。装完后告诉我装了什么、怎么用。",
-    "translatedAt": "2026-11-12T07:44:28.895Z",
-    "backTranslationDiff": 0.30000000000000004
+    "sourceHash": "583bda0183711216",
+    "chineseDescription": "Ryugi（读音 ryoo-ghee）——给编码 Agent 用的交互式产物（Interactive Artifacts）：包括 mockup 画板、设计文档、白板、HTML 实验台和验证报告，你可以在上面直接写评论，每条评论都会回传给 Agent。",
+    "prompt": "请帮我安装 ryugi 这个 Claude Code Skill。步骤：1. 从 GitHub 仓库 https://github.com/innei/ryugi 下载全部文件（可以用 git clone https://github.com/innei/ryugi 或直接下载压缩包）；2. 在项目里创建目录 .claude/skills/ryugi/；3. 把仓库里的文件复制到该目录下，确保 SKILL.md 位于 .claude/skills/ryugi/SKILL.md；4. 安装完成后告诉我这个 Skill 怎么用。",
+    "translatedAt": "2026-11-23T08:12:08.387Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "devsemih/appstore-review-skill": {
     "sourceHash": "1963f775963cdff3",
@@ -9534,11 +9534,11 @@
     "backTranslationDiff": 0.21739130434782605
   },
   "erkamyaman/unslopovich": {
-    "sourceHash": "e7912f198a1eaa29",
-    "chineseDescription": "你的应用看起来像是 AI 生成的。Unslopovich 博士注意到了。这是一个 agent skill（智能体技能），专门找出并修复移动应用、Web 应用和网站里那些「一眼 AI」的 UI 和 UX 问题。",
-    "prompt": "请帮我安装 unslopovich 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/erkamyaman/unslopovich 下载全部文件（可以用 git clone https://github.com/erkamyaman/unslopovich 或直接抓取仓库内容）；2) 在项目里创建目录 .claude/skills/unslopovich/；3) 把下载到的 skill 文件（包括 SKILL.md 及相关资源）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简要说明这个 skill 怎么用。",
-    "translatedAt": "2026-11-16T06:55:47.449Z",
-    "backTranslationDiff": 0.2142857142857143
+    "sourceHash": "9c7f7f6ed1783db3",
+    "chineseDescription": "你的应用一看就是 AI 生成的，unslop-anything 能看出来。这是一个 agent skill（智能体技能），专门找出并修复移动应用、Web 应用和网站里那些「AI 味」十足的 UI 和 UX 问题。",
+    "prompt": "请帮我安装 unslop-anything 这个 skill。请从 GitHub 仓库 https://github.com/erkamyaman/unslopovich 下载所有文件，保存到 .claude/skills/unslopovich/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-11-23T08:12:12.061Z",
+    "backTranslationDiff": 0.5714285714285714
   },
   "krisyangdev/motionboard": {
     "sourceHash": "1ee1bd3553c32f94",
@@ -9693,5 +9693,12 @@
     "prompt": "帮我安装 humanizer-stack 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/jensheitmann/humanizer-stack 下载所有文件，保存到 .claude/skills/humanizer-stack/ 目录下，保持原有的目录结构。下载完成后确认 SKILL.md 等文件都在位，然后告诉我安装好了。",
     "translatedAt": "2026-11-22T07:13:15.290Z",
     "backTranslationDiff": 0.36363636363636365
+  },
+  "erkamyaman/unslop-anything": {
+    "sourceHash": "9c7f7f6ed1783db3",
+    "chineseDescription": "你的应用一看就是 AI 生成的，unslop-anything 专门治这个。这是一个 agent skill（智能体技能），能找出并修复移动应用、Web 应用和网站里那些「AI 味」十足的 UI 和 UX 问题。",
+    "prompt": "请帮我安装 unslop-anything 这个 skill。请从 GitHub 仓库 https://github.com/erkamyaman/unslop-anything 下载所有文件，保存到 .claude/skills/unslop-anything/ 目录下，完成安装。安装好后告诉我它有哪些功能、怎么用。",
+    "translatedAt": "2026-11-23T08:12:27.552Z",
+    "backTranslationDiff": 0.3571428571428571
   }
 }
