@@ -4431,11 +4431,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "elementalsouls/claude-bughunter": {
-    "sourceHash": "3174c7ebe5d65dd7",
-    "chineseDescription": "一个用于漏洞挖掘和外部红队工作的 Claude Code Skill 包——包含 82 个技能、15 个斜杠命令、覆盖 24 个核心漏洞类别的 681 个已披露报告模式，以及企业身份+基础设施攻击矩阵。",
-    "prompt": "请从 https://github.com/elementalsouls/claude-bughunter 下载 Claude-BugHunter Skill 包，并将其保存到 .claude/skills/claude-bughunter/ 目录下，完成安装。",
-    "translatedAt": "2026-07-24T04:04:30.893Z",
-    "backTranslationDiff": 0.41666666666666663
+    "sourceHash": "4b88fb24849a6863",
+    "chineseDescription": "这是一个 Claude Code 的技能包（skill bundle），专门用于漏洞挖掘（bug hunting）和外部红队（red-team）工作。包含 84 个技能（skills）、15 个斜杠命令（slash commands）、681 个已公开披露报告的模式（disclosed-report patterns），覆盖 24 个核心漏洞类别（vulnerability classes），另外还有企业身份（enterprise identity）和基础设施（infrastructure）攻击矩阵（attack matrices）。",
+    "prompt": "请帮我安装 Claude-BugHunter 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/elementalsouls/claude-bughunter 下载全部文件，并保存到 .claude/skills/claude-bughunter/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我包含哪些技能和斜杠命令。",
+    "translatedAt": "2026-11-24T10:30:02.905Z",
+    "backTranslationDiff": 0.20833333333333337
   },
   "othmanadi/planning-with-files": {
     "sourceHash": "8abf3046f584e432",
@@ -4480,11 +4480,11 @@
     "backTranslationDiff": 0.5
   },
   "jeffallan/claude-skills": {
-    "sourceHash": "c584d651e719337e",
-    "chineseDescription": "67个专为全栈开发者设计的专业技能（Skills）。将 Claude Code 变成你的专家级结对编程伙伴。",
-    "prompt": "请从 GitHub 仓库 https://github.com/jeffallan/claude-skills 下载全部技能文件，并将其保存到 .claude/skills/claude-skills/ 目录中，以完成安装。安装完成后，请确认所有技能已正确加载。",
-    "translatedAt": "2026-08-28T11:48:04.846Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "cc06f6b08632ec58",
+    "chineseDescription": "这个技能包给全栈开发者准备了 71 个专用技能（Skills），能把 Claude Code 变成你的专家级结对编程搭档。说白了就是给 Claude Code 装上一堆现成的专业能力，写前端、后端、调 bug 时它更懂行、更专业。",
+    "prompt": "请帮我安装 claude-skills 技能包。步骤：1) 从 GitHub 仓库 https://github.com/jeffallan/claude-skills 下载全部文件（可以用 git clone https://github.com/jeffallan/claude-skills 或直接下载压缩包）；2) 在当前项目的 .claude/skills/claude-skills/ 目录下创建文件夹（如果目录不存在就先创建）；3) 把下载到的所有技能文件放到该目录中；4) 完成后告诉我安装成功，并列出安装好的技能清单。",
+    "translatedAt": "2026-11-24T10:30:11.523Z",
+    "backTranslationDiff": 0.25
   },
   "tripleyak/skillforge": {
     "sourceHash": "ebac52ec8bde8761",
@@ -9534,11 +9534,11 @@
     "backTranslationDiff": 0.21739130434782605
   },
   "erkamyaman/unslopovich": {
-    "sourceHash": "9c7f7f6ed1783db3",
-    "chineseDescription": "你的应用一看就是 AI 生成的，unslop-anything 能看出来。这是一个 agent skill（智能体技能），专门找出并修复移动应用、Web 应用和网站里那些「AI 味」十足的 UI 和 UX 问题。",
-    "prompt": "请帮我安装 unslop-anything 这个 skill。请从 GitHub 仓库 https://github.com/erkamyaman/unslopovich 下载所有文件，保存到 .claude/skills/unslopovich/ 目录下，完成安装。安装好后告诉我怎么用。",
-    "translatedAt": "2026-11-23T08:12:12.061Z",
-    "backTranslationDiff": 0.5714285714285714
+    "sourceHash": "455a7fa794256228",
+    "chineseDescription": "你的应用一看就是 AI 生成的。梵高都看不下去了。这是一个 agent skill（智能体技能），专门找出并修复移动应用、Web 应用和网站里那些「一眼 AI」的 UI 和 UX 问题。",
+    "prompt": "帮我安装一个 Claude Code skill，名字叫 unslopovich。请你自己去 GitHub 仓库 https://github.com/erkamyaman/unslopovich 把相关文件下载下来，保存到 .claude/skills/unslopovich/ 目录里，完成安装。装好之后告诉我怎么用。\n\n【使用场景】当你用 AI 生成的应用或网站界面看起来太「AI 味」、想让它更像真人设计的时候用。",
+    "translatedAt": "2026-11-24T10:30:07.386Z",
+    "backTranslationDiff": 0.6
   },
   "krisyangdev/motionboard": {
     "sourceHash": "1ee1bd3553c32f94",
@@ -9695,10 +9695,31 @@
     "backTranslationDiff": 0.36363636363636365
   },
   "erkamyaman/unslop-anything": {
-    "sourceHash": "9c7f7f6ed1783db3",
-    "chineseDescription": "你的应用一看就是 AI 生成的，unslop-anything 专门治这个。这是一个 agent skill（智能体技能），能找出并修复移动应用、Web 应用和网站里那些「AI 味」十足的 UI 和 UX 问题。",
-    "prompt": "请帮我安装 unslop-anything 这个 skill。请从 GitHub 仓库 https://github.com/erkamyaman/unslop-anything 下载所有文件，保存到 .claude/skills/unslop-anything/ 目录下，完成安装。安装好后告诉我它有哪些功能、怎么用。",
-    "translatedAt": "2026-11-23T08:12:27.552Z",
-    "backTranslationDiff": 0.3571428571428571
+    "sourceHash": "455a7fa794256228",
+    "chineseDescription": "你的应用一看就是 AI 生成的，连梵高都看出来了。这个 agent skill（智能体技能）专门找出并修复移动应用、Web 应用和网站里那些「AI 味」十足的 UI 和 UX 问题。",
+    "prompt": "请帮我安装一个 Claude Code skill（智能体技能），名字叫 unslop-anything。它的 GitHub 仓库地址是 https://github.com/erkamyaman/unslop-anything 。请你自己去这个仓库把相关文件下载下来，保存到当前项目的 .claude/skills/unslop-anything/ 目录下，完成安装。安装好之后告诉我怎么用。",
+    "translatedAt": "2026-11-24T10:30:15.725Z",
+    "backTranslationDiff": 0.9333333333333333
+  },
+  "byttrade/bytx-skills": {
+    "sourceHash": "05763cb50ce503e8",
+    "chineseDescription": "bytx 上给 AI 助手用的加密货币交易技能（skill）：包含 MCP server（模型上下文协议服务端）+ CLI（命令行工具）+ Claude skills。默认走模拟盘（paper trading），没你点头绝不下真单。",
+    "prompt": "帮我安装 bytx-skills 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/byttrade/bytx-skills 下载全部文件，保存到 .claude/skills/bytx-skills/ 目录下，完成安装后告诉我装了哪些内容、怎么用。注意：这个技能默认是模拟盘（paper trading），不会自动下真单。",
+    "translatedAt": "2026-11-24T10:30:20.425Z",
+    "backTranslationDiff": 0.9285714285714286
+  },
+  "questmeet/questmeet-skill": {
+    "sourceHash": "e1232ff126006b6b",
+    "chineseDescription": "这个 Skill（技能）能让你的 AI agent（智能体）在机会网络（opportunity network）里帮你对接合适的人，或者对接他们的 bot（机器人，大多是闭源的）。",
+    "prompt": "帮我安装 questmeet-skill 这个 Skill。请从 GitHub 仓库 https://github.com/questmeet/questmeet-skill 下载全部文件，保存到 .claude/skills/questmeet-skill/ 目录下，完成后告诉我装好了没有。",
+    "translatedAt": "2026-11-24T10:30:23.747Z",
+    "backTranslationDiff": 0.2666666666666667
+  },
+  "hsynozdamar-byte/claude-skills-edited": {
+    "sourceHash": "4cd31787e4151cef",
+    "chineseDescription": "这个仓库收录了 59 个开源 Claude Code skill（技能）和 6 个 subagent（子代理）的改编版本，都保留了原始许可证并标注了出处。相比原版，描述更精简、正文更紧凑。",
+    "prompt": "帮我安装 claude-skills-edited 这个 skill 集合。请从 GitHub 仓库 https://github.com/hsynozdamar-byte/claude-skills-edited 下载全部文件，保存到 .claude/skills/claude-skills-edited/ 目录下，完成后告诉我装了哪些内容。",
+    "translatedAt": "2026-11-24T10:30:27.227Z",
+    "backTranslationDiff": 0.6666666666666667
   }
 }
