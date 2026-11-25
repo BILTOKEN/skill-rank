@@ -10820,6 +10820,21 @@
     "lastPush": "2026-03-26T12:23:23Z"
   },
   {
+    "repo": "blotato/contentskills",
+    "name": "contentskills",
+    "description": "Content Skills for AI Agents: create videos, edit videos, full video editor, write scripts, 100+ themes & effects, post to social media, and create DM automations to turn views into sales.",
+    "tags": [
+      "agent-skills",
+      "ai-video-editing",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "video-editor"
+    ],
+    "stars": 96,
+    "lastPush": "2026-11-25T01:08:46Z"
+  },
+  {
     "repo": "xquik-dev/x-twitter-scraper",
     "name": "x-twitter-scraper",
     "description": "Twitter scraper API skill for tweet search, advanced Twitter search, profile tweets, follower export, media download, monitors, webhooks, MCP, and posting automation: send tweets and replies.",
@@ -10976,6 +10991,21 @@
     "lastPush": "2026-04-12T03:05:07Z"
   },
   {
+    "repo": "frendysanusi/agent-pentest-skills",
+    "name": "agent-pentest-skills",
+    "description": "AI-powered web application penetration testing skills with Claude Code",
+    "tags": [
+      "agent-skills",
+      "claude-ai",
+      "claude-skills",
+      "ethical-hacking",
+      "penetration-testing",
+      "vulnerability-scanner"
+    ],
+    "stars": 91,
+    "lastPush": "2026-11-25T08:41:40Z"
+  },
+  {
     "repo": "0xwilliamortiz/agents-council",
     "name": "agents-council",
     "description": "Multi-agents collaboration plugin for Claude Code - orchestrate multiple AI agents (Codex CLI, Gemini CLI, etc.) for diverse perspectives",
@@ -11042,6 +11072,33 @@
     ],
     "stars": 89,
     "lastPush": "2026-09-12T17:52:01Z"
+  },
+  {
+    "repo": "scrolltide/ai-studio-skill",
+    "name": "ai-studio-skill",
+    "description": "Free Claude skill for websites that move when you scroll: scroll films, layered parallax, self-drawing paths. Built from the real source of Scrolltide builds and checked at scroll checkpoints on desktop and phone.",
+    "tags": [
+      "agent-skills",
+      "ai-website-builder",
+      "anthropic",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "frame-sequence",
+      "前端",
+      "landing-page",
+      "lenis",
+      "parallax",
+      "react",
+      "scroll-animation",
+      "scrollytelling",
+      "tailwindcss",
+      "vibe-coding",
+      "vite",
+      "web-design"
+    ],
+    "stars": 89,
+    "lastPush": "2026-11-23T15:36:44Z"
   },
   {
     "repo": "robertguss/claude-code-toolkit",
@@ -11451,6 +11508,33 @@
     ],
     "stars": 76,
     "lastPush": "2026-11-01T02:53:37Z"
+  },
+  {
+    "repo": "matinsizen/ai-3d-animator-skill",
+    "name": "ai-3d-animator-skill",
+    "description": "🎬 AI Agent Skill that turns any LLM into a professional 3D artist & animator — Three.js + Blender pipelines, 14 art styles, 5 rigged example models (human, cat, jet, robot, car), film-grade animation & sound design. Live demos included.",
+    "tags": [
+      "3d-animation",
+      "3d-modeling",
+      "agent-skills",
+      "ai-agent",
+      "blender",
+      "character-animation",
+      "claude-skills",
+      "cursor",
+      "generative-art",
+      "gpt",
+      "motion-graphics",
+      "procedural-animation",
+      "procedural-generation",
+      "skiff",
+      "skill",
+      "sound-design",
+      "threejs",
+      "webgl"
+    ],
+    "stars": 76,
+    "lastPush": "2026-11-04T17:26:00Z"
   },
   {
     "repo": "kerberosclaw/kc_ai_skills",
@@ -12564,6 +12648,26 @@
     ],
     "stars": 61,
     "lastPush": "2026-10-11T00:08:41Z"
+  },
+  {
+    "repo": "usejog/joggernaut",
+    "name": "joggernaut",
+    "description": "Agent skills that find why your PRs wait on GitHub Actions CI, fix the cause you pick, and measure the fix. Built from fixes other teams measured, plus first-principles checks.",
+    "tags": [
+      "agent-skills",
+      "ci",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "continuous-integration",
+      "developer-tools",
+      "flaky-tests",
+      "gemini-cli-extension",
+      "github-actions"
+    ],
+    "stars": 61,
+    "lastPush": "2026-11-25T08:41:03Z"
   },
   {
     "repo": "longranger2/claude-gpt-workflow",
@@ -34157,6 +34261,23 @@
     "lastPush": "2026-11-17T14:04:50Z"
   },
   {
+    "repo": "magicjacky/readspark",
+    "name": "readspark",
+    "description": "ReadSpark 2.0 绘本伴读学习台：把英文绘本 PDF 一键变成带自然拼读、离线跟读、3D 闪卡、连句拼图与 6 套手绘水彩场景的四模式互动伴读台（个人非商业免费）",
+    "tags": [
+      "agent-skill",
+      "claude-code-skill",
+      "codex-skill",
+      "english-learning",
+      "phonics",
+      "picture-book",
+      "readspark",
+      "workbuddy"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-22T11:57:11Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -36770,6 +36891,22 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-20T17:37:13Z"
+  },
+  {
+    "repo": "wizerdbache/motion-video-kit",
+    "name": "motion-video-kit",
+    "description": "Make a whole video with code: a Claude Code skill plus director-sheet, render, review and measurement tools for ads, product tours and explainers.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "html-to-video",
+      "motion-graphics",
+      "playwright",
+      "storyboard",
+      "video-generation"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-09T22:13:59Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

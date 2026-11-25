@@ -9415,11 +9415,11 @@
     "backTranslationDiff": 0.25
   },
   "anhnx000/viet-nhu-nguoi": {
-    "sourceHash": "07d5e513fa22cf5b",
-    "chineseDescription": "这是一个越南语「去 AI 味」的 skill（技能），适用于 Claude Code、Codex 和 Cursor。它能把读起来像 AI 写的越南语改写成真人写作的感觉，同时保留人名、数字、日期和否定表达不变。自带 76 个评测用例，在 Claude 和 GPT 上都跑过；检查器只用标准库（stdlib-only），不玩 AI 检测器那套花招。MIT 协议。一句话：让越南语少点 AI 腔。",
-    "prompt": "请帮我安装 viet-nhu-nguoi 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/viet-nhu-nguoi/；3) 把仓库里的 skill 文件（包括 SKILL.md 及相关脚本、资源）放到该目录下，保持原有目录结构；4) 安装完成后告诉我文件清单和怎么用。仓库地址是 https://github.com/anhnx000/viet-nhu-nguoi ，请直接去下载，不要假设我已经装好了。",
-    "translatedAt": "2026-11-22T07:12:51.534Z",
-    "backTranslationDiff": 0.6333333333333333
+    "sourceHash": "c406066a876f8687",
+    "chineseDescription": "这是一个越南语「去 AI 味」的 skill（技能），适用于 Claude Code、Codex 和 Cursor。它能把读起来像 AI 写的越南语改写成像真人写的，同时保留人名、数字、日期和否定表达。附带越南语 Humanizer Benchmark（去 AI 味基准测试，76 个用例，在 Claude 和 GPT 上跑过），不玩 AI 检测器那套花招。MIT 协议，转载需保留署名链接。用越南语说就是：Viết tiếng Việt bớt giọng AI（写越南语少点 AI 腔）。",
+    "prompt": "请帮我安装 viet-nhu-nguoi 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/anhnx000/viet-nhu-nguoi 下载全部文件（可以用 git clone https://github.com/anhnx000/viet-nhu-nguoi 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/viet-nhu-nguoi/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 确认 SKILL.md 等文件都已就位，然后告诉我安装完成，并简单说明怎么用。",
+    "translatedAt": "2026-11-25T08:59:38.828Z",
+    "backTranslationDiff": 0.2727272727272727
   },
   "editatlas/skills": {
     "sourceHash": "efbb44e4b423a7de",
@@ -9429,11 +9429,11 @@
     "backTranslationDiff": 0.36
   },
   "serejaris/telegram-skills": {
-    "sourceHash": "7505bcdd7f721441",
-    "chineseDescription": "给 AI agent（Claude Code、Codex、Cursor）用的 Telegram 技能包：这些 Agent Skills 会教会你的 agent 使用 Telegram Bot API，涵盖富文本消息（Rich Messages）、流式 AI 回复、HTML 小部件（widgets）、投票（polls）、贴纸包（sticker packs）、小程序（Mini Apps）和 Stars 支付。直接走原生 HTTP，不依赖任何 bot 框架。",
-    "prompt": "帮我安装 telegram-skills 这个技能包。请从 GitHub 仓库 https://github.com/serejaris/telegram-skills 下载全部文件，保存到 .claude/skills/telegram-skills/ 目录下，完成后告诉我装了哪些技能、怎么用。",
-    "translatedAt": "2026-11-13T07:06:19.559Z",
-    "backTranslationDiff": 0.14814814814814814
+    "sourceHash": "e4e28db6d3c14f7c",
+    "chineseDescription": "给 AI agent（Claude Code、Codex、Cursor）用的 Telegram 技能包：教你的 agent 直接调用 Telegram Bot API（机器人接口），不用装框架。支持富文本消息（Rich Messages）、AI 流式回复（streaming）、小组件（widgets）、投票（polls）、贴纸（stickers）、小程序（Mini Apps）、Stars 支付等。",
+    "prompt": "帮我安装 telegram-skills 这个 Claude Code 技能。请你自己去 GitHub 仓库 https://github.com/serejaris/telegram-skills 下载所有文件，保存到项目的 .claude/skills/telegram-skills/ 目录下（如果目录不存在就创建）。下载完成后，检查一下目录结构，确认 SKILL.md 等技能文件都在位，然后告诉我安装好了、怎么用。",
+    "translatedAt": "2026-11-25T08:59:34.131Z",
+    "backTranslationDiff": 0.31999999999999995
   },
   "lowdevco/claude-seo": {
     "sourceHash": "5b20da52f2e62a38",
@@ -9721,5 +9721,47 @@
     "prompt": "帮我安装 claude-skills-edited 这个 skill 集合。请从 GitHub 仓库 https://github.com/hsynozdamar-byte/claude-skills-edited 下载全部文件，保存到 .claude/skills/claude-skills-edited/ 目录下，完成后告诉我装了哪些内容。",
     "translatedAt": "2026-11-24T10:30:27.227Z",
     "backTranslationDiff": 0.6666666666666667
+  },
+  "usejog/joggernaut": {
+    "sourceHash": "1da25dc6ae96a87e",
+    "chineseDescription": "一套 Agent skills（智能体技能），能帮你找出 PR 在 GitHub Actions CI 上卡住的原因，修复你选定的那个问题，并衡量修复效果。这些技能来自其他团队实测过的修复方案，再加上第一性原理（first-principles）检查。",
+    "prompt": "请帮我安装 joggernaut 这个 skill。请从 GitHub 仓库 https://github.com/usejog/joggernaut 下载所有文件，保存到 .claude/skills/joggernaut/ 目录下，完成安装。安装好后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-25T08:59:42.434Z",
+    "backTranslationDiff": 0.2857142857142857
+  },
+  "scrolltide/ai-studio-skill": {
+    "sourceHash": "f4250c15a4ae5566",
+    "chineseDescription": "一个免费的 Claude skill（技能），专门做滚动时会有动效的网站：滚动电影（scroll films）、分层视差（layered parallax）、自动绘制路径（self-drawing paths）。它基于 Scrolltide 真实项目的源码构建，并在桌面端和手机端的滚动检查点（scroll checkpoints）上做过验证。",
+    "prompt": "帮我安装一个 Claude Code skill（技能），名字叫 ai-studio-skill。请你自己去这个 GitHub 仓库下载：https://github.com/scrolltide/ai-studio-skill ，把仓库里的文件保存到当前项目的 .claude/skills/ai-studio-skill/ 目录下（如果目录不存在就新建）。装好后确认一下 SKILL.md 之类的文件都在位，然后告诉我怎么用。",
+    "translatedAt": "2026-11-25T08:59:46.723Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "globalmpc/vibe-breakpoint": {
+    "sourceHash": "7a2bdef7cec74153",
+    "chineseDescription": "测出你用 vibe coding 写出来的应用在崩之前能扛住多少用户，以及随着数据量增长，哪些数据库查询（database query）会拖慢速度。这个 Claude Code skill 会在一份隔离的副本上做测试，完全不碰你的项目。",
+    "prompt": "请帮我安装 vibe-breakpoint 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/globalmpc/vibe-breakpoint 下载全部文件；2) 在项目里创建目录 .claude/skills/vibe-breakpoint/；3) 把下载的文件保存到该目录下（保留原有目录结构，比如 SKILL.md 等）；4) 安装完成后告诉我怎么用。注意：不要修改我项目里的其他文件。",
+    "translatedAt": "2026-11-25T08:59:51.013Z",
+    "backTranslationDiff": 0.24
+  },
+  "blotato/contentskills": {
+    "sourceHash": "29d593cf977c2c7e",
+    "chineseDescription": "给 AI Agent（智能体）用的内容创作技能包：能做视频、剪视频、当完整视频编辑器用，还能写脚本，内置 100 多个主题和特效，可以直接发到社交媒体，另外还能搭 DM（私信）自动化，把播放量转化成销量。",
+    "prompt": "帮我安装 contentskills 这个 Claude Code Skill。请你自己去 GitHub 仓库 https://github.com/blotato/contentskills 把仓库里的文件下载下来（用 git clone 或者直接抓取仓库内容都行），然后保存到当前项目的 .claude/skills/contentskills/ 目录下。装完后确认一下目录结构对不对，告诉我装好了没有、怎么用。",
+    "translatedAt": "2026-11-25T08:59:54.703Z",
+    "backTranslationDiff": 0.2727272727272727
+  },
+  "frendysanusi/agent-pentest-skills": {
+    "sourceHash": "9e2332d9bb3a0b85",
+    "chineseDescription": "基于 AI 的 Web 应用渗透测试技能（penetration testing skills），配合 Claude Code 使用。简单说，就是让 Claude Code 帮你做 Web 应用的渗透测试，用 AI 来驱动整个测试流程。",
+    "prompt": "帮我安装一个 Claude Code 技能：agent-pentest-skills。请你去 GitHub 仓库 https://github.com/frendysanusi/agent-pentest-skills 下载这个仓库的所有文件，保存到当前项目的 .claude/skills/agent-pentest-skills/ 目录下（如果目录不存在就先创建）。下载完成后，确认一下目录结构是否正确，然后告诉我安装好了，以及这个技能怎么用。",
+    "translatedAt": "2026-11-25T08:59:58.178Z",
+    "backTranslationDiff": 0.25
+  },
+  "matinsizen/ai-3d-animator-skill": {
+    "sourceHash": "152e11df4b02ab93",
+    "chineseDescription": "🎬 一个 AI Agent Skill（技能），能把任何 LLM（大语言模型）变成专业的 3D 艺术家和动画师——支持 Three.js + Blender 工作流（pipeline），内置 14 种艺术风格、5 个带骨骼绑定的示例模型（人、猫、喷气机、机器人、汽车），还有电影级动画和音效设计。附带在线演示。",
+    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/matinsizen/ai-3d-animator-skill 下载全部文件，保存到 .claude/skills/ai-3d-animator-skill/ 目录下（如果目录不存在就先创建）。安装完成后，确认 SKILL.md 等文件已就位，并告诉我怎么使用这个技能。",
+    "translatedAt": "2026-11-25T09:00:01.563Z",
+    "backTranslationDiff": 0.2962962962962963
   }
 }
