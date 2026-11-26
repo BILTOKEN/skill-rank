@@ -10348,6 +10348,26 @@
     "checkedAt": "2026-05-24T17:24:45.035Z"
   },
   {
+    "repo": "fahniazz/claude-shorts-skills",
+    "name": "claude-shorts-skills",
+    "description": "Claude Code skills that turn your PC into an animation studio: 3D cartoon story Shorts (three.js + Remotion), word-synced green-screen captions, Minecraft short scripts and multi-agent Minecraft story videos. No AI video generator.",
+    "tags": [
+      "animation",
+      "claude-code",
+      "claude-skills",
+      "remotion",
+      "threejs",
+      "youtube-shorts"
+    ],
+    "stars": 223,
+    "lastPush": "2026-11-26T08:04:58Z",
+    "pool": "ranked",
+    "readmeLength": 1011,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
+  },
+  {
     "repo": "joshuadavidthomas/opencode-agent-skills",
     "name": "opencode-agent-skills",
     "description": "An OpenCode plugin that provides tools for using agent skills",
@@ -11123,6 +11143,30 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "README 关键词: claude code skill",
     "checkedAt": "2026-05-31T16:50:29.114Z"
+  },
+  {
+    "repo": "uxpilot-ai/frontend-design-skill",
+    "name": "frontend-design-skill",
+    "description": "Free frontend design skill for Claude Code, Codex and Cursor: designs your UI on a UX Pilot canvas, then builds it in your code",
+    "tags": [
+      "agent-skills",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "design-to-code",
+      "frontend-design",
+      "mcp",
+      "ui-design",
+      "web-design"
+    ],
+    "stars": 189,
+    "lastPush": "2026-11-25T19:40:41Z",
+    "pool": "ranked",
+    "readmeLength": 372,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
   },
   {
     "repo": "jaredchu/context-docs",
@@ -12838,6 +12882,38 @@
     "checkedAt": "2026-10-08T06:12:25.132Z"
   },
   {
+    "repo": "chszlab/agenticalgorithmengineering",
+    "name": "AgenticAlgorithmEngineering",
+    "description": "Agents that optimize code like an algorithm engineer: falsifiable hypotheses, benchmarks, verified patches, PDF report",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-for-science",
+      "algorithm-engineering",
+      "autonomous-agents",
+      "autoresearch",
+      "benchmarking",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "graph-algorithms",
+      "hpc",
+      "llm",
+      "optimization",
+      "performance-engineering",
+      "performance-optimization",
+      "performance-tuning"
+    ],
+    "stars": 121,
+    "lastPush": "2026-11-26T02:43:00Z",
+    "pool": "ranked",
+    "readmeLength": 2363,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
+  },
+  {
     "repo": "spontaneousai/job-hunt-copilot",
     "name": "job-hunt-copilot",
     "description": "建立个人项目素材库，针对每个投递岗位自动生成定制简历、面试讲稿和模拟面试。Stop rewriting your resume from scratch. This Claude Skill builds a personal project library and generates tailored resumes, pitch scripts, and mock interviews for every role you apply to.",
@@ -13437,6 +13513,38 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-27T01:05:21.101Z"
+  },
+  {
+    "repo": "lcy000/zh-tw-writing",
+    "name": "zh-tw-writing",
+    "description": "讓 AI 寫出的中文讀起來像人寫的，像是減少分號和句號出現頻率、避開 AI 腔和翻譯腔等功能，附檢查腳本。支援 Claude、Codex 與 ChatGPT。",
+    "tags": [
+      "agent-skills",
+      "ai-writing",
+      "chatgpt",
+      "chinese",
+      "chinese-writing",
+      "cjk",
+      "claude",
+      "claude-code",
+      "claude-code-skills",
+      "claude-skills",
+      "codex",
+      "humanizer",
+      "proofreading",
+      "skills",
+      "taiwan",
+      "traditional-chinese",
+      "writing-style",
+      "zh-tw"
+    ],
+    "stars": 104,
+    "lastPush": "2026-11-25T14:39:35Z",
+    "pool": "ranked",
+    "readmeLength": 824,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
   },
   {
     "repo": "7onez/cti-expert",
@@ -15339,6 +15447,25 @@
     "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
+    "repo": "gitroomhq/postiz-content-skills",
+    "name": "postiz-content-skills",
+    "description": "Claude Code skills that turn one article into an SEO blog post and a 30s Short with your AI twin, scheduled with Postiz",
+    "tags": [
+      "ai-video",
+      "claude-code",
+      "claude-skills",
+      "postiz",
+      "seo"
+    ],
+    "stars": 67,
+    "lastPush": "2026-11-24T05:40:17Z",
+    "pool": "ranked",
+    "readmeLength": 794,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
+  },
+  {
     "repo": "bevibing/socrates-skill",
     "name": "socrates-skill",
     "description": "Socratic method teaching skill for Claude Code — guides users to discover answers through questioning",
@@ -16860,6 +16987,40 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-08-19T01:54:34.498Z"
+  },
+  {
+    "repo": "op7418/guizang-magi2-skill",
+    "name": "guizang-magi2-skill",
+    "description": "歸藏 MAGI-2 Skill：打通 Video to Code（视频转一镜到底交互网页）与 Code to Video（代码动作预演控制 AI 视频）的 Agent Skill，内置 MAGI-2 提示词优化与 LibTV MCP 修复。AI Agent Skill for Antigravity, Claude Code & Codex.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "ai-video",
+      "antigravity",
+      "claude-code",
+      "claude-skills",
+      "code-to-video",
+      "codex",
+      "creative-coding",
+      "libtv",
+      "magi-2",
+      "mcp",
+      "prompt-engineering",
+      "scrollytelling",
+      "skill",
+      "skills",
+      "vibe-coding",
+      "video-generation",
+      "video-to-code"
+    ],
+    "stars": 55,
+    "lastPush": "2026-11-25T08:51:31Z",
+    "pool": "ranked",
+    "readmeLength": 562,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-26T08:29:18.335Z"
   },
   {
     "repo": "uucz/moyu",

@@ -4431,11 +4431,11 @@
     "backTranslationDiff": 0.4285714285714286
   },
   "elementalsouls/claude-bughunter": {
-    "sourceHash": "4b88fb24849a6863",
-    "chineseDescription": "这是一个 Claude Code 的技能包（skill bundle），专门用于漏洞挖掘（bug hunting）和外部红队（red-team）工作。包含 84 个技能（skills）、15 个斜杠命令（slash commands）、681 个已公开披露报告的模式（disclosed-report patterns），覆盖 24 个核心漏洞类别（vulnerability classes），另外还有企业身份（enterprise identity）和基础设施（infrastructure）攻击矩阵（attack matrices）。",
-    "prompt": "请帮我安装 Claude-BugHunter 这个 Claude Code 技能包。请从 GitHub 仓库 https://github.com/elementalsouls/claude-bughunter 下载全部文件，并保存到 .claude/skills/claude-bughunter/ 目录下完成安装。如果目录不存在请先创建，安装完成后告诉我包含哪些技能和斜杠命令。",
-    "translatedAt": "2026-11-24T10:30:02.905Z",
-    "backTranslationDiff": 0.20833333333333337
+    "sourceHash": "cb88b1471f148e7f",
+    "chineseDescription": "这是一个 Claude Code 的 skill 合集，专门用来做漏洞挖掘（bug hunting）和外部红队（red-team）工作。里面包含 85 个 skills、16 个斜杠命令（slash commands）、681 条已公开披露的报告模式（disclosed-report patterns），覆盖 24 个核心漏洞类别（vulnerability classes），另外还有企业身份（enterprise identity）和基础设施（infrastructure）的攻击矩阵（attack matrices）。",
+    "prompt": "请帮我安装 Claude-BugHunter 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/elementalsouls/claude-bughunter 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在项目根目录下创建 .claude/skills/claude-bughunter/ 目录（如果不存在的话）；3) 把下载到的文件放到该目录中，保持原有目录结构；4) 确认 SKILL.md 等文件已就位，并告诉我安装完成以及怎么使用。",
+    "translatedAt": "2026-11-26T08:54:35.427Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "othmanadi/planning-with-files": {
     "sourceHash": "8abf3046f584e432",
@@ -5061,11 +5061,11 @@
     "backTranslationDiff": 0.33333333333333337
   },
   "xr843/master-skill": {
-    "sourceHash": "b7a304ceccf6c830",
-    "chineseDescription": "基于FoJin的佛教AI人格框架——来源可溯、边界感知、保真测试、运行时就绪。",
-    "prompt": "请从 https://github.com/xr843/master-skill 下载 master-skill 项目，将文件保存到 .claude/skills/master-skill/ 目录下，完成安装。",
-    "translatedAt": "2026-07-09T04:37:46.294Z",
-    "backTranslationDiff": 0.375
+    "sourceHash": "e60a403f9cb2059a",
+    "chineseDescription": "基于原始文献的佛教 AI 技能（skills）：包含多位大师人格（persona），以及可复用的能力型技能（引文溯源、引用解析）和一个 MCP 服务器（MCP server）——已针对 CBETA、SuttaCentral 和 BDRC 做过保真度测试（fidelity-tested）。",
+    "prompt": "请帮我安装 Master-skill 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/xr843/master-skill 下载全部文件（可用 git clone https://github.com/xr843/master-skill 或直接下载 ZIP 解压）；2) 在项目根目录创建 .claude/skills/master-skill/ 目录（如果不存在）；3) 把仓库里的技能文件复制到该目录下，确保 SKILL.md 等文件结构正确；4) 安装完成后列出目录内容确认，并告诉我怎么使用。",
+    "translatedAt": "2026-11-26T08:54:47.532Z",
+    "backTranslationDiff": 0.4736842105263158
   },
   "seo-skills/seo-audit-skill": {
     "sourceHash": "652df39bb358a210",
@@ -5089,11 +5089,11 @@
     "backTranslationDiff": 0.3076923076923077
   },
   "laolaoshiren/claude-code-skills-zh": {
-    "sourceHash": "16e3cfc0d7db47f0",
-    "chineseDescription": "面向中文开发者的 Claude Code Skills / Agents / Plugins 精选与原创技能库，按场景分类，复制即装，持续更新。",
-    "prompt": "请从 https://github.com/laolaoshiren/claude-code-skills-zh 下载整个仓库，并将所有文件保存到 .claude/skills/claude-code-skills-zh/ 目录下，完成安装。",
-    "translatedAt": "2026-07-19T04:17:25.540Z",
-    "backTranslationDiff": 0.2857142857142857
+    "sourceHash": "1b36f03f513b5d26",
+    "chineseDescription": "这是给中文开发者准备的 Claude Code / Codex / Cursor / Gemini CLI 技能（Skills）精选合集，收录了 452+ 个经过核验的资源（涵盖公众号、小红书、飞书、企业微信等场景），外加 22 个原创中文技能，支持一键安装。",
+    "prompt": "请帮我安装 claude-code-skills-zh 这个技能合集。步骤：1) 从 GitHub 仓库 https://github.com/laolaoshiren/claude-code-skills-zh 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/claude-code-skills-zh/ 目录；3) 把下载的内容放到该目录下，确保 SKILL.md 等技能文件结构完整；4) 安装完成后列出已安装的技能清单，告诉我怎么用。仓库地址是 https://github.com/laolaoshiren/claude-code-skills-zh ，如果下载失败请提示我检查网络或手动克隆。",
+    "translatedAt": "2026-11-26T08:54:55.346Z",
+    "backTranslationDiff": 0.4
   },
   "geekjourneyx/ai-daily-skill": {
     "sourceHash": "3ad9443d061a4cde",
@@ -6580,11 +6580,11 @@
     "backTranslationDiff": 0.19999999999999996
   },
   "samuraigpt/awesome-openclaw": {
-    "sourceHash": "76a1a8790720972e",
-    "chineseDescription": "一个带来源标注的 Meta Muse 集成（integration）和社区连接器技能（connector skill）目录，附带能力、认证（authentication）和权限（permission）说明。",
-    "prompt": "请帮我安装 awesome-muse-connectors 这个 Skill。请从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载相关文件，并保存到 .claude/skills/awesome-openclaw/ 目录下完成安装。安装完成后告诉我这个 Skill 能做什么。",
-    "translatedAt": "2026-09-25T05:15:39.221Z",
-    "backTranslationDiff": 0.8461538461538461
+    "sourceHash": "728aaeaa08b46929",
+    "chineseDescription": "这是一个 Muapi 无审查（uncensored）大语言模型（LLM）的 API 使用指南，覆盖 21 个接口（endpoint），附带调用示例、模型说明、价格和集成方式。适合想接入无内容过滤模型做开发的场景。",
+    "prompt": "请帮我安装 Uncensored-AI-API 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/samuraigpt/awesome-openclaw 下载全部文件（可以用 git clone 或直接下载压缩包）；2) 在项目里创建目录 .claude/skills/awesome-openclaw/；3) 把下载的文件放到该目录下，保持原有目录结构；4) 确认 SKILL.md 等文件已就位，然后告诉我安装完成。",
+    "translatedAt": "2026-11-26T08:54:51.427Z",
+    "backTranslationDiff": 0.5454545454545454
   },
   "helloianneo/ian-handdrawn-ppt": {
     "sourceHash": "f44596f3e5a1a66d",
@@ -8435,11 +8435,11 @@
     "backTranslationDiff": 0.9411764705882353
   },
   "tt-a1i/archify": {
-    "sourceHash": "15ea3df49e6522dc",
-    "chineseDescription": "把任何想法、方案或代码库（codebase）变成漂亮的交互式图表（interactive diagram）。这是一个给 Claude Code、Codex 等工具用的 agent skill（智能体技能）。",
-    "prompt": "帮我安装一个 Claude Code skill，名字叫 archify。请你去 GitHub 仓库 https://github.com/tt-a1i/archify 下载相关文件，并保存到 .claude/skills/archify/ 目录下完成安装。安装完成后告诉我怎么用。",
-    "translatedAt": "2026-10-05T05:58:47.888Z",
-    "backTranslationDiff": 0.8571428571428572
+    "sourceHash": "d77f7ef3633914b7",
+    "chineseDescription": "把任何想法、方案或代码库变成可交互的图表或一页纸的答案：支持 10 种图表类型、架构诊断（Architecture Diagnosis）、故事视频（Story video）和 PR 走查（PR walkthrough）。这是一个 Agent Skill，适用于 Claude Code、Codex、Cursor 等工具。",
+    "prompt": "请帮我安装 archify 这个 Skill：从 https://github.com/tt-a1i/archify 下载仓库文件，保存到 .claude/skills/archify/ 目录下（保留原有的目录结构，比如 SKILL.md 等文件），完成后告诉我安装了哪些文件、怎么使用。",
+    "translatedAt": "2026-11-26T08:54:39.345Z",
+    "backTranslationDiff": 0.2272727272727273
   },
   "orchestratorinc/agent-orchestrator": {
     "sourceHash": "e2f1ec2e1bfab376",
@@ -9366,11 +9366,11 @@
     "backTranslationDiff": 0.3846153846153846
   },
   "phuryn/product-engineering": {
-    "sourceHash": "e6db9ff4ca6c9b2b",
-    "chineseDescription": "来自三个已上线产品的 45 个 agent skill（智能体技能）：帮你决定做什么、用 Claude Code 或 Codex 把它做出来、让第二个模型来审查、最后发布上线。",
-    "prompt": "请帮我安装 product-engineering 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载仓库压缩包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建安装位置（如果目录不存在就先创建）；3) 把下载到的所有文件复制到 .claude/skills/product-engineering/ 中，保持原有目录结构；4) 安装完成后列出该目录下的文件清单，确认安装成功。",
-    "translatedAt": "2026-11-15T07:05:41.284Z",
-    "backTranslationDiff": 0.85
+    "sourceHash": "767213a2df99634f",
+    "chineseDescription": "这套 skill 包含 47 个 agent skills（智能体技能），来自三个已上线产品的实战经验：帮你决定做什么、用 Claude Code 或 Codex 动手做、再让第二个模型来审查、最后发布上线。",
+    "prompt": "请帮我安装 product-engineering 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建文件夹（如果不存在就先 mkdir -p）；3) 把仓库里的所有 skill 文件复制到该目录中；4) 复制完成后列出安装好的文件清单，确认安装成功。",
+    "translatedAt": "2026-11-26T08:54:43.141Z",
+    "backTranslationDiff": 0.15000000000000002
   },
   "innei/ryugi": {
     "sourceHash": "583bda0183711216",
@@ -9541,10 +9541,10 @@
     "backTranslationDiff": 0.6
   },
   "krisyangdev/motionboard": {
-    "sourceHash": "1ee1bd3553c32f94",
-    "chineseDescription": "用 Claude Code 或 Codex 制作发布视频和动态图形（motion graphics）：免费的 HyperFrames 技能（skill），外加 38 个镜头配方（shot recipes），包括匹配剪辑（match cut）、logo 揭晓（logo reveal）、动态字体（kinetic typography）、液态玻璃效果（liquid glass effect）。",
-    "prompt": "帮我安装 motionboard 这个 skill。请从 GitHub 仓库 https://github.com/krisyangdev/motionboard 下载全部文件，保存到 .claude/skills/motionboard/ 目录下（如果目录不存在就创建）。安装完成后告诉我装了哪些文件，以及怎么用。",
-    "translatedAt": "2026-11-16T06:55:51.423Z",
+    "sourceHash": "0ab5a516cbf29a1d",
+    "chineseDescription": "用 Claude Code 或 Codex 制作发布视频和动态图形（motion graphics）：免费的 HyperFrames 技能（skill），外加 48 个镜头配方（shot recipes），包括匹配剪辑（match cut）、logo 揭示（logo reveal）、动态排版（kinetic typography）、液态玻璃效果（liquid glass effect）。",
+    "prompt": "请帮我安装 motionboard 这个 Claude Code 技能（skill）。请从 GitHub 仓库 https://github.com/krisyangdev/motionboard 下载全部文件，保存到 .claude/skills/motionboard/ 目录下，完成后告诉我安装结果和这个技能的用法。",
+    "translatedAt": "2026-11-26T08:54:59.019Z",
     "backTranslationDiff": 0.26086956521739135
   },
   "next-token-tv/next-token-skill": {
@@ -9763,5 +9763,47 @@
     "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/matinsizen/ai-3d-animator-skill 下载全部文件，保存到 .claude/skills/ai-3d-animator-skill/ 目录下（如果目录不存在就先创建）。安装完成后，确认 SKILL.md 等文件已就位，并告诉我怎么使用这个技能。",
     "translatedAt": "2026-11-25T09:00:01.563Z",
     "backTranslationDiff": 0.2962962962962963
+  },
+  "chszlab/agenticalgorithmengineering": {
+    "sourceHash": "93110d829e6b6bc8",
+    "chineseDescription": "这个 Skill 让 AI 像算法工程师一样优化代码：提出可证伪的假设（falsifiable hypotheses）、跑基准测试（benchmarks）、验证补丁（verified patches），最后输出 PDF 报告。",
+    "prompt": "请帮我安装 AgenticAlgorithmEngineering 这个 Skill。请从 GitHub 仓库 https://github.com/chszlab/agenticalgorithmengineering 下载所有文件，保存到 .claude/skills/agenticalgorithmengineering/ 目录下，完成安装。安装好后告诉我怎么用。",
+    "translatedAt": "2026-11-26T08:55:02.642Z",
+    "backTranslationDiff": 0.3076923076923077
+  },
+  "fahniazz/claude-shorts-skills": {
+    "sourceHash": "74397f49ff0dfa2f",
+    "chineseDescription": "这套 Claude Code 技能（skills）能把你的电脑变成动画工作室：3D 卡通故事短视频（Shorts，用 three.js + Remotion 实现）、逐词同步的绿幕字幕（green-screen captions）、Minecraft 短视频脚本，以及多智能体（multi-agent）协作的 Minecraft 剧情视频。不需要 AI 视频生成器。",
+    "prompt": "请帮我安装 claude-shorts-skills 技能。步骤：1) 从 GitHub 仓库 https://github.com/fahniazz/claude-shorts-skills 下载全部文件（可用 git clone https://github.com/fahniazz/claude-shorts-skills.git 或直接下载 zip 解压）；2) 在当前项目的 .claude/skills/claude-shorts-skills/ 目录下创建并保存这些文件（如果目录不存在就先创建）；3) 安装完成后列出已保存的文件清单，并告诉我怎么开始使用。",
+    "translatedAt": "2026-11-26T08:55:06.124Z",
+    "backTranslationDiff": 0.29166666666666663
+  },
+  "op7418/guizang-magi2-skill": {
+    "sourceHash": "4baddbc08598aad4",
+    "chineseDescription": "歸藏 MAGI-2 Skill：把 Video to Code（视频转一镜到底交互网页）和 Code to Video（用代码动作预演来控制 AI 视频）这两条路打通的一个 Agent Skill，内置 MAGI-2 提示词优化和 LibTV MCP 修复。适用于 Antigravity、Claude Code 和 Codex 的 AI Agent Skill。",
+    "prompt": "帮我安装一个 Claude Code Skill，名字叫 guizang-magi2-skill。请你自己去 GitHub 仓库 https://github.com/op7418/guizang-magi2-skill 下载这个仓库的文件，然后保存到 .claude/skills/guizang-magi2-skill/ 目录下完成安装。安装好后确认一下文件是否齐全，并告诉我怎么用。",
+    "translatedAt": "2026-11-26T08:55:09.799Z",
+    "backTranslationDiff": 0.4375
+  },
+  "uxpilot-ai/frontend-design-skill": {
+    "sourceHash": "b2cdeed4db0b825a",
+    "chineseDescription": "这是一个免费的前端设计 skill（技能），支持 Claude Code、Codex 和 Cursor。它会先在 UX Pilot 画布上设计你的 UI（用户界面），然后直接在你的代码里把它实现出来。",
+    "prompt": "请帮我安装 frontend-design-skill 这个技能。步骤：1. 从 GitHub 仓库 https://github.com/uxpilot-ai/frontend-design-skill 下载全部文件（可以用 git clone 或直接下载压缩包）；2. 在当前项目的 .claude/skills/frontend-design-skill/ 目录下创建文件夹（如果不存在就新建）；3. 把下载的文件放到该目录中，确保 SKILL.md 等文件位于 .claude/skills/frontend-design-skill/ 根目录下；4. 安装完成后告诉我文件结构，确认安装成功。",
+    "translatedAt": "2026-11-26T08:55:14.375Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "lcy000/zh-tw-writing": {
+    "sourceHash": "3622d34d57b2c78e",
+    "chineseDescription": "让 AI 写出来的中文读起来像真人写的，比如减少分号和句号的出现频率、避开 AI 腔和翻译腔等，附带检查脚本。支持 Claude、Codex 和 ChatGPT。",
+    "prompt": "请帮我安装 zh-tw-writing 这个 Skill。步骤：1) 从 GitHub 仓库 https://github.com/lcy000/zh-tw-writing 下载全部文件（可以用 git clone https://github.com/lcy000/zh-tw-writing 或直接下载压缩包）；2) 在项目根目录创建 .claude/skills/zh-tw-writing/ 目录；3) 把仓库里的文件全部复制到该目录下，确保 SKILL.md 位于 .claude/skills/zh-tw-writing/SKILL.md；4) 安装完成后告诉我目录结构和 SKILL.md 的内容摘要，确认安装成功。",
+    "translatedAt": "2026-11-26T08:55:19.143Z",
+    "backTranslationDiff": 1
+  },
+  "gitroomhq/postiz-content-skills": {
+    "sourceHash": "6721da3e333c9215",
+    "chineseDescription": "这套 Claude Code 技能（skills）能把一篇文章自动变成一篇 SEO 博客文章，再配上一个 30 秒的 Short 短视频（用你的 AI 数字分身出镜），最后通过 Postiz 安排发布。简单说：一次输入，产出博客 + 短视频，还能自动排期。",
+    "prompt": "请帮我安装 postiz-content-skills 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/gitroomhq/postiz-content-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/postiz-content-skills/ 目录；3) 把下载的文件放到该目录下，确保 SKILL.md 等技能文件位于 .claude/skills/postiz-content-skills/ 根层级；4) 安装完成后列出目录内容确认安装成功，并告诉我这个技能怎么用。",
+    "translatedAt": "2026-11-26T08:55:23.939Z",
+    "backTranslationDiff": 0.33333333333333337
   }
 }
