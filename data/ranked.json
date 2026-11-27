@@ -1679,6 +1679,40 @@
     "checkedAt": "2026-11-07T06:06:24.856Z"
   },
   {
+    "repo": "mjmirza/app-store-compliance",
+    "name": "app-store-compliance",
+    "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 125 documented rejection patterns and fixes, privacy manifest and Data safety checks, 117 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+    "tags": [
+      "accessibility",
+      "ai-agents",
+      "android",
+      "app-review-guidelines",
+      "app-store",
+      "app-store-connect",
+      "app-store-rejection",
+      "app-store-review",
+      "claude-code",
+      "coppa",
+      "data-safety",
+      "eu-ai-act",
+      "gdpr",
+      "google-play",
+      "google-play-policy",
+      "ios",
+      "mobile-compliance",
+      "play-console",
+      "pre-submission-checklist",
+      "privacy-manifest"
+    ],
+    "stars": 7226,
+    "lastPush": "2026-11-27T08:28:56Z",
+    "pool": "ranked",
+    "readmeLength": 6899,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
     "repo": "internet-court/internet-court-skill",
     "name": "internet-court-skill",
     "description": "The trust layer for agent-to-agent commerce — natural-language mandates, ERC-7710 delegated permissions, x402 payments, escrow, and dispute resolution as one open, catch-all Agent Skill / Claude Code plugin.",
@@ -4645,6 +4679,40 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-05-24T17:24:45.035Z"
+  },
+  {
+    "repo": "innei/artideck",
+    "name": "artideck",
+    "description": "Artideck — Artifacts for coding agents, made to decide with you. Your agent draws artboards, design docs, whiteboards, decks, and verify reports; you pick, comment, and pass right on the page.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "artboard",
+      "artideck",
+      "artifacts",
+      "brainstorming",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-skills",
+      "codex",
+      "coding-agents",
+      "cursor",
+      "design-docs",
+      "design-review",
+      "developer-tools",
+      "gemini-cli-extension",
+      "human-in-the-loop",
+      "mockups",
+      "visual-review",
+      "whiteboard"
+    ],
+    "stars": 984,
+    "lastPush": "2026-11-27T08:49:11Z",
+    "pool": "ranked",
+    "readmeLength": 2556,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
   },
   {
     "repo": "alchaincyf/steve-jobs-skill",
@@ -14576,6 +14644,27 @@
     "checkedAt": "2026-10-23T04:58:44.978Z"
   },
   {
+    "repo": "f/family-migration-story",
+    "name": "family-migration-story",
+    "description": "Soy ağacından kaynaklı aile tarihi raporu ve Türkçe seslendirmeli göç haritası videosu üreten Claude Code skill'i",
+    "tags": [
+      "claude-code",
+      "claude-skills",
+      "family-history",
+      "genealogy",
+      "remotion",
+      "soyagaci",
+      "turkish"
+    ],
+    "stars": 78,
+    "lastPush": "2026-11-26T14:09:33Z",
+    "pool": "ranked",
+    "readmeLength": 1618,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
     "repo": "omidzamani/dspy-skills",
     "name": "dspy-skills",
     "description": "Collection of Claude Skills for DSPy framework - program language models, optimize prompts, and build RAG pipelines systematically",
@@ -15224,6 +15313,32 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-12T07:19:24.505Z"
+  },
+  {
+    "repo": "123zhaozheng/slideforge",
+    "name": "SlideForge",
+    "description": "Turn documents, ideas, or flat AI slides into 100% native editable PowerPoint (.pptx) decks via multi-batch AI component sheets + OOXML layered reconstruction.",
+    "tags": [
+      "agent-skill",
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "claude-skills",
+      "cursor",
+      "editable-ppt",
+      "powerpoint",
+      "pptx",
+      "python-pptx",
+      "skill-md",
+      "slide-generation"
+    ],
+    "stars": 69,
+    "lastPush": "2026-11-27T00:13:48Z",
+    "pool": "ranked",
+    "readmeLength": 1480,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
   },
   {
     "repo": "agents365-ai/excalidraw-skill",

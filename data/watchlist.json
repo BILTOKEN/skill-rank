@@ -543,6 +543,40 @@
     "checkedAt": "2026-10-24T04:43:40.693Z"
   },
   {
+    "repo": "j4flmao/agent-skills",
+    "name": "agent-skills",
+    "description": "587 fact-checked agent skills (SKILL.md) for Claude Code, Codex, Cursor, Copilot, Gemini, Windsurf, OpenCode and Amp. Secure-by-default rules, a skill advisor with 78 tracks and bundles, BM25 skill routing and offline routing evals. Install with npx skills add.",
+    "tags": [
+      "agent-skills",
+      "ai-agents",
+      "ai-coding",
+      "amp",
+      "claude-code",
+      "claude-skills",
+      "codex-cli",
+      "cursor",
+      "developer-tools",
+      "DevOps",
+      "evals",
+      "fullstack",
+      "gemini-cli",
+      "github-copilot",
+      "llm",
+      "opencode",
+      "prompt-engineering",
+      "secure-by-default",
+      "skill-md",
+      "windsurf"
+    ],
+    "stars": 46,
+    "lastPush": "2026-11-17T08:27:08Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
     "repo": "eth0izzle/security-skills",
     "name": "security-skills",
     "description": "A collection of Claude Code skills that help security teams stay secure",
@@ -15723,6 +15757,28 @@
     "checkedAt": "2026-08-24T01:59:15.427Z"
   },
   {
+    "repo": "jiuyue-sky/ww-auto-model-extractor-skill",
+    "name": "ww-auto-model-extractor-skill",
+    "description": "[非官方]《鸣潮》正式服角色风格化贴图审计、Blender 卡渲动作表情展示与标准化 UE 交接管线 — 跨平台 Agent Skill (SKILL.md) & 独立 CLI（零内置密钥、零自动寻钥）",
+    "tags": [
+      "3d-pipeline",
+      "agent-skill",
+      "blender",
+      "claude-code-skill",
+      "cue4parse",
+      "cursor-skill",
+      "ueformat",
+      "wuthering-waves"
+    ],
+    "stars": 11,
+    "lastPush": "2026-11-27T05:49:10Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
     "repo": "umutbozdag/agent-skills-manager",
     "name": "agent-skills-manager",
     "description": "Manage all your AI agent skills from a single dashboard — Cursor, Claude, and Agents",
@@ -22954,6 +23010,34 @@
     "checkedAt": "2026-11-24T10:00:07.055Z"
   },
   {
+    "repo": "milosauro/gradus-ai",
+    "name": "gradus-ai",
+    "description": "Layered, governed rules for AI coding agents - deterministic guards, checks, lockfiles, and MCP across Claude Code, Antigravity, Codex, and Copilot.",
+    "tags": [
+      "agent-governance",
+      "ai-agents",
+      "antigravity",
+      "antigravity-skill",
+      "antigravity-skills",
+      "claude-code",
+      "claude-code-skill",
+      "claude-code-skills",
+      "cli",
+      "golang",
+      "guardrail",
+      "guardrails",
+      "mcp-server",
+      "policy-as-code"
+    ],
+    "stars": 5,
+    "lastPush": "2026-11-26T17:02:16Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "存在 .claude/skills/**/SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
     "repo": "rivia7/cc-audit",
     "name": "cc-audit",
     "description": "A Claude Code skill that audits a repository against Anthropic's Claude Code engineering best practices and writes a scored, read-only compliance report.",
@@ -25460,6 +25544,34 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-25T08:44:03.054Z"
+  },
+  {
+    "repo": "mahamsultana/polycast",
+    "name": "polycast",
+    "description": "Write a script. Get a low-poly 3D podcast video. Three.js + headless Chrome, voices by Cartesia or free OS TTS. Also a Claude Code skill.",
+    "tags": [
+      "animation",
+      "claude-code",
+      "claude-code-skill",
+      "explainer-video",
+      "ffmpeg",
+      "lip-sync",
+      "low-poly",
+      "nodejs",
+      "podcast",
+      "puppeteer",
+      "text-to-speech",
+      "text-to-video",
+      "threejs",
+      "video-generation"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-26T17:43:52Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
   },
   {
     "repo": "yslab-ai/manuscript-writing",
@@ -28831,6 +28943,31 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-26T08:29:18.335Z"
+  },
+  {
+    "repo": "munvard/video-skill",
+    "name": "video-skill",
+    "description": "Type /video in Claude Code and get a launch film for your app: motion design or 3D, with sound, checked frame by frame.",
+    "tags": [
+      "agent-skills",
+      "ai-video",
+      "animation",
+      "blender",
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "claude-skills",
+      "ffmpeg",
+      "motion-design",
+      "video-generation"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-27T06:48:54Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-27T08:43:21.770Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

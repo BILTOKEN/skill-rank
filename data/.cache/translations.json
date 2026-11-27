@@ -5509,11 +5509,11 @@
     "backTranslationDiff": 0.2727272727272727
   },
   "blacktop/ipsw-skill": {
-    "sourceHash": "ed494087610ada85",
-    "chineseDescription": "这是一个用于 ipsw 的 SKILL.md 文件。",
-    "prompt": "请从 https://github.com/blacktop/ipsw-skill 下载 ipsw-skill 的 SKILL.md 文件，并将其保存到 .claude/skills/ipsw-skill/ 目录中，完成安装。",
-    "translatedAt": "2026-05-31T07:27:40.096Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "4c3fa18e64f2cce6",
+    "chineseDescription": "这个 skill 已经搬到 blacktop/ipsw 仓库的 skills/ipsw 目录下了，原仓库不再维护。",
+    "prompt": "请帮我安装 ipsw-skill：从 https://github.com/blacktop/ipsw-skill 下载 skill 文件（注意该仓库已迁移，实际内容在 blacktop/ipsw 仓库的 skills/ipsw 目录，请先访问 https://github.com/blacktop/ipsw 找到 skills/ipsw 下的文件），保存到 .claude/skills/ipsw-skill/ 目录，完成后告诉我装了哪些文件。",
+    "translatedAt": "2026-11-27T09:07:19.731Z",
+    "backTranslationDiff": 0.33333333333333337
   },
   "yzfly/mind-cloning-engineering": {
     "sourceHash": "63f8b3a7ca7124ca",
@@ -6174,11 +6174,11 @@
     "backTranslationDiff": 0.7142857142857143
   },
   "alphagbm/skills": {
-    "sourceHash": "d99ca2f53fba0334",
-    "chineseDescription": "把实时行情数据和研究工作流带进 Claude Code、Cursor 等工具——这是一套开源的 Skill（技能），覆盖股票、期权和大宗商品。",
-    "prompt": "请帮我安装一个 Claude Code Skill。请从 GitHub 仓库 https://github.com/alphagbm/skills 下载该 Skill 的文件，并保存到 .claude/skills/skills/ 目录下完成安装。这个 Skill 的作用是把实时行情数据和研究工作流带进 Claude Code，支持股票、期权和大宗商品。请先克隆或下载仓库 https://github.com/alphagbm/skills 的内容，然后把 Skill 相关文件放到 .claude/skills/skills/ 目录，安装完成后告诉我怎么用。",
-    "translatedAt": "2026-11-21T07:39:17.855Z",
-    "backTranslationDiff": 0.5
+    "sourceHash": "abe29ddb3945f7af",
+    "chineseDescription": "这是一个开源 AI agent skill（智能体技能）合集，用于在 Claude Code 和 Cursor 中做股票分析、期权研究和金融研究。它明确标注了数据、访问权限和使用限制。",
+    "prompt": "帮我安装一个 Claude Code skill。请从 GitHub 仓库 https://github.com/alphagbm/skills 下载全部文件，保存到 .claude/skills/skills/ 目录下完成安装。如果目录不存在就先创建，装好后告诉我装了哪些文件、怎么用。",
+    "translatedAt": "2026-11-27T09:07:12.416Z",
+    "backTranslationDiff": 0.125
   },
   "levnikolaevich/claude-code-skills": {
     "sourceHash": "694311d19658a744",
@@ -8274,11 +8274,11 @@
     "backTranslationDiff": 1
   },
   "ark0n/codeman": {
-    "sourceHash": "c36c01ecefd1a676",
-    "chineseDescription": "Codeman 是一个自托管的 AI 编程代理任务控制中心（mission control）：让你 7×24 小时运行 Claude Code、OpenCode、Pi、Codex、Antigravity 和 Gemini CLI，从任何设备都能访问，并实时观看每一个子代理（subagent）的运行情况。\n\n【使用场景】当你想让 AI 编程代理长时间不间断地跑任务、又不想一直守在电脑前时，用 Codeman 把它们集中托管起来，随时用手机或别的设备查看进度和子代理动态。",
-    "prompt": "请帮我安装 Codeman 这个 Claude Code Skill。\n\n步骤：\n1. 从 GitHub 仓库 https://github.com/ark0n/codeman 下载该 Skill 的全部文件（如果仓库根目录有 SKILL.md 或 skill 相关文件，一并获取；也可以直接 clone 整个仓库）。\n2. 在本地创建目录 .claude/skills/codeman/（如果不存在的话）。\n3. 把下载到的文件保存/复制到 .claude/skills/codeman/ 目录下，保持原有的目录结构。\n4. 安装完成后，告诉我这个 Skill 提供了哪些功能、怎么用，以及是否需要额外的依赖或配置。\n\n仓库地址：https://github.com/ark0n/codeman",
-    "translatedAt": "2026-09-15T05:11:35.990Z",
-    "backTranslationDiff": 0.8888888888888888
+    "sourceHash": "2500ce4643ffbacd",
+    "chineseDescription": "Codeman 是一个自托管的 AI 编程代理任务控制台（mission control）：把 Claude Code、Codex、OpenCode、Gemini、Copilot 等 9 种以上的代理跑在 tmux 里，7×24 小时不间断，任何设备都能访问，还带一个原生 Mac 应用。",
+    "prompt": "请帮我安装 Codeman 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/ark0n/codeman 下载该 Skill 的全部文件（如果仓库根目录没有现成的 SKILL.md，就查看仓库里的 skill 目录或 README 说明找到 Skill 定义文件）；2) 在当前项目的 .claude/skills/codeman/ 目录下创建并保存这些文件（目录不存在就先创建）；3) 确认 SKILL.md 已就位，并简要告诉我这个 Skill 的用途和怎么触发使用。仓库地址：https://github.com/ark0n/codeman",
+    "translatedAt": "2026-11-27T09:07:16.731Z",
+    "backTranslationDiff": 0.11111111111111116
   },
   "pliablepixels/gap-trap": {
     "sourceHash": "32f142140be29fd5",
@@ -9366,18 +9366,18 @@
     "backTranslationDiff": 0.3846153846153846
   },
   "phuryn/product-engineering": {
-    "sourceHash": "767213a2df99634f",
-    "chineseDescription": "这套 skill 包含 47 个 agent skills（智能体技能），来自三个已上线产品的实战经验：帮你决定做什么、用 Claude Code 或 Codex 动手做、再让第二个模型来审查、最后发布上线。",
-    "prompt": "请帮我安装 product-engineering 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone https://github.com/phuryn/product-engineering 或直接下载 zip 包）；2) 在当前项目的 .claude/skills/product-engineering/ 目录下创建文件夹（如果不存在就先 mkdir -p）；3) 把仓库里的所有 skill 文件复制到该目录中；4) 复制完成后列出安装好的文件清单，确认安装成功。",
-    "translatedAt": "2026-11-26T08:54:43.141Z",
+    "sourceHash": "179737c7c0b9e6b3",
+    "chineseDescription": "这套 skill 包含 38 个 agent skill（智能体技能），来自三个已上线产品的实战经验：帮你决定做什么、用 Claude Code 或 Codex 把它做出来、再让第二个模型来审查、最后发布上线。",
+    "prompt": "请帮我安装 product-engineering 这个 skill 包。步骤：1) 从 GitHub 仓库 https://github.com/phuryn/product-engineering 下载全部文件（可以用 git clone 或直接下载 zip 解压）；2) 在项目里创建目录 .claude/skills/product-engineering/；3) 把下载到的 skill 文件（包括 SKILL.md 和各子技能目录）全部放到该目录下；4) 确认目录结构正确后告诉我安装完成，并列出安装好的 skill 清单。仓库地址是 https://github.com/phuryn/product-engineering ，请自行下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-27T09:07:08.805Z",
     "backTranslationDiff": 0.15000000000000002
   },
   "innei/ryugi": {
-    "sourceHash": "583bda0183711216",
-    "chineseDescription": "Ryugi（读音 ryoo-ghee）——给编码 Agent 用的交互式产物（Interactive Artifacts）：包括 mockup 画板、设计文档、白板、HTML 实验台和验证报告，你可以在上面直接写评论，每条评论都会回传给 Agent。",
-    "prompt": "请帮我安装 ryugi 这个 Claude Code Skill。步骤：1. 从 GitHub 仓库 https://github.com/innei/ryugi 下载全部文件（可以用 git clone https://github.com/innei/ryugi 或直接下载压缩包）；2. 在项目里创建目录 .claude/skills/ryugi/；3. 把仓库里的文件复制到该目录下，确保 SKILL.md 位于 .claude/skills/ryugi/SKILL.md；4. 安装完成后告诉我这个 Skill 怎么用。",
-    "translatedAt": "2026-11-23T08:12:08.387Z",
-    "backTranslationDiff": 0.33333333333333337
+    "sourceHash": "2613669aa8f07460",
+    "chineseDescription": "Artideck —— 给编码 agent（智能体）用的 Artifacts（产出物），目的是和你一起做决定。你的 agent 会画 artboard（画板）、design doc（设计文档）、whiteboard（白板）、deck（演示文稿）和 verify report（验证报告）；你在页面上挑选、评论，然后直接通过。",
+    "prompt": "请帮我安装 artideck 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/innei/ryugi 下载该 skill 的全部文件；2) 在项目里创建目录 .claude/skills/ryugi/；3) 把下载的文件保存到该目录下（保留原有目录结构，比如 SKILL.md 等）；4) 安装完成后告诉我文件清单和怎么用。",
+    "translatedAt": "2026-11-27T09:07:05.125Z",
+    "backTranslationDiff": 0.30434782608695654
   },
   "devsemih/appstore-review-skill": {
     "sourceHash": "1963f775963cdff3",
@@ -9653,11 +9653,11 @@
     "backTranslationDiff": 0.29032258064516125
   },
   "erkamyaman/rust-anything": {
-    "sourceHash": "c7cef7e97c54480f",
-    "chineseDescription": "把整个应用一块一块地用 Rust 重写，每一步都拿原版录下来的行为做对照校验。支持 TypeScript、Python、C、Go、Ruby 和 Java 写的 CLI、HTTP 服务器和库。",
-    "prompt": "帮我安装 rust-anything 这个 Skill。请你去 GitHub 仓库 https://github.com/erkamyaman/rust-anything 下载它的文件，保存到 .claude/skills/rust-anything/ 目录下，完成安装。装好后告诉我怎么用。",
-    "translatedAt": "2026-11-21T07:39:28.935Z",
-    "backTranslationDiff": 0.4285714285714286
+    "sourceHash": "281aa68b240556a9",
+    "chineseDescription": "把现有应用一块一块地重写成 Rust（Rust），每一步都跟原版对照验证。支持 TypeScript、JavaScript、Python、Go、Ruby、Java、C、PHP、C#、Kotlin 和 PowerShell。",
+    "prompt": "请帮我安装 rust-anything 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/erkamyaman/rust-anything 下载全部文件（可以用 git clone https://github.com/erkamyaman/rust-anything 或直接抓取仓库内容）；2) 在项目根目录创建 .claude/skills/rust-anything/ 目录；3) 把下载到的 Skill 文件（包括 SKILL.md 及所有相关文件）放到该目录下；4) 确认目录结构正确后告诉我安装完成，并简要说明怎么用。",
+    "translatedAt": "2026-11-27T09:07:23.026Z",
+    "backTranslationDiff": 0.4
   },
   "mankidev/antialgorithm": {
     "sourceHash": "ba196a5c24abeabe",
@@ -9805,5 +9805,33 @@
     "prompt": "请帮我安装 postiz-content-skills 这个 Claude Code 技能。步骤：1) 从 GitHub 仓库 https://github.com/gitroomhq/postiz-content-skills 下载全部文件（可以直接 git clone 或下载 zip 解压）；2) 在项目根目录创建 .claude/skills/postiz-content-skills/ 目录；3) 把下载的文件放到该目录下，确保 SKILL.md 等技能文件位于 .claude/skills/postiz-content-skills/ 根层级；4) 安装完成后列出目录内容确认安装成功，并告诉我这个技能怎么用。",
     "translatedAt": "2026-11-26T08:55:23.939Z",
     "backTranslationDiff": 0.33333333333333337
+  },
+  "mjmirza/app-store-compliance": {
+    "sourceHash": "fe67380e555e7579",
+    "chineseDescription": "帮你避开 App Store 和 Google Play 常见的审核拒绝。提供开放的操作手册（playbook）和提交前检查（pre-submission guard），收录了 125 个有据可查的拒绝案例及对应修复方法；包含隐私清单（privacy manifest）和 Data safety 检查；跟踪 117 个合规截止日期（欧盟 AI Act、DSA、COPPA、年龄相关法律）；还附带一个给 AI 编程代理（AI coding agents）用的 skill。",
+    "prompt": "请帮我安装 app-store-compliance 这个 skill。请从 GitHub 仓库 https://github.com/mjmirza/app-store-compliance 下载全部文件，保存到 .claude/skills/app-store-compliance/ 目录下，完成安装。如果目录不存在就创建它，安装完后告诉我装了哪些文件。",
+    "translatedAt": "2026-11-27T09:07:26.810Z",
+    "backTranslationDiff": 0.2068965517241379
+  },
+  "innei/artideck": {
+    "sourceHash": "2613669aa8f07460",
+    "chineseDescription": "Artideck —— 给编码 agent（智能体）用的 Artifacts（可视化产出物），目的是跟你一起做决定。你的 agent 会画出画板（artboard）、设计文档、白板、演示文稿（deck）和验证报告；你直接在页面上挑选、评论、通过。",
+    "prompt": "请帮我安装 artideck 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/innei/artideck 下载该 skill 的全部文件（如果仓库里有 SKILL.md 或类似说明文件，以它为准）；2) 把文件保存到 .claude/skills/artideck/ 目录下（如果目录不存在就创建）；3) 安装完成后告诉我装了哪些文件，以及怎么使用。仓库地址是 https://github.com/innei/artideck ，请直接去下载，不要假设我已经装好了。",
+    "translatedAt": "2026-11-27T09:07:30.895Z",
+    "backTranslationDiff": 0.30434782608695654
+  },
+  "123zhaozheng/slideforge": {
+    "sourceHash": "8df0746e5f71925a",
+    "chineseDescription": "把文档、想法或者那种扁平、没法编辑的 AI 生成幻灯片，转成 100% 原生可编辑的 PowerPoint（.pptx）演示文稿。做法是先用 AI 分批生成组件图（component sheets），再通过 OOXML 分层重建（layered reconstruction）拼装成真正的 pptx 文件。",
+    "prompt": "请帮我安装 SlideForge 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/123zhaozheng/slideforge 下载全部文件，保存到 .claude/skills/slideforge/ 目录下完成安装。安装完成后，请检查目录结构是否正确，并告诉我怎么使用它。",
+    "translatedAt": "2026-11-27T09:07:34.287Z",
+    "backTranslationDiff": 0.2222222222222222
+  },
+  "f/family-migration-story": {
+    "sourceHash": "1d8df8c76fcfd9c3",
+    "chineseDescription": "这个 skill 能从家谱（soy ağacı）生成家族历史报告，并制作带土耳其语配音的迁徙地图视频。技术术语保留：skill、Claude Code、GitHub。",
+    "prompt": "请帮我安装 family-migration-story 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/f/family-migration-story 下载全部文件；2) 在项目里创建目录 .claude/skills/family-migration-story/；3) 把下载的文件放进该目录，保持原有目录结构；4) 确认 SKILL.md 等文件到位后告诉我安装完成。如果下载失败，请提示我检查网络或仓库地址。",
+    "translatedAt": "2026-11-27T09:07:37.751Z",
+    "backTranslationDiff": 0.9230769230769231
   }
 }
