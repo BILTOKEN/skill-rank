@@ -8642,6 +8642,30 @@
     "checkedAt": "2026-10-16T04:38:09.573Z"
   },
   {
+    "repo": "fal3/swift-apple-skills",
+    "name": "swift-apple-skills",
+    "description": "Reusable Swift and Apple platform skills for coding agents, with portable installation, tested examples, and design guidance.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "github-copilot",
+      "ios",
+      "iphone-duo",
+      "swift",
+      "swiftui"
+    ],
+    "stars": 20,
+    "lastPush": "2026-11-28T05:53:30Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
+  },
+  {
     "repo": "eniktab/scientific-paper-writer",
     "name": "scientific-paper-writer",
     "description": "Skill for writing scientific papers : fetches live journal guidelines, AI policy & LaTeX template before writing",
@@ -17204,6 +17228,25 @@
     "checkedAt": "2026-11-26T08:29:18.335Z"
   },
   {
+    "repo": "garycaogan/gary-lifecycle-oneshot",
+    "name": "gary-lifecycle-oneshot",
+    "description": "让 Agent 把一种植物或动物的一辈子拍成一个镜头不切的竖屏自然科普片（一镜到底：万物的一生），写稿、配音、关键帧、MiniMax H3 首尾帧出片到剪辑审片一条龙",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub",
+      "short-video"
+    ],
+    "stars": 10,
+    "lastPush": "2026-11-27T08:08:13Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -25574,6 +25617,27 @@
     "checkedAt": "2026-11-27T08:43:21.770Z"
   },
   {
+    "repo": "pro-vibe-coding/pvc-claude-md",
+    "name": "pvc-claude-md",
+    "description": "Claude Code skill that keeps your CLAUDE.md honest. Scores it on 4 pillars, proposes targeted diffs, captures   session learnings, and rotates old lab notes to LABS.md. Apache 2.0.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-md",
+      "pro-vibe-coding",
+      "project-memory"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-27T09:48:11Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -28968,6 +29032,25 @@
     "skillEvidence": "README 提及 Claude Code Skill",
     "source": "GitHub topic: claude-code-skill",
     "checkedAt": "2026-11-27T08:43:21.770Z"
+  },
+  {
+    "repo": "boking234/task-research",
+    "name": "Task-Research",
+    "description": "Claude Code skill that rates task difficulty and researches articles before building",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "prompt-engineering",
+      "prompt-engineering-tool"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-09T01:46:58Z",
+    "pool": "watchlist",
+    "recentActivity": true,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

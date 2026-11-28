@@ -6259,6 +6259,35 @@
     "lastPush": "2026-05-31T05:02:00Z"
   },
   {
+    "repo": "orkas-ai/orkas-videostudio",
+    "name": "Orkas-VideoStudio",
+    "description": "AI video editor for coding agents: Claude Code, Codex or Cursor edits your footage, makes motion graphics, adds narration and captions, and renders a checked MP4. Open-source alternative to Claude Motion, CapCut and Higgsfield. Also built into the Orkas desktop app.",
+    "tags": [
+      "ai-agents",
+      "ai-video",
+      "ai-video-editor",
+      "capcut-alternative",
+      "claude-code",
+      "claude-code-skill",
+      "claude-motion",
+      "coding-agents",
+      "explainer-video",
+      "ffmpeg",
+      "higgsfield-alternative",
+      "hyperframes",
+      "mcp-server",
+      "motion-graphics",
+      "subtitles",
+      "text-to-video",
+      "video-automation",
+      "video-editing",
+      "video-editor",
+      "video-generation"
+    ],
+    "stars": 390,
+    "lastPush": "2026-11-28T05:37:52Z"
+  },
+  {
     "repo": "alonw0/web-asset-generator",
     "name": "web-asset-generator",
     "description": "Claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration.",
@@ -10551,6 +10580,32 @@
     "lastPush": "2026-10-13T06:51:49Z"
   },
   {
+    "repo": "aaryan1524/visualize",
+    "name": "Visualize",
+    "description": "An Agent Skill that turns a one-line request into a step-through visual explanation: a figure checked against a running model, a voice that explains it, and a reader who predicts and practises.",
+    "tags": [
+      "3d",
+      "agent-skill",
+      "agent-skills",
+      "algorithms",
+      "animation",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "data-structures",
+      "education",
+      "explainer",
+      "explorable-explanations",
+      "interactive-learning",
+      "svg",
+      "text-to-speech",
+      "threejs",
+      "visualization"
+    ],
+    "stars": 112,
+    "lastPush": "2026-11-26T05:17:08Z"
+  },
+  {
     "repo": "zaferayan/skills",
     "name": "skills",
     "description": "Expo mobile app development skill for Claude Code",
@@ -13318,6 +13373,21 @@
     ],
     "stars": 58,
     "lastPush": "2026-10-28T14:46:25Z"
+  },
+  {
+    "repo": "trina-app/community-humanizer",
+    "name": "community-humanizer",
+    "description": "A humanizer for Reddit and Clien comments and posts: writes the way each community actually writes. Never posts.",
+    "tags": [
+      "ai-writing",
+      "claude-code",
+      "claude-code-skill",
+      "humanizer",
+      "korean",
+      "reddit"
+    ],
+    "stars": 58,
+    "lastPush": "2026-11-28T05:51:17Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",
@@ -21086,6 +21156,25 @@
     "lastPush": "2026-10-15T22:00:57Z"
   },
   {
+    "repo": "fal3/swift-apple-skills",
+    "name": "swift-apple-skills",
+    "description": "Reusable Swift and Apple platform skills for coding agents, with portable installation, tested examples, and design guidance.",
+    "tags": [
+      "agent-skills",
+      "claude-code-skill",
+      "claude-skills",
+      "codex",
+      "cursor",
+      "github-copilot",
+      "ios",
+      "iphone-duo",
+      "swift",
+      "swiftui"
+    ],
+    "stars": 20,
+    "lastPush": "2026-11-28T05:53:30Z"
+  },
+  {
     "repo": "eniktab/scientific-paper-writer",
     "name": "scientific-paper-writer",
     "description": "Skill for writing scientific papers : fetches live journal guidelines, AI policy & LaTeX template before writing",
@@ -27940,6 +28029,20 @@
     "lastPush": "2026-11-25T17:20:44Z"
   },
   {
+    "repo": "garycaogan/gary-lifecycle-oneshot",
+    "name": "gary-lifecycle-oneshot",
+    "description": "让 Agent 把一种植物或动物的一辈子拍成一个镜头不切的竖屏自然科普片（一镜到底：万物的一生），写稿、配音、关键帧、MiniMax H3 首尾帧出片到剪辑审片一条龙",
+    "tags": [
+      "ai-video",
+      "claude-code-skill",
+      "minimax-h3",
+      "runninghub",
+      "short-video"
+    ],
+    "stars": 10,
+    "lastPush": "2026-11-27T08:08:13Z"
+  },
+  {
     "repo": "diabloidyobane/pereconstruct",
     "name": "PEReconstruct",
     "description": "Recover and statically analyze manually-mapped DLLs whose PE headers are wiped at runtime. Pure-stdlib Python, no driver, no debugger required. Includes a Claude Code skill.",
@@ -34650,6 +34753,22 @@
     "lastPush": "2026-11-26T17:43:52Z"
   },
   {
+    "repo": "pro-vibe-coding/pvc-claude-md",
+    "name": "pvc-claude-md",
+    "description": "Claude Code skill that keeps your CLAUDE.md honest. Scores it on 4 pillars, proposes targeted diffs, captures   session learnings, and rotates old lab notes to LABS.md. Apache 2.0.",
+    "tags": [
+      "claude-code",
+      "claude-code-plugins",
+      "claude-code-skill",
+      "claude-code-skills",
+      "claude-md",
+      "pro-vibe-coding",
+      "project-memory"
+    ],
+    "stars": 4,
+    "lastPush": "2026-11-27T09:48:11Z"
+  },
+  {
     "repo": "yslab-ai/manuscript-writing",
     "name": "manuscript-writing",
     "description": "Installable SKILL.md skill for academic manuscript revision and review with citation, evidence, and clarity checks.",
@@ -37384,6 +37503,20 @@
     ],
     "stars": 3,
     "lastPush": "2026-11-27T06:48:54Z"
+  },
+  {
+    "repo": "boking234/task-research",
+    "name": "Task-Research",
+    "description": "Claude Code skill that rates task difficulty and researches articles before building",
+    "tags": [
+      "claude-code",
+      "claude-code-plugin",
+      "claude-code-skill",
+      "prompt-engineering",
+      "prompt-engineering-tool"
+    ],
+    "stars": 3,
+    "lastPush": "2026-11-09T01:46:58Z"
   },
   {
     "repo": "teemoweng/lark-video2note",

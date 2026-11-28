@@ -4872,11 +4872,11 @@
     "backTranslationDiff": 0.5
   },
   "mykpono/ultimate-seo-geo": {
-    "sourceHash": "11c6d5591fb59082",
-    "chineseDescription": "Claude 的终极 SEO + GEO 技能。包含完整的网站审计（带评分结果）、AI 搜索优化（适配 Google AI Overviews、ChatGPT、Perplexity）、Schema 生成、E-E-A-T 评估以及 20 个诊断脚本。三种模式：审计 → 规划 → 执行。",
-    "prompt": "请从 https://github.com/mykpono/ultimate-seo-geo 下载该仓库的所有文件，并将它们保存到 .claude/skills/ultimate-seo-geo/ 目录下，完成安装。",
-    "translatedAt": "2026-05-30T11:04:12.476Z",
-    "backTranslationDiff": 0.3846153846153846
+    "sourceHash": "a10a27d85c398db4",
+    "chineseDescription": "给 AI 编程助手用的 SEO + GEO/AEO skill（技能包）：带评分的站点审计、AI 搜索可见性（AI Overviews、AI Mode、ChatGPT、Perplexity）、Schema.org 结构化数据、E-E-A-T 评估，内含 66 个脚本和一个 GitHub Action。支持 Claude Code、Codex、Cursor、Gemini CLI 以及任何使用 AGENTS.md 的工具。",
+    "prompt": "帮我安装一个 Claude Code skill（技能包），名字叫 ultimate-seo-geo。请你自己去 GitHub 仓库 https://github.com/mykpono/ultimate-seo-geo 把文件下载下来，保存到 .claude/skills/ultimate-seo-geo/ 目录里，完成安装。装好后告诉我这个 skill 是干什么的、怎么用。",
+    "translatedAt": "2026-11-28T08:09:07.489Z",
+    "backTranslationDiff": 0.2962962962962963
   },
   "pcx-wave/vibe-skill": {
     "sourceHash": "0e766e4e0dea1cf8",
@@ -9833,5 +9833,33 @@
     "prompt": "请帮我安装 family-migration-story 这个 Claude Code skill。步骤：1) 从 GitHub 仓库 https://github.com/f/family-migration-story 下载全部文件；2) 在项目里创建目录 .claude/skills/family-migration-story/；3) 把下载的文件放进该目录，保持原有目录结构；4) 确认 SKILL.md 等文件到位后告诉我安装完成。如果下载失败，请提示我检查网络或仓库地址。",
     "translatedAt": "2026-11-27T09:07:37.751Z",
     "backTranslationDiff": 0.9230769230769231
+  },
+  "orkas-ai/orkas-videostudio": {
+    "sourceHash": "25ceb1081d0c820a",
+    "chineseDescription": "给编程 agent（Claude Code、Codex 或 Cursor）用的 AI 视频剪辑器（video editor）：让 agent 直接剪你的素材、做动态图形（motion graphics）、加旁白和字幕（captions），最后渲染出一个已校验的 MP4。是 Claude Motion、CapCut 和 Higgsfield 的开源替代品，同时也内置在 Orkas 桌面应用里。",
+    "prompt": "请帮我安装 Orkas-VideoStudio 这个 skill。步骤：1) 从 GitHub 仓库 https://github.com/orkas-ai/orkas-videostudio 下载全部文件（可以直接 git clone https://github.com/orkas-ai/orkas-videostudio 到临时目录，或用 curl 拉取仓库压缩包）；2) 在项目根目录创建 .claude/skills/orkas-videostudio/ 目录；3) 把下载到的文件全部复制进去，确保 SKILL.md 位于 .claude/skills/orkas-videostudio/SKILL.md；4) 检查目录结构并告诉我安装结果。仓库地址是 https://github.com/orkas-ai/orkas-videostudio ，不要假设我已经装过，请自己去下载。",
+    "translatedAt": "2026-11-28T08:09:10.981Z",
+    "backTranslationDiff": 0.3548387096774194
+  },
+  "aaryan1524/visualize": {
+    "sourceHash": "e48cb1ec01163052",
+    "chineseDescription": "这是一个 Agent Skill（智能体技能），能把一句话的需求变成分步骤的可视化讲解：一张对照运行中模型校验过的图、一段讲解它的语音，还有一个会预测和练习的读者角色。",
+    "prompt": "请帮我安装 Visualize 这个 Claude Code Skill。步骤：1) 从 GitHub 仓库 https://github.com/aaryan1524/visualize 下载全部文件（可以用 git clone https://github.com/aaryan1524/visualize 或直接下载 zip）；2) 在项目里创建目录 .claude/skills/visualize/；3) 把下载到的文件放进这个目录，确保 SKILL.md 位于 .claude/skills/visualize/SKILL.md；4) 安装完成后告诉我目录结构和 SKILL.md 的内容摘要，确认安装成功。",
+    "translatedAt": "2026-11-28T08:09:15.211Z",
+    "backTranslationDiff": 0.35
+  },
+  "trina-app/community-humanizer": {
+    "sourceHash": "ddc1de4e5789718c",
+    "chineseDescription": "一个给 Reddit 和 Clien 评论、帖子做「人味化」处理的工具（humanizer）：按照每个社区真实的说话方式来写，但绝不自动发帖。",
+    "prompt": "请帮我安装 community-humanizer 这个 Claude Code Skill。请从 GitHub 仓库 https://github.com/trina-app/community-humanizer 下载该 Skill 的全部文件，保存到 .claude/skills/community-humanizer/ 目录下（如果目录不存在就创建）。安装完成后，确认 SKILL.md 等文件已就位，并告诉我怎么使用它。",
+    "translatedAt": "2026-11-28T08:09:18.610Z",
+    "backTranslationDiff": 0.33333333333333337
+  },
+  "j4flmao/agent-skills": {
+    "sourceHash": "a100b7f084758411",
+    "chineseDescription": "这个仓库提供 587 个经过事实核查的 agent skill（SKILL.md），适用于 Claude Code、Codex、Cursor、Copilot、Gemini、Windsurf、OpenCode 和 Amp。默认安全规则（secure-by-default），带一个技能顾问（skill advisor），包含 78 条 track 和 bundle，支持 BM25 技能路由（skill routing）和离线路由评测（offline routing evals）。用 npx skills add 安装。",
+    "prompt": "帮我安装 agent-skills 这个技能包。请从 GitHub 仓库 https://github.com/j4flmao/agent-skills 下载全部文件，保存到 .claude/skills/agent-skills/ 目录下完成安装。如果目录不存在就先创建，下载完成后告诉我装了多少个 SKILL.md 文件。",
+    "translatedAt": "2026-11-28T08:09:21.796Z",
+    "backTranslationDiff": 0.15384615384615385
   }
 }

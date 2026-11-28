@@ -7889,6 +7889,40 @@
     "checkedAt": "2026-05-31T16:50:29.114Z"
   },
   {
+    "repo": "orkas-ai/orkas-videostudio",
+    "name": "Orkas-VideoStudio",
+    "description": "AI video editor for coding agents: Claude Code, Codex or Cursor edits your footage, makes motion graphics, adds narration and captions, and renders a checked MP4. Open-source alternative to Claude Motion, CapCut and Higgsfield. Also built into the Orkas desktop app.",
+    "tags": [
+      "ai-agents",
+      "ai-video",
+      "ai-video-editor",
+      "capcut-alternative",
+      "claude-code",
+      "claude-code-skill",
+      "claude-motion",
+      "coding-agents",
+      "explainer-video",
+      "ffmpeg",
+      "higgsfield-alternative",
+      "hyperframes",
+      "mcp-server",
+      "motion-graphics",
+      "subtitles",
+      "text-to-video",
+      "video-automation",
+      "video-editing",
+      "video-editor",
+      "video-generation"
+    ],
+    "stars": 390,
+    "lastPush": "2026-11-28T05:37:52Z",
+    "pool": "ranked",
+    "readmeLength": 5726,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
+  },
+  {
     "repo": "alonw0/web-asset-generator",
     "name": "web-asset-generator",
     "description": "Claude skill to generate favicons, app icons, and social media images from logos, text, or emojis. Supports emoji suggestions, validation, and framework auto-integration.",
@@ -13361,6 +13395,37 @@
     "checkedAt": "2026-11-08T06:10:51.274Z"
   },
   {
+    "repo": "aaryan1524/visualize",
+    "name": "Visualize",
+    "description": "An Agent Skill that turns a one-line request into a step-through visual explanation: a figure checked against a running model, a voice that explains it, and a reader who predicts and practises.",
+    "tags": [
+      "3d",
+      "agent-skill",
+      "agent-skills",
+      "algorithms",
+      "animation",
+      "claude-code",
+      "claude-skills",
+      "codex",
+      "data-structures",
+      "education",
+      "explainer",
+      "explorable-explanations",
+      "interactive-learning",
+      "svg",
+      "text-to-speech",
+      "threejs",
+      "visualization"
+    ],
+    "stars": 112,
+    "lastPush": "2026-11-26T05:17:08Z",
+    "pool": "ranked",
+    "readmeLength": 1896,
+    "skillEvidence": "根目录存在 SKILL.md",
+    "source": "GitHub topic: claude-skills",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
+  },
+  {
     "repo": "zaferayan/skills",
     "name": "skills",
     "description": "Expo mobile app development skill for Claude Code",
@@ -16813,6 +16878,26 @@
     "skillEvidence": "根目录存在 SKILL.md",
     "source": "GitHub topic: claude-skills",
     "checkedAt": "2026-11-03T06:55:06.588Z"
+  },
+  {
+    "repo": "trina-app/community-humanizer",
+    "name": "community-humanizer",
+    "description": "A humanizer for Reddit and Clien comments and posts: writes the way each community actually writes. Never posts.",
+    "tags": [
+      "ai-writing",
+      "claude-code",
+      "claude-code-skill",
+      "humanizer",
+      "korean",
+      "reddit"
+    ],
+    "stars": 58,
+    "lastPush": "2026-11-28T05:51:17Z",
+    "pool": "ranked",
+    "readmeLength": 1292,
+    "skillEvidence": "README 提及 Claude Code Skill",
+    "source": "GitHub topic: claude-code-skill",
+    "checkedAt": "2026-11-28T07:56:56.371Z"
   },
   {
     "repo": "akxan/ppt-agent-skill",
